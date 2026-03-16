@@ -1869,14 +1869,14 @@
   </div>
 
   <div id="tds-detail-modal" class="modal">
-    <div class="modal-content">
+    <div class="modal-content" style="max-width: 720px;">
       <div class="modal-header">
-        <h3>TDS/TCS Details</h3>
+        <h3>TDS/TCS — Comprehensive Details</h3>
         <button class="modal-close" onclick="closeModal('tds-detail-modal')">×</button>
       </div>
       <div class="modal-body">
         <div class="modal-section">
-          <div class="modal-section-title">Old Section → New Section</div>
+          <div class="modal-section-title">Section Mapping</div>
           <div class="modal-section-content">
             <strong id="tds-detail-section-mapping"></strong>
           </div>
@@ -1884,29 +1884,40 @@
 
         <div class="modal-section">
           <div class="modal-section-title">Nature of Payment</div>
-          <div id="tds-detail-nature" class="modal-section-content"></div>
+          <div id="tds-detail-nature" class="modal-section-content" style="font-size: var(--text-lg); font-weight: 600;"></div>
         </div>
 
         <div class="modal-section">
-          <div class="modal-section-title">Rate & Threshold</div>
+          <div class="modal-section-title">Rate, Threshold & Payer</div>
           <div class="modal-section-content">
-            <p><strong>Rate:</strong> <span id="tds-detail-rate"></span></p>
-            <p><strong>Threshold:</strong> <span id="tds-detail-threshold"></span></p>
+            <p><strong>Rate of TDS/TCS:</strong> <span id="tds-detail-rate"></span></p>
+            <p><strong>Threshold Limit:</strong> <span id="tds-detail-threshold"></span></p>
+            <p><strong>Applicable To:</strong> <span id="tds-detail-payer"></span></p>
           </div>
         </div>
 
         <div class="modal-section">
-          <div class="modal-section-title">Details</div>
+          <div class="modal-section-title">Detailed Description & Applicability</div>
           <div id="tds-detail-description" class="modal-section-content"></div>
         </div>
 
         <div class="modal-section">
-          <div class="modal-section-title">Practical Implications</div>
+          <div class="modal-section-title">Compliance Requirements</div>
+          <div id="tds-detail-compliance" class="modal-section-content"></div>
+        </div>
+
+        <div class="modal-section">
+          <div class="modal-section-title">Practical Implications for Practitioners</div>
           <div id="tds-detail-implications" class="modal-section-content"></div>
         </div>
 
-        <div class="modal-section" style="background: var(--color-light-purple); padding: var(--spacing-md); border-radius: var(--radius-md); border: 1px solid var(--accent);">
-          <div class="modal-section-title" style="color: var(--color-primary);">In Simple Terms</div>
+        <div class="modal-section">
+          <div class="modal-section-title">Common Mistakes to Avoid</div>
+          <div id="tds-detail-mistakes" class="modal-section-content" style="color: var(--color-error);"></div>
+        </div>
+
+        <div class="modal-section" style="background: var(--color-light-purple); padding: var(--spacing-md); border-radius: var(--radius-sm); border: 1px solid var(--accent);">
+          <div class="modal-section-title" style="color: var(--color-primary);">Interpretation in Simple Words</div>
           <div id="tds-detail-simple" class="modal-section-content"></div>
         </div>
       </div>
@@ -2202,16 +2213,16 @@
       { oldSection: '194BA', nature: 'Online Gaming Winnings', rate: '30%', threshold: 'No limit', payerType: 'any', newSection: '393', details: 'NEW: TDS at 30% on net winnings from online games. No threshold - deducted on every withdrawal.' },
       { oldSection: '194BB', nature: 'Horse Race Winnings', rate: '30%', threshold: '₹10,000', payerType: 'any', newSection: '393', details: 'TDS on aggregate winnings from horse racing during the financial year.' },
       { oldSection: '194C', nature: 'Contractor/Sub-contractor', rate: '1% (Ind/HUF) / 2% (Others)', threshold: '₹30,000 single / ₹1,00,000 aggregate', payerType: 'any', newSection: '393', details: 'TDS on payments to contractors. 1% for individual/HUF, 2% for companies/firms. Dual threshold applies.' },
-      { oldSection: '194D', nature: 'Insurance Commission', rate: '5%', threshold: '₹20,000', payerType: 'resident', newSection: '393', details: 'TDS on insurance commission paid to insurance agents. Rate is 5% for resident payees (2% if payee is a company).' },
-      { oldSection: '194DA', nature: 'Life Insurance Maturity', rate: '5%', threshold: '₹1,00,000', payerType: 'resident', newSection: '393', details: 'TDS on income portion of life insurance payout where policy is not exempt under section 10(10D). Rate is 5%.' },
+      { oldSection: '194D', nature: 'Insurance Commission', rate: '2% (Ind/HUF) / 10% (Company)', threshold: '₹20,000', payerType: 'resident', newSection: '393', details: 'TDS on insurance commission paid to insurance agents. Rate reduced to 2% for individual/HUF payees w.e.f. 01.04.2025 (Finance Act 2025). Rate for company payees is 10%. Threshold of ₹20,000 per financial year.' },
+      { oldSection: '194DA', nature: 'Life Insurance Maturity', rate: '2%', threshold: '₹1,00,000', payerType: 'resident', newSection: '393', details: 'TDS on income portion of life insurance payout where policy is not exempt under section 10(10D). Rate reduced to 2% w.e.f. 01.10.2024 (Finance Act 2024). Applies only to the income component (maturity amount minus total premiums paid).' },
       { oldSection: '194E', nature: 'NR Sportsmen/Entertainers', rate: '20%', threshold: 'No limit', payerType: 'non-resident', newSection: '393', details: 'TDS on payments to non-resident sportsmen or entertainers for performance in India.' },
       { oldSection: '194EE', nature: 'NSS Deposits', rate: '10%', threshold: '₹2,500', payerType: 'any', newSection: '393', details: 'TDS on withdrawal from National Savings Scheme.' },
-      { oldSection: '194G', nature: 'Lottery Ticket Commission', rate: '5%', threshold: '₹15,000', payerType: 'any', newSection: '393', details: 'TDS on commission/remuneration from sale of lottery tickets. Rate is 5%, threshold ₹15,000 per financial year.' },
-      { oldSection: '194H', nature: 'Commission/Brokerage', rate: '5%', threshold: '₹15,000', payerType: 'any', newSection: '393', details: 'TDS on commission or brokerage payments (excluding insurance commission under 194D). Rate is 5%, threshold ₹15,000 per financial year.' },
+      { oldSection: '194G', nature: 'Lottery Ticket Commission', rate: '2%', threshold: '₹20,000', payerType: 'any', newSection: '393', details: 'TDS on commission/remuneration from sale of lottery tickets. Rate reduced to 2% w.e.f. 01.04.2025 (Finance Act 2025). Threshold increased to ₹20,000 per financial year.' },
+      { oldSection: '194H', nature: 'Commission/Brokerage', rate: '2%', threshold: '₹20,000', payerType: 'any', newSection: '393', details: 'TDS on commission or brokerage payments (excluding insurance commission under 194D). Rate reduced to 2% w.e.f. 01.10.2024 (Finance Act 2024). Threshold increased to ₹20,000 per financial year from FY 2025-26.' },
       { oldSection: '194I(a)', nature: 'Rent - Plant & Machinery', rate: '2%', threshold: '₹6,00,000/year', payerType: 'any', newSection: '393', details: 'TDS on rent paid for plant, machinery, or equipment. Annual threshold of ₹6,00,000 (effective from FY 2025-26, raised from ₹2,40,000).' },
       { oldSection: '194I(b)', nature: 'Rent - Land/Building/Furniture', rate: '10%', threshold: '₹6,00,000/year', payerType: 'any', newSection: '393', details: 'TDS on rent for land, building, furniture, or fittings. Annual threshold of ₹6,00,000 (effective from FY 2025-26, raised from ₹2,40,000).' },
       { oldSection: '194IA', nature: 'Transfer of Immovable Property', rate: '1%', threshold: '₹50,00,000', payerType: 'any', newSection: '393', details: 'TDS on sale of immovable property (other than agricultural land) exceeding ₹50 lakhs.' },
-      { oldSection: '194IB', nature: 'Rent by Individual/HUF', rate: '5%', threshold: '₹50,000/month', payerType: 'resident', newSection: '393', details: 'TDS on rent by individual/HUF tenants not covered under 194I (non-audit cases). Rate is 5% on rent exceeding ₹50,000 per month.' },
+      { oldSection: '194IB', nature: 'Rent by Individual/HUF', rate: '2%', threshold: '₹50,000/month', payerType: 'resident', newSection: '393', details: 'TDS on rent by individual/HUF tenants not covered under 194I (non-audit cases). Rate reduced to 2% w.e.f. 01.10.2024 (Finance Act 2024). Applies on rent exceeding ₹50,000 per month. Deducted on last month of tenancy or last month of FY.' },
       { oldSection: '194IC', nature: 'Joint Development Agreement', rate: '10%', threshold: 'No limit', payerType: 'any', newSection: '393', details: 'TDS on consideration under JDA (other than share in kind) paid to individual/HUF landowner.' },
       { oldSection: '194J', nature: 'Professional/Technical Fees', rate: '10% (Prof) / 2% (Tech)', threshold: '₹50,000', payerType: 'any', newSection: '393', details: 'TDS on professional fees at 10%, technical services/royalty/call centre at 2%. Threshold ₹50,000 per annum. Also covers director fees and non-compete payments.' },
       { oldSection: '194K', nature: 'Mutual Fund Income', rate: '10%', threshold: '₹10,000', payerType: 'resident', newSection: '393', details: 'TDS on income distributed by mutual fund units including dividends.' },
@@ -2219,7 +2230,7 @@
       { oldSection: '194LB', nature: 'Infrastructure Debt Fund Interest', rate: '5%', threshold: 'No limit', payerType: 'non-resident', newSection: '393', details: 'TDS on interest from infrastructure debt fund to non-resident/foreign company.' },
       { oldSection: '194LC', nature: 'Foreign Currency Loan Interest', rate: '5% / 4% (IFSC)', threshold: 'No limit', payerType: 'non-resident', newSection: '393', details: 'TDS on interest from foreign currency borrowings. 4% for bonds listed on IFSC exchange.' },
       { oldSection: '194LD', nature: 'Rupee Bond Interest (FII/QFI)', rate: '5%', threshold: 'No limit', payerType: 'non-resident', newSection: '393', details: 'TDS on interest on rupee-denominated bonds paid to FII or Qualified Foreign Investors.' },
-      { oldSection: '194M', nature: 'Payments by Individual/HUF', rate: '5%', threshold: '₹50,00,000', payerType: 'resident', newSection: '393', details: 'TDS by individual/HUF (non-audit) on commission, brokerage, contractual or professional fees exceeding ₹50 lakhs. Rate is 5%.' },
+      { oldSection: '194M', nature: 'Payments by Individual/HUF', rate: '2%', threshold: '₹50,00,000', payerType: 'resident', newSection: '393', details: 'TDS by individual/HUF (non-audit) on commission, brokerage, contractual or professional fees exceeding ₹50 lakhs. Rate reduced to 2% w.e.f. 01.10.2024 (Finance Act 2024). Covers payments not subject to TDS under 194C, 194H, or 194J.' },
       { oldSection: '194N', nature: 'Cash Withdrawal', rate: '2% / 5%', threshold: '₹1,00,00,000 (Co-op: ₹3,00,00,000)', payerType: 'any', newSection: '393', details: 'TDS on cash withdrawal exceeding ₹1 crore (₹3 crore for co-ops). For ITR non-filers: 2% on ₹20L-1Cr, 5% above ₹1Cr.' },
       { oldSection: '194O', nature: 'E-commerce Transactions', rate: '1%', threshold: '₹5,00,000', payerType: 'any', newSection: '393', details: 'TDS by e-commerce operators on payments to e-commerce participants for goods/services sold through platform.' },
       { oldSection: '194P', nature: 'Senior Citizen Pension/Interest', rate: 'Slab Rates', threshold: 'Basic exemption limit', payerType: 'resident', newSection: '393', details: 'Banks deduct TDS for specified senior citizens (75+) who receive pension and interest from same bank only.' },
@@ -2581,14 +2592,22 @@
     }
 
     function showTDSDetails(tdsItem) {
-      document.getElementById('tds-detail-section-mapping').textContent = `Old: Section ${tdsItem.oldSection} → New: Section ${tdsItem.newSection}`;
+      const payerLabels = { 'any': 'Any Person (Individual, HUF, Company, Firm, AOP, etc.)', 'resident': 'Resident Payees Only', 'non-resident': 'Non-Resident / Foreign Company' };
+      document.getElementById('tds-detail-section-mapping').textContent = `Old Act: Section ${tdsItem.oldSection} (Income Tax Act, 1961) → New Act: Section ${tdsItem.newSection} (Income Tax Act, 2025)`;
       document.getElementById('tds-detail-nature').textContent = tdsItem.nature;
       document.getElementById('tds-detail-rate').textContent = tdsItem.rate;
       document.getElementById('tds-detail-threshold').textContent = tdsItem.threshold;
+      document.getElementById('tds-detail-payer').textContent = payerLabels[tdsItem.payerType] || tdsItem.payerType;
       document.getElementById('tds-detail-description').textContent = tdsItem.details;
+
+      const compliance = generateTDSCompliance(tdsItem);
+      document.getElementById('tds-detail-compliance').textContent = compliance;
 
       const implications = generateTDSImplications(tdsItem);
       document.getElementById('tds-detail-implications').textContent = implications;
+
+      const mistakes = generateTDSMistakes(tdsItem);
+      document.getElementById('tds-detail-mistakes').textContent = mistakes;
 
       const simpleText = generateTDSSimpleExplanation(tdsItem);
       document.getElementById('tds-detail-simple').textContent = simpleText;
@@ -2605,11 +2624,11 @@
       if (nature.includes('lottery') || nature.includes('crossword') || nature.includes('card game')) return 'Won a lottery or prize? 30% tax is deducted before you receive the winnings. This is one of the highest TDS rates because winnings are taxed at the maximum rate with no deductions allowed.';
       if (nature.includes('online gaming')) return 'Play online games like rummy, fantasy sports, or poker? If you win, 30% tax is deducted on your net winnings every time you withdraw. There is no minimum threshold — even Rs 100 winnings attract TDS.';
       if (nature.includes('contractor')) return 'When you pay a contractor for work (construction, transport, catering, etc.), you must deduct 1% (for individuals) or 2% (for companies/firms) as TDS. This applies when a single payment exceeds Rs 30,000 OR total payments in a year exceed Rs 1 lakh.';
-      if (nature.includes('rent') && nature.includes('plant')) return 'Renting machinery or equipment for your business? Deduct 2% TDS when monthly rent exceeds Rs 50,000. This ensures the government gets tax revenue from equipment leasing.';
-      if (nature.includes('rent') && (nature.includes('land') || nature.includes('building'))) return 'Paying rent for an office, shop, or warehouse? Deduct 10% TDS when monthly rent exceeds Rs 50,000. If you are an individual/HUF without audit requirement, a lower 2% rate under Section 194IB may apply instead.';
+      if (nature.includes('rent') && nature.includes('plant')) return 'Renting machinery or equipment for your business? Deduct 2% TDS when annual rent exceeds Rs 6 lakh (Rs 50,000 per month). This threshold was increased from Rs 2.4 lakh in FY 2025-26.';
+      if (nature.includes('rent') && (nature.includes('land') || nature.includes('building'))) return 'Paying rent for an office, shop, or warehouse? Deduct 10% TDS when annual rent exceeds Rs 6 lakh (Rs 50,000 per month). If you are an individual/HUF without audit requirement, a lower 2% rate under Section 194IB applies instead (reduced from 5% in 2024).';
       if (nature.includes('immovable property')) return 'Buying a property worth more than Rs 50 lakhs? You must deduct 1% TDS from the payment and deposit it with the government. This applies to both buyers (individuals and companies). Agricultural land is excluded.';
       if (nature.includes('professional') || nature.includes('technical')) return 'Paying a CA, doctor, lawyer, consultant, or IT service provider? Deduct 10% TDS on professional fees and 2% on technical services when payment exceeds Rs 30,000 in a year. Director fees also attract 10% TDS.';
-      if (nature.includes('commission') && !nature.includes('insurance')) return 'Paying commission or brokerage to an agent or broker? Deduct 2% TDS when the amount exceeds Rs 20,000 in a year. This covers real estate brokers, insurance agents, and all types of middlemen.';
+      if (nature.includes('commission') && !nature.includes('insurance') && !nature.includes('lottery')) return 'Paying commission or brokerage to an agent or broker? Deduct 2% TDS when the amount exceeds Rs 20,000 in a year. This covers real estate brokers, stock brokers, and all types of middlemen. The rate was reduced from 5% to 2% in 2024.';
       if (nature.includes('cash withdrawal')) return 'Withdrawing large amounts of cash from your bank? If you withdraw more than Rs 1 crore in a year, the bank deducts 2% TDS. For non-ITR filers, TDS kicks in earlier. This discourages cash transactions.';
       if (nature.includes('e-commerce')) return 'Selling on Amazon, Flipkart, or other e-commerce platforms? The platform deducts 1% TDS from your payment when annual sales exceed Rs 5 lakhs. You claim this TDS credit in your ITR.';
       if (nature.includes('purchase of goods')) return 'Buying goods worth more than Rs 50 lakhs from a seller? You must deduct 0.1% TDS. This is a recent provision to widen the tax net and track large business transactions.';
@@ -2623,15 +2642,72 @@
 
     function generateTDSImplications(tdsItem) {
       const nature = tdsItem.nature.toLowerCase();
-      if (nature.includes('salary')) return 'Employers must deduct salary tax at slab rates. Maintain Form 16 and track monthly TDS.';
-      if (nature.includes('interest')) return 'Banks and financial institutions must deduct TDS on interest payments. Provide TDS certificates to customers.';
-      if (nature.includes('commission')) return 'Deductors must follow the 2% rate strictly and file TDS returns within 7th of following month.';
-      if (nature.includes('rent')) return 'TDS on rent is mandatory above threshold. Both lessor and lessee should be aware of implications.';
-      if (nature.includes('contract')) return 'Contractors should understand dual threshold (₹30,000 single vs ₹1,00,000 aggregate) and plan invoicing accordingly.';
-      if (nature.includes('property')) return 'Real estate transactions attract 1% TDS. Property transfers must account for this deduction.';
-      if (nature.includes('virtual')) return 'NEW provision for 2025-26. Crypto/NFT platforms must implement TDS systems immediately.';
-      if (nature.includes('gaming')) return 'Online gaming platforms must deduct 30% TDS on winnings without threshold. Compliance critical.';
-      return 'Review rate and threshold carefully; ensure advance information to payees for proper tax planning.';
+      if (nature.includes('salary')) return 'Employers must compute tax on estimated salary at applicable slab rates considering declared investments and other income (Form 12BB). Monthly TDS must be deposited by 7th of the following month. Form 16 (Part A from TRACES, Part B prepared by employer) must be issued by 15th June after the financial year. Quarterly return in Form 24Q must be filed. If the employee has income from multiple employers, the current employer must consider previous employer salary and TDS for correct deduction.';
+      if (nature.includes('epf')) return 'The trustees of EPF or the authorised officer must deduct TDS at 10% on premature withdrawals (before 5 years of continuous service) exceeding Rs 50,000. If the employee furnishes Form 15G/15H, no TDS is deducted. If PAN is not furnished, TDS rate increases to 20% under Section 206AA. The provision does not apply to transfers between EPF accounts.';
+      if (nature.includes('interest on securities')) return 'TDS applies to interest on listed/unlisted debentures, government securities, and 8% Savings (Taxable) Bonds. Banks and financial institutions are the primary deductors. Form 15G/15H can be submitted by eligible persons to avoid TDS. Quarterly return in Form 26Q is mandatory. Interest credited to "suspense account" or "interest payable account" also attracts TDS.';
+      if (nature.includes('dividend')) return 'Since FY 2020-21, dividends are taxable in shareholder hands (not DDT regime). Companies and mutual funds must deduct TDS at 10% when aggregate dividend exceeds Rs 10,000 in a financial year. For non-residents, rates may vary as per DTAA provisions. Dividend income must be tracked per shareholder to monitor threshold. Return filing in Form 26Q is mandatory.';
+      if (nature.includes('interest') && !nature.includes('securities') && !nature.includes('infrastructure') && !nature.includes('foreign') && !nature.includes('rupee')) return 'Banks, co-operative societies, post offices, and NBFCs must deduct TDS on interest payments (FD, RD, recurring deposits) exceeding Rs 50,000 per year (Rs 1,00,000 for senior citizens aged 60+). Threshold is computed per branch for banking companies and per institution for others. Form 15G/15H exemptions are available. Interest credited or paid — whichever is earlier — triggers TDS. Accrued interest on transfer of deposits also covered.';
+      if (nature.includes('lottery') || nature.includes('crossword') || nature.includes('card game')) return 'TDS at 30% (plus applicable surcharge and cess, making effective rate ~31.2%) must be deducted at the time of payment. No deduction for expenses is allowed against such winnings. If the prize is in kind, the payer must ensure tax is paid before releasing the prize. For card games and gambling, the person responsible for paying must deduct TDS on each winning event exceeding Rs 10,000.';
+      if (nature.includes('online gaming')) return 'Introduced from 01.04.2023 — online gaming intermediaries must deduct TDS at 30% on net winnings (deposits minus withdrawals) at the time of withdrawal or at the end of the financial year, whichever is earlier. No threshold applies — even Rs 1 of net winnings attracts TDS. Platforms must maintain individual user accounts with deposit and withdrawal records. This is one of the most compliance-heavy TDS provisions for digital businesses.';
+      if (nature.includes('horse race')) return 'TDS at 30% applies on aggregate winnings from horse racing during the financial year exceeding Rs 10,000. The bookmaker or the person responsible for paying is the deductor. Winnings include both cash prizes and prizes in kind. If paid in kind, the winner must pay tax before receiving the prize.';
+      if (nature.includes('contractor')) return 'One of the most commonly applied TDS provisions. The dual threshold is critical: Single payment exceeding Rs 30,000 OR aggregate payments during the FY exceeding Rs 1,00,000 — both trigger TDS. Rate: 1% for individual/HUF contractors, 2% for companies/firms. Covers: construction, catering, transport, advertising, broadcasting, and any work contract. Sub-contractor payments also attract TDS. Important: transport contractors (owning 10+ goods carriages) with PAN — NIL TDS under Section 194C(6).';
+      if (nature.includes('insurance commission')) return 'Insurance companies must deduct TDS at 5% on commission/remuneration paid to insurance agents (individual agents and corporate agents). Threshold: Rs 20,000 per financial year. Rate for company payees: 2%. The commission includes first-year commission, renewal commission, and bonus/incentive payments. Form 16A must be issued to agents.';
+      if (nature.includes('life insurance maturity')) return 'TDS at 5% applies on the income component (maturity proceeds minus total premiums paid) of life insurance policies where the proceeds are not exempt under Section 10(10D). Policies issued after 01.04.2023 with annual premium exceeding Rs 5 lakh (aggregate across all policies) are not exempt and attract this TDS. The insurer computes the income component and deducts TDS accordingly.';
+      if (nature.includes('nss')) return 'Any person responsible for paying deposits under the National Savings Scheme must deduct TDS at 10% if the amount exceeds Rs 2,500. This is an older provision with a very low threshold, applicable to NSS 1987 scheme withdrawals.';
+      if (nature.includes('lottery ticket commission')) return 'Persons paying commission or remuneration for sale of lottery tickets must deduct TDS at 2% (reduced from 5% w.e.f. FY 2025-26) when the amount exceeds Rs 20,000 per financial year (threshold increased from Rs 15,000). This covers stocking agents, selling agents, and distributors of lottery tickets. The provision ensures tax collection from the lottery distribution chain.';
+      if (nature.includes('commission') && !nature.includes('insurance') && !nature.includes('lottery')) return 'TDS at 5% on commission or brokerage payments exceeding Rs 15,000 per financial year. Covers: real estate brokers, stock brokers, insurance brokers (not covered under 194D), travel agents, and any intermediary earning commission. Key exclusion: insurance commission (covered under 194D) and lottery commission (covered under 194G). The deductor must issue Form 16A. Payment by banking companies as commission to correspondents is covered.';
+      if (nature.includes('rent') && nature.includes('plant')) return 'TDS at 2% on rent paid for plant, machinery, or equipment when annual rent exceeds Rs 6,00,000 (threshold increased from Rs 2,40,000 w.e.f. FY 2025-26). This covers factory equipment leases, machinery hire charges, and equipment rental. The deductor must file quarterly return in Form 26Q. If the payee is a non-resident, Section 195 provisions (withholding on payments to non-residents) may apply instead.';
+      if (nature.includes('rent') && (nature.includes('land') || nature.includes('building'))) return 'TDS at 10% on rent for land, building, furniture, or fittings when annual rent exceeds Rs 6,00,000 (threshold increased from Rs 2,40,000 w.e.f. FY 2025-26). Covers: office rent, warehouse rent, shop rent, godown rent, and residential property rent paid by businesses. Both the person paying and the person receiving rent must have TAN. For individual/HUF tenants without audit requirement, Section 194IB (5% TDS) applies instead of 194I.';
+      if (nature.includes('immovable property')) return 'TDS at 1% on consideration for transfer of immovable property (land, building, or both) where the sale consideration or stamp duty value exceeds Rs 50 lakh. The buyer (transferee) is the deductor and must obtain TAN. TDS must be deposited within 30 days from the end of the month using Form 26QB. Agricultural land is excluded. If there are multiple buyers/sellers, each buyer must deduct and deposit TDS on their share of payment.';
+      if (nature.includes('rent by individual')) return 'For individual/HUF tenants NOT subject to tax audit, TDS at 5% on monthly rent exceeding Rs 50,000. Unlike Section 194I, the tenant does not need TAN — they deposit TDS using Form 26QC and issue Form 16C to the landlord. The tenant deducts TDS on the last month of the tenancy or the last month of the FY, whichever is earlier. This covers residential and commercial property rent.';
+      if (nature.includes('joint development')) return 'TDS at 10% on monetary consideration (not the share of property in kind) under a Joint Development Agreement paid to the individual/HUF landowner. The developer is the deductor. This provision was introduced to tax JDA transactions at the point of payment rather than at the point of completion. No threshold — TDS applies from the first rupee of monetary consideration.';
+      if (nature.includes('professional') || nature.includes('technical')) return 'Dual-rate structure: 10% on professional fees (CAs, lawyers, doctors, consultants, architects, engineers) and 2% on technical services, royalty, and call centre payments. Threshold increased to Rs 50,000 per annum per payee from FY 2025-26 (previously Rs 30,000). Also covers: director sitting fees/commission (10% without threshold), non-compete fees, and payments for sharing of know-how. Key distinction: "professional services" (10%) vs "technical services" (2%) — courts have extensively litigated this boundary. FTS under DTAA may offer lower rates for non-residents.';
+      if (nature.includes('mutual fund')) return 'TDS at 10% on income (including dividend) distributed by mutual fund units when payment exceeds Rs 10,000 per financial year. The mutual fund or AMC is the deductor. This applies to both equity and debt fund distributions. Capital gains on redemption are NOT covered here — they are subject to capital gains tax provisions separately. The provision was introduced when the DDT regime was abolished for mutual funds.';
+      if (nature.includes('compulsory acquisition')) return 'TDS at 10% on compensation paid for compulsory acquisition of immovable property (land or building) exceeding Rs 5,00,000. The government or authority acquiring the property is the deductor. Enhanced compensation awarded by courts also attracts TDS. Compensation for rural agricultural land (defined in Explanation to Section 2(14)) is excluded as it is not a capital asset.';
+      if (nature.includes('infrastructure debt fund')) return 'Concessional TDS rate of 5% on interest paid by an Infrastructure Debt Fund (notified by Central Government) to non-resident or foreign company investors. No threshold — applies from the first rupee. The lower rate incentivises foreign investment in Indian infrastructure. DTAA provisions may further reduce the rate. The fund must be set up in accordance with RBI/SEBI guidelines.';
+      if (nature.includes('foreign currency loan')) return 'TDS at 5% on interest from foreign currency loans (ECB) taken from non-residents, with a reduced rate of 4% for bonds listed on IFSC exchange. This concessional rate incentivises foreign borrowing for Indian companies. The borrower is the deductor. DTAA provisions may reduce the rate further. RBI ECB guidelines must be complied with for the concessional rate to apply.';
+      if (nature.includes('rupee bond')) return 'TDS at 5% on interest payable on rupee-denominated bonds (Masala Bonds) to Foreign Institutional Investors (FIIs) or Qualified Foreign Investors (QFIs). No threshold. This concessional rate promotes Indian rupee-denominated borrowing in international markets. The issuer of the bond is the deductor. DTAA provisions may further reduce the applicable rate.';
+      if (nature.includes('payments by individual')) return 'TDS at 5% by individuals/HUFs (not subject to tax audit) on commission, brokerage, contractual, or professional fee payments exceeding Rs 50 lakh in a financial year. This bridges the gap where high-value payments by non-audit taxpayers were escaping TDS. The deductor uses Form 26QD for payment and issues Form 16D. Does not apply if the payment is already covered under other TDS provisions.';
+      if (nature.includes('cash withdrawal')) return 'Banks/post offices/co-operative societies deduct TDS at 2% on cash withdrawals exceeding Rs 1 crore (Rs 3 crore for co-operative societies) in a financial year. For persons who have not filed ITR for the preceding 3 years: 2% on withdrawals between Rs 20 lakh and Rs 1 crore, and 5% above Rs 1 crore. This provision discourages large cash transactions and promotes digital payments. The threshold is calculated per bank, not per account.';
+      if (nature.includes('e-commerce')) return 'E-commerce operators (Amazon, Flipkart, Swiggy, Zomato, etc.) must deduct TDS at 1% on gross amount of sale of goods or provision of services facilitated through their platform, when annual payments to a participant exceed Rs 5 lakh. The operator is the deductor and must file quarterly returns. Individual/HUF sellers with annual sales below Rs 5 lakh on the platform are excluded. The provision does not apply to the e-commerce operator\'s own sales.';
+      if (nature.includes('senior citizen pension')) return 'Specified banks deduct TDS for senior citizens aged 75+ who receive ONLY pension and interest income from the same bank. The bank computes total tax liability and deducts TDS accordingly, eliminating the need for the senior citizen to file ITR. Conditions: only pension income + interest income from the same bank; no other source of income. The senior citizen must furnish a declaration (Form 12BBA) to the bank.';
+      if (nature.includes('purchase of goods')) return 'Buyers whose total sales/gross receipts exceed Rs 10 crore in the preceding FY must deduct TDS at 0.1% on purchase of goods from resident sellers when aggregate purchases exceed Rs 50 lakh. Does not apply if the seller is subject to TCS under Section 206C(1H) — but note that 206C(1H) has been REMOVED from 01.04.2025, so 194Q now applies more broadly. The buyer must issue Form 16A. Non-resident sellers are excluded.';
+      if (nature.includes('benefits') || nature.includes('perquisites to business')) return 'TDS at 10% on benefits or perquisites (in cash or in kind) provided to a resident in the course of business or profession, when aggregate value exceeds Rs 20,000 in a financial year. Covers: gifts, free trips, electronic items, incentive tours provided by companies to dealers/distributors/channel partners. Does NOT cover salary perquisites (which are covered under Section 192). If benefit is in kind, the provider must ensure tax deposit before or at the time of providing the benefit.';
+      if (nature.includes('virtual digital') || nature.includes('crypto')) return 'TDS at 1% on consideration for transfer of Virtual Digital Assets (VDA) — Bitcoin, Ethereum, NFTs, and other crypto assets. Threshold: Rs 10,000 per year (Rs 50,000 for specified persons i.e., individual/HUF without business income). The transferee (buyer) is the deductor. Crypto exchanges/platforms deduct TDS automatically on trades. NO deduction for any expense (other than cost of acquisition) is allowed against VDA income. Loss from VDA cannot be set off against any other income.';
+      if (nature.includes('partner')) return 'NEW from 01.04.2025: Firms (including LLPs) must deduct TDS at 10% on salary, remuneration, commission, bonus, or interest paid/credited to partners when aggregate exceeds Rs 20,000 in a FY. This is a significant new compliance for all partnership firms and LLPs. The firm is the deductor and must obtain TAN if not already obtained. Form 26Q must be filed quarterly. Partners must include this TDS credit in their ITR.';
+      if (nature.includes('sportsmen') || nature.includes('entertainers')) return 'TDS at 20% on income paid to non-resident sportsmen or sports associations for performance in India, or non-resident entertainers. No threshold — applies from the first rupee. The person making the payment is the deductor. DTAA provisions may reduce the rate. If the sportsman/entertainer is employed by a non-resident entity, the payment to that entity also attracts this TDS.';
+      if (nature.includes('foreign remittance') || nature.includes('tour')) return 'TCS at 5% on foreign remittance under LRS exceeding Rs 10 lakh per financial year (20% for purposes other than education or medical treatment). For overseas tour packages: 5% TCS from the first rupee. Education-related remittances funded from educational loan attract only 0.5% TCS. The authorised dealer (bank) or tour operator is the collector. The collectee can claim credit for TCS in their ITR.';
+      if (nature.includes('scrap') || nature.includes('mineral') || nature.includes('forest')) return 'TCS collected by the seller on sale of specified goods: scrap (1%), timber obtained under forest lease (2.5%), timber obtained by any other mode (2.5%), tendu leaves (5%), and any other forest produce (2.5%). The seller collects TCS from the buyer at the time of receipt of consideration. Mining and manufacturing companies are frequently subject to TCS audits for these items.';
+      if (nature.includes('sale of goods') && nature.includes('removed')) return 'Section 206C(1H) for TCS on sale of goods has been REMOVED with effect from 01.04.2025 by the Finance Act 2025. Earlier, sellers with turnover exceeding Rs 10 crore had to collect TCS at 0.1% from buyers on sales exceeding Rs 50 lakh. This removal simplifies compliance — now only the buyer-side TDS under Section 194Q applies for such transactions.';
+      return 'The deductor/collector must ensure timely deposit of TDS/TCS (by 7th of the following month, except for March where it is 30th April). Quarterly returns must be filed in the prescribed forms. TDS/TCS certificates must be issued to the deductee/collectee within the prescribed timelines. Non-compliance attracts interest (1% per month for late deduction, 1.5% per month for late deposit) and penalty. Review the specific rate and threshold carefully for correct compliance.';
+    }
+
+    function generateTDSCompliance(tdsItem) {
+      const nature = tdsItem.nature.toLowerCase();
+      const isTCS = tdsItem.newSection === '394' || tdsItem.newSection === 'Omitted';
+      const baseCompliance = isTCS
+        ? 'TCS Return: Form 27EQ (quarterly). Certificate: Form 27D to the buyer. Due dates — deposit by 7th of following month (30th April for March). Return filing: 15 days from quarter end.'
+        : 'TDS Return: Form 24Q (salary) or Form 26Q (non-salary) — quarterly. Certificate: Form 16 (salary) or Form 16A (non-salary). Due dates — deposit by 7th of following month (30th April for March). Return filing: by end of month following the quarter.';
+
+      if (nature.includes('salary')) return 'Return Form: 24Q (quarterly). Certificate: Form 16 (annual, by 15 June). Employee declaration: Form 12BB for investment proofs. Monthly TDS deposit by 7th. Annual salary statement to TRACES. Employer must verify PAN and compute tax considering declared investments, HRA, and other exemptions. Revised TDS possible if employee submits revised declaration.';
+      if (nature.includes('immovable property')) return 'Challan-cum-statement: Form 26QB (within 30 days from month-end of deduction). Certificate: Form 16B (within 15 days from due date of Form 26QB). No TAN required — use PAN of buyer for deposit. Payment through NSDL/TIN portal. Both buyer and seller PAN required. If multiple buyers/sellers, each files separate 26QB for their share.';
+      if (nature.includes('rent by individual')) return 'Challan-cum-statement: Form 26QC (within 30 days from month-end of deduction). Certificate: Form 16C (within 15 days from due date of 26QC). No TAN required — use PAN of tenant. Payment through TIN-NSDL portal. TDS deducted on last month of tenancy or last month of FY.';
+      if (nature.includes('e-commerce')) return 'Return Form: Form 26Q (quarterly). Certificate: Form 16A. E-commerce operator must obtain TAN. Transaction-level reporting required for each participant seller. Annual information statement to income tax department. Platform must maintain detailed records of gross amounts paid to each participant.';
+      return baseCompliance;
+    }
+
+    function generateTDSMistakes(tdsItem) {
+      const nature = tdsItem.nature.toLowerCase();
+      if (nature.includes('salary')) return 'Common mistakes: (1) Not considering all perquisites (car, housing, ESOP) in TDS computation. (2) Allowing deductions under both old and new regime simultaneously. (3) Not revising TDS when employee switches regime mid-year. (4) Ignoring employer NPS contribution limit (14% Central Govt / 10% others). (5) Not collecting Form 12BB proofs before allowing deductions.';
+      if (nature.includes('contractor')) return 'Common mistakes: (1) Ignoring aggregate threshold of Rs 1,00,000 — each payment below Rs 30,000 does not mean no TDS. (2) Applying 2% rate to individual contractors (should be 1%). (3) Not deducting TDS on GST-inclusive amount (TDS on total invoice including GST). (4) Treating labour supply as contract — incorrect section application. (5) Not issuing Form 16A to contractors.';
+      if (nature.includes('professional') || nature.includes('technical')) return 'Common mistakes: (1) Confusing professional fees (10%) with technical services (2%). (2) Not deducting TDS on director sitting fees (no threshold for directors). (3) Applying threshold of Rs 30,000 per transaction instead of per annum. (4) Not deducting TDS on reimbursement of expenses when they form part of the fee. (5) Missing TDS on payments to hospitals and medical practitioners.';
+      if (nature.includes('rent') && (nature.includes('land') || nature.includes('building') || nature.includes('plant'))) return 'Common mistakes: (1) Using old threshold of Rs 2,40,000 (now Rs 6,00,000 from FY 2025-26). (2) Confusing between 194I (business tenants) and 194IB (individual tenants). (3) Not deducting TDS on advance rent. (4) Applying wrong rate — 2% for plant/machinery vs 10% for land/building. (5) Not deducting TDS when paying rent to co-owners (threshold per property, not per co-owner).';
+      if (nature.includes('immovable property')) return 'Common mistakes: (1) Not considering stamp duty value when it exceeds actual consideration. (2) Missing TDS on joint purchases (each buyer must deduct). (3) Filing Form 26QB late (penalty of Rs 200/day under Section 234E). (4) Forgetting to deduct TDS on installment payments. (5) Not deducting TDS on property exchange/barter transactions where value exceeds Rs 50 lakh.';
+      if (nature.includes('interest') && !nature.includes('securities') && !nature.includes('infrastructure') && !nature.includes('foreign') && !nature.includes('rupee') && !nature.includes('partner')) return 'Common mistakes: (1) Using old threshold of Rs 40,000 instead of Rs 50,000. (2) Not applying higher threshold of Rs 1,00,000 for senior citizens. (3) Ignoring TDS on interest accrued but not paid (credit to account). (4) Accepting Form 15G from persons above the basic exemption limit. (5) Not applying TDS to recurring deposit interest.';
+      if (nature.includes('cash withdrawal')) return 'Common mistakes: (1) Not aggregating withdrawals across all branches of the same bank. (2) Applying non-filer rates without verifying ITR filing status on TRACES. (3) Not deducting TDS on cash withdrawal from overdraft accounts. (4) Ignoring the higher rate of 5% for non-filers above Rs 1 crore.';
+      if (nature.includes('virtual digital') || nature.includes('crypto')) return 'Common mistakes: (1) Not deducting TDS on P2P crypto transactions. (2) Attempting to set off crypto losses against other income (not allowed). (3) Not maintaining proper records of cost of acquisition. (4) Ignoring TDS on crypto-to-crypto trades (not just crypto-to-fiat).';
+      if (nature.includes('partner')) return 'Common mistakes: (1) Not realising this is a NEW provision effective from 01.04.2025 — many firms are unaware. (2) Not obtaining TAN (if the firm did not have TAN earlier). (3) Not deducting TDS on interest on partner capital account. (4) Applying the threshold per payment instead of aggregate per FY (Rs 20,000).';
+      return 'General mistakes to avoid: (1) Not deducting TDS at higher rate of 20% when payee PAN is not available (Section 206AA). (2) Late deposit of TDS — attracts interest at 1.5% per month. (3) Not filing quarterly TDS returns on time (penalty Rs 200/day, up to TDS amount). (4) Not issuing TDS certificates within prescribed time. (5) Incorrect quoting of section code in challan or return.';
     }
 
     // FIX 5 - PROVISION DETAIL MODAL
@@ -2848,93 +2924,234 @@
     function downloadComparisonPDF() {
       const today = new Date();
       const dateStr = today.getDate() + ' ' + ['January','February','March','April','May','June','July','August','September','October','November','December'][today.getMonth()] + ' ' + today.getFullYear();
+      const timeStr = today.toLocaleTimeString('en-IN', {hour:'2-digit', minute:'2-digit'});
 
-      let pdfContent = `
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                         TRANSECT — Across Every Section
-                    SECTION MAPPING — COMPARATIVE ANALYSIS
-                  Income Tax Act, 1961 vs. Income Tax Act, 2025
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+      const categoryLabels = {
+        'preliminary':'Preliminary & Definitions','exemptions':'Exemptions','trusts':'Charitable Trusts & Institutions',
+        'heads-of-income':'Heads of Income','salary':'Income from Salary','house-property':'Income from House Property',
+        'business':'Profits & Gains of Business/Profession','capital-gains':'Capital Gains','other-sources':'Income from Other Sources',
+        'clubbing':'Clubbing of Income','unexplained':'Unexplained Income/Investments','set-off':'Set-off & Carry Forward of Losses',
+        'deductions':'Deductions under Chapter VI-A','rates':'Tax Rates & Rebate','dtaa':'Double Taxation Avoidance',
+        'transfer-pricing':'Transfer Pricing','tds-tcs':'TDS / TCS','assessment':'Assessment & Returns',
+        'interest':'Interest & Late Fees','appeals':'Appeals & Dispute Resolution','penalties':'Penalties',
+        'recovery':'Recovery & Cash Transaction Restrictions'
+      };
 
-Date of Preparation : ${dateStr}
-No. of Sections     : ${state.comparisonArray.length}
-Source              : Govt Gazette (21 Aug 2025), ICAI, incometaxindia.gov.in
-Prepared by         : Finvy | Bharat Quantum Prospera Pvt. Ltd.
+      function generateDetailedAnalysis(item) {
+        const analyses = {
+          'preliminary': 'The preliminary provisions form the backbone of the Income Tax Act. Under the 1961 Act, the concepts of "Previous Year" and "Assessment Year" created a two-year system that caused widespread confusion among taxpayers and practitioners. The 2025 Act introduces the unified "Tax Year" concept, eliminating this duality. Practitioners must note that all references in notices, forms, challans, and returns will shift to "Tax Year" from FY 2026-27. The charging section retains its fundamental character — income earned by every "person" (as defined under the Act) is chargeable to tax. Residential status rules remain substantially unchanged, though the section numbering is reorganised for clarity. The definitions section has been expanded and modernised to address digital economy concepts.',
+          'exemptions': 'The exemption regime has been one of the most contested areas of the 1961 Act, with Section 10 containing over 50 sub-clauses that grew organically over six decades. The 2025 Act reorganises these exemptions into Schedules II through VII, adopting a tabular format. This structural overhaul means practitioners must now cross-reference schedules rather than sub-clauses. Key exemptions like agricultural income (Art. 265 of Constitution), leave travel allowance, gratuity (up to Rs 20 lakh), VRS compensation (up to Rs 5 lakh), and life insurance proceeds (subject to premium conditions) are retained but repositioned. The new Act also rationalises certain exemptions that had become redundant or were being misused. Special attention should be paid to exemptions under Section 10(10D) for insurance policies, as conditions have been tightened for high-value policies issued after 01.04.2023.',
+          'trusts': 'The taxation of charitable trusts and institutions has been significantly streamlined. Under the 1961 Act, the registration process involved multiple sections (12A, 12AB, 12AA) with overlapping timelines and conditions. The 2025 Act consolidates trust registration under a single framework (Section 332). The 85% application of income rule continues — trusts must spend at least 85% of their income on charitable purposes in the year of receipt or the immediately following year. Accumulation beyond 5 years requires specific approval. The prohibited investments and deemed income provisions are retained to prevent misuse of tax-exempt status. Practitioners advising trusts must ensure: (a) timely registration/renewal, (b) compliance with application norms, (c) proper maintenance of books under the specified format, and (d) filing of return within the due date to avoid loss of exemption.',
+          'salary': 'Salary taxation remains one of the most frequently encountered heads. The 2025 Act retains the fundamental structure: salary includes basic pay, allowances (HRA, DA, etc.), perquisites (rent-free accommodation, car benefit, ESOP), and profits in lieu of salary (gratuity, PF, leave encashment). Key numerical thresholds: Standard Deduction of Rs 75,000 (new regime) or Rs 50,000 (old regime), Gratuity exemption up to Rs 20 lakh, Leave encashment on retirement up to Rs 25 lakh, HRA exemption based on the least of three calculations. Employers must recalibrate their payroll systems to reference the new section numbers. Form 16 format is expected to be updated by CBDT. The employer\'s obligation to deduct TDS at source (now Section 393, formerly Section 192) remains, with the requirement to consider other income declared by the employee for proper TDS calculation.',
+          'house-property': 'The computation of income from house property follows a well-established formula that remains intact: Gross Annual Value minus Municipal Taxes equals Net Annual Value, from which a standard deduction of 30% is allowed. Interest on housing loan deduction continues (up to Rs 2 lakh for self-occupied property, no limit for let-out). The 2025 Act retains the provision allowing up to 2 self-occupied properties with NIL annual value. Key practical considerations: (a) deemed let-out provisions apply when more than 2 properties are self-occupied, (b) unrealised rent provisions allow deduction from GAV, (c) arrears of rent are taxable at 30% after standard deduction, (d) pre-construction interest is deductible in 5 equal instalments from the year of completion. Loss from house property can be set off against other heads, subject to the Rs 2 lakh cap per year under both old and new regimes.',
+          'business': 'Business income computation under the 2025 Act preserves the core principles: revenue receipts minus allowable expenditures. The specific deductions (Sections 30-37 under the old Act) are reorganised but substantially retained. Depreciation rates and block asset concepts continue unchanged. Key areas: (a) Presumptive taxation under Sections 44AD (turnover up to Rs 3 crore for digital receipts) and 44ADA (gross receipts up to Rs 75 lakh for professionals) provide simplified compliance, (b) Section 43B requires actual payment for certain expenses (statutory dues, employee benefits) to claim deduction, (c) disallowance of cash payments above Rs 10,000 (Section 40A(3)) continues, (d) MAT and AMT provisions are retained with the new section references. The distinction between business income and speculation income is preserved, with specific treatment for derivatives trading.',
+          'capital-gains': 'This is arguably the MOST SIGNIFICANT change in the 2025 Act. The removal of indexation benefit for transfers after 23 July 2024 fundamentally alters capital gains taxation. Under the new regime: Long-Term Capital Gains (LTCG) is taxed at a flat 12.5% (previously 20% with indexation for most assets). Short-Term Capital Gains (STCG) on listed equity/equity MF is 20% (previously 15%). STCG on other assets remains at slab rates. Holding period classifications: Listed shares — 12 months for LTCG; Unlisted shares — 24 months; Immovable property — 24 months; Other assets — 36 months (reduced to 24 months in many cases). The exemption under Section 54/54F for reinvestment in residential property continues but with revised section numbers. The Rs 1.25 lakh annual exemption for LTCG on listed equity (Section 112A equivalent) is retained. Practitioners must carefully track acquisition dates and costs, especially during the transition period.',
+          'other-sources': 'The residuary head "Income from Other Sources" captures all income not classifiable under the other four heads. Key taxable items: (a) Dividends — now fully taxable at slab rates in the hands of the shareholder (since FY 2020-21), (b) Interest income — from deposits, loans, bonds, (c) Gifts — any sum of money exceeding Rs 50,000 from non-relatives, or property received below fair market value, is taxable, (d) Family pension — taxable as income from other sources with deduction of 1/3 or Rs 15,000 (whichever is less), (e) Winnings from lotteries, puzzles, races, gambling — taxable at special rates (30%) without deductions. Section 56(2)(x) provisions on deemed income from inadequate consideration are retained and reorganised. The 2025 Act clarifies the treatment of cryptocurrency income here where it is not business income.',
+          'clubbing': 'Anti-avoidance provisions on clubbing (aggregation) of income are retained in the 2025 Act. Key clubbing scenarios: (a) Income from assets transferred to spouse without adequate consideration — clubbed in transferor\'s income, (b) Income of minor child — clubbed in parent\'s income (exemption of Rs 1,500 per child), (c) Income from assets transferred to HUF — clubbed in transferor\'s income, (d) Remuneration to spouse from a concern in which the individual has substantial interest — clubbed unless the spouse has professional qualifications. These provisions prevent tax avoidance through income-splitting within family members. The 2025 Act maintains these anti-avoidance measures without substantive changes.',
+          'unexplained': 'The unexplained income provisions are among the most powerful weapons in the taxman\'s arsenal. Sections 68-69B of the 1961 Act (and their equivalents in the 2025 Act) allow the Assessing Officer to treat unexplained cash credits, unexplained investments, unexplained money, and unexplained expenditure as the taxpayer\'s income. CRITICAL CHANGE: The 2025 Act uses "shall" instead of "may" — making addition of unexplained income MANDATORY rather than discretionary. The effective tax rate on unexplained income is approximately 78% (60% tax + 25% surcharge on 60% + 4% cess). No deduction or set-off of any loss is allowed against unexplained income. Practitioners must ensure their clients maintain proper documentation and source evidence for all investments, deposits, and expenditures. During search and survey proceedings, these provisions are frequently invoked.',
+          'set-off': 'The set-off and carry forward provisions determine how losses in one source/head can be offset against income from another. Key rules: (a) Intra-head set-off — loss from one source can be set off against income from another source under the same head (e.g., loss from one house property against income from another), (b) Inter-head set-off — loss from one head can be set off against income from another head, subject to restrictions: house property loss capped at Rs 2 lakh against other heads; capital loss only against capital gains; speculation loss only against speculation profits; business loss cannot be set off against salary income, (c) Carry forward — unabsorbed losses can be carried forward for 8 assessment years (except house property loss — also 8 years). Filing the return within the due date is MANDATORY to carry forward losses (except house property loss and depreciation). Change of shareholding rules under Section 79 apply to closely-held companies.',
+          'deductions': 'Chapter VI-A deductions represent the most popular tax-saving route for individual taxpayers. IMPORTANT: Most deductions are available ONLY under the old tax regime. Under the new regime, only NPS employer contribution (up to 14% of salary by Central Govt, 10% by others) and standard deduction are available. Key deductions under old regime: Section 80C — up to Rs 1.5 lakh (PPF, ELSS, LIC, tuition fees, home loan principal), Section 80CCD(1B) — additional Rs 50,000 for NPS, Section 80D — health insurance premium (Rs 25,000; Rs 50,000 for senior citizens), Section 80E — interest on education loan (no upper limit, up to 8 years), Section 80G — donations to specified funds/institutions (50% or 100% deduction), Section 80TTA/80TTB — savings account interest (Rs 10,000 for 80TTA; Rs 50,000 for senior citizens under 80TTB). The 2025 Act reorganises these provisions with new section numbers but largely preserves the deduction amounts and conditions.',
+          'rates': 'Tax rates and the regime choice are critical for tax planning. The new regime (default from FY 2023-24) offers lower rates but fewer deductions: Nil up to Rs 4 lakh, 5% for Rs 4-8 lakh, 10% for Rs 8-12 lakh, 15% for Rs 12-16 lakh, 20% for Rs 16-20 lakh, 25% for Rs 20-24 lakh, 30% above Rs 24 lakh. REBATE: Under Section 87A (new Section 156), income up to Rs 12 lakh is effectively tax-free due to full rebate of Rs 60,000. Surcharge: 10% (Rs 50L-1Cr), 15% (Rs 1Cr-2Cr), 25% (Rs 2Cr-5Cr), with marginal relief. Health & Education Cess: 4% on tax + surcharge. Old regime has higher rates but allows all deductions. Annual regime comparison is essential for every client.',
+          'dtaa': 'India has Double Tax Avoidance Agreements with 85+ countries. DTAA provisions override domestic law where more beneficial to the assessee (Section 90/91 of the 1961 Act). Key requirements: (a) Tax Residency Certificate (TRC) is MANDATORY for claiming DTAA benefits, (b) Form 10F must be furnished, (c) the taxpayer must be a tax resident of the treaty country. Important concepts: Permanent Establishment (PE) determination, Most Favoured Nation (MFN) clause, Mutual Agreement Procedure (MAP), and the Limitation of Benefits (LOB) article. GAAR provisions (Sections 95-102 of 1961 Act) can override DTAA benefits if the primary purpose of an arrangement is to obtain tax benefit. The 2025 Act retains these provisions with updated section references.',
+          'transfer-pricing': 'Transfer pricing provisions apply to international transactions and specified domestic transactions between associated enterprises. The arm\'s length price (ALP) must be determined using prescribed methods: Comparable Uncontrolled Price (CUP), Resale Price Method, Cost Plus Method, Profit Split Method, Transactional Net Margin Method (TNMM), or any other method prescribed by CBDT. Documentation requirements: (a) Local file — for entities with international transactions exceeding Rs 1 crore, (b) Master File — if consolidated group revenue exceeds Rs 500 crore, (c) Country-by-Country Report (CbCR) — if consolidated group revenue exceeds Rs 5,500 crore. Form 3CEB must be filed one month before the ITR due date. APA (Advance Pricing Agreement) is available for 5 years (extendable to 9 years with rollback). The range concept (35th to 65th percentile) applies when there are 6+ comparable transactions.',
+          'tds-tcs': 'The 2025 Act achieves the most significant consolidation in the TDS/TCS regime. Under the 1961 Act, there were 30+ separate TDS sections (192 through 196D) and multiple TCS provisions under Section 206C. The 2025 Act merges ALL TDS provisions into Section 393 and ALL TCS provisions into Section 394, with rates and thresholds specified in tabular schedules. While the section numbers change dramatically, the underlying rates, thresholds, and compliance requirements remain largely the same. Key practical implications: (a) All software and ERP systems must be updated for new section references, (b) TDS returns (Form 24Q, 26Q, 27Q, 27EQ) will reference Section 393/394, (c) TDS certificates (Form 16, 16A, 16B, 16C) will carry new section references, (d) challan codes may be updated by CBDT, (e) TRACES portal will be reconfigured. The due dates for TDS deposit remain: 7th of following month (30th April for March deductions).',
+          'assessment': 'Assessment procedures under the 2025 Act retain the existing framework with modernisation. ITR filing due dates: 31 July (non-audit individual/HUF), 31 October (audit cases including companies and firms), 30 November (transfer pricing cases). Faceless assessment is now MANDATORY for all scrutiny assessments (except search cases). Key timelines: intimation under Section 143(1) within 9 months from end of FY of filing; scrutiny notice under Section 143(2) within 3 months from end of FY of filing (for returns filed by due date). Reassessment provisions have been tightened — income escaping assessment can be reopened up to 3 years (or 5 years if escaped income exceeds Rs 50 lakh). Updated return provision allows filing within 24 months from end of relevant AY with additional tax of 25-50%.',
+          'interest': 'Interest provisions serve as deterrents for delayed compliance. Section 234A — interest at 1% per month on tax payable for delay in filing ITR (from due date to date of filing). Section 234B — interest at 1% per month for default in advance tax (if advance tax paid is less than 90% of assessed tax). Section 234C — interest at 1% per month for deferment of advance tax instalments (quarterly: 15% by June 15, 45% by Sept 15, 75% by Dec 15, 100% by March 15). Late filing fee under Section 234F: Rs 5,000 (Rs 1,000 if total income does not exceed Rs 5 lakh). All these provisions are retained in the 2025 Act with updated section references. Practitioners should compute advance tax liability quarterly to minimise interest exposure.',
+          'appeals': 'The appellate hierarchy remains: Commissioner of Income Tax (Appeals) [CIT(A)] → Income Tax Appellate Tribunal (ITAT) → High Court (on substantial questions of law) → Supreme Court. Time limits: 30 days for appeal to CIT(A), 60 days for ITAT, 120 days for High Court. Faceless appeals are now standard for CIT(A) level. The Dispute Resolution Scheme and Vivad Se Vishwas mechanisms provide alternative dispute settlement routes. The 2025 Act also retains the Authority for Advance Rulings (AAR) for non-residents and the Board for Advance Rulings. Revision powers of the Commissioner under Sections 263/264 (of the 1961 Act) continue with updated references. ITAT orders are binding on the department unless reversed by a higher court.',
+          'penalties': 'The penalty regime is simplified in the 2025 Act. Key provisions: (a) Under-reporting of income — penalty of 50% of the tax payable on under-reported income, (b) Misreporting of income — penalty of 200% of the tax payable on misreported income. Misreporting includes: misrepresentation or suppression of facts, recording false entries, claiming fictitious expenses, failure to record investments, and claiming expenditure not substantiated. The distinction between under-reporting and misreporting is crucial — the former attracts 50% penalty while the latter attracts 200%. Penalty for failure to furnish return: not specified separately (covered under late fee Section 234F). Penalty for concealment under the old Section 271(1)(c) is replaced with the simplified structure.',
+          'recovery': 'Cash transaction restrictions and recovery provisions are retained. Section 269SS — no person shall accept loan/deposit of Rs 20,000 or more in cash (must use banking channels). Section 269T — repayment of loan/deposit of Rs 20,000 or more must be through banking channels. Penalty for violation: amount equal to the cash transaction. The Tax Recovery Officer (TRO) has powers to attach bank accounts, movable/immovable property, and arrest/detention of the defaulter. The 2025 Act strengthens digital enforcement mechanisms. For practitioners: ensure all client transactions above Rs 20,000 are routed through banking channels. Document all cash transactions with proper explanations.'
+        };
+        return analyses[item.category] || 'This section has been reorganised under the Income Tax Act, 2025 with updated section references. The underlying tax principle and computation methodology remain substantively the same. Practitioners should cross-reference the official gazette notification dated 21 August 2025 for the authoritative text and mapping. It is advisable to maintain a concordance table until the new section references become familiar through regular use.';
+      }
 
-────────────────────────────────────────────────────────────────────────────────
-`;
+      function generateKeyTakeaways(item) {
+        const takeaways = {
+          'preliminary': ['Tax Year replaces Previous Year / Assessment Year from FY 2026-27','All forms, challans, and ITRs will use new terminology','Residential status determination rules remain unchanged','Definition section expanded for digital economy concepts'],
+          'exemptions': ['Exemptions reorganised into Schedules II-VII (tabular format)','Core exemptions (agriculture, gratuity, LTA) retained','High-value insurance policies face stricter conditions','Cross-reference schedules carefully — clause numbers have changed'],
+          'trusts': ['Single registration framework under Section 332','85% application of income rule continues','Prohibited investments lead to deemed income','Timely filing mandatory to retain exempt status'],
+          'salary': ['Standard deduction: Rs 75,000 (new regime) / Rs 50,000 (old regime)','Gratuity exemption: up to Rs 20 lakh','HRA exemption based on least of 3 calculations','Form 16 format expected to be updated'],
+          'house-property': ['30% standard deduction on Net Annual Value retained','Interest on home loan: Rs 2L cap for self-occupied property','Up to 2 self-occupied properties allowed with NIL annual value','Loss from HP set-off capped at Rs 2 lakh per year'],
+          'business': ['Presumptive taxation: Rs 3 Cr (44AD) / Rs 75 L (44ADA)','Section 43B: actual payment required for statutory dues','Cash payment disallowance above Rs 10,000 continues','MAT/AMT provisions retained with new section references'],
+          'capital-gains': ['INDEXATION REMOVED for transfers after 23.07.2024','LTCG flat rate: 12.5% (previously 20% with indexation)','STCG on listed equity: 20% (previously 15%)','Annual exemption of Rs 1.25 lakh on listed equity LTCG retained'],
+          'other-sources': ['Dividends fully taxable at slab rates in shareholder hands','Gifts above Rs 50,000 from non-relatives are taxable','Family pension: deduction of 1/3 or Rs 15,000','Lottery/gambling winnings taxed at 30% flat'],
+          'clubbing': ['Spouse income from concern where you hold substantial interest gets clubbed','Minor child income clubbed (Rs 1,500 exemption per child)','Revocable transfers result in clubbing','No substantive change in clubbing rules under 2025 Act'],
+          'unexplained': ['"Shall" replaces "may" — addition now MANDATORY','Effective tax rate: ~78% on unexplained income','No loss set-off allowed against unexplained income','Maintain proper source documentation for all investments'],
+          'set-off': ['HP loss inter-head set-off capped at Rs 2 lakh','Capital loss only against capital gains','Carry forward: 8 years (file return by due date)','Speculation loss only against speculation income'],
+          'deductions': ['Most deductions available ONLY under old regime','80C: up to Rs 1.5 lakh; 80CCD(1B): additional Rs 50,000','80D: Rs 25,000 (Rs 50,000 for senior citizens)','Compare old vs new regime annually for every client'],
+          'rates': ['New regime default from FY 2023-24','Rebate u/s 87A: income up to Rs 12L effectively tax-free','Surcharge: 10% to 25% based on income slabs','Annual regime comparison essential for each client'],
+          'dtaa': ['TRC mandatory for DTAA benefit claims','DTAA overrides domestic law where more beneficial','GAAR can override DTAA in abuse cases','85+ treaties — check specific treaty provisions'],
+          'transfer-pricing': ['ALP documentation mandatory for international transactions','Master File if group revenue exceeds Rs 500 crore','Form 3CEB due one month before ITR date','Range: 35th to 65th percentile with 6+ comparables'],
+          'tds-tcs': ['30+ TDS sections consolidated into Section 393','TCS consolidated into Section 394','Rates and thresholds remain unchanged','Update all software and compliance processes'],
+          'assessment': ['ITR due dates unchanged: 31 July / 31 October / 30 November','Faceless assessment mandatory for scrutiny','Updated return: within 24 months with 25-50% additional tax','Reassessment: 3 years (5 years if escaped income > Rs 50L)'],
+          'interest': ['234A/B/C: 1% per month interest','Late fee u/s 234F: Rs 5,000 (Rs 1,000 if income ≤ Rs 5L)','Advance tax: quarterly instalments mandatory if tax > Rs 10,000','Compute advance tax quarterly to minimise exposure'],
+          'appeals': ['CIT(A) → ITAT → HC → SC hierarchy retained','Time limits: 30 / 60 / 120 days respectively','Faceless appeals standard at CIT(A) level','ITAT orders binding on department'],
+          'penalties': ['Under-reporting: 50% penalty','Misreporting: 200% penalty','Simplified penalty structure in 2025 Act','Distinction between under-reporting and misreporting is crucial'],
+          'recovery': ['Cash transactions above Rs 20,000 must use banking channels','Penalty = amount of cash transaction','TRO has extensive recovery powers','Document all cash transactions with explanations']
+        };
+        return takeaways[item.category] || ['Review section under both old and new Act','Consult official gazette notification dated 21 August 2025','Update section references in all compliance documents','Seek professional guidance for specific application'];
+      }
 
+      // Build professional HTML PDF
+      let html = `<!DOCTYPE html><html><head><title>Transect — Comparative Analysis Report</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+@media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } .page-break { page-break-before: always; } }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-height: 1.65; color: #1a1a2e; background: #fff; }
+.cover { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(135deg, #08081A 0%, #1a1a4e 50%, #2d1b69 100%); color: #fff; text-align: center; padding: 40px; }
+.cover-logo { font-size: 14pt; font-weight: 800; letter-spacing: 3px; color: #a78bfa; text-transform: uppercase; margin-bottom: 8px; }
+.cover-title { font-size: 28pt; font-weight: 800; margin: 20px 0 8px; letter-spacing: -0.5px; }
+.cover-subtitle { font-size: 14pt; font-weight: 400; color: rgba(255,255,255,0.7); margin-bottom: 30px; }
+.cover-line { width: 80px; height: 3px; background: #7C5CFC; margin: 20px auto; border-radius: 2px; }
+.cover-meta { font-size: 9pt; color: rgba(255,255,255,0.5); margin-top: 40px; line-height: 1.8; }
+.cover-meta strong { color: rgba(255,255,255,0.8); }
+.toc { padding: 30px 0; }
+.toc h2 { font-size: 16pt; font-weight: 700; color: #08081A; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid #7C5CFC; }
+.toc-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dotted #ddd; font-size: 10pt; }
+.toc-item .toc-num { color: #7C5CFC; font-weight: 600; margin-right: 10px; }
+.toc-item .toc-title { flex: 1; }
+.toc-item .toc-sec { color: #666; font-size: 9pt; }
+.section-block { padding: 24px 0; border-bottom: 1px solid #e5e5f0; }
+.section-block:last-child { border-bottom: none; }
+.section-num { font-size: 9pt; font-weight: 700; color: #7C5CFC; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 4px; }
+.section-title { font-size: 14pt; font-weight: 700; color: #08081A; margin-bottom: 12px; }
+.mapping-box { display: flex; gap: 12px; margin-bottom: 16px; }
+.map-card { flex: 1; background: #f8f7ff; border: 1px solid #e5e0ff; border-radius: 8px; padding: 12px 14px; }
+.map-card.new-card { background: #f0fff4; border-color: #c6f6d5; }
+.map-label { font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #7C5CFC; margin-bottom: 4px; }
+.map-card.new-card .map-label { color: #38a169; }
+.map-value { font-size: 13pt; font-weight: 700; color: #1a1a2e; }
+.map-desc { font-size: 9pt; color: #666; margin-top: 4px; }
+.category-badge { display: inline-block; font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; background: rgba(124,92,252,0.1); color: #7C5CFC; padding: 3px 10px; border-radius: 12px; margin-bottom: 12px; }
+.content-heading { font-size: 10pt; font-weight: 700; color: #08081A; text-transform: uppercase; letter-spacing: 0.8px; margin: 16px 0 8px; padding-bottom: 4px; border-bottom: 1px solid #e5e5f0; }
+.content-text { font-size: 10pt; color: #333; line-height: 1.7; text-align: justify; margin-bottom: 8px; }
+.takeaway-box { background: #f8f7ff; border-left: 3px solid #7C5CFC; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
+.takeaway-box h4 { font-size: 9pt; font-weight: 700; color: #7C5CFC; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.takeaway-box ul { list-style: none; padding: 0; }
+.takeaway-box li { font-size: 9.5pt; color: #333; padding: 3px 0; padding-left: 14px; position: relative; }
+.takeaway-box li::before { content: "\\2022"; color: #7C5CFC; font-weight: bold; position: absolute; left: 0; }
+.simple-box { background: linear-gradient(135deg, #f0ecff 0%, #e8e2ff 100%); border: 1px solid #d4ccff; border-radius: 8px; padding: 14px 16px; margin: 14px 0; }
+.simple-box h4 { font-size: 9pt; font-weight: 700; color: #5b3fd4; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.simple-box p { font-size: 10pt; color: #3d3370; line-height: 1.7; }
+.notes-section { padding: 24px 0; }
+.notes-section h2 { font-size: 14pt; font-weight: 700; color: #08081A; margin-bottom: 16px; padding-bottom: 6px; border-bottom: 2px solid #7C5CFC; }
+.note-item { display: flex; gap: 10px; margin-bottom: 12px; }
+.note-num { background: #7C5CFC; color: #fff; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 9pt; font-weight: 700; flex-shrink: 0; margin-top: 2px; }
+.note-text { font-size: 10pt; color: #333; line-height: 1.6; }
+.disclaimer { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 8px; padding: 16px; margin-top: 24px; }
+.disclaimer h4 { font-size: 9pt; font-weight: 700; color: #999; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+.disclaimer p { font-size: 8.5pt; color: #888; line-height: 1.6; }
+.footer-bar { margin-top: 30px; padding-top: 16px; border-top: 2px solid #08081A; display: flex; justify-content: space-between; align-items: center; }
+.footer-brand { font-size: 10pt; font-weight: 700; color: #08081A; }
+.footer-info { font-size: 8pt; color: #888; text-align: right; line-height: 1.6; }
+.content-wrapper { padding: 0 10px; }
+</style></head><body>`;
+
+      // --- COVER PAGE ---
+      html += `<div class="cover">
+  <div class="cover-logo">Finvy | Transect</div>
+  <div class="cover-line"></div>
+  <div class="cover-title">Section Mapping<br>Comparative Analysis</div>
+  <div class="cover-subtitle">Income Tax Act, 1961 vs. Income Tax Act, 2025</div>
+  <div class="cover-line"></div>
+  <div class="cover-meta">
+    <strong>Date of Preparation:</strong> ${dateStr} at ${timeStr}<br>
+    <strong>Sections Covered:</strong> ${state.comparisonArray.length} section${state.comparisonArray.length > 1 ? 's' : ''}<br>
+    <strong>Sources:</strong> Official Gazette of India (21 August 2025), ICAI Publications, incometaxindia.gov.in<br>
+    <strong>Prepared by:</strong> Finvy | Bharat Quantum Prospera Pvt. Ltd.<br>
+    <strong>Contact:</strong> durgesh@bqpartners.in | +91 7801887130
+  </div>
+</div>`;
+
+      // --- TABLE OF CONTENTS ---
+      html += `<div class="page-break"></div><div class="content-wrapper"><div class="toc"><h2>Table of Contents</h2>`;
       state.comparisonArray.forEach((item, idx) => {
+        html += `<div class="toc-item"><span><span class="toc-num">${idx+1}.</span><span class="toc-title">${escapeHtml(item.title)}</span></span><span class="toc-sec">Sec ${item.oldSection} → Sec ${item.newSection}</span></div>`;
+      });
+      html += `</div>`;
+
+      // --- EACH SECTION ---
+      state.comparisonArray.forEach((item, idx) => {
+        if (idx > 0 && idx % 2 === 0) html += `<div class="page-break"></div>`;
         const impact = generatePracticalImpact(item);
-        pdfContent += `
+        const simple = generateSimpleExplanation(item);
+        const detailed = generateDetailedAnalysis(item);
+        const takeaways = generateKeyTakeaways(item);
+        const catLabel = categoryLabels[item.category] || item.category;
 
-${idx + 1}. ${item.title.toUpperCase()}
-────────────────────────────────────────────────────────────────────────────────
+        html += `<div class="section-block">
+  <div class="section-num">Section ${idx+1} of ${state.comparisonArray.length}</div>
+  <div class="section-title">${escapeHtml(item.title)}</div>
+  <span class="category-badge">${catLabel}</span>
 
-   OLD ACT (1961)  :  Section ${item.oldSection}
-   NEW ACT (2025)  :  Section ${item.newSection}
-   Category        :  ${item.category}
+  <div class="mapping-box">
+    <div class="map-card">
+      <div class="map-label">Old Act (1961)</div>
+      <div class="map-value">Section ${escapeHtml(item.oldSection)}</div>
+      <div class="map-desc">${escapeHtml(item.description)}</div>
+    </div>
+    <div class="map-card new-card">
+      <div class="map-label">New Act (2025)</div>
+      <div class="map-value">Section ${escapeHtml(item.newSection)}</div>
+      <div class="map-desc">${escapeHtml(item.title)}</div>
+    </div>
+  </div>
 
-   WHAT THIS SECTION COVERS:
-   ${item.description}
+  <div class="content-heading">What Changed &amp; Detailed Explanation</div>
+  <div class="content-text">${escapeHtml(item.details)}</div>
 
-   DETAILED EXPLANATION:
-   ${item.details}
+  <div class="content-heading">Comprehensive Analysis</div>
+  <div class="content-text">${escapeHtml(detailed)}</div>
 
-   WHAT CHANGED & WHY IT MATTERS:
-   ${impact}
+  <div class="content-heading">Practical Impact for Practitioners</div>
+  <div class="content-text">${escapeHtml(impact)}</div>
 
-   IN SIMPLE TERMS:
-   ${generateSimpleExplanation(item)}
+  <div class="takeaway-box">
+    <h4>Key Takeaways</h4>
+    <ul>${takeaways.map(t => '<li>' + escapeHtml(t) + '</li>').join('')}</ul>
+  </div>
 
-────────────────────────────────────────────────────────────────────────────────`;
+  <div class="simple-box">
+    <h4>Interpretation in Simple Words</h4>
+    <p>${escapeHtml(simple)}</p>
+  </div>
+</div>`;
       });
 
-      pdfContent += `
+      // --- PRACTITIONER NOTES ---
+      html += `<div class="page-break"></div>
+<div class="notes-section">
+  <h2>Important Notes for Practitioners</h2>
+  <div class="note-item"><div class="note-num">1</div><div class="note-text">The Income Tax Act, 2025 takes effect from <strong>1 April 2026</strong>. All new assessments, returns, and proceedings from that date will be governed by the new Act.</div></div>
+  <div class="note-item"><div class="note-num">2</div><div class="note-text">Assessments and appeals already initiated under the 1961 Act will continue under the 1961 Act until conclusion. Transitional provisions ensure no disruption to pending matters.</div></div>
+  <div class="note-item"><div class="note-num">3</div><div class="note-text">The <strong>"Tax Year"</strong> concept replaces "Previous Year / Assessment Year." FY 2026-27 will be the first "Tax Year" under the new Act. Update all documentation and client communications accordingly.</div></div>
+  <div class="note-item"><div class="note-num">4</div><div class="note-text"><strong>TDS/TCS Consolidation:</strong> All individual TDS sections (192-196D) are now consolidated under Section 393 (TDS) and Section 394 (TCS). Rates and thresholds are preserved in tabular schedules. Update ERP/accounting software immediately.</div></div>
+  <div class="note-item"><div class="note-num">5</div><div class="note-text"><strong>Indexation Removal:</strong> Indexation benefit for capital gains has been REMOVED for transfers after 23 July 2024. LTCG is now taxed at a flat 12.5%. This significantly impacts real estate and unlisted equity transactions.</div></div>
+  <div class="note-item"><div class="note-num">6</div><div class="note-text">The 2025 Act reduces the total number of sections from 819 to 536, achieving approximately 35% structural simplification while preserving substantive tax law principles.</div></div>
+  <div class="note-item"><div class="note-num">7</div><div class="note-text"><strong>New Regime Default:</strong> The new tax regime (lower rates, fewer deductions) is the default from FY 2023-24. Salaried employees must opt out before the ITR due date; business taxpayers get a one-time choice.</div></div>
+</div>`;
 
+      // --- DISCLAIMER & FOOTER ---
+      html += `<div class="disclaimer">
+  <h4>Disclaimer</h4>
+  <p>This comparative analysis is prepared for educational and reference purposes only. While sourced from official government notifications (Gazette of India dated 21 August 2025), ICAI publications, and incometaxindia.gov.in, users must independently verify all information before relying on it for compliance, advisory, or litigation purposes. Neither Finvy nor Bharat Quantum Prospera Pvt. Ltd. shall be liable for any errors, omissions, or decisions made based on this document. Professional advice from a qualified Chartered Accountant or tax practitioner should be sought before acting on any matter contained herein.</p>
+</div>
 
-IMPORTANT NOTES FOR PRACTITIONERS:
-────────────────────────────────────────────────────────────────────────────────
-
-1. The Income Tax Act, 2025 takes effect from 1 April 2026. All new assessments,
-   returns, and proceedings from that date will be governed by the new Act.
-
-2. Assessments and appeals already initiated under the 1961 Act will continue
-   under the 1961 Act until conclusion.
-
-3. The "Tax Year" concept replaces "Previous Year / Assessment Year."
-   FY 2026-27 will be the first "Tax Year" under the new Act.
-
-4. TDS/TCS: All individual TDS sections (192-196D) are now consolidated under
-   Section 393 (TDS) and Section 394 (TCS). Rates and thresholds are preserved
-   in tabular schedules.
-
-5. Indexation benefit for capital gains has been REMOVED for transfers after
-   23 July 2024. LTCG is now taxed at a flat 12.5%.
-
-
-DISCLAIMER:
-────────────────────────────────────────────────────────────────────────────────
-This comparative analysis is for educational and reference purposes only. While
-sourced from official government notifications and ICAI publications, users must
-independently verify all information. Neither Finvy nor Bharat Quantum Prospera
-Pvt. Ltd. shall be liable for any errors, omissions, or decisions made based on
-this document. Professional advice should be sought before acting on any matter.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Transect v3.0.0 | ${dateStr} | durgesh@bqpartners.in | +91 7801887130
-A free contribution to India's tax community by Finvy.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-`;
+<div class="footer-bar">
+  <div class="footer-brand">Transect v3.0.0 | Finvy</div>
+  <div class="footer-info">
+    ${dateStr}<br>
+    durgesh@bqpartners.in | +91 7801887130<br>
+    A free contribution to India's tax community
+  </div>
+</div>
+</div></body></html>`;
 
       const printWindow = window.open('', '_blank');
-      printWindow.document.write(
-        '<!DOCTYPE html><html><head><title>Comparison - Transect</title>' +
-        '<style>body{font-family:monospace;white-space:pre;padding:20px;background:#f4f1db;color:#463325;}pre{max-width:100%;overflow-x:auto;}</style>' +
-        '</head><body><pre>' + escapeHtml(pdfContent) + '</pre>' +
-        '<scr' + 'ipt>window.print();<\/scr' + 'ipt></body></html>'
-      );
+      printWindow.document.write(html);
       printWindow.document.close();
+      setTimeout(() => { printWindow.print(); }, 500);
     }
 
     // SIMPLE EXPLANATION GENERATOR (for PDF & details)

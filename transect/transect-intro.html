@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transect — Product Introduction</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--dark:#08081A;--accent:#7C5CFC;--accent-bright:#9B7FFF;--accent-glow:rgba(124,92,252,0.25);--white:#fff;--gray:#8888aa;--font:'Inter',-apple-system,sans-serif}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--dark);font-family:var(--font);color:var(--white)}
+
+/* === CINEMATIC CONTAINER === */
+.cinema{position:fixed;inset:0;overflow:hidden}
+.cinema canvas#particles{position:absolute;inset:0;z-index:0;opacity:0.4}
+
+/* === SCENE SYSTEM === */
+.scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;opacity:0;transform:scale(0.95);transition:opacity 0.8s cubic-bezier(0.4,0,0.2,1),transform 0.8s cubic-bezier(0.4,0,0.2,1);pointer-events:none;z-index:1;padding:40px}
+.scene.active{opacity:1;transform:scale(1);pointer-events:auto}
+.scene.exit-up{opacity:0;transform:translateY(-60px) scale(0.97)}
+.scene.exit-down{opacity:0;transform:translateY(60px) scale(0.97)}
+
+/* === PROGRESS BAR === */
+.progress-bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent-bright));z-index:100;transition:width 0.5s ease;box-shadow:0 0 20px var(--accent-glow)}
+.progress-dots{position:fixed;right:24px;top:50%;transform:translateY(-50%);z-index:100;display:flex;flex-direction:column;gap:10px}
+.progress-dots .dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,0.15);transition:all 0.4s ease;cursor:pointer}
+.progress-dots .dot.active{background:var(--accent);box-shadow:0 0 12px var(--accent-glow);transform:scale(1.3)}
+.progress-dots .dot:hover{background:rgba(255,255,255,0.4)}
+
+/* === TYPOGRAPHY === */
+.hero-logo{font-size:18px;font-weight:800;letter-spacing:4px;text-transform:uppercase;color:var(--accent-bright);margin-bottom:8px;opacity:0;animation:fadeSlideUp 0.8s 0.2s forwards}
+.hero-title{font-size:clamp(42px,6vw,80px);font-weight:900;letter-spacing:-2px;line-height:1.05;text-align:center;background:linear-gradient(135deg,#fff 0%,#c4b5fd 50%,#7c5cfc 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;opacity:0;animation:fadeSlideUp 0.8s 0.5s forwards}
+.hero-sub{font-size:clamp(16px,2vw,22px);font-weight:400;color:var(--gray);text-align:center;max-width:700px;line-height:1.6;margin-top:20px;opacity:0;animation:fadeSlideUp 0.8s 0.8s forwards}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(124,92,252,0.12);border:1px solid rgba(124,92,252,0.25);border-radius:100px;padding:8px 20px;font-size:13px;font-weight:600;color:var(--accent-bright);margin-top:28px;opacity:0;animation:fadeSlideUp 0.8s 1.1s forwards}
+.hero-badge .pulse{width:8px;height:8px;border-radius:50%;background:#4ade80;animation:pulse 2s infinite}
+
+.scene-label{font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--accent-bright);margin-bottom:16px}
+.scene-title{font-size:clamp(32px,4.5vw,56px);font-weight:800;letter-spacing:-1px;line-height:1.1;text-align:center;margin-bottom:16px}
+.scene-desc{font-size:clamp(15px,1.6vw,19px);color:var(--gray);text-align:center;max-width:680px;line-height:1.65;margin-bottom:32px}
+
+/* === MOCK BROWSER === */
+.browser-mock{width:min(90vw,1000px);background:#0c0c22;border-radius:16px;border:1px solid rgba(255,255,255,0.06);overflow:hidden;box-shadow:0 40px 100px rgba(0,0,0,0.5),0 0 0 1px rgba(124,92,252,0.08);transform:perspective(1200px) rotateX(2deg);transition:transform 0.6s ease}
+.browser-mock:hover{transform:perspective(1200px) rotateX(0deg)}
+.browser-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:rgba(255,255,255,0.03);border-bottom:1px solid rgba(255,255,255,0.05)}
+.browser-bar .dot{width:10px;height:10px;border-radius:50%}
+.browser-bar .dot.r{background:#ff5f57}.browser-bar .dot.y{background:#febc2e}.browser-bar .dot.g{background:#28c840}
+.browser-bar .url{flex:1;margin-left:12px;background:rgba(255,255,255,0.06);border-radius:8px;padding:6px 14px;font-size:12px;color:var(--gray);font-family:var(--font)}
+.browser-body{padding:32px;min-height:320px;position:relative;overflow:hidden}
+
+/* === CURSOR === */
+.fake-cursor{position:absolute;width:20px;height:20px;z-index:50;pointer-events:none;transition:left 0.8s cubic-bezier(0.4,0,0.2,1),top 0.8s cubic-bezier(0.4,0,0.2,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,0.3))}
+.fake-cursor svg{width:20px;height:20px}
+.click-ring{position:absolute;width:40px;height:40px;border-radius:50%;border:2px solid var(--accent);opacity:0;transform:scale(0);pointer-events:none;z-index:49}
+.click-ring.animate{animation:clickRing 0.5s ease forwards}
+
+/* === TYPING ANIMATION === */
+.typing-text{font-family:var(--font);overflow:hidden;white-space:nowrap;border-right:2px solid var(--accent);animation:blink 0.8s step-end infinite}
+@keyframes blink{50%{border-color:transparent}}
+
+/* === SEARCH BOX MOCK === */
+.mock-search{width:100%;max-width:600px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:50px;padding:14px 24px;font-size:16px;color:var(--white);font-family:var(--font);display:flex;align-items:center;gap:12px}
+.mock-search .icon{opacity:0.4;font-size:18px}
+.mock-search .text{flex:1;min-height:20px}
+
+/* === RESULT CARDS === */
+.mock-result{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px 20px;margin-top:12px;opacity:0;transform:translateY(10px);transition:all 0.4s ease}
+.mock-result.show{opacity:1;transform:translateY(0)}
+.mock-result .badge{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;background:var(--accent);color:#fff;padding:3px 10px;border-radius:20px;margin-bottom:8px}
+.mock-result .title{font-size:18px;font-weight:700;margin-bottom:4px}
+.mock-result .sub{font-size:13px;color:var(--gray)}
+.mock-result .arrow{position:absolute;right:20px;top:50%;transform:translateY(-50%);color:var(--accent);font-size:20px}
+
+/* === TDS TABLE MOCK === */
+.mock-table{width:100%;border-collapse:collapse;font-size:13px}
+.mock-table th{text-align:left;padding:10px 12px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--accent-bright);border-bottom:1px solid rgba(255,255,255,0.1)}
+.mock-table td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,0.04);color:rgba(255,255,255,0.7)}
+.mock-table tr{opacity:0;transform:translateX(-10px);transition:all 0.3s ease}
+.mock-table tr.show{opacity:1;transform:translateX(0)}
+.mock-table .highlight{color:var(--accent-bright);font-weight:700}
+
+/* === FEATURE CARDS === */
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:900px;width:100%}
+.feature-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:16px;padding:28px 24px;text-align:center;opacity:0;transform:translateY(20px) scale(0.95);transition:all 0.5s cubic-bezier(0.34,1.56,0.64,1)}
+.feature-card.show{opacity:1;transform:translateY(0) scale(1)}
+.feature-card:hover{border-color:rgba(124,92,252,0.3);box-shadow:0 8px 32px rgba(124,92,252,0.1)}
+.feature-card .icon{font-size:36px;margin-bottom:14px}
+.feature-card h3{font-size:17px;font-weight:700;margin-bottom:8px}
+.feature-card p{font-size:13px;color:var(--gray);line-height:1.55}
+
+/* === STAT ROW === */
+.stats-row{display:flex;gap:40px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.stat{text-align:center;opacity:0;transform:translateY(20px);transition:all 0.5s ease}
+.stat.show{opacity:1;transform:translateY(0)}
+.stat .num{font-size:clamp(36px,5vw,52px);font-weight:900;background:linear-gradient(135deg,var(--accent),var(--accent-bright));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat .label{font-size:13px;color:var(--gray);margin-top:4px;font-weight:500}
+
+/* === PDF MOCK === */
+.pdf-mock{width:min(80vw,440px);background:#fff;border-radius:12px;padding:32px;color:#1a1a2e;box-shadow:0 30px 80px rgba(0,0,0,0.4);transform:perspective(800px) rotateY(-3deg);transition:transform 0.6s ease}
+.pdf-mock:hover{transform:perspective(800px) rotateY(0deg)}
+.pdf-mock .pdf-header{text-align:center;margin-bottom:20px;padding-bottom:16px;border-bottom:2px solid #7C5CFC}
+.pdf-mock .pdf-header h4{font-size:11px;font-weight:800;letter-spacing:3px;color:#7C5CFC;text-transform:uppercase}
+.pdf-mock .pdf-header h3{font-size:20px;font-weight:800;margin-top:6px}
+.pdf-mock .pdf-section{margin-bottom:14px}
+.pdf-mock .pdf-label{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#7C5CFC;margin-bottom:4px}
+.pdf-mock .pdf-text{font-size:12px;color:#444;line-height:1.6}
+.pdf-mock .pdf-stat-block{display:flex;gap:12px;margin-top:12px}
+.pdf-mock .pdf-stat{flex:1;background:#f8f7ff;border:1px solid #e5e0ff;border-radius:8px;padding:10px;text-align:center}
+.pdf-mock .pdf-stat .val{font-size:18px;font-weight:800;color:#7C5CFC}
+.pdf-mock .pdf-stat .lbl{font-size:9px;color:#888;margin-top:2px}
+.pdf-mock .statutory-block{background:#fefdf5;border:1px solid #e8e0c0;border-radius:8px;padding:12px;margin-top:12px}
+.pdf-mock .statutory-block h5{font-size:9px;font-weight:700;color:#8b6914;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+.pdf-mock .clause{font-size:11px;font-style:italic;color:#3d3520;border-left:2px solid #c9a84c;padding:4px 8px;background:rgba(139,105,20,0.04);margin-bottom:6px}
+.pdf-mock .explain{font-size:11px;color:#555;padding-left:10px}
+
+/* === CONTROLS === */
+.controls{position:fixed;bottom:32px;left:50%;transform:translateX(-50%);z-index:100;display:flex;align-items:center;gap:16px;background:rgba(8,8,26,0.85);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.08);border-radius:100px;padding:10px 20px}
+.controls button{background:none;border:none;color:var(--white);cursor:pointer;font-family:var(--font);font-size:14px;font-weight:600;padding:8px 16px;border-radius:50px;transition:all 0.2s ease;display:flex;align-items:center;gap:6px}
+.controls button:hover{background:rgba(255,255,255,0.08)}
+.controls button.primary{background:var(--accent);color:#fff}
+.controls button.primary:hover{background:var(--accent-bright)}
+.controls .timer{font-size:12px;color:var(--gray);font-weight:500;min-width:50px;text-align:center}
+.controls .play-icon{width:16px;height:16px;fill:currentColor}
+
+/* === CTA SCENE === */
+.cta-box{background:linear-gradient(135deg,rgba(124,92,252,0.15),rgba(167,139,250,0.08));border:1px solid rgba(124,92,252,0.25);border-radius:24px;padding:48px;text-align:center;max-width:700px}
+.cta-box h2{font-size:clamp(28px,4vw,42px);font-weight:800;margin-bottom:12px}
+.cta-box p{color:var(--gray);font-size:17px;line-height:1.6;margin-bottom:28px}
+.cta-btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#fff;padding:16px 36px;border-radius:50px;font-family:var(--font);font-size:16px;font-weight:700;text-decoration:none;transition:all 0.3s ease;border:none;cursor:pointer}
+.cta-btn:hover{background:var(--accent-bright);transform:translateY(-2px);box-shadow:0 8px 32px rgba(124,92,252,0.3)}
+
+/* === ANIMATIONS === */
+@keyframes fadeSlideUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+@keyframes clickRing{0%{opacity:1;transform:scale(0)}100%{opacity:0;transform:scale(1.5)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes shimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+
+.float-anim{animation:float 3s ease-in-out infinite}
+
+/* === GLOW ORB === */
+.glow-orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:0.15;pointer-events:none}
+.glow-orb.a{width:400px;height:400px;background:var(--accent);top:-100px;right:-100px;animation:float 8s ease-in-out infinite}
+.glow-orb.b{width:300px;height:300px;background:#a78bfa;bottom:-80px;left:-80px;animation:float 6s ease-in-out infinite 2s}
+</style>
+</head>
+<body>
+
+<div class="cinema">
+  <canvas id="particles"></canvas>
+
+  <!-- PROGRESS -->
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="progress-dots" id="progressDots"></div>
+
+  <!-- ====== SCENE 0: OPENING ====== -->
+  <div class="scene active" data-scene="0">
+    <div class="glow-orb a"></div>
+    <div class="glow-orb b"></div>
+    <div class="hero-logo">Finvy Presents</div>
+    <div class="hero-title">Transect</div>
+    <div class="hero-sub">Across Every Section — The definitive tool for navigating India's biggest tax reform in 63 years.</div>
+    <div class="hero-badge"><span class="pulse"></span> Income Tax Act 1961 ↔ 2025</div>
+  </div>
+
+  <!-- ====== SCENE 1: THE PROBLEM ====== -->
+  <div class="scene" data-scene="1">
+    <div class="scene-label">The Challenge</div>
+    <div class="scene-title">819 → 536 Sections</div>
+    <div class="scene-desc">India's tax law was rewritten. Every section renumbered. Every form changed. 511 rules became 333. 399 forms became 190. Practitioners need a bridge — fast, accurate, and free.</div>
+    <div class="stats-row">
+      <div class="stat" data-delay="200"><div class="num" data-count="150">0</div><div class="label">Section Mappings</div></div>
+      <div class="stat" data-delay="400"><div class="num" data-count="37">0</div><div class="label">TDS/TCS Entries</div></div>
+      <div class="stat" data-delay="600"><div class="num" data-count="190">0</div><div class="label">Form Changes</div></div>
+      <div class="stat" data-delay="800"><div class="num">0%</div><div class="label">Data Collection</div></div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 2: GLOBAL SEARCH ====== -->
+  <div class="scene" data-scene="2">
+    <div class="scene-label">Feature 01</div>
+    <div class="scene-title">Universal Search</div>
+    <div class="scene-desc">Type anything — section numbers, keywords, TDS rates, form names. Transect finds it instantly across all categories.</div>
+    <div class="browser-mock">
+      <div class="browser-bar">
+        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+        <div class="url">finvy.ventures/transect</div>
+      </div>
+      <div class="browser-body" id="searchDemo">
+        <div class="mock-search">
+          <span class="icon">🔍</span>
+          <span class="text" id="searchTyping"></span>
+        </div>
+        <div id="searchResults"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 3: SECTION MAPPER ====== -->
+  <div class="scene" data-scene="3">
+    <div class="scene-label">Feature 02</div>
+    <div class="scene-title">Section Mapper</div>
+    <div class="scene-desc">Find any 1961 section's 2025 equivalent — or reverse. With category tags, key changes, and practitioner impact notes.</div>
+    <div class="browser-mock">
+      <div class="browser-bar">
+        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+        <div class="url">finvy.ventures/transect/#mapper</div>
+      </div>
+      <div class="browser-body" id="mapperDemo">
+        <div style="display:flex;gap:12px;margin-bottom:16px">
+          <div class="mock-search" style="flex:1;border-radius:12px;padding:10px 16px;font-size:14px">
+            <span class="icon">🔍</span>
+            <span class="text" id="mapperTyping"></span>
+          </div>
+          <div style="background:rgba(124,92,252,0.15);border:1px solid rgba(124,92,252,0.3);border-radius:12px;padding:10px 16px;font-size:12px;font-weight:700;color:var(--accent-bright);display:flex;align-items:center;white-space:nowrap" id="directionBtn">Old → New (1961 → 2025)</div>
+        </div>
+        <div id="mapperResults"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 4: TDS/TCS ====== -->
+  <div class="scene" data-scene="4">
+    <div class="scene-label">Feature 03</div>
+    <div class="scene-title">TDS/TCS Quick Reference</div>
+    <div class="scene-desc">37 verified entries with old→new section mapping, rates, thresholds, and payer types. Filter by any column.</div>
+    <div class="browser-mock">
+      <div class="browser-bar">
+        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+        <div class="url">finvy.ventures/transect/#tds-data</div>
+      </div>
+      <div class="browser-body" id="tdsDemo" style="padding:20px">
+        <table class="mock-table">
+          <thead><tr><th>Old Sec</th><th>Nature</th><th>Rate</th><th>Threshold</th><th>New Sec</th></tr></thead>
+          <tbody id="tdsRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 5: COMPARISON + PDF ====== -->
+  <div class="scene" data-scene="5">
+    <div class="scene-label">Feature 04</div>
+    <div class="scene-title">Compare & Export PDF</div>
+    <div class="scene-desc">Select multiple sections, compare side-by-side, and generate a professional PDF with statutory wordings, expert analysis, and simple explanations.</div>
+    <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;justify-content:center">
+      <div class="pdf-mock" id="pdfDemo">
+        <div class="pdf-header">
+          <h4>Finvy | Transect</h4>
+          <h3>Section Mapping Analysis</h3>
+        </div>
+        <div class="pdf-stat-block">
+          <div class="pdf-stat"><div class="val">45</div><div class="lbl">Old Section</div></div>
+          <div class="pdf-stat"><div class="val">67</div><div class="lbl">New Section</div></div>
+        </div>
+        <div class="pdf-section" style="margin-top:14px">
+          <div class="pdf-label">Category</div>
+          <div class="pdf-text" style="display:inline-block;background:rgba(124,92,252,0.1);color:#7C5CFC;padding:2px 10px;border-radius:20px;font-weight:600;font-size:11px">Capital Gains</div>
+        </div>
+        <div class="statutory-block">
+          <h5>Statutory Provisions — Actual Text</h5>
+          <div class="clause">"Any profits or gains arising from the transfer of a capital asset effected in the previous year shall be chargeable to income-tax..."</div>
+          <div class="explain"><strong>In Simple Terms:</strong> When you sell property, shares, or any capital asset at a profit, that profit is taxable.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 6: KEY CHANGES ====== -->
+  <div class="scene" data-scene="6">
+    <div class="scene-label">Feature 05</div>
+    <div class="scene-title">Key Changes & New Provisions</div>
+    <div class="scene-desc">Stay updated on the most impactful changes — from Tax Year concept to indexation removal.</div>
+    <div class="feature-grid" id="featureGrid">
+      <div class="feature-card" data-delay="0"><div class="icon">📅</div><h3>Tax Year Concept</h3><p>Previous Year/Assessment Year replaced by unified Tax Year from FY 2026-27</p></div>
+      <div class="feature-card" data-delay="150"><div class="icon">📊</div><h3>Indexation Removed</h3><p>LTCG flat 12.5% rate — no indexation for transfers after 23 July 2024</p></div>
+      <div class="feature-card" data-delay="300"><div class="icon">🔄</div><h3>TDS Consolidated</h3><p>30+ sections merged into Section 393 (TDS) and 394 (TCS)</p></div>
+      <div class="feature-card" data-delay="450"><div class="icon">📋</div><h3>Forms Streamlined</h3><p>399 forms reduced to 190 — 54 operationalised at launch</p></div>
+      <div class="feature-card" data-delay="600"><div class="icon">🔒</div><h3>Zero Data Collection</h3><p>No cookies, no tracking, no login. Your privacy is absolute.</p></div>
+      <div class="feature-card" data-delay="750"><div class="icon">📄</div><h3>Professional PDFs</h3><p>Export with actual statutory wordings and clause-by-clause explanations</p></div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 7: FORMS & PROCEDURES ====== -->
+  <div class="scene" data-scene="7">
+    <div class="scene-label">Feature 06</div>
+    <div class="scene-title">Forms & Procedural Changes</div>
+    <div class="scene-desc">Every form renumbered — ITR, TDS, audit reports, trust registration. Filter by category or search by name.</div>
+    <div class="browser-mock">
+      <div class="browser-bar">
+        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+        <div class="url">finvy.ventures/transect/#forms-changes</div>
+      </div>
+      <div class="browser-body" id="formsDemo" style="padding:20px">
+        <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap" id="formTags"></div>
+        <div id="formCards"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 8: COMMUNITY ====== -->
+  <div class="scene" data-scene="8">
+    <div class="scene-label">Feature 07</div>
+    <div class="scene-title">Built for the Community</div>
+    <div class="scene-desc">Transect is a seva — free, open, and built for every CA, CS, Advocate, and Tax Practitioner across Bharat. Your feedback makes it better.</div>
+    <div class="stats-row" style="margin-top:0">
+      <div class="stat" data-delay="0"><div class="num">Free</div><div class="label">Forever</div></div>
+      <div class="stat" data-delay="200"><div class="num">Zero</div><div class="label">Data Collection</div></div>
+      <div class="stat" data-delay="400"><div class="num">Open</div><div class="label">For All Practitioners</div></div>
+    </div>
+  </div>
+
+  <!-- ====== SCENE 9: CTA ====== -->
+  <div class="scene" data-scene="9">
+    <div class="glow-orb a"></div>
+    <div class="glow-orb b"></div>
+    <div class="cta-box">
+      <h2>Start Navigating</h2>
+      <p>The biggest tax reform in 63 years deserves a tool that serves every practitioner — freely, accurately, and without barriers.</p>
+      <a href="https://finvy.ventures/transect/" target="_blank" class="cta-btn">Open Transect →</a>
+    </div>
+    <div style="margin-top:32px;font-size:13px;color:var(--gray)">Built with ❤️ by <strong style="color:var(--accent-bright)">Finvy</strong> | Bharat Quantum Prospera Pvt. Ltd.</div>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls" id="controls">
+    <button id="prevBtn" onclick="prevScene()">← Back</button>
+    <button id="playBtn" onclick="toggleAutoPlay()" class="primary">
+      <svg class="play-icon" viewBox="0 0 16 16" id="playIcon"><polygon points="3,1 13,8 3,15"/></svg>
+      <span id="playLabel">Auto Play</span>
+    </button>
+    <span class="timer" id="timerDisplay">0:00</span>
+    <button id="nextBtn" onclick="nextScene()">Next →</button>
+  </div>
+</div>
+
+<script>
+// === AUDIO CONTEXT FOR SOUND EFFECTS ===
+const AudioCtx = window.AudioContext || window.webkitAudioContext;
+let audioCtx;
+function ensureAudio(){if(!audioCtx)audioCtx=new AudioCtx()}
+
+function playClick(){
+  ensureAudio();
+  const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+  o.connect(g);g.connect(audioCtx.destination);
+  o.frequency.setValueAtTime(800,audioCtx.currentTime);
+  o.frequency.exponentialRampToValueAtTime(400,audioCtx.currentTime+0.08);
+  g.gain.setValueAtTime(0.15,audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.08);
+  o.start();o.stop(audioCtx.currentTime+0.08);
+}
+
+function playType(){
+  ensureAudio();
+  const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+  o.connect(g);g.connect(audioCtx.destination);
+  o.type='square';
+  o.frequency.setValueAtTime(600+Math.random()*400,audioCtx.currentTime);
+  g.gain.setValueAtTime(0.04,audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.04);
+  o.start();o.stop(audioCtx.currentTime+0.04);
+}
+
+function playWhoosh(){
+  ensureAudio();
+  const bufferSize=audioCtx.sampleRate*0.3;
+  const buffer=audioCtx.createBuffer(1,bufferSize,audioCtx.sampleRate);
+  const data=buffer.getChannelData(0);
+  for(let i=0;i<bufferSize;i++)data[i]=(Math.random()*2-1)*Math.pow(1-i/bufferSize,3);
+  const src=audioCtx.createBufferSource(),g=audioCtx.createGain();
+  src.buffer=buffer;src.connect(g);g.connect(audioCtx.destination);
+  g.gain.setValueAtTime(0.08,audioCtx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.3);
+  src.start();
+}
+
+function playSuccess(){
+  ensureAudio();
+  const notes=[523,659,784];
+  notes.forEach((freq,i)=>{
+    const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+    o.connect(g);g.connect(audioCtx.destination);
+    o.frequency.setValueAtTime(freq,audioCtx.currentTime+i*0.12);
+    g.gain.setValueAtTime(0,audioCtx.currentTime+i*0.12);
+    g.gain.linearRampToValueAtTime(0.08,audioCtx.currentTime+i*0.12+0.02);
+    g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+i*0.12+0.25);
+    o.start(audioCtx.currentTime+i*0.12);
+    o.stop(audioCtx.currentTime+i*0.12+0.25);
+  });
+}
+
+// === PARTICLES ===
+const canvas=document.getElementById('particles');
+const ctx=canvas.getContext('2d');
+let particles=[];
+function initParticles(){
+  canvas.width=window.innerWidth;canvas.height=window.innerHeight;
+  particles=[];
+  for(let i=0;i<60;i++){
+    particles.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-0.5)*0.3,vy:(Math.random()-0.5)*0.3,r:Math.random()*2+0.5,a:Math.random()*0.3+0.1});
+  }
+}
+function drawParticles(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  particles.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;
+    if(p.x<0)p.x=canvas.width;if(p.x>canvas.width)p.x=0;
+    if(p.y<0)p.y=canvas.height;if(p.y>canvas.height)p.y=0;
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(124,92,252,${p.a})`;ctx.fill();
+  });
+  requestAnimationFrame(drawParticles);
+}
+initParticles();drawParticles();
+window.addEventListener('resize',initParticles);
+
+// === SCENE MANAGEMENT ===
+const TOTAL_SCENES=10;
+let currentScene=0;
+let autoPlaying=false;
+let autoTimer=null;
+let elapsed=0;
+let elapsedTimer=null;
+const SCENE_DURATIONS=[5000,5000,7000,7000,6000,6000,6000,6000,5000,999999];
+
+function buildDots(){
+  const cont=document.getElementById('progressDots');
+  cont.innerHTML='';
+  for(let i=0;i<TOTAL_SCENES;i++){
+    const d=document.createElement('div');
+    d.className='dot'+(i===0?' active':'');
+    d.onclick=()=>goToScene(i);
+    cont.appendChild(d);
+  }
+}
+buildDots();
+
+function updateProgress(){
+  document.getElementById('progressBar').style.width=((currentScene+1)/TOTAL_SCENES*100)+'%';
+  document.querySelectorAll('.progress-dots .dot').forEach((d,i)=>{d.className='dot'+(i===currentScene?' active':'')});
+}
+
+function goToScene(idx){
+  if(idx===currentScene||idx<0||idx>=TOTAL_SCENES)return;
+  playWhoosh();
+  const dir=idx>currentScene?'exit-up':'exit-down';
+  const curr=document.querySelector(`.scene[data-scene="${currentScene}"]`);
+  curr.classList.remove('active');curr.classList.add(dir);
+  setTimeout(()=>curr.classList.remove(dir),800);
+  currentScene=idx;
+  const next=document.querySelector(`.scene[data-scene="${currentScene}"]`);
+  next.classList.add('active');
+  updateProgress();
+  runSceneAnimation(currentScene);
+  if(autoPlaying)restartAutoTimer();
+}
+
+function nextScene(){if(currentScene<TOTAL_SCENES-1)goToScene(currentScene+1)}
+function prevScene(){if(currentScene>0)goToScene(currentScene-1)}
+
+function toggleAutoPlay(){
+  autoPlaying=!autoPlaying;
+  ensureAudio();
+  document.getElementById('playLabel').textContent=autoPlaying?'Pause':'Auto Play';
+  document.getElementById('playIcon').innerHTML=autoPlaying?'<rect x="3" y="2" width="4" height="12"/><rect x="9" y="2" width="4" height="12"/>':'<polygon points="3,1 13,8 3,15"/>';
+  if(autoPlaying){restartAutoTimer();startElapsed()}else{clearTimeout(autoTimer);clearInterval(elapsedTimer)}
+}
+
+function restartAutoTimer(){
+  clearTimeout(autoTimer);
+  autoTimer=setTimeout(()=>{if(autoPlaying&&currentScene<TOTAL_SCENES-1){nextScene()}else{autoPlaying=false;document.getElementById('playLabel').textContent='Auto Play';document.getElementById('playIcon').innerHTML='<polygon points="3,1 13,8 3,15"/>';clearInterval(elapsedTimer)}},SCENE_DURATIONS[currentScene]);
+}
+
+function startElapsed(){
+  elapsed=0;updateTimerDisplay();
+  clearInterval(elapsedTimer);
+  elapsedTimer=setInterval(()=>{elapsed++;updateTimerDisplay()},1000);
+}
+
+function updateTimerDisplay(){
+  const m=Math.floor(elapsed/60),s=elapsed%60;
+  document.getElementById('timerDisplay').textContent=m+':'+(s<10?'0':'')+s;
+}
+
+// === TYPING ANIMATION ===
+function typeText(element,text,speed=60){
+  return new Promise(resolve=>{
+    element.textContent='';
+    element.style.borderRight='2px solid var(--accent)';
+    let i=0;
+    const interval=setInterval(()=>{
+      if(i<text.length){element.textContent+=text[i];playType();i++}
+      else{clearInterval(interval);element.style.borderRight='none';resolve()}
+    },speed);
+  });
+}
+
+// === SCENE ANIMATIONS ===
+function runSceneAnimation(idx){
+  switch(idx){
+    case 1:animateStats();break;
+    case 2:animateSearch();break;
+    case 3:animateMapper();break;
+    case 4:animateTDS();break;
+    case 5:animatePDF();break;
+    case 6:animateFeatures();break;
+    case 7:animateForms();break;
+    case 8:animateStats();break;
+    case 9:playSuccess();break;
+  }
+}
+
+// --- Stats counter ---
+function animateStats(){
+  const stats=document.querySelectorAll(`.scene[data-scene="${currentScene}"] .stat`);
+  stats.forEach((s,i)=>{
+    const delay=parseInt(s.dataset.delay)||i*200;
+    setTimeout(()=>{
+      s.classList.add('show');
+      const numEl=s.querySelector('.num');
+      const target=parseInt(numEl.dataset.count);
+      if(!isNaN(target)){
+        let val=0;
+        const step=Math.max(1,Math.floor(target/30));
+        const iv=setInterval(()=>{val+=step;if(val>=target){val=target;clearInterval(iv)}numEl.textContent=val+'+'},30);
+      }
+      playClick();
+    },delay+200);
+  });
+}
+
+// --- Search demo ---
+async function animateSearch(){
+  const el=document.getElementById('searchTyping');
+  const results=document.getElementById('searchResults');
+  results.innerHTML='';el.textContent='';
+  await new Promise(r=>setTimeout(r,600));
+  await typeText(el,'capital gains',70);
+  await new Promise(r=>setTimeout(r,400));
+  playClick();
+  const items=[
+    {badge:'Section',title:'Sec 45 → 67',sub:'Capital gains — chargeability'},
+    {badge:'Section',title:'Sec 54 → 74',sub:'Exemption on sale of residential property'},
+    {badge:'TDS',title:'Sec 194IA → 393',sub:'TDS on immovable property — 1%'}
+  ];
+  items.forEach((item,i)=>{
+    setTimeout(()=>{
+      const div=document.createElement('div');
+      div.className='mock-result';
+      div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
+      results.appendChild(div);
+      setTimeout(()=>{div.classList.add('show');playClick()},50);
+    },i*300+200);
+  });
+}
+
+// --- Mapper demo ---
+async function animateMapper(){
+  const el=document.getElementById('mapperTyping');
+  const results=document.getElementById('mapperResults');
+  results.innerHTML='';el.textContent='';
+  await new Promise(r=>setTimeout(r,600));
+  await typeText(el,'80C',80);
+  await new Promise(r=>setTimeout(r,400));
+  playClick();
+  const items=[
+    {badge:'Deductions',title:'80C → 123',sub:'Deductions in respect of life insurance, PF, etc. — up to Rs 1.5 lakh'},
+    {badge:'Deductions',title:'80CCD → 124',sub:'NPS contribution — additional Rs 50,000 deduction'}
+  ];
+  items.forEach((item,i)=>{
+    setTimeout(()=>{
+      const div=document.createElement('div');
+      div.className='mock-result';
+      div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
+      results.appendChild(div);
+      setTimeout(()=>{div.classList.add('show');playClick()},50);
+    },i*350+200);
+  });
+}
+
+// --- TDS demo ---
+function animateTDS(){
+  const tbody=document.getElementById('tdsRows');
+  tbody.innerHTML='';
+  const data=[
+    ['192','Salary','Slab rates','—','392/393'],
+    ['194A','Interest (non-bank)','10%','Rs 40,000','393'],
+    ['194C','Contractor payments','1%/2%','Rs 30,000','393'],
+    ['194H','Commission/Brokerage','5%','Rs 15,000','393'],
+    ['194I','Rent','2%/10%','Rs 2.4L p.a.','393'],
+    ['194IA','Immovable property','1%','Rs 50 lakh','393'],
+    ['206C','TCS — Motor vehicle','1%','Rs 10 lakh','394']
+  ];
+  data.forEach((row,i)=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td class="highlight">${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td class="highlight">${row[4]}</td>`;
+    tbody.appendChild(tr);
+    setTimeout(()=>{tr.classList.add('show');playClick()},i*200+300);
+  });
+}
+
+// --- PDF demo ---
+function animatePDF(){
+  const el=document.getElementById('pdfDemo');
+  el.style.opacity='0';el.style.transform='perspective(800px) rotateY(-15deg) translateY(20px)';
+  setTimeout(()=>{
+    el.style.transition='all 0.8s cubic-bezier(0.34,1.56,0.64,1)';
+    el.style.opacity='1';el.style.transform='perspective(800px) rotateY(-3deg) translateY(0)';
+    playSuccess();
+  },400);
+}
+
+// --- Features ---
+function animateFeatures(){
+  document.querySelectorAll('#featureGrid .feature-card').forEach((card,i)=>{
+    const delay=parseInt(card.dataset.delay)||0;
+    setTimeout(()=>{card.classList.add('show');playClick()},delay+300);
+  });
+}
+
+// --- Forms ---
+function animateForms(){
+  const tags=document.getElementById('formTags');
+  const cards=document.getElementById('formCards');
+  tags.innerHTML='';cards.innerHTML='';
+  const categories=['ITR','TDS','Audit','Trust','All'];
+  categories.forEach((cat,i)=>{
+    setTimeout(()=>{
+      const t=document.createElement('span');
+      t.style.cssText='display:inline-block;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;transition:all 0.3s;'+(i===0?'background:var(--accent);color:#fff':'background:rgba(255,255,255,0.06);color:var(--gray)');
+      t.textContent=cat;
+      tags.appendChild(t);
+      playClick();
+    },i*150+200);
+  });
+  const forms=[
+    {old:'Form 16',new:'Form ITR-F16',desc:'TDS Certificate for Salary'},
+    {old:'Form 26AS',new:'Form AIS-26',desc:'Annual Tax Statement'},
+    {old:'Form 3CA/3CB',new:'Form Audit-01',desc:'Tax Audit Report'}
+  ];
+  forms.forEach((f,i)=>{
+    setTimeout(()=>{
+      const div=document.createElement('div');
+      div.className='mock-result';
+      div.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center"><div><div class="title" style="font-size:15px">${f.old} → ${f.new}</div><div class="sub">${f.desc}</div></div><div style="color:var(--accent);font-size:11px;font-weight:600;text-transform:uppercase">Updated</div></div>`;
+      cards.appendChild(div);
+      setTimeout(()=>{div.classList.add('show');playClick()},50);
+    },i*300+800);
+  });
+}
+
+// === KEYBOARD NAVIGATION ===
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' ')nextScene();
+  if(e.key==='ArrowLeft')prevScene();
+  if(e.key==='p')toggleAutoPlay();
+});
+
+// Run initial scene
+updateProgress();
+setTimeout(()=>runSceneAnimation(0),500);
+</script>
+</body>
+</html>

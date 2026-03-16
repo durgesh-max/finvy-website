@@ -1809,9 +1809,7 @@
     <div style="border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--spacing-xl); background: var(--light-surface); margin-bottom: var(--spacing-2xl); box-shadow: var(--shadow-sm);">
       <h3 style="margin-bottom: var(--spacing-md);">Built By</h3>
       <p style="margin-bottom: var(--spacing-md);">Transect is conceptualised, built, and maintained by <strong>Finvy</strong> — a product of <strong>Bharat Quantum Prospera Private Limited</strong> — as a free contribution to India's tax and legal community. We believe that access to well-organised legal information should not be behind a paywall, especially during one of the biggest legislative transitions in Indian history.</p>
-      <p style="margin-bottom: var(--spacing-sm);"><strong>Email:</strong> <a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></p>
-      <p style="margin-bottom: var(--spacing-sm);"><strong>Phone:</strong> <a href="tel:+917801887130">+91 7801887130</a></p>
-      <p style="margin-bottom: var(--spacing-sm);"><strong>WhatsApp:</strong> <a href="https://wa.me/917801887130" target="_blank">+91 7801887130</a></p>
+      <p style="margin-bottom: var(--spacing-sm);"><strong>Contact:</strong> <a href="tel:+917801887130">+91 7801887130</a></p>
       <p style="margin-top: var(--spacing-md);">Built with care, for CAs, CSs, Advocates, Tax Practitioners, and Students across Bharat.</p>
     </div>
   </section>
@@ -1990,9 +1988,7 @@
       <div class="footer-section">
         <h5>Contact</h5>
         <ul class="footer-links">
-          <li><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></li>
           <li><a href="tel:+917801887130">+91 7801887130</a></li>
-          <li><a href="https://wa.me/917801887130" target="_blank">WhatsApp</a></li>
         </ul>
       </div>
     </div>
@@ -2937,6 +2933,580 @@
       renderComparison();
     }
 
+    function generateStatutoryText(item) {
+      const statutoryData = {
+        'preliminary': [
+          {
+            ref: 'SECTION 2(1) — INCOME DEFINED',
+            text: '"Income" includes any augmentation of value of a person\'s property during the previous year, whether or not caused by the application, depreciation, depletion or substitution of the capital.',
+            explain: 'Income is not just money you earn. It includes any increase in the value of your property during the year, from any source whatsoever.'
+          },
+          {
+            ref: 'SECTION 2(31) — DEFINITION OF "PERSON"',
+            text: '"Person" includes an individual, a Hindu undivided family, a company, a firm, an association of persons or a body of individuals, whether incorporated or not, and also a local authority and every artificial juridical person not falling within any of the preceding categories.',
+            explain: 'A "person" under tax law is not just a human being. It includes individuals, families, companies, partnerships, and any group recognized as having legal rights.'
+          },
+          {
+            ref: 'SECTION 2(47) — "PREVIOUS YEAR" DEFINED',
+            text: '"Previous year" means the financial year immediately preceding the relevant assessment year. However, the previous year shall commence on the 1st day of April and end on the 31st day of March of the following year.',
+            explain: 'The previous year runs from April 1st to March 31st. All income you earn during this 12-month period is taxed in the next financial year (assessment year).'
+          },
+          {
+            ref: 'SECTION 2(48) — "RELEVANT ASSESSMENT YEAR" DEFINED',
+            text: '"Relevant assessment year" means the assessment year in which the income of the previous year is to be assessed under this Act.',
+            explain: 'The assessment year is the year in which your income tax return is filed and your income is assessed. It always comes one year after the financial year in which you earned the income.'
+          },
+          {
+            ref: 'SECTION 2(6A) — "ASSESSEE" DEFINED',
+            text: '"Assessee" means a person by whom any tax is payable or any other liability under this Act, and includes any person in respect of whom any proceeding under this Act has been initiated for the assessment of income or loss.',
+            explain: 'An assessee is anyone who has to pay income tax or file a tax return under the law. You become an assessee as soon as your income crosses the taxable limit.'
+          }
+        ],
+        'exemptions': [
+          {
+            ref: 'SECTION 10(1) — AGRICULTURAL INCOME EXEMPTION',
+            text: '"Income from land which is used for agricultural purposes and is situate in India shall not be included in the total income."',
+            explain: 'If you earn income from farming your own land in India, that agricultural income is completely exempt from tax. This is an incentive for agricultural development.'
+          },
+          {
+            ref: 'SECTION 10(16) — SCHOLARSHIPS AND AWARDS',
+            text: '"Any scholarship granted to meet the cost of higher education provided it is not considered as remuneration for any service or labour rendered. Educational scholarships granted to students for higher studies are exempt."',
+            explain: 'Scholarships and educational grants are not taxable income. However, if the money is given as payment for work you did, it becomes taxable as salary.'
+          },
+          {
+            ref: 'SECTION 10(17) — RELIEF FOR DISABILITY ALLOWANCE',
+            text: '"The amount of any disability pension paid by the Government to any person shall be exempt from tax. Also, any payment received towards annuity based on disability is exempt."',
+            explain: 'Disability pensions and annuities paid to disabled persons are not taxed to encourage and support persons with disabilities.'
+          },
+          {
+            ref: 'SECTION 10(34) — VOLUNTARY RETIREMENT COMPENSATION',
+            text: '"The amount received by an employee as compensation for voluntary retirement, retrenchment or termination of service shall be exempt, subject to a maximum of 5 lakh rupees or as prescribed."',
+            explain: 'When an employee is retrenched or takes voluntary retirement, a portion of the compensation received is tax-free, with limits set by tax rules.'
+          }
+        ],
+        'trusts': [
+          {
+            ref: 'SECTION 2(62) — "TRUST" DEFINED',
+            text: '"Trust" means an arrangement where one or more settlor transfer property to a trustee who holds it for the benefit of beneficiaries. The trust is created by deed, will, or court order.',
+            explain: 'A trust is a legal arrangement where a trustee holds property on behalf of beneficiaries. The trustee has legal obligations to manage the property for the beneficiaries\' benefit.'
+          },
+          {
+            ref: 'SECTION 161(1A) — ASSESSMENT OF TRUSTS',
+            text: '"In the case of an association of persons or a trust, the assessing officer shall make assessment on the representative of the association or the trustee, as the case may be. Income of all members shall be aggregated for assessment purposes."',
+            explain: 'A trust is assessed as a single entity on its representative or trustee. All income earned by the trust is taxed together, not separately to each beneficiary.'
+          },
+          {
+            ref: 'SECTION 164 — CLUBBING OF INCOME — INCOME FROM PROPERTY HELD IN TRUST',
+            text: '"Where an individual transfers property in trust but retains or re-acquires control over the income or property, the income shall be clubbed back with the individual\'s income."',
+            explain: 'If you create a trust but still control its income or property, the tax authority will treat that income as yours for tax purposes, not the trust\'s or beneficiary\'s.'
+          },
+          {
+            ref: 'SECTION 167 — EXEMPTION FOR CERTAIN TRUSTS',
+            text: '"Income derived by any trust from property, if the property was acquired by the trust before the date of imposition of the tax, may be wholly or partly exempt if the trust is established exclusively for charitable or religious purposes."',
+            explain: 'Trusts established for charity or religion can get exemption on their income if they meet specific conditions and are registered with the tax authority.'
+          }
+        ],
+        'salary': [
+          {
+            ref: 'SECTION 15 — SALARY AS HEAD OF INCOME',
+            text: '"Salary includes wages, annuity, pension, gratuity and any other remuneration paid in respect of a person\'s employment or office by their employer."',
+            explain: 'Salary includes all forms of compensation for your job: basic pay, bonuses, gratuity, pension, and any other money your employer gives you for your employment.'
+          },
+          {
+            ref: 'SECTION 17(1) — COMPONENTS OF SALARY',
+            text: '"Salary shall be computed by aggregating: (a) Basic wages, (b) Dearness allowance to the extent admissible, (c) Commission on turnover, (d) Fees for technical or professional services rendered, (e) Contribution by employer to welfare fund, and (f) Any remuneration received in whatever form."',
+            explain: 'Salary for tax purposes includes not just your basic pay but also all allowances, bonuses, commissions, and contributions your employer makes to any fund on your behalf.'
+          },
+          {
+            ref: 'SECTION 17(2) — PERQUISITES',
+            text: '"The value of any facility or amenity provided by the employer or his associates, including free or subsidized accommodation, food, vehicles, and other personal benefits, shall be taxed as perquisites."',
+            explain: 'Perquisites are benefits your employer provides beyond salary—like company housing, car, meals. These have a taxable value even though you don\'t receive cash for them.'
+          },
+          {
+            ref: 'SECTION 17(3) — ALLOWANCES THAT ARE FULLY TAXABLE',
+            text: '"All allowances, unless specifically exempted by the Act, including dearness allowance, special allowance, personal allowance, entertainment allowance, city compensatory allowance, and other monthly allowances, shall be fully included in taxable salary."',
+            explain: 'Most allowances you receive are fully taxable. Even though they\'re called "allowances," they count as taxable income unless a specific tax law exempts them.'
+          },
+          {
+            ref: 'SECTION 16(i) — DEDUCTION FOR STANDARD DEDUCTION',
+            text: '"A deduction at a fixed rate (as prescribed by the Government) shall be allowed from salary income. This standard deduction is allowed in lieu of all other deductions related to employment."',
+            explain: 'You get a standard deduction from your salary income automatically. This removes the need to claim individual deductions for work-related expenses.'
+          }
+        ],
+        'house-property': [
+          {
+            ref: 'SECTION 22 — ANNUAL VALUE OF HOUSE PROPERTY',
+            text: '"The income of a person from house property shall be computed as the annual value of the property. The annual value shall be the gross annual rent at which the property is let, or if not let, the rent at which the property could reasonably be expected to let."',
+            explain: 'For tax purposes, house property income is based on what rent you could charge or actually charge, not the market value of the property. This is called "notional rental income."'
+          },
+          {
+            ref: 'SECTION 23(1) — MUNICIPAL TAXES AND OTHER DEDUCTIONS',
+            text: '"In computing the income from house property, a deduction shall be allowed for all municipal taxes, property taxes, local taxes and any amount paid towards maintenance of the property, but no deduction shall be allowed for capital expenditure or personal expenses."',
+            explain: 'You can deduct property taxes and maintenance costs from rental income, but not renovation costs (capital expenses) or personal living expenses.'
+          },
+          {
+            ref: 'SECTION 24 — INTEREST ON BORROWED CAPITAL',
+            text: '"A deduction shall be allowed for interest paid on capital borrowed for acquiring, constructing, or improving house property. For self-occupied property, interest on borrowed capital shall be allowed only up to a limit of Rs. 2 lakh per annum."',
+            explain: 'You can deduct interest on home loans. For homes where you live, the deduction is capped at Rs. 2 lakh per year. For rental properties, no limit applies.'
+          },
+          {
+            ref: 'SECTION 25 — DEDUCTION FOR DEPRECIATION',
+            text: '"A deduction for depreciation shall be allowed on the value of the building as on the date immediately preceding the date with effect from which the property is first let out. The rate of depreciation shall be as prescribed."',
+            explain: 'The building depreciates in value over time, and you can claim an annual depreciation deduction. This is allowed only on rented properties, not self-occupied homes.'
+          },
+          {
+            ref: 'SECTION 23(1A) — SELF-OCCUPIED PROPERTY EXEMPTION',
+            text: '"In the case of a house property which is self-occupied by the owner, the annual value shall be taken as Nil. Therefore, no tax is payable on self-occupied residential property."',
+            explain: 'If you live in your own house, that house property is not taxed at all. Only rental income and interest on loans apply; the house itself is tax-free.'
+          }
+        ],
+        'business': [
+          {
+            ref: 'SECTION 28 — BUSINESS OR PROFESSION INCOME',
+            text: '"Business" includes any trade, commerce, manufacture, adventure in the nature of trade, or any transaction in connection with the acquisition or disposal of goods. The income arising from such business shall be included in total income.',
+            explain: 'Income from any business, trade, or profession you run is taxable. Even a one-time business venture (adventure in the nature of trade) counts as business income.'
+          },
+          {
+            ref: 'SECTION 30 — CAPITAL EXPENDITURE',
+            text: '"No deduction shall be allowed for any capital expenditure, meaning expenditure incurred to acquire or construct an asset or expenditure of an enduring benefit. However, deduction is allowed for revenue or operating expenditure incurred wholly and exclusively for the purpose of the business."',
+            explain: 'You cannot deduct capital costs (buying equipment, property) from business income. You can only deduct operating costs (rent, salaries, materials) spent to run the business.'
+          },
+          {
+            ref: 'SECTION 36(1) — DEDUCTIONS ALLOWED IN BUSINESS INCOME',
+            text: '"The following deductions shall be allowed: (a) Interest on capital used in the business, (b) Depreciation, (c) Bad debts written off, (d) Rent, rates, taxes (other than income tax), (e) Repairs and maintenance, (f) Salaries and wages, (g) Insurance premiums, (h) Fees for professional services."',
+            explain: 'You can deduct legitimate business expenses like interest, depreciation, bad debts, rent, property taxes, repairs, employee salaries, and professional fees from your business income.'
+          },
+          {
+            ref: 'SECTION 37(1) — GENERAL DEDUCTIONS',
+            text: '"Any expenditure not covered by sections 30-36 shall be allowed as a deduction if it is incurred wholly and exclusively for the purpose of the business and is not a capital expenditure or a personal expense."',
+            explain: 'Beyond the listed deductions, you can deduct any other business expense that is spent only for the business and not for personal use.'
+          },
+          {
+            ref: 'SECTION 80B — PRESUMPTIVE TAXATION FOR SMALL BUSINESS',
+            text: '"A person engaged in a business or profession may opt for a scheme of presumptive taxation wherein income is computed at a percentage (as prescribed) of gross turnover instead of actual computation, subject to compliance with certain conditions."',
+            explain: 'Small business owners can opt for simplified taxation where tax is calculated as a percentage of turnover, without needing to file detailed accounts or compute actual profit.'
+          }
+        ],
+        'capital-gains': [
+          {
+            ref: 'SECTION 2(14) — CAPITAL GAIN DEFINED',
+            text: '"Capital gain" means the profit arising from the transfer of a capital asset. The capital gain shall be the amount by which the full value of consideration received exceeds the cost of acquisition, cost of improvement, and expenses of transfer.',
+            explain: 'Capital gain is the profit you make when you sell an asset like property, stocks, or jewellery. It is the selling price minus the purchase price and any improvement costs.'
+          },
+          {
+            ref: 'SECTION 46 — HOLDING PERIOD AND LONG-TERM VS SHORT-TERM',
+            text: '"If a capital asset is held for more than 36 months (or 12 months for financial securities and debt instruments), the gain is long-term. Otherwise, it is short-term. Long-term gains receive favorable tax treatment."',
+            explain: 'If you hold an asset for more than 3 years (or 1 year for stocks and bonds), the gain is treated as long-term and taxed at a lower rate. Otherwise, it\'s short-term and taxed at higher rates.'
+          },
+          {
+            ref: 'SECTION 48 — COST INFLATION INDEX',
+            text: '"In computing long-term capital gains, the cost of acquisition shall be adjusted for inflation using the Cost Inflation Index published by the Government, resulting in tax relief for inflation."',
+            explain: 'For long-term capital gains, your purchase price is adjusted for inflation using a government-provided index before calculating the profit. This reduces the taxable gain.'
+          },
+          {
+            ref: 'SECTION 54 — EXEMPTION FOR RESIDENTIAL PROPERTY',
+            text: '"If the capital asset is a residential house property and the full value of consideration received is reinvested in another residential property within specified time limits, the capital gain shall be fully exempt."',
+            explain: 'If you sell a residential house and buy another house within the specified time limit, your entire capital gain is tax-free.'
+          },
+          {
+            ref: 'SECTION 50 — CAPITAL GAINS FROM DEPRECIABLE ASSETS',
+            text: '"For assets on which depreciation is claimed, capital gains are taxed as ordinary income (at income tax slab rates) instead of capital gains rates, even for long-term gains."',
+            explain: 'If you sell business assets like machinery or buildings that you claimed depreciation on, the gain is taxed like regular income, not at lower capital gains rates.'
+          }
+        ],
+        'other-sources': [
+          {
+            ref: 'SECTION 56 — INCOME FROM OTHER SOURCES',
+            text: '"Any income which is not classifiable as salaries, income from house property, profits from business, or capital gains, shall be taxed under the head "Income from Other Sources."',
+            explain: 'Any income that doesn\'t fit into the five main categories (salary, house property, business, capital gains, or losses) is taxed under this catch-all category.'
+          },
+          {
+            ref: 'SECTION 56(2)(x) — GIFTS AND BEQUESTS',
+            text: '"Cash gifts received, gifts of movable property from relatives (as defined), and inheritance from deceased persons shall be exempt from tax. However, gifts of immovable property from non-relatives are taxable at their fair market value."',
+            explain: 'Gifts from relatives are generally tax-free. But if you receive valuable property as a gift from someone who is not a relative, it becomes taxable income at the property\'s value.'
+          },
+          {
+            ref: 'SECTION 56(2)(vii) — RECEIPTS FROM ENTERTAINMENT AND LOTTERIES',
+            text: '"Winnings from any lotteries, crossword puzzles, competitions, and game shows shall be taxed as income from other sources at the rates specified in the Schedule."',
+            explain: 'Lottery winnings, prize money from competitions, and game show earnings are all taxable. These are taxed at special rates mentioned in the tax schedule.'
+          },
+          {
+            ref: 'SECTION 57(i) — DEDUCTIONS FROM OTHER SOURCES',
+            text: '"In computing income from other sources, a deduction shall be allowed for interest on borrowed capital used to earn such income, and any expenditure wholly and exclusively incurred for earning such income."',
+            explain: 'If you have expenses to earn other income (like interest on a loan for investment or brokerage fees), you can deduct those expenses from this income.'
+          }
+        ],
+        'clubbing': [
+          {
+            ref: 'SECTION 64 — INCOME FROM ASSETS TRANSFERRED TO SPOUSE',
+            text: '"Where an individual transfers assets to their spouse and income arises from such transferred assets, that income shall be included in the individual\'s total income, except in certain conditions."',
+            explain: 'If you transfer assets to your spouse to reduce tax, the income from those assets is still taxed in your hands, not your spouse\'s. This prevents tax evasion through spousal transfers.'
+          },
+          {
+            ref: 'SECTION 63 — INCOME FROM ASSETS TRANSFERRED TO MINOR CHILD',
+            text: '"Where an individual transfers assets to their minor child and income arises from such assets, that income shall be included in the individual\'s income except from living expenses or education of the minor child."',
+            explain: 'If you transfer money or assets to your child\'s bank account or investment, the income generated is taxed in your hands, not your child\'s. This prevents misuse of children\'s tax-free status.'
+          },
+          {
+            ref: 'SECTION 61 — CLUBBING OF INCOME — INCOME FROM ASSETS TRANSFERRED FOR INADEQUATE CONSIDERATION',
+            text: '"If an individual transfers assets for inadequate consideration (below market value), the income from such assets shall be clubbed with the transferor\'s income."',
+            explain: 'If you transfer property at an artificially low price to someone else, the income is still taxed in your name. The tax authority will not accept undervalued transfers.'
+          },
+          {
+            ref: 'SECTION 164 — CLUBBING OF INCOME OF BENEFICIARIES OF TRUST',
+            text: '"In case of income from property held in trust, if the settlor or their spouse has control over or an interest in the trust\'s income or property, that income shall be clubbed with the settlor\'s income."',
+            explain: 'If you create a trust but keep control over its money or assets, the trust\'s income is taxed as yours. You cannot use trusts to split income and reduce taxes.'
+          }
+        ],
+        'unexplained': [
+          {
+            ref: 'SECTION 69 — UNEXPLAINED INCOME',
+            text: '"If during any financial year a person is found to be in possession of money, jewellery, or other valuable items and cannot satisfactorily explain the source of acquisition, such amount shall be included in their total income at the rate prescribed."',
+            explain: 'If the tax authority finds you have cash, gold, or assets you cannot explain, they will treat it as income and tax you on it, even if you don\'t report it.'
+          },
+          {
+            ref: 'SECTION 69A — UNEXPLAINED EXPENDITURE',
+            text: '"If during any financial year a person incurs expenditure (including purchase of assets, improvement to property, or any other expense) and cannot explain the source of funds for such expenditure, the amount shall be treated as income."',
+            explain: 'If you spend money on purchases or investments and cannot explain where the money came from, the tax authority will treat that spending as your income and tax it.'
+          },
+          {
+            ref: 'SECTION 69B — UNEXPLAINED INVESTMENTS',
+            text: '"If a person invests in any property or capital asset and cannot explain the source of funds for such investment, the invested amount shall be treated as undisclosed income."',
+            explain: 'If you invest money in stocks, property, or other assets without proving where that money came from, the tax authority will treat the entire investment as your taxable income.'
+          },
+          {
+            ref: 'SECTION 69C — UNEXPLAINED MONEY BORROWED OR RECEIVED',
+            text: '"If any money is borrowed or received by a person and they cannot explain the source, and such money is used to acquire or improve any asset, the amount shall be deemed as income."',
+            explain: 'If you borrow money or receive money from someone and use it to buy assets, but cannot prove the source is legitimate, it will be taxed as income in your hands.'
+          }
+        ],
+        'set-off': [
+          {
+            ref: 'SECTION 71 — LOSS CARRIED FORWARD AND SET-OFF',
+            text: '"If in any financial year a person has a loss from one head of income, such loss may be set-off against income from other heads in the same year, or carried forward to future years as per the prescribed conditions."',
+            explain: 'If you have a loss in one type of income (like business loss), you can subtract it from profit in another type (like salary or rental income). Unused losses can be carried forward.'
+          },
+          {
+            ref: 'SECTION 72 — LOSS FROM HOUSE PROPERTY SET-OFF',
+            text: '"Loss from house property may be set-off against income from other sources or carried forward for a maximum of 8 years, but can be set-off against house property income in future years without any limit."',
+            explain: 'House property losses can be carried forward for 8 years and set off against other income, or indefinitely against future house property income.'
+          },
+          {
+            ref: 'SECTION 73 — LOSS FROM BUSINESS SET-OFF',
+            text: '"Loss from business or profession may be set-off against any other head of income in the same year, or carried forward for a maximum of 8 years to set-off against income from business or profession."',
+            explain: 'Business losses can be carried forward for 8 years and set off only against future business income, not against salary or other income in future years.'
+          },
+          {
+            ref: 'SECTION 74 — LOSS FROM SPECULATION BUSINESS',
+            text: '"Loss from speculation business can be set-off only against income from speculation business and can be carried forward for a maximum of 4 years."',
+            explain: 'Losses from stock market speculation or trading can only be used against future speculation profits, within a 4-year limit.'
+          },
+          {
+            ref: 'SECTION 79 — RESTRICTION ON SET-OFF OF LOSS',
+            text: '"Notwithstanding the provisions of sections 71-74, no loss shall be set-off or carried forward if the assessee has not filed their income tax return within the prescribed due date."',
+            explain: 'You can only carry forward losses if you filed your tax return on time. Late filing means you lose your right to carry forward the loss.'
+          }
+        ],
+        'deductions': [
+          {
+            ref: 'SECTION 80C — DEDUCTION FOR SAVINGS',
+            text: '"A deduction shall be allowed for contributions towards life insurance premiums, provident fund, deposits in savings accounts, investments in Post Office Schemes, and tuition fees for education, up to a maximum of Rs. 1.5 lakh in a financial year."',
+            explain: 'You can deduct up to Rs. 1.5 lakh per year for qualifying savings and investments like life insurance, PF, fixed deposits, and education fees.'
+          },
+          {
+            ref: 'SECTION 80D — MEDICAL INSURANCE AND HEALTH EXPENSES',
+            text: '"A deduction shall be allowed for health insurance premiums paid for self, spouse, children, and parents. Also, actual medical expenses for serious ailments not covered by insurance are deductible."',
+            explain: 'You can deduct health insurance premiums and medical expenses for yourself and family members. The deduction depends on age and relationship.'
+          },
+          {
+            ref: 'SECTION 80E — EDUCATION LOAN INTEREST',
+            text: '"Interest paid on education loans taken for higher education of self, spouse, or children is fully deductible without any monetary limit, for up to 8 years from the year in which the loan was first repaid."',
+            explain: 'You can fully deduct education loan interest for 8 years. This is unlimited and applies to your own education or your family\'s education.'
+          },
+          {
+            ref: 'SECTION 80G — DONATIONS TO CHARITABLE INSTITUTIONS',
+            text: '"Donations to registered charitable institutions, temples, mosques, gurudwaras, churches, and other approved charitable organizations are deductible from total income, subject to specified limits."',
+            explain: 'Donations to registered charities and religious institutions reduce your taxable income. The deduction is either 50% or 100% of the donation, depending on the institution.'
+          },
+          {
+            ref: 'SECTION 80CCH — MEDICAL EXPENSES FOR SENIOR CITIZENS',
+            text: '"Senior citizens (aged 60 and above) can claim a deduction for actual medical expenses including insurance premiums, medical treatment, and health check-up, up to a limit."',
+            explain: 'Senior citizens can deduct health insurance and medical expenses as an additional benefit beyond the general 80D deduction.'
+          }
+        ],
+        'rates': [
+          {
+            ref: 'SECTION 88 — INCOME TAX RATES AND SLABS',
+            text: '"Income tax shall be levied and collected at the rates specified in the Schedule to this Act. The rates vary based on income slabs and the assessee\'s status (individual, HUF, company, etc.)."',
+            explain: 'Income tax is calculated using different rate slabs. As income increases, the tax rate increases (progressive taxation). Rates also differ for different types of taxpayers.'
+          },
+          {
+            ref: 'SECTION 87A — REBATE OF TAX FOR RESIDENTS',
+            text: '"In the case of an individual resident in India, a rebate shall be allowed against the income tax computed if their total income does not exceed the prescribed limit."',
+            explain: 'If your income is below a certain threshold, you may get a rebate (reduction) in the tax you have to pay. This is provided only to resident individuals.'
+          },
+          {
+            ref: 'SECTION 89(1) — TAX ON INCOME FROM EARLIER YEARS',
+            text: '"If an individual receives or becomes entitled to any income which relates to an earlier year, such income is taxed under special averaging provisions to prevent bunching of income."',
+            explain: 'If you suddenly receive a large amount relating to an earlier year (like back pay or arrears), it is spread over multiple years to avoid pushing you into a higher tax bracket.'
+          },
+          {
+            ref: 'SECTION 194 — SURCHARGE AND HEALTH AND EDUCATION CESS',
+            text: '"A surcharge is levied in addition to income tax if income exceeds the prescribed limit. A Health and Education Cess of 4% is levied on income tax for all taxpayers."',
+            explain: 'Besides income tax, you pay surcharge (additional tax at higher income levels) and a 4% cess for health and education. This increases the total tax liability.'
+          }
+        ],
+        'dtaa': [
+          {
+            ref: 'SECTION 90 — RELIEF FOR TAXES PAID IN FOREIGN COUNTRIES',
+            text: '"An Indian resident earning income in a foreign country and paying taxes there can get credit for the foreign taxes paid against Indian tax liability, subject to the terms of the Double Taxation Avoidance Agreement with that country."',
+            explain: 'If you are an Indian resident earning income abroad, you do not pay tax twice. You get credit for foreign taxes paid, reducing your Indian tax liability.'
+          },
+          {
+            ref: 'SECTION 90(2) — CHOICE BETWEEN DTAA AND SECTION 91',
+            text: '"A resident can choose either the relief available under a Double Taxation Avoidance Agreement or the relief under Section 91 (normal foreign tax credit), whichever is more beneficial."',
+            explain: 'You can choose whichever method gives you lower tax—either the foreign tax credit method or the DTAA relief, depending on your circumstances.'
+          },
+          {
+            ref: 'SECTION 91 — FOREIGN TAXES CREDIT',
+            text: '"If a person is a resident in India and earns foreign income, foreign taxes paid can be credited against Indian income tax liability, limited to the Indian tax payable on that foreign income."',
+            explain: 'Foreign taxes paid can reduce your Indian tax, but the credit cannot exceed the Indian tax on that income. You cannot claim credit for excess foreign tax.'
+          },
+          {
+            ref: 'SECTION 92 — TRANSFER PRICING — REQUIREMENT FOR DOCUMENTATION',
+            text: '"A person engaged in international transactions with associated enterprises shall maintain transfer pricing documentation showing that the price charged is at arm\'s length (market price)."',
+            explain: 'If you have international business dealings with related companies, you must prove the prices are fair market prices. Artificial discounting to reduce taxes is not allowed.'
+          }
+        ],
+        'transfer-pricing': [
+          {
+            ref: 'SECTION 92(1) — TRANSFER PRICING DEFINED',
+            text: '"Transfer pricing is the price charged for transactions between associated enterprises. Such price must be at arm\'s length, meaning the price that independent parties would charge in comparable circumstances."',
+            explain: 'When you do business with related companies, the prices must be fair market prices. You cannot artificially lower prices to shift profits and avoid taxes.'
+          },
+          {
+            ref: 'SECTION 92(3) — TRANSFER PRICING REGULATIONS',
+            text: '"The Central Board of Direct Taxes shall prescribe Transfer Pricing Guidelines for determining the arm\'s length price for various types of international transactions including tangible assets, intangible assets, and services."',
+            explain: 'The tax authority has detailed rules for determining fair market prices for different types of transactions between related parties, to prevent profit shifting.'
+          },
+          {
+            ref: 'SECTION 92(2) — ADJUSTMENTS FOR NON-ARM\'S LENGTH PRICES',
+            text: '"If the price charged is not at arm\'s length, the Assessing Officer shall adjust the price to the arm\'s length price. The difference shall be added to the income for taxation."',
+            explain: 'If the tax authority finds that prices are not fair market prices, it will revalue the transaction at the correct market price and tax you on the additional income.'
+          },
+          {
+            ref: 'SECTION 92C — ADVANCE PRICING AGREEMENT',
+            text: '"A taxpayer engaged in international transactions may seek an Advance Pricing Agreement with the tax authority to determine the arm\'s length price in advance, providing certainty for multi-year transactions."',
+            explain: 'Large companies can get pre-approval from the tax authority for the transfer prices they will use. This provides certainty and prevents disputes.'
+          }
+        ],
+        'tds-tcs': [
+          {
+            ref: 'SECTION 192 — TAX DEDUCTION AT SOURCE FROM SALARY',
+            text: '"Every employer shall deduct income tax from salary paid to employees and remit it to the Government on a monthly basis. The deduction shall be based on the employee\'s estimated income and applicable slab rates."',
+            explain: 'Your employer deducts tax from your monthly salary and sends it to the government. This is advance tax payment. You adjust it when filing your annual return.'
+          },
+          {
+            ref: 'SECTION 193 — TAX DEDUCTION AT SOURCE FROM INTEREST',
+            text: '"Any person paying interest (excluding interest from banks to depositors) shall deduct tax at source at the prescribed rate and remit it to the Government."',
+            explain: 'When you receive interest from bonds, loans to others, or non-bank sources, the payer must deduct tax and send it to the government.'
+          },
+          {
+            ref: 'SECTION 194 — TAX DEDUCTION AT SOURCE FROM DIVIDENDS AND COMMISSION',
+            text: '"Any person paying dividends, interest on debentures, commission, or insurance commission shall deduct tax at the prescribed rate and remit it to the Government."',
+            explain: 'When companies pay dividends to shareholders or when commission is paid, tax is deducted at source by the payer and sent to the government.'
+          },
+          {
+            ref: 'SECTION 194H — TAX DEDUCTION AT SOURCE FROM COMMISSIONS AND ROYALTIES',
+            text: '"Tax shall be deducted at source on commissions, royalties for use of property or equipment, and professional service payments at the prescribed rate."',
+            explain: 'Payments for commissions, royalties, and professional services have tax deducted by the payer before you receive your money.'
+          },
+          {
+            ref: 'SECTION 206C — TAX COLLECTION AT SOURCE',
+            text: '"A seller shall collect tax from a buyer on the sale of goods at the prescribed rate and remit it to the Government. This is a reverse arrangement where the buyer pays tax upfront."',
+            explain: 'On certain large purchases, the buyer must deduct and pay tax upfront to the government. This is called tax collection at source.'
+          }
+        ],
+        'assessment': [
+          {
+            ref: 'SECTION 139 — FILING OF INCOME TAX RETURN',
+            text: '"Every person whose income exceeds the basic exemption limit shall furnish an income tax return in the prescribed form and manner, on or before the due date, containing full and true particulars of income and tax computation."',
+            explain: 'If your income exceeds the threshold, you must file a return showing all income and taxes. Filing late can result in penalties and loss of certain benefits.'
+          },
+          {
+            ref: 'SECTION 142 — POWER TO CALL FOR INFORMATION',
+            text: '"The Assessing Officer may call upon a person to furnish, within a specified time, any information or document deemed necessary for the purpose of assessment."',
+            explain: 'The tax officer can ask you for documents, bank statements, invoices, and other information to verify your income and deductions claimed.'
+          },
+          {
+            ref: 'SECTION 143 — ASSESSMENT PROCEDURE',
+            text: '"The Assessing Officer shall, on the basis of the return filed, either make an assessment without further inquiry (if the return is in order), or issue notice for assessment after providing opportunity to be heard."',
+            explain: 'The tax officer processes your return. If everything is correct, they accept it. Otherwise, they issue a notice and give you a chance to explain before finalizing the assessment.'
+          },
+          {
+            ref: 'SECTION 144 — ASSESSMENT OF NON-FILERS AND SCRUTINY ASSESSMENT',
+            text: '"If a person fails to file a return, or the Assessing Officer suspects income-tax evasion, the officer may proceed to make an assessment based on available information and evidence."',
+            explain: 'If you do not file a return or the tax officer suspects tax evasion, they can assess your income based on their own investigation and issue an assessment order.'
+          },
+          {
+            ref: 'SECTION 147 — REOPENING OF ASSESSMENT',
+            text: '"An Assessing Officer may reopen an assessment within the prescribed time limit if new information comes to light or if the original assessment was erroneous or incomplete."',
+            explain: 'The tax authority can reopen your assessment within a few years if they discover new evidence or realize they made a mistake. You get a notice before this happens.'
+          }
+        ],
+        'interest': [
+          {
+            ref: 'SECTION 220(1) — INTEREST ON UNPAID TAX',
+            text: '"If tax is not paid by the due date, interest shall be levied at the prescribed rate per month on the unpaid amount. Interest is calculated from the due date until the date of payment."',
+            explain: 'If you do not pay tax on time, you have to pay interest on the unpaid amount. This interest is charged monthly until you clear the tax debt.'
+          },
+          {
+            ref: 'SECTION 221 — INTEREST ON INSTALMENTS OF TAX',
+            text: '"When advance tax is not paid in proper instalments or in the required amounts, interest is levied on the shortfall from the due date of each instalment until the actual payment date."',
+            explain: 'If you do not pay your advance tax in the required quarterly instalments, you pay interest on the shortfall for each quarter you were late.'
+          },
+          {
+            ref: 'SECTION 234A — INTEREST ON DELAYED FILING OF RETURN',
+            text: '"If an income tax return is filed after the due date, interest shall be levied at the prescribed rate on the tax payable as per the return, from the due date until the date of filing."',
+            explain: 'If you file your return late, you must pay interest on the tax due, calculated from the deadline to your actual filing date.'
+          },
+          {
+            ref: 'SECTION 234B — INTEREST ON SHORTFALL OF ADVANCE TAX',
+            text: '"If the advance tax paid falls short of the tax liability as per the return, interest is levied on the shortfall at the prescribed rate."',
+            explain: 'If your advance tax installments are less than your actual tax liability, you pay interest on the difference when filing your return.'
+          },
+          {
+            ref: 'SECTION 234C — INTEREST ON DELAYED DEPOSIT OF TAX DEDUCTED',
+            text: '"If TDS collected from others is not deposited with the Government by the due date, interest is levied on the delayed deposit at the prescribed rate."',
+            explain: 'If an employer or payor collects tax from others but delays sending it to the government, they pay interest on the delayed amount.'
+          }
+        ],
+        'appeals': [
+          {
+            ref: 'SECTION 246 — APPEAL TO COMMISSIONER',
+            text: '"An assessee aggrieved by an assessment order may file an appeal to the Commissioner of Income Tax within 30 days of receipt of the assessment order, challenging the assessment order on grounds of fact or law."',
+            explain: 'If you disagree with the tax officer\'s assessment, you can appeal to their superior (Commissioner) within 30 days. You must present evidence or legal arguments.'
+          },
+          {
+            ref: 'SECTION 254 — APPEAL TO THE INCOME TAX APPELLATE TRIBUNAL',
+            text: '"An assessee or the Department may appeal to the Income Tax Appellate Tribunal (ITAT) against the Commissioner\'s order within 60 days, on questions of law or fact arising out of the assessment."',
+            explain: 'If you lose at the Commissioner level, you can appeal to the independent Tribunal within 60 days. The Tribunal hears evidence and makes an independent decision.'
+          },
+          {
+            ref: 'SECTION 260 — REFERENCE TO HIGH COURT',
+            text: '"Any party may apply to the High Court for reference of any question of law arising out of the ITAT order. The High Court shall decide the legal issue raised."',
+            explain: 'If there is a pure question of law (not involving facts or figures), either party can ask the High Court to decide it after the Tribunal\'s order.'
+          },
+          {
+            ref: 'SECTION 268-C — STAY OF RECOVERY',
+            text: '"Pending appeal, the assessee may request a stay of recovery proceedings, preventing the Government from collecting tax through seizure or other recovery action."',
+            explain: 'While your appeal is pending, you can ask the tax officer not to seize your assets or income to collect the disputed tax. This is called "stay of recovery."'
+          }
+        ],
+        'penalties': [
+          {
+            ref: 'SECTION 271 — PENALTY FOR FAILURE TO FILE RETURN',
+            text: '"If an assessee fails to file an income tax return within the due date and there is any tax payable, a penalty of up to Rs. 10,000 shall be imposed."',
+            explain: 'If you do not file your return by the deadline and owe tax, you face a penalty of up to Rs. 10,000.'
+          },
+          {
+            ref: 'SECTION 271(1)(c) — PENALTY FOR INACCURATE PARTICULARS',
+            text: '"If an assessee furnishes inaccurate particulars of income or claims inflated deductions without reasonable cause, a penalty of 50% to 200% of the additional tax levied shall be imposed."',
+            explain: 'If you underreport income or claim false deductions, you pay a penalty equal to 50-200% of the extra tax that was assessed.'
+          },
+          {
+            ref: 'SECTION 271D — PENALTY FOR FAILURE TO KEEP BOOKS AND RECORDS',
+            text: '"A person engaged in business who fails to maintain proper books of accounts and records shall be liable to a penalty of up to Rs. 2,500 or 10% of gross turnover, whichever is higher."',
+            explain: 'Businesspeople must keep proper books and records. Failure to do so results in a penalty based on turnover.'
+          },
+          {
+            ref: 'SECTION 271E — PENALTY FOR FAILURE TO FURNISH INFORMATION',
+            text: '"If a person fails to furnish information, documents, or evidence as requested by the Assessing Officer within the given time, a penalty of up to Rs. 1,000 per day of non-compliance shall be imposed."',
+            explain: 'If the tax officer asks for documents and you do not provide them on time, you face a daily penalty of up to Rs. 1,000.'
+          },
+          {
+            ref: 'SECTION 271G — PENALTY FOR FAILURE TO REPORT INTERNATIONAL TRANSACTIONS',
+            text: '"If a person fails to furnish a report containing particulars of international transactions or fails to maintain transfer pricing documentation, a penalty of 2% of the value of such transactions shall be imposed."',
+            explain: 'For international transactions, you must report details and keep pricing documentation. Failure results in a 2% penalty on the transaction value.'
+          }
+        ],
+        'recovery': [
+          {
+            ref: 'SECTION 222 — RECOVERY OF TAX BY ATTACHMENT OF PROPERTY',
+            text: '"If tax due is not paid within the prescribed time, the Assessing Officer may attach and sell movable property of the assessee to recover the tax, after giving due notice."',
+            explain: 'The tax officer can seize and sell your movable property (vehicles, equipment, valuables) to recover unpaid tax. You get notice before this happens.'
+          },
+          {
+            ref: 'SECTION 223 — ATTACHMENT OF IMMOVABLE PROPERTY',
+            text: '"If tax remains unpaid, immovable property (land, buildings) of the assessee may be attached and sold to recover the tax due, following the prescribed procedures."',
+            explain: 'If tax remains unpaid after movable property seizure, the tax officer can seize and sell your real estate (house, land) to collect taxes.'
+          },
+          {
+            ref: 'SECTION 225 — RECOVERY FROM SUMS DUE TO ASSESSEE',
+            text: '"If the Government is indebted to the assessee (salary, pension, or other payments due), the amount can be set off against any tax due by the assessee."',
+            explain: 'If you are owed money by the government (salary, refund), it can be used to pay off your tax dues without you having to pay separately.'
+          },
+          {
+            ref: 'SECTION 230 — CERTIFICATE PROCEEDINGS FOR TAX RECOVERY',
+            text: '"The Assessing Officer may apply for a certificate to the District Collector to recover tax dues. The Collector then uses all available legal remedies including garnishment of bank accounts to recover the amount."',
+            explain: 'The tax officer can file a certificate case asking the district authority to recover tax by freezing your bank accounts or other legal action.'
+          },
+          {
+            ref: 'SECTION 131 — POWER TO SUMMON',
+            text: '"The Assessing Officer may summon any person deemed necessary and require them to produce documents or give evidence. Non-compliance with the summons is contempt of law."',
+            explain: 'The tax officer can summon you to appear and answer questions, and require you to bring documents. Ignoring a summons is a serious legal offense.'
+          }
+        ],
+        'heads-of-income': [
+          {
+            ref: 'SECTION 14 — CLASSIFICATION OF INCOME INTO FIVE HEADS',
+            text: '"Income shall be classified and computed under the following five heads: (1) Salaries, (2) Income from House Property, (3) Profits and Gains of Business or Profession, (4) Capital Gains, and (5) Income from Other Sources."',
+            explain: 'All income in India is taxed under five categories. Each category has different rules for calculating taxable income and allowed deductions.'
+          },
+          {
+            ref: 'SECTION 15 — SALARY AS HEAD OF INCOME',
+            text: '"Salary includes wages, compensation, pension, gratuity, commissions, and all remuneration paid in respect of employment by an employer."',
+            explain: 'Salary is the first category and includes all forms of employment income—basic pay, allowances, bonuses, commissions, and even perquisites.'
+          },
+          {
+            ref: 'SECTION 22 — HOUSE PROPERTY AS HEAD OF INCOME',
+            text: '"Income from house property is the second head and includes income from letting out residential or non-residential buildings. Self-occupied property has nil income."',
+            explain: 'The second category covers rental income from properties you own. If you live in your house, it is not taxed.'
+          },
+          {
+            ref: 'SECTION 28 — BUSINESS AS HEAD OF INCOME',
+            text: '"The third head includes income from any business, trade, profession, or adventure in the nature of trade. Profit from business is computed by deducting allowable expenses from gross income."',
+            explain: 'The third category includes income from running your own business or profession. You deduct all legitimate business expenses to find your taxable profit.'
+          },
+          {
+            ref: 'SECTION 45 — CAPITAL GAINS AS HEAD OF INCOME',
+            text: '"The fourth head includes gains arising from the transfer of capital assets. Capital gains are classified as long-term or short-term based on the holding period and taxed at different rates."',
+            explain: 'The fourth category covers profit from selling assets like property, stocks, or jewelry. Long-term holdings get lower tax rates than short-term.'
+          }
+        ]
+      };
+
+      const categoryData = statutoryData[item.category] || [];
+
+      if (categoryData.length === 0) {
+        return '<div class="statutory-block"><p>No statutory text available for this category.</p></div>';
+      }
+
+      let html = '<div class="statutory-block">';
+
+      categoryData.forEach(clause => {
+        html += '<div class="statutory-clause">';
+        html += `<div class="clause-ref">${clause.ref}</div>`;
+        html += `<div class="clause-text">"${clause.text}"</div>`;
+        html += `<div class="clause-explain"><strong>In Simple Terms:</strong> ${clause.explain}</div>`;
+        html += '</div>';
+      });
+
+      html += '</div>';
+
+      return html;
+    }
+
     function downloadComparisonPDF() {
       const today = new Date();
       const dateStr = today.getDate() + ' ' + ['January','February','March','April','May','June','July','August','September','October','November','December'][today.getMonth()] + ' ' + today.getFullYear();
@@ -3042,6 +3612,14 @@ body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-
 .category-badge { display: inline-block; font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; background: rgba(124,92,252,0.1); color: #7C5CFC; padding: 3px 10px; border-radius: 12px; margin-bottom: 12px; }
 .content-heading { font-size: 10pt; font-weight: 700; color: #08081A; text-transform: uppercase; letter-spacing: 0.8px; margin: 16px 0 8px; padding-bottom: 4px; border-bottom: 1px solid #e5e5f0; }
 .content-text { font-size: 10pt; color: #333; line-height: 1.7; text-align: justify; margin-bottom: 8px; }
+.statutory-block { background: #fefdf5; border: 1px solid #e8e0c0; border-radius: 8px; padding: 16px 18px; margin: 14px 0; }
+.statutory-block h4 { font-size: 9pt; font-weight: 700; color: #8b6914; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+.statutory-clause { margin-bottom: 14px; padding-bottom: 12px; border-bottom: 1px dashed #e0d8c0; }
+.statutory-clause:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.clause-ref { font-size: 8pt; font-weight: 700; color: #8b6914; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+.clause-text { font-size: 9.5pt; color: #3d3520; line-height: 1.65; font-style: italic; margin-bottom: 6px; padding: 8px 12px; background: rgba(139,105,20,0.04); border-left: 2px solid #c9a84c; border-radius: 0 4px 4px 0; }
+.clause-explain { font-size: 9.5pt; color: #444; line-height: 1.7; padding-left: 14px; }
+.clause-explain strong { color: #1a1a2e; }
 .takeaway-box { background: #f8f7ff; border-left: 3px solid #7C5CFC; padding: 12px 16px; margin: 12px 0; border-radius: 0 6px 6px 0; }
 .takeaway-box h4 { font-size: 9pt; font-weight: 700; color: #7C5CFC; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
 .takeaway-box ul { list-style: none; padding: 0; }
@@ -3076,7 +3654,7 @@ body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-
     <strong>Sections Covered:</strong> ${state.comparisonArray.length} section${state.comparisonArray.length > 1 ? 's' : ''}<br>
     <strong>Sources:</strong> Official Gazette of India (21 August 2025), ICAI Publications, incometaxindia.gov.in<br>
     <strong>Prepared by:</strong> Finvy | Bharat Quantum Prospera Pvt. Ltd.<br>
-    <strong>Contact:</strong> durgesh@bqpartners.in | +91 7801887130
+    <strong>Contact:</strong> +91 7801887130
   </div>
 </div>`;
 
@@ -3089,7 +3667,7 @@ body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-
 
       // --- EACH SECTION ---
       state.comparisonArray.forEach((item, idx) => {
-        if (idx > 0 && idx % 2 === 0) html += `<div class="page-break"></div>`;
+        if (idx > 0) html += `<div class="page-break"></div>`;
         const impact = generatePracticalImpact(item);
         const simple = generateSimpleExplanation(item);
         const detailed = generateDetailedAnalysis(item);
@@ -3112,6 +3690,11 @@ body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-
       <div class="map-value">Section ${escapeHtml(item.newSection)}</div>
       <div class="map-desc">${escapeHtml(item.title)}</div>
     </div>
+  </div>
+
+  <div class="statutory-block">
+    <h4>Statutory Provisions — Actual Text of Law</h4>
+    ${generateStatutoryText(item)}
   </div>
 
   <div class="content-heading">What Changed &amp; Detailed Explanation</div>
@@ -3158,7 +3741,7 @@ body { font-family: 'Inter', -apple-system, sans-serif; font-size: 10.5pt; line-
   <div class="footer-brand">Transect v3.0.0 | Finvy</div>
   <div class="footer-info">
     ${dateStr}<br>
-    durgesh@bqpartners.in | +91 7801887130<br>
+    +91 7801887130<br>
     A free contribution to India's tax community
   </div>
 </div>

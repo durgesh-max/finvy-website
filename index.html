@@ -155,6 +155,28 @@ a{color:inherit;text-decoration:none}ul{list-style:none}img{max-width:100%;displ
 .nav-link:hover,.nav-link.active{color:#fff;background:rgba(255,255,255,.08)}
 .nav-highlight{color:#fff!important;background:rgba(124,92,252,.18)!important;border:1px solid rgba(124,92,252,.35);position:relative}
 .nav-highlight:hover{background:rgba(124,92,252,.3)!important;border-color:rgba(124,92,252,.5)}
+.nav-tools-wrap{position:relative;display:flex;align-items:center}
+.nav-tools-wrap .nav-highlight{cursor:pointer;display:flex;align-items:center;gap:5px}
+.nav-tools-wrap .tools-arrow{font-size:.55rem;transition:transform .2s ease}
+.nav-tools-wrap:hover .tools-arrow{transform:rotate(180deg)}
+.nav-tools-dd{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-8px);min-width:300px;background:rgba(15,15,35,.97);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:8px;opacity:0;visibility:hidden;transition:all .25s ease;backdrop-filter:blur(24px);box-shadow:0 20px 60px rgba(0,0,0,.5);z-index:1001}
+.nav-tools-wrap:hover .nav-tools-dd{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+.tools-dd-item{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;transition:background .15s ease;text-decoration:none;color:#fff}
+.tools-dd-item:hover{background:rgba(255,255,255,.08)}
+.tools-dd-item.soon{opacity:.5;pointer-events:none}
+.tools-dd-icon{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:10px;font-size:1.1rem;background:rgba(124,92,252,.15);color:#A78BFA;flex-shrink:0}
+.tools-dd-icon.coming{background:rgba(255,255,255,.06);color:rgba(255,255,255,.4)}
+.tools-dd-text h4{font-size:.85rem;font-weight:600;margin:0}
+.tools-dd-text p{font-size:.72rem;color:rgba(255,255,255,.45);margin:2px 0 0;line-height:1.3}
+.tools-dd-divider{height:1px;background:rgba(255,255,255,.06);margin:4px 14px}
+.soon-badge{font-size:.6rem;background:rgba(255,255,255,.08);color:rgba(255,255,255,.4);padding:2px 6px;border-radius:4px;margin-left:6px;font-weight:500}
+#navbar.light-mode .nav-tools-dd{background:rgba(255,255,255,.97);border-color:rgba(0,0,0,.08);box-shadow:0 20px 60px rgba(0,0,0,.12)}
+#navbar.light-mode .tools-dd-item{color:var(--text)}
+#navbar.light-mode .tools-dd-item:hover{background:var(--accent-soft)}
+#navbar.light-mode .tools-dd-text p{color:var(--text-secondary)}
+#navbar.light-mode .tools-dd-divider{background:rgba(0,0,0,.06)}
+#navbar.light-mode .tools-dd-icon{background:var(--accent-soft);color:var(--accent)}
+
 #navbar.light-mode .nav-highlight{color:var(--accent)!important;background:var(--accent-soft)!important;border:1px solid rgba(124,92,252,.2)}
 #navbar.light-mode .nav-highlight:hover{background:rgba(124,92,252,.15)!important;border-color:rgba(124,92,252,.35)}
 .nav-actions{display:flex;align-items:center;gap:10px}
@@ -453,7 +475,33 @@ footer{background:#050514;color:rgba(255,255,255,.45);padding:72px 0 0;border-to
       <a href="#home" class="nav-link active">Home</a>
       <a href="#about" class="nav-link">About</a>
       <a href="#services-overview" class="nav-link">Services</a>
-      <a href="/transect" class="nav-link nav-highlight">Transect</a>
+      <div class="nav-tools-wrap">
+        <span class="nav-link nav-highlight">Tools <span class="tools-arrow">▼</span></span>
+        <div class="nav-tools-dd">
+          <a href="/transect" class="tools-dd-item">
+            <div class="tools-dd-icon">§</div>
+            <div class="tools-dd-text">
+              <h4>Transect</h4>
+              <p>Income Tax Act 1961 ↔ 2025 — Sections, Rules, Forms & TDS/TCS</p>
+            </div>
+          </a>
+          <div class="tools-dd-divider"></div>
+          <div class="tools-dd-item soon">
+            <div class="tools-dd-icon coming">📊</div>
+            <div class="tools-dd-text">
+              <h4>ComplianceOS <span class="soon-badge">Coming Soon</span></h4>
+              <p>Real-time compliance tracker for Indian businesses</p>
+            </div>
+          </div>
+          <div class="tools-dd-item soon">
+            <div class="tools-dd-icon coming">🧮</div>
+            <div class="tools-dd-text">
+              <h4>TaxCalc <span class="soon-badge">Coming Soon</span></h4>
+              <p>Advanced tax computation engine with regime comparison</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <a href="#global-playbook" class="nav-link">Global Playbook</a>
       <a href="#industries" class="nav-link">Industries</a>
       <a href="#founder" class="nav-link">Founder</a>
@@ -796,7 +844,7 @@ footer{background:#050514;color:rgba(255,255,255,.45);padding:72px 0 0;border-to
       <a href="#home" class="nav-logo"><span class="logo-mark">F</span><span class="logo-text">Finvy</span></a>
       <p>We don't raise capital — we engineer outcomes.</p>
     </div>
-    <div class="footer-nav"><h4>Navigation</h4><a href="#home">Home</a><a href="#about">About</a><a href="#services-overview">Services</a><a href="/transect">Transect</a><a href="#global-playbook">Global Playbook</a><a href="#industries">Industries</a><a href="#founder">Founder</a><a href="#associates">Associates</a><a href="#contact">Contact</a></div>
+    <div class="footer-nav"><h4>Navigation</h4><a href="#home">Home</a><a href="#about">About</a><a href="#services-overview">Services</a><a href="/transect">Tools</a><a href="#global-playbook">Global Playbook</a><a href="#industries">Industries</a><a href="#founder">Founder</a><a href="#associates">Associates</a><a href="#contact">Contact</a></div>
     <div class="footer-nav"><h4>Services</h4><a href="#svc-capital">Capital Advisory</a><a href="#svc-legal">Corporate &amp; Legal</a><a href="#svc-expansion">International Expansion</a><a href="#svc-tax">Taxation</a><a href="#svc-ma">M&amp;A</a></div>
     <div class="footer-nav"><h4>Reach Us</h4><a href="tel:+917801887130">+91 78018 87130</a><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a><a href="#contact">Domestic: Ahmedabad · Mumbai · Bengaluru · Rajkot</a><a href="#contact">Overseas: Dubai, UAE</a></div>
   </div>

@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 44" fill="none">
   <!-- Purple rounded square icon -->
   <rect x="0" y="2" width="40" height="40" rx="10" fill="url(#logoGrad)"/>
-  <!-- Letter F -->
-  <text x="20" y="30" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="24" font-weight="800" fill="white">F</text>
-  <!-- Finvy text -->
-  <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="26" font-weight="800" fill="#0F0F2D" letter-spacing="-0.5">Finvy</text>
+  <!-- Letter BQP -->
+  <text x="20" y="30" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="800" fill="white">BQP</text>
+  <!-- Bharat Quantum Prospera text -->
+  <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#0F0F2D" letter-spacing="-0.5">Bharat Quantum Prospera</text>
   <defs>
     <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#8B6FFC"/>

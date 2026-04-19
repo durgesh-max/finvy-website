@@ -146,191 +146,191 @@ html,body{width:100%;height:100%;overflow:hidden;background:var(--dark);font-fam
 <body>
 
 <div class="cinema">
-  <canvas id="particles"></canvas>
+ <canvas id="particles"></canvas>
 
-  <!-- PROGRESS -->
-  <div class="progress-bar" id="progressBar"></div>
-  <div class="progress-dots" id="progressDots"></div>
+ <!-- PROGRESS -->
+ <div class="progress-bar" id="progressBar"></div>
+ <div class="progress-dots" id="progressDots"></div>
 
-  <!-- ====== SCENE 0: OPENING ====== -->
-  <div class="scene active" data-scene="0">
-    <div class="glow-orb a"></div>
-    <div class="glow-orb b"></div>
-    <div class="hero-logo">Finvy Presents</div>
-    <div class="hero-title">Transect</div>
-    <div class="hero-sub">Across Every Section — The definitive tool for navigating India's biggest tax reform in 63 years.</div>
-    <div class="hero-badge"><span class="pulse"></span> Income Tax Act 1961 ↔ 2025</div>
-  </div>
+ <!-- ====== SCENE 0: OPENING ====== -->
+ <div class="scene active" data-scene="0">
+ <div class="glow-orb a"></div>
+ <div class="glow-orb b"></div>
+ <div class="hero-logo">Finvy Presents</div>
+ <div class="hero-title">Transect</div>
+ <div class="hero-sub">Across Every Section — The definitive tool for navigating India's biggest tax reform in 63 years.</div>
+ <div class="hero-badge"><span class="pulse"></span> Income Tax Act 1961 ↔ 2025</div>
+ </div>
 
-  <!-- ====== SCENE 1: THE PROBLEM ====== -->
-  <div class="scene" data-scene="1">
-    <div class="scene-label">The Challenge</div>
-    <div class="scene-title">819 → 536 Sections</div>
-    <div class="scene-desc">India's tax law was rewritten. Every section renumbered. Every form changed. 511 rules became 333. 399 forms became 190. Practitioners need a bridge — fast, accurate, and free.</div>
-    <div class="stats-row">
-      <div class="stat" data-delay="200"><div class="num" data-count="150">0</div><div class="label">Section Mappings</div></div>
-      <div class="stat" data-delay="400"><div class="num" data-count="37">0</div><div class="label">TDS/TCS Entries</div></div>
-      <div class="stat" data-delay="600"><div class="num" data-count="190">0</div><div class="label">Form Changes</div></div>
-      <div class="stat" data-delay="800"><div class="num">0%</div><div class="label">Data Collection</div></div>
-    </div>
-  </div>
+ <!-- ====== SCENE 1: THE PROBLEM ====== -->
+ <div class="scene" data-scene="1">
+ <div class="scene-label">The Challenge</div>
+ <div class="scene-title">819 → 536 Sections</div>
+ <div class="scene-desc">India's tax law was rewritten. Every section renumbered. Every form changed. 511 rules became 333. 399 forms became 190. Practitioners need a bridge — fast, accurate, and free.</div>
+ <div class="stats-row">
+ <div class="stat" data-delay="200"><div class="num" data-count="150">0</div><div class="label">Section Mappings</div></div>
+ <div class="stat" data-delay="400"><div class="num" data-count="37">0</div><div class="label">TDS/TCS Entries</div></div>
+ <div class="stat" data-delay="600"><div class="num" data-count="190">0</div><div class="label">Form Changes</div></div>
+ <div class="stat" data-delay="800"><div class="num">0%</div><div class="label">Data Collection</div></div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 2: GLOBAL SEARCH ====== -->
-  <div class="scene" data-scene="2">
-    <div class="scene-label">Feature 01</div>
-    <div class="scene-title">Universal Search</div>
-    <div class="scene-desc">Type anything — section numbers, keywords, TDS rates, form names. Transect finds it instantly across all categories.</div>
-    <div class="browser-mock">
-      <div class="browser-bar">
-        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
-        <div class="url">finvy.ventures/transect</div>
-      </div>
-      <div class="browser-body" id="searchDemo">
-        <div class="mock-search">
-          <span class="icon">🔍</span>
-          <span class="text" id="searchTyping"></span>
-        </div>
-        <div id="searchResults"></div>
-      </div>
-    </div>
-  </div>
+ <!-- ====== SCENE 2: GLOBAL SEARCH ====== -->
+ <div class="scene" data-scene="2">
+ <div class="scene-label">Feature 01</div>
+ <div class="scene-title">Universal Search</div>
+ <div class="scene-desc">Type anything — section numbers, keywords, TDS rates, form names. Transect finds it instantly across all categories.</div>
+ <div class="browser-mock">
+ <div class="browser-bar">
+ <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+ <div class="url">bharatquantumprospera.com/transect</div>
+ </div>
+ <div class="browser-body" id="searchDemo">
+ <div class="mock-search">
+ <span class="icon">🔍</span>
+ <span class="text" id="searchTyping"></span>
+ </div>
+ <div id="searchResults"></div>
+ </div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 3: SECTION MAPPER ====== -->
-  <div class="scene" data-scene="3">
-    <div class="scene-label">Feature 02</div>
-    <div class="scene-title">Section Mapper</div>
-    <div class="scene-desc">Find any 1961 section's 2025 equivalent — or reverse. With category tags, key changes, and practitioner impact notes.</div>
-    <div class="browser-mock">
-      <div class="browser-bar">
-        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
-        <div class="url">finvy.ventures/transect/#mapper</div>
-      </div>
-      <div class="browser-body" id="mapperDemo">
-        <div style="display:flex;gap:12px;margin-bottom:16px">
-          <div class="mock-search" style="flex:1;border-radius:12px;padding:10px 16px;font-size:14px">
-            <span class="icon">🔍</span>
-            <span class="text" id="mapperTyping"></span>
-          </div>
-          <div style="background:rgba(124,92,252,0.15);border:1px solid rgba(124,92,252,0.3);border-radius:12px;padding:10px 16px;font-size:12px;font-weight:700;color:var(--accent-bright);display:flex;align-items:center;white-space:nowrap" id="directionBtn">Old → New (1961 → 2025)</div>
-        </div>
-        <div id="mapperResults"></div>
-      </div>
-    </div>
-  </div>
+ <!-- ====== SCENE 3: SECTION MAPPER ====== -->
+ <div class="scene" data-scene="3">
+ <div class="scene-label">Feature 02</div>
+ <div class="scene-title">Section Mapper</div>
+ <div class="scene-desc">Find any 1961 section's 2025 equivalent — or reverse. With category tags, key changes, and practitioner impact notes.</div>
+ <div class="browser-mock">
+ <div class="browser-bar">
+ <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+ <div class="url">bharatquantumprospera.com/transect/#mapper</div>
+ </div>
+ <div class="browser-body" id="mapperDemo">
+ <div style="display:flex;gap:12px;margin-bottom:16px">
+ <div class="mock-search" style="flex:1;border-radius:12px;padding:10px 16px;font-size:14px">
+ <span class="icon">🔍</span>
+ <span class="text" id="mapperTyping"></span>
+ </div>
+ <div style="background:rgba(124,92,252,0.15);border:1px solid rgba(124,92,252,0.3);border-radius:12px;padding:10px 16px;font-size:12px;font-weight:700;color:var(--accent-bright);display:flex;align-items:center;white-space:nowrap" id="directionBtn">Old → New (1961 → 2025)</div>
+ </div>
+ <div id="mapperResults"></div>
+ </div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 4: TDS/TCS ====== -->
-  <div class="scene" data-scene="4">
-    <div class="scene-label">Feature 03</div>
-    <div class="scene-title">TDS/TCS Quick Reference</div>
-    <div class="scene-desc">37 verified entries with old→new section mapping, rates, thresholds, and payer types. Filter by any column.</div>
-    <div class="browser-mock">
-      <div class="browser-bar">
-        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
-        <div class="url">finvy.ventures/transect/#tds-data</div>
-      </div>
-      <div class="browser-body" id="tdsDemo" style="padding:20px">
-        <table class="mock-table">
-          <thead><tr><th>Old Sec</th><th>Nature</th><th>Rate</th><th>Threshold</th><th>New Sec</th></tr></thead>
-          <tbody id="tdsRows"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+ <!-- ====== SCENE 4: TDS/TCS ====== -->
+ <div class="scene" data-scene="4">
+ <div class="scene-label">Feature 03</div>
+ <div class="scene-title">TDS/TCS Quick Reference</div>
+ <div class="scene-desc">37 verified entries with old→new section mapping, rates, thresholds, and payer types. Filter by any column.</div>
+ <div class="browser-mock">
+ <div class="browser-bar">
+ <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+ <div class="url">bharatquantumprospera.com/transect/#tds-data</div>
+ </div>
+ <div class="browser-body" id="tdsDemo" style="padding:20px">
+ <table class="mock-table">
+ <thead><tr><th>Old Sec</th><th>Nature</th><th>Rate</th><th>Threshold</th><th>New Sec</th></tr></thead>
+ <tbody id="tdsRows"></tbody>
+ </table>
+ </div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 5: COMPARISON + PDF ====== -->
-  <div class="scene" data-scene="5">
-    <div class="scene-label">Feature 04</div>
-    <div class="scene-title">Compare & Export PDF</div>
-    <div class="scene-desc">Select multiple sections, compare side-by-side, and generate a professional PDF with statutory wordings, expert analysis, and simple explanations.</div>
-    <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;justify-content:center">
-      <div class="pdf-mock" id="pdfDemo">
-        <div class="pdf-header">
-          <h4>Finvy | Transect</h4>
-          <h3>Section Mapping Analysis</h3>
-        </div>
-        <div class="pdf-stat-block">
-          <div class="pdf-stat"><div class="val">45</div><div class="lbl">Old Section</div></div>
-          <div class="pdf-stat"><div class="val">67</div><div class="lbl">New Section</div></div>
-        </div>
-        <div class="pdf-section" style="margin-top:14px">
-          <div class="pdf-label">Category</div>
-          <div class="pdf-text" style="display:inline-block;background:rgba(124,92,252,0.1);color:#7C5CFC;padding:2px 10px;border-radius:20px;font-weight:600;font-size:11px">Capital Gains</div>
-        </div>
-        <div class="statutory-block">
-          <h5>Statutory Provisions — Actual Text</h5>
-          <div class="clause">"Any profits or gains arising from the transfer of a capital asset effected in the previous year shall be chargeable to income-tax..."</div>
-          <div class="explain"><strong>In Simple Terms:</strong> When you sell property, shares, or any capital asset at a profit, that profit is taxable.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <!-- ====== SCENE 5: COMPARISON + PDF ====== -->
+ <div class="scene" data-scene="5">
+ <div class="scene-label">Feature 04</div>
+ <div class="scene-title">Compare & Export PDF</div>
+ <div class="scene-desc">Select multiple sections, compare side-by-side, and generate a professional PDF with statutory wordings, expert analysis, and simple explanations.</div>
+ <div style="display:flex;gap:24px;align-items:flex-start;flex-wrap:wrap;justify-content:center">
+ <div class="pdf-mock" id="pdfDemo">
+ <div class="pdf-header">
+ <h4>Finvy | Transect</h4>
+ <h3>Section Mapping Analysis</h3>
+ </div>
+ <div class="pdf-stat-block">
+ <div class="pdf-stat"><div class="val">45</div><div class="lbl">Old Section</div></div>
+ <div class="pdf-stat"><div class="val">67</div><div class="lbl">New Section</div></div>
+ </div>
+ <div class="pdf-section" style="margin-top:14px">
+ <div class="pdf-label">Category</div>
+ <div class="pdf-text" style="display:inline-block;background:rgba(124,92,252,0.1);color:#7C5CFC;padding:2px 10px;border-radius:20px;font-weight:600;font-size:11px">Capital Gains</div>
+ </div>
+ <div class="statutory-block">
+ <h5>Statutory Provisions — Actual Text</h5>
+ <div class="clause">"Any profits or gains arising from the transfer of a capital asset effected in the previous year shall be chargeable to income-tax..."</div>
+ <div class="explain"><strong>In Simple Terms:</strong> When you sell property, shares, or any capital asset at a profit, that profit is taxable.</div>
+ </div>
+ </div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 6: KEY CHANGES ====== -->
-  <div class="scene" data-scene="6">
-    <div class="scene-label">Feature 05</div>
-    <div class="scene-title">Key Changes & New Provisions</div>
-    <div class="scene-desc">Stay updated on the most impactful changes — from Tax Year concept to indexation removal.</div>
-    <div class="feature-grid" id="featureGrid">
-      <div class="feature-card" data-delay="0"><div class="icon">📅</div><h3>Tax Year Concept</h3><p>Previous Year/Assessment Year replaced by unified Tax Year from FY 2026-27</p></div>
-      <div class="feature-card" data-delay="150"><div class="icon">📊</div><h3>Indexation Removed</h3><p>LTCG flat 12.5% rate — no indexation for transfers after 23 July 2024</p></div>
-      <div class="feature-card" data-delay="300"><div class="icon">🔄</div><h3>TDS Consolidated</h3><p>30+ sections merged into Section 393 (TDS) and 394 (TCS)</p></div>
-      <div class="feature-card" data-delay="450"><div class="icon">📋</div><h3>Forms Streamlined</h3><p>399 forms reduced to 190 — 54 operationalised at launch</p></div>
-      <div class="feature-card" data-delay="600"><div class="icon">🔒</div><h3>Zero Data Collection</h3><p>No cookies, no tracking, no login. Your privacy is absolute.</p></div>
-      <div class="feature-card" data-delay="750"><div class="icon">📄</div><h3>Professional PDFs</h3><p>Export with actual statutory wordings and clause-by-clause explanations</p></div>
-    </div>
-  </div>
+ <!-- ====== SCENE 6: KEY CHANGES ====== -->
+ <div class="scene" data-scene="6">
+ <div class="scene-label">Feature 05</div>
+ <div class="scene-title">Key Changes & New Provisions</div>
+ <div class="scene-desc">Stay updated on the most impactful changes — from Tax Year concept to indexation removal.</div>
+ <div class="feature-grid" id="featureGrid">
+ <div class="feature-card" data-delay="0"><div class="icon">📅</div><h3>Tax Year Concept</h3><p>Previous Year/Assessment Year replaced by unified Tax Year from FY 2026-27</p></div>
+ <div class="feature-card" data-delay="150"><div class="icon">📊</div><h3>Indexation Removed</h3><p>LTCG flat 12.5% rate — no indexation for transfers after 23 July 2024</p></div>
+ <div class="feature-card" data-delay="300"><div class="icon">🔄</div><h3>TDS Consolidated</h3><p>30+ sections merged into Section 393 (TDS) and 394 (TCS)</p></div>
+ <div class="feature-card" data-delay="450"><div class="icon">📋</div><h3>Forms Streamlined</h3><p>399 forms reduced to 190 — 54 operationalised at launch</p></div>
+ <div class="feature-card" data-delay="600"><div class="icon">🔒</div><h3>Zero Data Collection</h3><p>No cookies, no tracking, no login. Your privacy is absolute.</p></div>
+ <div class="feature-card" data-delay="750"><div class="icon">📄</div><h3>Professional PDFs</h3><p>Export with actual statutory wordings and clause-by-clause explanations</p></div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 7: FORMS & PROCEDURES ====== -->
-  <div class="scene" data-scene="7">
-    <div class="scene-label">Feature 06</div>
-    <div class="scene-title">Forms & Procedural Changes</div>
-    <div class="scene-desc">Every form renumbered — ITR, TDS, audit reports, trust registration. Filter by category or search by name.</div>
-    <div class="browser-mock">
-      <div class="browser-bar">
-        <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
-        <div class="url">finvy.ventures/transect/#forms-changes</div>
-      </div>
-      <div class="browser-body" id="formsDemo" style="padding:20px">
-        <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap" id="formTags"></div>
-        <div id="formCards"></div>
-      </div>
-    </div>
-  </div>
+ <!-- ====== SCENE 7: FORMS & PROCEDURES ====== -->
+ <div class="scene" data-scene="7">
+ <div class="scene-label">Feature 06</div>
+ <div class="scene-title">Forms & Procedural Changes</div>
+ <div class="scene-desc">Every form renumbered — ITR, TDS, audit reports, trust registration. Filter by category or search by name.</div>
+ <div class="browser-mock">
+ <div class="browser-bar">
+ <div class="dot r"></div><div class="dot y"></div><div class="dot g"></div>
+ <div class="url">bharatquantumprospera.com/transect/#forms-changes</div>
+ </div>
+ <div class="browser-body" id="formsDemo" style="padding:20px">
+ <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap" id="formTags"></div>
+ <div id="formCards"></div>
+ </div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 8: COMMUNITY ====== -->
-  <div class="scene" data-scene="8">
-    <div class="scene-label">Feature 07</div>
-    <div class="scene-title">Built for the Community</div>
-    <div class="scene-desc">Transect is a seva — free, open, and built for every CA, CS, Advocate, and Tax Practitioner across Bharat. Your feedback makes it better.</div>
-    <div class="stats-row" style="margin-top:0">
-      <div class="stat" data-delay="0"><div class="num">Free</div><div class="label">Forever</div></div>
-      <div class="stat" data-delay="200"><div class="num">Zero</div><div class="label">Data Collection</div></div>
-      <div class="stat" data-delay="400"><div class="num">Open</div><div class="label">For All Practitioners</div></div>
-    </div>
-  </div>
+ <!-- ====== SCENE 8: COMMUNITY ====== -->
+ <div class="scene" data-scene="8">
+ <div class="scene-label">Feature 07</div>
+ <div class="scene-title">Built for the Community</div>
+ <div class="scene-desc">Transect is a seva — free, open, and built for every CA, CS, Advocate, and Tax Practitioner across Bharat. Your feedback makes it better.</div>
+ <div class="stats-row" style="margin-top:0">
+ <div class="stat" data-delay="0"><div class="num">Free</div><div class="label">Forever</div></div>
+ <div class="stat" data-delay="200"><div class="num">Zero</div><div class="label">Data Collection</div></div>
+ <div class="stat" data-delay="400"><div class="num">Open</div><div class="label">For All Practitioners</div></div>
+ </div>
+ </div>
 
-  <!-- ====== SCENE 9: CTA ====== -->
-  <div class="scene" data-scene="9">
-    <div class="glow-orb a"></div>
-    <div class="glow-orb b"></div>
-    <div class="cta-box">
-      <h2>Start Navigating</h2>
-      <p>The biggest tax reform in 63 years deserves a tool that serves every practitioner — freely, accurately, and without barriers.</p>
-      <a href="https://finvy.ventures/transect/" target="_blank" class="cta-btn">Open Transect →</a>
-    </div>
-    <div style="margin-top:32px;font-size:13px;color:var(--gray)">Built with ❤️ by <strong style="color:var(--accent-bright)">Finvy</strong> | Bharat Quantum Prospera Pvt. Ltd.</div>
-  </div>
+ <!-- ====== SCENE 9: CTA ====== -->
+ <div class="scene" data-scene="9">
+ <div class="glow-orb a"></div>
+ <div class="glow-orb b"></div>
+ <div class="cta-box">
+ <h2>Start Navigating</h2>
+ <p>The biggest tax reform in 63 years deserves a tool that serves every practitioner — freely, accurately, and without barriers.</p>
+ <a href="https://bharatquantumprospera.com/transect/" target="_blank" class="cta-btn">Open Transect →</a>
+ </div>
+ <div style="margin-top:32px;font-size:13px;color:var(--gray)">Built with ❤️ by <strong style="color:var(--accent-bright)">Finvy</strong> | </div>
+ </div>
 
-  <!-- CONTROLS -->
-  <div class="controls" id="controls">
-    <button id="prevBtn" onclick="prevScene()">← Back</button>
-    <button id="playBtn" onclick="toggleAutoPlay()" class="primary">
-      <svg class="play-icon" viewBox="0 0 16 16" id="playIcon"><polygon points="3,1 13,8 3,15"/></svg>
-      <span id="playLabel">Auto Play</span>
-    </button>
-    <span class="timer" id="timerDisplay">0:00</span>
-    <button id="nextBtn" onclick="nextScene()">Next →</button>
-  </div>
+ <!-- CONTROLS -->
+ <div class="controls" id="controls">
+ <button id="prevBtn" onclick="prevScene()">← Back</button>
+ <button id="playBtn" onclick="toggleAutoPlay()" class="primary">
+ <svg class="play-icon" viewBox="0 0 16 16" id="playIcon"><polygon points="3,1 13,8 3,15"/></svg>
+ <span id="playLabel">Auto Play</span>
+ </button>
+ <span class="timer" id="timerDisplay">0:00</span>
+ <button id="nextBtn" onclick="nextScene()">Next →</button>
+ </div>
 </div>
 
 <script>
@@ -340,53 +340,53 @@ let audioCtx;
 function ensureAudio(){if(!audioCtx)audioCtx=new AudioCtx()}
 
 function playClick(){
-  ensureAudio();
-  const o=audioCtx.createOscillator(),g=audioCtx.createGain();
-  o.connect(g);g.connect(audioCtx.destination);
-  o.frequency.setValueAtTime(800,audioCtx.currentTime);
-  o.frequency.exponentialRampToValueAtTime(400,audioCtx.currentTime+0.08);
-  g.gain.setValueAtTime(0.15,audioCtx.currentTime);
-  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.08);
-  o.start();o.stop(audioCtx.currentTime+0.08);
+ ensureAudio();
+ const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+ o.connect(g);g.connect(audioCtx.destination);
+ o.frequency.setValueAtTime(800,audioCtx.currentTime);
+ o.frequency.exponentialRampToValueAtTime(400,audioCtx.currentTime+0.08);
+ g.gain.setValueAtTime(0.15,audioCtx.currentTime);
+ g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.08);
+ o.start();o.stop(audioCtx.currentTime+0.08);
 }
 
 function playType(){
-  ensureAudio();
-  const o=audioCtx.createOscillator(),g=audioCtx.createGain();
-  o.connect(g);g.connect(audioCtx.destination);
-  o.type='square';
-  o.frequency.setValueAtTime(600+Math.random()*400,audioCtx.currentTime);
-  g.gain.setValueAtTime(0.04,audioCtx.currentTime);
-  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.04);
-  o.start();o.stop(audioCtx.currentTime+0.04);
+ ensureAudio();
+ const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+ o.connect(g);g.connect(audioCtx.destination);
+ o.type='square';
+ o.frequency.setValueAtTime(600+Math.random()*400,audioCtx.currentTime);
+ g.gain.setValueAtTime(0.04,audioCtx.currentTime);
+ g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.04);
+ o.start();o.stop(audioCtx.currentTime+0.04);
 }
 
 function playWhoosh(){
-  ensureAudio();
-  const bufferSize=audioCtx.sampleRate*0.3;
-  const buffer=audioCtx.createBuffer(1,bufferSize,audioCtx.sampleRate);
-  const data=buffer.getChannelData(0);
-  for(let i=0;i<bufferSize;i++)data[i]=(Math.random()*2-1)*Math.pow(1-i/bufferSize,3);
-  const src=audioCtx.createBufferSource(),g=audioCtx.createGain();
-  src.buffer=buffer;src.connect(g);g.connect(audioCtx.destination);
-  g.gain.setValueAtTime(0.08,audioCtx.currentTime);
-  g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.3);
-  src.start();
+ ensureAudio();
+ const bufferSize=audioCtx.sampleRate*0.3;
+ const buffer=audioCtx.createBuffer(1,bufferSize,audioCtx.sampleRate);
+ const data=buffer.getChannelData(0);
+ for(let i=0;i<bufferSize;i++)data[i]=(Math.random()*2-1)*Math.pow(1-i/bufferSize,3);
+ const src=audioCtx.createBufferSource(),g=audioCtx.createGain();
+ src.buffer=buffer;src.connect(g);g.connect(audioCtx.destination);
+ g.gain.setValueAtTime(0.08,audioCtx.currentTime);
+ g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+0.3);
+ src.start();
 }
 
 function playSuccess(){
-  ensureAudio();
-  const notes=[523,659,784];
-  notes.forEach((freq,i)=>{
-    const o=audioCtx.createOscillator(),g=audioCtx.createGain();
-    o.connect(g);g.connect(audioCtx.destination);
-    o.frequency.setValueAtTime(freq,audioCtx.currentTime+i*0.12);
-    g.gain.setValueAtTime(0,audioCtx.currentTime+i*0.12);
-    g.gain.linearRampToValueAtTime(0.08,audioCtx.currentTime+i*0.12+0.02);
-    g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+i*0.12+0.25);
-    o.start(audioCtx.currentTime+i*0.12);
-    o.stop(audioCtx.currentTime+i*0.12+0.25);
-  });
+ ensureAudio();
+ const notes=[523,659,784];
+ notes.forEach((freq,i)=>{
+ const o=audioCtx.createOscillator(),g=audioCtx.createGain();
+ o.connect(g);g.connect(audioCtx.destination);
+ o.frequency.setValueAtTime(freq,audioCtx.currentTime+i*0.12);
+ g.gain.setValueAtTime(0,audioCtx.currentTime+i*0.12);
+ g.gain.linearRampToValueAtTime(0.08,audioCtx.currentTime+i*0.12+0.02);
+ g.gain.exponentialRampToValueAtTime(0.001,audioCtx.currentTime+i*0.12+0.25);
+ o.start(audioCtx.currentTime+i*0.12);
+ o.stop(audioCtx.currentTime+i*0.12+0.25);
+ });
 }
 
 // === PARTICLES ===
@@ -394,22 +394,22 @@ const canvas=document.getElementById('particles');
 const ctx=canvas.getContext('2d');
 let particles=[];
 function initParticles(){
-  canvas.width=window.innerWidth;canvas.height=window.innerHeight;
-  particles=[];
-  for(let i=0;i<60;i++){
-    particles.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-0.5)*0.3,vy:(Math.random()-0.5)*0.3,r:Math.random()*2+0.5,a:Math.random()*0.3+0.1});
-  }
+ canvas.width=window.innerWidth;canvas.height=window.innerHeight;
+ particles=[];
+ for(let i=0;i<60;i++){
+ particles.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-0.5)*0.3,vy:(Math.random()-0.5)*0.3,r:Math.random()*2+0.5,a:Math.random()*0.3+0.1});
+ }
 }
 function drawParticles(){
-  ctx.clearRect(0,0,canvas.width,canvas.height);
-  particles.forEach(p=>{
-    p.x+=p.vx;p.y+=p.vy;
-    if(p.x<0)p.x=canvas.width;if(p.x>canvas.width)p.x=0;
-    if(p.y<0)p.y=canvas.height;if(p.y>canvas.height)p.y=0;
-    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-    ctx.fillStyle=`rgba(124,92,252,${p.a})`;ctx.fill();
-  });
-  requestAnimationFrame(drawParticles);
+ ctx.clearRect(0,0,canvas.width,canvas.height);
+ particles.forEach(p=>{
+ p.x+=p.vx;p.y+=p.vy;
+ if(p.x<0)p.x=canvas.width;if(p.x>canvas.width)p.x=0;
+ if(p.y<0)p.y=canvas.height;if(p.y>canvas.height)p.y=0;
+ ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+ ctx.fillStyle=`rgba(124,92,252,${p.a})`;ctx.fill();
+ });
+ requestAnimationFrame(drawParticles);
 }
 initParticles();drawParticles();
 window.addEventListener('resize',initParticles);
@@ -424,236 +424,236 @@ let elapsedTimer=null;
 const SCENE_DURATIONS=[5000,5000,7000,7000,6000,6000,6000,6000,5000,999999];
 
 function buildDots(){
-  const cont=document.getElementById('progressDots');
-  cont.innerHTML='';
-  for(let i=0;i<TOTAL_SCENES;i++){
-    const d=document.createElement('div');
-    d.className='dot'+(i===0?' active':'');
-    d.onclick=()=>goToScene(i);
-    cont.appendChild(d);
-  }
+ const cont=document.getElementById('progressDots');
+ cont.innerHTML='';
+ for(let i=0;i<TOTAL_SCENES;i++){
+ const d=document.createElement('div');
+ d.className='dot'+(i===0?' active':'');
+ d.onclick=()=>goToScene(i);
+ cont.appendChild(d);
+ }
 }
 buildDots();
 
 function updateProgress(){
-  document.getElementById('progressBar').style.width=((currentScene+1)/TOTAL_SCENES*100)+'%';
-  document.querySelectorAll('.progress-dots .dot').forEach((d,i)=>{d.className='dot'+(i===currentScene?' active':'')});
+ document.getElementById('progressBar').style.width=((currentScene+1)/TOTAL_SCENES*100)+'%';
+ document.querySelectorAll('.progress-dots .dot').forEach((d,i)=>{d.className='dot'+(i===currentScene?' active':'')});
 }
 
 function goToScene(idx){
-  if(idx===currentScene||idx<0||idx>=TOTAL_SCENES)return;
-  playWhoosh();
-  const dir=idx>currentScene?'exit-up':'exit-down';
-  const curr=document.querySelector(`.scene[data-scene="${currentScene}"]`);
-  curr.classList.remove('active');curr.classList.add(dir);
-  setTimeout(()=>curr.classList.remove(dir),800);
-  currentScene=idx;
-  const next=document.querySelector(`.scene[data-scene="${currentScene}"]`);
-  next.classList.add('active');
-  updateProgress();
-  runSceneAnimation(currentScene);
-  if(autoPlaying)restartAutoTimer();
+ if(idx===currentScene||idx<0||idx>=TOTAL_SCENES)return;
+ playWhoosh();
+ const dir=idx>currentScene?'exit-up':'exit-down';
+ const curr=document.querySelector(`.scene[data-scene="${currentScene}"]`);
+ curr.classList.remove('active');curr.classList.add(dir);
+ setTimeout(()=>curr.classList.remove(dir),800);
+ currentScene=idx;
+ const next=document.querySelector(`.scene[data-scene="${currentScene}"]`);
+ next.classList.add('active');
+ updateProgress();
+ runSceneAnimation(currentScene);
+ if(autoPlaying)restartAutoTimer();
 }
 
 function nextScene(){if(currentScene<TOTAL_SCENES-1)goToScene(currentScene+1)}
 function prevScene(){if(currentScene>0)goToScene(currentScene-1)}
 
 function toggleAutoPlay(){
-  autoPlaying=!autoPlaying;
-  ensureAudio();
-  document.getElementById('playLabel').textContent=autoPlaying?'Pause':'Auto Play';
-  document.getElementById('playIcon').innerHTML=autoPlaying?'<rect x="3" y="2" width="4" height="12"/><rect x="9" y="2" width="4" height="12"/>':'<polygon points="3,1 13,8 3,15"/>';
-  if(autoPlaying){restartAutoTimer();startElapsed()}else{clearTimeout(autoTimer);clearInterval(elapsedTimer)}
+ autoPlaying=!autoPlaying;
+ ensureAudio();
+ document.getElementById('playLabel').textContent=autoPlaying?'Pause':'Auto Play';
+ document.getElementById('playIcon').innerHTML=autoPlaying?'<rect x="3" y="2" width="4" height="12"/><rect x="9" y="2" width="4" height="12"/>':'<polygon points="3,1 13,8 3,15"/>';
+ if(autoPlaying){restartAutoTimer();startElapsed()}else{clearTimeout(autoTimer);clearInterval(elapsedTimer)}
 }
 
 function restartAutoTimer(){
-  clearTimeout(autoTimer);
-  autoTimer=setTimeout(()=>{if(autoPlaying&&currentScene<TOTAL_SCENES-1){nextScene()}else{autoPlaying=false;document.getElementById('playLabel').textContent='Auto Play';document.getElementById('playIcon').innerHTML='<polygon points="3,1 13,8 3,15"/>';clearInterval(elapsedTimer)}},SCENE_DURATIONS[currentScene]);
+ clearTimeout(autoTimer);
+ autoTimer=setTimeout(()=>{if(autoPlaying&&currentScene<TOTAL_SCENES-1){nextScene()}else{autoPlaying=false;document.getElementById('playLabel').textContent='Auto Play';document.getElementById('playIcon').innerHTML='<polygon points="3,1 13,8 3,15"/>';clearInterval(elapsedTimer)}},SCENE_DURATIONS[currentScene]);
 }
 
 function startElapsed(){
-  elapsed=0;updateTimerDisplay();
-  clearInterval(elapsedTimer);
-  elapsedTimer=setInterval(()=>{elapsed++;updateTimerDisplay()},1000);
+ elapsed=0;updateTimerDisplay();
+ clearInterval(elapsedTimer);
+ elapsedTimer=setInterval(()=>{elapsed++;updateTimerDisplay()},1000);
 }
 
 function updateTimerDisplay(){
-  const m=Math.floor(elapsed/60),s=elapsed%60;
-  document.getElementById('timerDisplay').textContent=m+':'+(s<10?'0':'')+s;
+ const m=Math.floor(elapsed/60),s=elapsed%60;
+ document.getElementById('timerDisplay').textContent=m+':'+(s<10?'0':'')+s;
 }
 
 // === TYPING ANIMATION ===
 function typeText(element,text,speed=60){
-  return new Promise(resolve=>{
-    element.textContent='';
-    element.style.borderRight='2px solid var(--accent)';
-    let i=0;
-    const interval=setInterval(()=>{
-      if(i<text.length){element.textContent+=text[i];playType();i++}
-      else{clearInterval(interval);element.style.borderRight='none';resolve()}
-    },speed);
-  });
+ return new Promise(resolve=>{
+ element.textContent='';
+ element.style.borderRight='2px solid var(--accent)';
+ let i=0;
+ const interval=setInterval(()=>{
+ if(i<text.length){element.textContent+=text[i];playType();i++}
+ else{clearInterval(interval);element.style.borderRight='none';resolve()}
+ },speed);
+ });
 }
 
 // === SCENE ANIMATIONS ===
 function runSceneAnimation(idx){
-  switch(idx){
-    case 1:animateStats();break;
-    case 2:animateSearch();break;
-    case 3:animateMapper();break;
-    case 4:animateTDS();break;
-    case 5:animatePDF();break;
-    case 6:animateFeatures();break;
-    case 7:animateForms();break;
-    case 8:animateStats();break;
-    case 9:playSuccess();break;
-  }
+ switch(idx){
+ case 1:animateStats();break;
+ case 2:animateSearch();break;
+ case 3:animateMapper();break;
+ case 4:animateTDS();break;
+ case 5:animatePDF();break;
+ case 6:animateFeatures();break;
+ case 7:animateForms();break;
+ case 8:animateStats();break;
+ case 9:playSuccess();break;
+ }
 }
 
 // --- Stats counter ---
 function animateStats(){
-  const stats=document.querySelectorAll(`.scene[data-scene="${currentScene}"] .stat`);
-  stats.forEach((s,i)=>{
-    const delay=parseInt(s.dataset.delay)||i*200;
-    setTimeout(()=>{
-      s.classList.add('show');
-      const numEl=s.querySelector('.num');
-      const target=parseInt(numEl.dataset.count);
-      if(!isNaN(target)){
-        let val=0;
-        const step=Math.max(1,Math.floor(target/30));
-        const iv=setInterval(()=>{val+=step;if(val>=target){val=target;clearInterval(iv)}numEl.textContent=val+'+'},30);
-      }
-      playClick();
-    },delay+200);
-  });
+ const stats=document.querySelectorAll(`.scene[data-scene="${currentScene}"] .stat`);
+ stats.forEach((s,i)=>{
+ const delay=parseInt(s.dataset.delay)||i*200;
+ setTimeout(()=>{
+ s.classList.add('show');
+ const numEl=s.querySelector('.num');
+ const target=parseInt(numEl.dataset.count);
+ if(!isNaN(target)){
+ let val=0;
+ const step=Math.max(1,Math.floor(target/30));
+ const iv=setInterval(()=>{val+=step;if(val>=target){val=target;clearInterval(iv)}numEl.textContent=val+'+'},30);
+ }
+ playClick();
+ },delay+200);
+ });
 }
 
 // --- Search demo ---
 async function animateSearch(){
-  const el=document.getElementById('searchTyping');
-  const results=document.getElementById('searchResults');
-  results.innerHTML='';el.textContent='';
-  await new Promise(r=>setTimeout(r,600));
-  await typeText(el,'capital gains',70);
-  await new Promise(r=>setTimeout(r,400));
-  playClick();
-  const items=[
-    {badge:'Section',title:'Sec 45 → 67',sub:'Capital gains — chargeability'},
-    {badge:'Section',title:'Sec 54 → 74',sub:'Exemption on sale of residential property'},
-    {badge:'TDS',title:'Sec 194IA → 393',sub:'TDS on immovable property — 1%'}
-  ];
-  items.forEach((item,i)=>{
-    setTimeout(()=>{
-      const div=document.createElement('div');
-      div.className='mock-result';
-      div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
-      results.appendChild(div);
-      setTimeout(()=>{div.classList.add('show');playClick()},50);
-    },i*300+200);
-  });
+ const el=document.getElementById('searchTyping');
+ const results=document.getElementById('searchResults');
+ results.innerHTML='';el.textContent='';
+ await new Promise(r=>setTimeout(r,600));
+ await typeText(el,'capital gains',70);
+ await new Promise(r=>setTimeout(r,400));
+ playClick();
+ const items=[
+ {badge:'Section',title:'Sec 45 → 67',sub:'Capital gains — chargeability'},
+ {badge:'Section',title:'Sec 54 → 74',sub:'Exemption on sale of residential property'},
+ {badge:'TDS',title:'Sec 194IA → 393',sub:'TDS on immovable property — 1%'}
+ ];
+ items.forEach((item,i)=>{
+ setTimeout(()=>{
+ const div=document.createElement('div');
+ div.className='mock-result';
+ div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
+ results.appendChild(div);
+ setTimeout(()=>{div.classList.add('show');playClick()},50);
+ },i*300+200);
+ });
 }
 
 // --- Mapper demo ---
 async function animateMapper(){
-  const el=document.getElementById('mapperTyping');
-  const results=document.getElementById('mapperResults');
-  results.innerHTML='';el.textContent='';
-  await new Promise(r=>setTimeout(r,600));
-  await typeText(el,'80C',80);
-  await new Promise(r=>setTimeout(r,400));
-  playClick();
-  const items=[
-    {badge:'Deductions',title:'80C → 123',sub:'Deductions in respect of life insurance, PF, etc. — up to Rs 1.5 lakh'},
-    {badge:'Deductions',title:'80CCD → 124',sub:'NPS contribution — additional Rs 50,000 deduction'}
-  ];
-  items.forEach((item,i)=>{
-    setTimeout(()=>{
-      const div=document.createElement('div');
-      div.className='mock-result';
-      div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
-      results.appendChild(div);
-      setTimeout(()=>{div.classList.add('show');playClick()},50);
-    },i*350+200);
-  });
+ const el=document.getElementById('mapperTyping');
+ const results=document.getElementById('mapperResults');
+ results.innerHTML='';el.textContent='';
+ await new Promise(r=>setTimeout(r,600));
+ await typeText(el,'80C',80);
+ await new Promise(r=>setTimeout(r,400));
+ playClick();
+ const items=[
+ {badge:'Deductions',title:'80C → 123',sub:'Deductions in respect of life insurance, PF, etc. — up to Rs 1.5 lakh'},
+ {badge:'Deductions',title:'80CCD → 124',sub:'NPS contribution — additional Rs 50,000 deduction'}
+ ];
+ items.forEach((item,i)=>{
+ setTimeout(()=>{
+ const div=document.createElement('div');
+ div.className='mock-result';
+ div.innerHTML=`<div class="badge">${item.badge}</div><div class="title">${item.title}</div><div class="sub">${item.sub}</div>`;
+ results.appendChild(div);
+ setTimeout(()=>{div.classList.add('show');playClick()},50);
+ },i*350+200);
+ });
 }
 
 // --- TDS demo ---
 function animateTDS(){
-  const tbody=document.getElementById('tdsRows');
-  tbody.innerHTML='';
-  const data=[
-    ['192','Salary','Slab rates','—','392/393'],
-    ['194A','Interest (non-bank)','10%','Rs 40,000','393'],
-    ['194C','Contractor payments','1%/2%','Rs 30,000','393'],
-    ['194H','Commission/Brokerage','5%','Rs 15,000','393'],
-    ['194I','Rent','2%/10%','Rs 2.4L p.a.','393'],
-    ['194IA','Immovable property','1%','Rs 50 lakh','393'],
-    ['206C','TCS — Motor vehicle','1%','Rs 10 lakh','394']
-  ];
-  data.forEach((row,i)=>{
-    const tr=document.createElement('tr');
-    tr.innerHTML=`<td class="highlight">${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td class="highlight">${row[4]}</td>`;
-    tbody.appendChild(tr);
-    setTimeout(()=>{tr.classList.add('show');playClick()},i*200+300);
-  });
+ const tbody=document.getElementById('tdsRows');
+ tbody.innerHTML='';
+ const data=[
+ ['192','Salary','Slab rates','—','392/393'],
+ ['194A','Interest (non-bank)','10%','Rs 40,000','393'],
+ ['194C','Contractor payments','1%/2%','Rs 30,000','393'],
+ ['194H','Commission/Brokerage','5%','Rs 15,000','393'],
+ ['194I','Rent','2%/10%','Rs 2.4L p.a.','393'],
+ ['194IA','Immovable property','1%','Rs 50 lakh','393'],
+ ['206C','TCS — Motor vehicle','1%','Rs 10 lakh','394']
+ ];
+ data.forEach((row,i)=>{
+ const tr=document.createElement('tr');
+ tr.innerHTML=`<td class="highlight">${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td class="highlight">${row[4]}</td>`;
+ tbody.appendChild(tr);
+ setTimeout(()=>{tr.classList.add('show');playClick()},i*200+300);
+ });
 }
 
 // --- PDF demo ---
 function animatePDF(){
-  const el=document.getElementById('pdfDemo');
-  el.style.opacity='0';el.style.transform='perspective(800px) rotateY(-15deg) translateY(20px)';
-  setTimeout(()=>{
-    el.style.transition='all 0.8s cubic-bezier(0.34,1.56,0.64,1)';
-    el.style.opacity='1';el.style.transform='perspective(800px) rotateY(-3deg) translateY(0)';
-    playSuccess();
-  },400);
+ const el=document.getElementById('pdfDemo');
+ el.style.opacity='0';el.style.transform='perspective(800px) rotateY(-15deg) translateY(20px)';
+ setTimeout(()=>{
+ el.style.transition='all 0.8s cubic-bezier(0.34,1.56,0.64,1)';
+ el.style.opacity='1';el.style.transform='perspective(800px) rotateY(-3deg) translateY(0)';
+ playSuccess();
+ },400);
 }
 
 // --- Features ---
 function animateFeatures(){
-  document.querySelectorAll('#featureGrid .feature-card').forEach((card,i)=>{
-    const delay=parseInt(card.dataset.delay)||0;
-    setTimeout(()=>{card.classList.add('show');playClick()},delay+300);
-  });
+ document.querySelectorAll('#featureGrid .feature-card').forEach((card,i)=>{
+ const delay=parseInt(card.dataset.delay)||0;
+ setTimeout(()=>{card.classList.add('show');playClick()},delay+300);
+ });
 }
 
 // --- Forms ---
 function animateForms(){
-  const tags=document.getElementById('formTags');
-  const cards=document.getElementById('formCards');
-  tags.innerHTML='';cards.innerHTML='';
-  const categories=['ITR','TDS','Audit','Trust','All'];
-  categories.forEach((cat,i)=>{
-    setTimeout(()=>{
-      const t=document.createElement('span');
-      t.style.cssText='display:inline-block;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;transition:all 0.3s;'+(i===0?'background:var(--accent);color:#fff':'background:rgba(255,255,255,0.06);color:var(--gray)');
-      t.textContent=cat;
-      tags.appendChild(t);
-      playClick();
-    },i*150+200);
-  });
-  const forms=[
-    {old:'Form 16',new:'Form ITR-F16',desc:'TDS Certificate for Salary'},
-    {old:'Form 26AS',new:'Form AIS-26',desc:'Annual Tax Statement'},
-    {old:'Form 3CA/3CB',new:'Form Audit-01',desc:'Tax Audit Report'}
-  ];
-  forms.forEach((f,i)=>{
-    setTimeout(()=>{
-      const div=document.createElement('div');
-      div.className='mock-result';
-      div.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center"><div><div class="title" style="font-size:15px">${f.old} → ${f.new}</div><div class="sub">${f.desc}</div></div><div style="color:var(--accent);font-size:11px;font-weight:600;text-transform:uppercase">Updated</div></div>`;
-      cards.appendChild(div);
-      setTimeout(()=>{div.classList.add('show');playClick()},50);
-    },i*300+800);
-  });
+ const tags=document.getElementById('formTags');
+ const cards=document.getElementById('formCards');
+ tags.innerHTML='';cards.innerHTML='';
+ const categories=['ITR','TDS','Audit','Trust','All'];
+ categories.forEach((cat,i)=>{
+ setTimeout(()=>{
+ const t=document.createElement('span');
+ t.style.cssText='display:inline-block;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;transition:all 0.3s;'+(i===0?'background:var(--accent);color:#fff':'background:rgba(255,255,255,0.06);color:var(--gray)');
+ t.textContent=cat;
+ tags.appendChild(t);
+ playClick();
+ },i*150+200);
+ });
+ const forms=[
+ {old:'Form 16',new:'Form ITR-F16',desc:'TDS Certificate for Salary'},
+ {old:'Form 26AS',new:'Form AIS-26',desc:'Annual Tax Statement'},
+ {old:'Form 3CA/3CB',new:'Form Audit-01',desc:'Tax Audit Report'}
+ ];
+ forms.forEach((f,i)=>{
+ setTimeout(()=>{
+ const div=document.createElement('div');
+ div.className='mock-result';
+ div.innerHTML=`<div style="display:flex;justify-content:space-between;align-items:center"><div><div class="title" style="font-size:15px">${f.old} → ${f.new}</div><div class="sub">${f.desc}</div></div><div style="color:var(--accent);font-size:11px;font-weight:600;text-transform:uppercase">Updated</div></div>`;
+ cards.appendChild(div);
+ setTimeout(()=>{div.classList.add('show');playClick()},50);
+ },i*300+800);
+ });
 }
 
 // === KEYBOARD NAVIGATION ===
 document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowRight'||e.key===' ')nextScene();
-  if(e.key==='ArrowLeft')prevScene();
-  if(e.key==='p')toggleAutoPlay();
+ if(e.key==='ArrowRight'||e.key===' ')nextScene();
+ if(e.key==='ArrowLeft')prevScene();
+ if(e.key==='p')toggleAutoPlay();
 });
 
 // Run initial scene

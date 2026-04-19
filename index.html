@@ -237,25 +237,41 @@ a{color:inherit;text-decoration:none}ul{list-style:none}img{max-width:100%;displ
 @keyframes scrollDot{0%{opacity:1;transform:translateX(-50%) translateY(0)}100%{opacity:0;transform:translateX(-50%) translateY(14px)}}
 .scroll-indicator span{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.25)}
 
-/* ═══ SERVICES OVERVIEW — Dark Glass Cards ═══ */
+/* ═══ SERVICES OVERVIEW ═══ */
 .svc-overview-graphic{display:none}
-.services-grid-home{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(124,92,252,.06);border-radius:var(--radius-xl);overflow:hidden;border:1px solid var(--border)}
-.svc-card-home{display:flex;flex-direction:column;padding:36px 28px;background:var(--light-surface);position:relative;transition:all .2s var(--ease);cursor:pointer}
-.svc-card-home::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(124,92,252,.04) 0%,transparent 60%);opacity:0;transition:opacity .2s;pointer-events:none}
-.svc-card-home:hover{background:var(--light-alt)}
-.svc-card-home:hover::after{opacity:1}
-.svc-icon{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;background:var(--accent-soft);border-radius:12px;margin-bottom:18px;color:var(--accent);transition:all .2s}
-.svc-card-home:hover .svc-icon{background:var(--accent);color:#fff;box-shadow:0 4px 16px rgba(124,92,252,.25)}
-.svc-card-home h3{margin-bottom:8px;font-size:1rem;font-weight:700;color:var(--text)}
-.svc-card-home p{font-size:.85rem;color:var(--text-secondary);line-height:1.6;flex:1}
-.svc-card-home .svc-card-arrow{display:flex;align-items:center;gap:6px;margin-top:16px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);opacity:0;transform:translateX(-8px);transition:all .2s}
-.svc-card-home:hover .svc-card-arrow{opacity:1;transform:translateX(0)}
 .section-cta{margin-top:48px;text-align:center}
-@media(max-width:900px){.services-grid-home{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.services-grid-home{grid-template-columns:1fr}}
-/* Featured service card accent */
-.svc-card-featured{border-left:3px solid var(--accent);background:rgba(124,92,252,.04)!important}
-.svc-card-featured .svc-icon{background:var(--accent);color:#fff;box-shadow:0 4px 12px rgba(124,92,252,.18)}
+
+/* ── Featured Services Grid (Top Tier) ── */
+.services-featured{display:flex;flex-wrap:wrap;justify-content:center;gap:24px;margin-bottom:56px}
+.svc-card-feat{position:relative;display:flex;flex-direction:column;width:calc(33.333% - 16px);padding:40px 32px 32px;background:rgba(255,255,255,.85);border:1px solid rgba(124,92,252,.12);border-radius:var(--radius-lg);cursor:pointer;transition:all .3s var(--ease);overflow:hidden}
+.svc-card-feat::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--grad-accent);border-radius:3px 3px 0 0}
+.svc-card-feat::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(124,92,252,.03) 0%,rgba(167,139,250,.06) 50%,transparent 100%);opacity:0;transition:opacity .3s;pointer-events:none;border-radius:var(--radius-lg)}
+.svc-card-feat:hover{transform:translateY(-6px);box-shadow:0 20px 40px -12px rgba(124,92,252,.18),0 0 0 1px rgba(124,92,252,.15);border-color:rgba(124,92,252,.25)}
+.svc-card-feat:hover::after{opacity:1}
+.svc-card-feat .svc-icon{width:52px;height:52px;background:var(--grad-accent);border-radius:14px;margin-bottom:22px;color:#fff;box-shadow:0 6px 20px rgba(124,92,252,.2);display:inline-flex;align-items:center;justify-content:center;transition:all .3s}
+.svc-card-feat:hover .svc-icon{transform:scale(1.08);box-shadow:0 8px 28px rgba(124,92,252,.3)}
+.svc-card-feat h3{margin-bottom:10px;font-size:1.1rem;font-weight:700;color:var(--text)}
+.svc-card-feat p{font-size:.88rem;color:var(--text-secondary);line-height:1.65;flex:1}
+.svc-card-feat .svc-card-arrow{display:flex;align-items:center;gap:6px;margin-top:18px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);opacity:0;transform:translateX(-8px);transition:all .25s}
+.svc-card-feat:hover .svc-card-arrow{opacity:1;transform:translateX(0)}
+@media(max-width:900px){.svc-card-feat{width:calc(50% - 12px)}}
+@media(max-width:560px){.svc-card-feat{width:100%}}
+
+/* ── More Services Divider ── */
+.svc-more-label{display:flex;align-items:center;gap:16px;margin-bottom:32px;color:var(--text-secondary);font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em}
+.svc-more-label::before,.svc-more-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--border-strong),transparent)}
+
+/* ── Compact Services Grid (Bottom Tier) ── */
+.services-grid-more{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc-card-compact{display:flex;align-items:flex-start;gap:16px;padding:22px 24px;background:rgba(255,255,255,.55);border:1px solid var(--border);border-radius:var(--radius);cursor:pointer;transition:all .2s var(--ease)}
+.svc-card-compact:hover{background:rgba(255,255,255,.85);border-color:rgba(124,92,252,.15);box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.svc-card-compact .svc-icon-sm{flex-shrink:0;width:38px;height:38px;background:var(--accent-soft);border-radius:10px;color:var(--accent);display:inline-flex;align-items:center;justify-content:center;transition:all .2s}
+.svc-card-compact:hover .svc-icon-sm{background:var(--accent);color:#fff}
+.svc-card-compact .svc-compact-info{display:flex;flex-direction:column;min-width:0}
+.svc-card-compact h3{font-size:.92rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.svc-card-compact p{font-size:.8rem;color:var(--text-secondary);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:900px){.services-grid-more{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.services-grid-more{grid-template-columns:1fr}}
 
 /* ═══ ABOUT ═══ */
 .about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
@@ -611,74 +627,70 @@ footer{background:#050514;color:rgba(255,255,255,.45);padding:72px 0 0;border-to
         <circle cx="400" cy="60" r="20" fill="none" stroke="#7C5CFC" stroke-width=".5" opacity=".2"><animate attributeName="r" from="14" to="30" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" from=".3" to="0" dur="3s" repeatCount="indefinite"/></circle>
       </svg>
     </div>
-        <div class="services-grid-home" data-reveal="up" data-delay="2">
-      <a href="sme-ipo.html" class="svc-card-home svc-card-featured">
+    <!-- ── Featured Services (Top Tier) ── -->
+    <div class="services-featured" data-reveal="up" data-delay="2">
+      <a href="sme-ipo.html" class="svc-card-feat">
         <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/></svg></div>
         <h3>IPO Services (Main Board &amp; SME)</h3>
         <p>End-to-end IPO advisory for Main Board and SME listings — DRHP drafting, SEBI compliance, roadshows, and post-listing governance.</p>
         <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
-      <a href="us-incorporation.html" class="svc-card-home svc-card-featured">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></div>
+      <a href="us-incorporation.html" class="svc-card-feat">
+        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/></svg></div>
         <h3>US Incorporation</h3>
         <p>Delaware/Wyoming entity formation, EIN registration, US banking setup, and ongoing compliance for Indian founders going global.</p>
         <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
-      <a href="gift-city.html" class="svc-card-home svc-card-featured">
+      <a href="gift-city.html" class="svc-card-feat">
         <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
         <h3>GIFT City &amp; IFSC</h3>
         <p>AIF setup, IFSC licensing, SPV structuring, and end-to-end GIFT City compliance.</p>
         <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
-      <a href="global-taxation.html" class="svc-card-home svc-card-featured">
+      <a href="global-taxation.html" class="svc-card-feat">
         <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
         <h3>Global Taxation</h3>
         <p>International tax structuring, transfer pricing, DTAA optimization, FATCA/CRS, and PE risk management.</p>
         <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
-      <a href="fund-raising.html" class="svc-card-home svc-card-featured">
+      <a href="fund-raising.html" class="svc-card-feat">
         <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
         <h3>Fund Raising Services</h3>
         <p>Equity fundraising, venture debt, angel rounds to Series D, and cross-border capital syndication for growth-stage companies.</p>
         <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
-      <a href="capital-advisory.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
-        <h3>Capital Advisory</h3>
-        <p>Fundraising strategy, pitch preparation, investor matchmaking, and deal structuring from seed to growth stage.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </div>
+
+    <!-- ── More Services Divider ── -->
+    <div class="svc-more-label" data-reveal="up" data-delay="3">More Services</div>
+
+    <!-- ── Compact Services Grid (Bottom Tier) ── -->
+    <div class="services-grid-more" data-reveal="up" data-delay="3">
+      <a href="capital-advisory.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+        <div class="svc-compact-info"><h3>Capital Advisory</h3><p>Fundraising strategy, pitch preparation, investor matchmaking, and deal structuring from seed to growth stage.</p></div>
       </a>
-      <a href="ma-transactions.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="12" r="7"/><circle cx="15" cy="12" r="7"/></svg></div>
-        <h3>M&amp;A Transactions</h3>
-        <p>End-to-end mergers, acquisitions, divestitures, and strategic restructuring advisory for high-growth businesses.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      <a href="ma-transactions.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="12" r="7"/><circle cx="15" cy="12" r="7"/></svg></div>
+        <div class="svc-compact-info"><h3>M&amp;A Transactions</h3><p>End-to-end mergers, acquisitions, divestitures, and strategic restructuring advisory.</p></div>
       </a>
-      <a href="corporate-legal.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="12" y2="17"/></svg></div>
-        <h3>Corporate Legal</h3>
-        <p>Company incorporation, board governance, regulatory filings, shareholder agreements, and compliance structuring.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      <a href="corporate-legal.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="12" y2="17"/></svg></div>
+        <div class="svc-compact-info"><h3>Corporate Legal</h3><p>Company incorporation, board governance, regulatory filings, and compliance structuring.</p></div>
       </a>
-      <a href="fund-structuring.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
-        <h3>Fund Structuring</h3>
-        <p>AIF/VCF setup, fund administration, regulatory structuring, and investor onboarding across domestic and offshore vehicles.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      <a href="fund-structuring.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+        <div class="svc-compact-info"><h3>Fund Structuring</h3><p>AIF/VCF setup, fund administration, and investor onboarding across domestic and offshore vehicles.</p></div>
       </a>
-      <a href="esop-compensation.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
-        <h3>ESOP &amp; Compensation</h3>
-        <p>ESOP plan design, valuation, tax structuring, sweat equity, and phantom stock plans for startups and listed companies.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      <a href="esop-compensation.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <div class="svc-compact-info"><h3>ESOP &amp; Compensation</h3><p>ESOP plan design, valuation, tax structuring, and phantom stock plans for startups.</p></div>
       </a>
-      <a href="international-expansion.html" class="svc-card-home">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/><line x1="12" y1="2" x2="12" y2="22"/></svg></div>
-        <h3>International Expansion</h3>
-        <p>Cross-border entity structuring, market-entry strategy, regulatory compliance, and transfer pricing for global operations.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      <a href="international-expansion.html" class="svc-card-compact">
+        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+        <div class="svc-compact-info"><h3>International Expansion</h3><p>Cross-border entity structuring, market-entry strategy, and transfer pricing for global operations.</p></div>
       </a>
-    </div>    </div>
+    </div>
     <div class="section-cta" data-reveal="up" data-delay="3">
       <a href="#services-overview" class="btn-outline magnetic">Explore Our Services</a>
     </div>

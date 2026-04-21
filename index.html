@@ -9,12 +9,8 @@
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
 <link rel="canonical" href="https://bharatquantumprospera.com/"/>
-
-<!-- Geo Targeting -->
 <meta name="geo.region" content="IN"/>
 <meta name="geo.placename" content="India"/>
-
-<!-- Open Graph -->
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="en_IN"/>
 <meta property="og:site_name" content="Bharat Quantum Prospera"/>
@@ -22,8 +18,6 @@
 <meta property="og:description" content="Leading CA-led advisory firm for startups. Capital raising, M&A, taxation, ESOP, IPO, GIFT City, US incorporation. Trusted by founders across India."/>
 <meta property="og:url" content="https://bharatquantumprospera.com/"/>
 <meta property="og:image" content="https://bharatquantumprospera.com/logo.svg"/>
-
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Bharat Quantum Prospera | CA Firm for Startups & Enterprises"/>
 <meta name="twitter:description" content="Leading CA-led advisory firm for startups. Capital raising, M&A, taxation, ESOP, IPO, GIFT City, US incorporation. Trusted by founders across India."/>
@@ -31,1149 +25,1418 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@500&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter+Tight:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+
 <style>
-/* ═══════════════════════════════════════════════════════════════
-   FINVY - Premium Scroll Edition
-   ═══════════════════════════════════════════════════════════════ */
-:root {
-  --dark:#08081A;--dark-surface:#0E0E24;--dark-card:#151532;
-  --dark-border:rgba(255,255,255,0.06);--dark-text:rgba(255,255,255,0.7);
-  --dark-heading:#FFFFFF;
-  --light-bg:transparent;--light-surface:rgba(255,255,255,.65);--light-alt:rgba(240,236,255,.45);
-  --text:#0F0F2D;--text-secondary:#5A5A7A;
-  --border:rgba(15,15,45,0.08);--border-strong:rgba(15,15,45,0.15);
-  --accent:#7C5CFC;--accent-bright:#9B7FFF;
-  --accent-soft:rgba(124,92,252,0.08);--accent-glow:rgba(124,92,252,0.15);
-  --accent-dark:#6248D4;
-  --grad-accent:linear-gradient(135deg,#7C5CFC 0%,#A78BFA 50%,#C4B5FD 100%);
-  --grad-dark:linear-gradient(180deg,#08081A 0%,#12123A 100%);
-  --shadow-sm:0 1px 3px rgba(0,0,0,0.04),0 1px 2px rgba(0,0,0,0.06);
-  --shadow-md:0 4px 6px -1px rgba(0,0,0,0.06),0 2px 4px -2px rgba(0,0,0,0.06);
-  --shadow-lg:0 10px 25px -5px rgba(0,0,0,0.08),0 8px 10px -6px rgba(0,0,0,0.04);
-  --shadow-card-hover:0 20px 40px -12px rgba(124,92,252,0.15),0 0 0 1px rgba(124,92,252,0.1);
-  --nav-h:76px;
-  --radius:14px;--radius-sm:10px;--radius-lg:20px;--radius-xl:28px;
-  --ease:cubic-bezier(0.4,0,0.2,1);--ease-spring:cubic-bezier(0.34,1.56,0.64,1);
-  --dur:0.15s;
-  --font:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  --mono:'JetBrains Mono',monospace;
-  --serif:'Playfair Display','Georgia','Times New Roman',serif;
+/* ═════════════════════════════════════════════════════════════════
+   BQP — "The Broadsheet" design system
+   Editorial / financial-publication aesthetic.
+   No gradients, no glass, no purple. Hairlines and oxblood.
+═════════════════════════════════════════════════════════════════ */
+:root{
+  --paper:#F3EFE6;
+  --paper-2:#EDE7D9;
+  --ink:#1C1917;
+  --ink-2:#57534E;
+  --ink-3:#8B8680;
+  --rule:#CDC6B9;
+  --rule-soft:#E3DCCE;
+  --accent:#7A2E1C;
+  --accent-soft:#A04A34;
+  --gold:#B38A3D;
+
+  --ff-display:'Fraunces', 'Times New Roman', Georgia, serif;
+  --ff-body:'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ff-mono:'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  --step--2:clamp(.72rem, .68rem + .18vw, .80rem);
+  --step--1:clamp(.86rem, .82rem + .20vw, .94rem);
+  --step-0:clamp(1rem, .96rem + .22vw, 1.10rem);
+  --step-1:clamp(1.18rem, 1.10rem + .40vw, 1.38rem);
+  --step-2:clamp(1.50rem, 1.30rem + 1.00vw, 2.00rem);
+  --step-3:clamp(2.00rem, 1.60rem + 2.00vw, 3.00rem);
+  --step-4:clamp(2.80rem, 2.00rem + 4.00vw, 4.80rem);
+  --step-5:clamp(3.80rem, 2.20rem + 8.00vw, 7.20rem);
+
+  --space-xs:6px;
+  --space-s:12px;
+  --space-m:24px;
+  --space-l:48px;
+  --space-xl:96px;
+  --space-xxl:144px;
+
+  --container:1240px;
+  --ease:cubic-bezier(.2,.6,.2,1);
 }
 
-/* ── Reset ── */
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h);overflow-x:hidden}
-body{font-family:var(--font);font-size:16px;line-height:1.7;color:var(--text);background:linear-gradient(180deg,#FAFAFE 0%,#F0ECFF 25%,#E8E2FF 50%,#F0ECFF 75%,#FAFAFE 100%);background-attachment:fixed;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-a{color:inherit;text-decoration:none}ul{list-style:none}img{max-width:100%;display:block}button{font-family:var(--font)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--ff-body);
+  font-size:var(--step-0);
+  line-height:1.65;
+  font-weight:400;
+  overflow-x:hidden;
+  text-rendering:optimizeLegibility;
+}
+::selection{background:var(--accent);color:var(--paper)}
 
-/* ── Scroll Progress ── */
-#scroll-progress{position:fixed;top:0;left:0;height:3px;background:var(--grad-accent);z-index:10000;width:0%;pointer-events:none;transition:none}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
 
-/* ── Custom scrollbar ── */
-::-webkit-scrollbar{width:6px}
-::-webkit-scrollbar-track{background:transparent}
-::-webkit-scrollbar-thumb{background:var(--accent);border-radius:10px}
-::selection{background:var(--accent);color:#fff}
+/* ── Typography base ─────────────────────────────────────────── */
+.display{
+  font-family:var(--ff-display);
+  font-weight:300;
+  line-height:1.02;
+  letter-spacing:-.022em;
+  font-feature-settings:"ss01","ss02","ss03","ss04";
+}
+.display em{font-style:italic;font-weight:300;color:var(--accent)}
+.display-serif-italic{font-style:italic;font-weight:300}
 
-/* ── Container ── */
-.container{max-width:1220px;margin:0 auto;padding:0 28px}
+.label{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  font-weight:500;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--ink-2);
+}
+.label-accent{color:var(--accent)}
+.number-mono{font-family:var(--ff-mono);font-weight:500;letter-spacing:-.01em}
 
-/* ── Section Utilities ── */
-.section-label{display:inline-flex;align-items:center;gap:8px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin-bottom:16px}
-.section-label::before{content:'';display:inline-block;width:24px;height:2px;background:var(--accent);border-radius:2px}
-.section-title{font-size:clamp(2rem,4vw,2.8rem);font-weight:800;line-height:1.15;letter-spacing:-.03em;color:var(--text);margin-bottom:16px;background:linear-gradient(135deg,#0F0F2D 0%,#3D2D8A 40%,#7C5CFC 70%,#A78BFA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-/* Dark sections get white-violet gradient titles */
-.contact-section .section-title,.hero .section-title{background:linear-gradient(135deg,#fff 0%,#C4B5FD 50%,#7C5CFC 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.section-sub{font-size:1.1rem;color:var(--text-secondary);max-width:600px;line-height:1.7;margin-bottom:56px}
-.section{padding:120px 0}
-.section-alt{background:rgba(232,226,255,.3)}
+/* ── Layout ──────────────────────────────────────────────────── */
+.container{max-width:var(--container);margin:0 auto;padding:0 32px}
+@media(min-width:768px){.container{padding:0 56px}}
 
-/* ═══ SCROLL ANIMATION ENGINE (CSS) ═══ */
+section{padding:var(--space-xl) 0}
+.section-alt{background:var(--paper-2)}
 
-/* -- Reveal base -- */
-[data-reveal]{opacity:0;transition:opacity .5s var(--ease),transform .5s var(--ease),filter .5s var(--ease)}
-[data-reveal].revealed{opacity:1!important;transform:translate(0,0) scale(1)!important;filter:blur(0)!important}
+.rule{height:1px;background:var(--rule);border:0}
+.rule-soft{background:var(--rule-soft)}
 
-/* -- Variants -- */
-[data-reveal="up"]{transform:translateY(60px)}
-[data-reveal="down"]{transform:translateY(-60px)}
-[data-reveal="left"]{transform:translateX(-60px)}
-[data-reveal="right"]{transform:translateX(60px)}
-[data-reveal="scale"]{transform:scale(.85)}
-[data-reveal="blur"]{filter:blur(12px);transform:translateY(20px)}
-[data-reveal="flip"]{transform:perspective(800px) rotateY(25deg);transform-origin:left center}
-[data-reveal="zoom-rotate"]{transform:scale(.7) rotate(-5deg)}
+/* Reveal — never hide content by default; only animate if JS says so */
+.reveal{opacity:1;transform:none;transition:opacity .7s var(--ease), transform .7s var(--ease)}
+.reveal.js-hidden{opacity:0;transform:translateY(10px)}
+.reveal.js-hidden.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1 !important;transform:none !important;transition:none}}
 
-/* -- Stagger delay CSS classes -- */
-[data-delay="1"]{transition-delay:.05s}
-[data-delay="2"]{transition-delay:.1s}
-[data-delay="3"]{transition-delay:.15s}
-[data-delay="4"]{transition-delay:.2s}
-[data-delay="5"]{transition-delay:.25s}
-[data-delay="6"]{transition-delay:.3s}
-[data-delay="7"]{transition-delay:.35s}
-[data-delay="8"]{transition-delay:.4s}
-[data-delay="9"]{transition-delay:.45s}
-[data-delay="10"]{transition-delay:.5s}
-[data-delay="11"]{transition-delay:.55s}
-[data-delay="12"]{transition-delay:.6s}
-[data-delay="13"]{transition-delay:.65s}
-[data-delay="14"]{transition-delay:.7s}
-[data-delay="15"]{transition-delay:.75s}
+/* ════════════════════════════════════════════════════════════════
+   MASTHEAD (navbar)
+═════════════════════════════════════════════════════════════════ */
+.masthead{
+  position:sticky;top:0;z-index:50;
+  background:var(--paper);
+  border-top:3px double var(--ink);
+  border-bottom:1px solid var(--rule);
+  transition:background .3s;
+}
+.masthead-inner{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  gap:var(--space-m);
+  padding:14px 32px;
+  max-width:var(--container);
+  margin:0 auto;
+}
+@media(min-width:768px){.masthead-inner{padding:18px 56px}}
 
-/* -- Text split reveal -- */
-.split-text .char{display:inline-block;opacity:0;transform:translateY(100%);transition:opacity .5s var(--ease),transform .5s var(--ease)}
-.split-text.revealed .char{opacity:1;transform:translateY(0)}
+.masthead-meta{
+  display:flex;
+  gap:var(--space-m);
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  font-weight:500;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ink-2);
+}
+.masthead-meta span + span{padding-left:var(--space-m);border-left:1px solid var(--rule)}
+@media(max-width:767px){.masthead-meta{display:none}}
 
-/* -- Word reveal -- */
-.word-reveal .word{display:inline-block;margin-right:.3em;opacity:0;transform:translateY(24px);filter:blur(6px);transition:opacity .5s var(--ease),transform .5s var(--ease),filter .5s var(--ease)}
-.word-reveal.revealed .word{opacity:1;transform:translateY(0);filter:blur(0)}
+.brand{
+  text-align:center;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  justify-content:center;
+}
+.brand-mark{
+  width:28px;height:28px;
+  border:1.5px solid var(--ink);
+  border-radius:50%;
+  display:grid;place-items:center;
+  font-family:var(--ff-display);
+  font-weight:400;
+  font-size:15px;
+  font-style:italic;
+  color:var(--ink);
+  background:var(--paper);
+}
+.brand-name{
+  font-family:var(--ff-display);
+  font-weight:400;
+  font-size:clamp(1.05rem, 1rem + .3vw, 1.25rem);
+  letter-spacing:-.005em;
+  white-space:nowrap;
+}
+.brand-name em{font-style:italic;color:var(--accent)}
 
-/* -- Line draw -- */
-.line-draw{width:0;height:2px;background:var(--grad-accent);transition:width 1.2s var(--ease)}
-.line-draw.revealed{width:100%}
+.masthead-nav{
+  display:flex;
+  gap:var(--space-m);
+  justify-content:flex-end;
+  align-items:center;
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  font-weight:500;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.masthead-nav a{position:relative;color:var(--ink);transition:color .2s}
+.masthead-nav a:hover{color:var(--accent)}
+.masthead-nav .cta{
+  padding:8px 16px;
+  border:1px solid var(--ink);
+  background:var(--ink);
+  color:var(--paper);
+  transition:all .2s var(--ease);
+}
+.masthead-nav .cta:hover{background:var(--accent);border-color:var(--accent);color:var(--paper)}
 
-/* -- Counter -- */
-.counter{font-variant-numeric:tabular-nums}
-
-/* -- Parallax layers (CSS custom prop driven by JS) -- */
-.parallax-layer{will-change:transform;transition:none}
-
-/* ═══ BUTTONS ═══ */
-.btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 28px;font-size:.9rem;font-weight:600;color:#fff;background:var(--accent);border:none;border-radius:var(--radius-sm);cursor:pointer;transition:all var(--dur) var(--ease);box-shadow:0 2px 8px rgba(124,92,252,.25);position:relative;overflow:hidden}
-.btn-primary::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.15) 0%,transparent 50%);opacity:0;transition:opacity var(--dur)}
-.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(124,92,252,.35)}
-.btn-primary:hover::before{opacity:1}
-.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 28px;font-size:.9rem;font-weight:600;color:var(--text);background:transparent;border:1.5px solid var(--border-strong);border-radius:var(--radius-sm);cursor:pointer;transition:all var(--dur) var(--ease)}
-.btn-outline:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow-md)}
-.btn-wa{color:#25D366;border-color:#25D366}
-.btn-wa:hover{background:rgba(37,211,102,.08);color:#25D366;border-color:#25D366;box-shadow:0 4px 16px rgba(37,211,102,.2)}
-.btn-outline-light{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 28px;font-size:.9rem;font-weight:600;color:rgba(255,255,255,.9);background:rgba(255,255,255,.06);border:1.5px solid rgba(255,255,255,.15);border-radius:var(--radius-sm);cursor:pointer;transition:all var(--dur) var(--ease);backdrop-filter:blur(8px)}
-.btn-outline-light:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.3);transform:translateY(-2px)}
-.btn-ghost{display:inline-flex;align-items:center;padding:8px 16px;font-size:.85rem;font-weight:500;color:rgba(255,255,255,.6);background:transparent;border:none;border-radius:var(--radius-sm);cursor:pointer;transition:color var(--dur)}
-.btn-ghost:hover{color:#fff}
-.btn-lg{padding:16px 36px;font-size:.95rem;border-radius:var(--radius)}
-.btn-full{width:100%}
-
-/* ═══ NAVBAR ═══ */
-#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nav-h);background:rgba(8,8,26,.6);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border-bottom:1px solid var(--dark-border);transition:all var(--dur) var(--ease)}
-#navbar.scrolled{background:rgba(8,8,26,.92);box-shadow:0 4px 30px rgba(0,0,0,.3)}
-#navbar.light-mode{background:rgba(250,250,254,.85);border-bottom-color:var(--border)}
-#navbar.light-mode.scrolled{background:rgba(250,250,254,.95);box-shadow:var(--shadow-md)}
-#navbar.light-mode .nav-link{color:var(--text-secondary)}
-#navbar.light-mode .nav-link:hover,#navbar.light-mode .nav-link.active{color:var(--text);background:var(--accent-soft)}
-#navbar.light-mode .logo-text{color:var(--text)}
-#navbar.light-mode .btn-ghost{color:var(--text-secondary)}
-#navbar.light-mode .btn-ghost:hover{color:var(--accent)}
-#navbar.light-mode .nav-toggle{color:var(--text)}
-.nav-inner{max-width:1220px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:100%;padding:0 28px}
-.nav-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.3rem}
-.logo-mark{display:flex;align-items:center;justify-content:center;width:38px;height:38px}
-.logo-text{color:#fff;letter-spacing:-.02em}
-.nav-links{display:flex;align-items:center;gap:2px}
-.nav-link{padding:7px 14px;font-size:.85rem;font-weight:500;color:rgba(255,255,255,.55);border-radius:8px;transition:all var(--dur) var(--ease)}
-.nav-link:hover,.nav-link.active{color:#fff;background:rgba(255,255,255,.08)}
-.nav-highlight{color:#fff!important;background:rgba(124,92,252,.18)!important;border:1px solid rgba(124,92,252,.35);position:relative}
-.nav-highlight:hover{background:rgba(124,92,252,.3)!important;border-color:rgba(124,92,252,.5)}
-.nav-tools-wrap{position:relative;display:flex;align-items:center}
-.nav-tools-wrap .nav-highlight{cursor:pointer;display:flex;align-items:center;gap:5px}
-.nav-tools-wrap .tools-arrow{font-size:.55rem;transition:transform .2s ease}
-.nav-tools-wrap:hover .tools-arrow{transform:rotate(180deg)}
-.nav-tools-dd{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(-8px);min-width:300px;background:rgba(15,15,35,.97);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:8px;opacity:0;visibility:hidden;transition:all .25s ease;backdrop-filter:blur(24px);box-shadow:0 20px 60px rgba(0,0,0,.5);z-index:1001}
-.nav-tools-wrap:hover .nav-tools-dd{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
-.tools-dd-item{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;transition:background .15s ease;text-decoration:none;color:#fff}
-.tools-dd-item:hover{background:rgba(255,255,255,.08)}
-.tools-dd-item.soon{opacity:.5;pointer-events:none}
-.tools-dd-icon{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:10px;font-size:1.1rem;background:rgba(124,92,252,.15);color:#A78BFA;flex-shrink:0}
-.tools-dd-icon.coming{background:rgba(255,255,255,.06);color:rgba(255,255,255,.4)}
-.tools-dd-text h4{font-size:.85rem;font-weight:600;margin:0}
-.tools-dd-text p{font-size:.72rem;color:rgba(255,255,255,.45);margin:2px 0 0;line-height:1.3}
-.tools-dd-divider{height:1px;background:rgba(255,255,255,.06);margin:4px 14px}
-.soon-badge{font-size:.6rem;background:rgba(255,255,255,.08);color:rgba(255,255,255,.4);padding:2px 6px;border-radius:4px;margin-left:6px;font-weight:500}
-#navbar.light-mode .nav-tools-dd{background:rgba(255,255,255,.97);border-color:rgba(0,0,0,.08);box-shadow:0 20px 60px rgba(0,0,0,.12)}
-#navbar.light-mode .tools-dd-item{color:var(--text)}
-#navbar.light-mode .tools-dd-item:hover{background:var(--accent-soft)}
-#navbar.light-mode .tools-dd-text p{color:var(--text-secondary)}
-#navbar.light-mode .tools-dd-divider{background:rgba(0,0,0,.06)}
-#navbar.light-mode .tools-dd-icon{background:var(--accent-soft);color:var(--accent)}
-
-#navbar.light-mode .nav-highlight{color:var(--accent)!important;background:var(--accent-soft)!important;border:1px solid rgba(124,92,252,.2)}
-#navbar.light-mode .nav-highlight:hover{background:rgba(124,92,252,.15)!important;border-color:rgba(124,92,252,.35)}
-.nav-actions{display:flex;align-items:center;gap:10px}
-.nav-toggle{display:none;background:none;border:none;cursor:pointer;color:#fff;padding:8px}
-@media(max-width:1080px){
-  .nav-links{position:fixed;top:var(--nav-h);left:0;right:0;flex-direction:column;align-items:stretch;background:rgba(8,8,26,.97);backdrop-filter:blur(20px);padding:12px 20px 20px;border-bottom:1px solid var(--dark-border);transform:translateY(-120%);opacity:0;transition:transform .4s var(--ease),opacity .3s var(--ease);pointer-events:none}
-  .nav-links.open{transform:translateY(0);opacity:1;pointer-events:auto}
-  #navbar.light-mode .nav-links{background:rgba(250,250,254,.97)}
-  .nav-link{padding:14px 18px;font-size:.95rem}
-  .nav-toggle{display:block}
-  .nav-actions .btn-ghost{display:none}
+.nav-toggle{display:none}
+@media(max-width:980px){
+  .masthead-nav{display:none}
+  .masthead-nav.open{display:flex;position:absolute;top:100%;right:0;left:0;flex-direction:column;background:var(--paper);padding:24px 32px;border-bottom:1px solid var(--rule);gap:14px;align-items:flex-start}
+  .nav-toggle{display:inline-flex;align-items:center;justify-content:flex-end;background:none;border:0;color:var(--ink);font-family:var(--ff-mono);font-size:var(--step--2);text-transform:uppercase;letter-spacing:.14em;font-weight:500}
 }
 
-/* ═══ HERO ═══ */
-.hero{position:relative;background:var(--grad-dark);min-height:100vh;display:flex;align-items:center;padding:calc(var(--nav-h) + 60px) 0 80px;overflow:hidden}
-.hero-orb{position:absolute;border-radius:50%;pointer-events:none;filter:blur(80px)}
-.hero-orb-1{width:600px;height:600px;top:-10%;right:-10%;background:rgba(124,92,252,.12)}
-.hero-orb-2{width:400px;height:400px;bottom:-15%;left:-5%;background:rgba(167,139,250,.08)}
-.hero-orb-3{width:200px;height:200px;top:40%;left:50%;background:rgba(196,181,253,.06)}
-.hero-grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 50%,black 30%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 50%,black 30%,transparent 100%)}
-.hero-content{position:relative;max-width:780px;z-index:2}
-.hero-badge{display:inline-flex;align-items:center;gap:10px;padding:8px 20px;font-size:.78rem;font-weight:600;font-family:var(--mono);color:var(--accent-bright);background:rgba(124,92,252,.08);border:1px solid rgba(124,92,252,.15);border-radius:100px;margin-bottom:32px;letter-spacing:.04em}
-.hero-badge-dot{width:6px;height:6px;background:var(--accent-bright);border-radius:50%;animation:pulse 2s ease infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.hero h1{font-size:clamp(2.8rem,6vw,4.2rem);font-weight:900;line-height:1.08;letter-spacing:-.04em;color:var(--dark-heading);margin-bottom:24px}
-.hero h1 .accent-word{background:var(--grad-accent);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero-sub{font-size:1.2rem;line-height:1.75;color:var(--dark-text);margin-bottom:44px;max-width:560px}
-.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:72px}
-.hero-stats{display:flex;gap:48px;flex-wrap:wrap;padding-top:40px;border-top:1px solid var(--dark-border)}
-.hero-stat{display:flex;flex-direction:column;gap:4px}
-.hero-stat-label{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.35)}
-.hero-stat-value{font-size:.95rem;font-weight:600;color:rgba(255,255,255,.85)}
-/* Hero 2-col layout */
-.hero-layout{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;position:relative;z-index:2}
-@media(max-width:1024px){.hero-layout{grid-template-columns:1fr}.hero-widget-wrap{display:none}}
-@media(max-width:640px){.hero-stats{gap:24px}.hero-ctas{flex-direction:column}}
-
-/* ── Hero Impact Stats Widget ── */
-.hero-widget-wrap{display:flex;align-items:center;justify-content:center}
-.impact-stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;width:100%}
-.impact-stat{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:28px 24px 20px;text-align:left;position:relative;overflow:hidden;transition:border-color .4s,background .4s}
-.impact-stat::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--grad-accent);opacity:0;transition:opacity .4s}
-.impact-stat:hover{border-color:rgba(124,92,252,.2);background:rgba(255,255,255,.05)}
-.impact-stat:hover::before{opacity:1}
-.impact-num{display:flex;align-items:baseline;gap:2px;font-family:var(--font);font-size:clamp(2rem,3.5vw,2.8rem);font-weight:900;line-height:1;letter-spacing:-.03em;color:#fff;margin-bottom:8px}
-.impact-prefix{color:var(--accent-bright);font-weight:700;font-size:.7em}
-.impact-suffix{color:var(--accent-bright);font-weight:700;font-size:.5em;margin-left:2px}
-.impact-label{display:block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.35);line-height:1.4}
-.impact-accent-line{width:50px;height:4px;margin-top:12px;display:block}
-.impact-line-fill{transition:width 1.5s var(--ease)}
-.impact-stat.counted .impact-line-fill{width:80}
-@media(max-width:480px){.impact-stats-grid{grid-template-columns:1fr 1fr;gap:12px}.impact-stat{padding:20px 16px 14px}}
-
-/* ── Scroll indicator ── */
-.scroll-indicator{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:8px}
-.scroll-mouse{width:22px;height:36px;border:2px solid rgba(255,255,255,.2);border-radius:12px;position:relative}
-.scroll-mouse::after{content:'';position:absolute;top:6px;left:50%;transform:translateX(-50%);width:3px;height:8px;background:rgba(255,255,255,.5);border-radius:3px;animation:scrollDot 2s ease infinite}
-@keyframes scrollDot{0%{opacity:1;transform:translateX(-50%) translateY(0)}100%{opacity:0;transform:translateX(-50%) translateY(14px)}}
-.scroll-indicator span{font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.25)}
-
-/* ═══ SERVICES OVERVIEW ═══ */
-.svc-overview-graphic{display:none}
-.section-cta{margin-top:48px;text-align:center}
-
-/* ── Featured Services Grid (Top Tier) ── */
-.services-featured{display:flex;flex-wrap:wrap;justify-content:center;gap:28px;margin-bottom:64px;counter-reset:svc-feat}
-.svc-card-feat{position:relative;display:flex;flex-direction:column;width:calc(33.333% - 19px);padding:44px 32px 32px;background:#fff;border:1px solid rgba(15,15,45,.06);border-radius:16px;cursor:pointer;transition:all .35s var(--ease);overflow:hidden;counter-increment:svc-feat}
-.svc-card-feat::before{content:counter(svc-feat,decimal-leading-zero);position:absolute;top:16px;right:20px;font-family:var(--serif);font-size:3.2rem;font-weight:700;color:rgba(15,15,45,.04);line-height:1;pointer-events:none;transition:color .3s}
-.svc-card-feat::after{content:'';position:absolute;top:0;left:0;bottom:0;width:3px;background:var(--accent);border-radius:0 3px 3px 0;transform:scaleY(0);transform-origin:bottom;transition:transform .35s var(--ease)}
-.svc-card-feat:hover{transform:translateY(-4px);box-shadow:0 12px 32px -8px rgba(15,15,45,.1),0 4px 12px -4px rgba(15,15,45,.06);border-color:rgba(15,15,45,.1)}
-.svc-card-feat:hover::before{color:rgba(124,92,252,.08)}
-.svc-card-feat:hover::after{transform:scaleY(1)}
-.svc-card-feat .svc-icon{width:48px;height:48px;background:var(--accent-soft);border-radius:12px;margin-bottom:22px;color:var(--accent);display:inline-flex;align-items:center;justify-content:center;transition:all .3s}
-.svc-card-feat:hover .svc-icon{background:rgba(124,92,252,.12);color:var(--accent-dark)}
-.svc-card-feat h3{margin-bottom:10px;font-family:var(--serif);font-size:1.15rem;font-weight:700;color:var(--text)}
-.svc-card-feat p{font-size:.88rem;color:var(--text-secondary);line-height:1.7;flex:1}
-.svc-card-feat .svc-card-arrow{display:flex;align-items:center;gap:6px;margin-top:20px;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);opacity:0;transform:translateX(-8px);transition:all .25s}
-.svc-card-feat:hover .svc-card-arrow{opacity:1;transform:translateX(0)}
-@media(max-width:900px){.svc-card-feat{width:calc(50% - 14px)}}
-@media(max-width:560px){.svc-card-feat{width:100%}}
-
-/* ── More Services Divider ── */
-.svc-more-label{display:flex;align-items:center;gap:18px;margin-bottom:36px;color:var(--text-secondary);font-family:var(--serif);font-size:.85rem;font-weight:400;font-style:italic;letter-spacing:.04em}
-.svc-more-label::before,.svc-more-label::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--border-strong),transparent)}
-
-/* ── Compact Services Grid (Bottom Tier) ── */
-.services-grid-more{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.svc-card-compact{display:flex;align-items:flex-start;gap:16px;padding:20px 22px;background:transparent;border:1px solid transparent;border-radius:var(--radius);cursor:pointer;transition:all .25s var(--ease)}
-.svc-card-compact:hover{background:rgba(255,255,255,.8);border-color:rgba(15,15,45,.06);box-shadow:0 6px 20px -6px rgba(15,15,45,.08);transform:translateY(-2px)}
-.svc-card-compact .svc-icon-sm{flex-shrink:0;width:36px;height:36px;background:var(--accent-soft);border-radius:10px;color:var(--accent);display:inline-flex;align-items:center;justify-content:center;transition:all .25s}
-.svc-card-compact:hover .svc-icon-sm{background:rgba(124,92,252,.12)}
-.svc-card-compact .svc-compact-info{display:flex;flex-direction:column;min-width:0}
-.svc-card-compact h3{font-family:var(--serif);font-size:.95rem;font-weight:700;color:var(--text);margin-bottom:3px}
-.svc-card-compact p{font-size:.78rem;color:var(--text-secondary);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-@media(max-width:900px){.services-grid-more{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.services-grid-more{grid-template-columns:1fr}}
-
-/* ═══ ABOUT ═══ */
-.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
-.about-text p{font-size:1.08rem;color:var(--text-secondary);margin-bottom:24px;line-height:1.8}
-.about-cards{display:flex;flex-direction:column;gap:24px}
-.about-card{padding:32px;background:var(--light-surface);border:1px solid var(--border);border-radius:var(--radius-lg);position:relative;overflow:hidden;transition:all var(--dur) var(--ease)}
-.about-card::before{content:'';position:absolute;top:0;left:0;bottom:0;width:4px;background:var(--grad-accent);border-radius:4px}
-.about-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-2px)}
-.about-card h3{font-size:1.1rem;font-weight:700;margin-bottom:12px;color:var(--accent);padding-left:4px}
-.about-card p{font-size:.92rem;color:var(--text-secondary);line-height:1.7;padding-left:4px}
-@media(max-width:800px){.about-grid{grid-template-columns:1fr;gap:40px}}
-
-/* ═══ SERVICES DETAIL ═══ */
-.services-layout{display:grid;grid-template-columns:280px 1fr;gap:48px;align-items:start}
-.services-nav{position:sticky;top:calc(var(--nav-h) + 32px);display:flex;flex-direction:column;gap:4px;background:var(--light-surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:12px}
-.svc-tab{text-align:left;padding:12px 18px;font-size:.88rem;font-weight:500;color:var(--text-secondary);background:transparent;border:none;border-radius:var(--radius-sm);cursor:pointer;transition:all var(--dur) var(--ease)}
-.svc-tab:hover{color:var(--text);background:var(--light-alt)}
-.svc-tab.active{color:var(--accent);background:var(--accent-soft);font-weight:700;box-shadow:inset 0 0 0 1px rgba(124,92,252,.12)}
-.svc-panel{display:none}
-.svc-panel.active{display:block;animation:fadeSlideIn .4s var(--ease)}
-.svc-panel h3{font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:8px;background:linear-gradient(135deg,#0F0F2D 0%,#3D2D8A 40%,#7C5CFC 80%,#A78BFA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.svc-panel li{position:relative;padding:16px 0 16px 36px;font-size:.95rem;color:var(--text-secondary);border-bottom:1px solid var(--border);line-height:1.55;transition:color var(--dur)}
-.svc-panel li:last-child{border-bottom:none}
-.svc-panel li::before{content:'';position:absolute;left:0;top:22px;width:10px;height:10px;background:var(--accent-soft);border:2px solid var(--accent);border-radius:50%;transition:all var(--dur)}
-.svc-panel li:hover{color:var(--text)}
-.svc-panel li:hover::before{background:var(--accent);box-shadow:0 0 8px rgba(124,92,252,.3)}
-@keyframes fadeSlideIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-
-/* ── Service detail panel enhancements ── */
-.svc-panel-desc{font-size:.95rem;color:var(--text-secondary);margin-bottom:32px;line-height:1.75}
-.svc-subhead{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin:36px 0 16px;display:flex;align-items:center;gap:8px}
-.svc-subhead::before{content:'';width:16px;height:2px;background:var(--accent);border-radius:2px}
-.svc-detail-widget{padding:0;background:transparent;border-radius:0;margin-bottom:8px;overflow:visible}
-.svc-chart{display:none}
-.svc-detail-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden}
-.svc-metric{padding:20px 16px;background:transparent;border:none;border-right:1px solid var(--border);text-align:center;transition:background .2s}
-.svc-metric:last-child{border-right:none}
-.svc-metric:hover{background:var(--accent-soft)}
-.svc-metric-val{display:block;font-size:.92rem;font-weight:800;color:var(--accent);margin-bottom:4px}
-.svc-metric-label{display:block;font-size:.65rem;color:var(--text-secondary);font-weight:500;text-transform:uppercase;letter-spacing:.06em}
-/* ── How We Work - Timeline Flow ── */
-.svc-process-grid{display:flex;gap:0;margin-bottom:8px;position:relative;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-.svc-process-grid::-webkit-scrollbar{display:none}
-/* Horizontal connector line */
-.svc-process-grid::before{content:'';position:absolute;top:19px;left:28px;right:28px;height:2px;background:linear-gradient(90deg,var(--accent),rgba(124,92,252,.12));border-radius:2px;z-index:0}
-.svc-step{flex:1;min-width:140px;text-align:center;position:relative;padding:0 12px 0}
-/* Timeline node */
-.svc-step-num{display:flex;align-items:center;justify-content:center;width:38px;height:38px;margin:0 auto 14px;background:#fff;border:2px solid var(--border);border-radius:50%;font-family:var(--mono);font-size:.7rem;font-weight:800;color:var(--accent);opacity:1;position:relative;z-index:1;transition:all .3s var(--ease)}
-.svc-step:first-child .svc-step-num{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(124,92,252,.25)}
-.svc-step:hover .svc-step-num{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(124,92,252,.25);transform:scale(1.1)}
-/* Arrow after each step (except last) */
-.svc-step:not(:last-child)::after{content:'';position:absolute;top:15px;right:-4px;width:8px;height:8px;border-top:2px solid var(--accent);border-right:2px solid var(--accent);transform:rotate(45deg);opacity:.35;z-index:1}
-.svc-step strong{display:block;font-size:.82rem;margin-bottom:6px;color:var(--text)}
-.svc-step p{font-size:.72rem;color:var(--text-secondary);line-height:1.5;margin:0}
-@media(max-width:768px){.svc-process-grid{overflow-x:auto;padding-bottom:8px}.svc-step{min-width:130px}.svc-detail-metrics{grid-template-columns:1fr}.svc-metric{border-right:none;border-bottom:1px solid var(--border)}.svc-metric:last-child{border-bottom:none}}
-.svc-deliverables{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
-.svc-deliv-tag{display:inline-flex;align-items:center;padding:6px 14px;font-size:.75rem;font-weight:600;color:var(--text-secondary);background:transparent;border:1px solid var(--border);border-radius:6px;transition:all .15s}
-.svc-deliv-tag:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
-.svc-cta-row{margin-top:40px;padding-top:32px;border-top:1px solid var(--border);display:flex;gap:14px;flex-wrap:wrap}
-
-/* ── Process Flow Widget ── */
-.svc-pipeline-widget{background:transparent;border:1px solid var(--border);border-radius:var(--radius);padding:28px 28px 20px;margin-bottom:24px}
-.svc-pipeline-header{display:flex;flex-direction:column;gap:6px;margin-bottom:28px}
-.svc-pipeline-header-row{display:flex;justify-content:space-between;align-items:center}
-.svc-pipeline-title{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--text-secondary)}
-.svc-pipeline-badge{font-size:.6rem;font-weight:700;padding:4px 10px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
-.svc-pipeline-subtitle{font-size:.84rem;color:var(--text-secondary);line-height:1.6;font-weight:400}
-/* Flow track - wrapper keeps overflow visible */
-.svc-flow-wrap{overflow-x:auto;overflow-y:visible;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:4px}
-.svc-flow-wrap::-webkit-scrollbar{display:none}
-.svc-pipeline-stages{display:flex;align-items:flex-start;gap:0;margin-bottom:20px;position:relative}
-.svc-pipeline-stage{flex:1;min-width:130px;text-align:center;position:relative;padding:0 10px}
-/* Connector line between steps */
-.svc-pipeline-stage+.svc-pipeline-stage::before{content:'';position:absolute;top:24px;right:calc(50% + 24px);width:calc(100% - 48px);height:2px;background:var(--accent);opacity:.18;z-index:0}
-/* Arrow chevron between steps */
-.svc-pipeline-stage+.svc-pipeline-stage::after{content:'';position:absolute;top:20px;right:calc(50% + 24px);width:7px;height:7px;border-top:2px solid var(--accent);border-right:2px solid var(--accent);transform:rotate(45deg);opacity:.3;z-index:1}
-/* Icon circle */
-.svc-stage-icon{width:48px;height:48px;margin:0 auto 14px;background:#fff;border:2px solid rgba(124,92,252,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--accent);position:relative;z-index:1;transition:all .3s var(--ease)}
-.svc-stage-icon svg{width:20px;height:20px}
-.svc-pipeline-stage:first-child .svc-stage-icon{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 4px 16px rgba(124,92,252,.2)}
-.svc-pipeline-stage:hover .svc-stage-icon{border-color:var(--accent);background:var(--accent);color:#fff;box-shadow:0 4px 16px rgba(124,92,252,.2);transform:scale(1.08)}
-/* Step number label below icon */
-.svc-stage-num{display:block;font-size:.55rem;font-weight:700;font-family:var(--mono);color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;opacity:.5}
-/* Text */
-.svc-stage-label{display:block;font-size:.8rem;font-weight:700;color:var(--text);margin-bottom:4px;line-height:1.3}
-.svc-stage-desc{display:block;font-size:.7rem;color:var(--text-secondary);line-height:1.5}
-/* Metrics */
-.svc-pipeline-widget .svc-detail-metrics{border-top:1px solid var(--border);padding-top:16px;margin-top:4px}
-.svc-pipeline-widget .svc-metric-val{color:var(--accent)}
-.svc-pipeline-widget .svc-metric-label{color:var(--text-secondary)}
-@media(max-width:600px){.svc-pipeline-stage{min-width:110px}}
-
-@media(max-width:860px){
-  .services-layout{grid-template-columns:1fr;gap:28px}
-  .services-nav{position:sticky;top:var(--nav-h);flex-direction:row;overflow-x:auto;gap:4px;padding:8px;z-index:10;scrollbar-width:none}
-  .services-nav::-webkit-scrollbar{display:none}
-  .svc-tab{white-space:nowrap;font-size:.82rem;padding:10px 16px}
+/* ════════════════════════════════════════════════════════════════
+   HERO
+═════════════════════════════════════════════════════════════════ */
+.hero{
+  padding:var(--space-xxl) 0 var(--space-xl);
+  position:relative;
+  border-bottom:1px solid var(--rule);
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:var(--space-l);
+}
+@media(min-width:980px){
+  .hero-grid{grid-template-columns:minmax(0, 9fr) minmax(0, 3fr);gap:var(--space-xl);align-items:end}
 }
 
-/* ═══ PLAYBOOK ═══ */
-.globe-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px;margin-bottom:48px}
-.globe-card{text-align:center;padding:36px 16px;background:var(--light-surface);border:1px solid var(--border);border-radius:var(--radius-lg);transition:all var(--dur) var(--ease);position:relative;overflow:hidden;cursor:pointer}
-.globe-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--grad-accent);opacity:0;transition:opacity var(--dur)}
-.globe-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-card-hover);border-color:transparent}
-.globe-card:hover::after{opacity:1}
-.globe-flag{font-size:2.8rem;display:block;margin-bottom:14px}
-.globe-flag-img{width:56px;height:auto;border-radius:4px;margin:0 auto 14px;box-shadow:0 2px 8px rgba(0,0,0,.1);transition:transform var(--dur)}
-.globe-card:hover .globe-flag-img{transform:scale(1.1)}
-.globe-card h3{font-size:1rem;font-weight:700;color:var(--text)}
-.globe-closing{font-size:1.15rem;color:var(--text-secondary);text-align:center;font-style:italic;max-width:520px;margin:0 auto}
-@media(max-width:800px){.globe-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:480px){.globe-grid{grid-template-columns:repeat(2,1fr)}}
+.hero-tag{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:32px;
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  font-weight:500;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--accent);
+}
+.hero-tag::before{
+  content:"";
+  display:block;
+  width:42px;
+  height:1px;
+  background:var(--accent);
+}
 
-/* ═══ INDUSTRIES - Horizontal Scroll ═══ */
-.horizontal-scroll-wrapper{position:relative;overflow:hidden;padding:40px 0}
-.horizontal-track{display:flex;gap:20px;width:max-content;animation:marquee 40s linear infinite}
-.horizontal-track:hover{animation-play-state:paused}
-@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.industry-chip{display:inline-flex;align-items:center;padding:16px 32px;font-size:.95rem;font-weight:600;color:var(--text);background:var(--light-surface);border:1px solid var(--border);border-radius:100px;white-space:nowrap;transition:all var(--dur) var(--ease);cursor:default}
-.industry-chip:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);box-shadow:0 4px 12px rgba(124,92,252,.1);transform:scale(1.05)}
+.hero-headline{
+  font-family:var(--ff-display);
+  font-size:var(--step-5);
+  font-weight:400;
+  line-height:1.0;
+  letter-spacing:-.028em;
+  color:var(--ink);
+  max-width:1000px;
+  font-feature-settings:"ss01","ss02";
+}
+.hero-headline em{
+  font-style:italic;
+  font-weight:400;
+  color:var(--accent);
+}
 
-/* ═══ ASSOCIATES ═══ */
-.associates-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
-.assoc-card{text-align:center;padding:40px 24px 36px;background:var(--light-surface);border:1px solid var(--border);border-radius:var(--radius-lg);transition:all var(--dur) var(--ease);position:relative;overflow:hidden}
-.assoc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--grad-accent);opacity:0;transition:opacity var(--dur)}
-.assoc-card:hover{transform:translateY(-5px);box-shadow:var(--shadow-card-hover);border-color:transparent}
-.assoc-card:hover::before{opacity:1}
-.assoc-avatar{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-bright) 100%);color:#fff;font-weight:800;font-size:1.05rem;border-radius:50%;margin-bottom:20px;box-shadow:0 4px 16px rgba(124,92,252,.25)}
-.assoc-card h3{margin-bottom:4px;font-size:1.08rem;font-weight:700;color:var(--text)}
-.assoc-creds{font-size:.78rem;font-family:var(--mono);color:var(--accent);font-weight:500;margin-bottom:12px;letter-spacing:.02em}
-.assoc-desc{font-size:.88rem;color:var(--text-secondary);line-height:1.6}
-@media(max-width:900px){.associates-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:480px){.associates-grid{grid-template-columns:1fr}}
+.hero-body{
+  margin-top:36px;
+  font-size:var(--step-1);
+  line-height:1.55;
+  color:var(--ink-2);
+  max-width:620px;
+  font-weight:400;
+}
 
-/* ═══ FOUNDER ═══ */
-.founder-section{padding:100px 0 110px;background:#fff;position:relative;overflow:hidden}
-.founder-section::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(124,92,252,.04) 0%,transparent 70%);pointer-events:none}
-.founder-card{display:grid;grid-template-columns:320px 1fr;gap:60px;align-items:center;max-width:900px;margin:0 auto}
-.founder-photo-wrap{position:relative}
-.founder-photo-wrap::before{content:'';position:absolute;top:12px;left:12px;right:-12px;bottom:-12px;border:2px solid rgba(124,92,252,.12);border-radius:var(--radius-lg);z-index:0}
-.founder-photo{width:100%;aspect-ratio:5/6;object-fit:cover;object-position:top center;border-radius:var(--radius-lg);position:relative;z-index:1;box-shadow:0 20px 60px rgba(15,15,45,.12),0 4px 16px rgba(124,92,252,.08)}
-.founder-info{position:relative}
-.founder-name{font-size:2.2rem;font-weight:800;letter-spacing:-.02em;color:var(--text);margin-bottom:6px}
-.founder-title{font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:28px;display:flex;align-items:center;gap:10px}
-.founder-title::before{content:'';width:24px;height:2px;background:var(--accent);border-radius:2px}
-.founder-bio{font-size:1rem;color:var(--text-secondary);line-height:1.85;margin-bottom:28px}
-.founder-quals{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}
-.founder-qual-tag{display:inline-flex;align-items:center;padding:6px 14px;font-size:.72rem;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:6px;letter-spacing:.02em}
-.founder-social{display:flex;gap:12px}
-.founder-social a{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);color:var(--text-secondary);transition:all .3s var(--ease)}
-.founder-social a:hover{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 4px 12px rgba(124,92,252,.25);transform:translateY(-2px)}
-@media(max-width:768px){.founder-card{grid-template-columns:1fr;text-align:center;gap:36px}.founder-photo-wrap{max-width:280px;margin:0 auto}.founder-photo-wrap::before{display:none}.founder-title{justify-content:center}.founder-quals{justify-content:center}.founder-social{justify-content:center}}
+.hero-actions{
+  margin-top:48px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:24px;
+  align-items:center;
+}
+.btn-ink{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 28px;
+  background:var(--ink);color:var(--paper);
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  transition:all .2s var(--ease);
+  border:1px solid var(--ink);
+}
+.btn-ink:hover{background:var(--accent);border-color:var(--accent)}
+.btn-ink svg{transition:transform .3s var(--ease)}
+.btn-ink:hover svg{transform:translateX(4px)}
 
-/* ═══ CONTACT ═══ */
-.contact-section{padding:120px 0;background:var(--grad-dark);position:relative;overflow:hidden}
-.contact-section .hero-grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.015) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 60% at 50% 50%,black 20%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 50%,black 20%,transparent 100%)}
-.contact-section .section-label{color:var(--accent-bright)}
-.contact-section .section-label::before{background:var(--accent-bright)}
+.link-underline{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink);
+  border-bottom:1px solid var(--ink);
+  padding-bottom:4px;
+  transition:all .2s;
+}
+.link-underline:hover{color:var(--accent);border-color:var(--accent)}
 
-.contact-layout{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:start;position:relative;z-index:2}
-.contact-form-wrap{padding:40px;background:var(--dark-card);border:1px solid var(--dark-border);border-radius:var(--radius-xl);box-shadow:0 20px 60px rgba(0,0,0,.3)}
-.form-group{margin-bottom:22px}
-.form-group label{display:block;margin-bottom:8px;font-size:.82rem;font-weight:600;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.06em}
-.form-group input,.form-group textarea{width:100%;padding:14px 18px;font-size:.95rem;font-family:var(--font);color:#fff;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-sm);transition:all var(--dur) var(--ease)}
-.form-group input::placeholder,.form-group textarea::placeholder{color:rgba(255,255,255,.25)}
-.form-group input:focus,.form-group textarea:focus{outline:none;border-color:var(--accent);background:rgba(124,92,252,.04);box-shadow:0 0 0 3px rgba(124,92,252,.12)}
-.form-group textarea{resize:vertical;min-height:110px}
-.form-status{margin-top:14px;font-size:.88rem;font-weight:600;color:var(--accent-bright);min-height:1.5em}
-.contact-info{display:flex;flex-direction:column;gap:32px}
-.contact-block h3{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px;color:rgba(255,255,255,.35)}
-.contact-block p,.contact-block a{font-size:.95rem;color:rgba(255,255,255,.65);line-height:1.65}
-.contact-block a{transition:color var(--dur)}
-.contact-block a:hover{color:var(--accent-bright)}
-.contact-divider{margin:20px 0 12px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,.08)}
-.contact-divider span{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;color:var(--accent-bright)}
-@media(max-width:860px){.contact-layout{grid-template-columns:1fr;gap:48px}}
+/* Hero aside / stats */
+.hero-aside{
+  padding:24px;
+  background:var(--paper-2);
+  border:1px solid var(--rule);
+}
+.hero-aside-head{
+  padding-bottom:14px;
+  border-bottom:1px solid var(--rule);
+  margin-bottom:20px;
+}
+.hero-aside-metric{
+  padding:16px 0;
+  border-top:1px solid var(--rule-soft);
+  display:flex;justify-content:space-between;align-items:baseline;
+  gap:var(--space-m);
+}
+.hero-aside-metric:first-of-type{border-top:0}
+.hero-aside-value{
+  font-family:var(--ff-display);
+  font-size:var(--step-2);
+  font-weight:400;
+  font-style:italic;
+  color:var(--accent);
+  letter-spacing:-.02em;
+}
+.hero-aside-key{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-2);
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  text-align:right;
+  max-width:180px;
+}
 
-/* ═══ FOOTER ═══ */
-footer{background:#050514;color:rgba(255,255,255,.45);padding:72px 0 0;border-top:1px solid rgba(255,255,255,.04)}
-.footer-inner{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px}
-.footer-brand p{margin-top:14px;font-size:.88rem;line-height:1.65;max-width:290px}
-.footer-brand .logo-text{color:#fff}
-.footer-nav{display:flex;flex-direction:column;gap:12px}
-.footer-nav h4{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:rgba(255,255,255,.25);margin-bottom:8px}
-.footer-nav a{font-size:.88rem;transition:color var(--dur)}
-.footer-nav a:hover{color:#fff}
-.footer-bottom{margin-top:56px;padding:24px 0;border-top:1px solid rgba(255,255,255,.05)}
-.footer-bottom p{font-size:.8rem}
-@media(max-width:800px){.footer-inner{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.footer-inner{grid-template-columns:1fr;gap:36px}}
+.hero-ledger{
+  margin-top:var(--space-xl);
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+}
+.hero-ledger-item{
+  padding:24px 0;
+  border-left:1px solid var(--rule);
+  padding-left:22px;
+}
+.hero-ledger-item:first-child{border-left:0;padding-left:0}
+.hero-ledger-num{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-3);
+  letter-spacing:.1em;
+}
+.hero-ledger-val{
+  margin-top:10px;
+  font-family:var(--ff-display);
+  font-size:var(--step-1);
+  font-style:italic;
+  font-weight:400;
+  color:var(--ink);
+  line-height:1.2;
+}
+@media(max-width:767px){
+  .hero-ledger{grid-template-columns:repeat(2,1fr)}
+  .hero-ledger-item{border-left:0;padding-left:16px;border-top:1px solid var(--rule-soft);padding-top:16px}
+  .hero-ledger-item:first-child, .hero-ledger-item:nth-child(2){border-top:0;padding-top:24px}
+}
 
-/* ═══ MAGNETIC CURSOR (desktop) ═══ */
-.magnetic{transition:transform .3s var(--ease-spring)}
+/* ════════════════════════════════════════════════════════════════
+   SECTION HEADER
+═════════════════════════════════════════════════════════════════ */
+.sect-head{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:18px;
+  margin-bottom:var(--space-l);
+  align-items:end;
+}
+@media(min-width:980px){
+  .sect-head{grid-template-columns:minmax(0, 7fr) minmax(0, 5fr);gap:var(--space-l)}
+}
+.sect-num{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-3);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+}
+.sect-num::before{content:"§ ";color:var(--accent)}
+.sect-heading{
+  font-family:var(--ff-display);
+  font-size:var(--step-3);
+  font-weight:400;
+  line-height:1.05;
+  letter-spacing:-.02em;
+  margin-top:10px;
+  color:var(--ink);
+  max-width:900px;
+}
+.sect-heading em{font-style:italic;font-weight:400;color:var(--accent)}
+.sect-dek{
+  font-size:var(--step-0);
+  color:var(--ink-2);
+  line-height:1.6;
+  max-width:460px;
+  padding-left:0;
+  border-left:2px solid var(--accent);
+  padding-left:18px;
+}
+@media(min-width:980px){.sect-dek{align-self:end}}
 
-/* ═══ SMOOTH PAGE TRANSITION ═══ */
-.page-transition{animation:pageIn .8s var(--ease) both}
-@keyframes pageIn{from{opacity:0}to{opacity:1}}
+/* ════════════════════════════════════════════════════════════════
+   SERVICES — "Table of Contents" editorial list
+═════════════════════════════════════════════════════════════════ */
+.services-list{
+  border-top:1px solid var(--ink);
+}
+.service-row{
+  display:grid;
+  grid-template-columns:60px 1fr 1fr 40px;
+  gap:var(--space-m);
+  padding:32px 0;
+  border-bottom:1px solid var(--rule);
+  align-items:baseline;
+  transition:background .3s var(--ease), padding .3s var(--ease);
+  position:relative;
+}
+.service-row:hover{background:var(--paper-2);padding-left:12px;padding-right:12px}
+.service-row::before{
+  content:"";
+  position:absolute;
+  left:0;top:0;
+  width:0;height:2px;
+  background:var(--accent);
+  transition:width .4s var(--ease);
+}
+.service-row:hover::before{width:60px}
+.service-num{
+  font-family:var(--ff-mono);
+  font-size:var(--step--1);
+  color:var(--accent);
+  letter-spacing:.1em;
+  font-weight:500;
+}
+.service-title{
+  font-family:var(--ff-display);
+  font-size:var(--step-2);
+  font-weight:400;
+  line-height:1.1;
+  letter-spacing:-.02em;
+  color:var(--ink);
+}
+.service-title em{font-style:italic}
+.service-summary{
+  font-size:var(--step-0);
+  color:var(--ink-2);
+  line-height:1.55;
+  max-width:460px;
+}
+.service-arrow{
+  justify-self:end;
+  color:var(--ink);
+  transition:transform .3s var(--ease),color .2s;
+}
+.service-row:hover .service-arrow{transform:translateX(6px);color:var(--accent)}
+
+@media(max-width:880px){
+  .service-row{grid-template-columns:40px 1fr 28px;gap:16px;padding:24px 0}
+  .service-summary{grid-column:2/-1;margin-top:8px}
+  .service-row:hover{padding-left:0;padding-right:0}
+  .service-row:hover::before{width:40px}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   EDITORIAL (About) — two-column spread, drop cap
+═════════════════════════════════════════════════════════════════ */
+.editorial-grid{
+  display:grid;grid-template-columns:1fr;gap:var(--space-l);
+}
+@media(min-width:980px){.editorial-grid{grid-template-columns:minmax(0, 7fr) minmax(0, 5fr);gap:var(--space-xl)}}
+
+.editorial-body{
+  columns:1;
+  column-gap:40px;
+  font-size:var(--step-0);
+  line-height:1.75;
+  color:var(--ink);
+  font-weight:400;
+}
+@media(min-width:640px){.editorial-body{columns:2}}
+.editorial-body p{margin-bottom:1em;break-inside:avoid}
+.editorial-body p:first-child::first-letter{
+  font-family:var(--ff-display);
+  font-size:5.8rem;
+  font-weight:400;
+  float:left;
+  line-height:.9;
+  padding-right:12px;
+  padding-top:6px;
+  color:var(--accent);
+  font-style:italic;
+}
+
+.pillars{display:flex;flex-direction:column;gap:var(--space-m)}
+.pillar{
+  padding:28px 0;
+  border-top:1px solid var(--rule);
+}
+.pillar:first-child{border-top:3px double var(--ink);padding-top:32px}
+.pillar-label{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--accent);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+.pillar-title{
+  font-family:var(--ff-display);
+  font-size:var(--step-2);
+  font-weight:300;
+  font-style:italic;
+  line-height:1.1;
+  color:var(--ink);
+  margin-bottom:12px;
+  letter-spacing:-.02em;
+}
+.pillar-body{font-size:var(--step-0);color:var(--ink-2);line-height:1.6}
+
+/* ════════════════════════════════════════════════════════════════
+   GLOBAL PRESENCE — dense horizontal list
+═════════════════════════════════════════════════════════════════ */
+.geo-list{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:0;
+  border-top:1px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+}
+.geo-item{
+  padding:40px 24px;
+  border-left:1px solid var(--rule);
+  text-align:center;
+  transition:background .3s;
+}
+.geo-item:first-child{border-left:0}
+.geo-item:hover{background:var(--paper-2)}
+.geo-num{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-3);
+  letter-spacing:.14em;
+  display:block;
+  margin-bottom:14px;
+}
+.geo-name{
+  font-family:var(--ff-display);
+  font-size:var(--step-1);
+  font-weight:400;
+  line-height:1.1;
+  color:var(--ink);
+  letter-spacing:-.01em;
+}
+.geo-name em{font-style:italic;color:var(--accent)}
+@media(max-width:980px){
+  .geo-list{grid-template-columns:repeat(3,1fr)}
+  .geo-item{padding:28px 12px}
+  .geo-item:nth-child(4){border-left:0;border-top:1px solid var(--rule)}
+  .geo-item:nth-child(n+4){border-top:1px solid var(--rule)}
+}
+@media(max-width:560px){
+  .geo-list{grid-template-columns:repeat(2,1fr)}
+  .geo-item:nth-child(3), .geo-item:nth-child(5){border-left:0}
+  .geo-item:nth-child(n+3){border-top:1px solid var(--rule)}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   INDUSTRIES — prose list
+═════════════════════════════════════════════════════════════════ */
+.industries-prose{
+  font-family:var(--ff-display);
+  font-size:var(--step-2);
+  font-weight:300;
+  line-height:1.35;
+  color:var(--ink);
+  max-width:1000px;
+  letter-spacing:-.015em;
+}
+.industries-prose span{
+  display:inline-block;
+  padding:0 4px;
+  transition:color .2s, background .2s;
+  border-radius:2px;
+}
+.industries-prose span:hover{color:var(--accent)}
+.industries-prose .sep{color:var(--ink-3);font-family:var(--ff-mono);font-size:var(--step-0);font-weight:400;padding:0 6px}
+
+/* ════════════════════════════════════════════════════════════════
+   FOUNDER — magazine profile
+═════════════════════════════════════════════════════════════════ */
+.founder-spread{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:var(--space-l);
+  align-items:start;
+}
+@media(min-width:980px){.founder-spread{grid-template-columns:minmax(0, 5fr) minmax(0, 7fr);gap:var(--space-xl)}}
+
+.founder-portrait{
+  position:relative;
+  background:var(--paper-2);
+  padding:20px;
+  border:1px solid var(--rule);
+}
+.founder-portrait img{
+  width:100%;
+  height:auto;
+  display:block;
+  filter:grayscale(35%) contrast(1.03) sepia(8%);
+}
+.founder-portrait-caption{
+  margin-top:16px;
+  padding-top:16px;
+  border-top:1px solid var(--rule);
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-2);
+  letter-spacing:.08em;
+}
+
+.founder-text{padding-top:20px}
+.founder-kicker{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--accent);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+.founder-name{
+  font-family:var(--ff-display);
+  font-size:var(--step-3);
+  font-weight:300;
+  line-height:1.05;
+  letter-spacing:-.02em;
+  color:var(--ink);
+  margin-bottom:12px;
+}
+.founder-role{
+  font-family:var(--ff-display);
+  font-style:italic;
+  font-weight:300;
+  font-size:var(--step-1);
+  color:var(--accent);
+  margin-bottom:28px;
+}
+.founder-bio{
+  font-size:var(--step-0);
+  line-height:1.75;
+  color:var(--ink);
+  margin-bottom:24px;
+  max-width:620px;
+}
+.founder-pullquote{
+  margin:32px 0;
+  padding:24px 0 24px 28px;
+  border-left:3px solid var(--accent);
+  font-family:var(--ff-display);
+  font-style:italic;
+  font-weight:300;
+  font-size:var(--step-2);
+  line-height:1.25;
+  color:var(--ink);
+  letter-spacing:-.01em;
+}
+.founder-creds{
+  margin-top:32px;
+  padding-top:24px;
+  border-top:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:var(--space-m);
+}
+.founder-cred{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-2);
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.founder-cred::before{content:"— ";color:var(--accent)}
+
+.founder-social{
+  margin-top:20px;display:flex;gap:16px;
+}
+.founder-social a{
+  width:38px;height:38px;
+  border:1px solid var(--ink);
+  display:grid;place-items:center;
+  transition:all .2s;
+  color:var(--ink);
+}
+.founder-social a:hover{background:var(--ink);color:var(--paper)}
+
+/* ════════════════════════════════════════════════════════════════
+   ASSOCIATES
+═════════════════════════════════════════════════════════════════ */
+.assoc-list{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;
+  border-top:1px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+}
+.assoc-item{
+  padding:36px 20px;
+  border-left:1px solid var(--rule);
+}
+.assoc-item:first-child{border-left:0}
+.assoc-initials{
+  font-family:var(--ff-display);
+  font-size:var(--step-2);
+  font-style:italic;
+  font-weight:300;
+  color:var(--accent);
+  letter-spacing:-.02em;
+}
+.assoc-name{
+  font-family:var(--ff-display);
+  font-size:var(--step-1);
+  font-weight:400;
+  line-height:1.2;
+  margin-top:16px;
+  color:var(--ink);
+  letter-spacing:-.01em;
+}
+.assoc-creds{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-2);
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  margin-top:10px;
+}
+.assoc-blurb{
+  font-size:var(--step--1);
+  color:var(--ink-2);
+  line-height:1.55;
+  margin-top:12px;
+}
+@media(max-width:880px){
+  .assoc-list{grid-template-columns:repeat(2,1fr)}
+  .assoc-item:nth-child(3){border-left:0}
+  .assoc-item:nth-child(n+3){border-top:1px solid var(--rule)}
+}
+@media(max-width:520px){
+  .assoc-list{grid-template-columns:1fr}
+  .assoc-item{border-left:0;border-top:1px solid var(--rule)}
+  .assoc-item:first-child{border-top:0}
+}
+
+/* ════════════════════════════════════════════════════════════════
+   CONTACT
+═════════════════════════════════════════════════════════════════ */
+.contact-grid{
+  display:grid;grid-template-columns:1fr;gap:var(--space-xl);
+}
+@media(min-width:980px){.contact-grid{grid-template-columns:minmax(0, 6fr) minmax(0, 6fr)}}
+
+.contact-form .fg{
+  display:flex;flex-direction:column;margin-bottom:24px;
+}
+.contact-form label{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-2);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.contact-form input,.contact-form textarea{
+  background:transparent;
+  border:0;
+  border-bottom:1px solid var(--rule);
+  padding:12px 0;
+  font-family:var(--ff-body);
+  font-size:var(--step-0);
+  color:var(--ink);
+  outline:none;
+  transition:border-color .2s;
+  font-weight:400;
+}
+.contact-form input:focus,.contact-form textarea:focus{border-bottom-color:var(--accent)}
+.contact-form textarea{resize:vertical;min-height:80px}
+.contact-form button{
+  margin-top:14px;
+  display:inline-flex;align-items:center;gap:12px;
+  padding:16px 36px;
+  background:var(--ink);color:var(--paper);
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  border:1px solid var(--ink);
+  transition:all .2s var(--ease);
+  cursor:pointer;
+}
+.contact-form button:hover{background:var(--accent);border-color:var(--accent)}
+.form-status{margin-top:18px;font-family:var(--ff-mono);font-size:var(--step--2);color:var(--ink-2);letter-spacing:.08em}
+
+.contact-directory h4{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--accent);
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+.contact-block{
+  padding:20px 0;
+  border-top:1px solid var(--rule-soft);
+}
+.contact-block:first-child{border-top:1px solid var(--ink)}
+.contact-block-label{
+  font-family:var(--ff-mono);
+  font-size:var(--step--2);
+  color:var(--ink-3);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  margin-bottom:6px;
+}
+.contact-block-body{
+  font-family:var(--ff-display);
+  font-weight:400;
+  font-size:var(--step-1);
+  letter-spacing:-.01em;
+  color:var(--ink);
+}
+.contact-block-body a{border-bottom:1px solid transparent;transition:border-color .2s}
+.contact-block-body a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.contact-block-sub{
+  margin-top:4px;font-family:var(--ff-body);font-size:var(--step--1);color:var(--ink-2);
+}
+.contact-subhead{
+  margin:28px 0 8px;
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  color:var(--ink-3);letter-spacing:.18em;text-transform:uppercase;
+  display:flex;align-items:center;gap:12px;
+}
+.contact-subhead::before,.contact-subhead::after{content:"";flex:1;height:1px;background:var(--rule)}
+
+/* ════════════════════════════════════════════════════════════════
+   COLOPHON (footer)
+═════════════════════════════════════════════════════════════════ */
+.colophon{
+  background:var(--ink);color:var(--paper);
+  padding:var(--space-xl) 0 var(--space-l);
+  border-top:3px double var(--paper);
+}
+.colophon-top{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:var(--space-l);
+  padding-bottom:var(--space-l);
+  border-bottom:1px solid rgba(243,239,230,.18);
+}
+@media(min-width:768px){.colophon-top{grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--space-xl)}}
+
+.colophon-brand .brand-mark{background:transparent;border-color:var(--paper);color:var(--paper)}
+.colophon-brand .brand-name{color:var(--paper)}
+.colophon-brand p{
+  margin-top:24px;
+  font-family:var(--ff-display);
+  font-style:italic;
+  font-weight:300;
+  font-size:var(--step-1);
+  color:rgba(243,239,230,.72);
+  max-width:360px;
+  line-height:1.4;
+}
+
+.colophon h5{
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:20px;font-weight:500;
+}
+.colophon ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.colophon a{color:rgba(243,239,230,.75);font-size:var(--step--1);transition:color .2s;line-height:1.4}
+.colophon a:hover{color:var(--paper)}
+
+.colophon-bottom{
+  margin-top:28px;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:14px;
+  font-family:var(--ff-mono);font-size:var(--step--2);
+  letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(243,239,230,.55);
+}
+.colophon-bottom em{font-style:italic;color:var(--gold)}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"AccountingService","name":"Bharat Quantum Prospera","alternateName":"BQP","url":"https://bharatquantumprospera.com","logo":"https://bharatquantumprospera.com/logo.svg","description":"Bharat Quantum Prospera is a leading CA-led advisory firm for startups and enterprises in India. Services include capital advisory, fundraising, M&A, fund structuring, GIFT City IFSC, global taxation, transfer pricing, ESOP structuring, SME IPO, US incorporation, and international expansion. Trusted by founders building beyond borders.","founder":{"@type":"Person","name":"CA Durgesh Chavda","jobTitle":"Founder & Managing Partner","hasCredential":{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Certification","name":"Chartered Accountant (CA)"}},"areaServed":[{"@type":"Country","name":"India"},{"@type":"Country","name":"United States"},{"@type":"Country","name":"Singapore"}],"serviceType":["Chartered Accountant Services","Startup Advisory","Capital Advisory","Tax Advisory"],"knowsAbout":["Startup Fundraising","Capital Advisory","Mergers and Acquisitions","Fund Structuring","SEBI AIF","GIFT City IFSC","Global Taxation","Transfer Pricing","DTAA","ESOP Structuring","SME IPO","US Incorporation","International Expansion","Corporate Legal Advisory"],"priceRange":"$$-$$$$"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com","description":"CA-led advisory firm for startups and enterprises"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Bharat Quantum Prospera offer for startups?","acceptedAnswer":{"@type":"Answer","text":"We offer end-to-end advisory including capital advisory and fundraising (Seed to Series C), M&A transactions, fund structuring (AIF/VC/PE), GIFT City IFSC setup, global taxation and transfer pricing, ESOP and compensation structuring, SME and Main Board IPO advisory, US incorporation (Delaware C-Corp/LLC), international expansion, and corporate legal advisory."}},{"@type":"Question","name":"Is Bharat Quantum Prospera a CA firm?","acceptedAnswer":{"@type":"Answer","text":"Yes, Bharat Quantum Prospera is a CA-led advisory firm founded by a qualified Chartered Accountant. We combine deep CA expertise in taxation, compliance, and financial structuring with strategic advisory for startups and growth-stage enterprises."}},{"@type":"Question","name":"Which industries do you serve?","acceptedAnswer":{"@type":"Answer","text":"We serve startups across technology, fintech, SaaS, D2C, healthtech, edtech, cleantech, manufacturing, and professional services. Our clients range from early-stage startups to companies preparing for IPO."}},{"@type":"Question","name":"Do you help startups with fundraising?","acceptedAnswer":{"@type":"Answer","text":"Yes, we provide complete fundraising advisory from seed to Series C including investor identification, pitch deck preparation, financial modeling, term sheet negotiation, due diligence support, and post-funding compliance."}},{"@type":"Question","name":"Can you help with US incorporation for an Indian startup?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer end-to-end US incorporation including Delaware C-Corp and LLC formation, EIN registration, US bank account setup, registered agent services, and ongoing compliance for Indian founders expanding to the US market."}},{"@type":"Question","name":"Do you provide ESOP advisory for startups?","acceptedAnswer":{"@type":"Answer","text":"Yes, we design, implement, and manage ESOP plans including plan structuring, valuation (409A and Rule 11UA), grant management, exercise facilitation, tax optimization, and ESOP pool strategy aligned with fundraising rounds."}}]}</script>
 </head>
-<body class="page-transition">
 
-<!-- Scroll Progress Bar -->
-<div id="scroll-progress"></div>
+<body>
 
-<!-- ═══ NAVBAR ═══ -->
-<nav id="navbar" aria-label="Main navigation">
-  <div class="nav-inner">
-    <a href="#home" class="nav-logo" aria-label="Bharat Quantum Prospera Home">
-      <span class="logo-mark"><svg width="34" height="34" viewBox="0 0 48 48" fill="none" aria-label="BQP Logo"><path d="M24 42V20" stroke="#7C5CFC" stroke-width="2.8" stroke-linecap="round"/><path d="M24 20C22 16 16 12 10 8" stroke="#7C5CFC" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M24 20C26 16 32 12 38 8" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" fill="none"/><circle cx="24" cy="20" r="3.2" fill="#7C5CFC"/><circle cx="10" cy="8" r="2" fill="#7C5CFC" opacity=".65"/><circle cx="38" cy="8" r="2" fill="#A78BFA" opacity=".65"/></svg></span>
-      <span class="logo-text">Bharat Quantum Prospera</span>
+<!-- ═════════════════════════════ MASTHEAD ═════════════════════════════ -->
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-meta">
+      <span>Vol. I · MMXXVI</span>
+      <span>Ahmedabad · Mumbai · Dubai</span>
+    </div>
+    <a href="#home" class="brand" aria-label="Bharat Quantum Prospera">
+      <span class="brand-mark">B</span>
+      <span class="brand-name">Bharat Quantum <em>Prospera</em></span>
     </a>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-        <line class="bar bar-1" x1="3" y1="6" x2="21" y2="6"/>
-        <line class="bar bar-2" x1="3" y1="12" x2="21" y2="12"/>
-        <line class="bar bar-3" x1="3" y1="18" x2="21" y2="18"/>
-      </svg>
-    </button>
-    <div class="nav-links" id="navLinks">
-      <a href="#home" class="nav-link active">Home</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#services-overview" class="nav-link">Services</a>
-      <div class="nav-tools-wrap">
-        <span class="nav-link nav-highlight">Tools <span class="tools-arrow">▼</span></span>
-        <div class="nav-tools-dd">
-          <a href="/transect" class="tools-dd-item">
-            <div class="tools-dd-icon">§</div>
-            <div class="tools-dd-text">
-              <h4>Transect</h4>
-              <p>Income Tax Act 1961 ↔ 2025 - Sections, Rules, Forms & TDS/TCS</p>
-            </div>
-          </a>
-          <div class="tools-dd-divider"></div>
-          <div class="tools-dd-item soon">
-            <div class="tools-dd-icon coming">📊</div>
-            <div class="tools-dd-text">
-              <h4>ComplianceOS <span class="soon-badge">Coming Soon</span></h4>
-              <p>Real-time compliance tracker for Indian businesses</p>
-            </div>
-          </div>
-          <div class="tools-dd-item soon">
-            <div class="tools-dd-icon coming">🧮</div>
-            <div class="tools-dd-text">
-              <h4>TaxCalc <span class="soon-badge">Coming Soon</span></h4>
-              <p>Advanced tax computation engine with regime comparison</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="#global-playbook" class="nav-link">Global Playbook</a>
-      <a href="#industries" class="nav-link">Industries</a>
-      <a href="#founder" class="nav-link">Founder</a>
-      <a href="#associates" class="nav-link">Associates</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </div>
-    <div class="nav-actions">
-      <a href="https://mail.google.com/mail/?view=cm&to=durgesh@bqpartners.in&su=Advisory+Enquiry+%E2%80%93+Bharat Quantum Prospera&body=Dear+Team+Bharat Quantum Prospera,%0A%0AI+am+writing+to+explore+a+potential+advisory+engagement+with+Bharat Quantum Prospera.+Having+reviewed+your+service+offerings,+I+believe+there+is+a+strong+fit+with+our+current+requirements.%0A%0AI+would+welcome+the+opportunity+to+schedule+a+brief+introductory+call+at+your+earliest+convenience.%0A%0AKind+regards,%0A%0A[Your+Name]%0A[Your+Organisation]%0A[Your+Contact+Number]" target="_blank" rel="noopener" class="btn-primary"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="margin-right:6px"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Get in Touch</a>
-    </div>
+    <nav class="masthead-nav" id="navLinks" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#about">Firm</a>
+      <a href="#founder">Founder</a>
+      <a href="#contact" class="cta">Enquire</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
   </div>
-</nav>
+</header>
 
 <main>
-<!-- ═══ HERO ═══ -->
+
+<!-- ═════════════════════════════ HERO ═════════════════════════════ -->
 <section id="home" class="hero">
-  <div class="hero-orb hero-orb-1 parallax-layer" data-speed="0.03"></div>
-  <div class="hero-orb hero-orb-2 parallax-layer" data-speed="-0.02"></div>
-  <div class="hero-orb hero-orb-3 parallax-layer" data-speed="0.04"></div>
-  <div class="hero-grid-bg"></div>
-  <div class="container hero-layout">
-    <div class="hero-content">
-      <div data-reveal="blur" data-delay="1">
-        <div class="hero-badge">
-          <span class="hero-badge-dot"></span>
-          Founder-First Advisory
-        </div>
-      </div>
-      <h1>
-        <span class="word-reveal" data-reveal-text>We don't raise capital - we engineer <span class="accent-word">outcomes.</span></span>
-      </h1>
-      <p class="hero-sub" data-reveal="up" data-delay="3">IPO advisory, US incorporation, GIFT City setup, global taxation, and fund raising - built for founders who think beyond borders.</p>
-      <div class="hero-ctas" data-reveal="up" data-delay="4">
-        <a href="#services-overview" class="btn-primary btn-lg magnetic">
-          Explore Our Services
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-        <a href="https://mail.google.com/mail/?view=cm&to=durgesh@bqpartners.in&su=Advisory+Enquiry+%E2%80%93+Bharat Quantum Prospera&body=Dear+Team+Bharat Quantum Prospera,%0A%0AI+am+writing+to+explore+a+potential+advisory+engagement+with+Bharat Quantum Prospera.+Having+reviewed+your+service+offerings,+I+believe+there+is+a+strong+fit+with+our+current+requirements.%0A%0AI+would+welcome+the+opportunity+to+schedule+a+brief+introductory+call+at+your+earliest+convenience.%0A%0AKind+regards,%0A%0A[Your+Name]%0A[Your+Organisation]%0A[Your+Contact+Number]" target="_blank" rel="noopener" class="btn-outline-light btn-lg magnetic">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Write to Us
-        </a>
-      </div>
-      <div class="hero-stats" data-reveal="up" data-delay="5">
-        <div class="hero-stat"><span class="hero-stat-label">Positioning</span><span class="hero-stat-value">Cross-border Ready</span></div>
-        <div class="hero-stat"><span class="hero-stat-label">Approach</span><span class="hero-stat-value">Founder-First</span></div>
-        <div class="hero-stat"><span class="hero-stat-label">Standards</span><span class="hero-stat-value">Compliance-Confident</span></div>
-        <div class="hero-stat"><span class="hero-stat-label">Outcome</span><span class="hero-stat-value">Capital Efficient</span></div>
-      </div>
-    </div>
-    <!-- ── Impact Stats Widget (scroll-triggered counters) ── -->
-    <div class="hero-widget-wrap" data-reveal="right" data-delay="4">
-      <div class="impact-stats-grid" id="impactStats">
-        <div class="impact-stat" data-count="5" data-suffix="+" data-prefix="">
-          <span class="impact-num"><span class="counter-val">0</span><span class="impact-suffix">+</span></span>
-          <span class="impact-label">Years of Impact</span>
-          <svg class="impact-accent-line" viewBox="0 0 80 4"><rect width="0" height="4" rx="2" fill="url(#accentGrad)" class="impact-line-fill"/><defs><linearGradient id="accentGrad"><stop offset="0%" stop-color="#7C5CFC"/><stop offset="100%" stop-color="#C4B5FD"/></linearGradient></defs></svg>
-        </div>
-        <div class="impact-stat" data-count="3.75" data-suffix="M" data-prefix="$" data-decimals="2">
-          <span class="impact-num"><span class="impact-prefix">$</span><span class="counter-val">0</span><span class="impact-suffix">M</span></span>
-          <span class="impact-label">Pre-Series A Closed</span>
-          <svg class="impact-accent-line" viewBox="0 0 80 4"><rect width="0" height="4" rx="2" fill="url(#accentGrad)" class="impact-line-fill"/></svg>
-        </div>
-        <div class="impact-stat" data-count="5000" data-suffix="Cr+" data-prefix="₹" data-decimals="0">
-          <span class="impact-num"><span class="impact-prefix">₹</span><span class="counter-val">0</span><span class="impact-suffix">Cr+</span></span>
-          <span class="impact-label">Audit Portfolio (Aggregate)</span>
-          <svg class="impact-accent-line" viewBox="0 0 80 4"><rect width="0" height="4" rx="2" fill="url(#accentGrad)" class="impact-line-fill"/></svg>
-        </div>
-        <div class="impact-stat" data-count="4" data-suffix="+" data-prefix="">
-          <span class="impact-num"><span class="counter-val">0</span><span class="impact-suffix">+</span></span>
-          <span class="impact-label">Cross-Border Jurisdictions</span>
-          <svg class="impact-accent-line" viewBox="0 0 80 4"><rect width="0" height="4" rx="2" fill="url(#accentGrad)" class="impact-line-fill"/></svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="scroll-indicator">
-    <div class="scroll-mouse"></div>
-    <span>Scroll</span>
-  </div>
-</section>
-
-<!-- ═══ SERVICES OVERVIEW ═══ -->
-<section id="services-overview" class="section">
   <div class="container">
-    <p class="section-label" data-reveal="left">What We Do</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Our Services</h2>
-    <p class="section-sub" data-reveal="up" data-delay="2">End-to-end advisory that powers our clients from early-stage capital to public markets and global expansion.</p>
-    <div class="line-draw" data-reveal="up" data-delay="2" style="margin-bottom:40px"></div>
-    <!-- Services decorative network graphic -->
-    <div class="svc-overview-graphic" data-reveal="scale" data-delay="2">
-      <svg viewBox="0 0 800 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <defs>
-          <linearGradient id="svcLine" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#7C5CFC" stop-opacity="0"/><stop offset="20%" stop-color="#7C5CFC" stop-opacity=".3"/><stop offset="50%" stop-color="#A78BFA" stop-opacity=".5"/><stop offset="80%" stop-color="#7C5CFC" stop-opacity=".3"/><stop offset="100%" stop-color="#7C5CFC" stop-opacity="0"/></linearGradient>
-        </defs>
-        <!-- Connection lines -->
-        <path d="M50,60 Q200,20 400,60 Q600,100 750,60" stroke="url(#svcLine)" stroke-width="1" stroke-dasharray="6 4"/>
-        <path d="M100,90 Q300,40 500,70 Q650,95 720,50" stroke="url(#svcLine)" stroke-width="1" stroke-dasharray="4 6" opacity=".5"/>
-        <!-- Nodes -->
-        <circle cx="100" cy="72" r="4" fill="#7C5CFC" opacity=".6"/><circle cx="100" cy="72" r="8" fill="#7C5CFC" opacity=".1"/>
-        <circle cx="250" cy="40" r="5" fill="#A78BFA" opacity=".7"/><circle cx="250" cy="40" r="10" fill="#A78BFA" opacity=".1"/>
-        <circle cx="400" cy="60" r="7" fill="#7C5CFC" opacity=".8"/><circle cx="400" cy="60" r="14" fill="#7C5CFC" opacity=".08"/>
-        <circle cx="550" cy="80" r="5" fill="#A78BFA" opacity=".7"/><circle cx="550" cy="80" r="10" fill="#A78BFA" opacity=".1"/>
-        <circle cx="700" cy="55" r="4" fill="#7C5CFC" opacity=".6"/><circle cx="700" cy="55" r="8" fill="#7C5CFC" opacity=".1"/>
-        <!-- Pulse rings on center node -->
-        <circle cx="400" cy="60" r="20" fill="none" stroke="#7C5CFC" stroke-width=".5" opacity=".2"><animate attributeName="r" from="14" to="30" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" from=".3" to="0" dur="3s" repeatCount="indefinite"/></circle>
-      </svg>
-    </div>
-    <!-- ── Featured Services (Top Tier) ── -->
-    <div class="services-featured" data-reveal="up" data-delay="2">
-      <a href="sme-ipo.html" class="svc-card-feat">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/></svg></div>
-        <h3>IPO Services (Main Board &amp; SME)</h3>
-        <p>End-to-end IPO advisory for Main Board and SME listings - DRHP drafting, SEBI compliance, roadshows, and post-listing governance.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </a>
-      <a href="us-incorporation.html" class="svc-card-feat">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/><line x1="9" y1="10" x2="9" y2="10"/><line x1="15" y1="10" x2="15" y2="10"/></svg></div>
-        <h3>US Incorporation</h3>
-        <p>Delaware/Wyoming entity formation, EIN registration, US banking setup, and ongoing compliance for Indian founders going global.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </a>
-      <a href="gift-city.html" class="svc-card-feat">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
-        <h3>GIFT City &amp; IFSC</h3>
-        <p>AIF setup, IFSC licensing, SPV structuring, and end-to-end GIFT City compliance.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </a>
-      <a href="global-taxation.html" class="svc-card-feat">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
-        <h3>Global Taxation</h3>
-        <p>International tax structuring, transfer pricing, DTAA optimization, FATCA/CRS, and PE risk management.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </a>
-      <a href="fund-raising.html" class="svc-card-feat">
-        <div class="svc-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
-        <h3>Fund Raising Services</h3>
-        <p>Equity fundraising, venture debt, angel rounds to Series D, and cross-border capital syndication for growth-stage companies.</p>
-        <span class="svc-card-arrow">Explore <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </a>
-    </div>
-
-    <!-- ── More Services Divider ── -->
-    <div class="svc-more-label" data-reveal="up" data-delay="3">More Services</div>
-
-    <!-- ── Compact Services Grid (Bottom Tier) ── -->
-    <div class="services-grid-more" data-reveal="up" data-delay="3">
-      <a href="capital-advisory.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
-        <div class="svc-compact-info"><h3>Capital Advisory</h3><p>Fundraising strategy, pitch preparation, investor matchmaking, and deal structuring from seed to growth stage.</p></div>
-      </a>
-      <a href="ma-transactions.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="12" r="7"/><circle cx="15" cy="12" r="7"/></svg></div>
-        <div class="svc-compact-info"><h3>M&amp;A Transactions</h3><p>End-to-end mergers, acquisitions, divestitures, and strategic restructuring advisory.</p></div>
-      </a>
-      <a href="corporate-legal.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="9" y1="9" x2="15" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="12" y2="17"/></svg></div>
-        <div class="svc-compact-info"><h3>Corporate Legal</h3><p>Company incorporation, board governance, regulatory filings, and compliance structuring.</p></div>
-      </a>
-      <a href="fund-structuring.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
-        <div class="svc-compact-info"><h3>Fund Structuring</h3><p>AIF/VCF setup, fund administration, and investor onboarding across domestic and offshore vehicles.</p></div>
-      </a>
-      <a href="esop-compensation.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
-        <div class="svc-compact-info"><h3>ESOP &amp; Compensation</h3><p>ESOP plan design, valuation, tax structuring, and phantom stock plans for startups.</p></div>
-      </a>
-      <a href="international-expansion.html" class="svc-card-compact">
-        <div class="svc-icon-sm"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
-        <div class="svc-compact-info"><h3>International Expansion</h3><p>Cross-border entity structuring, market-entry strategy, and transfer pricing for global operations.</p></div>
-      </a>
-    </div>
-    <div class="section-cta" data-reveal="up" data-delay="3">
-      <a href="#services-overview" class="btn-outline magnetic">Explore Our Services</a>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ ABOUT ═══ -->
-<section id="about" class="section section-alt">
-  <div class="container">
-    <p class="section-label" data-reveal="left">Who We Are</p>
-    <h2 class="section-title word-reveal" data-reveal-text>We don't just consult - we co-create.</h2>
-    <div class="about-grid">
-      <div class="about-text" data-reveal="up" data-delay="2">
-        <p>At Bharat Quantum Prospera, where startups meet strategy and capital meets scalability. We're not just another advisory firm; we're the growth hackers of finance, helping founders and businesses break ceilings, scale globally, and own their narratives.</p>
-        <p>From closing multi-million-dollar funding rounds to taking companies public, we are the power players behind tomorrow's unicorns. With a sharp focus on IPO advisory, US incorporation, GIFT City &amp; IFSC, global taxation, fund raising, M&amp;A, legal structuring, and international expansion, we make sure founders spend less time worrying about compliance and more time building the future.</p>
+    <div class="hero-grid">
+      <div>
+        <p class="hero-tag reveal">A Chartered Advisory · Estd. in Practice</p>
+        <h1 class="hero-headline reveal">
+          We do not raise capital. We <em>engineer</em> the outcomes that follow it.
+        </h1>
+        <p class="hero-body reveal">
+          A CA-led advisory practice for founders and boards navigating capital, tax, and jurisdiction. From first cheque to public market — with the precision that only a qualified partner brings.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#services" class="btn-ink">
+            Read the Services
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#contact" class="link-underline">Request a Consultation</a>
+        </div>
       </div>
-      <div class="about-cards">
-        <div class="about-card" data-reveal="right" data-delay="3">
-          <h3>Our Mission</h3>
-          <p>To be the trusted partner for entrepreneurs and businesses that aim to solve critical global challenges through innovation and disruption. We simplify complex financial landscapes, unlock capital, and provide expert advisory so founders can focus on their vision while we handle investment banking, legal structuring, and global expansion.</p>
+      <aside class="hero-aside reveal">
+        <div class="hero-aside-head">
+          <p class="label label-accent">By the Numbers</p>
         </div>
-        <div class="about-card" data-reveal="right" data-delay="5">
-          <h3>Our Vision</h3>
-          <p>To create a world where ambitious entrepreneurs have unrestricted access to capital, strategy, and global markets to scale solutions that redefine industries and improve society. We believe breakthrough ideas deserve an ecosystem that fosters growth without barriers.</p>
+        <div class="hero-aside-metric">
+          <span class="hero-aside-value">₹5,000 Cr+</span>
+          <span class="hero-aside-key">Audit portfolio, aggregate</span>
         </div>
+        <div class="hero-aside-metric">
+          <span class="hero-aside-value">$3.75 M</span>
+          <span class="hero-aside-key">Pre-Series A closed</span>
+        </div>
+        <div class="hero-aside-metric">
+          <span class="hero-aside-value">6 jurisdictions</span>
+          <span class="hero-aside-key">India · USA · UK · UAE · KSA · Singapore</span>
+        </div>
+      </aside>
+    </div>
+
+    <div class="hero-ledger reveal">
+      <div class="hero-ledger-item">
+        <span class="hero-ledger-num">01 · Positioning</span>
+        <div class="hero-ledger-val"><em>Cross-border</em> ready</div>
+      </div>
+      <div class="hero-ledger-item">
+        <span class="hero-ledger-num">02 · Approach</span>
+        <div class="hero-ledger-val"><em>Founder</em>-first</div>
+      </div>
+      <div class="hero-ledger-item">
+        <span class="hero-ledger-num">03 · Standards</span>
+        <div class="hero-ledger-val"><em>Compliance</em>-confident</div>
+      </div>
+      <div class="hero-ledger-item">
+        <span class="hero-ledger-num">04 · Outcome</span>
+        <div class="hero-ledger-val"><em>Capital</em> efficient</div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Services detail panels moved to individual pages -->
-
-<!-- ═══ GLOBAL PLAYBOOK ═══ -->
-<section id="global-playbook" class="section section-alt">
+<!-- ═════════════════════════════ SERVICES ═════════════════════════════ -->
+<section id="services" class="section-alt">
   <div class="container">
-    <p class="section-label" data-reveal="left">Global Playbook</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Go global from day one.</h2>
-    <p class="section-sub" data-reveal="up" data-delay="2">We operate at the intersection of finance, law, and growth strategy across high-growth markets.</p>
-    <div class="globe-grid">
-      <div class="globe-card" data-reveal="scale" data-delay="1"><img class="globe-flag-img" src="https://flagcdn.com/w80/in.png" alt="India Flag" loading="lazy"/><h3>India</h3></div>
-      <div class="globe-card" data-reveal="scale" data-delay="3"><img class="globe-flag-img" src="https://flagcdn.com/w80/us.png" alt="USA Flag" loading="lazy"/><h3>United States</h3></div>
-      <div class="globe-card" data-reveal="scale" data-delay="5"><img class="globe-flag-img" src="https://flagcdn.com/w80/gb.png" alt="UK Flag" loading="lazy"/><h3>United Kingdom</h3></div>
-      <div class="globe-card" data-reveal="scale" data-delay="7"><img class="globe-flag-img" src="https://flagcdn.com/w80/ae.png" alt="UAE Flag" loading="lazy"/><h3>UAE</h3></div>
-      <div class="globe-card" data-reveal="scale" data-delay="9"><img class="globe-flag-img" src="https://flagcdn.com/w80/sa.png" alt="Saudi Arabia Flag" loading="lazy"/><h3>Saudi Arabia</h3></div>
-      <div class="globe-card" data-reveal="scale" data-delay="11"><img class="globe-flag-img" src="https://flagcdn.com/w80/sg.png" alt="Singapore Flag" loading="lazy"/><h3>Singapore</h3></div>
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">01 · Services</p>
+        <h2 class="sect-heading reveal">A complete advisory, <em>from ledger entry to listing bell.</em></h2>
+      </div>
+      <p class="sect-dek reveal">Eleven practice areas, one unified CA-led team. Read each on its own page for process, scope, and deliverables.</p>
+    </header>
+
+    <div class="services-list reveal">
+      <a href="sme-ipo.html" class="service-row">
+        <span class="service-num">01 / 11</span>
+        <h3 class="service-title">IPO Services <em>— Main Board &amp; SME</em></h3>
+        <p class="service-summary">DRHP drafting, SEBI &amp; exchange liaison, roadshows, post-listing governance and continuing disclosures.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="us-incorporation.html" class="service-row">
+        <span class="service-num">02 / 11</span>
+        <h3 class="service-title">US Incorporation</h3>
+        <p class="service-summary">Delaware &amp; Wyoming entity formation, EIN, bank setup, registered-agent services, and ongoing compliance for Indian founders.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="gift-city.html" class="service-row">
+        <span class="service-num">03 / 11</span>
+        <h3 class="service-title">GIFT City <em>&amp; IFSC</em></h3>
+        <p class="service-summary">AIF setup, IFSC licensing, SPV structuring, and end-to-end GIFT City compliance.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="global-taxation.html" class="service-row">
+        <span class="service-num">04 / 11</span>
+        <h3 class="service-title">Global Taxation</h3>
+        <p class="service-summary">International tax structuring, transfer pricing, DTAA optimisation, FATCA &amp; CRS, and permanent-establishment risk.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="fund-raising.html" class="service-row">
+        <span class="service-num">05 / 11</span>
+        <h3 class="service-title">Fund Raising</h3>
+        <p class="service-summary">Equity, venture debt, angel through Series D, and cross-border capital syndication for growth-stage companies.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="capital-advisory.html" class="service-row">
+        <span class="service-num">06 / 11</span>
+        <h3 class="service-title">Capital Advisory</h3>
+        <p class="service-summary">Fundraising strategy, pitch preparation, investor matchmaking, and deal structuring from seed to growth.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="ma-transactions.html" class="service-row">
+        <span class="service-num">07 / 11</span>
+        <h3 class="service-title">M&amp;A <em>Transactions</em></h3>
+        <p class="service-summary">Mergers, acquisitions, divestitures, and strategic restructuring with end-to-end advisory.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="corporate-legal.html" class="service-row">
+        <span class="service-num">08 / 11</span>
+        <h3 class="service-title">Corporate Legal</h3>
+        <p class="service-summary">Incorporation, board governance, regulatory filings, and compliance structuring.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="fund-structuring.html" class="service-row">
+        <span class="service-num">09 / 11</span>
+        <h3 class="service-title">Fund Structuring</h3>
+        <p class="service-summary">AIF / VCF setup, fund administration, and investor onboarding across domestic and offshore vehicles.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="esop-compensation.html" class="service-row">
+        <span class="service-num">10 / 11</span>
+        <h3 class="service-title">ESOP <em>&amp;</em> Compensation</h3>
+        <p class="service-summary">Plan design, valuation (409A &amp; Rule 11UA), tax structuring, and phantom stock plans.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="international-expansion.html" class="service-row">
+        <span class="service-num">11 / 11</span>
+        <h3 class="service-title">International Expansion</h3>
+        <p class="service-summary">Cross-border entity structuring, market-entry strategy, and transfer pricing for global operations.</p>
+        <span class="service-arrow"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
     </div>
-    <p class="globe-closing" data-reveal="blur" data-delay="4">With our expertise, founders skip the learning curve and land with confidence.</p>
   </div>
 </section>
 
-<!-- ═══ INDUSTRIES - Infinite Horizontal Marquee ═══ -->
+<!-- ═════════════════════════════ ABOUT ═════════════════════════════ -->
+<section id="about" class="section">
+  <div class="container">
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">02 · The Firm</p>
+        <h2 class="sect-heading reveal">We do not consult. We <em>co-build.</em></h2>
+      </div>
+      <p class="sect-dek reveal">A practice at the intersection of finance, law, and growth strategy — built for founders who prefer a partner over a panel.</p>
+    </header>
+
+    <div class="editorial-grid">
+      <div class="editorial-body reveal">
+        <p>Bharat Quantum Prospera is where startups meet strategy, and capital meets scalability. We are not another generalist firm — we are a CA-led advisory built for founders breaking ceilings: scaling globally, owning the narrative, and treating compliance as competitive edge rather than a cost of doing business.</p>
+        <p>From closing multi-million-dollar rounds to taking companies public, we sit behind the work that tomorrow's unicorns will claim as their own. With a sharp focus on IPO advisory, US incorporation, GIFT City &amp; IFSC, global taxation, fund raising, M&amp;A, legal structuring, and international expansion, we ensure founders spend less time worrying about the back office and more time building the future.</p>
+      </div>
+
+      <div class="pillars reveal">
+        <div class="pillar">
+          <div class="pillar-label">The Mission</div>
+          <div class="pillar-title">To be a trusted partner to those solving real problems.</div>
+          <p class="pillar-body">We simplify complex financial landscapes, unlock capital, and provide expert advisory so founders can focus on the vision while we handle investment banking, legal structuring, and global expansion.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-label">The Vision</div>
+          <div class="pillar-title">A world where ambitious founders have unrestricted access.</div>
+          <p class="pillar-body">Access to capital, strategy, and global markets — so that breakthrough ideas scale into industries, not pilots. We believe the best work deserves an ecosystem that fosters growth without barriers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════════════════ GLOBAL PRESENCE ═════════════════════════════ -->
+<section id="global" class="section section-alt">
+  <div class="container">
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">03 · Jurisdictions</p>
+        <h2 class="sect-heading reveal">Six markets. <em>One partner.</em></h2>
+      </div>
+      <p class="sect-dek reveal">The practice operates at the intersection of finance, law, and growth across high-growth geographies — domestic and offshore.</p>
+    </header>
+
+    <div class="geo-list reveal">
+      <div class="geo-item"><span class="geo-num">I</span><div class="geo-name"><em>India</em></div></div>
+      <div class="geo-item"><span class="geo-num">II</span><div class="geo-name">United <em>States</em></div></div>
+      <div class="geo-item"><span class="geo-num">III</span><div class="geo-name">United <em>Kingdom</em></div></div>
+      <div class="geo-item"><span class="geo-num">IV</span><div class="geo-name">United <em>Arab</em> Emirates</div></div>
+      <div class="geo-item"><span class="geo-num">V</span><div class="geo-name">Saudi <em>Arabia</em></div></div>
+      <div class="geo-item"><span class="geo-num">VI</span><div class="geo-name"><em>Singapore</em></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════════════════ INDUSTRIES ═════════════════════════════ -->
 <section id="industries" class="section">
   <div class="container">
-    <p class="section-label" data-reveal="left">Industries We Serve</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Tailored advisory across high-growth sectors</h2>
-    <p class="section-sub" data-reveal="up" data-delay="2">We cater to a diverse range of industries with tailored financial and strategic advisory solutions.</p>
-  </div>
-  <div class="horizontal-scroll-wrapper" data-reveal="up" data-delay="3">
-    <div class="horizontal-track" id="marqueeTrack">
-      <span class="industry-chip">E-Commerce &amp; D2C</span>
-      <span class="industry-chip">EdTech</span>
-      <span class="industry-chip">AgriTech</span>
-      <span class="industry-chip">SaaS &amp; Cloud</span>
-      <span class="industry-chip">AI &amp; Web3</span>
-      <span class="industry-chip">FinTech</span>
-      <span class="industry-chip">HealthTech &amp; MedTech</span>
-      <span class="industry-chip">CleanTech &amp; Renewable</span>
-      <span class="industry-chip">Logistics &amp; Supply Chain</span>
-      <span class="industry-chip">DeepTech &amp; Robotics</span>
-      <span class="industry-chip">Transport &amp; Mobility</span>
-      <span class="industry-chip">Engineering &amp; Manufacturing</span>
-      <span class="industry-chip">Food &amp; Beverage</span>
-      <span class="industry-chip">Textile &amp; Fashion</span>
-      <span class="industry-chip">Medical &amp; Hospital</span>
-      <!-- Duplicated for seamless loop -->
-      <span class="industry-chip">E-Commerce &amp; D2C</span>
-      <span class="industry-chip">EdTech</span>
-      <span class="industry-chip">AgriTech</span>
-      <span class="industry-chip">SaaS &amp; Cloud</span>
-      <span class="industry-chip">AI &amp; Web3</span>
-      <span class="industry-chip">FinTech</span>
-      <span class="industry-chip">HealthTech &amp; MedTech</span>
-      <span class="industry-chip">CleanTech &amp; Renewable</span>
-      <span class="industry-chip">Logistics &amp; Supply Chain</span>
-      <span class="industry-chip">DeepTech &amp; Robotics</span>
-      <span class="industry-chip">Transport &amp; Mobility</span>
-      <span class="industry-chip">Engineering &amp; Manufacturing</span>
-      <span class="industry-chip">Food &amp; Beverage</span>
-      <span class="industry-chip">Textile &amp; Fashion</span>
-      <span class="industry-chip">Medical &amp; Hospital</span>
-    </div>
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">04 · Industries</p>
+        <h2 class="sect-heading reveal">Tailored advisory across <em>the sectors building modern India.</em></h2>
+      </div>
+      <p class="sect-dek reveal">The team has delivered mandates across fifteen-plus industries — from capital-light SaaS to deeply regulated manufacturing.</p>
+    </header>
+
+    <p class="industries-prose reveal">
+      <span>E-Commerce &amp; D2C</span><span class="sep">·</span><span>EdTech</span><span class="sep">·</span><span>AgriTech</span><span class="sep">·</span><span>SaaS &amp; Cloud</span><span class="sep">·</span><span>AI &amp; Web3</span><span class="sep">·</span><span>FinTech</span><span class="sep">·</span><span>HealthTech &amp; MedTech</span><span class="sep">·</span><span>CleanTech &amp; Renewable</span><span class="sep">·</span><span>Logistics &amp; Supply Chain</span><span class="sep">·</span><span>DeepTech &amp; Robotics</span><span class="sep">·</span><span>Transport &amp; Mobility</span><span class="sep">·</span><span>Engineering &amp; Manufacturing</span><span class="sep">·</span><span>Food &amp; Beverage</span><span class="sep">·</span><span>Textile &amp; Fashion</span><span class="sep">·</span><span>Medical &amp; Hospital</span>.
+    </p>
   </div>
 </section>
 
-<!-- ═══ FOUNDER ═══ -->
-<section id="founder" class="founder-section section">
+<!-- ═════════════════════════════ FOUNDER ═════════════════════════════ -->
+<section id="founder" class="section section-alt">
   <div class="container">
-    <p class="section-label" data-reveal="left">The Visionary</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Meet the mind behind Bharat Quantum Prospera</h2>
-    <div class="founder-card" data-reveal="up" data-delay="2">
-      <div class="founder-photo-wrap">
-        <img src="founder.png" alt="CA Durgesh Chavda - Founder of Bharat Quantum Prospera" class="founder-photo" loading="lazy"/>
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">05 · Founder</p>
+        <h2 class="sect-heading reveal">The <em>visionary</em> behind the practice.</h2>
       </div>
-      <div class="founder-info">
+    </header>
+
+    <div class="founder-spread">
+      <figure class="founder-portrait reveal">
+        <img src="founder.png" alt="CA Durgesh Chavda, Founder of Bharat Quantum Prospera" loading="lazy"/>
+        <figcaption class="founder-portrait-caption">Portrait · Ahmedabad, MMXXVI</figcaption>
+      </figure>
+
+      <article class="founder-text reveal">
+        <p class="founder-kicker">In conversation with the founder</p>
         <h3 class="founder-name">CA Durgesh Chavda</h3>
-        <p class="founder-title">Founder &amp; Managing Partner</p>
-        <p class="founder-bio">A Chartered Accountant with a passion for simplifying the complex world of cross-border finance, taxation, and business advisory. Durgesh founded Bharat Quantum Prospera to bridge the gap between global ambition and regulatory clarity - empowering startups, enterprises, and HNIs to scale fearlessly across jurisdictions.</p>
-        <div class="founder-quals">
-          <span class="founder-qual-tag">Chartered Accountant</span>
-          <span class="founder-qual-tag">Cross-Border Tax</span>
-          <span class="founder-qual-tag">Startup Advisory</span>
-          <span class="founder-qual-tag">Fund Structuring</span>
+        <p class="founder-role">Founder &amp; Managing Partner</p>
+
+        <p class="founder-bio">A Chartered Accountant with a practitioner's mind and a builder's temperament. Durgesh founded Bharat Quantum Prospera to close the gap between global ambition and regulatory clarity — a practice that stands beside founders through capital, tax, and jurisdiction rather than billing them by the hour for opinion memos.</p>
+
+        <blockquote class="founder-pullquote">
+          Regulation is not the ceiling. It is the structure. Founders deserve partners who know both the ledger and the boardroom.
+        </blockquote>
+
+        <div class="founder-creds">
+          <span class="founder-cred">Chartered Accountant</span>
+          <span class="founder-cred">Cross-border Tax</span>
+          <span class="founder-cred">Startup Advisory</span>
+          <span class="founder-cred">Fund Structuring</span>
         </div>
+
         <div class="founder-social">
-          <a href="https://mail.google.com/mail/?view=cm&to=durgesh@bqpartners.in&su=Advisory+Consultation+Request+%E2%80%93+Bharat Quantum Prospera&body=Dear+Mr.+Chavda,%0A%0AI+came+across+Bharat Quantum Prospera+and+am+impressed+by+the+depth+of+your+advisory+expertise.+I+would+appreciate+the+opportunity+to+schedule+a+brief+consultation+to+discuss+how+Bharat Quantum Prospera+can+assist+with+our+requirements.%0A%0APlease+let+me+know+a+convenient+time+to+connect.%0A%0AWarm+regards,%0A%0A[Your+Name]%0A[Your+Company]%0A[Your+Contact+Number]" target="_blank" rel="noopener" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
-          <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
-          <a href="https://wa.me/917801887130?text=Dear+Mr.+Chavda%2C%0A%0AI+visited+the+Bharat Quantum Prospera+website+and+would+like+to+explore+your+advisory+services.+Could+we+schedule+a+brief+call+to+discuss+our+requirements%3F%0A%0AThank+you." target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+          <a href="mailto:durgesh@bqpartners.in" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="1"/><path d="m22 7-10 6L2 7"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://wa.me/917801887130" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
         </div>
-      </div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ═══ ASSOCIATES ═══ -->
-<section id="associates" class="section section-alt">
+<!-- ═════════════════════════════ ASSOCIATES ═════════════════════════════ -->
+<section id="associates" class="section">
   <div class="container">
-    <p class="section-label" data-reveal="left">Associates &amp; Advisors</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Expert network across key global markets</h2>
-    <p class="section-sub" data-reveal="up" data-delay="2">Deep jurisdictional expertise from UK taxation to UAE VAT, US corporate returns to Indian regulatory frameworks.</p>
-    <div class="associates-grid">
-      <div class="assoc-card" data-reveal="up" data-delay="1"><div class="assoc-avatar">YS</div><h3>Yash Simariya</h3><p class="assoc-creds">FCA, ACCA, B.Com</p><p class="assoc-desc">UK market expert in audit, assurance, and taxation.</p></div>
-      <div class="assoc-card" data-reveal="up" data-delay="3"><div class="assoc-avatar">RN</div><h3>Rohit Nair</h3><p class="assoc-creds">FCA, B.Com</p><p class="assoc-desc">UAE market expert specializing in VAT and international transactions.</p></div>
-      <div class="assoc-card" data-reveal="up" data-delay="5"><div class="assoc-avatar">MS</div><h3>Milan Sakhiya</h3><p class="assoc-creds">ACS, B.Com</p><p class="assoc-desc">Expert in corporate laws, FEMA, and RBI regulations.</p></div>
-      <div class="assoc-card" data-reveal="up" data-delay="7"><div class="assoc-avatar">BS</div><h3>Bhakti Somaiya</h3><p class="assoc-creds">ACA, B.Com</p><p class="assoc-desc">USA market expert in individual and corporate tax returns.</p></div>
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">06 · Associates</p>
+        <h2 class="sect-heading reveal">A network of <em>jurisdictional specialists.</em></h2>
+      </div>
+      <p class="sect-dek reveal">From UK taxation to UAE VAT, US corporate returns to Indian regulatory frameworks — the right partner, in the right chair, in the right city.</p>
+    </header>
+
+    <div class="assoc-list reveal">
+      <div class="assoc-item">
+        <div class="assoc-initials">YS</div>
+        <h3 class="assoc-name">Yash Simariya</h3>
+        <p class="assoc-creds">FCA · ACCA · B.Com</p>
+        <p class="assoc-blurb">UK market specialist. Audit, assurance, and taxation for India-to-UK corridor.</p>
+      </div>
+      <div class="assoc-item">
+        <div class="assoc-initials">RN</div>
+        <h3 class="assoc-name">Rohit Nair</h3>
+        <p class="assoc-creds">FCA · B.Com</p>
+        <p class="assoc-blurb">UAE market expert. VAT, corporate tax, and international transaction advisory.</p>
+      </div>
+      <div class="assoc-item">
+        <div class="assoc-initials">MS</div>
+        <h3 class="assoc-name">Milan Sakhiya</h3>
+        <p class="assoc-creds">ACS · B.Com</p>
+        <p class="assoc-blurb">Company secretary. Corporate law, FEMA, and RBI regulatory framework.</p>
+      </div>
+      <div class="assoc-item">
+        <div class="assoc-initials">BS</div>
+        <h3 class="assoc-name">Bhakti Somaiya</h3>
+        <p class="assoc-creds">ACA · B.Com</p>
+        <p class="assoc-blurb">US market specialist. Individual and corporate tax returns for India-US corridor.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══ CONTACT ═══ -->
-<section id="contact" class="contact-section">
-  <div class="hero-grid-bg"></div>
+<!-- ═════════════════════════════ CONTACT ═════════════════════════════ -->
+<section id="contact" class="section section-alt">
   <div class="container">
-    <p class="section-label" data-reveal="left">Get in Touch</p>
-    <h2 class="section-title word-reveal" data-reveal-text>Let's build something extraordinary together.</h2>
-    <div class="contact-layout">
-      <div class="contact-form-wrap" data-reveal="up" data-delay="2">
-        <form id="contactForm">
-          <div class="form-group"><label for="cf-name">Full Name</label><input type="text" id="cf-name" required placeholder="Your name" autocomplete="name"/></div>
-          <div class="form-group"><label for="cf-email">Email Address</label><input type="email" id="cf-email" required placeholder="you@company.com" autocomplete="email"/></div>
-          <div class="form-group"><label for="cf-company">Company</label><input type="text" id="cf-company" placeholder="Company name" autocomplete="organization"/></div>
-          <div class="form-group"><label for="cf-message">Message</label><textarea id="cf-message" rows="4" required placeholder="Tell us about your project or inquiry..."></textarea></div>
-          <button type="submit" class="btn-primary btn-lg btn-full magnetic">Send Message</button>
-          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
-        </form>
+    <header class="sect-head">
+      <div>
+        <p class="sect-num reveal">07 · Contact</p>
+        <h2 class="sect-heading reveal">Begin a <em>conversation.</em></h2>
       </div>
-      <div class="contact-info" data-reveal="right" data-delay="4">
-        <div class="contact-block"><h3>Phone</h3><a href="tel:+917801887130">+91 78018 87130</a></div>
-        <div class="contact-block"><h3>Email</h3><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></div>
+      <p class="sect-dek reveal">A brief note is enough. Senior partner responses, typically within one working day.</p>
+    </header>
 
-        <div class="contact-divider"><span>Domestic Offices</span></div>
-        <div class="contact-block"><h3>Ahmedabad</h3><p>421, Shivalik Shilp 2, Near ITC Narmada, Judges Bunglow Road, Ahmedabad 380015, Gujarat</p></div>
-        <div class="contact-block"><h3>Mumbai</h3><p>Shiv Hara Building, B/301, Carter Road No. 2, Borivali East, Mumbai 400066</p></div>
-        <div class="contact-block"><h3>Bengaluru</h3><p>1/2, Seegehalli Gate, Kudugodi, Whitefield, Bengaluru 560067</p></div>
-        <div class="contact-block"><h3>Rajkot</h3><p>510, RK World Tower, Near Sheetal Park, 150 Ft Ring Road, Rajkot, Gujarat 360006</p></div>
+    <div class="contact-grid">
+      <form id="contactForm" class="contact-form reveal">
+        <div class="fg">
+          <label for="cf-name">Full Name</label>
+          <input type="text" id="cf-name" placeholder="Your name" autocomplete="name" required/>
+        </div>
+        <div class="fg">
+          <label for="cf-email">Email Address</label>
+          <input type="email" id="cf-email" placeholder="you@company.com" autocomplete="email" required/>
+        </div>
+        <div class="fg">
+          <label for="cf-company">Company</label>
+          <input type="text" id="cf-company" placeholder="Organisation name" autocomplete="organization"/>
+        </div>
+        <div class="fg">
+          <label for="cf-message">The Enquiry</label>
+          <textarea id="cf-message" rows="3" placeholder="A few lines about the mandate you have in mind." required></textarea>
+        </div>
+        <button type="submit">Send Enquiry <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+        <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+      </form>
 
-        <div class="contact-divider"><span>Overseas Office</span></div>
-        <div class="contact-block"><h3>Dubai, UAE</h3><p>Office #1904, 19th Floor, Tamani Arts, Business Bay, Dubai</p></div>
-      </div>
+      <aside class="contact-directory reveal">
+        <div class="contact-block">
+          <div class="contact-block-label">Telephone</div>
+          <div class="contact-block-body"><a href="tel:+917801887130">+91 78018 87130</a></div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Correspondence</div>
+          <div class="contact-block-body"><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></div>
+        </div>
+
+        <p class="contact-subhead">Domestic Offices</p>
+
+        <div class="contact-block">
+          <div class="contact-block-label">Ahmedabad · Principal</div>
+          <div class="contact-block-body">421, Shivalik Shilp 2</div>
+          <p class="contact-block-sub">Near ITC Narmada, Judges Bunglow Road, Ahmedabad 380015</p>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Mumbai</div>
+          <div class="contact-block-body">Shiv Hara Building, B/301</div>
+          <p class="contact-block-sub">Carter Road No. 2, Borivali East, Mumbai 400066</p>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Bengaluru</div>
+          <div class="contact-block-body">1/2, Seegehalli Gate</div>
+          <p class="contact-block-sub">Kudugodi, Whitefield, Bengaluru 560067</p>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-label">Rajkot</div>
+          <div class="contact-block-body">510, RK World Tower</div>
+          <p class="contact-block-sub">Near Sheetal Park, 150 Ft Ring Road, Rajkot 360006</p>
+        </div>
+
+        <p class="contact-subhead">Overseas</p>
+
+        <div class="contact-block">
+          <div class="contact-block-label">Dubai</div>
+          <div class="contact-block-body">Office 1904, Tamani Arts</div>
+          <p class="contact-block-sub">19th Floor, Business Bay, Dubai, UAE</p>
+        </div>
+      </aside>
     </div>
   </div>
 </section>
+
 </main>
 
-<!-- ═══ FOOTER ═══ -->
-<footer>
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <a href="#home" class="nav-logo"><span class="logo-mark"><svg width="34" height="34" viewBox="0 0 48 48" fill="none" aria-label="BQP Logo"><path d="M24 42V20" stroke="#7C5CFC" stroke-width="2.8" stroke-linecap="round"/><path d="M24 20C22 16 16 12 10 8" stroke="#7C5CFC" stroke-width="2.5" stroke-linecap="round" fill="none"/><path d="M24 20C26 16 32 12 38 8" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" fill="none"/><circle cx="24" cy="20" r="3.2" fill="#7C5CFC"/><circle cx="10" cy="8" r="2" fill="#7C5CFC" opacity=".65"/><circle cx="38" cy="8" r="2" fill="#A78BFA" opacity=".65"/></svg></span><span class="logo-text">Bharat Quantum Prospera</span></a>
-      <p>We don't raise capital - we engineer outcomes.</p>
+<!-- ═════════════════════════════ COLOPHON ═════════════════════════════ -->
+<footer class="colophon">
+  <div class="container">
+    <div class="colophon-top">
+      <div class="colophon-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark">B</span>
+          <span class="brand-name">Bharat Quantum <em>Prospera</em></span>
+        </a>
+        <p>A chartered advisory, built for founders who think beyond borders.</p>
+      </div>
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="sme-ipo.html">IPO Services</a></li>
+          <li><a href="us-incorporation.html">US Incorporation</a></li>
+          <li><a href="gift-city.html">GIFT City &amp; IFSC</a></li>
+          <li><a href="global-taxation.html">Global Taxation</a></li>
+          <li><a href="fund-raising.html">Fund Raising</a></li>
+          <li><a href="capital-advisory.html">Capital Advisory</a></li>
+          <li><a href="ma-transactions.html">M&amp;A Transactions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>More</h5>
+        <ul>
+          <li><a href="corporate-legal.html">Corporate Legal</a></li>
+          <li><a href="fund-structuring.html">Fund Structuring</a></li>
+          <li><a href="esop-compensation.html">ESOP &amp; Compensation</a></li>
+          <li><a href="international-expansion.html">International Expansion</a></li>
+          <li><a href="/transect">Transect · Tax Tool</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Reach</h5>
+        <ul>
+          <li><a href="tel:+917801887130">+91 78018 87130</a></li>
+          <li><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></li>
+          <li>Ahmedabad · Mumbai</li>
+          <li>Bengaluru · Rajkot</li>
+          <li>Dubai, UAE</li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-nav"><h4>Navigation</h4><a href="#home">Home</a><a href="#about">About</a><a href="#services-overview">Services</a><a href="/transect">Tools</a><a href="#global-playbook">Global Playbook</a><a href="#industries">Industries</a><a href="#founder">Founder</a><a href="#associates">Associates</a><a href="#contact">Contact</a></div>
-    <div class="footer-nav"><h4>Services</h4><a href="sme-ipo.html">IPO Services</a><a href="us-incorporation.html">US Incorporation</a><a href="gift-city.html">GIFT City &amp; IFSC</a><a href="global-taxation.html">Global Taxation</a><a href="fund-raising.html">Fund Raising</a><a href="capital-advisory.html">Capital Advisory</a><a href="ma-transactions.html">M&amp;A Transactions</a><a href="corporate-legal.html">Corporate Legal</a><a href="fund-structuring.html">Fund Structuring</a><a href="esop-compensation.html">ESOP &amp; Compensation</a><a href="international-expansion.html">International Expansion</a></div>
-    <div class="footer-nav"><h4>Reach Us</h4><a href="tel:+917801887130">+91 78018 87130</a><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a><a href="#contact">Domestic: Ahmedabad · Mumbai · Bengaluru · Rajkot</a><a href="#contact">Overseas: Dubai, UAE</a></div>
+    <div class="colophon-bottom">
+      <span>© MMXXVI Bharat Quantum Prospera. All rights <em>reserved</em>.</span>
+      <span>Ahmedabad · Est. in <em>practice</em></span>
+    </div>
   </div>
-  <div class="footer-bottom"><div class="container"><p>&copy; 2026 Bharat Quantum Prospera. All rights reserved.</p></div></div>
 </footer>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     SCROLL ANIMATION ENGINE (JavaScript)
-     ═══════════════════════════════════════════════════════════════ -->
 <script>
 (function(){
-'use strict';
+  'use strict';
 
-/* ── 1. Scroll Progress Bar ── */
-var progressBar=document.getElementById('scroll-progress');
-function updateProgress(){
-  var h=document.documentElement;
-  var pct=(h.scrollTop/(h.scrollHeight-h.clientHeight))*100;
-  progressBar.style.width=pct+'%';
-}
-
-/* ── 2. Navbar: scroll + dark/light mode ── */
-var navbar=document.getElementById('navbar');
-var heroSection=document.getElementById('home');
-function handleNav(){
-  navbar.classList.toggle('scrolled',window.scrollY>10);
-  var heroBottom=heroSection.offsetTop+heroSection.offsetHeight-100;
-  navbar.classList.toggle('light-mode',window.scrollY>heroBottom);
-}
-
-/* ── 3. Reveal Engine (IntersectionObserver) ── */
-function initReveals(){
-  var els=document.querySelectorAll('[data-reveal]');
-  if(!('IntersectionObserver' in window)){
-    els.forEach(function(el){el.classList.add('revealed')});
-    return;
-  }
-  var obs=new IntersectionObserver(function(entries){
+  // Scroll reveal — add js-hidden only when JS is running, then observe
+  var els = document.querySelectorAll('.reveal');
+  els.forEach(function(el){ el.classList.add('js-hidden'); });
+  var io = new IntersectionObserver(function(entries){
     entries.forEach(function(e){
       if(e.isIntersecting){
-        e.target.classList.add('revealed');
-        obs.unobserve(e.target);
+        e.target.classList.add('in');
+        io.unobserve(e.target);
       }
     });
-  },{threshold:0.08,rootMargin:'-40px'});
-  els.forEach(function(el){obs.observe(el)});
-}
+  }, {threshold:0.05, rootMargin:'0px 0px -20px 0px'});
+  els.forEach(function(el){ io.observe(el); });
+  // Safety: reveal anything left invisible after 1.5s
+  setTimeout(function(){
+    document.querySelectorAll('.reveal.js-hidden:not(.in)').forEach(function(el){ el.classList.add('in'); });
+  }, 1500);
 
-/* ── 4. Word-by-word text reveal ── */
-function initWordReveals(){
-  document.querySelectorAll('[data-reveal-text]').forEach(function(el){
-    // Preserve inner HTML (accent spans etc.)
-    var html=el.innerHTML;
-    // Split by word boundaries but preserve HTML tags
-    var words=[];
-    var temp=document.createElement('div');
-    temp.innerHTML=html;
-    function walk(node){
-      node.childNodes.forEach(function(child){
-        if(child.nodeType===3){
-          // text node - split into words
-          child.textContent.split(/(\s+)/).forEach(function(w){
-            if(w.trim()){
-              words.push('<span class="word" style="transition-delay:'+((words.length)*0.045)+'s">'+w+'</span>');
-            } else if(w){
-              words.push(w);
-            }
-          });
-        } else if(child.nodeType===1){
-          // element - wrap its text contents
-          var tag=child.tagName.toLowerCase();
-          var cls=child.className?' class="'+child.className+'"':'';
-          words.push('<'+tag+cls+'>');
-          walk(child);
-          words.push('</'+tag+'>');
-        }
-      });
-    }
-    walk(temp);
-    el.innerHTML=words.join('');
-    el.classList.add('word-reveal');
-    el.removeAttribute('data-reveal-text');
-  });
-  // Observe word-reveals
-  var wordEls=document.querySelectorAll('.word-reveal');
-  if(!('IntersectionObserver' in window)){
-    wordEls.forEach(function(el){el.classList.add('revealed')});
-    return;
+  // Mobile nav toggle
+  var toggle = document.querySelector('.nav-toggle');
+  var navLinks = document.getElementById('navLinks');
+  if(toggle && navLinks){
+    toggle.addEventListener('click', function(){
+      var open = navLinks.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      toggle.textContent = open ? 'Close' : 'Menu';
+    });
+    navLinks.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        navLinks.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        toggle.textContent = 'Menu';
+      }
+    });
   }
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting){
-        e.target.classList.add('revealed');
-        obs.unobserve(e.target);
-      }
-    });
-  },{threshold:0.15,rootMargin:'-20px'});
-  wordEls.forEach(function(el){obs.observe(el)});
-}
 
-/* ── 5. Line-draw reveal ── */
-function initLineDraws(){
-  var lines=document.querySelectorAll('.line-draw');
-  if(!lines.length)return;
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting){e.target.classList.add('revealed');obs.unobserve(e.target)}
-    });
-  },{threshold:0.5});
-  lines.forEach(function(l){obs.observe(l)});
-}
-
-/* ── 6. Parallax layers (hero orbs move on scroll) ── */
-function updateParallax(){
-  var scrollY=window.scrollY;
-  document.querySelectorAll('.parallax-layer').forEach(function(el){
-    var speed=parseFloat(el.dataset.speed)||0.02;
-    el.style.transform='translateY('+(scrollY*speed*100)+'px)';
-  });
-}
-
-/* ── 7. Magnetic buttons (desktop hover) ── */
-function initMagnetic(){
-  if(window.innerWidth<1024)return;
-  document.querySelectorAll('.magnetic').forEach(function(btn){
-    btn.addEventListener('mousemove',function(e){
-      var rect=btn.getBoundingClientRect();
-      var x=e.clientX-rect.left-rect.width/2;
-      var y=e.clientY-rect.top-rect.height/2;
-      btn.style.transform='translate('+x*0.15+'px,'+y*0.15+'px)';
-    });
-    btn.addEventListener('mouseleave',function(){
-      btn.style.transform='translate(0,0)';
-    });
-  });
-}
-
-/* ── 8. Active nav link tracking ── */
-function highlightNav(){
-  var scrollPos=window.scrollY+140;
-  var current='';
-  document.querySelectorAll('section[id]').forEach(function(s){
-    if(s.offsetTop<=scrollPos)current=s.getAttribute('id');
-  });
-  if(current==='services-overview')current='home';
-  document.querySelectorAll('.nav-link').forEach(function(l){
-    l.classList.remove('active');
-    if(l.getAttribute('href').replace('#','')===current)l.classList.add('active');
-  });
-}
-
-/* ── 9. Mobile menu ── */
-var navLinks=document.getElementById('navLinks');
-var navToggle=document.querySelector('.nav-toggle');
-navToggle.addEventListener('click',function(){
-  var isOpen=navLinks.classList.toggle('open');
-  navToggle.setAttribute('aria-expanded',isOpen);
-});
-function closeMenu(){
-  navLinks.classList.remove('open');
-  navToggle.setAttribute('aria-expanded','false');
-}
-document.querySelectorAll('.nav-link').forEach(function(l){l.addEventListener('click',closeMenu)});
-document.addEventListener('click',function(e){
-  if(!navLinks.contains(e.target)&&!navToggle.contains(e.target))closeMenu();
-});
-
-/* ── 10. Service tabs ── */
-function activateServiceTab(targetId){
-  document.querySelectorAll('.svc-tab').forEach(function(t){t.classList.remove('active')});
-  document.querySelectorAll('.svc-panel').forEach(function(p){p.classList.remove('active')});
-  var tab=document.querySelector('.svc-tab[data-target="'+targetId+'"]');
-  if(tab)tab.classList.add('active');
-  var panel=document.getElementById(targetId);
-  if(panel)panel.classList.add('active');
-}
-document.querySelectorAll('.svc-tab').forEach(function(btn){
-  btn.addEventListener('click',function(){
-    activateServiceTab(btn.getAttribute('data-target'));
-  });
-});
-/* Service overview cards - navigate to individual pages */
-document.querySelectorAll('.svc-card-home').forEach(function(card){
-  card.addEventListener('click',function(e){
-    e.preventDefault();
-    var href=card.getAttribute('href');
-    if(href) window.location.href=href;
-  });
-});
-
-/* ── 11. Contact form ── */
-document.getElementById('contactForm').addEventListener('submit',function(e){
-  e.preventDefault();
-  var statusEl=document.getElementById('formStatus');
-  statusEl.textContent='Thank you! Your message has been received.';
-  statusEl.style.color='#34D399';
-  this.reset();
-  setTimeout(function(){statusEl.textContent=''},5000);
-});
-
-/* ── 12. Smooth anchor scrolling ── */
-document.querySelectorAll('a[href^="#"]').forEach(function(a){
-  a.addEventListener('click',function(e){
-    var href=this.getAttribute('href');
-    if(href==='#')return;
-    var target=document.querySelector(href);
-    if(target){
+  // Contact form — mailto handoff (keeps existing workflow, no backend needed)
+  var form = document.getElementById('contactForm');
+  if(form){
+    form.addEventListener('submit', function(e){
       e.preventDefault();
-      window.scrollTo({top:target.getBoundingClientRect().top+window.pageYOffset-76,behavior:'smooth'});
-    }
-  });
-});
-
-/* ── RAF loop for performance ── */
-var ticking=false;
-function onScroll(){
-  if(!ticking){
-    requestAnimationFrame(function(){
-      updateProgress();
-      handleNav();
-      updateParallax();
-      highlightNav();
-      ticking=false;
-    });
-    ticking=true;
-  }
-}
-window.addEventListener('scroll',onScroll,{passive:true});
-
-/* ── 13. Impact Stats Counter (scroll-triggered count-up) ── */
-function initImpactCounters(){
-  var statsEl=document.getElementById('impactStats');
-  if(!statsEl)return;
-  var counted=false;
-  function animateCount(el){
-    var target=parseFloat(el.dataset.count);
-    var decimals=parseInt(el.dataset.decimals)||0;
-    var duration=2000;
-    var start=performance.now();
-    var counterVal=el.querySelector('.counter-val');
-    if(!counterVal)return;
-    function step(now){
-      var elapsed=now-start;
-      var progress=Math.min(elapsed/duration,1);
-      // easeOutExpo
-      var ease=progress===1?1:1-Math.pow(2,-10*progress);
-      var current=ease*target;
-      counterVal.textContent=current.toFixed(decimals).replace(/\B(?=(\d{3})+(?!\d))/g,',');
-      if(progress<1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-    el.classList.add('counted');
-  }
-  var obs=new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      if(e.isIntersecting&&!counted){
-        counted=true;
-        var stats=statsEl.querySelectorAll('.impact-stat');
-        stats.forEach(function(s,i){
-          setTimeout(function(){animateCount(s)},i*300);
-        });
-        obs.unobserve(e.target);
+      var name = document.getElementById('cf-name').value.trim();
+      var email = document.getElementById('cf-email').value.trim();
+      var company = document.getElementById('cf-company').value.trim();
+      var message = document.getElementById('cf-message').value.trim();
+      var status = document.getElementById('formStatus');
+      if(!name || !email || !message){
+        status.textContent = '· Please complete the required fields.';
+        status.style.color = '#7A2E1C';
+        return;
       }
+      var subject = encodeURIComponent('Advisory Enquiry — ' + name + (company ? ' (' + company + ')' : ''));
+      var body = encodeURIComponent(
+        'Dear Team Bharat Quantum Prospera,\n\n' +
+        message + '\n\n' +
+        'Warm regards,\n' + name +
+        (company ? '\n' + company : '') +
+        '\n' + email
+      );
+      window.location.href = 'mailto:durgesh@bqpartners.in?subject=' + subject + '&body=' + body;
+      status.textContent = '· Your mail client should now be open. Thank you.';
+      status.style.color = '#57534E';
     });
-  },{threshold:0.3});
-  obs.observe(statsEl);
-}
-
-/* ── Init ── */
-handleNav();
-updateProgress();
-initReveals();
-initWordReveals();
-initLineDraws();
-initMagnetic();
-initImpactCounters();
+  }
 })();
 </script>
+
 </body>
 </html>

@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Bharat Quantum Prospera">
-  <!-- YC-inspired orange square background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
   <rect width="48" height="48" rx="9" fill="#FF5F00"/>
-  <!-- Rising arc (Growth Trajectory): starts bottom-left, ends upper-right -->
   <path d="M11 36 Q 24 10, 37 20" stroke="#F4F1DB" stroke-width="3.2" stroke-linecap="round" fill="none"/>
-  <!-- Anchor dots -->
   <circle cx="11" cy="36" r="2.8" fill="#F4F1DB"/>
   <circle cx="37" cy="20" r="2.8" fill="#F4F1DB"/>
 </svg>

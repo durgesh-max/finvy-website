@@ -22,17 +22,17 @@
 <meta property="og:title" content="SME IPO Advisory | BSE SME, NSE Emerge, Main Board IPO - CA Firm"/>
 <meta property="og:description" content="BSE SME, NSE Emerge, Main Board IPO advisory. DRHP preparation, merchant banker coordination, LODR compliance by a CA firm."/>
 <meta property="og:url" content="https://bharatquantumprospera.com/sme-ipo.html"/>
-<meta property="og:image" content="https://bharatquantumprospera.com/logo.svg"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/bqp-logo.svg"/>
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="SME IPO Advisory | BSE SME, NSE Emerge, Main Board IPO - CA Firm"/>
 <meta name="twitter:description" content="BSE SME, NSE Emerge, Main Board IPO advisory. DRHP preparation, merchant banker coordination, LODR compliance by a CA firm."/>
-<meta name="twitter:image" content="https://bharatquantumprospera.com/logo.svg"/>
+<meta name="twitter:image" content="https://bharatquantumprospera.com/bqp-logo.svg"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -155,12 +155,41 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .footer-col a{color:rgba(244,241,219,.85);font-family:var(--ff-mono);font-size:13px;transition:color .2s;line-height:1.4}
 .footer-col a:hover{color:var(--cream)}
 .footer-bottom{margin-top:30px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;font-family:var(--ff-mono);font-size:11px;text-transform:uppercase;letter-spacing:.02em;color:rgba(244,241,219,.6)}
+
+/* bqp. wordmark — transparent, color adapts via currentColor */
+.logo-mark, .yc-logo-mark {
+  width: auto; height: 36px;
+  background: transparent !important;
+  border-radius: 0 !important;
+  padding: 0;
+  overflow: visible;
+  text-transform: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: #F4F1DB; /* default: cream over orange hero */
+  display: inline-flex; align-items: center;
+}
+.site-header:not(.on-orange) .logo-mark,
+.site-header:not(.on-orange) .yc-logo-mark {
+  color: #463325; /* ink when over cream pages */
+}
+.logo-mark > svg, .yc-logo-mark > svg {
+  height: 36px; width: auto; display: block;
+  text-transform: none !important;
+}
+.logo-mark > svg text, .yc-logo-mark > svg text {
+  text-transform: none !important;
+}
+
 </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"SME IPO and Main Board IPO Advisory","provider":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"description":"IPO advisory by a CA firm for SME and Main Board listings. BSE SME, NSE Emerge, IPO readiness, SEBI DRHP preparation, and post-listing compliance.","url":"https://bharatquantumprospera.com/sme-ipo.html","areaServed":[{"@type":"Country","name":"India"},{"@type":"Country","name":"United States"}],"serviceType":"Chartered Accountant Advisory"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"IPO Services","item":"https://bharatquantumprospera.com/sme-ipo.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between SME IPO and Main Board IPO?","acceptedAnswer":{"@type":"Answer","text":"SME IPO (BSE SME / NSE Emerge): minimum post-issue capital INR 1 crore, minimum 50 retail allottees, 2-year migration path. Main Board IPO: minimum INR 10 crore post-issue capital, much higher disclosure standards."}},{"@type":"Question","name":"How long does an SME IPO take?","acceptedAnswer":{"@type":"Answer","text":"Typical timeline: 6-9 months from DRHP filing to listing. Includes due diligence, DRHP drafting, SEBI/exchange filing, marketing, and listing."}}]}</script>
 </head>
 <body>
 
 <header class="site-header on-orange" id="siteHeader">
-  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg width="22" height="22" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 24 Q 16 7, 25 14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" fill="none"/><circle cx="7" cy="24" r="2" fill="currentColor"/><circle cx="25" cy="14" r="2" fill="currentColor"/></svg></a>
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="54" height="36" viewBox="0 0 110 64" aria-hidden="true"><text x="5" y="50" font-family="'Plus Jakarta Sans','Inter',system-ui,sans-serif" font-size="50" font-weight="800" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#FF5F00" dx="-2">.</tspan></text></svg></a>
   <nav class="nav-pills" id="navPills">
     <a href="index.html#about" class="nav-pill on-orange">About</a>
     <a href="index.html#services" class="nav-pill on-orange">Services</a>

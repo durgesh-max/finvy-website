@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" role="img" aria-label="bqp.">
+  <title>bqp. — reversed</title>
+  <desc>Compact wordmark on ink for dark surfaces. Cream letters with sienna-bright period.</desc>
+  <rect width="280" height="200" fill="#463325"/>
+  <text x="30" y="155"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="160"
+        font-weight="800"
+        letter-spacing="-7"
+        fill="#F4F1DB">bqp<tspan fill="#FF5F00" dx="-6">.</tspan></text>
+</svg>

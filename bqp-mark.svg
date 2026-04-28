@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" role="img" aria-label="bqp.">
+  <title>bqp.</title>
+  <desc>Compact wordmark. Used wherever the full lockup will not fit — favicons, social avatars, signature glyphs, app icons.</desc>
+  <text x="30" y="155"
+        font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif"
+        font-size="160"
+        font-weight="800"
+        letter-spacing="-7"
+        fill="#463325">bqp<tspan fill="#CC4A1A" dx="-6">.</tspan></text>
+</svg>

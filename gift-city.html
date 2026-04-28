@@ -183,6 +183,21 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   text-transform: none !important;
 }
 
+
+/* Floating contact widget — always-on direct-inquiry */
+.bqp-cta-fab{position:fixed;right:24px;bottom:24px;z-index:200;display:flex;flex-direction:column;gap:10px;align-items:flex-end;font-family:'Martian Mono','JetBrains Mono',monospace}
+.bqp-cta-fab__pill{display:inline-flex;align-items:center;gap:10px;padding:14px 22px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:600;letter-spacing:-.01em;box-shadow:0 8px 28px rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.08);transition:transform .2s ease,box-shadow .2s ease;backdrop-filter:blur(10px)}
+.bqp-cta-fab__pill:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(0,0,0,.22)}
+.bqp-cta-fab__wa{background:#25D366;color:#fff}
+.bqp-cta-fab__email{background:#463325;color:#F4F1DB}
+.bqp-cta-fab__pill svg{width:18px;height:18px;flex-shrink:0}
+.bqp-cta-fab__hint{display:none;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:rgba(70,51,37,.65);background:rgba(244,241,219,.92);padding:6px 12px;border-radius:999px;border:1px solid rgba(70,51,37,.15);margin-bottom:4px;backdrop-filter:blur(10px)}
+@media(min-width:760px){.bqp-cta-fab__hint{display:inline-flex}}
+@media(max-width:540px){
+  .bqp-cta-fab{right:16px;bottom:16px;gap:8px}
+  .bqp-cta-fab__pill{padding:12px 18px;font-size:12px}
+}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"GIFT City IFSC Advisory","provider":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"description":"GIFT City IFSC setup, AIF registration, IFSCA licensing, SPV structuring, and cross-border tax-efficient fund structures.","url":"https://bharatquantumprospera.com/gift-city.html","areaServed":[{"@type":"Country","name":"India"},{"@type":"Country","name":"United States"}],"serviceType":"Chartered Accountant Advisory"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"GIFT City & IFSC","item":"https://bharatquantumprospera.com/gift-city.html"}]}</script>
@@ -421,6 +436,20 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
   }
 })();
 </script>
+
+
+<!-- Floating contact widget — direct inquiry from any page -->
+<div class="bqp-cta-fab" role="complementary" aria-label="Contact Bharat Quantum Prospera">
+  <span class="bqp-cta-fab__hint">Talk to a CA →</span>
+  <a class="bqp-cta-fab__pill bqp-cta-fab__wa" href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20I%20found%20you%20on%20bharatquantumprospera.com%20and%20wanted%20to%20discuss%3A" target="_blank" rel="noopener" aria-label="WhatsApp Bharat Quantum Prospera">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.339 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-1.041zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.296-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+    WhatsApp
+  </a>
+  <a class="bqp-cta-fab__pill bqp-cta-fab__email" href="mailto:durgesh@bqpartners.in?subject=Enquiry%20%E2%80%94%20Bharat%20Quantum%20Prospera&body=Hi%20Durgesh%2C%0A%0AI%20visited%20bharatquantumprospera.com%20and%20wanted%20to%20discuss%3A%0A%0A1.%20My%20business%3A%20%0A2.%20What%20I%27m%20looking%20at%3A%20%0A3.%20Timeline%3A%20%0A%0AThanks!" aria-label="Email Bharat Quantum Prospera">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+    Email
+  </a>
+</div>
 
 </body>
 </html>

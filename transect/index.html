@@ -1749,7 +1749,36 @@
       color: #F4F1DB !important;
       -webkit-text-fill-color: #F4F1DB !important;
     }
-  </style>
+  
+/* bqp. wordmark — transparent, color adapts via currentColor */
+.logo-mark, .yc-logo-mark {
+  width: auto; height: 36px;
+  background: transparent !important;
+  border-radius: 0 !important;
+  padding: 0;
+  overflow: visible;
+  text-transform: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: #F4F1DB; /* default: cream over orange hero */
+  display: inline-flex; align-items: center;
+}
+.site-header:not(.on-orange) .logo-mark,
+.site-header:not(.on-orange) .yc-logo-mark {
+  color: #463325; /* ink when over cream pages */
+}
+.logo-mark > svg, .yc-logo-mark > svg {
+  height: 36px; width: auto; display: block;
+  text-transform: none !important;
+}
+.logo-mark > svg text, .yc-logo-mark > svg text {
+  text-transform: none !important;
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Transect","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://bharatquantumprospera.com/transect/","description":"Transect — the definitive tool for navigating India's biggest tax reform in 63 years. Income Tax Act 1961 to 2025 mapping with 150+ section mappings, 37 TDS/TCS entries, IT Rules 1962 to 2025, and form change reference.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"creator":{"@type":"Organization","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"isAccessibleForFree":true}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"Transect","item":"https://bharatquantumprospera.com/transect/"}]}</script>
 </head>
 <body>
 
@@ -1757,7 +1786,7 @@
 
   <!-- YC-STYLE MASTHEAD -->
   <header class="yc-masthead">
-    <a href="https://bharatquantumprospera.com/" class="yc-logo-mark" aria-label="Bharat Quantum Prospera"><svg width="22" height="22" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 24 Q 16 7, 25 14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" fill="none"/><circle cx="7" cy="24" r="2" fill="currentColor"/><circle cx="25" cy="14" r="2" fill="currentColor"/></svg></a>
+    <a href="https://bharatquantumprospera.com/" class="yc-logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="54" height="36" viewBox="0 0 110 64" aria-hidden="true"><text x="5" y="50" font-family="'Plus Jakarta Sans','Inter',system-ui,sans-serif" font-size="50" font-weight="800" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#FF5F00" dx="-2">.</tspan></text></svg></a>
     <nav class="yc-nav-pills">
       <a href="https://bharatquantumprospera.com/#about" class="yc-nav-pill">About</a>
       <a href="https://bharatquantumprospera.com/#services" class="yc-nav-pill">Services</a>

@@ -111,6 +111,12 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .nav-pill:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
 .nav-pill.on-orange{color:var(--cream);background:transparent;border-color:rgba(244,241,219,.4)}
 .nav-pill.on-orange:hover{background:var(--cream);color:var(--ink);border-color:var(--cream)}
+.nav-pill-portal{background:var(--orange-accent);color:var(--cream);border-color:var(--orange-accent)}
+.nav-pill-portal:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.nav-pill-portal .np-arr{display:inline-block;margin-left:4px;transition:transform .2s var(--ease)}
+.nav-pill-portal:hover .np-arr{transform:translateX(3px)}
+.nav-pill-portal.on-orange{background:var(--cream);color:var(--ink);border-color:var(--cream)}
+.nav-pill-portal.on-orange:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
 
 .nav-right{
   display:flex;align-items:center;gap:12px;
@@ -611,6 +617,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
     <a href="#services" class="nav-pill on-orange">Services</a>
     <a href="#founder" class="nav-pill on-orange">Founder</a>
     <a href="#global" class="nav-pill on-orange">Global</a>
+    <a href="https://portal.bharatquantumprospera.com/" class="nav-pill nav-pill-portal on-orange">Client Portal <span class="np-arr">→</span></a>
   </nav>
   <div class="nav-right on-orange">
     <a href="#contact" class="nav-cta">Contact</a>

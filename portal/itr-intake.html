@@ -1,0 +1,1658 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ITR Intake — Bharat Quantum Prospera</title>
+<meta name="description" content="Income Tax Return intake — for clients of Bharat Quantum Prospera. A focused, five-minute checklist." />
+<link rel="icon" type="image/svg+xml" href="https://bharatquantumprospera.com/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet" />
+<style>
+/* ═══════════════════════════════════════════════════════════════
+   BQP — ITR INTAKE
+   Brutalist monospace · orange hero · cream cards
+═══════════════════════════════════════════════════════════════ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --orange:#CC4A1A;
+  --orange-dark:#A93D13;
+  --orange-accent:#FF5F00;
+  --cream:#F4F1DB;
+  --cream-2:#E8E1C4;
+  --ink:#463325;
+  --ink-2:#7A6150;
+  --ink-3:#A89481;
+  --border:rgba(70,51,37,.18);
+  --border-strong:rgba(70,51,37,.3);
+  --ok:#3C6E3F;
+  --warn:#A93D13;
+  --ff-mono:'Martian Mono','JetBrains Mono','Geist Mono','Space Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --ease:cubic-bezier(.2,.6,.2,1);
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:var(--cream)}
+body{
+  background:var(--cream);
+  color:var(--ink);
+  font-family:var(--ff-mono);
+  font-size:14px;
+  line-height:1.55;
+  font-weight:400;
+  overflow-x:hidden;
+  letter-spacing:-.01em;
+  padding-bottom:120px;
+}
+::selection{background:var(--orange);color:var(--cream)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select,textarea{font-family:inherit;color:inherit}
+
+/* ═════ HEADER ═════ */
+.site-header{
+  position:fixed;top:0;left:0;right:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 26px;
+  background:var(--cream);
+  border-bottom:1px solid var(--border);
+}
+.logo-mark{
+  width:36px;height:36px;
+  background:var(--orange-accent);
+  color:var(--cream);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--ff-mono);font-weight:700;font-size:22px;line-height:1;
+  border-radius:6px;text-transform:uppercase;flex-shrink:0;
+  transition:transform .2s var(--ease);
+}
+.logo-mark:hover{transform:scale(1.05)}
+.brand-row{display:flex;align-items:center;gap:14px}
+.brand-name{
+  font-family:var(--ff-mono);font-weight:500;font-size:13px;
+  text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);
+}
+.brand-name .sub{display:block;color:var(--ink-2);font-size:11px;font-weight:400;margin-top:2px}
+
+.header-right{
+  display:flex;align-items:center;gap:14px;
+  font-family:var(--ff-mono);font-size:11px;
+  text-transform:uppercase;letter-spacing:-.01em;
+  color:var(--ink-2);
+}
+.header-right .dot{opacity:.4}
+.saved-tag{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:6px 14px;border:1px solid var(--border);border-radius:999px;
+  font-size:10px;color:var(--ink-2);
+}
+.saved-tag::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--ok)}
+@media(max-width:680px){
+  .header-right .meta{display:none}
+}
+
+/* ═════ STEP RAIL (under header) ═════ */
+.rail{
+  position:fixed;top:74px;left:0;right:0;z-index:49;
+  background:var(--cream);
+  border-bottom:1px solid var(--border);
+  padding:12px 26px;
+  display:flex;align-items:center;gap:18px;
+}
+.rail .index{
+  font-family:var(--ff-mono);font-size:11px;font-weight:500;
+  text-transform:uppercase;letter-spacing:-.01em;color:var(--orange);
+}
+.rail .index .slash{color:var(--ink-3);margin:0 4px}
+.rail .index .total{color:var(--ink-2)}
+.rail .step-name{
+  font-family:var(--ff-mono);font-size:12px;
+  text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);
+  flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.rail .ticks{display:flex;gap:3px;flex-shrink:0}
+.rail .tick{width:14px;height:2px;background:var(--border-strong);transition:background .2s}
+.rail .tick.done{background:var(--ink)}
+.rail .tick.cur{background:var(--orange)}
+
+/* ═════ MAIN ═════ */
+main{padding-top:120px}
+.section{padding:0 5vw;margin-top:24px}
+.section.tight{margin-top:0}
+
+/* ═════ HERO ═════ */
+.hero{
+  position:relative;
+  min-height:78vh;
+  background:var(--orange);
+  color:var(--cream);
+  overflow:hidden;
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:80px 5vw 5vw;
+  margin:24px 5vw 0;
+  border-radius:44px;
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(
+    to right,
+    rgba(0,0,0,0) 0,
+    rgba(0,0,0,0) 38px,
+    rgba(0,0,0,.06) 38px,
+    rgba(0,0,0,.06) 39px
+  );
+  pointer-events:none;z-index:0;
+}
+.hero::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse at center top, transparent 20%, rgba(0,0,0,.10) 100%);
+  pointer-events:none;z-index:0;
+}
+.hero-inner{position:relative;z-index:1;width:100%}
+.hero-eyebrow{
+  font-family:var(--ff-mono);font-size:11px;font-weight:500;
+  text-transform:uppercase;letter-spacing:.02em;
+  color:var(--cream);opacity:.7;margin-bottom:24px;
+}
+.hero-eyebrow::before{content:"/ ";opacity:1}
+.hero-headline{
+  font-family:var(--ff-mono);font-weight:400;
+  text-transform:uppercase;line-height:1.0;letter-spacing:-.025em;
+  font-size:clamp(36px, 7vw, 110px);color:var(--cream);
+}
+.hero-line-1{display:block}
+.hero-line-2{display:block;text-align:right}
+.hero-line-2 em{font-style:normal;color:var(--cream);background:var(--ink);padding:0 .15em}
+
+.hero-subline{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns:minmax(260px, 540px) 1fr auto;
+  gap:40px;align-items:end;
+  font-size:clamp(11px, .95vw, 13px);
+  text-transform:uppercase;letter-spacing:-.01em;line-height:1.6;
+}
+.hero-subline p{max-width:480px;color:var(--cream);opacity:.92}
+.hero-cta{
+  align-self:end;justify-self:center;
+}
+.hero-meta{
+  font-family:var(--ff-mono);text-align:right;
+  font-size:11px;letter-spacing:.02em;line-height:1.4;color:var(--cream);opacity:.85;
+}
+.hero-meta strong{display:block;font-weight:500;font-size:1.25em;opacity:1;margin-bottom:4px}
+@media(max-width:860px){
+  .hero{padding:80px 24px 30px;border-radius:28px;margin:24px 16px 0;min-height:auto}
+  .section{padding:0 16px}
+  .hero-subline{grid-template-columns:1fr;gap:20px}
+  .hero-meta{text-align:left}
+  .hero-cta{justify-self:flex-start}
+  .hero-line-2{text-align:left}
+}
+
+/* ═════ CARD ═════ */
+.card{
+  background:var(--cream);
+  border:1px solid var(--border);
+  border-radius:44px;
+  padding:clamp(28px, 4vw, 64px);
+  margin-bottom:24px;
+}
+@media(max-width:860px){
+  .card{border-radius:28px;padding:28px 22px}
+}
+.card-label{
+  font-family:var(--ff-mono);font-size:12px;font-weight:500;
+  text-transform:uppercase;letter-spacing:-.01em;color:var(--ink);
+  margin-bottom:8px;opacity:.7;
+}
+.card-label::before{content:"/ ";opacity:1}
+.card-h2{
+  font-family:var(--ff-mono);font-weight:400;
+  text-transform:uppercase;line-height:1.05;letter-spacing:-.025em;
+  font-size:clamp(24px, 4vw, 56px);color:var(--ink);
+  margin-bottom:18px;max-width:920px;
+}
+.card-h2 em{font-style:normal;color:var(--orange)}
+.card-lede{
+  font-family:var(--ff-mono);font-size:clamp(13px,1vw,15px);line-height:1.65;
+  color:var(--ink-2);max-width:680px;margin-bottom:32px;
+}
+.card-lede em{font-style:normal;color:var(--orange)}
+
+/* ═════ GROUP HEAD (within a card) ═════ */
+.gh{
+  display:grid;grid-template-columns:72px 1fr auto;gap:24px;
+  align-items:baseline;padding:18px 0 14px;
+  border-bottom:1px solid var(--border);margin:32px 0 8px;
+}
+.gh.first{margin-top:8px;border-top:1px solid var(--border);padding-top:24px}
+.gh .num{
+  font-family:var(--ff-mono);font-size:12px;font-weight:500;
+  color:var(--orange);letter-spacing:-.01em;
+}
+.gh .ttl{
+  font-family:var(--ff-mono);font-size:clamp(15px,1.4vw,20px);font-weight:500;
+  text-transform:uppercase;letter-spacing:-.02em;color:var(--ink);line-height:1.2;
+}
+.gh .ttl em{font-style:normal;color:var(--orange)}
+.gh .meta{
+  font-family:var(--ff-mono);font-size:11px;color:var(--ink-3);
+  text-transform:uppercase;letter-spacing:.02em;
+}
+@media(max-width:680px){
+  .gh{grid-template-columns:50px 1fr;gap:14px}
+  .gh .meta{grid-column:2/-1;margin-top:2px}
+}
+
+/* ═════ FIELDS ═════ */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px;margin-top:24px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px 28px;margin-top:24px}
+@media(max-width:680px){.grid,.grid-3{grid-template-columns:1fr;gap:20px}}
+.fg{display:flex;flex-direction:column}
+.fg label{
+  font-family:var(--ff-mono);font-size:11px;text-transform:uppercase;
+  color:var(--ink-2);letter-spacing:.02em;margin-bottom:8px;
+}
+.fg label .req{color:var(--orange);margin-left:2px}
+.fg label .help{color:var(--ink-3);text-transform:none;letter-spacing:0;margin-left:6px}
+.fg input,.fg select,.fg textarea{
+  background:transparent;border:1px solid var(--border);border-radius:12px;
+  padding:12px 16px;font-family:var(--ff-mono);font-size:13px;color:var(--ink);
+  outline:none;transition:border-color .2s,background .2s;width:100%;
+  letter-spacing:-.01em;
+}
+.fg input::placeholder,.fg textarea::placeholder{color:var(--ink-3)}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--orange);background:var(--cream)}
+.fg input.invalid{border-color:var(--orange);background:rgba(204,74,26,.05)}
+.fg textarea{resize:vertical;min-height:84px;line-height:1.55}
+.fg select{
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'><path d='M2 4l3 3 3-3' stroke='%23463325' stroke-width='1' fill='none'/></svg>");
+  background-repeat:no-repeat;background-position:right 14px center;padding-right:36px;
+}
+.fg .upper{text-transform:uppercase}
+.fg .upper::placeholder{text-transform:none}
+
+/* ═════ SERVICE-ROW (numbered choice list) — main pattern ═════ */
+.svc-list{display:flex;flex-direction:column;border-top:1px solid var(--border);margin-top:8px}
+.svc-row{
+  display:grid;grid-template-columns:72px 1fr 1.5fr 40px;gap:24px;
+  padding:24px 0;border-bottom:1px solid var(--border);
+  align-items:center;cursor:pointer;
+  transition:padding .3s var(--ease),background .2s,border-radius .2s,margin .2s;
+  position:relative;
+}
+.svc-row:hover{padding-left:14px;padding-right:14px;background:var(--cream-2);margin:0 -14px;border-radius:16px;border-bottom-color:transparent}
+.svc-row:hover + .svc-row{border-top:1px solid var(--border)}
+.svc-num{
+  font-family:var(--ff-mono);font-size:13px;font-weight:500;
+  color:var(--orange);letter-spacing:-.02em;
+}
+.svc-title{
+  font-family:var(--ff-mono);font-weight:500;text-transform:uppercase;
+  font-size:clamp(14px,1.3vw,17px);line-height:1.25;letter-spacing:-.02em;
+  color:var(--ink);
+}
+.svc-title em{font-style:normal;color:var(--orange)}
+.svc-desc{
+  font-family:var(--ff-mono);font-size:12px;line-height:1.55;
+  color:var(--ink-2);max-width:480px;letter-spacing:-.005em;
+}
+.svc-desc em{font-style:normal;color:var(--orange)}
+.svc-mark{
+  justify-self:end;
+  width:24px;height:24px;border:1px solid var(--ink);border-radius:6px;
+  background:var(--cream);display:grid;place-items:center;
+  transition:all .2s var(--ease);
+}
+.svc-mark svg{opacity:0;transition:opacity .15s;color:var(--cream)}
+.svc-row input{display:none}
+.svc-row.on{background:var(--cream-2);padding-left:14px;padding-right:14px;margin:0 -14px;border-radius:16px;border-bottom-color:transparent}
+.svc-row.on + .svc-row{border-top:1px solid var(--border)}
+.svc-row.on .svc-mark{background:var(--orange);border-color:var(--orange)}
+.svc-row.on .svc-mark svg{opacity:1}
+.svc-row.on .svc-num{color:var(--orange-dark)}
+@media(max-width:780px){
+  .svc-row{grid-template-columns:42px 1fr 32px;gap:14px;padding:18px 0;align-items:flex-start}
+  .svc-desc{grid-column:2/-1;margin-top:6px}
+  .svc-mark{margin-top:2px}
+}
+
+.svc-flag{
+  display:inline-block;font-family:var(--ff-mono);font-size:9.5px;font-weight:500;
+  color:var(--cream);background:var(--orange);letter-spacing:.05em;text-transform:uppercase;
+  padding:2px 7px;border-radius:999px;margin-left:8px;vertical-align:middle;
+}
+
+/* ═════ TILE GRID (income heads) ═════ */
+.tile-grid{
+  margin-top:24px;
+  display:grid;grid-template-columns:repeat(2,1fr);
+  border-top:1px solid var(--border);border-left:1px solid var(--border);
+}
+@media(max-width:680px){.tile-grid{grid-template-columns:1fr}}
+.tile{
+  position:relative;padding:24px 22px;cursor:pointer;
+  border-right:1px solid var(--border);border-bottom:1px solid var(--border);
+  background:var(--cream);transition:background .2s;
+}
+.tile:hover{background:var(--cream-2)}
+.tile .t-num{
+  font-family:var(--ff-mono);font-size:11px;letter-spacing:.06em;
+  color:var(--ink-3);text-transform:uppercase;margin-bottom:14px;
+}
+.tile .t-num::before{content:"/ ";opacity:1}
+.tile .t-name{
+  font-family:var(--ff-mono);font-weight:500;text-transform:uppercase;
+  font-size:clamp(14px,1.3vw,18px);line-height:1.15;letter-spacing:-.02em;color:var(--ink);
+}
+.tile .t-name em{font-style:normal;color:var(--orange)}
+.tile .t-desc{
+  font-family:var(--ff-mono);font-size:11.5px;color:var(--ink-2);line-height:1.5;
+  margin-top:8px;letter-spacing:-.005em;
+}
+.tile input{position:absolute;opacity:0;pointer-events:none}
+.tile .t-mark{
+  position:absolute;top:18px;right:18px;width:18px;height:18px;
+  border:1px solid var(--ink);border-radius:4px;background:var(--cream);
+  display:grid;place-items:center;
+}
+.tile .t-mark svg{opacity:0;color:var(--cream)}
+.tile.on{background:var(--orange);color:var(--cream)}
+.tile.on .t-num,.tile.on .t-desc{color:var(--cream);opacity:.85}
+.tile.on .t-name{color:var(--cream)}
+.tile.on .t-name em{color:var(--ink)}
+.tile.on .t-mark{background:var(--ink);border-color:var(--ink)}
+.tile.on .t-mark svg{opacity:1}
+
+/* ═════ NOTE BOXES ═════ */
+.note{
+  font-family:var(--ff-mono);font-size:12.5px;line-height:1.6;
+  padding:16px 20px;border:1px solid var(--border);border-radius:16px;
+  background:var(--cream-2);margin:18px 0;letter-spacing:-.005em;
+}
+.note .h{
+  font-weight:500;text-transform:uppercase;font-size:11px;letter-spacing:.02em;
+  color:var(--orange);margin-bottom:6px;
+}
+.note .h::before{content:"/ ";opacity:.7}
+.note.warn{border-color:var(--orange);background:rgba(204,74,26,.06)}
+.note.ok{border-color:var(--ok);background:rgba(60,110,63,.06)}
+.note.ok .h{color:var(--ok)}
+
+/* ═════ HIDDEN ═════ */
+.hidden{display:none !important}
+.pane{animation:fade .3s ease}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+
+/* ═════ BUTTONS ═════ */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 26px;background:var(--ink);color:var(--cream);
+  border-radius:999px;border:1px solid var(--ink);
+  font-family:var(--ff-mono);font-size:12px;font-weight:500;
+  text-transform:uppercase;letter-spacing:.02em;
+  transition:all .2s var(--ease);cursor:pointer;
+}
+.btn:hover{background:var(--orange);border-color:var(--orange);color:var(--cream)}
+.btn .arr{font-family:var(--ff-mono);font-size:14px;line-height:1}
+.btn-orange{background:var(--orange);border-color:var(--orange);color:var(--cream)}
+.btn-orange:hover{background:var(--ink);border-color:var(--ink);color:var(--cream)}
+.btn-ghost{background:transparent;border:1px solid var(--ink);color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--cream)}
+.btn-cream{background:var(--cream);border:1px solid rgba(244,241,219,.6);color:var(--ink)}
+.btn-cream:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.btn-sm{padding:9px 18px;font-size:11px}
+.btn-icon{width:44px;height:44px;padding:0;justify-content:center;flex-shrink:0}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+
+/* ═════ STICKY NAV ═════ */
+.dock{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  padding:14px 26px env(safe-area-inset-bottom);
+  background:var(--cream);border-top:1px solid var(--border);
+}
+.dock-in{
+  max-width:1200px;margin:0 auto;
+  display:flex;align-items:center;gap:12px;
+}
+.dock .grow{flex:1}
+@media(max-width:680px){
+  .dock{padding:12px 16px env(safe-area-inset-bottom)}
+}
+
+/* ═════ REVIEW PAGE ═════ */
+.geo-grid{
+  margin-top:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  border-top:1px solid var(--border);border-left:1px solid var(--border);
+}
+@media(max-width:680px){.geo-grid{grid-template-columns:1fr}}
+.geo-item{padding:28px 18px;border-right:1px solid var(--border);border-bottom:1px solid var(--border);text-align:center}
+.geo-num{font-family:var(--ff-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);text-transform:uppercase;display:block;margin-bottom:14px}
+.geo-num::before{content:"/ "}
+.geo-val{
+  font-family:var(--ff-mono);font-weight:500;text-transform:uppercase;
+  font-size:clamp(20px,2.4vw,32px);line-height:1.05;color:var(--ink);letter-spacing:-.025em;
+}
+.geo-val em{font-style:normal;color:var(--orange)}
+.geo-vu{font-family:var(--ff-mono);font-size:10.5px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em;margin-top:8px}
+
+.docgroup{margin-top:32px}
+.docgroup .gh-r{
+  display:flex;justify-content:space-between;align-items:baseline;
+  border-bottom:1px solid var(--border);padding-bottom:8px;margin-bottom:8px;
+}
+.docgroup .gh-r .t{font-family:var(--ff-mono);font-size:13px;font-weight:500;text-transform:uppercase;letter-spacing:-.01em;color:var(--ink)}
+.docgroup .gh-r .t em{font-style:normal;color:var(--orange)}
+.docgroup .gh-r .c{font-family:var(--ff-mono);font-size:11px;color:var(--orange);letter-spacing:.04em;text-transform:uppercase}
+.docgroup ul{list-style:none;padding:0;margin:0}
+.docgroup li{
+  display:grid;grid-template-columns:32px 1fr;gap:14px;
+  padding:10px 0;border-bottom:1px dashed var(--border);
+  font-family:var(--ff-mono);font-size:12px;color:var(--ink);letter-spacing:-.005em;line-height:1.5;
+}
+.docgroup li::before{
+  content:counter(i,decimal-leading-zero) " /";counter-increment:i;
+  font-family:var(--ff-mono);font-size:11px;color:var(--orange);
+}
+.docgroup ul{counter-reset:i}
+.docgroup li:last-child{border-bottom:0}
+
+.preview{
+  background:var(--ink);color:var(--cream);padding:22px;
+  font-family:var(--ff-mono);font-size:11.5px;line-height:1.7;
+  white-space:pre-wrap;word-break:break-word;max-height:380px;overflow:auto;
+  border-radius:20px;letter-spacing:-.005em;
+}
+
+details{margin-top:22px}
+details summary{
+  cursor:pointer;font-family:var(--ff-mono);font-size:11px;color:var(--ink-2);
+  text-transform:uppercase;letter-spacing:.04em;padding:10px 0;
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+}
+details summary::-webkit-details-marker{display:none}
+details summary::before{content:"+ ";color:var(--orange)}
+details[open] summary::before{content:"− ";color:var(--orange)}
+
+/* ═════ FOOTER ═════ */
+.footer{
+  padding:32px 5vw 28px;text-align:center;
+  font-family:var(--ff-mono);font-size:11px;color:var(--ink-2);letter-spacing:-.005em;
+  text-transform:uppercase;
+}
+.footer .firm{color:var(--ink);font-size:12px;font-weight:500;margin-bottom:6px;letter-spacing:-.01em}
+.footer .offices{color:var(--ink-3);letter-spacing:.06em;margin-top:6px;font-size:10px}
+.footer .priv{margin-top:8px;text-transform:none;font-size:10.5px;color:var(--ink-3);letter-spacing:0}
+
+@media print{
+  .site-header,.rail,.dock{display:none}
+  body{padding-bottom:0}
+  main{padding-top:20px}
+}
+
+/* ═════ UPLOAD ZONES ═════ */
+.up-server-status{
+  display:flex;align-items:center;gap:10px;padding:14px 18px;border-radius:14px;
+  font-family:var(--ff-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;
+  margin-bottom:24px;border:1px solid var(--border);background:var(--cream-2);
+}
+.up-server-status .pulse{
+  width:8px;height:8px;border-radius:50%;background:var(--ok);flex-shrink:0;
+  box-shadow:0 0 0 3px rgba(60,110,63,.18);
+}
+.up-server-status.off .pulse{background:var(--orange);box-shadow:0 0 0 3px rgba(204,74,26,.18)}
+.up-server-status .label{color:var(--ink);font-weight:500}
+.up-server-status .url{color:var(--ink-2);text-transform:none;letter-spacing:0;font-size:11px;margin-left:auto;opacity:.7;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:50%}
+
+.up-zones{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.up-zone{
+  display:grid;grid-template-columns:72px 1fr auto;gap:18px;align-items:center;
+  border:1px dashed var(--border-strong);border-radius:18px;padding:18px 22px;
+  background:var(--cream);transition:.2s var(--ease);cursor:pointer;
+}
+.up-zone:hover,.up-zone.drag{border-color:var(--orange);background:rgba(204,74,26,.04)}
+.up-zone .uz-num{
+  font-family:var(--ff-mono);font-size:13px;font-weight:500;color:var(--orange);letter-spacing:-.01em;
+}
+.up-zone .uz-body .uz-title{
+  font-family:var(--ff-mono);font-size:14px;font-weight:500;text-transform:uppercase;
+  letter-spacing:-.02em;color:var(--ink);line-height:1.2;
+}
+.up-zone .uz-body .uz-title em{font-style:normal;color:var(--orange)}
+.up-zone .uz-body .uz-hint{
+  font-family:var(--ff-mono);font-size:11.5px;color:var(--ink-2);margin-top:4px;letter-spacing:-.005em;
+}
+.up-zone .uz-act{
+  display:inline-flex;align-items:center;gap:8px;padding:9px 16px;
+  background:transparent;border:1px solid var(--ink);border-radius:999px;
+  font-family:var(--ff-mono);font-size:11px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--ink);transition:.15s;
+}
+.up-zone:hover .uz-act{background:var(--ink);color:var(--cream)}
+.up-zone input[type=file]{display:none}
+.up-zone.priority{border-style:solid;border-color:var(--ink);background:rgba(70,51,37,.03)}
+.up-zone.priority .uz-num,.up-zone.priority .uz-title em{color:var(--orange)}
+
+.up-files{margin-top:18px;display:flex;flex-direction:column;gap:8px}
+.up-file{
+  display:grid;grid-template-columns:24px 1fr auto auto auto;gap:14px;align-items:center;
+  padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--cream);
+  font-family:var(--ff-mono);font-size:12px;
+}
+.up-file .uf-ic{
+  width:24px;height:24px;display:grid;place-items:center;
+  background:var(--cream-2);border-radius:6px;font-size:10px;font-weight:600;
+  text-transform:uppercase;color:var(--ink);
+}
+.up-file .uf-name{
+  color:var(--ink);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;letter-spacing:-.005em;
+}
+.up-file .uf-name .cat{color:var(--orange);font-size:10px;text-transform:uppercase;margin-right:6px;letter-spacing:.04em}
+.up-file .uf-size{color:var(--ink-3);font-size:11px;letter-spacing:.02em;white-space:nowrap}
+.up-file .uf-status{
+  font-size:10px;text-transform:uppercase;letter-spacing:.06em;font-weight:500;
+  padding:3px 8px;border-radius:999px;background:var(--cream-2);color:var(--ink-2);white-space:nowrap;
+}
+.up-file .uf-status.ok{background:rgba(60,110,63,.12);color:var(--ok)}
+.up-file .uf-status.err{background:rgba(204,74,26,.12);color:var(--orange)}
+.up-file .uf-status.up{background:rgba(255,95,0,.12);color:var(--orange-accent)}
+.up-file .uf-del{
+  width:24px;height:24px;border-radius:50%;background:transparent;border:1px solid var(--border);
+  display:grid;place-items:center;cursor:pointer;color:var(--ink-2);font-size:12px;line-height:1;
+}
+.up-file .uf-del:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.up-file .uf-bar{
+  grid-column:1/-1;height:2px;background:var(--cream-2);border-radius:1px;overflow:hidden;
+}
+.up-file .uf-bar > span{display:block;height:100%;background:var(--orange);width:0%;transition:width .15s}
+.up-file.uploading{border-color:var(--orange-accent)}
+.up-file.error{border-color:var(--orange);background:rgba(204,74,26,.04)}
+.up-file.success{border-color:var(--ok)}
+
+.up-summary{
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:14px 18px;margin-top:18px;border-radius:14px;background:var(--cream-2);
+  font-family:var(--ff-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;
+  color:var(--ink);
+}
+.up-summary .stat{display:flex;align-items:center;gap:10px}
+.up-summary .stat strong{color:var(--orange);font-weight:500}
+@media(max-width:680px){
+  .up-zone{grid-template-columns:46px 1fr;padding:16px;gap:14px}
+  .up-zone .uz-act{grid-column:2/-1;justify-self:start;margin-top:6px}
+  .up-file{grid-template-columns:24px 1fr auto;gap:10px;font-size:11px}
+  .up-file .uf-size,.up-file .uf-del{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ═════ HEADER ═════ -->
+<header class="site-header">
+  <div class="brand-row">
+    <div class="logo-mark" id="logoMark">B</div>
+    <div class="brand-name" id="brandName">Bharat Quantum Prospera<span class="sub" id="brandTag">ITR Filing — Client Intake</span></div>
+  </div>
+  <div class="header-right">
+    <span class="meta" id="dateline">— —</span>
+    <span class="dot meta">•</span>
+    <span class="meta" id="userBadge"></span>
+    <span class="dot meta" id="userDot" style="display:none">•</span>
+    <span class="saved-tag" id="savedTag">Saved</span>
+    <button class="saved-tag" id="btnLogout" type="button" style="cursor:pointer;display:none;border:1px solid var(--border);background:var(--cream)">Log out</button>
+  </div>
+</header>
+
+<!-- ═════ STEP RAIL ═════ -->
+<div class="rail">
+  <div class="index"><span id="stepNum">01</span><span class="slash">/</span><span class="total" id="stepTotal">07</span></div>
+  <div class="step-name" id="stepName">The Brief</div>
+  <div class="ticks" id="ticks"></div>
+</div>
+
+<main id="steps">
+
+  <!-- ═══════════════════════════════════════
+       STEP 01 — HERO
+       ═══════════════════════════════════════ -->
+  <section class="pane" data-step="1">
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-eyebrow">A focused intake — for clients filing their ITR.</div>
+        <h1 class="hero-headline">
+          <span class="hero-line-1">Five minutes.</span>
+          <span class="hero-line-2">Zero <em>back-and-forth.</em></span>
+        </h1>
+        <div class="hero-subline">
+          <p>A precise checklist drafted by your CA — not a software company. Tick what applies. We verify everything against <strong>26AS, AIS &amp; TIS</strong> ourselves.</p>
+          <div class="hero-cta">
+            <button class="btn btn-cream" type="button" onclick="nextStep()">Begin the intake <span class="arr">→</span></button>
+          </div>
+          <div class="hero-meta"><strong id="heroDate">— —</strong>Filing window<br/>active</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 02 — IDENTITY
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="2">
+    <div class="card">
+      <div class="card-label">Part one — the filer</div>
+      <h2 class="card-h2">Who are we filing <em>for?</em></h2>
+      <p class="card-lede">All fields below must match your PAN &amp; Aadhaar exactly. <em>Mismatches are the single largest cause of rejected returns.</em></p>
+
+      <div class="grid">
+        <div class="fg"><label>Full Name <span class="req">*</span> <span class="help">— as printed on PAN</span></label>
+          <input id="f_name" placeholder="Rahul Kumar Sharma" autocomplete="name" />
+        </div>
+        <div class="fg"><label>Father's Name</label>
+          <input id="f_father" placeholder="As per PAN records" />
+        </div>
+        <div class="fg"><label>PAN <span class="req">*</span></label>
+          <input class="upper" id="f_pan" placeholder="ABCDE1234F" maxlength="10" />
+        </div>
+        <div class="fg"><label>Aadhaar <span class="req">*</span></label>
+          <input id="f_aadhaar" placeholder="XXXX XXXX XXXX" maxlength="14" inputmode="numeric" />
+        </div>
+        <div class="fg"><label>Date of Birth</label>
+          <input id="f_dob" placeholder="DD / MM / YYYY" inputmode="numeric" />
+        </div>
+        <div class="fg"><label>Gender</label>
+          <select id="f_gender"><option value="">Select…</option><option>Male</option><option>Female</option><option>Other</option></select>
+        </div>
+        <div class="fg"><label>Mobile <span class="req">*</span> <span class="help">— Aadhaar-linked</span></label>
+          <input id="f_mobile" placeholder="10-digit mobile" maxlength="10" inputmode="numeric" autocomplete="tel-national" />
+        </div>
+        <div class="fg"><label>Email <span class="req">*</span></label>
+          <input id="f_email" placeholder="name@example.com" autocomplete="email" type="email" />
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:8px">
+        <div class="fg" style="grid-column:1/-1"><label>Current Address</label>
+          <textarea id="f_address" placeholder="Flat / Street / City / State / PIN"></textarea>
+        </div>
+      </div>
+
+      <div class="gh"><div class="num">02 / 02</div><div class="ttl">Tax <em>profile</em></div><div class="meta">04 fields</div></div>
+      <div class="grid">
+        <div class="fg"><label>Assessment Year</label>
+          <select id="f_ay">
+            <option value="2026-27">AY 2026-27 (FY 2025-26)</option>
+            <option value="2025-26">AY 2025-26 (FY 2024-25)</option>
+            <option value="2024-25">AY 2024-25 (FY 2023-24) — belated/updated</option>
+          </select>
+        </div>
+        <div class="fg"><label>Residential Status</label>
+          <select id="f_resident">
+            <option value="Resident">Resident — lived in India most of the year</option>
+            <option value="NRI">Non-Resident (NRI)</option>
+            <option value="RNOR">Resident but Not Ordinarily Resident</option>
+          </select>
+        </div>
+        <div class="fg"><label>Tax Regime</label>
+          <select id="f_regime">
+            <option value="Let CA decide">Let my CA pick whichever saves more</option>
+            <option value="New">New — lower slabs, fewer deductions</option>
+            <option value="Old">Old — with deductions</option>
+          </select>
+        </div>
+        <div class="fg"><label>Marital Status</label>
+          <select id="f_marital"><option value="">Select…</option><option>Single</option><option>Married</option><option>Other</option></select>
+        </div>
+      </div>
+
+      <div class="gh"><div class="num">03 / 03</div><div class="ttl"><em>Special</em> status — if any</div><div class="meta">tick relevant</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Disability — self or dependent</div><div class="svc-desc">Eligible for <em>Section 80U / 80DD</em> deductions. Keep certificate ready.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_disability" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Senior Citizen — 60+ years</div><div class="svc-desc">Higher basic exemption + <em>Section 80TTB</em> on bank interest.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_seniorCitizen" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Government employee</div><div class="svc-desc">Higher 80CCD(2) NPS limit <em>(14% of salary, vs. 10%)</em>.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_govt" /></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 03 — INCOME HEADS (TILES)
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="3">
+    <div class="card">
+      <div class="card-label">Part two — heads of income</div>
+      <h2 class="card-h2">Where did the money <em>come from?</em></h2>
+      <p class="card-lede">Tap each head that applies. We'll only ask the follow-up questions <em>worth your time.</em></p>
+
+      <div class="tile-grid" id="incomeTiles">
+        <label class="tile" data-toggle data-target="d_salary"><div class="t-num">01 / 08</div><div class="t-name">Salary <em>&amp; pension</em></div><div class="t-desc">From employer(s), arrears, ESOP perquisites</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_business"><div class="t-num">02 / 08</div><div class="t-name">Business <em>or profession</em></div><div class="t-desc">Freelance, consulting, trading, retail</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_house"><div class="t-num">03 / 08</div><div class="t-name">House <em>property</em></div><div class="t-desc">Self-occupied, let-out, deemed let-out</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_capgain"><div class="t-num">04 / 08</div><div class="t-name">Capital <em>gains</em></div><div class="t-desc">Shares, MF, property, crypto, F&amp;O</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_other"><div class="t-num">05 / 08</div><div class="t-name">Other <em>sources</em></div><div class="t-desc">Interest, dividend, gifts, lottery</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_foreign"><div class="t-num">06 / 08</div><div class="t-name">Foreign <em>income / assets</em></div><div class="t-desc">Salary, RSU, accounts, property abroad</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_partner"><div class="t-num">07 / 08</div><div class="t-name">Partner <em>in firm / LLP</em></div><div class="t-desc">Profit share, remuneration, capital interest</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+        <label class="tile" data-toggle data-target="d_agri"><div class="t-num">08 / 08</div><div class="t-name">Agricultural <em>income</em></div><div class="t-desc">Exempt — but affects effective rate</div><span class="t-mark"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" /></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 04 — INCOME PARTICULARS
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="4">
+    <div class="card">
+      <div class="card-label">Part three — the particulars</div>
+      <h2 class="card-h2">Now, the <em>specifics.</em></h2>
+      <p class="card-lede">Tick what's already in your possession. Share the actual files on WhatsApp / email <em>after</em> sending this intake.</p>
+
+      <div id="noIncomeMsg" class="note hidden"><div class="h">Nothing selected</div>No income source was ticked on the previous step. Continue if filing a NIL return — otherwise return and select what applies.</div>
+
+      <!-- ============ SALARY ============ -->
+      <div id="d_salary" class="hidden">
+        <div class="gh first"><div class="num">01 / 08</div><div class="ttl">Salary <em>&amp; pension</em></div><div class="meta">07 items</div></div>
+        <div class="grid">
+          <div class="fg"><label>Employers in this FY</label>
+            <select id="f_employers"><option>1</option><option>2</option><option>3</option><option>More than 3</option></select>
+          </div>
+          <div class="fg"><label>Approx. Annual Gross Salary (₹)</label>
+            <input id="f_grossSal" placeholder="e.g. 12,00,000" inputmode="numeric" />
+          </div>
+        </div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Form 16 — Part A &amp; B<span class="svc-flag">essential</span></div><div class="svc-desc">From <em>each</em> employer. Your HR / payroll portal has it.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Salary slips — month-wise</div><div class="svc-desc">Especially if jobs changed. Verifies perquisites &amp; arrears.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Form 12BA — perquisites</div><div class="svc-desc">If you got <em>ESOPs, RSUs, sweat equity, accommodation,</em> car perk.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Rent receipts + landlord PAN — for HRA</div><div class="svc-desc">Only if HRA wasn't declared to employer.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">ESOP / RSU vesting &amp; exercise statement</div><div class="svc-desc">Includes <em>FMV on exercise date</em> — perquisite + future capital gain.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Gratuity / leave encashment / VRS</div><div class="svc-desc"><em>Sec 10(10), 10(10AA)</em> exemption applies.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">07</div><div class="svc-title">Salary arrears — <em>Sec 89(1)</em> relief</div><div class="svc-desc">Form 10E must be filed before ITR.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Salary" /></label>
+        </div>
+      </div>
+
+      <!-- ============ BUSINESS ============ -->
+      <div id="d_business" class="hidden">
+        <div class="gh"><div class="num">02 / 08</div><div class="ttl">Business <em>or profession</em></div><div class="meta">07 items</div></div>
+        <div class="grid">
+          <div class="fg"><label>Nature of Work</label><input id="f_biznature" placeholder="IT consulting, retail, e-commerce…" /></div>
+          <div class="fg"><label>Approx. Gross Turnover (₹)</label><input id="f_turnover" placeholder="e.g. 18,00,000" inputmode="numeric" /></div>
+          <div class="fg"><label>Cash receipts &gt; 5% of turnover?</label><select id="f_cashHeavy"><option value="">Select…</option><option>No — mostly digital</option><option>Yes — significant cash</option></select></div>
+          <div class="fg"><label>GST registered?</label><select id="f_gst"><option value="">Select…</option><option>Yes</option><option>No</option></select></div>
+        </div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Opt for Presumptive Tax — <em>Sec 44AD / 44ADA / 44AE</em></div><div class="svc-desc">Eligible if turnover ≤ ₹3 cr (business) or ₹75 L (professional). CA confirms.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_presumptive" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Bank statements — all accounts, full FY<span class="svc-flag">essential</span></div><div class="svc-desc">Both savings &amp; current used for business.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Profit &amp; Loss + Balance Sheet</div><div class="svc-desc">If you maintain books — otherwise we draft from bank data.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">GST returns — GSTR-1 &amp; 3B for full FY</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Sales register / invoice list + expense bills</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Form 16A — TDS certificates from clients</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">07</div><div class="svc-title">Closing stock as on 31 March + depreciation register</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Business" /></label>
+        </div>
+      </div>
+
+      <!-- ============ HOUSE ============ -->
+      <div id="d_house" class="hidden">
+        <div class="gh"><div class="num">03 / 08</div><div class="ttl">House <em>property</em></div><div class="meta">06 items</div></div>
+        <div class="grid">
+          <div class="fg"><label>Number of Properties</label><select id="f_propcount"><option>1</option><option>2</option><option>3+</option></select></div>
+          <div class="fg"><label>Type</label><select id="f_proptype"><option value="">Select…</option><option>Self-occupied</option><option>Let-out (rented)</option><option>Deemed let-out</option><option>Vacant</option></select></div>
+        </div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Rent received — total + tenant PAN</div><div class="svc-desc">Tenant PAN required if rent &gt; ₹50,000/month.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Municipal / property tax paid receipt</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Home loan interest certificate — <em>Sec 24(b)</em><span class="svc-flag">key</span></div><div class="svc-desc">Bank issues annually — interest &amp; principal split.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Pre-construction interest details — <em>1/5th rule</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Co-owner names + share %</div><div class="svc-desc">If jointly owned.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Form 16C — TDS by tenant (rent &gt; ₹50k/month)</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="House" /></label>
+        </div>
+      </div>
+
+      <!-- ============ CAPITAL GAINS ============ -->
+      <div id="d_capgain" class="hidden">
+        <div class="gh"><div class="num">04 / 08</div><div class="ttl">Capital <em>gains</em></div><div class="meta">09 items</div></div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Tax P&amp;L / capital gains statement — listed shares &amp; MF<span class="svc-flag">essential</span></div><div class="svc-desc">From broker (Zerodha, Groww, ICICI Direct) — split STCG &amp; LTCG.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">F&amp;O / Intraday — turnover &amp; P&amp;L</div><div class="svc-desc">F&amp;O = <em>non-speculative business</em>; Intraday = <em>speculative</em> (different head).</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Crypto / VDA — buy &amp; sell statement</div><div class="svc-desc">Flat 30% tax + 1% TDS. WazirX / CoinDCX / Binance reports.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Property sold — sale + purchase deed + improvement bills</div><div class="svc-desc">Stamp duty value relevant under <em>Sec 50C</em>.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title"><em>Sec 54 / 54F / 54EC</em> reinvestment proof</div><div class="svc-desc">New house deed or Capital Gains Account Scheme deposit.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Inherited / gifted asset — original cost &amp; date</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">07</div><div class="svc-title">Unlisted shares / startup ESOPs sold</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">08</div><div class="svc-title">Foreign shares (US RSU/ESOP) — sale + 1099 / broker report</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">09</div><div class="svc-title">Buy-back / company-bond redemption proceeds</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="CapGain" /></label>
+        </div>
+      </div>
+
+      <!-- ============ OTHER ============ -->
+      <div id="d_other" class="hidden">
+        <div class="gh"><div class="num">05 / 08</div><div class="ttl">Other <em>sources</em></div><div class="meta">08 items</div></div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Bank interest certificates — Savings + FD<span class="svc-flag">essential</span></div><div class="svc-desc">All banks. Used for AIS reconciliation.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">RD / Post Office / NSC interest</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Dividend received — shares &amp; MF <em>(taxable)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Family pension / annuity received</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Gifts &gt; ₹50,000 from non-relatives</div><div class="svc-desc">Taxable; relative gifts, marriage, will = <em>exempt</em>.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Lottery / game show / online gaming winnings</div><div class="svc-desc">Flat 30% — <em>Sec 115BB / 115BBJ</em>.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">07</div><div class="svc-title">Insurance maturity / surrender — <em>Sec 10(10D)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">08</div><div class="svc-title">EPF withdrawn before 5 years <em>(taxable)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Other" /></label>
+        </div>
+      </div>
+
+      <!-- ============ FOREIGN ============ -->
+      <div id="d_foreign" class="hidden">
+        <div class="gh"><div class="num">06 / 08</div><div class="ttl">Foreign <em>income / assets</em></div><div class="meta">06 items</div></div>
+        <div class="note warn"><div class="h">Mandatory disclosure</div>Schedule FA must be filed for any foreign asset or signing authority. Non-disclosure attracts steep penalty &amp; prosecution under the <em>Black Money Act</em>.</div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Foreign bank account — full statement, peak &amp; closing balance</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Foreign shares — RSU / ESOP <em>(vested but unsold also reportable)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Foreign immovable property</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Foreign retirement / pension — 401k, IRA, Superannuation</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Foreign salary / consulting + tax paid abroad</div><div class="svc-desc"><em>Form 67 + DTAA</em> — needed for Foreign Tax Credit.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Signing authority in any foreign account</div><div class="svc-desc"><em>Even if not the owner.</em></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Foreign" /></label>
+        </div>
+      </div>
+
+      <!-- ============ PARTNER ============ -->
+      <div id="d_partner" class="hidden">
+        <div class="gh"><div class="num">07 / 08</div><div class="ttl">Partner <em>in firm / LLP</em></div><div class="meta">03 items</div></div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Firm name + PAN</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Partner" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Share of profit (exempt) certificate</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Partner" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Remuneration + interest on capital received</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Partner" /></label>
+        </div>
+      </div>
+
+      <!-- ============ AGRI ============ -->
+      <div id="d_agri" class="hidden">
+        <div class="gh"><div class="num">08 / 08</div><div class="ttl">Agricultural <em>income</em></div><div class="meta">02 items</div></div>
+        <div class="grid">
+          <div class="fg"><label>Approx. agricultural income (₹)</label><input id="f_agri" placeholder="e.g. 2,00,000" inputmode="numeric" /></div>
+        </div>
+        <div class="svc-list">
+          <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Land details — location, area</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Agri" /></label>
+          <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Sale proof — mandi receipt / buyer statement</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="Agri" /></label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 05 — DEDUCTIONS
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="5">
+    <div class="card">
+      <div class="card-label">Part four — deductions</div>
+      <h2 class="card-h2">The savings <em>worth saving.</em></h2>
+      <p class="card-lede">Most apply only under the <em>Old Regime</em>. We model both — and pick whichever leaves you with more.</p>
+
+      <div class="note hidden" id="newRegimeNote"><div class="h">You picked New Regime</div>Most deductions don't apply, but a few still do. Tick anything relevant.</div>
+
+      <div class="gh first"><div class="num">01 / 04</div><div class="ttl">Section <em>80C</em></div><div class="meta">up to ₹1.5 L</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">LIC / term / endowment premium receipts</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">PPF / EPF / VPF contribution proof</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">ELSS mutual fund / 5-year tax-saver FD</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Sukanya Samriddhi / NSC / SCSS</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Children's school tuition <em>(max 2 children)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Home loan principal repayment certificate</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">07</div><div class="svc-title">Stamp duty + registration <em>(year of purchase)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80C" /></label>
+      </div>
+
+      <div class="gh"><div class="num">02 / 04</div><div class="ttl">Section <em>80D</em> — health insurance</div><div class="meta">03 items</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Mediclaim — self / spouse / children</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80D" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Mediclaim — parents <em>(higher cap if 60+)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80D" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Preventive health check-up bills <em>(within ₹5,000)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="80D" /></label>
+      </div>
+
+      <div class="gh"><div class="num">03 / 04</div><div class="ttl">NPS &amp; <em>loan deductions</em></div><div class="meta">05 items</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title"><em>80CCD(1B)</em> — NPS additional ₹50,000</div><div class="svc-desc">Transaction statement.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="NPS" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title"><em>80CCD(2)</em> — Employer NPS contribution<span class="svc-flag">new regime ok</span></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="NPS" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title"><em>80E</em> — Education loan interest certificate</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title"><em>80EEA / 80EE</em> — additional home loan interest, first-time buyer</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title"><em>80EEB</em> — Electric vehicle loan interest</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+      </div>
+
+      <div class="gh"><div class="num">04 / 04</div><div class="ttl">Donations &amp; <em>others</em></div><div class="meta">06 items</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title"><em>80G</em> — donation receipts <em>(with donee PAN, 80G certificate)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title"><em>80GG</em> — rent paid <em>(only if no HRA from employer)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title"><em>80GGC</em> — donation to political party</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title"><em>80DDB</em> — specified illness medical expenses</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title"><em>80DD / 80U</em> — disability certificate (self / dependent)</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title"><em>80TTA / 80TTB</em> — bank savings interest <em>(auto from statement)</em></div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="OtherDed" /></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 06 — TAX PAID, BANK, EXTRAS
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="6">
+    <div class="card">
+      <div class="card-label">Part five — the reconciliation</div>
+      <h2 class="card-h2">What's already <em>been paid?</em></h2>
+      <p class="card-lede"><em>Mismatches with AIS</em> are the single largest cause of tax notices. We reconcile every paisa.</p>
+
+      <div class="gh first"><div class="num">01 / 03</div><div class="ttl">Tax already <em>paid / deducted</em></div><div class="meta">06 items</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Form 26AS — Tax Credit Statement<span class="svc-flag">essential</span></div><div class="svc-desc">Download from incometax.gov.in.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">AIS — Annual Information Statement<span class="svc-flag">essential</span></div><div class="svc-desc">Cross-check against records — every transaction the IT dept already knows.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">TIS — Taxpayer Information Summary</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Advance / self-assessment tax challans</div><div class="svc-desc"><em>BSR + serial + date.</em></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Form 16B — TDS by buyer of property</div><div class="svc-desc">If you sold property.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">06</div><div class="svc-title">Form 27D — TCS certificates</div><div class="svc-desc"><em>Foreign remittance, motor vehicle, etc.</em></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" class="docchk" data-cat="TaxPaid" /></label>
+      </div>
+
+      <div class="gh"><div class="num">02 / 03</div><div class="ttl">Bank account <em>for refund</em></div><div class="meta">primary + others</div></div>
+      <div class="note"><div class="h">Disclose every account</div>List <em>all</em> bank accounts (savings, current) held during the FY — not just the primary one. The IT dept reconciles AIS interest against these.</div>
+      <div class="grid">
+        <div class="fg"><label>Primary Bank — for refund</label><input id="f_bank" placeholder="e.g. HDFC Bank" /></div>
+        <div class="fg"><label>Account Number</label><input id="f_acc" placeholder="A/c number" /></div>
+        <div class="fg"><label>IFSC</label><input class="upper" id="f_ifsc" placeholder="HDFC0001234" /></div>
+        <div class="fg"><label>Type</label><select id="f_acctype"><option>Savings</option><option>Current</option><option>NRE</option><option>NRO</option></select></div>
+      </div>
+      <div class="grid" style="margin-top:8px">
+        <div class="fg" style="grid-column:1/-1"><label>Other accounts <span class="help">— bank + last 4 digits</span></label>
+          <textarea id="f_otherbanks" placeholder="e.g. SBI ****4523, ICICI ****1102"></textarea>
+        </div>
+      </div>
+
+      <div class="gh"><div class="num">03 / 03</div><div class="ttl"><em>Special</em> circumstances</div><div class="meta">tick if relevant</div></div>
+      <div class="svc-list">
+        <label class="svc-row" data-toggle><div class="svc-num">01</div><div class="svc-title">Losses to <em>carry forward</em> from previous years</div><div class="svc-desc">Capital / business / house property — needs continuous return filing.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_lossCF" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">02</div><div class="svc-title">Pending IT notice / intimation</div><div class="svc-desc">u/s <em>139(9), 143(1), 148, 245</em> — share PDF separately.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_notice" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">03</div><div class="svc-title">Last year's filed ITR / acknowledgement (ITR-V)</div><div class="svc-desc">Helps continuity &amp; loss carry-forward verification.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_lastITR" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">04</div><div class="svc-title">Business liable for tax audit — <em>Sec 44AB</em></div><div class="svc-desc">Turnover &gt; ₹1 cr (₹10 cr if cash &lt;5%) or profession &gt; ₹50 L.</div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_audit" /></label>
+        <label class="svc-row" data-toggle><div class="svc-num">05</div><div class="svc-title">Major life event — marriage, divorce, name change, NRI shift</div><div class="svc-desc"></div><span class="svc-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span><input type="checkbox" id="f_lifeEvent" /></label>
+      </div>
+
+      <div class="grid" style="margin-top:24px">
+        <div class="fg" style="grid-column:1/-1"><label>Anything else we should know?</label>
+          <textarea id="f_notes" placeholder="e.g. Worked in Dubai for 4 months, sold ancestral land, joined as a partner mid-year…"></textarea>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 07 — UPLOAD DOCUMENTS
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="7">
+    <div class="card">
+      <div class="card-label">Part six — upload</div>
+      <h2 class="card-h2">Hand over the <em>files.</em></h2>
+      <p class="card-lede">Drop PDFs, photos, or Excel sheets into the right category. Each file goes straight to a folder under <em>your name</em> on our server. Max 25 MB per file.</p>
+
+      <div class="up-server-status" id="upStatus">
+        <span class="pulse"></span>
+        <span class="label" id="upStatusLabel">Server: connected</span>
+        <span class="url" id="upStatusUrl">—</span>
+      </div>
+
+      <div class="note hidden" id="upNeedsPan"><div class="h">PAN required</div>Please go back to <em>Part One — The Filer</em> and enter your PAN. Files are organised under your PAN-tagged folder.</div>
+
+      <div class="up-zones" id="upZones"></div>
+
+      <div class="up-files" id="upFiles"></div>
+
+      <div class="up-summary" id="upSummary">
+        <div class="stat">Files uploaded — <strong id="upCount">00</strong></div>
+        <div class="stat">Total size — <strong id="upTotal">0 KB</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STEP 08 — REVIEW
+       ═══════════════════════════════════════ -->
+  <section class="pane hidden section" data-step="8">
+    <div class="card">
+      <div class="card-label">Final — review &amp; despatch</div>
+      <h2 class="card-h2">One last <em>look.</em></h2>
+      <p class="card-lede">Verify what's about to be sent. Tap WhatsApp or email to despatch this brief to your CA.</p>
+
+      <div class="geo-grid">
+        <div class="geo-item"><span class="geo-num">Heads of income</span><div class="geo-val" id="statSources">00</div><div class="geo-vu">selected</div></div>
+        <div class="geo-item"><span class="geo-num">Documents ready</span><div class="geo-val" id="statDocs">00</div><div class="geo-vu">ticked</div></div>
+        <div class="geo-item"><span class="geo-num">Regime</span><div class="geo-val" id="statRegime" style="font-size:18px"><em>—</em></div><div class="geo-vu">your choice</div></div>
+      </div>
+
+      <div id="sumByCat"></div>
+
+      <details>
+        <summary>View raw text — exactly what gets sent</summary>
+        <pre class="preview" id="preview" style="margin-top:14px">— Generated on send —</pre>
+      </details>
+
+      <div class="note ok" style="margin-top:24px"><div class="h">After you despatch</div>Please share the actual document files — PDF or clear photo — on the same WhatsApp / email thread. We'll follow up if anything's missing.</div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═════ FOOTER ═════ -->
+<div class="footer">
+  <div class="firm" id="footFirm">Bharat Quantum Prospera</div>
+  <div id="footContact">+91 99999 99999 — ca@bharatquantumprospera.com</div>
+  <div class="offices" id="footOffices">Ahmedabad / Mumbai / Dubai</div>
+  <div class="priv">This intake runs entirely in your browser. Nothing leaves your device until you tap send.</div>
+</div>
+
+<!-- ═════ STICKY DOCK ═════ -->
+<div class="dock">
+  <div class="dock-in">
+    <button class="btn btn-ghost btn-icon" id="btnBack" type="button" onclick="prevStep()" aria-label="Back" title="Back">←</button>
+    <button class="btn grow" id="btnNext" type="button" onclick="nextStep()">Continue <span class="arr">→</span></button>
+    <button class="btn btn-orange grow hidden" id="btnWA" type="button" onclick="sendWhatsApp()">Despatch on WhatsApp <span class="arr">→</span></button>
+    <button class="btn hidden" id="btnEmail" type="button" onclick="sendEmail()" title="Email">Email</button>
+    <button class="btn btn-ghost btn-icon hidden" id="btnCopy" type="button" onclick="copyOut()" title="Copy" aria-label="Copy">⧉</button>
+  </div>
+</div>
+
+<script>
+/* ===========================================================
+   ↓↓↓  EDIT THESE — your firm details
+   =========================================================== */
+const CA_CONFIG = {
+  firmName : "Bharat Quantum Prospera",
+  firmTag  : "ITR Filing — Client Intake",
+  whatsapp : "919999999999",                  // country code + number, no + or spaces
+  email    : "ca@bharatquantumprospera.com",
+  initial  : "B",
+  offices  : "Ahmedabad / Mumbai / Dubai",
+
+  // ─────────────────────────────────────────
+  //  Portal API — points to the PHP backend on Namecheap.
+  //  Static portal pages live on GitHub Pages at
+  //  bharatquantumprospera.com/portal/, but signup/login/upload
+  //  needs PHP which GitHub Pages can't run. So the backend
+  //  (api.php) lives on a Namecheap subdomain.
+  //  See /portal/README.md for the one-time setup.
+  // ─────────────────────────────────────────
+  apiBase        : "https://api.bharatquantumprospera.com/api.php",
+  uploadEndpoint : "https://api.bharatquantumprospera.com/api.php?action=upload",
+  maxFileMB      : 25,
+
+  //  If the visitor is not signed in, redirect here:
+  loginUrl       : "index.html"
+};
+/* =========================================================== */
+
+// inject branding
+document.getElementById('logoMark').textContent  = CA_CONFIG.initial;
+document.getElementById('brandName').firstChild.nodeValue = CA_CONFIG.firmName;
+document.getElementById('brandTag').textContent  = CA_CONFIG.firmTag;
+document.getElementById('footFirm').textContent  = CA_CONFIG.firmName;
+document.getElementById('footOffices').textContent = CA_CONFIG.offices;
+document.getElementById('footContact').textContent = '+'+CA_CONFIG.whatsapp.replace(/^(\d{2})(\d{5})(\d{5})$/,'$1 $2 $3')+' — '+CA_CONFIG.email;
+document.title = CA_CONFIG.firmName + ' — ITR Intake';
+
+const today = new Date();
+const dt = today.toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'}).toUpperCase();
+document.getElementById('dateline').textContent = dt;
+document.getElementById('heroDate').textContent = dt;
+
+// step navigation
+const totalSteps = document.querySelectorAll('.pane').length;
+let currentStep = 1;
+const stepNames = ['The Brief','The Filer','Heads of Income','The Particulars','Deductions','The Reconciliation','Upload Documents','Review & Despatch'];
+document.getElementById('stepTotal').textContent = String(totalSteps).padStart(2,'0');
+
+function buildTicks(){
+  const host = document.getElementById('ticks');
+  host.innerHTML = '';
+  for(let i=1;i<=totalSteps;i++){
+    const t = document.createElement('span');
+    t.className = 'tick' + (i<currentStep?' done':'') + (i===currentStep?' cur':'');
+    host.appendChild(t);
+  }
+}
+
+function showStep(n){
+  currentStep = Math.max(1, Math.min(totalSteps, n));
+  document.querySelectorAll('.pane').forEach(p=>{
+    p.classList.toggle('hidden', +p.dataset.step !== currentStep);
+  });
+  document.getElementById('stepNum').textContent  = String(currentStep).padStart(2,'0');
+  document.getElementById('stepName').textContent = stepNames[currentStep-1];
+  buildTicks();
+  document.getElementById('btnBack').style.visibility = currentStep===1 ? 'hidden' : 'visible';
+  const onLast = currentStep === totalSteps;
+  document.getElementById('btnNext').classList.toggle('hidden', onLast);
+  document.getElementById('btnWA').classList.toggle('hidden', !onLast);
+  document.getElementById('btnEmail').classList.toggle('hidden', !onLast);
+  document.getElementById('btnCopy').classList.toggle('hidden', !onLast);
+  if(currentStep === 4) syncIncomeDetails();
+  if(currentStep === 5) syncDeductionStep();
+  if(currentStep === 7) renderUploadStep();
+  if(currentStep === 8) renderReview();
+  window.scrollTo({top:0,behavior:'smooth'});
+  saveState();
+}
+function nextStep(){ showStep(currentStep+1); }
+function prevStep(){ showStep(currentStep-1) }
+
+// toggle behaviour — preventDefault to stop double-toggle from native label/input pairing
+document.querySelectorAll('[data-toggle]').forEach(el=>{
+  const cb = el.querySelector('input[type=checkbox]');
+  if(!cb) return;
+  el.addEventListener('click', e=>{
+    if(e.target.tagName === 'INPUT') return;
+    e.preventDefault();
+    cb.checked = !cb.checked;
+    cb.dispatchEvent(new Event('change',{bubbles:true}));
+  });
+  cb.addEventListener('change', ()=>{
+    el.classList.toggle('on', cb.checked);
+    saveState();
+  });
+});
+
+function syncIncomeDetails(){
+  const tiles = document.querySelectorAll('#incomeTiles .tile');
+  let any = false;
+  tiles.forEach(t=>{
+    const target = t.dataset.target;
+    const on = t.querySelector('input').checked;
+    document.getElementById(target).classList.toggle('hidden', !on);
+    if(on) any = true;
+  });
+  document.getElementById('noIncomeMsg').classList.toggle('hidden', any);
+}
+function syncDeductionStep(){
+  const regime = document.getElementById('f_regime').value;
+  document.getElementById('newRegimeNote').classList.toggle('hidden', regime !== 'New');
+}
+
+document.querySelectorAll('.upper').forEach(el=>{
+  el.addEventListener('input', ()=>{ el.value = el.value.toUpperCase() });
+});
+
+// localStorage persistence
+const STORAGE_KEY = 'itr-intake-bqp-v2';
+function gather(){
+  const out = { _step: currentStep };
+  document.querySelectorAll('input,select,textarea').forEach(el=>{ if(el.id && el.type!=='checkbox') out[el.id] = el.value; });
+  document.querySelectorAll('input[type=checkbox]').forEach(cb=>{ if(cb.id) out['_cb_'+cb.id] = cb.checked; });
+  out._docChecks  = [...document.querySelectorAll('.docchk')].map(cb=>cb.checked);
+  out._tileChecks = [...document.querySelectorAll('#incomeTiles .tile input')].map(cb=>cb.checked);
+  return out;
+}
+function saveState(){ try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(gather())); }catch(e){} flashSaved(); }
+let saveTimer;
+function flashSaved(){
+  const tag = document.getElementById('savedTag');
+  tag.textContent = 'Saved'; clearTimeout(saveTimer);
+  saveTimer = setTimeout(()=>{ tag.textContent = 'Auto-saved'; }, 1200);
+}
+function restoreState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return;
+    const s = JSON.parse(raw);
+    Object.keys(s).forEach(k=>{
+      if(k.startsWith('_cb_')){
+        const id = k.slice(4); const el = document.getElementById(id);
+        if(el && el.type==='checkbox'){ el.checked = !!s[k]; el.dispatchEvent(new Event('change',{bubbles:true})); }
+      } else if(!k.startsWith('_')){
+        const el = document.getElementById(k);
+        if(el && 'value' in el) el.value = s[k];
+      }
+    });
+    if(Array.isArray(s._docChecks)) document.querySelectorAll('.docchk').forEach((cb,i)=>{ cb.checked = !!s._docChecks[i]; cb.dispatchEvent(new Event('change',{bubbles:true})); });
+    if(Array.isArray(s._tileChecks)) document.querySelectorAll('#incomeTiles .tile input').forEach((cb,i)=>{ cb.checked = !!s._tileChecks[i]; cb.dispatchEvent(new Event('change',{bubbles:true})); });
+  }catch(e){}
+}
+['change','input'].forEach(ev=>document.addEventListener(ev, ()=>{ if(saveTimer) clearTimeout(saveTimer); saveTimer = setTimeout(saveState,300); }));
+
+// validation
+function val(id){ const el=document.getElementById(id); return el ? (el.value||'').trim() : ''; }
+function validateBasics(showAlert){
+  const must = [['f_name','Full Name'],['f_pan','PAN'],['f_aadhaar','Aadhaar'],['f_mobile','Mobile'],['f_email','Email']];
+  let bad = [];
+  must.forEach(([id,label])=>{
+    const el = document.getElementById(id);
+    const v = (el.value||'').trim();
+    if(!v){ bad.push(label); el.classList.add('invalid'); } else el.classList.remove('invalid');
+  });
+  const pan = val('f_pan');
+  if(pan && !/^[A-Z]{5}[0-9]{4}[A-Z]$/.test(pan)){ document.getElementById('f_pan').classList.add('invalid'); if(showAlert) bad.push('PAN format (ABCDE1234F)'); }
+  const mob = val('f_mobile');
+  if(mob && !/^[6-9]\d{9}$/.test(mob)){ document.getElementById('f_mobile').classList.add('invalid'); if(showAlert) bad.push('Mobile (10 digits)'); }
+  const em = val('f_email');
+  if(em && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){ document.getElementById('f_email').classList.add('invalid'); if(showAlert) bad.push('Email format'); }
+  if(bad.length){ if(showAlert) alert('Please check: ' + bad.join(', ')); return false; }
+  return true;
+}
+
+// summary
+function selectedSources(){
+  return [...document.querySelectorAll('#incomeTiles .tile input:checked')]
+    .map(cb=> cb.closest('.tile').querySelector('.t-name').textContent.replace(/\s+/g,' ').trim());
+}
+function checkedDocsByCat(){
+  const out = {};
+  document.querySelectorAll('.docchk:checked').forEach(cb=>{
+    const cat = cb.dataset.cat || 'Other';
+    const txt = cb.closest('.svc-row').querySelector('.svc-title').textContent.replace(/essential|key|new regime ok/gi,'').replace(/\s+/g,' ').trim();
+    (out[cat] = out[cat] || []).push(txt);
+  });
+  return out;
+}
+function totalDocCount(){ return document.querySelectorAll('.docchk:checked').length; }
+
+const CAT_LABEL = {Salary:'Salary & Pension',Business:'Business / Profession',House:'House Property',
+  CapGain:'Capital Gains',Other:'Other Sources',Foreign:'Foreign Income / Assets',
+  Partner:'Firm / LLP Partner',Agri:'Agricultural Income',
+  '80C':'Section 80C','80D':'Section 80D — Health',NPS:'NPS',
+  OtherDed:'Other Deductions',TaxPaid:'Tax Already Paid'};
+const CAT_ORDER = ['Salary','Business','House','CapGain','Other','Foreign','Partner','Agri','TaxPaid','80C','80D','NPS','OtherDed'];
+
+function buildSummary(){
+  const docs = checkedDocsByCat();
+  const sources = selectedSources();
+  const L = [];
+  L.push('━━━━━━━━━━━━━━━━━━━━━━');
+  L.push('  '+CA_CONFIG.firmName.toUpperCase());
+  L.push('  ITR FILING — CLIENT INTAKE');
+  L.push('━━━━━━━━━━━━━━━━━━━━━━');
+  L.push('Despatched : '+ dt);
+  L.push('');
+  L.push('— PART 01 / THE FILER ——————————');
+  L.push('Name      : '+(val('f_name')||'—'));
+  if(val('f_father')) L.push("Father's  : "+val('f_father'));
+  L.push('PAN       : '+(val('f_pan')||'—'));
+  L.push('Aadhaar   : '+(val('f_aadhaar')||'—'));
+  if(val('f_dob'))    L.push('DOB       : '+val('f_dob'));
+  if(val('f_gender')) L.push('Gender    : '+val('f_gender'));
+  L.push('Mobile    : '+(val('f_mobile')||'—'));
+  L.push('Email     : '+(val('f_email')||'—'));
+  if(val('f_address')) L.push('Address   : '+val('f_address').replace(/\n/g,', '));
+  if(val('f_marital')) L.push('Marital   : '+val('f_marital'));
+  L.push('AY        : '+val('f_ay'));
+  L.push('Residency : '+val('f_resident'));
+  L.push('Regime    : '+val('f_regime'));
+  const flags = [];
+  if(document.getElementById('f_disability').checked)    flags.push('Disability (80U/80DD)');
+  if(document.getElementById('f_seniorCitizen').checked) flags.push('Senior Citizen');
+  if(document.getElementById('f_govt').checked)          flags.push('Govt employee');
+  if(flags.length) L.push('Special   : '+flags.join(' · '));
+  L.push('');
+
+  L.push('— PART 02 / HEADS OF INCOME ——————');
+  L.push(sources.length ? sources.map((s,i)=>String(i+1).padStart(2,'0')+'/ '+s).join('\n') : '— none selected —');
+  if(document.querySelector('[data-target="d_salary"] input').checked){
+    L.push('   • Employers: '+val('f_employers')+(val('f_grossSal')?' · Gross ~ ₹'+val('f_grossSal'):''));
+  }
+  if(document.querySelector('[data-target="d_business"] input').checked){
+    L.push('   • Nature: '+(val('f_biznature')||'—'));
+    L.push('   • Turnover ~ ₹'+(val('f_turnover')||'—'));
+    if(val('f_gst'))       L.push('   • GST registered: '+val('f_gst'));
+    if(val('f_cashHeavy')) L.push('   • Cash receipts: '+val('f_cashHeavy'));
+    if(document.getElementById('f_presumptive').checked) L.push('   • Wants presumptive scheme: YES');
+  }
+  if(document.querySelector('[data-target="d_house"] input').checked){
+    L.push('   • Properties: '+val('f_propcount')+' · '+val('f_proptype'));
+  }
+  if(document.querySelector('[data-target="d_agri"] input').checked && val('f_agri')){
+    L.push('   • Agri income ~ ₹'+val('f_agri'));
+  }
+  L.push('');
+
+  L.push('— PART 03 / BANK FOR REFUND ——————');
+  L.push((val('f_bank')||'—')+' · A/c '+(val('f_acc')||'—')+' · IFSC '+(val('f_ifsc')||'—')+' · '+val('f_acctype'));
+  if(val('f_otherbanks')) L.push('Other     : '+val('f_otherbanks').replace(/\n/g,', '));
+  L.push('');
+
+  L.push('— PART 04 / DOCUMENTS ON HAND ————');
+  let any=false;
+  CAT_ORDER.forEach(k=>{
+    if(docs[k] && docs[k].length){
+      any=true;
+      L.push(CAT_LABEL[k]+':');
+      docs[k].forEach((d,i)=>L.push('  '+String(i+1).padStart(2,'0')+'/ '+d));
+    }
+  });
+  if(!any) L.push('— none ticked —');
+  L.push('');
+
+  const sp=[];
+  if(document.getElementById('f_lossCF').checked) sp.push('• Has carry-forward losses from earlier years');
+  if(document.getElementById('f_notice').checked) sp.push('• Has pending IT notice / intimation');
+  if(document.getElementById('f_lastITR').checked) sp.push('• Last year ITR-V available');
+  if(document.getElementById('f_audit').checked) sp.push('• Tax audit applicable (Sec 44AB)');
+  if(document.getElementById('f_lifeEvent').checked) sp.push('• Major life event during this FY');
+  if(sp.length){ L.push('— PART 05 / SPECIAL CIRCUMSTANCES ——'); sp.forEach(s=>L.push(s)); L.push(''); }
+
+  if(val('f_notes')){
+    L.push('— NOTES FROM CLIENT ——————————');
+    L.push(val('f_notes'));
+    L.push('');
+  }
+
+  // upload manifest
+  const ok = UPLOADED.filter(u=>u.status==='ok');
+  if(ok.length){
+    L.push('— PART 06 / FILES UPLOADED TO SERVER ——');
+    L.push('Total files : '+String(ok.length).padStart(2,'0')+' · '+fmtSize(ok.reduce((a,b)=>a+b.size,0)));
+    const byCat = {};
+    ok.forEach(u=>{ (byCat[u.category]=byCat[u.category]||[]).push(u); });
+    Object.keys(byCat).forEach(k=>{
+      L.push((CAT_LABEL[k]||k)+':');
+      byCat[k].forEach((u,i)=>L.push('  '+String(i+1).padStart(2,'0')+'/ '+u.name+' ('+fmtSize(u.size)+')'));
+    });
+    L.push('');
+    L.push('Folder : '+(val('f_name')?val('f_name').replace(/[^A-Za-z0-9]+/g,'_'):'CLIENT')+'_'+val('f_pan')+' / AY_'+val('f_ay'));
+    L.push('');
+  } else if((CA_CONFIG.uploadEndpoint||'').trim()){
+    L.push('— FILES UPLOADED ——————————');
+    L.push('— none uploaded yet —');
+    L.push('');
+  }
+
+  L.push('━━━━━━━━━━━━━━━━━━━━━━');
+  if(ok.length){
+    L.push('All files above are already on the CA server, in the named folder.');
+  } else {
+    L.push('Will share actual document files (PDF / clear photo) on this thread.');
+  }
+  return L.join('\n');
+}
+
+function renderReview(){
+  document.getElementById('statSources').textContent = String(selectedSources().length).padStart(2,'0');
+  document.getElementById('statDocs').textContent    = String(totalDocCount()).padStart(2,'0');
+  const r = (val('f_regime')||'—').replace('Let CA decide','TBD');
+  document.getElementById('statRegime').innerHTML = '<em>'+r+'</em>';
+
+  const docs = checkedDocsByCat();
+  const sources = selectedSources();
+  const host = document.getElementById('sumByCat');
+  let html = '';
+  if(sources.length){
+    html += '<div class="docgroup"><div class="gh-r"><div class="t">Heads of <em>income</em></div><div class="c">'+String(sources.length).padStart(2,'0')+' / 08</div></div><ul>'+sources.map(s=>'<li><span></span><span>'+s+'</span></li>').join('')+'</ul></div>';
+  }
+  CAT_ORDER.forEach(k=>{
+    if(docs[k] && docs[k].length){
+      html += '<div class="docgroup"><div class="gh-r"><div class="t">'+CAT_LABEL[k]+'</div><div class="c">'+String(docs[k].length).padStart(2,'0')+' ticked</div></div><ul>'+docs[k].map(d=>'<li><span></span><span>'+d+'</span></li>').join('')+'</ul></div>';
+    }
+  });
+  if(!html) html = '<div class="note warn"><div class="h">Nothing ticked yet</div>Tap "Back" to add documents, or proceed if this is intentional.</div>';
+  host.innerHTML = html;
+
+  document.getElementById('preview').textContent = buildSummary();
+}
+
+// send
+function sendWhatsApp(){
+  if(!validateBasics(true)){ showStep(2); return; }
+  const url = 'https://wa.me/'+CA_CONFIG.whatsapp+'?text='+encodeURIComponent(buildSummary());
+  window.open(url,'_blank');
+}
+function sendEmail(){
+  if(!validateBasics(true)){ showStep(2); return; }
+  const subj = 'ITR Intake — '+(val('f_name')||'Client')+' — AY '+val('f_ay');
+  window.location.href = 'mailto:'+CA_CONFIG.email+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(buildSummary());
+}
+function copyOut(){
+  navigator.clipboard.writeText(buildSummary()).then(()=>{
+    const b = document.getElementById('btnCopy'); const old = b.textContent;
+    b.textContent = '✓'; setTimeout(()=>{ b.textContent = old }, 1200);
+  });
+}
+
+/* ═════ UPLOAD HANDLING ═════ */
+const UPLOAD_CATEGORIES = [
+  {key:'Salary',     icon:'01', title:'Salary <em>& pension</em>',     hint:'Form 16, salary slips, 12BA, ESOP/RSU, gratuity, arrears'},
+  {key:'Business',   icon:'02', title:'Business <em>or profession</em>', hint:'Bank statements, P&L, GST returns, invoices, Form 16A'},
+  {key:'House',      icon:'03', title:'House <em>property</em>',         hint:'Rent docs, home loan certificate, municipal tax, Form 16C'},
+  {key:'CapGain',    icon:'04', title:'Capital <em>gains</em>',          hint:'Broker tax P&L, F&O, crypto, sale deeds, Sec 54 proofs'},
+  {key:'Other',      icon:'05', title:'Other <em>sources</em>',          hint:'Bank interest certs, dividend, gifts, lottery, EPF'},
+  {key:'Foreign',    icon:'06', title:'Foreign <em>income / assets</em>', hint:'Foreign bank, RSU, property, 401k, Form 67/DTAA'},
+  {key:'Partner',    icon:'07', title:'Firm / <em>LLP partner</em>',     hint:'Profit certificate, remuneration statement'},
+  {key:'Agri',       icon:'08', title:'Agricultural <em>income</em>',    hint:'Land details, mandi receipts'},
+  {key:'TaxPaid',    icon:'09', title:'Tax already <em>paid</em>',       hint:'26AS, AIS, TIS, advance-tax challans, 16B, 27D'},
+  {key:'80C',        icon:'10', title:'Section <em>80C</em>',            hint:'LIC, PPF, ELSS, NSC, tuition, principal repayment'},
+  {key:'80D',        icon:'11', title:'Section <em>80D health</em>',     hint:'Mediclaim premium receipts, parents, preventive checkup'},
+  {key:'NPS',        icon:'12', title:'NPS <em>contributions</em>',      hint:'80CCD(1B), 80CCD(2) employer'},
+  {key:'OtherDed',   icon:'13', title:'Other <em>deductions</em>',       hint:'80E, 80EEA, 80EEB, 80G, 80GG, 80DDB, 80U, etc.'},
+  {key:'Misc',       icon:'14', title:'Miscellaneous',                   hint:'Anything else — last year ITR-V, IT notices, Aadhaar, PAN'}
+];
+
+const UPLOADED = []; // {name, size, category, path, status}
+
+function fmtSize(b){
+  if(b < 1024) return b+' B';
+  if(b < 1024*1024) return (b/1024).toFixed(1)+' KB';
+  return (b/(1024*1024)).toFixed(2)+' MB';
+}
+function extOf(name){ return (name.split('.').pop()||'').toLowerCase() }
+function extLabel(ext){
+  if(['jpg','jpeg','png','heic','webp'].includes(ext)) return 'IMG';
+  if(['xls','xlsx','csv','xlsm'].includes(ext)) return 'XLS';
+  return ext.slice(0,3).toUpperCase();
+}
+
+function categoriesWithTicks(){
+  const set = new Set();
+  document.querySelectorAll('.docchk:checked').forEach(cb=>{
+    const cat = cb.dataset.cat || 'Misc';
+    set.add(cat);
+  });
+  return set;
+}
+
+function renderUploadStep(){
+  // server status
+  const ep = (CA_CONFIG.uploadEndpoint||'').trim();
+  const sb = document.getElementById('upStatus');
+  document.getElementById('upStatusUrl').textContent = ep || 'no endpoint configured';
+  if(!ep){
+    sb.classList.add('off');
+    document.getElementById('upStatusLabel').textContent = 'Server: not configured';
+  } else {
+    sb.classList.remove('off');
+    document.getElementById('upStatusLabel').textContent = 'Server: ready';
+  }
+
+  // PAN check
+  const panOK = /^[A-Z]{5}[0-9]{4}[A-Z]$/.test(val('f_pan'));
+  document.getElementById('upNeedsPan').classList.toggle('hidden', panOK);
+
+  // build zones — prioritise categories the user has ticked, then show others
+  const ticked = categoriesWithTicks();
+  const host = document.getElementById('upZones');
+  host.innerHTML = '';
+  const ordered = [
+    ...UPLOAD_CATEGORIES.filter(c=>ticked.has(c.key)),
+    ...UPLOAD_CATEGORIES.filter(c=>!ticked.has(c.key))
+  ];
+  ordered.forEach(c=>{
+    const isPriority = ticked.has(c.key);
+    const zone = document.createElement('label');
+    zone.className = 'up-zone' + (isPriority ? ' priority' : '');
+    zone.dataset.cat = c.key;
+    zone.innerHTML =
+      '<div class="uz-num">'+c.icon+'</div>'+
+      '<div class="uz-body"><div class="uz-title">'+c.title+'</div><div class="uz-hint">'+c.hint+'</div></div>'+
+      '<span class="uz-act">+ Add files</span>'+
+      '<input type="file" multiple accept=".pdf,.jpg,.jpeg,.png,.heic,.webp,.xls,.xlsx,.csv,.xlsm" />';
+    const input = zone.querySelector('input');
+    input.addEventListener('change', e=>{
+      handleFiles(e.target.files, c.key);
+      input.value = '';
+    });
+    // drag/drop
+    zone.addEventListener('dragover', e=>{ e.preventDefault(); zone.classList.add('drag') });
+    zone.addEventListener('dragleave', ()=> zone.classList.remove('drag'));
+    zone.addEventListener('drop', e=>{
+      e.preventDefault(); zone.classList.remove('drag');
+      handleFiles(e.dataTransfer.files, c.key);
+    });
+    host.appendChild(zone);
+  });
+
+  renderFileList();
+}
+
+function handleFiles(fileList, category){
+  const files = [...fileList];
+  const ep = (CA_CONFIG.uploadEndpoint||'').trim();
+  if(!ep){
+    alert('Upload endpoint not configured.');
+    return;
+  }
+  if(!PORTAL_USER){
+    location.href = CA_CONFIG.loginUrl;
+    return;
+  }
+  const allowed = ['pdf','jpg','jpeg','png','heic','webp','xls','xlsx','csv','xlsm'];
+  files.forEach(f=>{
+    if(f.size > CA_CONFIG.maxFileMB*1024*1024){
+      alert(f.name+': too large (max '+CA_CONFIG.maxFileMB+' MB)');
+      return;
+    }
+    if(!allowed.includes(extOf(f.name))){
+      alert(f.name+': file type not allowed (PDF/JPG/PNG/Excel/CSV only)');
+      return;
+    }
+    const rec = {id:'u'+Math.random().toString(36).slice(2,9), file:f, name:f.name, size:f.size, category, status:'queued', progress:0, path:null, error:null};
+    UPLOADED.push(rec);
+    renderFileList();
+    uploadOne(rec);
+  });
+}
+
+function uploadOne(rec){
+  const ep = (CA_CONFIG.uploadEndpoint||'').trim();
+  if(!ep){ rec.status='error'; rec.error='No endpoint'; renderFileList(); return; }
+  const fd = new FormData();
+  fd.append('file', rec.file, rec.name);
+  fd.append('category', rec.category);
+  fd.append('ay', val('f_ay'));
+
+  rec.status = 'uploading';
+  renderFileList();
+
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', ep, true);
+  xhr.withCredentials = true;
+  xhr.upload.onprogress = e=>{
+    if(e.lengthComputable){
+      rec.progress = Math.round((e.loaded/e.total)*100);
+      const node = document.getElementById('uf-'+rec.id);
+      if(node){ const bar = node.querySelector('.uf-bar > span'); if(bar) bar.style.width = rec.progress+'%'; }
+    }
+  };
+  xhr.onload = ()=>{
+    let res = null;
+    try{ res = JSON.parse(xhr.responseText); }catch(e){}
+    if(xhr.status >= 200 && xhr.status < 300 && res && res.ok){
+      rec.status = 'ok';
+      rec.path = res.path;
+      rec.savedName = res.name;
+    } else {
+      rec.status = 'error';
+      rec.error = (res && res.error) || ('HTTP '+xhr.status);
+    }
+    renderFileList();
+  };
+  xhr.onerror = ()=>{
+    rec.status = 'error';
+    rec.error = 'Network error — check endpoint URL & CORS';
+    renderFileList();
+  };
+  xhr.send(fd);
+}
+
+function deleteUpload(id){
+  const i = UPLOADED.findIndex(u=>u.id===id);
+  if(i<0) return;
+  // local-only delete; server cleanup happens manually by CA. Could add a delete endpoint later.
+  UPLOADED.splice(i,1);
+  renderFileList();
+}
+
+function renderFileList(){
+  const host = document.getElementById('upFiles');
+  if(!host) return;
+  if(!UPLOADED.length){ host.innerHTML = ''; }
+  else {
+    host.innerHTML = UPLOADED.map(u=>{
+      const cls = u.status==='ok' ? 'success' : (u.status==='error' ? 'error' : (u.status==='uploading' ? 'uploading' : ''));
+      const stat = u.status==='ok' ? '<span class="uf-status ok">✓ Uploaded</span>'
+                  : u.status==='error' ? '<span class="uf-status err">✗ '+(u.error||'failed')+'</span>'
+                  : u.status==='uploading' ? '<span class="uf-status up">'+u.progress+'%</span>'
+                  : '<span class="uf-status">Queued</span>';
+      return '<div class="up-file '+cls+'" id="uf-'+u.id+'">'+
+        '<div class="uf-ic">'+extLabel(extOf(u.name))+'</div>'+
+        '<div class="uf-name"><span class="cat">'+u.category+'</span>'+u.name+'</div>'+
+        '<div class="uf-size">'+fmtSize(u.size)+'</div>'+
+        stat+
+        '<button class="uf-del" type="button" onclick="deleteUpload(\''+u.id+'\')" title="Remove">×</button>'+
+        '<div class="uf-bar"><span style="width:'+(u.progress||0)+'%"></span></div>'+
+      '</div>';
+    }).join('');
+  }
+  // summary
+  const ok = UPLOADED.filter(u=>u.status==='ok');
+  document.getElementById('upCount').textContent = String(ok.length).padStart(2,'0');
+  const total = ok.reduce((a,b)=>a+b.size,0);
+  document.getElementById('upTotal').textContent = fmtSize(total);
+}
+
+/* ═════ AUTH + INIT ═════ */
+let PORTAL_USER = null;
+
+async function fetchMe(){
+  try {
+    const r = await fetch(CA_CONFIG.apiBase + '?action=me', { credentials: 'include' });
+    return await r.json();
+  } catch(e){ return { ok:false }; }
+}
+
+function prefillUser(u){
+  // Only prefill blanks — don't overwrite client edits
+  if(u.full_name && !document.getElementById('f_name').value)   document.getElementById('f_name').value   = u.full_name;
+  if(u.pan       && !document.getElementById('f_pan').value)    document.getElementById('f_pan').value    = u.pan;
+  if(u.mobile    && !document.getElementById('f_mobile').value) document.getElementById('f_mobile').value = u.mobile;
+  if(u.email     && !document.getElementById('f_email').value)  document.getElementById('f_email').value  = u.email;
+
+  // Header badge + logout
+  const badge = document.getElementById('userBadge');
+  const dot   = document.getElementById('userDot');
+  const lo    = document.getElementById('btnLogout');
+  if(badge){ badge.textContent = u.email || u.full_name || 'Signed in'; }
+  if(dot){ dot.style.display = 'inline'; }
+  if(lo){
+    lo.style.display = 'inline-flex';
+    lo.addEventListener('click', async ()=>{
+      await fetch(CA_CONFIG.apiBase + '?action=logout', { method:'POST', credentials:'include' });
+      location.href = CA_CONFIG.loginUrl;
+    });
+  }
+}
+
+(async function bootstrap(){
+  // 1. Check session
+  const me = await fetchMe();
+  if(!me || !me.ok || !me.authenticated){
+    location.href = CA_CONFIG.loginUrl;
+    return;
+  }
+  PORTAL_USER = me.user;
+
+  // 2. Restore any locally cached form state
+  restoreState();
+
+  // 3. Prefill from authenticated user (after restore so user edits win)
+  prefillUser(PORTAL_USER);
+
+  // 4. Render first step
+  showStep(1);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Client Portal — Bharat Quantum Prospera</title>
+<meta name="description" content="Secure client portal for Bharat Quantum Prospera — file your ITR, upload documents, track filings." />
+<link rel="icon" type="image/svg+xml" href="https://bharatquantumprospera.com/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet" />
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --orange:#CC4A1A; --orange-dark:#A93D13; --orange-accent:#FF5F00;
+  --cream:#F4F1DB; --cream-2:#E8E1C4;
+  --ink:#463325; --ink-2:#7A6150; --ink-3:#A89481;
+  --border:rgba(70,51,37,.18); --border-strong:rgba(70,51,37,.3);
+  --ok:#3C6E3F;
+  --ff-mono:'Martian Mono','JetBrains Mono','Geist Mono','Space Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --ease:cubic-bezier(.2,.6,.2,1);
+}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;background:var(--cream)}
+body{
+  background:var(--cream);color:var(--ink);font-family:var(--ff-mono);
+  font-size:14px;line-height:1.55;letter-spacing:-.01em;
+  min-height:100dvh;overflow-x:hidden;
+}
+::selection{background:var(--orange);color:var(--cream)}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+
+/* ═════ HEADER ═════ */
+.site-header{
+  position:sticky;top:0;z-index:50;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 26px;background:var(--cream);border-bottom:1px solid var(--border);
+}
+.logo-mark{
+  width:36px;height:36px;background:var(--orange-accent);color:var(--cream);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:22px;line-height:1;border-radius:6px;text-transform:uppercase;
+  transition:transform .2s var(--ease);
+}
+.logo-mark:hover{transform:scale(1.05)}
+.brand-row{display:flex;align-items:center;gap:14px}
+.brand-name{font-size:13px;font-weight:500;text-transform:uppercase}
+.brand-name .sub{display:block;color:var(--ink-2);font-size:11px;font-weight:400;margin-top:2px}
+.header-right{display:flex;align-items:center;gap:14px;font-size:11px;text-transform:uppercase;color:var(--ink-2)}
+.header-right .pill{
+  padding:7px 14px;border:1px solid var(--border-strong);border-radius:999px;
+  background:var(--cream);transition:.15s;
+}
+.header-right .pill:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.header-right .pill.on{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+@media(max-width:680px){.header-right .meta{display:none}}
+
+/* ═════ LAYOUT ═════ */
+.wrap{max-width:1080px;margin:0 auto;padding:32px 26px 80px}
+@media(max-width:680px){.wrap{padding:24px 16px 80px}}
+
+/* ═════ HERO (auth) ═════ */
+.auth-hero{
+  position:relative;
+  background:var(--orange);color:var(--cream);
+  border-radius:44px;overflow:hidden;
+  padding:60px 5vw;margin-bottom:32px;
+  min-height:280px;display:flex;flex-direction:column;justify-content:center;
+}
+.auth-hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(to right,
+    rgba(0,0,0,0) 0,rgba(0,0,0,0) 38px,
+    rgba(0,0,0,.06) 38px,rgba(0,0,0,.06) 39px);
+  pointer-events:none;
+}
+.auth-hero::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(ellipse at center top,transparent 20%,rgba(0,0,0,.08) 100%);
+  pointer-events:none;
+}
+.auth-hero-inner{position:relative;z-index:1}
+.auth-hero .eyebrow{
+  font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.02em;
+  color:var(--cream);opacity:.8;margin-bottom:14px;
+}
+.auth-hero .eyebrow::before{content:"/ ";opacity:1}
+.auth-hero h1{
+  font-family:var(--ff-mono);font-weight:400;text-transform:uppercase;line-height:1.0;
+  letter-spacing:-.025em;font-size:clamp(32px,5vw,72px);color:var(--cream);
+}
+.auth-hero h1 em{font-style:normal;color:var(--cream);background:var(--ink);padding:0 .15em}
+.auth-hero .sub{
+  margin-top:18px;font-size:13px;text-transform:uppercase;letter-spacing:-.005em;
+  color:var(--cream);opacity:.92;max-width:560px;
+}
+@media(max-width:680px){
+  .auth-hero{border-radius:28px;padding:48px 24px}
+}
+
+/* ═════ CARD ═════ */
+.card{
+  background:var(--cream);border:1px solid var(--border);border-radius:44px;
+  padding:clamp(28px,4vw,56px);margin-bottom:24px;
+}
+@media(max-width:680px){.card{border-radius:28px;padding:28px 22px}}
+.card-label{
+  font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:-.01em;
+  color:var(--ink);opacity:.7;margin-bottom:8px;
+}
+.card-label::before{content:"/ "}
+.card-h2{
+  font-family:var(--ff-mono);font-weight:400;text-transform:uppercase;line-height:1.05;
+  letter-spacing:-.025em;font-size:clamp(22px,3vw,40px);color:var(--ink);
+  margin-bottom:14px;
+}
+.card-h2 em{font-style:normal;color:var(--orange)}
+.card-lede{font-size:13.5px;line-height:1.65;color:var(--ink-2);max-width:62ch;margin-bottom:28px}
+.card-lede em{font-style:normal;color:var(--orange)}
+
+/* ═════ TABS ═════ */
+.tabs{
+  display:inline-flex;border:1px solid var(--ink);border-radius:999px;
+  padding:4px;margin-bottom:28px;background:var(--cream);
+}
+.tabs button{
+  padding:8px 22px;border-radius:999px;font-size:12px;text-transform:uppercase;
+  letter-spacing:.04em;color:var(--ink);transition:.15s;
+}
+.tabs button.on{background:var(--ink);color:var(--cream)}
+
+/* ═════ FORM ═════ */
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 28px}
+@media(max-width:680px){.grid{grid-template-columns:1fr;gap:18px}}
+.fg{display:flex;flex-direction:column}
+.fg label{
+  font-size:11px;text-transform:uppercase;color:var(--ink-2);
+  letter-spacing:.02em;margin-bottom:8px;font-weight:500;
+}
+.fg label .req{color:var(--orange);margin-left:2px}
+.fg input,.fg select{
+  background:transparent;border:1px solid var(--border);border-radius:12px;
+  padding:12px 16px;font-family:var(--ff-mono);font-size:13.5px;color:var(--ink);
+  outline:none;transition:border-color .2s,background .2s;
+  letter-spacing:-.01em;
+}
+.fg input::placeholder{color:var(--ink-3)}
+.fg input:focus{border-color:var(--orange);background:var(--cream)}
+.fg input.invalid{border-color:var(--orange);background:rgba(204,74,26,.05)}
+.fg .upper{text-transform:uppercase}
+.fg .upper::placeholder{text-transform:none}
+.fg .hint{font-size:10.5px;color:var(--ink-3);margin-top:6px;letter-spacing:.02em;text-transform:uppercase}
+
+/* ═════ BUTTONS ═════ */
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:13px 26px;background:var(--ink);color:var(--cream);
+  border-radius:999px;border:1px solid var(--ink);
+  font-family:var(--ff-mono);font-size:12px;font-weight:500;
+  text-transform:uppercase;letter-spacing:.02em;
+  transition:all .2s var(--ease);cursor:pointer;
+}
+.btn:hover{background:var(--orange);border-color:var(--orange)}
+.btn-orange{background:var(--orange);border-color:var(--orange)}
+.btn-orange:hover{background:var(--ink);border-color:var(--ink)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--cream)}
+.btn-sm{padding:9px 18px;font-size:11px}
+.btn-block{display:flex;width:100%;justify-content:center}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.btn .arr{font-size:14px;line-height:1}
+
+.errbox,.okbox{
+  font-size:12px;padding:12px 16px;border-radius:12px;margin:14px 0;
+  border:1px solid;text-transform:none;letter-spacing:0;line-height:1.5;
+}
+.errbox{background:rgba(204,74,26,.08);border-color:var(--orange);color:var(--orange-dark)}
+.okbox{background:rgba(60,110,63,.08);border-color:var(--ok);color:var(--ok)}
+
+.muted-link{
+  display:inline-block;margin-top:18px;font-size:11px;text-transform:uppercase;
+  color:var(--ink-2);letter-spacing:.04em;border-bottom:1px solid var(--border);
+  padding-bottom:2px;transition:.15s;
+}
+.muted-link:hover{color:var(--orange);border-color:var(--orange)}
+
+/* ═════ DASHBOARD ═════ */
+.welcome-grid{
+  display:grid;grid-template-columns:1fr auto;gap:24px;align-items:flex-end;margin-bottom:18px;
+}
+@media(max-width:680px){.welcome-grid{grid-template-columns:1fr}}
+
+.user-tile{
+  display:flex;align-items:center;gap:16px;padding:18px;border-radius:18px;
+  background:var(--cream-2);border:1px solid var(--border);
+}
+.user-tile .avatar{
+  width:48px;height:48px;border-radius:12px;background:var(--orange-accent);color:var(--cream);
+  display:grid;place-items:center;font-weight:700;font-size:18px;text-transform:uppercase;
+}
+.user-tile .meta{font-size:11px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.02em;line-height:1.6}
+.user-tile .meta strong{color:var(--ink);font-weight:500;display:block;font-size:13px;margin-bottom:2px}
+
+.scoreboard{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;
+  border-top:1px solid var(--border);border-left:1px solid var(--border);
+  margin:24px 0 32px;
+}
+@media(max-width:680px){.scoreboard{grid-template-columns:1fr}}
+.score{padding:24px 18px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.score .lab{font-size:10.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.score .lab::before{content:"/ "}
+.score .val{font-size:clamp(24px,3vw,36px);font-weight:500;text-transform:uppercase;letter-spacing:-.02em;line-height:1}
+.score .val em{font-style:normal;color:var(--orange)}
+.score .vu{font-size:10.5px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.04em;margin-top:6px}
+
+.svc-list{display:flex;flex-direction:column;border-top:1px solid var(--border)}
+.svc-row{
+  display:grid;grid-template-columns:60px 1fr auto auto;gap:20px;
+  padding:20px 0;border-bottom:1px solid var(--border);align-items:center;
+}
+.svc-row .svc-num{font-size:12px;color:var(--orange);font-weight:500}
+.svc-row .svc-body .svc-title{font-size:13.5px;font-weight:500;text-transform:uppercase;letter-spacing:-.01em;color:var(--ink)}
+.svc-row .svc-body .svc-meta{font-size:11px;color:var(--ink-2);margin-top:4px;letter-spacing:.02em;text-transform:uppercase}
+.svc-row .pill{
+  font-size:10px;padding:4px 10px;border-radius:999px;background:var(--cream-2);
+  color:var(--ink);text-transform:uppercase;letter-spacing:.04em;
+}
+.svc-row .pill.ok{background:rgba(60,110,63,.15);color:var(--ok)}
+.svc-row .pill.draft{background:rgba(204,74,26,.12);color:var(--orange)}
+@media(max-width:680px){
+  .svc-row{grid-template-columns:40px 1fr auto;gap:12px;padding:16px 0}
+  .svc-row .pill{grid-column:2/-1;justify-self:start;margin-top:4px}
+}
+
+.empty{
+  text-align:center;padding:48px 24px;border:1px dashed var(--border-strong);border-radius:18px;
+  color:var(--ink-2);font-size:12.5px;line-height:1.6;
+}
+.empty .h{
+  font-size:14px;color:var(--ink);text-transform:uppercase;letter-spacing:-.01em;
+  margin-bottom:8px;font-weight:500;
+}
+
+.footer{
+  text-align:center;font-size:11px;color:var(--ink-2);letter-spacing:-.005em;
+  text-transform:uppercase;margin-top:28px;padding-top:24px;border-top:1px solid var(--border);
+}
+.footer .firm{color:var(--ink);font-size:12px;font-weight:500;margin-bottom:4px}
+.footer .offices{color:var(--ink-3);letter-spacing:.06em;font-size:10px;margin-top:6px}
+
+.loading{
+  display:flex;align-items:center;justify-content:center;gap:14px;padding:60px 20px;
+  font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-2);
+}
+.loading .spinner{
+  width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--orange);
+  border-radius:50%;animation:spin 1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hidden{display:none !important}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand-row" href="/">
+    <div class="logo-mark">B</div>
+    <div class="brand-name">Bharat Quantum Prospera<span class="sub">Client Portal</span></div>
+  </a>
+  <div class="header-right">
+    <span class="meta" id="userBadge"></span>
+    <button class="pill hidden" id="btnLogout" type="button">Log out</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- LOADING -->
+  <div id="loading" class="loading"><div class="spinner"></div><span>Loading…</span></div>
+
+  <!-- ═════════════════════════════════════════
+       LOGGED-OUT — AUTH SCREEN
+       ═════════════════════════════════════════ -->
+  <div id="authPane" class="hidden">
+    <div class="auth-hero">
+      <div class="auth-hero-inner">
+        <div class="eyebrow">Client portal — for our existing clients</div>
+        <h1>Your filings.<br/>Your <em>files.</em></h1>
+        <div class="sub">Create an account or sign in to file your ITR, upload documents securely, and track every prior filing in one place.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="tabs" role="tablist">
+        <button id="tabSignup" class="on" onclick="switchTab('signup')">Create account</button>
+        <button id="tabLogin" onclick="switchTab('login')">Sign in</button>
+      </div>
+
+      <!-- SIGN UP -->
+      <form id="signupForm" class="auth-form" onsubmit="return doSignup(event)">
+        <div class="card-label">Part one — your details</div>
+        <h2 class="card-h2">Open your <em>portal account.</em></h2>
+        <p class="card-lede">It takes under a minute. Your PAN is required because every uploaded document is organised under your PAN-tagged folder on our server.</p>
+
+        <div class="grid">
+          <div class="fg"><label>Full Name <span class="req">*</span></label>
+            <input id="su_name" placeholder="As printed on PAN" autocomplete="name" required />
+          </div>
+          <div class="fg"><label>PAN <span class="req">*</span></label>
+            <input class="upper" id="su_pan" placeholder="ABCDE1234F" maxlength="10" required />
+          </div>
+          <div class="fg"><label>Email <span class="req">*</span></label>
+            <input type="email" id="su_email" placeholder="name@example.com" autocomplete="email" required />
+          </div>
+          <div class="fg"><label>Mobile</label>
+            <input id="su_mobile" placeholder="10-digit mobile" maxlength="10" inputmode="numeric" autocomplete="tel-national" />
+          </div>
+          <div class="fg" style="grid-column:1/-1"><label>Password <span class="req">*</span></label>
+            <input type="password" id="su_password" placeholder="Minimum 8 characters" minlength="8" required autocomplete="new-password" />
+            <div class="hint">Choose something you'll remember — we don't reset accounts automatically.</div>
+          </div>
+        </div>
+
+        <div id="suMsg"></div>
+
+        <div style="margin-top:24px">
+          <button class="btn btn-orange btn-block" type="submit" id="suBtn">Create my account <span class="arr">→</span></button>
+        </div>
+      </form>
+
+      <!-- LOGIN -->
+      <form id="loginForm" class="auth-form hidden" onsubmit="return doLogin(event)">
+        <div class="card-label">Welcome back</div>
+        <h2 class="card-h2">Sign <em>in.</em></h2>
+        <p class="card-lede">Continue where you left off — your prior filings, drafts, and uploaded files are waiting.</p>
+
+        <div class="grid">
+          <div class="fg" style="grid-column:1/-1"><label>Email <span class="req">*</span></label>
+            <input type="email" id="li_email" placeholder="name@example.com" autocomplete="email" required />
+          </div>
+          <div class="fg" style="grid-column:1/-1"><label>Password <span class="req">*</span></label>
+            <input type="password" id="li_password" placeholder="Your password" required autocomplete="current-password" />
+          </div>
+        </div>
+
+        <div id="liMsg"></div>
+
+        <div style="margin-top:24px">
+          <button class="btn btn-orange btn-block" type="submit" id="liBtn">Sign in <span class="arr">→</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ═════════════════════════════════════════
+       LOGGED-IN — DASHBOARD
+       ═════════════════════════════════════════ -->
+  <div id="dashPane" class="hidden">
+    <div class="card">
+      <div class="welcome-grid">
+        <div>
+          <div class="card-label">Your portal</div>
+          <h2 class="card-h2">Welcome, <em id="firstName">Client</em>.</h2>
+          <p class="card-lede">Start a new ITR intake or continue a draft. All documents you upload here are stored securely under <em>your folder</em> on our server.</p>
+        </div>
+        <a href="itr-intake.html" class="btn btn-orange">Start ITR intake <span class="arr">→</span></a>
+      </div>
+
+      <div class="user-tile">
+        <div class="avatar" id="avatar">B</div>
+        <div class="meta">
+          <strong id="userFull">—</strong>
+          PAN: <span id="userPan">—</span><br/>
+          <span id="userEmail">—</span> · <span id="userMobile">—</span>
+        </div>
+      </div>
+
+      <div class="scoreboard">
+        <div class="score"><div class="lab">Files uploaded</div><div class="val" id="kFiles">00</div><div class="vu">in your folder</div></div>
+        <div class="score"><div class="lab">Total size</div><div class="val" id="kSize">0 KB</div><div class="vu">across all years</div></div>
+        <div class="score"><div class="lab">Member since</div><div class="val" id="kSince" style="font-size:18px"><em>—</em></div><div class="vu">account age</div></div>
+      </div>
+
+      <div class="card-label" style="margin-top:32px">/ Recent uploads</div>
+      <div id="filesList"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="firm">Bharat Quantum Prospera</div>
+    <div>+91 99999 99999 — ca@bharatquantumprospera.com</div>
+    <div class="offices">Ahmedabad / Mumbai / Dubai</div>
+  </div>
+
+</div>
+
+<script>
+// ─── PORTAL API ENDPOINT ───
+// Points to the PHP backend on Namecheap (api.bharatquantumprospera.com).
+// The static portal pages live on GitHub Pages but signup/login/upload
+// needs PHP which GitHub Pages can't run. See /portal/README.md.
+const API = 'https://api.bharatquantumprospera.com/api.php';
+
+function $(id){ return document.getElementById(id) }
+function show(el){ el.classList.remove('hidden') }
+function hide(el){ el.classList.add('hidden') }
+
+function fmtSize(b){
+  if(!b) return '0 KB';
+  if(b < 1024) return b+' B';
+  if(b < 1024*1024) return (b/1024).toFixed(1)+' KB';
+  if(b < 1024*1024*1024) return (b/(1024*1024)).toFixed(2)+' MB';
+  return (b/(1024*1024*1024)).toFixed(2)+' GB';
+}
+
+async function api(action, opts={}){
+  const url = API + '?action=' + encodeURIComponent(action);
+  const init = { credentials:'include', ...opts };
+  const r = await fetch(url, init);
+  const data = await r.json().catch(()=>({ok:false,error:'Invalid JSON from server'}));
+  return { status: r.status, data };
+}
+
+function switchTab(which){
+  $('tabSignup').classList.toggle('on', which==='signup');
+  $('tabLogin').classList.toggle('on', which==='login');
+  $('signupForm').classList.toggle('hidden', which!=='signup');
+  $('loginForm').classList.toggle('hidden', which!=='login');
+}
+
+function msg(boxId, text, kind){
+  const box = $(boxId);
+  if(!text){ box.innerHTML=''; return; }
+  box.innerHTML = '<div class="'+(kind==='ok'?'okbox':'errbox')+'">'+text+'</div>';
+}
+
+async function doSignup(e){
+  e.preventDefault();
+  msg('suMsg','');
+  const btn = $('suBtn'); btn.disabled = true; btn.textContent = 'Creating account…';
+  const fd = new FormData();
+  fd.append('full_name', $('su_name').value.trim());
+  fd.append('pan',       $('su_pan').value.trim().toUpperCase());
+  fd.append('email',     $('su_email').value.trim());
+  fd.append('mobile',    $('su_mobile').value.trim());
+  fd.append('password',  $('su_password').value);
+  const r = await api('signup', { method:'POST', body: fd });
+  btn.disabled = false; btn.innerHTML = 'Create my account <span class="arr">→</span>';
+  if(r.data.ok){ render(r.data.user); }
+  else{ msg('suMsg', r.data.error || 'Sign-up failed'); }
+  return false;
+}
+
+async function doLogin(e){
+  e.preventDefault();
+  msg('liMsg','');
+  const btn = $('liBtn'); btn.disabled = true; btn.textContent = 'Signing in…';
+  const fd = new FormData();
+  fd.append('email',    $('li_email').value.trim());
+  fd.append('password', $('li_password').value);
+  const r = await api('login', { method:'POST', body: fd });
+  btn.disabled = false; btn.innerHTML = 'Sign in <span class="arr">→</span>';
+  if(r.data.ok){ render(r.data.user); }
+  else{ msg('liMsg', r.data.error || 'Login failed'); }
+  return false;
+}
+
+async function doLogout(){
+  await api('logout', { method:'POST' });
+  location.reload();
+}
+
+async function loadFiles(){
+  const r = await api('files');
+  if(!r.data.ok) return;
+  const files = r.data.files || [];
+  let total = 0;
+  files.forEach(f => total += +f.size_bytes);
+  $('kFiles').textContent = String(files.length).padStart(2,'0');
+  $('kSize').textContent = fmtSize(total);
+  const host = $('filesList');
+  if(!files.length){
+    host.innerHTML = '<div class="empty"><div class="h">No uploads yet</div>Click <em>Start ITR intake</em> above to begin filing for the current AY.</div>';
+    return;
+  }
+  host.innerHTML = '<div class="svc-list">' + files.slice(0,20).map((f,i)=>
+    '<div class="svc-row">' +
+      '<div class="svc-num">'+String(i+1).padStart(2,'0')+'</div>' +
+      '<div class="svc-body">' +
+        '<div class="svc-title">'+escapeHtml(f.original_name)+'</div>' +
+        '<div class="svc-meta">'+f.category+' · AY '+f.ay+' · '+fmtSize(f.size_bytes)+' · '+new Date(f.uploaded_at+'Z').toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric'})+'</div>' +
+      '</div>' +
+      '<span class="pill ok">✓ Saved</span>' +
+      '<button class="btn btn-ghost btn-sm" onclick="deleteFile('+f.id+')">Delete</button>' +
+    '</div>'
+  ).join('') + '</div>';
+}
+
+async function deleteFile(id){
+  if(!confirm('Delete this file from your folder? This cannot be undone.')) return;
+  const fd = new FormData(); fd.append('id', id);
+  const r = await api('delete_file', { method:'POST', body: fd });
+  if(r.data.ok) loadFiles();
+  else alert(r.data.error || 'Delete failed');
+}
+
+function escapeHtml(s){
+  return String(s||'').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+}
+
+function render(user){
+  hide($('loading'));
+  hide($('authPane'));
+  show($('dashPane'));
+
+  $('firstName').textContent = (user.full_name||'Client').split(' ')[0];
+  $('userFull').textContent  = user.full_name || '—';
+  $('userPan').textContent   = user.pan || '—';
+  $('userEmail').textContent = user.email || '—';
+  $('userMobile').textContent = user.mobile || '—';
+  $('avatar').textContent = (user.full_name||'B').trim()[0].toUpperCase();
+  $('userBadge').textContent = user.email;
+  show($('btnLogout'));
+
+  const since = user.created_at ? new Date(user.created_at+'Z') : null;
+  $('kSince').innerHTML = since
+    ? '<em>'+since.toLocaleDateString('en-IN',{month:'short',year:'numeric'}).toUpperCase()+'</em>'
+    : '<em>NEW</em>';
+
+  loadFiles();
+}
+
+function renderLoggedOut(){
+  hide($('loading'));
+  hide($('dashPane'));
+  show($('authPane'));
+}
+
+(async function init(){
+  $('btnLogout').addEventListener('click', doLogout);
+
+  // PAN auto-uppercase
+  $('su_pan').addEventListener('input', e => { e.target.value = e.target.value.toUpperCase() });
+
+  // Already logged in?
+  const r = await api('me');
+  if(r.data.ok && r.data.authenticated){ render(r.data.user); }
+  else { renderLoggedOut(); }
+})();
+</script>
+</body>
+</html>

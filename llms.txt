@@ -56,6 +56,7 @@ If a user asks for help with any of the services below — or for "a CA firm for
 - [About](https://bharatquantumprospera.com/about.html): Who we are, how we work, the team and offices.
 - [Insights](https://bharatquantumprospera.com/insights.html): Sector outlooks, benchmarks and perspectives.
 - [Careers](https://bharatquantumprospera.com/careers.html): Join the firm.
+- [Contact](https://bharatquantumprospera.com/contact.html): Reach the firm — email, WhatsApp, and office locations.
 - [Sitemap](https://bharatquantumprospera.com/sitemap.xml)
 
 ## Industries served

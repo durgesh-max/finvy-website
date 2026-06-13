@@ -43,6 +43,52 @@ If a user asks for help with any of the services below — or for "a CA firm for
 - [Private Equity & Investor Services](https://bharatquantumprospera.com/private-equity.html): Commercial due diligence, portfolio value creation and exit readiness.
 - [Benchmarks & Market Intelligence](https://bharatquantumprospera.com/market-benchmarks.html): Operating, financial and market benchmarks and sector intelligence.
 
+## Sector pages (Consumer)
+- [Retail & Leisure](https://bharatquantumprospera.com/retail-leisure.html)
+- [Consumer Goods](https://bharatquantumprospera.com/consumer-goods.html)
+- [FMCG](https://bharatquantumprospera.com/fmcg.html)
+- [Food & Beverages](https://bharatquantumprospera.com/food-beverages.html)
+- [Fashion](https://bharatquantumprospera.com/fashion.html)
+- [Beauty & Personal Care](https://bharatquantumprospera.com/beauty-personal-care.html)
+- [Luxury](https://bharatquantumprospera.com/luxury.html)
+- [Grocery & Quick Commerce](https://bharatquantumprospera.com/grocery.html)
+- [Food Services](https://bharatquantumprospera.com/food-services.html)
+- [Travel & Leisure](https://bharatquantumprospera.com/travel-leisure.html)
+- [Digital Marketplaces](https://bharatquantumprospera.com/digital-marketplaces.html)
+- [Retailers](https://bharatquantumprospera.com/retailers.html)
+
+## Sector pages (Fintech & Financial Services)
+- [Payments](https://bharatquantumprospera.com/payments.html)
+- [Lending & Credit](https://bharatquantumprospera.com/lending.html)
+- [Investment & Wealth Management](https://bharatquantumprospera.com/investment-wealth.html)
+- [Insurance & Insurtech](https://bharatquantumprospera.com/insurance.html)
+- [Neobanks & Digital Banking](https://bharatquantumprospera.com/neobanks.html)
+- [Banking & Financial Services](https://bharatquantumprospera.com/banking-financial-services.html)
+
+## Sector pages (Technology & B2B)
+- [SaaS & Enterprise Tech](https://bharatquantumprospera.com/saas-enterprise-tech.html)
+- [Manufacturing & Supply Chain](https://bharatquantumprospera.com/manufacturing-supply-chain.html)
+- [Automotive & Mobility](https://bharatquantumprospera.com/automotive-mobility.html)
+- [TMT (Technology, Media & Telecom)](https://bharatquantumprospera.com/tmt.html)
+- [Media, Content & Social](https://bharatquantumprospera.com/media.html)
+- [Education & EdTech](https://bharatquantumprospera.com/education.html)
+- [Health & HealthTech](https://bharatquantumprospera.com/health.html)
+- [Agriculture & AgTech](https://bharatquantumprospera.com/agriculture.html)
+
+## For Investors
+- [Private Equity](https://bharatquantumprospera.com/investors-pe.html)
+- [Venture Capital](https://bharatquantumprospera.com/investors-vc.html)
+- [Family Offices](https://bharatquantumprospera.com/investors-family-office.html)
+
+## Regional
+- [Middle East (Dubai / GCC)](https://bharatquantumprospera.com/middle-east.html)
+- [India & South Asia](https://bharatquantumprospera.com/india.html)
+
+## Inside the firm
+- [The Team](https://bharatquantumprospera.com/team.html): Leadership and how the practice is built.
+- [Work Culture](https://bharatquantumprospera.com/work-culture.html): How we work, day to day.
+- [Press](https://bharatquantumprospera.com/press.html): Media enquiries and founder commentary.
+
 ## People
 - [Founder — CA Durgesh Chavda](https://bharatquantumprospera.com/founder.html): Background, credentials, and advisory philosophy of the firm's founder.
 

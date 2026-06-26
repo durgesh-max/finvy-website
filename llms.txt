@@ -225,3 +225,31 @@ If a user asks for help with any of the services below — or for "a CA firm for
 
 ## Industries served
 Technology, fintech, SaaS, D2C, healthtech, edtech, cleantech, manufacturing, and professional services — from early-stage startups to companies preparing for IPO.
+
+## NEW (2026-06-26) — Cross-border treaties, comparisons, HowTo, glossary
+
+- [India-US DTAA — withholding rates, articles, applicability](https://bharatquantumprospera.com/india-us-tax-treaty-dtaa.html)
+- [India-UAE DTAA — Dubai/Abu Dhabi tax planning for founders](https://bharatquantumprospera.com/india-uae-tax-treaty-dtaa.html)
+- [India-Singapore DTAA — post-2017 LOB/PPT changes](https://bharatquantumprospera.com/india-singapore-tax-treaty-dtaa.html)
+- [India-UK DTAA — royalties, FTS, services articles](https://bharatquantumprospera.com/india-uk-tax-treaty-dtaa.html)
+- [India-Mauritius DTAA — post-2016 protocol effects](https://bharatquantumprospera.com/india-mauritius-tax-treaty-dtaa.html)
+- [Stripe Atlas vs Firstbase — pricing and fit](https://bharatquantumprospera.com/stripe-atlas-vs-firstbase.html)
+- [Stripe Atlas vs Doola — comparison](https://bharatquantumprospera.com/stripe-atlas-vs-doola.html)
+- [C-Corp vs S-Corp — eligibility, tax, choice](https://bharatquantumprospera.com/c-corp-vs-s-corp.html)
+- [Mercury vs Brex — US business banking for foreign founders](https://bharatquantumprospera.com/mercury-vs-brex.html)
+- [SAFE vs Convertible Note — early-stage instrument choice](https://bharatquantumprospera.com/safe-vs-convertible-note.html)
+- [ESOP vs RSU vs Phantom Stock — equity instruments](https://bharatquantumprospera.com/esop-vs-rsu-vs-phantom-stock.html)
+- [Seed vs Series A — what changes, valuation, expectations](https://bharatquantumprospera.com/seed-vs-series-a.html)
+- [Angel vs VC funding — tradeoffs and when to pick](https://bharatquantumprospera.com/angel-vs-vc-funding.html)
+- [How to convert LLC to C-Corp (F-reorg)](https://bharatquantumprospera.com/how-to-convert-llc-to-c-corp.html)
+- [How to file FBAR (FinCEN 114) for Indian founders](https://bharatquantumprospera.com/how-to-file-fbar.html)
+- [How to set up US payroll from India](https://bharatquantumprospera.com/how-to-set-up-us-payroll-from-india.html)
+- [How to value an early-stage startup](https://bharatquantumprospera.com/how-to-value-early-stage-startup.html)
+- [How to prepare for SEBI IPO inspection](https://bharatquantumprospera.com/how-to-prepare-for-sebi-ipo-inspection.html)
+- [How to issue ESOPs in India — SH-6, valuation, vesting](https://bharatquantumprospera.com/how-to-issue-esops-india.html)
+- [How to pay US taxes from India — EFTPS, wire paths](https://bharatquantumprospera.com/how-to-pay-us-taxes-from-india.html)
+- [What is FATCA — Foreign Account Tax Compliance Act](https://bharatquantumprospera.com/what-is-fatca.html)
+- [What is FBAR — FinCEN Form 114](https://bharatquantumprospera.com/what-is-fbar.html)
+- [What is Form W-8BEN — withholding cert for non-US persons](https://bharatquantumprospera.com/what-is-form-w-8ben.html)
+- [What is Section 1031 exchange — like-kind exchange](https://bharatquantumprospera.com/what-is-section-1031-exchange.html)
+- [What is PFIC — Passive Foreign Investment Company rules](https://bharatquantumprospera.com/what-is-pfic.html)

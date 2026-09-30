@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<title>What is FATCA? | Foreign Account Tax Compliance Act - BQP</title>
+<meta name="description" content="FATCA explained: what it is, who it applies to, IGA India, Form 8938 vs FBAR, FFI compliance, and what Indian founders and US persons in India need to know."/>
+<meta name="keywords" content="what is FATCA, FATCA India, FATCA Form 8938, FATCA FBAR difference, FATCA IGA India, FFI compliance FATCA, US person FATCA India, FATCA withholding 30 percent"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/what-is-fatca.html"/>
+<link rel="alternate" hreflang="en-IN" href="https://bharatquantumprospera.com/what-is-fatca.html"/>
+<link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/what-is-fatca.html"/>
+<meta name="geo.region" content="IN"/>
+<meta name="geo.placename" content="India"/>
+<meta property="og:type" content="article"/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="What is FATCA? | Foreign Account Tax Compliance Act - BQP"/>
+<meta property="og:description" content="FATCA explained: what it is, who it applies to, IGA India, Form 8938 vs FBAR, FFI compliance, and what Indian founders and US persons in India need to know."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/what-is-fatca.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/bqp-logo.svg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="What is FATCA? | Foreign Account Tax Compliance Act - BQP"/>
+<meta name="twitter:description" content="FATCA explained: what it is, who it applies to, IGA India, Form 8938 vs FBAR, FFI compliance, and what Indian founders and US persons in India need to know."/>
+<meta name="twitter:image" content="https://bharatquantumprospera.com/bqp-logo.svg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet"/>
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--orange:#CC4A1A;--orange-dark:#A93D13;--orange-accent:#FF5F00;--cream:#F4F1DB;--cream-2:#E8E1C4;--ink:#463325;--ink-2:#7A6150;--ink-3:#A89481;--border:rgba(70,51,37,.18);--border-strong:rgba(70,51,37,.3);--ff-mono:'Martian Mono','JetBrains Mono','Geist Mono','Space Mono',ui-monospace,SFMono-Regular,Menlo,monospace}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:var(--cream)}
+body{background:var(--cream);color:var(--ink);font-family:var(--ff-mono);font-size:15px;line-height:1.6;overflow-x:hidden}
+::selection{background:var(--orange);color:var(--cream)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:18px 26px;pointer-events:none;background:linear-gradient(to bottom,rgba(244,241,219,.95),rgba(244,241,219,0));backdrop-filter:blur(6px)}
+.site-header > *{pointer-events:auto}
+.logo-mark{color:var(--ink);display:flex;align-items:center;transition:transform .2s}
+.logo-mark:hover{transform:scale(1.03)}
+.nav-pills{display:flex;gap:8px}
+.nav-pill{padding:7px 18px;border:1px solid rgba(70,51,37,.3);border-radius:999px;font-family:var(--ff-mono);font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:-.02em;color:var(--ink);background:transparent;transition:all .2s}
+.nav-pill:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+.nav-cta{padding:7px 18px;border:1px solid var(--ink);border-radius:999px;background:var(--ink);color:var(--cream);font-family:var(--ff-mono);font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:-.02em;transition:all .2s}
+.nav-cta:hover{background:var(--orange);border-color:var(--orange)}
+@media(max-width:860px){.nav-pills{display:none}}
+main{padding-top:0}
+.svc-hero{position:relative;background:var(--orange);color:var(--cream);padding:140px 5vw 80px;min-height:60vh;display:flex;flex-direction:column;justify-content:flex-end}
+.svc-hero::before{content:"";position:absolute;inset:0;background-image:repeating-linear-gradient(to right,transparent 0,transparent 38px,rgba(0,0,0,.06) 38px,rgba(0,0,0,.06) 39px);pointer-events:none}
+.svc-hero-inner{position:relative;z-index:1;max-width:1400px}
+.svc-back{display:inline-block;margin-bottom:32px;padding:7px 16px;border:1px solid rgba(244,241,219,.4);border-radius:999px;font-size:11px;text-transform:uppercase;letter-spacing:-.01em;color:var(--cream);opacity:.85;transition:all .2s}
+.svc-back:hover{background:var(--cream);color:var(--ink);opacity:1}
+.svc-hero-kicker{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.06em;margin-bottom:20px;opacity:.9}
+.svc-hero-title{font-family:var(--ff-mono);font-weight:400;text-transform:uppercase;line-height:1.02;letter-spacing:-.025em;font-size:clamp(32px,5.5vw,84px);max-width:1300px}
+.svc-hero-title em{font-style:italic;font-weight:400;text-decoration:underline;text-decoration-color:var(--cream);text-decoration-thickness:4px;text-underline-offset:6px}
+.svc-hero-lead{margin-top:28px;font-size:clamp(13px,1vw,15px);text-transform:uppercase;letter-spacing:-.01em;line-height:1.55;max-width:820px;opacity:.95}
+.section{padding:0 5vw;margin-top:24px}
+.section:first-of-type{margin-top:40px}
+.card{background:var(--cream);border:1px solid var(--border);border-radius:32px;padding:clamp(28px,4vw,64px);margin-bottom:24px;max-width:1600px;margin-left:auto;margin-right:auto}
+.card-label{font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:-.01em;color:var(--ink-2);margin-bottom:28px;opacity:.85}
+.card-label::before{content:"/ "}
+.card-h2{font-family:var(--ff-mono);font-weight:400;text-transform:uppercase;line-height:1.08;letter-spacing:-.02em;font-size:clamp(22px,3vw,40px);color:var(--ink);margin-bottom:24px;max-width:1100px}
+.card-h2 em{font-style:italic;color:var(--orange)}
+.card-body{font-size:clamp(14px,1.02vw,16px);line-height:1.7;color:var(--ink);max-width:900px}
+.card-body p{margin-bottom:1.2em}
+.card-body p:last-child{margin-bottom:0}
+.card-body strong{font-weight:600;color:var(--ink)}
+.card-body a{color:var(--orange);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.card-body a:hover{color:var(--orange-dark)}
+.card-body table{border-collapse:collapse;width:100%;margin:1.5em 0;font-size:13px}
+.card-body th{background:var(--cream-2);text-align:left;padding:12px 16px;border:1px solid var(--border);font-weight:500;text-transform:uppercase;letter-spacing:.02em;color:var(--ink-2)}
+.card-body td{padding:12px 16px;border:1px solid var(--border);vertical-align:top}
+.card-body ol,.card-body ul{margin:1em 0 1.2em 1.4em}
+.card-body li{margin-bottom:.5em}
+.faq-item{padding:22px 0;border-bottom:1px solid var(--border)}
+.faq-item:last-child{border-bottom:0}
+.faq-q{font-weight:600;color:var(--ink);margin-bottom:10px;font-size:15px}
+.faq-a{color:var(--ink-2);line-height:1.65}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:16px}
+.related-item{display:block;padding:24px;border:1px solid var(--border);border-radius:20px;background:var(--cream);color:var(--ink);transition:all .2s}
+.related-item:hover{border-color:var(--orange);background:var(--cream-2);transform:translateY(-2px)}
+.related-label{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-2);margin-bottom:8px;opacity:.8}
+.related-title{font-size:16px;font-weight:500;color:var(--ink);margin-bottom:12px}
+.related-arrow{font-size:12px;color:var(--orange);text-transform:uppercase;letter-spacing:.04em}
+.cta-box{background:var(--ink);color:var(--cream);border-radius:32px;padding:clamp(28px,4vw,56px);margin-top:40px;max-width:900px}
+.cta-box .card-label{color:rgba(244,241,219,.7)}
+.cta-box .card-h2{color:var(--cream)}
+.cta-box .card-body{color:rgba(244,241,219,.9)}
+.cta-btn{display:inline-block;margin-top:20px;padding:14px 28px;background:var(--orange-accent);color:var(--cream);border-radius:999px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;font-weight:600;transition:all .2s}
+.cta-btn:hover{background:var(--cream);color:var(--ink)}
+.footer{background:var(--ink);color:var(--cream);padding:60px 5vw 40px;margin-top:80px}
+.footer-inner{max-width:1600px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px;margin-bottom:40px}
+.footer h3{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--orange-accent);margin-bottom:16px;font-weight:500}
+.footer ul{list-style:none}
+.footer li{margin-bottom:8px;font-size:13px;opacity:.85}
+.footer a:hover{color:var(--orange-accent);opacity:1}
+.footer-bottom{border-top:1px solid rgba(244,241,219,.15);padding-top:24px;font-size:11px;opacity:.7;text-transform:uppercase;letter-spacing:.02em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://bharatquantumprospera.com/#insights"},{"@type":"ListItem","position":3,"name":"What is FATCA?","item":"https://bharatquantumprospera.com/what-is-fatca.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Am I a US person for FATCA purposes if I have an OCI card?","acceptedAnswer":{"@type":"Answer","text":"OCI (Overseas Citizen of India) is an Indian immigration status, not a US tax status. Having an OCI does not itself make you a US person. You become a US person via US citizenship, US green card, or meeting the substantial presence test in the US. Many OCI holders are US citizens (dual status) — check your specific status."}},{"@type":"Question","name":"Does India-US FATCA IGA mean my Indian income is now taxable in the US?","acceptedAnswer":{"@type":"Answer","text":"The IGA is information-sharing, not a change in tax law. If you are a US person, your worldwide income was already US-taxable before FATCA — FATCA just closed the enforcement gap. If you are only an Indian resident (not a US person), FATCA reporting flows are neutral for you."}},{"@type":"Question","name":"What is a 'reportable account' under India-US FATCA?","acceptedAnswer":{"@type":"Answer","text":"Any financial account maintained by an Indian financial institution held by a US person, or by an entity with substantial US ownership (25%+), is reportable. Types include savings accounts, current accounts, deposits, brokerage accounts, mutual fund holdings, insurance products with cash value. Reported annually via CBDT to IRS."}},{"@type":"Question","name":"Do I have to file Form 8938 if I already file FBAR?","acceptedAnswer":{"@type":"Answer","text":"Yes, if you exceed the Form 8938 thresholds. Both are separate filings. FBAR does not substitute for Form 8938 and vice versa. Many US persons in India need to file both. Content overlaps but the forms and authorities are distinct."}},{"@type":"Question","name":"What is the 30% FATCA withholding?","acceptedAnswer":{"@type":"Answer","text":"Foreign financial institutions that do not comply with FATCA (do not identify and report US customers) face a 30% withholding tax on US-source payments they receive (interest, dividends, sales of US securities). This is the enforcement mechanism that pushed FFIs worldwide to become FATCA-compliant. Every major Indian bank is FATCA-compliant."}},{"@type":"Question","name":"Can I renounce US citizenship to escape FATCA?","acceptedAnswer":{"@type":"Answer","text":"US citizens can renounce citizenship. Long-term residents can surrender green cards. But 'expatriation' for tax purposes triggers Section 877A — a deemed sale of all assets at expatriation date, with US tax on the built-in gains if net worth exceeds USD 2M or average annual net tax liability exceeds a threshold. Expatriation is a major decision — get advice before initiating."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What is FATCA? | Foreign Account Tax Compliance Act - BQP","description":"FATCA explained: what it is, who it applies to, IGA India, Form 8938 vs FBAR, FFI compliance, and what Indian founders and US persons in India need to know.","url":"https://bharatquantumprospera.com/what-is-fatca.html","author":{"@type":"Person","name":"CA Durgesh Chavda","url":"https://bharatquantumprospera.com/founder.html"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"inLanguage":"en-IN"}</script>
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg width="54" height="36" viewBox="0 0 110 64" aria-hidden="true"><text x="5" y="50" font-family="'Plus Jakarta Sans','Inter',system-ui,sans-serif" font-size="50" font-weight="800" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#FF5F00" dx="-2">.</tspan></text></svg></a>
+  <nav class="nav-pills">
+    <a href="index.html#about" class="nav-pill">About</a>
+    <a href="index.html#services" class="nav-pill">Services</a>
+    <a href="index.html#founder" class="nav-pill">Founder</a>
+    <a href="index.html#global" class="nav-pill">Global</a>
+  </nav>
+  <a href="index.html#contact" class="nav-cta">Contact</a>
+</header>
+<main>
+<section class="svc-hero">
+  <a href="index.html" class="svc-back">&larr; Back to home</a>
+  <div class="svc-hero-inner">
+    <p class="svc-hero-kicker">DEFINITION · US TAX</p>
+    <h1 class="svc-hero-title">FATCA, <em>explained.</em></h1>
+    <p class="svc-hero-lead">The Foreign Account Tax Compliance Act reshapes how non-US banks handle US customers, how US persons abroad report their foreign accounts, and how India-US financial data now flows automatically. A working definition for founders and expats.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">Overview</p>
+    <h2 class="card-h2">What FATCA is and why it exists</h2>
+    <div class="card-body"><p>FATCA (Foreign Account Tax Compliance Act) is US legislation enacted in 2010 as part of the HIRE Act. It has two prongs: (i) requires <strong>foreign financial institutions (FFIs)</strong> — non-US banks, custodians, investment funds — to identify their US-person customers and report those customers' accounts to the IRS, on pain of a 30% US withholding tax on their US-source payments if they don't; and (ii) requires <strong>US persons</strong> with foreign financial assets above certain thresholds to file <strong>Form 8938</strong> annually with their tax return, disclosing those assets. The intent is to close the historical gap where US persons could hide income and assets in non-US accounts.</p></div>
+  </div>
+</section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">India-US IGA</p>
+    <h2 class="card-h2">How India implements FATCA</h2>
+    <div class="card-body"><p>India and the US signed an Inter-Governmental Agreement (IGA) in 2015 (effective 2016). Under this Model 1 IGA, Indian financial institutions report US-person customer information to the Central Board of Direct Taxes (CBDT), which then automatically transmits the data to the IRS. This means: if you are a US person with an Indian bank account, mutual fund folio, PPF, EPF, or brokerage account, your Indian financial institution has been asking you to complete FATCA self-certification forms since 2016, and your account information has been flowing to the IRS annually.</p><p>Reverse direction: US financial institutions similarly report Indian-resident customers' account information to the IRS, which shares it with CBDT. This is why the Indian tax department now has visibility into Indian residents' US brokerage and bank accounts without needing a specific request.</p></div>
+  </div>
+</section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">Form 8938 filing obligation</p>
+    <h2 class="card-h2">The US person side</h2>
+    <div class="card-body"><p>US persons must file Form 8938 (Statement of Specified Foreign Financial Assets) with their annual Form 1040 if their aggregate foreign financial assets exceed:</p><ul><li><strong>Unmarried, living in US:</strong> USD 50,000 on the last day of the year OR USD 75,000 at any point during the year</li><li><strong>Married filing jointly, living in US:</strong> USD 100,000 / USD 150,000</li><li><strong>Unmarried, living abroad:</strong> USD 200,000 / USD 300,000</li><li><strong>Married filing jointly, living abroad:</strong> USD 400,000 / USD 600,000</li></ul><p>&quot;Specified foreign financial assets&quot; include foreign bank and brokerage accounts, foreign stock or securities held outside a US account, foreign partnership interests, and foreign hedge funds. Direct-held foreign real estate is NOT reportable on Form 8938 (though holdings through a foreign entity are).</p><p>Penalty for failure to file Form 8938: USD 10,000 per year, escalating to USD 50,000 for continued failure after IRS notice.</p></div>
+  </div>
+</section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">Form 8938 vs FBAR</p>
+    <h2 class="card-h2">Two filings, overlapping but different</h2>
+    <div class="card-body"><p>FATCA Form 8938 and FBAR (FinCEN 114) are commonly confused. Both report foreign accounts but they are separate filings with separate authorities:</p><table><thead><tr><th>Feature</th><th>Form 8938 (FATCA)</th><th>FBAR (FinCEN 114)</th></tr></thead><tbody><tr><td>Authority</td><td>IRS</td><td>FinCEN (Treasury)</td></tr><tr><td>Filed with</td><td>Form 1040 (tax return)</td><td>Separate BSA E-Filing System</td></tr><tr><td>Threshold (in US)</td><td>USD 50k unmarried / USD 100k joint</td><td>USD 10k aggregate</td></tr><tr><td>Threshold (abroad)</td><td>USD 200k unmarried / USD 400k joint</td><td>USD 10k aggregate</td></tr><tr><td>Direct-held real estate</td><td>Not reportable</td><td>Not reportable</td></tr><tr><td>Foreign hedge fund interest</td><td>Reportable</td><td>Not directly (unless custodial)</td></tr><tr><td>Signature authority only (no interest)</td><td>Not required</td><td>Required</td></tr><tr><td>Penalty base</td><td>USD 10k, escalating</td><td>USD 10k non-wilful, higher wilful</td></tr></tbody></table><p>A US person in India may need to file both, only FBAR, or neither depending on the fact pattern. Test both separately.</p></div>
+  </div>
+</section>
+<section class="section"><div style="max-width:1600px;margin:0 auto"><div class="cta-box">
+  <p class="card-label">Ready when you are</p>
+  <h2 class="card-h2">US person in India and unsure of the paper trail?</h2>
+  <div class="card-body"><p>FATCA + FBAR + Form 8938 + Schedule B + potential state filings — the overlapping US disclosure regime is dense. Missed filings compound quickly. BQP handles the full US-side compliance for US persons in India, from annual filings to cure of past non-filings.</p>
+    <a href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20I%20have%20a%20question." class="cta-btn" target="_blank" rel="noopener">WhatsApp Durgesh &rarr;</a>
+  </div>
+</div></div></section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">Frequently asked questions</p>
+    <h2 class="card-h2">Common questions, <em>answered.</em></h2>
+    <div class="card-body"><div class="faq-item"><div class="faq-q">Am I a US person for FATCA purposes if I have an OCI card?</div><div class="faq-a">OCI (Overseas Citizen of India) is an Indian immigration status, not a US tax status. Having an OCI does not itself make you a US person. You become a US person via US citizenship, US green card, or meeting the substantial presence test in the US. Many OCI holders are US citizens (dual status) — check your specific status.</div></div>
+<div class="faq-item"><div class="faq-q">Does India-US FATCA IGA mean my Indian income is now taxable in the US?</div><div class="faq-a">The IGA is information-sharing, not a change in tax law. If you are a US person, your worldwide income was already US-taxable before FATCA — FATCA just closed the enforcement gap. If you are only an Indian resident (not a US person), FATCA reporting flows are neutral for you.</div></div>
+<div class="faq-item"><div class="faq-q">What is a 'reportable account' under India-US FATCA?</div><div class="faq-a">Any financial account maintained by an Indian financial institution held by a US person, or by an entity with substantial US ownership (25%+), is reportable. Types include savings accounts, current accounts, deposits, brokerage accounts, mutual fund holdings, insurance products with cash value. Reported annually via CBDT to IRS.</div></div>
+<div class="faq-item"><div class="faq-q">Do I have to file Form 8938 if I already file FBAR?</div><div class="faq-a">Yes, if you exceed the Form 8938 thresholds. Both are separate filings. FBAR does not substitute for Form 8938 and vice versa. Many US persons in India need to file both. Content overlaps but the forms and authorities are distinct.</div></div>
+<div class="faq-item"><div class="faq-q">What is the 30% FATCA withholding?</div><div class="faq-a">Foreign financial institutions that do not comply with FATCA (do not identify and report US customers) face a 30% withholding tax on US-source payments they receive (interest, dividends, sales of US securities). This is the enforcement mechanism that pushed FFIs worldwide to become FATCA-compliant. Every major Indian bank is FATCA-compliant.</div></div>
+<div class="faq-item"><div class="faq-q">Can I renounce US citizenship to escape FATCA?</div><div class="faq-a">US citizens can renounce citizenship. Long-term residents can surrender green cards. But 'expatriation' for tax purposes triggers Section 877A — a deemed sale of all assets at expatriation date, with US tax on the built-in gains if net worth exceeds USD 2M or average annual net tax liability exceeds a threshold. Expatriation is a major decision — get advice before initiating.</div></div></div>
+  </div>
+</section>
+<section class="section">
+  <div class="card">
+    <p class="card-label">Related reading</p>
+    <h2 class="card-h2">Continue where <em>you left off.</em></h2>
+    <div class="card-body"><div class="related-grid">
+<a href="global-taxation.html" class="related-item"><div class="related-label">Service</div><div class="related-title">Global Taxation Advisory</div><div class="related-arrow">Read more &rarr;</div></a>
+<a href="us-incorporation.html" class="related-item"><div class="related-label">Service</div><div class="related-title">US Incorporation for Indian Founders</div><div class="related-arrow">Read more &rarr;</div></a>
+<a href="corporate-legal.html" class="related-item"><div class="related-label">Service</div><div class="related-title">Corporate Legal &amp; FEMA</div><div class="related-arrow">Read more &rarr;</div></a>
+</div></div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <h3>Bharat Quantum Prospera</h3>
+      <ul>
+        <li>CA-led advisory for founders building beyond borders.</li>
+        <li>Operating under DRSPV &amp; Associates Chartered Accountants.</li>
+        <li>Ahmedabad · Mumbai · Bengaluru · Rajkot · Dubai</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <ul>
+        <li><a href="/us-incorporation.html">US Incorporation</a></li>
+        <li><a href="/sme-ipo.html">SME IPO Advisory</a></li>
+        <li><a href="/gift-city.html">GIFT City IFSC</a></li>
+        <li><a href="/ma-transactions.html">M&amp;A and Transactions</a></li>
+        <li><a href="/global-taxation.html">Global Taxation</a></li>
+        <li><a href="/esop-compensation.html">ESOP &amp; 409A</a></li>
+        <li><a href="/fund-raising.html">Fund Raising</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="https://wa.me/917801887130" target="_blank" rel="noopener">WhatsApp Durgesh</a></li>
+        <li><a href="mailto:durgesh@bqpartners.in">durgesh@bqpartners.in</a></li>
+        <li><a href="tel:+917801887130">+91 78018 87130</a></li>
+        <li><a href="/founder.html">Meet the Founder</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 Bharat Quantum Prospera &middot; Operating under DRSPV &amp; Associates Chartered Accountants &middot; ICAI registered
+  </div>
+</footer>
+</body>
+</html>

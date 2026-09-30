@@ -4,7 +4,7 @@
 
   <url>
     <loc>https://bharatquantumprospera.com/</loc>
-    <lastmod>2026-04-28</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en-IN" href="https://bharatquantumprospera.com/"/>
@@ -12,23 +12,50 @@
   </url>
 
   <!-- Service pages — high priority, indexable -->
-  <url><loc>https://bharatquantumprospera.com/sme-ipo.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://bharatquantumprospera.com/capital-advisory.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://bharatquantumprospera.com/fund-raising.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://bharatquantumprospera.com/us-incorporation.html</loc><lastmod>2026-04-28</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
-  <url><loc>https://bharatquantumprospera.com/gift-city.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bharatquantumprospera.com/global-taxation.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bharatquantumprospera.com/ma-transactions.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bharatquantumprospera.com/esop-compensation.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bharatquantumprospera.com/fund-structuring.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://bharatquantumprospera.com/corporate-legal.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://bharatquantumprospera.com/international-expansion.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
+  <url><loc>https://bharatquantumprospera.com/sme-ipo.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
+  <url><loc>https://bharatquantumprospera.com/capital-advisory.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bharatquantumprospera.com/fund-raising.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bharatquantumprospera.com/ma-transactions.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bharatquantumprospera.com/gift-city.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.93</priority></url>
+  <url><loc>https://bharatquantumprospera.com/global-taxation.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.93</priority></url>
+  <url><loc>https://bharatquantumprospera.com/esop-compensation.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bharatquantumprospera.com/fund-structuring.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/corporate-legal.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/international-expansion.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
 
   <!-- Founder & people pages -->
-  <url><loc>https://bharatquantumprospera.com/founder.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/founder.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
-  <!-- Tools -->
-  <url><loc>https://bharatquantumprospera.com/transect/</loc><lastmod>2026-04-28</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://bharatquantumprospera.com/transect/transect-intro.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Portal (client entry) -->
+  <url><loc>https://bharatquantumprospera.com/portal/</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://bharatquantumprospera.com/portal/itr-intake.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Transect tools -->
+  <url><loc>https://bharatquantumprospera.com/transect/</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/transect/transect-intro.html</loc><lastmod>2026-09-27</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+
+
+  <!-- Insights / long-tail SEO pages -->
+  <url><loc>https://bharatquantumprospera.com/india-us-tax-treaty-dtaa.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-uae-tax-treaty-dtaa.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-singapore-tax-treaty-dtaa.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-uk-tax-treaty-dtaa.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-mauritius-tax-treaty-dtaa.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/stripe-atlas-vs-firstbase.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/stripe-atlas-vs-doola.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/c-corp-vs-s-corp.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/mercury-vs-brex.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/safe-vs-convertible-note.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/esop-vs-rsu-vs-phantom-stock.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bharatquantumprospera.com/how-to-file-fbar-from-india.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/how-to-flip-indian-company-to-us.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bharatquantumprospera.com/how-to-file-form-5472.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/how-to-file-boir-cta.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/what-is-fatca.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/what-is-pfic.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/what-is-form-w-8ben.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
 </urlset>

@@ -1,5 +1,5 @@
 # Bharat Quantum Prospera — robots.txt
-# CA-led advisory firm for startups
+# CA-led advisory firm for startups, enterprises and investors
 # https://bharatquantumprospera.com/
 
 User-agent: *
@@ -8,23 +8,72 @@ Allow: /
 # Sitemap
 Sitemap: https://bharatquantumprospera.com/sitemap.xml
 
-# Be polite to image crawlers
+# Search engines — full access
+User-agent: Googlebot
+Allow: /
+
 User-agent: Googlebot-Image
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-# Block AI training crawlers (optional — opt out of AI scraping)
-# Comment these out if you want LLMs to be aware of your site
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# AI answer engines — allow, this is a professional services site
+# where discoverability via ChatGPT / Claude / Perplexity / Gemini
+# is a direct sales channel
 User-agent: GPTBot
-Disallow: /
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: PerplexityBot
-Disallow: /
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /

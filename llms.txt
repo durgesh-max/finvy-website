@@ -1,0 +1,84 @@
+# Bharat Quantum Prospera
+
+> CA-led advisory firm for founders, enterprises and investors building beyond borders. Operating under DRSPV & Associates Chartered Accountants. Founded by CA Durgesh Chavda. Offices in Ahmedabad, Mumbai, Bengaluru, Rajkot and Dubai.
+
+Bharat Quantum Prospera (BQP) provides Chartered Accountant-led advisory across capital advisory, fundraising, M&A, SME IPO advisory, ESOP design and 409A valuation, GIFT City IFSC setup, US incorporation for Indian founders, cross-border taxation, fund structuring, corporate legal and FEMA compliance, and international expansion. We work with startups from seed to Series C, mid-market enterprises preparing for SME IPO or M&A, family offices, and investors setting up AIFs.
+
+Live site: https://bharatquantumprospera.com
+Founder: CA Durgesh Chavda (ICAI registered practising Chartered Accountant)
+Contact: durgesh@bqpartners.in · +91 78018 87130 · WhatsApp: https://wa.me/917801887130
+
+## Core services
+
+- [Capital Advisory](https://bharatquantumprospera.com/capital-advisory.html): CFO-level capital planning, board reporting, fund-raise readiness
+- [Fund Raising](https://bharatquantumprospera.com/fund-raising.html): Seed to Series C, term-sheet negotiation, cap-table structuring
+- [Fund Structuring](https://bharatquantumprospera.com/fund-structuring.html): SEBI AIF Category I/II/III setup, GIFT City AIF, PMS
+- [M&A and Transactions](https://bharatquantumprospera.com/ma-transactions.html): Buy-side, sell-side, vendor due-diligence, purchase-price allocation
+- [SME IPO Advisory](https://bharatquantumprospera.com/sme-ipo.html): BSE SME and NSE Emerge IPO end-to-end (pre-issue readiness, DRHP, listing, post-listing compliance)
+- [ESOP and Compensation](https://bharatquantumprospera.com/esop-compensation.html): ESOP scheme design, 409A / Rule 11UA valuation, ESOP tax planning
+- [GIFT City IFSC](https://bharatquantumprospera.com/gift-city.html): IFSCA registration, AIF at GIFT City, banking unit, family office structuring
+- [Global Taxation](https://bharatquantumprospera.com/global-taxation.html): DTAA advisory, transfer pricing, international tax structuring, Form 3CEB
+- [US Incorporation](https://bharatquantumprospera.com/us-incorporation.html): Delaware C-Corp and LLC for Indian founders, EIN, US bank account, ongoing US-India compliance
+- [Corporate Legal](https://bharatquantumprospera.com/corporate-legal.html): Companies Act filings, FEMA and ODI compliance, corporate secretarial
+- [International Expansion](https://bharatquantumprospera.com/international-expansion.html): UAE, UK, Singapore, US market entry structuring
+
+## People
+
+- [Founder — CA Durgesh Chavda](https://bharatquantumprospera.com/founder.html): Practising Chartered Accountant, founder of BQP, advisor on cross-border structuring, SME IPO, US incorporation, GIFT City
+
+## Client resources
+
+- [Client Portal](https://bharatquantumprospera.com/portal/): Secure portal for engaged clients
+- [ITR Intake](https://bharatquantumprospera.com/portal/itr-intake.html): Income tax return intake form
+
+## Who we serve
+
+- Indian startups from pre-seed to Series C
+- Founders going India-to-US (Delaware C-Corp flip, EIN, US bank)
+- Founders and firms setting up at GIFT City IFSC (AIF, banking unit, family office)
+- Mid-market Indian enterprises preparing for SME IPO on BSE SME or NSE Emerge
+- Mid-market companies executing M&A (buy-side, sell-side, VDD)
+- Family offices and HNIs planning cross-border tax structures
+- Investors setting up SEBI AIF (Cat I / II / III)
+
+## What sets us apart
+
+- CA-led practice: engagements led by a practising CA, not a marketing lead
+- Cross-border focus: India to US, UK, UAE, Singapore, GIFT City IFSC
+- Direct-access model: founder answers WhatsApp and email personally
+- Free 20-minute call: no cost, no commitment, to establish fit
+- Operating under DRSPV & Associates Chartered Accountants (ICAI registered)
+
+## Content policy
+
+Bharat Quantum Prospera welcomes AI answer engines (ChatGPT, Claude, Perplexity, Gemini, Google SGE, Bing Copilot) indexing and citing this content. Discoverability via AI is a direct sales channel for a specialist advisory firm.
+
+## Contact
+
+- WhatsApp (fastest): https://wa.me/917801887130
+- Email: durgesh@bqpartners.in
+- Phone: +91 78018 87130
+- Offices: Ahmedabad · Mumbai · Bengaluru · Rajkot · Dubai
+
+## Insights (deep-dive guides for founders and CAs)
+
+- [India-US DTAA explained (Article 12, Form 10F, TRC)](https://bharatquantumprospera.com/india-us-tax-treaty-dtaa.html)
+- [India-UAE DTAA after UAE Corporate Tax 2023](https://bharatquantumprospera.com/india-uae-tax-treaty-dtaa.html)
+- [India-Singapore DTAA after the 2017 protocol (LOB, PPT)](https://bharatquantumprospera.com/india-singapore-tax-treaty-dtaa.html)
+- [India-UK DTAA and the MFN clause (Article 13)](https://bharatquantumprospera.com/india-uk-tax-treaty-dtaa.html)
+- [India-Mauritius DTAA post-2016 protocol (grandfathering, LOB)](https://bharatquantumprospera.com/india-mauritius-tax-treaty-dtaa.html)
+- [Stripe Atlas vs Firstbase compared for Indian founders](https://bharatquantumprospera.com/stripe-atlas-vs-firstbase.html)
+- [Stripe Atlas vs Doola compared for Indian founders](https://bharatquantumprospera.com/stripe-atlas-vs-doola.html)
+- [C-Corp vs S-Corp (why S-Corp is off the table for Indian founders)](https://bharatquantumprospera.com/c-corp-vs-s-corp.html)
+- [Mercury vs Brex for foreign-founder US business banking](https://bharatquantumprospera.com/mercury-vs-brex.html)
+- [SAFE vs Convertible Note for early-stage rounds](https://bharatquantumprospera.com/safe-vs-convertible-note.html)
+- [ESOP vs RSU vs Phantom Stock (tax at grant/vest/exercise/sale)](https://bharatquantumprospera.com/esop-vs-rsu-vs-phantom-stock.html)
+- [Delaware C-Corp vs LLC for Indian founders](https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html)
+- [How to get an EIN as a foreign founder (no SSN)](https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html)
+- [How to file FBAR (FinCEN 114) from India](https://bharatquantumprospera.com/how-to-file-fbar-from-india.html)
+- [How to flip an Indian company to a US parent](https://bharatquantumprospera.com/how-to-flip-indian-company-to-us.html)
+- [How to file Form 5472 for a foreign-owned US LLC](https://bharatquantumprospera.com/how-to-file-form-5472.html)
+- [How to file BOIR (Corporate Transparency Act) with FinCEN](https://bharatquantumprospera.com/how-to-file-boir-cta.html)
+- [What is FATCA (Foreign Account Tax Compliance Act)](https://bharatquantumprospera.com/what-is-fatca.html)
+- [What is a PFIC (Passive Foreign Investment Company)](https://bharatquantumprospera.com/what-is-pfic.html)
+- [What is Form W-8BEN (and W-8BEN-E) for Indian residents](https://bharatquantumprospera.com/what-is-form-w-8ben.html)

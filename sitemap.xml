@@ -58,4 +58,115 @@
   <url><loc>https://bharatquantumprospera.com/what-is-pfic.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://bharatquantumprospera.com/what-is-form-w-8ben.html</loc><lastmod>2026-09-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
+
+  <!-- LatAm expansion push: EN country guides, India-LatAm DTAAs -->
+  <url><loc>https://bharatquantumprospera.com/latin-america.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-brazilian-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-mexican-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-argentine-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-chilean-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-colombian-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-peruvian-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-uruguayan-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/us-incorporation-for-costa-rican-founders.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-brazil-tax-treaty-dtaa.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-mexico-tax-treaty-dtaa.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-chile-tax-treaty-dtaa.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-colombia-tax-treaty-dtaa.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://bharatquantumprospera.com/india-latin-america-expansion-guide.html</loc><lastmod>2026-10-03</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+
+  <!-- Spanish /es/ pages with hreflang alternates -->
+  <url>
+    <loc>https://bharatquantumprospera.com/es/incorporacion-delaware-fundadores-latinoamericanos.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/incorporacion-delaware-fundadores-latinoamericanos.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/latin-america.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/latin-america.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/es/incorporacion-wyoming-llc.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/incorporacion-wyoming-llc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/es/ein-sin-ssn.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/ein-sin-ssn.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/es/mercury-vs-brex.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/mercury-vs-brex.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/mercury-vs-brex.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/mercury-vs-brex.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/es/formulario-w-8ben.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/formulario-w-8ben.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/what-is-form-w-8ben.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/what-is-form-w-8ben.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/es/formulario-5472.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://bharatquantumprospera.com/es/formulario-5472.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/how-to-file-form-5472.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/how-to-file-form-5472.html"/>
+  </url>
+
+  <!-- Portuguese /pt/ pages with hreflang alternates -->
+  <url>
+    <loc>https://bharatquantumprospera.com/pt/incorporacao-delaware-fundadores-brasileiros.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bharatquantumprospera.com/pt/incorporacao-delaware-fundadores-brasileiros.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/us-incorporation-for-brazilian-founders.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/us-incorporation-for-brazilian-founders.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/pt/incorporacao-wyoming-llc.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bharatquantumprospera.com/pt/incorporacao-wyoming-llc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/delaware-c-corp-vs-llc.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/pt/ein-sem-ssn.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bharatquantumprospera.com/pt/ein-sem-ssn.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/how-to-get-ein-as-foreign-founder.html"/>
+  </url>
+  <url>
+    <loc>https://bharatquantumprospera.com/pt/formulario-5472.html</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bharatquantumprospera.com/pt/formulario-5472.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/how-to-file-form-5472.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/how-to-file-form-5472.html"/>
+  </url>
+
 </urlset>

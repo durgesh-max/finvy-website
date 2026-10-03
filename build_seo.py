@@ -197,7 +197,15 @@ def cta_box(headline, body):
 
 def build_page(slug, title, description, keywords, hero_kicker, hero_title_html,
                hero_lead, sections, faqs, related, extra_schemas=None,
-               article=True, howto=None, cta_headline=None, cta_body=None):
+               article=True, howto=None, cta_headline=None, cta_body=None,
+               lang="en", og_locale="en_IN", hreflang_alts=None,
+               canonical_path=None, subdir="", back_href="index.html",
+               back_label="Back to home", faq_section_title="Frequently asked questions",
+               faq_section_h2="Common questions, <em>answered.</em>",
+               related_label="Related reading",
+               related_h2="Continue where <em>you left off.</em>",
+               cta_label="Ready when you are",
+               cta_btn_text="WhatsApp Durgesh &rarr;"):
     """
     sections: list of (label, h2_html, body_html)
     faqs: list of (question, answer)
@@ -228,26 +236,44 @@ def build_page(slug, title, description, keywords, hero_kicker, hero_title_html,
     )
     faq_section = f"""<section class="section">
   <div class="card">
-    <p class="card-label">Frequently asked questions</p>
-    <h2 class="card-h2">Common questions, <em>answered.</em></h2>
+    <p class="card-label">{faq_section_title}</p>
+    <h2 class="card-h2">{faq_section_h2}</h2>
     <div class="card-body">{faq_html_items}</div>
   </div>
 </section>"""
 
     cta_section = ""
     if cta_headline:
-        cta_section = f'<section class="section"><div style="max-width:1600px;margin:0 auto">{cta_box(cta_headline, cta_body)}</div></section>'
+        cta_html = f"""<div class="cta-box">
+  <p class="card-label">{cta_label}</p>
+  <h2 class="card-h2">{cta_headline}</h2>
+  <div class="card-body"><p>{cta_body}</p>
+    <a href="{WA}?text=Hi%20Durgesh%2C%20I%20have%20a%20question." class="cta-btn" target="_blank" rel="noopener">{cta_btn_text}</a>
+  </div>
+</div>"""
+        cta_section = f'<section class="section"><div style="max-width:1600px;margin:0 auto">{cta_html}</div></section>'
 
     related_section = f"""<section class="section">
   <div class="card">
-    <p class="card-label">Related reading</p>
-    <h2 class="card-h2">Continue where <em>you left off.</em></h2>
+    <p class="card-label">{related_label}</p>
+    <h2 class="card-h2">{related_h2}</h2>
     <div class="card-body">{related_grid(related)}</div>
   </div>
 </section>"""
 
+    canonical_url = f"{DOMAIN}/{canonical_path}" if canonical_path else f"{DOMAIN}/{slug}.html"
+    if hreflang_alts:
+        hreflang_block = "\n".join(
+            f'<link rel="alternate" hreflang="{code}" href="{href}"/>' for code, href in hreflang_alts
+        )
+    else:
+        hreflang_block = (
+            f'<link rel="alternate" hreflang="en-IN" href="{canonical_url}"/>\n'
+            f'<link rel="alternate" hreflang="x-default" href="{canonical_url}"/>'
+        )
+
     return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -257,17 +283,14 @@ def build_page(slug, title, description, keywords, hero_kicker, hero_title_html,
 <meta name="keywords" content="{keywords}"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="author" content="{AUTHOR}"/>
-<link rel="canonical" href="{DOMAIN}/{slug}.html"/>
-<link rel="alternate" hreflang="en-IN" href="{DOMAIN}/{slug}.html"/>
-<link rel="alternate" hreflang="x-default" href="{DOMAIN}/{slug}.html"/>
-<meta name="geo.region" content="IN"/>
-<meta name="geo.placename" content="India"/>
+<link rel="canonical" href="{canonical_url}"/>
+{hreflang_block}
 <meta property="og:type" content="article"/>
-<meta property="og:locale" content="en_IN"/>
+<meta property="og:locale" content="{og_locale}"/>
 <meta property="og:site_name" content="Bharat Quantum Prospera"/>
 <meta property="og:title" content="{title}"/>
 <meta property="og:description" content="{description}"/>
-<meta property="og:url" content="{DOMAIN}/{slug}.html"/>
+<meta property="og:url" content="{canonical_url}"/>
 <meta property="og:image" content="{DOMAIN}/bqp-logo.svg"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{title}"/>
@@ -283,7 +306,7 @@ def build_page(slug, title, description, keywords, hero_kicker, hero_title_html,
 {HEADER}
 <main>
 <section class="svc-hero">
-  <a href="index.html" class="svc-back">&larr; Back to home</a>
+  <a href="{back_href}" class="svc-back">&larr; {back_label}</a>
   <div class="svc-hero-inner">
     <p class="svc-hero-kicker">{hero_kicker}</p>
     <h1 class="svc-hero-title">{hero_title_html}</h1>
@@ -298,6 +321,16 @@ def build_page(slug, title, description, keywords, hero_kicker, hero_title_html,
 {FOOTER}
 </body>
 </html>"""
+
+
+def write_page_subdir(subdir, slug, html):
+    """Write page to a subdirectory (e.g. 'es' or 'pt'). Creates dir if needed."""
+    full_dir = os.path.join(ROOT, subdir)
+    os.makedirs(full_dir, exist_ok=True)
+    path = os.path.join(full_dir, slug + ".html")
+    with open(path, "w", encoding="utf-8", newline="\r\n") as f:
+        f.write(html)
+    return path
 
 
 def write_page(slug, html):

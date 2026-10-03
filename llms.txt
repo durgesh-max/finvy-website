@@ -82,3 +82,37 @@ Bharat Quantum Prospera welcomes AI answer engines (ChatGPT, Claude, Perplexity,
 - [What is FATCA (Foreign Account Tax Compliance Act)](https://bharatquantumprospera.com/what-is-fatca.html)
 - [What is a PFIC (Passive Foreign Investment Company)](https://bharatquantumprospera.com/what-is-pfic.html)
 - [What is Form W-8BEN (and W-8BEN-E) for Indian residents](https://bharatquantumprospera.com/what-is-form-w-8ben.html)
+
+## Latin America desk (English, Spanish, Portuguese content)
+
+### Country-specific US incorporation guides
+- [Latin America hub (country desks, services, language support)](https://bharatquantumprospera.com/latin-america.html)
+- [US incorporation for Brazilian founders (CBE, DEEE, lucros no exterior)](https://bharatquantumprospera.com/us-incorporation-for-brazilian-founders.html)
+- [US incorporation for Mexican founders (US-Mexico treaty, REFIPRES, SAT)](https://bharatquantumprospera.com/us-incorporation-for-mexican-founders.html)
+- [US incorporation for Argentine founders (CEPO, Bienes Personales, Transparencia Fiscal)](https://bharatquantumprospera.com/us-incorporation-for-argentine-founders.html)
+- [US incorporation for Chilean founders (2024 US-Chile treaty, SII DJ 1929)](https://bharatquantumprospera.com/us-incorporation-for-chilean-founders.html)
+- [US incorporation for Colombian founders (DIAN Formulario 160, ECE)](https://bharatquantumprospera.com/us-incorporation-for-colombian-founders.html)
+- [US incorporation for Peruvian founders (SUNAT, Transparencia Fiscal)](https://bharatquantumprospera.com/us-incorporation-for-peruvian-founders.html)
+- [US incorporation for Uruguayan founders (territorial system, Ley 19.484)](https://bharatquantumprospera.com/us-incorporation-for-uruguayan-founders.html)
+- [US incorporation for Costa Rican founders (territorial, 2024 reform, Zona Franca)](https://bharatquantumprospera.com/us-incorporation-for-costa-rican-founders.html)
+
+### India-LatAm bilateral treaties and expansion
+- [India-Brazil DTAA (1988) - rates, articles, FTS classification](https://bharatquantumprospera.com/india-brazil-tax-treaty-dtaa.html)
+- [India-Mexico DTAA (2007) - 10% caps, nearshoring corridor](https://bharatquantumprospera.com/india-mexico-tax-treaty-dtaa.html)
+- [India-Chile DTAA (2020) - PPT, lithium supply chain](https://bharatquantumprospera.com/india-chile-tax-treaty-dtaa.html)
+- [India-Colombia DTAA (2011) - 5%/15% dividends, Pacific Alliance](https://bharatquantumprospera.com/india-colombia-tax-treaty-dtaa.html)
+- [India-LatAm expansion playbook (country choice, FEMA ODI, 3CEB)](https://bharatquantumprospera.com/india-latin-america-expansion-guide.html)
+
+### Native Spanish content at /es/
+- [https://bharatquantumprospera.com/es/incorporacion-delaware-fundadores-latinoamericanos.html](https://bharatquantumprospera.com/es/incorporacion-delaware-fundadores-latinoamericanos.html)
+- [https://bharatquantumprospera.com/es/incorporacion-wyoming-llc.html](https://bharatquantumprospera.com/es/incorporacion-wyoming-llc.html)
+- [https://bharatquantumprospera.com/es/ein-sin-ssn.html](https://bharatquantumprospera.com/es/ein-sin-ssn.html)
+- [https://bharatquantumprospera.com/es/mercury-vs-brex.html](https://bharatquantumprospera.com/es/mercury-vs-brex.html)
+- [https://bharatquantumprospera.com/es/formulario-w-8ben.html](https://bharatquantumprospera.com/es/formulario-w-8ben.html)
+- [https://bharatquantumprospera.com/es/formulario-5472.html](https://bharatquantumprospera.com/es/formulario-5472.html)
+
+### Native Brazilian Portuguese content at /pt/
+- [https://bharatquantumprospera.com/pt/incorporacao-delaware-fundadores-brasileiros.html](https://bharatquantumprospera.com/pt/incorporacao-delaware-fundadores-brasileiros.html)
+- [https://bharatquantumprospera.com/pt/incorporacao-wyoming-llc.html](https://bharatquantumprospera.com/pt/incorporacao-wyoming-llc.html)
+- [https://bharatquantumprospera.com/pt/ein-sem-ssn.html](https://bharatquantumprospera.com/pt/ein-sem-ssn.html)
+- [https://bharatquantumprospera.com/pt/formulario-5472.html](https://bharatquantumprospera.com/pt/formulario-5472.html)

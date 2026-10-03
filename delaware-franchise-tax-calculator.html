@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>Delaware Franchise Tax Calculator 2026 | Free Tool for Startups - BQP</title>
+<meta name="description" content="Free Delaware franchise tax calculator for C-Corps & LLCs. Compares Authorized Shares Method vs Assumed Par Value Method — because Delaware's own calculator defaults to the wrong one and overcharges startups by thousands."/>
+<meta name="keywords" content="delaware franchise tax calculator, delaware c-corp franchise tax, assumed par value method, authorized shares method, delaware franchise tax startup, delaware franchise tax 2026, delaware franchise tax indian founder, how to calculate delaware franchise tax"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html"/>
+<link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html"/>
+<link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="Free Delaware Franchise Tax Calculator | For Startups &amp; Founders"/>
+<meta property="og:description" content="Compares both calculation methods side-by-side. Avoid the common $5-figure overcharge from using the wrong one."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Delaware Franchise Tax Calculator 2026"/>
+<meta name="twitter:description" content="Both methods compared. Free. For startups."/>
+<meta name="twitter:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Delaware Franchise Tax Calculator","url":"https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html","applicationCategory":"FinanceApplication","operatingSystem":"Any (web)","description":"Free interactive Delaware franchise tax calculator for C-Corps. Compares Authorized Shares Method against Assumed Par Value Method side-by-side so startups pick the right one and avoid overpayment.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"US Incorporation","item":"https://bharatquantumprospera.com/us-incorporation.html"},{"@type":"ListItem","position":3,"name":"Delaware Franchise Tax Calculator","item":"https://bharatquantumprospera.com/delaware-franchise-tax-calculator.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is Delaware franchise tax calculated for a C-Corp?","acceptedAnswer":{"@type":"Answer","text":"Delaware offers two calculation methods and you pay the lower of the two. The Authorized Shares Method charges $175 for up to 5,000 shares plus $85 per additional 10,000 shares (max $200,000). The Assumed Par Value Method takes gross assets divided by issued shares to get a par value, multiplies by authorized shares to get assumed par value capital, and taxes it at $400 per $1 million of capital with a $400 minimum. For most startups with 10 million authorized shares and little revenue, the Assumed Par Value Method is dramatically cheaper — often $400 vs $85,165 under Authorized Shares."}},{"@type":"Question","name":"Why did I get a huge Delaware franchise tax bill?","acceptedAnswer":{"@type":"Answer","text":"Because Delaware defaults the first bill to the Authorized Shares Method, which is punishing for the standard VC-ready template of 10 million authorized shares. The bill shows ~$85,165. You switch to the Assumed Par Value Method by filling in your total gross assets and total issued shares on the annual report — the correct tax then drops to the $400 minimum for most pre-revenue startups. This is the single most common Delaware-C-Corp finance error for Indian and foreign founders."}},{"@type":"Question","name":"When is Delaware franchise tax due?","acceptedAnswer":{"@type":"Answer","text":"March 1 each year for C-Corps. LLCs pay a flat $300 by June 1. Miss the deadline and penalties start at $200 plus 1.5% monthly interest. Delaware auto-flags your entity as not in good standing after 60 days, which blocks most banking and legal activity."}},{"@type":"Question","name":"Does Delaware franchise tax apply to foreign-owned C-Corps?","acceptedAnswer":{"@type":"Answer","text":"Yes. The tax applies to every Delaware C-Corp regardless of where its owners live or where it does business. An Indian founder with a Delaware C-Corp operating entirely from India still pays Delaware franchise tax annually by March 1. The same calculation methods apply."}},{"@type":"Question","name":"What is the minimum Delaware franchise tax?","acceptedAnswer":{"@type":"Answer","text":"$400 for C-Corps under the Assumed Par Value Method, plus $50 annual report fee, for a $450 effective floor. $175 is the floor under the Authorized Shares Method but almost always higher once you have more than 5,000 authorized shares. LLCs pay a flat $300 annually (no report required)."}},{"@type":"Question","name":"Is this calculator accurate?","acceptedAnswer":{"@type":"Answer","text":"Yes — it implements the formulas published by the Delaware Division of Corporations verbatim. However, Delaware's own online calculator contains edge-case behaviours and your actual bill reflects what you report on the annual return. If your figures are complex (deferred tax assets, significant NOLs, intangible-heavy balance sheet), verify with your tax adviser before filing. For a free second opinion on the calculation, email durgesh@bharatquantumprospera.com."}}]}</script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right">
+    <a href="get-a-quote.html" class="nav-cta">Get a quote</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+
+<main>
+
+<style>
+  .calc-hero{padding:140px 5vw 48px;max-width:1300px;margin:0 auto}
+  .calc-hero .back{display:inline-block;margin-bottom:22px;padding:6px 14px;border:1px solid var(--line-strong);border-radius:4px;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-2);text-decoration:none}
+  .calc-hero .kicker{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:12px}
+  .calc-hero h1{font-weight:400;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;font-size:clamp(34px,4.6vw,60px);color:var(--ink);margin-bottom:22px;max-width:1050px}
+  .calc-hero h1 em{font-style:normal;color:var(--red)}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:var(--ink-2);max-width:780px}
+
+  .calc-section{padding:30px 5vw 80px;max-width:1300px;margin:0 auto}
+  .calc-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+  @media(max-width:960px){.calc-grid{grid-template-columns:1fr}}
+
+  .calc-form,.calc-result{background:#fff;border:1px solid var(--border);border-radius:8px;padding:clamp(26px,3vw,40px)}
+
+  .calc-form h2{font-size:19px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin-bottom:6px}
+  .calc-form .sub{font-size:13px;color:var(--ink-2);margin-bottom:24px;line-height:1.55}
+
+  .field{margin-bottom:20px}
+  .field label{display:block;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-2);margin-bottom:6px}
+  .field .input-wrap{position:relative}
+  .field .input-wrap .prefix{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--ink-3);font-size:14px;pointer-events:none}
+  .field input{width:100%;padding:12px 14px;font:inherit;font-size:15px;color:var(--ink);background:var(--cream);border:1px solid var(--border);border-radius:4px;transition:border-color .15s,background .15s}
+  .field input.with-prefix{padding-left:30px}
+  .field input:focus{outline:none;border-color:var(--red);background:#fff}
+  .field .hint{font-size:12px;color:var(--ink-3);margin-top:5px;line-height:1.4}
+  .field .hint a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+
+  .preset-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+  .preset-btn{padding:7px 12px;background:#fff;border:1px solid var(--border);border-radius:4px;font:inherit;font-size:12px;color:var(--ink);cursor:pointer;transition:all .15s}
+  .preset-btn:hover{border-color:var(--red);color:var(--red)}
+
+  .calc-result h2{font-size:19px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin-bottom:6px}
+  .calc-result .sub{font-size:13px;color:var(--ink-2);margin-bottom:22px;line-height:1.55}
+
+  .method-card{padding:22px 20px;border:1px solid var(--border);border-radius:6px;margin-bottom:14px;background:var(--cream)}
+  .method-card.winner{border-color:var(--red);background:#fff;position:relative}
+  .method-card.winner::before{content:"Lower \2014 pay this";position:absolute;top:-10px;left:16px;background:var(--red);color:#fff;font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:3px 10px;border-radius:3px}
+  .method-card .method-lbl{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);margin-bottom:6px}
+  .method-card .method-amt{font-size:28px;font-weight:600;color:var(--ink);letter-spacing:-.015em;margin-bottom:4px}
+  .method-card.winner .method-amt{color:var(--red)}
+  .method-card .method-detail{font-size:12px;color:var(--ink-2);line-height:1.5;margin-top:8px}
+  .method-card .method-breakdown{font-size:11px;color:var(--ink-3);font-family:'SF Mono',Menlo,monospace;margin-top:10px;padding-top:10px;border-top:1px solid var(--border);line-height:1.6}
+
+  .savings{margin-top:18px;padding:16px 18px;border:1px solid var(--border);border-radius:6px;background:#fff}
+  .savings .lbl{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);margin-bottom:4px}
+  .savings .val{font-size:16px;color:var(--ink);line-height:1.5}
+  .savings .val strong{color:var(--red);font-weight:700}
+
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:10px}
+  .result-cta a{display:inline-flex;align-items:center;padding:12px 20px;font-size:13px;font-weight:600;letter-spacing:-.01em;text-decoration:none;border-radius:4px}
+  .result-cta .primary{background:var(--red);color:#fff}
+  .result-cta .primary:hover{background:var(--ink)}
+  .result-cta .ghost{background:transparent;color:var(--ink);border:1px solid var(--line-strong)}
+
+  .explainer{padding:60px 5vw;max-width:1300px;margin:0 auto}
+  .explainer .card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:clamp(28px,4vw,48px);margin-bottom:20px}
+  .explainer .kicker{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:12px}
+  .explainer h2{font-size:clamp(22px,2.8vw,36px);font-weight:400;text-transform:uppercase;letter-spacing:-.02em;line-height:1.1;color:var(--ink);margin-bottom:18px}
+  .explainer h2 em{font-style:normal;color:var(--red)}
+  .explainer p{font-size:15px;line-height:1.7;color:var(--ink);margin-bottom:1em;max-width:860px}
+  .explainer ol,.explainer ul{font-size:15px;line-height:1.7;color:var(--ink);margin:0 0 1em 1.4em;max-width:860px}
+  .explainer li{margin-bottom:.6em}
+  .explainer strong{font-weight:600}
+  .explainer code{background:var(--cream);padding:2px 8px;border-radius:3px;font-size:13px;font-family:'SF Mono',Menlo,monospace}
+
+  .faq-item{padding:20px 0;border-bottom:1px solid var(--border)}
+  .faq-item:last-child{border-bottom:0}
+  .faq-q{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:10px;letter-spacing:-.01em}
+  .faq-a{font-size:14px;line-height:1.65;color:var(--ink-2)}
+  .faq-a a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+</style>
+
+<section class="calc-hero">
+  <a href="us-incorporation.html" class="back">&larr; US Incorporation</a>
+  <p class="kicker">/ Free interactive calculator &middot; Updated for 2026</p>
+  <h1>Delaware Franchise Tax Calculator. <em>Both methods, side-by-side.</em></h1>
+  <p class="lead">Delaware's own online calculator defaults to the Authorized Shares Method and overcharges almost every startup by a four- or five-figure amount. This calculator shows both methods, highlights the lower one, and explains why.</p>
+</section>
+
+<section class="calc-section">
+  <div class="calc-grid">
+
+    <div class="calc-form">
+      <h2>Your numbers</h2>
+      <p class="sub">Any field you don't know yet &mdash; use the defaults. Most seed-stage Delaware C-Corps use the "VC-ready template" preset.</p>
+
+      <p style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);margin-bottom:10px">Quick presets</p>
+      <div class="preset-row">
+        <button type="button" class="preset-btn" onclick="loadPreset('vc')">VC-ready template</button>
+        <button type="button" class="preset-btn" onclick="loadPreset('solo')">Founder solo</button>
+        <button type="button" class="preset-btn" onclick="loadPreset('seed')">Post-seed round</button>
+        <button type="button" class="preset-btn" onclick="loadPreset('seriesa')">Post Series A</button>
+      </div>
+
+      <div class="field">
+        <label for="authShares">Total authorized shares</label>
+        <input id="authShares" type="number" value="10000000" min="1" step="1000" oninput="calc()"/>
+        <div class="hint">Standard VC-friendly template is 10,000,000. Check your Certificate of Incorporation if unsure.</div>
+      </div>
+
+      <div class="field">
+        <label for="issuedShares">Total issued shares</label>
+        <input id="issuedShares" type="number" value="5000000" min="0" step="1000" oninput="calc()"/>
+        <div class="hint">Issued to founders, employees (post-exercise), investors. Not the full option pool &mdash; just actually-issued stock.</div>
+      </div>
+
+      <div class="field">
+        <label for="grossAssets">Total gross assets (USD)</label>
+        <div class="input-wrap">
+          <span class="prefix">$</span>
+          <input id="grossAssets" type="number" class="with-prefix" value="100000" min="0" step="1000" oninput="calc()"/>
+        </div>
+        <div class="hint">From your year-end balance sheet. For pre-revenue startups, this is roughly cash + prepaid expenses + any IP capitalised. Use USD 1 if you have nothing material yet &mdash; the minimum tax applies either way.</div>
+      </div>
+
+      <div class="field">
+        <label for="parValue">Par value per share (optional)</label>
+        <div class="input-wrap">
+          <span class="prefix">$</span>
+          <input id="parValue" type="number" class="with-prefix" value="0.0001" min="0" step="0.0001" oninput="calc()"/>
+        </div>
+        <div class="hint">Delaware standard is $0.0001. Only change if your Certificate of Incorporation says otherwise.</div>
+      </div>
+    </div>
+
+    <div class="calc-result">
+      <h2>Your Delaware franchise tax</h2>
+      <p class="sub">For the current tax year. Both methods calculated under the Delaware Division of Corporations' published formulas. You pay the lower.</p>
+
+      <div class="method-card" id="methodA">
+        <div class="method-lbl">/ Method A &mdash; Authorized Shares</div>
+        <div class="method-amt" id="methodA_amt">$0</div>
+        <div class="method-detail" id="methodA_detail">Based purely on authorized share count.</div>
+        <div class="method-breakdown" id="methodA_breakdown"></div>
+      </div>
+
+      <div class="method-card" id="methodB">
+        <div class="method-lbl">/ Method B &mdash; Assumed Par Value</div>
+        <div class="method-amt" id="methodB_amt">$0</div>
+        <div class="method-detail" id="methodB_detail">Uses gross assets &amp; issued shares to derive an assumed par value.</div>
+        <div class="method-breakdown" id="methodB_breakdown"></div>
+      </div>
+
+      <div class="savings">
+        <div class="lbl">/ What you'd overpay using the wrong method</div>
+        <div class="val" id="savings_val">&mdash;</div>
+      </div>
+
+      <div class="result-cta">
+        <a href="get-a-quote.html" class="primary">Have us file it &rarr;</a>
+        <a href="us-incorporation.html" class="ghost">Full US incorporation help</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="explainer">
+  <div class="card">
+    <p class="kicker">/ The $85,000 trap</p>
+    <h2>Why Delaware's default calculator <em>overcharges almost every startup.</em></h2>
+    <p>When Delaware mails your first annual franchise tax notice, it uses the <strong>Authorized Shares Method</strong> because it's the simpler default. For the VC-friendly standard template of 10,000,000 authorized shares, that notice reads around <code>$85,165</code>. Founders panic. Most pay it.</p>
+    <p>They shouldn't. Delaware law gives you a second method &mdash; the <strong>Assumed Par Value Method</strong> &mdash; and you can elect it on the annual report. For the same pre-revenue startup, the correct tax is almost always <code>$400 + $50 report fee = $450</code>. Difference: <strong>around $84,700 per year</strong>.</p>
+    <p>Every Indian, LatAm, European and otherwise-foreign founder with a Delaware C-Corp hits this. The fix is simple: file the annual report with the Assumed Par Value Method figures, pay the lower bill, do it again next year. The hard part is knowing it exists.</p>
+  </div>
+
+  <div class="card">
+    <p class="kicker">/ The math</p>
+    <h2>How each method <em>actually calculates.</em></h2>
+    <p><strong>Method A &mdash; Authorized Shares.</strong> Simple step function on authorized share count only:</p>
+    <ul>
+      <li><code>1 &ndash; 5,000 shares</code>: $175 flat.</li>
+      <li><code>5,001 &ndash; 10,000 shares</code>: $250 flat.</li>
+      <li><code>10,001+ shares</code>: $250 + $85 per additional 10,000 shares (or part thereof) above 10,000.</li>
+      <li>Max cap: $200,000.</li>
+    </ul>
+    <p>For 10,000,000 authorized shares that's <code>$250 + (999 &times; $85) = $85,165</code>. Add the $50 report fee: <code>$85,215</code>.</p>
+    <p><strong>Method B &mdash; Assumed Par Value.</strong> Uses balance-sheet data:</p>
+    <ol>
+      <li>Calculate assumed par value: <code>gross assets &divide; issued shares</code> (floor of $0.0001).</li>
+      <li>Calculate assumed par value capital: <code>authorized shares &times; assumed par value</code>.</li>
+      <li>Tax: <code>$400 per $1,000,000 of capital</code>, with a <strong>minimum of $400</strong>, cap $200,000.</li>
+    </ol>
+    <p>For 10,000,000 authorized / 5,000,000 issued / $100,000 gross assets: assumed par = $0.02, capital = $200,000, tax = <code>$80</code>, floored to $400 minimum. Plus $50 report fee: <code>$450</code>.</p>
+  </div>
+
+  <div class="card">
+    <p class="kicker">/ FAQ</p>
+    <h2>Common Delaware franchise tax <em>questions.</em></h2>
+    <div class="faq-item">
+      <div class="faq-q">When is Delaware franchise tax due?</div>
+      <div class="faq-a">March 1 each year for C-Corps. LLCs pay a flat $300 by June 1. Miss the deadline and penalties start at $200 plus 1.5% monthly interest. Delaware auto-flags your entity as not in good standing after 60 days.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Does Delaware franchise tax apply to foreign-owned C-Corps?</div>
+      <div class="faq-a">Yes. The tax applies to every Delaware C-Corp regardless of where its owners live or where it does business. An Indian founder with a Delaware C-Corp operating entirely from India still pays Delaware franchise tax annually by March 1. The same two calculation methods apply.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What is the minimum Delaware franchise tax?</div>
+      <div class="faq-a">$400 for C-Corps under the Assumed Par Value Method, plus $50 annual report fee, for a $450 effective floor. $175 is the floor under the Authorized Shares Method but almost always higher once you have more than 5,000 authorized shares. LLCs pay a flat $300 annually (no report required).</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What are "gross assets" for the Assumed Par Value Method?</div>
+      <div class="faq-a">Total assets as reported on your year-end balance sheet in your federal Form 1120 (US tax return) &mdash; the same figure. For pre-revenue startups this is roughly cash + prepaid expenses + any capitalised intangibles. If you're on cash-basis accounting, use the cash position at December 31.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can I switch methods year-over-year?</div>
+      <div class="faq-a">Yes. You pick whichever method is lower on each year's annual report. Most startups use Method B (Assumed Par Value) for the first several years, then may switch to Method A once gross assets grow substantially &mdash; typically once the company holds $5M+ in cash and has issued most of its authorized stock.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Does BQP file this for me?</div>
+      <div class="faq-a">Yes &mdash; part of our standard US incorporation ongoing-compliance package. We file the annual report, elect the lower method, pay the tax, send you the stamped acknowledgement. If you'd like us to file it as a one-off even if we didn't form your entity, email <a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a> &mdash; typical fee is USD 150 covering the whole filing.</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Bharat Quantum<br/>Prospera</h3>
+          <p>A chartered advisory built for founders who think beyond borders.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="us-incorporation.html">US Incorporation</a></li>
+            <li><a href="capital-advisory.html">Capital Advisory</a></li>
+            <li><a href="fund-raising.html">Fund Raising</a></li>
+            <li><a href="corporate-strategy.html">M&amp;A &amp; Corporate Strategy</a></li>
+            <li><a href="sme-ipo.html">IPO Services</a></li>
+            <li><a href="startup-registration.html">Startup Registration</a></li>
+            <li><a href="transfer-pricing.html">Transfer Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Firm</h5>
+          <ul>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="founder.html">Founder</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Reach</h5>
+          <ul>
+            <li><a href="tel:+917801887130">+91 78018 87130</a></li>
+            <li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li>
+            <li>Ahmedabad &middot; Mumbai</li>
+            <li>Bengaluru &middot; Rajkot</li>
+            <li>Dubai, UAE</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bharat Quantum Prospera. All rights reserved.</span>
+        <span>Ahmedabad &middot; Est. in Practice</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+function fmt(n){
+  if(!isFinite(n)) return '$0';
+  return '$' + Math.round(n).toLocaleString('en-US');
+}
+
+function calc(){
+  var A = parseFloat(document.getElementById('authShares').value) || 0;
+  var I = parseFloat(document.getElementById('issuedShares').value) || 0;
+  var G = parseFloat(document.getElementById('grossAssets').value) || 0;
+  var P = parseFloat(document.getElementById('parValue').value) || 0.0001;
+  if(P < 0.0001) P = 0.0001;
+
+  // Method A: Authorized Shares
+  var taxA;
+  if(A <= 5000){
+    taxA = 175;
+  } else if(A <= 10000){
+    taxA = 250;
+  } else {
+    var over = A - 10000;
+    var units = Math.ceil(over / 10000);
+    taxA = 250 + (units * 85);
+  }
+  if(taxA > 200000) taxA = 200000;
+  var reportA = 50;
+  var totalA = taxA + reportA;
+
+  // Method B: Assumed Par Value
+  // APV = max(gross/issued, 0.0001) when issued > 0 and gross > 0
+  // Capital = authorized * APV
+  // Tax = ceil(capital / 1,000,000) * 400, min 400, cap 200,000
+  var APV = 0.0001;
+  if(I > 0 && G > 0){
+    APV = G / I;
+    if(APV < 0.0001) APV = 0.0001;
+  }
+  var capital = A * APV;
+  var taxB = Math.ceil(capital / 1000000) * 400;
+  if(taxB < 400) taxB = 400;
+  if(taxB > 200000) taxB = 200000;
+  var reportB = 50;
+  var totalB = taxB + reportB;
+
+  document.getElementById('methodA_amt').textContent = fmt(totalA);
+  document.getElementById('methodA_breakdown').innerHTML =
+    'Authorized shares: ' + A.toLocaleString('en-US') + '<br/>' +
+    'Tier calc: ' + fmt(taxA) + '<br/>' +
+    'Annual report fee: ' + fmt(reportA);
+
+  document.getElementById('methodB_amt').textContent = fmt(totalB);
+  document.getElementById('methodB_breakdown').innerHTML =
+    'Assumed par value: $' + APV.toFixed(6) + '<br/>' +
+    'Assumed par value capital: ' + fmt(capital) + '<br/>' +
+    'Tax (floored to $400): ' + fmt(taxB) + '<br/>' +
+    'Annual report fee: ' + fmt(reportB);
+
+  var mA = document.getElementById('methodA');
+  var mB = document.getElementById('methodB');
+  mA.classList.remove('winner');
+  mB.classList.remove('winner');
+  if(totalA <= totalB){
+    mA.classList.add('winner');
+  } else {
+    mB.classList.add('winner');
+  }
+
+  var diff = Math.abs(totalA - totalB);
+  var sv = document.getElementById('savings_val');
+  if(diff < 1){
+    sv.innerHTML = 'Both methods give the same result.';
+  } else {
+    var winner = (totalA <= totalB) ? 'Authorized Shares Method' : 'Assumed Par Value Method';
+    var loser  = (totalA <= totalB) ? 'Assumed Par Value Method' : 'Authorized Shares Method';
+    sv.innerHTML = 'Filing with the wrong method (' + loser + ') would overcharge you by <strong>' + fmt(diff) + '/year</strong>. Correct choice: ' + winner + '.';
+  }
+}
+
+function loadPreset(k){
+  var presets = {
+    'solo':   {A:1000000,   I:1000000,   G:1000,     P:0.0001},
+    'vc':     {A:10000000,  I:5000000,   G:100000,   P:0.0001},
+    'seed':   {A:10000000,  I:7500000,   G:2500000,  P:0.0001},
+    'seriesa':{A:15000000,  I:11000000,  G:12000000, P:0.0001}
+  };
+  var p = presets[k]; if(!p) return;
+  document.getElementById('authShares').value   = p.A;
+  document.getElementById('issuedShares').value = p.I;
+  document.getElementById('grossAssets').value  = p.G;
+  document.getElementById('parValue').value     = p.P;
+  calc();
+}
+
+calc();
+</script>
+
+</body>
+</html>

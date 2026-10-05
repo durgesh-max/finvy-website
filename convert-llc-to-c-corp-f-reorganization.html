@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>Convert LLC to C-Corp (F-Reorganization) 2026 | India Founder Guide - BQP</title>
+<meta name="description" content="How to convert a Delaware LLC into a Delaware C-Corp via F-reorganization under IRC Section 368(a)(1)(F). Tax-free mechanics, 83(b) elections, QSBS holding period preservation. Working CA guide."/>
+<meta name="keywords" content="LLC to C-Corp conversion, F reorganization LLC C-Corp, Delaware LLC to C-Corp Indian founder, QSBS LLC C-Corp conversion, 368(a)(1)(F), 83(b) election C-Corp conversion"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html"/>
+<link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html"/>
+<link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="Convert LLC to C-Corp (F-Reorganization) 2026 | India Founder Guide - BQP"/>
+<meta property="og:description" content="How to convert a Delaware LLC into a Delaware C-Corp via F-reorganization under IRC Section 368(a)(1)(F). Tax-free mechanics, 83(b) elections, QSBS holding period preservation. Working CA guide."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Convert LLC to C-Corp (F-Reorganization) 2026 | India Founder Guide - BQP"/>
+<meta name="twitter:description" content="How to convert a Delaware LLC into a Delaware C-Corp via F-reorganization under IRC Section 368(a)(1)(F). Tax-free mechanics, 83(b) elections, QSBS holding period preservation. Working CA guide."/>
+<meta name="twitter:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .svc-hero{padding:140px 5vw 72px;max-width:1400px;margin:0 auto}
+  .svc-hero .back{display:inline-block;margin-bottom:22px;padding:6px 14px;border:1px solid var(--line-strong);border-radius:4px;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-2);text-decoration:none}
+  .svc-hero .kicker{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:12px}
+  .svc-hero h1{font-weight:400;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;font-size:clamp(32px,4.4vw,58px);color:var(--ink);margin-bottom:22px;max-width:1100px}
+  .svc-hero h1 em{font-style:normal;color:var(--red)}
+  .svc-hero .lead{font-size:17px;line-height:1.6;color:var(--ink-2);max-width:860px;margin-bottom:28px}
+  .svc-hero .cta-row{display:flex;flex-wrap:wrap;gap:12px}
+  .svc-hero .cta-row a{display:inline-flex;align-items:center;padding:12px 24px;font-size:14px;font-weight:600;letter-spacing:-.01em;text-decoration:none;border-radius:4px}
+  .svc-hero .cta-row .primary{background:var(--red);color:#fff}
+  .svc-hero .cta-row .ghost{background:transparent;color:var(--ink);border:1px solid var(--line-strong)}
+
+  .section{padding:0 5vw 20px;max-width:1400px;margin:0 auto}
+  .section:first-of-type{padding-top:0}
+  .card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:clamp(28px,4vw,48px);margin-bottom:20px}
+  .card-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:14px}
+  .card-h2{font-size:clamp(22px,2.8vw,36px);font-weight:400;text-transform:uppercase;letter-spacing:-.02em;line-height:1.1;color:var(--ink);margin-bottom:22px;max-width:1000px}
+  .card-h2 em{font-style:normal;color:var(--red)}
+  .card-body{font-size:15px;line-height:1.7;color:var(--ink);max-width:900px}
+  .card-body p{margin-bottom:1em}
+  .card-body strong{font-weight:600}
+  .card-body code{background:var(--cream);padding:2px 8px;border-radius:3px;font-size:13px;font-family:'SF Mono',Menlo,monospace}
+  .card-body ol,.card-body ul{margin:1em 0 1em 1.4em}
+  .card-body li{margin-bottom:.55em}
+  .card-body a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+
+  .faq-item{padding:20px 0;border-bottom:1px solid var(--border)}
+  .faq-item:last-child{border-bottom:0}
+  .faq-q{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:10px;letter-spacing:-.01em}
+  .faq-a{font-size:14px;line-height:1.65;color:var(--ink-2)}
+
+  .cta-card{background:var(--red);color:#fff;padding:clamp(32px,4vw,56px);border-radius:8px;margin-bottom:20px}
+  .cta-card .card-label{color:rgba(255,255,255,.78)}
+  .cta-card .card-h2{color:#fff}
+  .cta-card .card-body{color:rgba(255,255,255,.92)}
+  .cta-card .btn-row{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+  .cta-card .btn-row a{display:inline-flex;align-items:center;padding:12px 22px;font-size:13px;font-weight:600;letter-spacing:-.01em;text-decoration:none;border-radius:4px}
+  .cta-card .btn-row .solid{background:#fff;color:var(--ink)}
+  .cta-card .btn-row .outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}
+
+  .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+  .related-item{display:block;padding:22px 20px;background:var(--cream);border:1px solid var(--border);border-radius:6px;text-decoration:none;color:var(--ink)}
+  .related-item:hover{border-color:var(--red)}
+  .related-item .rl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--red);margin-bottom:6px;font-weight:600}
+  .related-item .rt{font-size:15px;font-weight:600;color:var(--ink);line-height:1.3}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://bharatquantumprospera.com/insights.html"},{"@type":"ListItem","position":3,"name":"Convert LLC to C-Corp (F-Reorganization) 2026","item":"https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I convert LLC to C-Corp without triggering US tax?","acceptedAnswer":{"@type":"Answer","text":"Yes, under IRC Section 368(a)(1)(F) F-reorganization treatment, the conversion is tax-free at both the entity and the owner level. The owner's basis and holding period carry over to the C-Corp stock. The main exceptions are specific scenarios involving debt allocation changes or boot &mdash; model each shareholder's position before conversion."}},{"@type":"Question","name":"Does the QSBS 5-year holding period include my LLC time?","acceptedAnswer":{"@type":"Answer","text":"No. QSBS under Section 1202 requires 5 years of holding C-Corp stock. The holding period starts on the F-reorg conversion date. The time held as LLC member does not count for QSBS. If you are planning to rely on QSBS, convert early so the 5-year clock starts sooner."}},{"@type":"Question","name":"Can I do a statutory conversion in Delaware instead of a full F-reorg?","acceptedAnswer":{"@type":"Answer","text":"Yes. Delaware allows a direct statutory conversion of an LLC to a C-Corp by filing a Certificate of Conversion plus a Certificate of Incorporation. If structured so that the former LLC members hold the C-Corp stock, the transaction is treated as an F-reorg for US federal tax purposes. One filing vs the multi-step F-reorg structure; same tax outcome."}},{"@type":"Question","name":"When should an Indian founder convert LLC to C-Corp?","acceptedAnswer":{"@type":"Answer","text":"Before raising US VC capital, if US VC capital is the plan. Many Indian founders start with an LLC via Stripe Atlas, operate for 1-2 years, then convert when a US VC term sheet appears. The conversion is routine and typically completed in 30-60 days with the Delaware filings, legal documents, and tax elections."}},{"@type":"Question","name":"Do I need an 83(b) election after the conversion?","acceptedAnswer":{"@type":"Answer","text":"Yes if the founder receives C-Corp stock that is subject to vesting. The 83(b) election is filed within 30 days of the stock issuance (not 30 days from the conversion filing). It locks in the then-FMV as the taxable amount, so founder equity in a low-FMV early-stage C-Corp has essentially zero 83(b) tax cost. Missing the 30-day window is unrecoverable."}},{"@type":"Question","name":"Does BQP handle LLC-to-C-Corp conversions?","acceptedAnswer":{"@type":"Answer","text":"Yes. Standard engagement covers: Delaware Certificate of Conversion + Certificate of Incorporation; member-to-shareholder exchange documentation; 83(b) election preparation; EIN update; final LLC tax filings (pro forma 1120 + 5472 if foreign-owned-disregarded); first C-Corp year-start compliance setup. Request via get-a-quote.html."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Convert LLC to C-Corp (F-Reorganization) 2026 | India Founder Guide - BQP","description":"How to convert a Delaware LLC into a Delaware C-Corp via F-reorganization under IRC Section 368(a)(1)(F). Tax-free mechanics, 83(b) elections, QSBS holding period preservation. Working CA guide.","url":"https://bharatquantumprospera.com/convert-llc-to-c-corp-f-reorganization.html","author":{"@type":"Person","name":"CA Durgesh Chavda","url":"https://bharatquantumprospera.com/founder.html"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"inLanguage":"en"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"Steps","description":"Step-by-step working-CA procedure.","step":[{"@type":"HowToStep","position":1,"name":"Model tax consequences","text":"F-reorg is tax-free in the standard scenario. Check debt allocation changes and boot before proceeding."},{"@type":"HowToStep","position":2,"name":"File Delaware Certificate of Conversion + Certificate of Incorporation","text":"Direct statutory conversion is cleaner than a multi-step F-reorg structure. Same tax outcome."},{"@type":"HowToStep","position":3,"name":"Issue C-Corp stock to former LLC members","text":"Mirror the LLC ownership percentages. Vesting schedules can be added for founder restricted stock."},{"@type":"HowToStep","position":4,"name":"File 83(b) election within 30 days of stock issuance","text":"Mandatory window for founders with vesting restrictions. Missing is unrecoverable."},{"@type":"HowToStep","position":5,"name":"Obtain new EIN for C-Corp","text":"Via Form SS-4; keep old LLC EIN active until LLC final return filed."},{"@type":"HowToStep","position":6,"name":"Transition Delaware franchise tax regime","text":"LLC USD 300 flat to C-Corp min USD 400 scaling with authorised shares. Choose authorised share count carefully."},{"@type":"HowToStep","position":7,"name":"Assign or novate contracts","text":"LLC contracts (customers, vendors, employees, SaaS) assigned to or novated with the C-Corp."},{"@type":"HowToStep","position":8,"name":"File final LLC tax filings","text":"Pro forma 1120 + 5472 for the stub period if the LLC was foreign-owned disregarded."}]}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right">
+    <a href="get-a-quote.html" class="nav-cta">Get a quote</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+<main>
+<section class="svc-hero">
+  <a href="us-incorporation.html" class="back">&larr; US Incorporation</a>
+  <p class="kicker">/ Entity conversion &middot; LLC to C-Corp</p>
+  <h1>LLC to C-Corp, <em>via F-reorganization.</em></h1>
+  <p class="lead">Many Indian founders incorporate a Delaware LLC first (simpler, lower cost, Stripe Atlas default) and later discover that US venture capital invests only in Delaware C-Corps. The conversion is routine &mdash; done as an F-reorganization under IRC Section 368(a)(1)(F) it is tax-free, preserves founder equity holding periods, and sets up 83(b) elections and QSBS eligibility.</p>
+  <div class="cta-row">
+    <a href="get-a-quote.html" class="primary">Get a firm quote &rarr;</a>
+    <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp instead</a>
+  </div>
+</section>
+<section class="section"><div class="card"><p class="card-label">/ Why convert</p><h2 class="card-h2">LLC worked at inception; C-Corp works at Series A.</h2><div class="card-body"><p>Reasons to start as an LLC:</p><ul><li>Lower formation cost and simpler setup (Stripe Atlas offers both, but LLC is cheaper and faster).</li><li>Pass-through tax at the owner level &mdash; no C-Corp double taxation. Attractive if the entity is cash-flow positive early.</li><li>Minimal annual compliance for a dormant or small-revenue single-member LLC.</li></ul><p>Reasons to convert at scale:</p><ul><li>US VCs invest only (or almost only) in Delaware C-Corps. Preferred stock terms, SAFEs, convertible notes, voting agreements all assume C-Corp structure.</li><li>Stock options (ISOs, NSOs) are a C-Corp instrument &mdash; LLC profits-interests do not translate cleanly to standard employee equity.</li><li>83(b) elections on founder equity need the founders holding restricted stock in a C-Corp (not LLC member units).</li><li>QSBS (Section 1202) applies to C-Corp stock only. 5-year holding period starts from the conversion date on the shares received in the F-reorg (the LLC holding period does not carry over for QSBS).</li></ul></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ F-reorganization mechanics</p><h2 class="card-h2">The tax-free path.</h2><div class="card-body"><p>IRC Section 368(a)(1)(F) defines an F-reorganization as a 'mere change in identity, form, or place of organization'. The LLC-to-C-Corp conversion where the ownership and operations continue unchanged qualifies as an F-reorg.</p><p>Structure:</p><ol><li>Form a new Delaware C-Corp with the same ownership as the existing LLC.</li><li>Each LLC member contributes their LLC interest to the new C-Corp in exchange for C-Corp stock.</li><li>The LLC becomes a wholly-owned subsidiary of the C-Corp.</li><li>Then the LLC is dissolved into the C-Corp (merger or liquidation), making the C-Corp the sole surviving entity.</li></ol><p>Alternative Delaware statutory conversion: file a Certificate of Conversion with the Delaware Secretary of State converting the LLC directly to a C-Corp in one step. This is often cleaner, with the same F-reorg tax treatment if executed properly.</p></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ Tax consequences</p><h2 class="card-h2">Mostly zero, but watch the triggers.</h2><div class="card-body"><p>For a true F-reorganization:</p><ul><li><strong>No gain or loss recognised</strong> at the member or entity level on the conversion.</li><li><strong>C-Corp stock basis</strong> = LLC member's basis in the LLC interest, adjusted for any boot received.</li><li><strong>Holding period</strong> of the C-Corp stock tacks on to the LLC interest holding period for general capital-gains purposes &mdash; but note the QSBS 5-year holding period is separate and starts afresh from the conversion date.</li><li><strong>LLC accumulated losses</strong>: suspended losses do not carry forward into the C-Corp (one of the real costs of the conversion).</li><li><strong>Section 752 debt allocations</strong>: changes to how LLC debt is allocated can trigger gain for a member whose share of debt decreases below their basis. Model each member's position.</li></ul><p>For an Indian founder scenario where the LLC is a disregarded entity (single member) with modest capital contributions and no accumulated losses, the F-reorg is typically fully tax-free with trivial model-out.</p></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ Post-conversion to-do list</p><h2 class="card-h2">The 30-day window.</h2><div class="card-body"><ol><li><strong>Delaware Certificate of Incorporation</strong> for the new C-Corp (or Certificate of Conversion for the statutory conversion route).</li><li><strong>Delaware franchise tax filings</strong>: the entity transitions from LLC franchise tax (USD 300 flat) to C-Corp franchise tax (minimum USD 400, scales with authorised shares).</li><li><strong>83(b) elections</strong> for founder restricted stock: file within 30 days of the stock issuance. Mandatory window &mdash; miss it and you cannot recover.</li><li><strong>EIN update</strong>: the C-Corp typically obtains a new EIN. The old LLC EIN is retained for closing out the LLC's final tax filings.</li><li><strong>Form 2553 (optional S-Corp election)</strong>: generally NOT elected for founders planning US venture funding &mdash; non-US-citizen owners disqualify S-Corp status, and S-Corp cannot have preferred stock. Skip for VC-track companies.</li><li><strong>Bank account</strong>: open new C-Corp account; close LLC account after moving funds and final payroll.</li><li><strong>Contracts</strong>: assign LLC contracts to the C-Corp (or novate with each counterparty). Customer contracts, SaaS subscriptions, SaaS tools, employment agreements, independent-contractor agreements.</li><li><strong>State registrations</strong>: foreign qualification in any states where the LLC was registered; renew for the C-Corp.</li><li><strong>Form 5472 continuity</strong>: if the LLC was foreign-owned-disregarded, the final partial-year 5472 is filed. The C-Corp's ongoing 5472 obligation starts from the conversion date.</li></ol></div></div></section>
+<section class="section"><div class="cta-card">
+      <p class="card-label">/ Ready when you are</p>
+      <h2 class="card-h2">Have a Stripe Atlas LLC and now talking to US VCs?</h2>
+      <div class="card-body"><p>Convert first. The LLC-to-C-Corp F-reorg is routine (30-60 days), tax-free in the standard founder scenario, and starts the QSBS 5-year clock. 83(b) elections on the conversion-date C-Corp stock issuance must file within 30 days &mdash; miss it and you cannot recover.</p></div>
+      <div class="btn-row">
+        <a href="get-a-quote.html" class="solid">Get a firm quote &rarr;</a>
+        <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="outline">WhatsApp Durgesh</a>
+      </div>
+    </div></section>
+<section class="section"><div class="card"><p class="card-label">FAQ</p><h2 class="card-h2">Common questions, <em>answered.</em></h2><div class="card-body"><div class="faq-item"><div class="faq-q">Can I convert LLC to C-Corp without triggering US tax?</div><div class="faq-a">Yes, under IRC Section 368(a)(1)(F) F-reorganization treatment, the conversion is tax-free at both the entity and the owner level. The owner's basis and holding period carry over to the C-Corp stock. The main exceptions are specific scenarios involving debt allocation changes or boot &mdash; model each shareholder's position before conversion.</div></div>
+<div class="faq-item"><div class="faq-q">Does the QSBS 5-year holding period include my LLC time?</div><div class="faq-a">No. QSBS under Section 1202 requires 5 years of holding C-Corp stock. The holding period starts on the F-reorg conversion date. The time held as LLC member does not count for QSBS. If you are planning to rely on QSBS, convert early so the 5-year clock starts sooner.</div></div>
+<div class="faq-item"><div class="faq-q">Can I do a statutory conversion in Delaware instead of a full F-reorg?</div><div class="faq-a">Yes. Delaware allows a direct statutory conversion of an LLC to a C-Corp by filing a Certificate of Conversion plus a Certificate of Incorporation. If structured so that the former LLC members hold the C-Corp stock, the transaction is treated as an F-reorg for US federal tax purposes. One filing vs the multi-step F-reorg structure; same tax outcome.</div></div>
+<div class="faq-item"><div class="faq-q">When should an Indian founder convert LLC to C-Corp?</div><div class="faq-a">Before raising US VC capital, if US VC capital is the plan. Many Indian founders start with an LLC via Stripe Atlas, operate for 1-2 years, then convert when a US VC term sheet appears. The conversion is routine and typically completed in 30-60 days with the Delaware filings, legal documents, and tax elections.</div></div>
+<div class="faq-item"><div class="faq-q">Do I need an 83(b) election after the conversion?</div><div class="faq-a">Yes if the founder receives C-Corp stock that is subject to vesting. The 83(b) election is filed within 30 days of the stock issuance (not 30 days from the conversion filing). It locks in the then-FMV as the taxable amount, so founder equity in a low-FMV early-stage C-Corp has essentially zero 83(b) tax cost. Missing the 30-day window is unrecoverable.</div></div>
+<div class="faq-item"><div class="faq-q">Does BQP handle LLC-to-C-Corp conversions?</div><div class="faq-a">Yes. Standard engagement covers: Delaware Certificate of Conversion + Certificate of Incorporation; member-to-shareholder exchange documentation; 83(b) election preparation; EIN update; final LLC tax filings (pro forma 1120 + 5472 if foreign-owned-disregarded); first C-Corp year-start compliance setup. Request via get-a-quote.html.</div></div></div></div></section>
+<section class="section"><div class="card"><p class="card-label">Related reading</p><h2 class="card-h2">Keep <em>going.</em></h2><div class="card-body"><div class="related-grid"><a href="us-incorporation.html" class="related-item"><div class="rl">Guide</div><div class="rt">US LLC &amp; C-Corp incorporation</div></a>
+<a href="india-to-delaware-flip-structure.html" class="related-item"><div class="rl">Guide</div><div class="rt">India-to-Delaware flip</div></a>
+<a href="get-a-quote.html" class="related-item"><div class="rl">Mandate</div><div class="rt">Get a firm quote</div></a></div></div></div></section>
+</main>
+<footer class="footer">
+  <div class="footer-card">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Bharat Quantum<br/>Prospera</h3>
+          <p>A chartered advisory built for founders who think beyond borders.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="us-incorporation.html">US Incorporation</a></li>
+            <li><a href="capital-advisory.html">Capital Advisory</a></li>
+            <li><a href="fund-raising.html">Fund Raising</a></li>
+            <li><a href="corporate-strategy.html">M&amp;A &amp; Corporate Strategy</a></li>
+            <li><a href="sme-ipo.html">IPO Services</a></li>
+            <li><a href="startup-registration.html">Startup Registration</a></li>
+            <li><a href="transfer-pricing.html">Transfer Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Firm</h5>
+          <ul>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="founder.html">Founder</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Reach</h5>
+          <ul>
+            <li><a href="tel:+917801887130">+91 78018 87130</a></li>
+            <li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li>
+            <li>Ahmedabad &middot; Mumbai</li>
+            <li>Bengaluru &middot; Rajkot</li>
+            <li>Dubai, UAE</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bharat Quantum Prospera. All rights reserved.</span>
+        <span>Ahmedabad &middot; Est. in Practice</span>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

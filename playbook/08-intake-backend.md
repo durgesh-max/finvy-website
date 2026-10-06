@@ -2,11 +2,26 @@
 
 **Page it serves:** `/us-incorporation-intake.html`
 
-**Current default (works today, no setup):** on submit the form opens Gmail web-compose (desktop) or `mailto:` (mobile) pre-filled with the full intake. User sends; it arrives in `durgesh@bharatquantumprospera.com`.
+**Current default (works today, zero signup):** on submit, the form POSTs via **FormSubmit.co** AJAX directly to `durgesh@bharatquantumprospera.com`. The user never has to click Send in an email client — the submission is relayed to your inbox automatically.
 
-**Problem with the default:** if the user's email client isn't configured, the submission can silently stall. There's a copy-paste fallback box, but a server-side capture is the proper upgrade.
+**One-time activation step (~2 minutes):** FormSubmit requires the receiving email to confirm itself. The flow:
 
-Two upgrade paths. Pick one.
+1. The FIRST submission to the live form triggers FormSubmit to send a one-time activation email to `durgesh@bharatquantumprospera.com` (subject: "Please confirm your email").
+2. Open that email. Click the activation link ("Activate Form" button).
+3. From that point on, every submission arrives directly as a formatted email with the full intake data in a table.
+
+**Test it:** submit a dummy intake from an incognito window with your own email. Check your inbox for the FormSubmit confirmation email. Click to activate. Submit a second dummy intake. The real formatted intake email should arrive within 10-30 seconds.
+
+**If you want a dashboard / Google Sheet in addition**, two optional upgrade paths follow. These layer on top of FormSubmit (not instead of).
+
+---
+
+## Default (already wired) — FormSubmit.co
+
+The form POSTs intakes to `https://formsubmit.co/ajax/durgesh@bharatquantumprospera.com`. FormSubmit is a zero-signup form backend — no account, no API key, no monthly caps on the free tier (fair-use based). Every intake arrives as a formatted email in your inbox with a table of all fields.
+
+**Pros:** zero setup, works out of the box, free, no account to manage.
+**Cons:** no searchable dashboard; if you want structured history, add Option A or B below.
 
 ---
 

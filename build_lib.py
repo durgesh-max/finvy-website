@@ -146,10 +146,43 @@ def article_schema(slug, title, desc):
     return ld({
         "@context": "https://schema.org", "@type": "Article",
         "headline": title, "description": desc, "url": f"{DOMAIN}/{slug}.html",
-        "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/founder.html"},
-        "publisher": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN},
+        "mainEntityOfPage": {"@type": "WebPage", "@id": f"{DOMAIN}/{slug}.html"},
+        "image": f"{DOMAIN}/og-cover.png",
+        "datePublished": "2026-10-06",
+        "dateModified": "2026-10-06",
+        "author": {
+            "@type": "Person",
+            "name": "CA Durgesh Chavda",
+            "url": f"{DOMAIN}/founder.html",
+            "jobTitle": "Founder & Managing Partner, Bharat Quantum Prospera",
+            "hasCredential": [{
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Qualification",
+                "name": "Chartered Accountant (ICAI, India)"
+            }],
+            "worksFor": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN},
+            "sameAs": ["https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/"],
+            "knowsAbout": ["US incorporation", "Delaware C-Corp", "India-US DTAA", "FEMA ODI", "NRI taxation", "Cross-border tax", "Transfer pricing", "SME IPO"]
+        },
+        "publisher": {
+            "@type": "AccountingService",
+            "name": "Bharat Quantum Prospera",
+            "url": DOMAIN,
+            "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/og-cover.png"}
+        },
         "inLanguage": "en"
     })
+
+
+BYLINE = """<section class="section">
+  <div style="max-width:900px;margin:0 auto;padding:16px 0 0;display:flex;gap:16px;align-items:center;border-bottom:1px solid #e5dfd4;padding-bottom:20px">
+    <div style="width:48px;height:48px;border-radius:50%;background:#C2312A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;flex-shrink:0">DC</div>
+    <div style="flex:1">
+      <p style="font:600 14px Inter,system-ui,sans-serif;color:#1a1613;margin:0;line-height:1.3">Written by <a href="founder.html" style="color:#C2312A;text-decoration:none">CA Durgesh Chavda</a></p>
+      <p style="font:400 12px Inter,system-ui,sans-serif;color:#857968;margin:4px 0 0;line-height:1.4">Chartered Accountant (ICAI) &middot; Founder, Bharat Quantum Prospera &middot; US incorporation, India-US DTAA, FEMA ODI, NRI taxation, cross-border structuring &middot; <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" style="color:#857968;text-decoration:underline">LinkedIn</a></p>
+    </div>
+  </div>
+</section>"""
 
 
 def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_lead,
@@ -227,6 +260,7 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
     <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp instead</a>
   </div>
 </section>
+{BYLINE}
 {sect_html}
 {cta_html}
 {faq_html}

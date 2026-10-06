@@ -56,19 +56,22 @@ Priority order below is set by expected traffic/trust lift per minute of your ti
 
 11. **After verification — populate immediately:**
 
-    a. **Services** (add each separately with price if comfortable):
-       - US LLC Incorporation (Delaware / Wyoming) — ₹99,000+
-       - US C-Corp Incorporation (Delaware) — ₹1,49,000+
+    a. **Services** (add each separately — all show "Scope-based" since we quote per situation):
+       - US LLC Incorporation (Delaware / Wyoming) — Scope-based
+       - US C-Corp Incorporation (Delaware) — Scope-based
        - India-to-Delaware Flip Structure — Scope-based
-       - FEMA ODI Compliance — ₹35,000 per transaction
-       - Form 5472 Annual Filing — ₹25,000 per year
-       - FBAR Filing (US-person) — ₹15,000 per year
+       - FEMA ODI Compliance — Scope-based
+       - Form 5472 Annual Filing — Scope-based
+       - FBAR Filing (US-person) — Scope-based
        - SME IPO End-to-End Advisory — Scope-based
-       - DPIIT Startup Registration — ₹35,000
-       - ESOP Plan Design + 409A — ₹1,50,000+
-       - Transfer Pricing Study (India + US) — ₹2,50,000+
-       - Cross-Border Tax Structuring — ₹50,000 initial scope + mandate
+       - DPIIT Startup Registration — Scope-based
+       - ESOP Plan Design + 409A — Scope-based
+       - Transfer Pricing Study (India + US) — Scope-based
+       - Cross-Border Tax Structuring — Scope-based
        - GIFT City IFSC Fund Setup — Scope-based
+       - NRI Tax Planning + Filing — Scope-based
+       - US-India Reverse Flip — Scope-based
+       - VC Term Sheet Review — Scope-based
 
     b. **Products** (link to the main service pages on the site):
        - US Incorporation Service → bharatquantumprospera.com/us-incorporation.html

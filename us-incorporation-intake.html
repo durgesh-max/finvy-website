@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>US Incorporation Intake | LLC or C-Corp Full Questionnaire - BQP</title>
+<meta name="description" content="Full US incorporation intake form for Indian founders: choose LLC or C-Corp then complete the questionnaire. Submission goes directly to CA Durgesh Chavda for a scoped written proposal within 1 working day."/>
+<meta name="keywords" content="US incorporation intake form, Delaware LLC application India, C-Corp application Indian founder, Doola alternative questionnaire, Stripe Atlas alternative form"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/us-incorporation-intake.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="US Incorporation Intake - BQP"/>
+<meta property="og:description" content="LLC or C-Corp intake questionnaire for Indian founders. Submit for a scoped written proposal from CA Durgesh Chavda."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/us-incorporation-intake.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  :root{
+    --red:#C2312A; --ink:#1a1613; --ink-2:#5a5147; --ink-3:#857968;
+    --cream:#f8f3e8; --border:#ece4d5; --line-strong:#e5dfd4;
+  }
+  .intake-hero{padding:120px 5vw 40px;max-width:1200px;margin:0 auto}
+  .intake-hero .kicker{font:600 12px Inter;color:var(--red);letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .intake-hero h1{font:400 clamp(32px,4.4vw,56px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:var(--ink);margin:0 0 20px;max-width:900px}
+  .intake-hero h1 em{font-style:normal;color:var(--red)}
+  .intake-hero .lead{font-size:16px;line-height:1.6;color:var(--ink-2);max-width:780px;margin-bottom:20px}
+  .intake-hero .trust-row{display:flex;flex-wrap:wrap;gap:10px;font:500 12px Inter;color:var(--ink-3);letter-spacing:.04em;text-transform:uppercase}
+  .intake-hero .trust-row span{padding:6px 12px;background:var(--cream);border:1px solid var(--border);border-radius:4px}
+
+  .intake-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto}
+
+  .progress-wrap{background:#fff;border:1px solid var(--border);border-radius:6px;padding:18px 22px;margin-bottom:16px;position:sticky;top:16px;z-index:20}
+  .progress-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font:600 12px Inter;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase}
+  .progress-head .step{color:var(--red)}
+  .progress-bar{height:6px;background:var(--cream);border-radius:3px;overflow:hidden}
+  .progress-fill{height:100%;background:var(--red);width:0;transition:width .3s ease}
+
+  .step-panel{background:#fff;border:1px solid var(--border);border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:14px;display:none}
+  .step-panel.active{display:block}
+  .step-panel h2{font:600 clamp(20px,2.4vw,28px) Inter;letter-spacing:-.01em;color:var(--ink);margin:0 0 10px;line-height:1.2}
+  .step-panel .step-intro{font:400 14px Inter;color:var(--ink-2);line-height:1.6;margin:0 0 24px;max-width:700px}
+
+  .choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+  @media(max-width:720px){.choice-grid{grid-template-columns:1fr}}
+  .choice-card{display:block;padding:28px;background:var(--cream);border:2px solid var(--border);border-radius:8px;cursor:pointer;text-decoration:none;color:inherit;transition:all .15s ease}
+  .choice-card:hover{border-color:var(--red);transform:translateY(-2px)}
+  .choice-card.selected{border-color:var(--red);background:#fff;box-shadow:0 0 0 3px rgba(194,49,42,.08)}
+  .choice-card .ct{font:600 20px Inter;color:var(--ink);margin:0 0 8px;letter-spacing:-.01em}
+  .choice-card .ct em{font-style:normal;color:var(--red)}
+  .choice-card .cd{font:400 14px Inter;color:var(--ink-2);line-height:1.55;margin:0 0 14px}
+  .choice-card ul{margin:10px 0 0 0;padding:0;list-style:none}
+  .choice-card ul li{position:relative;padding:4px 0 4px 18px;font:400 13px Inter;color:var(--ink);line-height:1.45}
+  .choice-card ul li:before{content:"→";position:absolute;left:0;color:var(--red);font-weight:600}
+  .choice-card .pick-hint{display:inline-block;margin-top:16px;padding:6px 12px;background:var(--red);color:#fff;border-radius:4px;font:600 11px Inter;letter-spacing:.06em;text-transform:uppercase}
+  .choice-card.selected .pick-hint::after{content:" ✓"}
+
+  .field-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+  @media(max-width:640px){.field-row{grid-template-columns:1fr}}
+  .field{display:block;margin-bottom:14px}
+  .field label{display:block;font:600 12px Inter;color:var(--ink);letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .req{color:var(--red);font-weight:700}
+  .field label .hint{display:block;font:400 11px Inter;color:var(--ink-3);text-transform:none;letter-spacing:0;margin-top:3px;line-height:1.4}
+  .field input, .field select, .field textarea{
+    width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:4px;
+    font:400 14px Inter;color:var(--ink);background:#fff;box-sizing:border-box;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{
+    outline:none;border-color:var(--red);box-shadow:0 0 0 3px rgba(194,49,42,.08)
+  }
+  .field textarea{min-height:88px;resize:vertical;font-family:Inter,sans-serif}
+  .field .radio-row, .field .check-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+  .field .radio-row label, .field .check-row label{
+    display:inline-flex;align-items:center;gap:8px;padding:8px 14px;
+    background:var(--cream);border:1px solid var(--border);border-radius:4px;cursor:pointer;
+    font:500 13px Inter;color:var(--ink);text-transform:none;letter-spacing:0;margin:0;
+  }
+  .field .radio-row label:hover, .field .check-row label:hover{border-color:var(--red)}
+  .field .radio-row input, .field .check-row input{width:auto;margin:0}
+  .field-group{padding:18px;background:var(--cream);border:1px solid var(--border);border-radius:6px;margin-bottom:14px}
+  .field-group h3{font:600 14px Inter;color:var(--ink);margin:0 0 14px;letter-spacing:-.01em}
+  .conditional{display:none}
+  .conditional.show{display:block}
+  .owner-block{padding:16px;background:#fff;border:1px solid var(--border);border-radius:6px;margin-bottom:10px}
+  .owner-block .owner-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .owner-block .owner-head h4{font:600 13px Inter;margin:0;color:var(--red);letter-spacing:.04em;text-transform:uppercase}
+  .add-owner-btn, .remove-owner-btn{padding:6px 12px;background:transparent;color:var(--red);border:1px solid var(--red);border-radius:4px;font:600 11px Inter;letter-spacing:.05em;text-transform:uppercase;cursor:pointer}
+  .add-owner-btn:hover{background:var(--red);color:#fff}
+
+  .nav-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:28px;padding-top:22px;border-top:1px solid var(--border)}
+  .btn-back{padding:12px 22px;background:transparent;color:var(--ink);border:1px solid var(--line-strong);border-radius:4px;font:600 13px Inter;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
+  .btn-next{padding:12px 24px;background:var(--red);color:#fff;border:0;border-radius:4px;font:600 13px Inter;cursor:pointer;letter-spacing:-.01em}
+  .btn-submit{padding:14px 28px;background:var(--red);color:#fff;border:0;border-radius:4px;font:600 14px Inter;cursor:pointer;letter-spacing:-.01em}
+  .btn-back:hover, .btn-next:hover, .btn-submit:hover{opacity:.9}
+
+  .fallback-box{padding:18px;background:var(--cream);border:1px solid var(--border);border-radius:6px;margin-top:16px;font:400 13px Inter;color:var(--ink-2);line-height:1.55}
+  .fallback-box strong{color:var(--ink);font-weight:600}
+  .fallback-box a{color:var(--red);text-decoration:underline}
+  .fallback-box textarea{margin-top:10px;width:100%;min-height:160px;padding:10px;border:1px solid var(--border);border-radius:4px;font:400 12px Inter;background:#fff;box-sizing:border-box}
+
+  .success-panel{display:none;padding:40px;background:#fff;border:1px solid var(--border);border-radius:8px;text-align:center}
+  .success-panel.show{display:block}
+  .success-panel .check{width:72px;height:72px;background:var(--red);color:#fff;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font:700 32px Inter;margin-bottom:18px}
+  .success-panel h2{font:400 clamp(24px,3vw,36px) Inter;text-transform:uppercase;letter-spacing:-.02em;color:var(--ink);margin:0 0 14px}
+  .success-panel h2 em{font-style:normal;color:var(--red)}
+  .success-panel p{font-size:15px;line-height:1.6;color:var(--ink-2);max-width:620px;margin:0 auto 14px}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","name":"US Incorporation Intake","url":"https://bharatquantumprospera.com/us-incorporation-intake.html","description":"Full intake questionnaire for Indian founders setting up a US LLC or C-Corp. Routed to CA Durgesh Chavda for a scoped written proposal.","mainEntity":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"US Incorporation","item":"https://bharatquantumprospera.com/us-incorporation.html"},{"@type":"ListItem","position":3,"name":"Intake","item":"https://bharatquantumprospera.com/us-incorporation-intake.html"}]}</script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+
+<main>
+
+<section class="intake-hero">
+  <p class="kicker">/ US Incorporation Intake</p>
+  <h1>Start your US <em>LLC or C-Corp.</em></h1>
+  <p class="lead">Full intake for Indian founders setting up a US entity. Pick LLC or C-Corp first; then run through the questionnaire. The data goes straight to CA Durgesh Chavda who comes back within one working day with a scoped written proposal, timeline, and fee. No AI chatbot, no sales funnel &mdash; a working CA reads your submission.</p>
+  <div class="trust-row">
+    <span>5-8 min to complete</span>
+    <span>Direct to Durgesh</span>
+    <span>Written proposal in 1 working day</span>
+    <span>No obligation</span>
+  </div>
+</section>
+
+<section class="intake-main">
+
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-head">
+      <span>Step <span class="step" id="currentStep">1</span> of <span id="totalSteps">7</span></span>
+      <span id="stepTitle">Entity Choice</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <form id="intakeForm" onsubmit="return submitIntake(event)">
+
+  <!-- STEP 1: Entity choice -->
+  <div class="step-panel active" data-step="1" data-title="Entity Choice">
+    <h2>Step 1 &mdash; Entity type</h2>
+    <p class="step-intro">The single most consequential decision. Pick based on whether you plan to raise US venture capital in the next 12-18 months. If unsure, pick the LLC path and we scope it on the call. You can switch to C-Corp via tax-free F-reorganization later.</p>
+
+    <div class="choice-grid">
+      <label class="choice-card" data-choice="llc">
+        <input type="radio" name="entity_type" value="LLC" style="display:none" required/>
+        <p class="ct">Wyoming or Delaware <em>LLC</em></p>
+        <p class="cd">Lower cost, pass-through tax, privacy-friendly. Best for bootstrapped founders, cash-flow businesses, consulting, Stripe-serving SaaS without near-term US VC plans.</p>
+        <ul>
+          <li>Lower annual cost than C-Corp</li>
+          <li>Pass-through tax (no entity-level US tax)</li>
+          <li>NOT fundable by US venture capital</li>
+          <li>Convertible to C-Corp later via F-reorg if plans change</li>
+        </ul>
+        <span class="pick-hint">Pick LLC</span>
+      </label>
+
+      <label class="choice-card" data-choice="ccorp">
+        <input type="radio" name="entity_type" value="C-Corp" style="display:none"/>
+        <p class="ct">Delaware <em>C-Corp</em></p>
+        <p class="cd">The default for US-VC-track startups. Enables 83(b) founder equity, QSBS Section 1202 clock, standard preferred-stock machinery. Required by nearly every US VC term sheet.</p>
+        <ul>
+          <li>VC-fundable &mdash; standard investment structure</li>
+          <li>83(b) + QSBS 5-year clock starts at incorporation</li>
+          <li>Higher annual compliance (Form 1120, state filings)</li>
+          <li>Double-taxed at the entity level + shareholder level on distributions</li>
+        </ul>
+        <span class="pick-hint">Pick C-Corp</span>
+      </label>
+    </div>
+
+    <div class="nav-row">
+      <a href="us-incorporation.html" class="btn-back">&larr; Back to US Incorporation</a>
+      <button type="button" class="btn-next" onclick="goStep(2)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 2: Founder details -->
+  <div class="step-panel" data-step="2" data-title="You">
+    <h2>Step 2 &mdash; Primary applicant</h2>
+    <p class="step-intro">About you &mdash; the person we'll correspond with on this engagement. This is also the primary signatory on filings.</p>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Full legal name <span class="req">*</span><span class="hint">As per passport. We'll use this on filings.</span></label>
+        <input type="text" name="full_name" required/>
+      </div>
+      <div class="field">
+        <label>Date of birth <span class="req">*</span></label>
+        <input type="date" name="dob" required/>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Email <span class="req">*</span></label>
+        <input type="email" name="email" required/>
+      </div>
+      <div class="field">
+        <label>WhatsApp (with country code) <span class="req">*</span><span class="hint">Fastest route for scoping call scheduling.</span></label>
+        <input type="tel" name="whatsapp" placeholder="+91 ..." required/>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Country of residence <span class="req">*</span></label>
+        <input type="text" name="country" placeholder="e.g., India" required/>
+      </div>
+      <div class="field">
+        <label>Nationality (per passport) <span class="req">*</span></label>
+        <input type="text" name="nationality" required/>
+      </div>
+    </div>
+    <div class="field">
+      <label>Current residential address <span class="req">*</span><span class="hint">Required for KYC. Must match a utility bill or bank statement less than 3 months old.</span></label>
+      <textarea name="address" required></textarea>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Do you have a US SSN or ITIN?</label>
+        <div class="radio-row">
+          <label><input type="radio" name="has_ssn_itin" value="SSN"/>Yes &mdash; SSN</label>
+          <label><input type="radio" name="has_ssn_itin" value="ITIN"/>Yes &mdash; ITIN</label>
+          <label><input type="radio" name="has_ssn_itin" value="No" checked/>No</label>
+        </div>
+      </div>
+      <div class="field">
+        <label>Current US presence (immigration status)</label>
+        <select name="us_status">
+          <option value="None">None &mdash; not a US resident</option>
+          <option value="Visitor">Visitor visa (B1/B2)</option>
+          <option value="Student">Student (F-1)</option>
+          <option value="H-1B">Employment visa (H-1B / L-1 / O-1)</option>
+          <option value="GreenCard">Green card holder</option>
+          <option value="Citizen">US citizen</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(1)">&larr; Back</button>
+      <button type="button" class="btn-next" onclick="goStep(3)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 3: Business basics -->
+  <div class="step-panel" data-step="3" data-title="Your Business">
+    <h2>Step 3 &mdash; Your business</h2>
+    <p class="step-intro">Tell us what the business does. This drives the right state, the activity classification, and the ongoing compliance footprint.</p>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Preferred business name (1st choice) <span class="req">*</span></label>
+        <input type="text" name="name_1" required/>
+      </div>
+      <div class="field">
+        <label>Alternative name (2nd choice) <span class="hint">In case first name is unavailable in the chosen state.</span></label>
+        <input type="text" name="name_2"/>
+      </div>
+    </div>
+    <div class="field">
+      <label>Alternative name (3rd choice)</label>
+      <input type="text" name="name_3"/>
+    </div>
+    <div class="field">
+      <label>What does the business do? <span class="req">*</span><span class="hint">In 2-3 sentences: product/service, who you serve, how you make money.</span></label>
+      <textarea name="business_description" required></textarea>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Primary industry <span class="req">*</span></label>
+        <select name="industry" required>
+          <option value="">Select...</option>
+          <option>SaaS / Software</option>
+          <option>AI / ML</option>
+          <option>Fintech / Payments</option>
+          <option>E-commerce / D2C</option>
+          <option>Marketplace</option>
+          <option>Media / Content</option>
+          <option>Consulting / Services</option>
+          <option>Agency (digital / design / marketing)</option>
+          <option>Mobile Apps / Games</option>
+          <option>Hardware / IoT</option>
+          <option>Healthcare / Biotech</option>
+          <option>Education / EdTech</option>
+          <option>Real Estate</option>
+          <option>Trading / Logistics</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Current stage</label>
+        <select name="stage">
+          <option>Idea / pre-revenue</option>
+          <option>MVP / early users, no revenue</option>
+          <option>Revenue, under USD 10K/month</option>
+          <option>Revenue, USD 10-50K/month</option>
+          <option>Revenue, USD 50K+/month</option>
+          <option>Operating business &mdash; multi-year</option>
+        </select>
+      </div>
+    </div>
+    <div class="field">
+      <label>Do you already have an Indian company (Pvt Ltd / LLP / Proprietorship)?</label>
+      <div class="radio-row">
+        <label><input type="radio" name="existing_india_entity" value="Yes - Pvt Ltd"/>Yes &mdash; Pvt Ltd</label>
+        <label><input type="radio" name="existing_india_entity" value="Yes - LLP"/>Yes &mdash; LLP</label>
+        <label><input type="radio" name="existing_india_entity" value="Yes - Proprietor"/>Yes &mdash; Proprietor</label>
+        <label><input type="radio" name="existing_india_entity" value="No" checked/>No</label>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(2)">&larr; Back</button>
+      <button type="button" class="btn-next" onclick="goStep(4)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 4: Operations + customers -->
+  <div class="step-panel" data-step="4" data-title="Operations">
+    <h2>Step 4 &mdash; Operations &amp; customers</h2>
+    <p class="step-intro">Where your customers, team, and money live. This drives state selection, nexus questions, and sales-tax exposure.</p>
+
+    <div class="field">
+      <label>Where will your customers be located? (select all)</label>
+      <div class="check-row">
+        <label><input type="checkbox" name="customer_geo" value="US"/>United States</label>
+        <label><input type="checkbox" name="customer_geo" value="India"/>India</label>
+        <label><input type="checkbox" name="customer_geo" value="UK"/>UK</label>
+        <label><input type="checkbox" name="customer_geo" value="EU"/>EU</label>
+        <label><input type="checkbox" name="customer_geo" value="UAE"/>UAE</label>
+        <label><input type="checkbox" name="customer_geo" value="Singapore"/>Singapore</label>
+        <label><input type="checkbox" name="customer_geo" value="Global"/>Global / other</label>
+      </div>
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>Will you have any US-based employees in Year 1?</label>
+        <div class="radio-row">
+          <label><input type="radio" name="us_employees" value="Yes" />Yes</label>
+          <label><input type="radio" name="us_employees" value="No" checked/>No</label>
+          <label><input type="radio" name="us_employees" value="Unsure"/>Unsure</label>
+        </div>
+      </div>
+      <div class="field">
+        <label>Will you have physical presence in the US? (office, inventory, warehouse)</label>
+        <div class="radio-row">
+          <label><input type="radio" name="us_physical" value="Yes"/>Yes</label>
+          <label><input type="radio" name="us_physical" value="No" checked/>No</label>
+          <label><input type="radio" name="us_physical" value="Unsure"/>Unsure</label>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <label>Which payment platforms do you plan to use? (select all that apply)</label>
+      <div class="check-row">
+        <label><input type="checkbox" name="payment_platforms" value="Stripe"/>Stripe</label>
+        <label><input type="checkbox" name="payment_platforms" value="PayPal"/>PayPal</label>
+        <label><input type="checkbox" name="payment_platforms" value="Wise"/>Wise</label>
+        <label><input type="checkbox" name="payment_platforms" value="Square"/>Square</label>
+        <label><input type="checkbox" name="payment_platforms" value="Shopify Payments"/>Shopify Payments</label>
+        <label><input type="checkbox" name="payment_platforms" value="App Store / Play"/>App Store / Play</label>
+        <label><input type="checkbox" name="payment_platforms" value="Unsure"/>Unsure yet</label>
+      </div>
+    </div>
+    <div class="field">
+      <label>Expected first-year revenue</label>
+      <select name="y1_revenue">
+        <option>Zero / pre-revenue</option>
+        <option>Under USD 50K</option>
+        <option>USD 50K-250K</option>
+        <option>USD 250K-1M</option>
+        <option>USD 1M+</option>
+        <option>Unsure</option>
+      </select>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(3)">&larr; Back</button>
+      <button type="button" class="btn-next" onclick="goStep(5)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 5: Ownership -->
+  <div class="step-panel" data-step="5" data-title="Ownership">
+    <h2>Step 5 &mdash; Ownership structure</h2>
+    <p class="step-intro">Who owns the entity. Needed for KYC, Form 5472 analysis, 83(b) planning, and BOIR/CTA eligibility.</p>
+
+    <div class="field-row">
+      <div class="field">
+        <label>How many owners / members / shareholders in total? <span class="req">*</span></label>
+        <select name="num_owners" required>
+          <option value="1">1 (just me)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5+">5 or more</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Will any owner be an Indian entity (Pvt Ltd / LLP) rather than an individual?</label>
+        <div class="radio-row">
+          <label><input type="radio" name="corporate_owner" value="Yes"/>Yes</label>
+          <label><input type="radio" name="corporate_owner" value="No" checked/>No</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <h3>Co-owners (if any, besides you)</h3>
+      <p style="font:400 12px Inter;color:var(--ink-3);margin:0 0 14px;line-height:1.5">Add each co-owner's basic details. We'll collect full KYC after engagement.</p>
+      <div id="ownersWrap">
+        <!-- co-owner blocks added by JS -->
+      </div>
+      <button type="button" class="add-owner-btn" onclick="addOwner()">+ Add co-owner</button>
+    </div>
+
+    <div class="field">
+      <label>Expected ownership split <span class="hint">E.g., "Founder 60% / Co-founder 40%" or "50/50 equal split"</span></label>
+      <input type="text" name="ownership_split" placeholder="e.g., Me 50% / Partner 50%"/>
+    </div>
+
+    <div class="field">
+      <label>Any investors / angels / VCs already committed?</label>
+      <div class="radio-row">
+        <label><input type="radio" name="investors_committed" value="Yes" id="investors_yes"/>Yes</label>
+        <label><input type="radio" name="investors_committed" value="Discussions" id="investors_discussion"/>In discussions</label>
+        <label><input type="radio" name="investors_committed" value="No" checked/>No</label>
+      </div>
+    </div>
+    <div class="field conditional" id="investors_detail_wrap">
+      <label>Tell us about committed / in-discussion investors<span class="hint">Names, cheque sizes, instrument (SAFE / equity / CCPS), expected close.</span></label>
+      <textarea name="investor_details"></textarea>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(4)">&larr; Back</button>
+      <button type="button" class="btn-next" onclick="goStep(6)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 6: Services needed + timeline -->
+  <div class="step-panel" data-step="6" data-title="Scope">
+    <h2>Step 6 &mdash; Scope of engagement</h2>
+    <p class="step-intro">What you want BQP to handle. The incorporation is the start; the end-to-end package usually includes several of these.</p>
+
+    <div class="field-group">
+      <h3>Core services (select what you want in scope)</h3>
+      <div class="check-row" style="flex-direction:column;align-items:flex-start">
+        <label><input type="checkbox" name="svc" value="State formation" checked/>State formation (Certificate of Incorporation / Formation)</label>
+        <label><input type="checkbox" name="svc" value="Registered agent" checked/>Registered agent setup</label>
+        <label><input type="checkbox" name="svc" value="EIN" checked/>EIN application (Form SS-4, non-SSN route)</label>
+        <label><input type="checkbox" name="svc" value="Operating Agreement / Bylaws" checked/>Operating Agreement (LLC) or Bylaws + Shareholder Agreement (C-Corp)</label>
+        <label><input type="checkbox" name="svc" value="Bank intro"/>Mercury / Brex business bank account introduction</label>
+        <label><input type="checkbox" name="svc" value="Stripe setup"/>Stripe business account setup (post-EIN)</label>
+        <label><input type="checkbox" name="svc" value="FEMA ODI"/>FEMA ODI compliance on India side (Form ODI, LRS)</label>
+        <label><input type="checkbox" name="svc" value="83(b)"/>83(b) election for founder restricted stock (C-Corp only, 30-day window)</label>
+        <label><input type="checkbox" name="svc" value="Flip from India"/>Flip existing Indian company to Delaware parent (share-swap)</label>
+      </div>
+    </div>
+
+    <div class="field-group">
+      <h3>Ongoing compliance (annual)</h3>
+      <div class="check-row" style="flex-direction:column;align-items:flex-start">
+        <label><input type="checkbox" name="ongoing" value="Franchise tax"/>Delaware franchise tax annual filing</label>
+        <label><input type="checkbox" name="ongoing" value="Form 5472"/>Form 5472 + pro forma 1120 (foreign-owned LLCs)</label>
+        <label><input type="checkbox" name="ongoing" value="Form 1120"/>Full Form 1120 (C-Corp annual return)</label>
+        <label><input type="checkbox" name="ongoing" value="State filings"/>State registrations / foreign qualification</label>
+        <label><input type="checkbox" name="ongoing" value="Bookkeeping"/>Bookkeeping and monthly accounting</label>
+        <label><input type="checkbox" name="ongoing" value="Transfer pricing"/>Transfer pricing documentation (if India-US inter-co flow)</label>
+        <label><input type="checkbox" name="ongoing" value="Not sure"/>Not sure &mdash; scope on the call</label>
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>How soon do you want to incorporate? <span class="req">*</span></label>
+        <select name="timeline" required>
+          <option>ASAP &mdash; this week</option>
+          <option>Within 2-4 weeks</option>
+          <option>Within 1-3 months</option>
+          <option>3-6 months</option>
+          <option>Exploring only &mdash; no timeline yet</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Have you tried another provider (Stripe Atlas, Doola, Firstbase, LegalZoom, another CA)?</label>
+        <div class="radio-row">
+          <label><input type="radio" name="other_provider" value="Yes"/>Yes</label>
+          <label><input type="radio" name="other_provider" value="No" checked/>No</label>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <label>If yes to above, what and what wasn't working?</label>
+      <textarea name="other_provider_detail" placeholder="e.g., 'Stripe Atlas but their support won't help with FEMA ODI' or 'Doola but EIN taking too long'"></textarea>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(5)">&larr; Back</button>
+      <button type="button" class="btn-next" onclick="goStep(7)">Continue &rarr;</button>
+    </div>
+  </div>
+
+  <!-- STEP 7: Final notes + submit -->
+  <div class="step-panel" data-step="7" data-title="Review &amp; submit">
+    <h2>Step 7 &mdash; Anything else?</h2>
+    <p class="step-intro">Last step. Anything we should know &mdash; prior entities, specific tax concerns, a hard deadline, an upcoming VC conversation &mdash; drop it here. Then submit; Durgesh reads every intake personally.</p>
+
+    <div class="field">
+      <label>Additional context</label>
+      <textarea name="notes" placeholder="E.g., 'Series A term sheet from a US VC expected in 90 days, need to be VC-ready' or 'My existing Stripe Atlas LLC has 2 missed Form 5472 years, need cleanup'" style="min-height:120px"></textarea>
+    </div>
+
+    <div class="field">
+      <label>How did you find us?</label>
+      <select name="source">
+        <option value="">Select...</option>
+        <option>Google search</option>
+        <option>LinkedIn (Durgesh posts)</option>
+        <option>Referral from a founder / friend</option>
+        <option>Referral from an accelerator / VC</option>
+        <option>Guide on bharatquantumprospera.com</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label><input type="checkbox" name="consent" required/> I understand this intake goes to CA Durgesh Chavda and consent to receive a scoped written proposal via email / WhatsApp. <span class="req">*</span></label>
+    </div>
+
+    <div class="nav-row">
+      <button type="button" class="btn-back" onclick="goStep(6)">&larr; Back</button>
+      <button type="submit" class="btn-submit">Submit intake &rarr;</button>
+    </div>
+
+    <div class="fallback-box" id="fallbackBox" style="display:none">
+      <p><strong>Email client did not open?</strong> Copy the text below and email it to <a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a>, or paste into WhatsApp: <a href="https://wa.me/917801887130" target="_blank" rel="noopener">+91 78018 87130</a>.</p>
+      <textarea id="fallbackText" readonly onclick="this.select()"></textarea>
+    </div>
+  </div>
+
+  </form>
+
+  <div class="success-panel" id="successPanel">
+    <div class="check">✓</div>
+    <h2>Intake <em>sent.</em></h2>
+    <p>Thank you. CA Durgesh Chavda has received your submission. You'll hear back within one working day (Mon-Sat IST) with a scoped written proposal, timeline and fee.</p>
+    <p>If you prefer to WhatsApp a quick follow-up or have an urgent timeline, Durgesh is at <a href="https://wa.me/917801887130" target="_blank" rel="noopener" style="color:#C2312A">+91 78018 87130</a> or email <a href="mailto:durgesh@bharatquantumprospera.com" style="color:#C2312A">durgesh@bharatquantumprospera.com</a>.</p>
+    <p style="margin-top:28px"><a href="insights.html" style="display:inline-flex;align-items:center;padding:12px 24px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px">Browse the Insights library while you wait &rarr;</a></p>
+  </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3><p>A chartered advisory built for founders who think beyond borders.</p></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li><li><a href="us-incorporation.html">US Incorporation</a></li><li><a href="sme-ipo.html">IPO Services</a></li><li><a href="transfer-pricing.html">Transfer Pricing</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="about.html">About</a></li><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li><li><a href="press.html">Press / Media</a></li><li><a href="case-studies.html">Case Studies</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li><li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span><span>Ahmedabad &middot; Est. in Practice</span></div>
+  </div></div>
+</footer>
+
+<script>
+/* ======================================================================
+   INTAKE WIZARD — Configuration
+   ====================================================================== */
+
+// Where to deliver the intake. The code tries endpoints in order:
+//   1) FORMSPREE_ENDPOINT — if set, POSTs JSON to Formspree (recommended)
+//   2) GOOGLE_APPS_SCRIPT — if set, POSTs JSON to a GAS Web App
+//   3) Email fallback — opens Gmail compose (desktop) or mailto (mobile)
+//
+// To activate Formspree:
+//   - Sign up at https://formspree.io (free tier: 50 submissions/mo)
+//   - Create a new form, get the endpoint URL (looks like https://formspree.io/f/xyz123)
+//   - Paste it below in FORMSPREE_ENDPOINT
+//
+// To activate Google Apps Script → Sheet:
+//   - See /playbook/08-intake-backend.md for the full setup script
+//   - Deploy the GAS Web App, paste the deployment URL in GOOGLE_APPS_SCRIPT below
+//
+// Default (both blank) → email fallback via Gmail compose + mailto.
+
+var FORMSPREE_ENDPOINT = "";          // e.g., "https://formspree.io/f/xyz123"
+var GOOGLE_APPS_SCRIPT = "";          // e.g., "https://script.google.com/macros/s/.../exec"
+var INTAKE_TO_EMAIL = "durgesh@bharatquantumprospera.com";
+
+/* ======================================================================
+   WIZARD BEHAVIOUR
+   ====================================================================== */
+
+var TOTAL_STEPS = 7;
+var currentStepNum = 1;
+
+function goStep(n){
+  if (n < 1 || n > TOTAL_STEPS) return;
+  // Validate current step before advancing
+  if (n > currentStepNum) {
+    var currentPanel = document.querySelector('.step-panel[data-step="' + currentStepNum + '"]');
+    var required = currentPanel.querySelectorAll('[required]');
+    for (var i = 0; i < required.length; i++) {
+      if (!required[i].checkValidity()) {
+        required[i].reportValidity();
+        return;
+      }
+    }
+  }
+  // Hide all, show target
+  document.querySelectorAll('.step-panel').forEach(function(p){ p.classList.remove('active'); });
+  var target = document.querySelector('.step-panel[data-step="' + n + '"]');
+  if (target) {
+    target.classList.add('active');
+    currentStepNum = n;
+    updateProgress();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+}
+
+function updateProgress(){
+  var panel = document.querySelector('.step-panel[data-step="' + currentStepNum + '"]');
+  var title = panel ? panel.getAttribute('data-title') : '';
+  document.getElementById('currentStep').textContent = currentStepNum;
+  document.getElementById('totalSteps').textContent = TOTAL_STEPS;
+  document.getElementById('stepTitle').textContent = title;
+  var pct = (currentStepNum / TOTAL_STEPS) * 100;
+  document.getElementById('progressFill').style.width = pct + '%';
+}
+
+// Entity-choice card interaction
+document.querySelectorAll('.choice-card').forEach(function(card){
+  card.addEventListener('click', function(){
+    document.querySelectorAll('.choice-card').forEach(function(c){ c.classList.remove('selected'); });
+    card.classList.add('selected');
+    var input = card.querySelector('input[type="radio"]');
+    if (input) { input.checked = true; }
+  });
+});
+
+// Investors conditional
+function updateInvestorsConditional(){
+  var yes = document.getElementById('investors_yes').checked;
+  var dis = document.getElementById('investors_discussion').checked;
+  var wrap = document.getElementById('investors_detail_wrap');
+  wrap.classList.toggle('show', yes || dis);
+}
+document.getElementById('investors_yes').addEventListener('change', updateInvestorsConditional);
+document.getElementById('investors_discussion').addEventListener('change', updateInvestorsConditional);
+document.querySelectorAll('input[name="investors_committed"]').forEach(function(r){
+  r.addEventListener('change', updateInvestorsConditional);
+});
+
+// Dynamic co-owner blocks
+var ownerCount = 0;
+function addOwner(){
+  if (ownerCount >= 4) {
+    alert('Up to 4 co-owners in intake. If you have more, mention in the Notes step and we scope on the call.');
+    return;
+  }
+  ownerCount++;
+  var wrap = document.getElementById('ownersWrap');
+  var block = document.createElement('div');
+  block.className = 'owner-block';
+  block.id = 'owner_' + ownerCount;
+  block.innerHTML =
+    '<div class="owner-head"><h4>Co-owner ' + ownerCount + '</h4><button type="button" class="remove-owner-btn" onclick="removeOwner(' + ownerCount + ')">Remove</button></div>' +
+    '<div class="field-row">' +
+      '<div class="field"><label>Full name</label><input type="text" name="co_name_' + ownerCount + '"/></div>' +
+      '<div class="field"><label>Email</label><input type="email" name="co_email_' + ownerCount + '"/></div>' +
+    '</div>' +
+    '<div class="field-row">' +
+      '<div class="field"><label>Country of residence</label><input type="text" name="co_country_' + ownerCount + '"/></div>' +
+      '<div class="field"><label>% ownership</label><input type="text" name="co_pct_' + ownerCount + '" placeholder="e.g., 40%"/></div>' +
+    '</div>';
+  wrap.appendChild(block);
+}
+function removeOwner(n){
+  var el = document.getElementById('owner_' + n);
+  if (el) el.remove();
+}
+
+/* ======================================================================
+   SUBMISSION
+   ====================================================================== */
+
+function serializeForm(form){
+  var data = {};
+  var formData = new FormData(form);
+  for (var pair of formData.entries()) {
+    var k = pair[0], v = pair[1];
+    if (data[k] === undefined) {
+      data[k] = v;
+    } else if (Array.isArray(data[k])) {
+      data[k].push(v);
+    } else {
+      data[k] = [data[k], v];
+    }
+  }
+  data._submitted_at = new Date().toISOString();
+  data._source_url = window.location.href;
+  return data;
+}
+
+function buildEmailBody(data){
+  var out = ['BQP US Incorporation Intake', '='.repeat(40), ''];
+  out.push('ENTITY: ' + (data.entity_type || '(not selected)'));
+  out.push('');
+  out.push('--- Primary applicant ---');
+  out.push('Name: ' + (data.full_name || ''));
+  out.push('DOB: ' + (data.dob || ''));
+  out.push('Email: ' + (data.email || ''));
+  out.push('WhatsApp: ' + (data.whatsapp || ''));
+  out.push('Country: ' + (data.country || ''));
+  out.push('Nationality: ' + (data.nationality || ''));
+  out.push('Address: ' + (data.address || ''));
+  out.push('Has SSN/ITIN: ' + (data.has_ssn_itin || ''));
+  out.push('US status: ' + (data.us_status || ''));
+  out.push('');
+  out.push('--- Business ---');
+  out.push('Name 1: ' + (data.name_1 || ''));
+  out.push('Name 2: ' + (data.name_2 || ''));
+  out.push('Name 3: ' + (data.name_3 || ''));
+  out.push('Description: ' + (data.business_description || ''));
+  out.push('Industry: ' + (data.industry || ''));
+  out.push('Stage: ' + (data.stage || ''));
+  out.push('Existing India entity: ' + (data.existing_india_entity || ''));
+  out.push('');
+  out.push('--- Operations ---');
+  var geo = Array.isArray(data.customer_geo) ? data.customer_geo.join(', ') : data.customer_geo || '';
+  out.push('Customer geographies: ' + geo);
+  out.push('US employees: ' + (data.us_employees || ''));
+  out.push('US physical presence: ' + (data.us_physical || ''));
+  var pp = Array.isArray(data.payment_platforms) ? data.payment_platforms.join(', ') : data.payment_platforms || '';
+  out.push('Payment platforms: ' + pp);
+  out.push('Y1 revenue expected: ' + (data.y1_revenue || ''));
+  out.push('');
+  out.push('--- Ownership ---');
+  out.push('Number of owners: ' + (data.num_owners || ''));
+  out.push('Corporate owner (Indian entity): ' + (data.corporate_owner || ''));
+  out.push('Ownership split: ' + (data.ownership_split || ''));
+  for (var i = 1; i <= 4; i++) {
+    if (data['co_name_' + i]) {
+      out.push('Co-owner ' + i + ': ' + data['co_name_' + i] + ' | ' + (data['co_email_' + i] || '') + ' | ' + (data['co_country_' + i] || '') + ' | ' + (data['co_pct_' + i] || ''));
+    }
+  }
+  out.push('Investors status: ' + (data.investors_committed || ''));
+  if (data.investor_details) { out.push('Investor details: ' + data.investor_details); }
+  out.push('');
+  out.push('--- Scope ---');
+  var svc = Array.isArray(data.svc) ? data.svc.join(', ') : data.svc || '';
+  out.push('Services wanted: ' + svc);
+  var ongoing = Array.isArray(data.ongoing) ? data.ongoing.join(', ') : data.ongoing || '';
+  out.push('Ongoing compliance: ' + ongoing);
+  out.push('Timeline: ' + (data.timeline || ''));
+  out.push('Other provider tried: ' + (data.other_provider || ''));
+  if (data.other_provider_detail) { out.push('Provider detail: ' + data.other_provider_detail); }
+  out.push('');
+  out.push('--- Notes ---');
+  out.push(data.notes || '(none)');
+  out.push('');
+  out.push('Source: ' + (data.source || ''));
+  out.push('Submitted at: ' + data._submitted_at);
+  out.push('Submitted from: ' + data._source_url);
+  return out.join('\n');
+}
+
+function submitIntake(event){
+  event.preventDefault();
+  var form = document.getElementById('intakeForm');
+  var data = serializeForm(form);
+
+  // Try Formspree first
+  if (FORMSPREE_ENDPOINT && FORMSPREE_ENDPOINT.indexOf('formspree.io') >= 0) {
+    fetch(FORMSPREE_ENDPOINT, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+      body: JSON.stringify(data)
+    }).then(function(r){
+      if (r.ok) { showSuccess(); } else { fallbackToEmail(data); }
+    }).catch(function(){ fallbackToEmail(data); });
+    return false;
+  }
+
+  // Try Google Apps Script
+  if (GOOGLE_APPS_SCRIPT && GOOGLE_APPS_SCRIPT.indexOf('script.google.com') >= 0) {
+    fetch(GOOGLE_APPS_SCRIPT, {
+      method: 'POST',
+      mode: 'no-cors',  // GAS Web Apps commonly block CORS pre-flight; no-cors sends the body opaquely
+      headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify(data)
+    }).then(function(){ showSuccess(); })
+      .catch(function(){ fallbackToEmail(data); });
+    return false;
+  }
+
+  // Default: email fallback
+  fallbackToEmail(data);
+  return false;
+}
+
+function fallbackToEmail(data){
+  var body = buildEmailBody(data);
+  var subject = 'US Incorporation Intake — ' + (data.full_name || 'new founder') + ' (' + (data.country || '') + ', ' + (data.entity_type || '') + ')';
+  var gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&tf=1'
+               + '&to=' + encodeURIComponent(INTAKE_TO_EMAIL)
+               + '&su=' + encodeURIComponent(subject)
+               + '&body=' + encodeURIComponent(body);
+  var mailtoUrl = 'mailto:' + INTAKE_TO_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  var w = window.open(gmailUrl, '_blank', 'noopener');
+  if (!w) { window.location.href = mailtoUrl; }
+  // Show the fallback text box so the user can also copy-paste if their email client doesn't open
+  document.getElementById('fallbackText').value = body;
+  document.getElementById('fallbackBox').style.display = 'block';
+  // After a 2s delay, also show the success-ish state
+  setTimeout(function(){ showSuccess(true); }, 2000);
+}
+
+function showSuccess(viaEmail){
+  document.getElementById('intakeForm').style.display = 'none';
+  document.getElementById('progressWrap').style.display = 'none';
+  document.getElementById('successPanel').classList.add('show');
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+
+// Initialise
+updateProgress();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

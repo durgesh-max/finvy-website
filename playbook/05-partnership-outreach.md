@@ -52,8 +52,8 @@ Durgesh Chavda, founder of Bharat Quantum Prospera. We're a CA-led cross-border 
 Reaching out about a service-provider partnership for [Accelerator] portfolio companies. Specifically:
 
 **What we'd offer your portfolio companies:**
-→ Fixed-price US incorporation package (Delaware or Wyoming + EIN + Mercury intro + FEMA ODI + 83(b)) at INR 85,000 (vs standard INR 99,000) — flat 15% portfolio discount
-→ Form 5472 annual filing at INR 20,000/year (vs standard INR 25,000) for life of the entity
+→ Fixed-scope US incorporation package (Delaware or Wyoming + EIN + Mercury intro + FEMA ODI + 83(b)) — flat portfolio discount off standard scoped pricing
+→ Form 5472 annual filing — portfolio discount off standard scoped pricing for life of the entity
 → Free 30-minute scoping call for any [Accelerator] founder — same priority queue as regular clients
 → A free US-Incorporation + Compliance workshop for each cohort batch (one 90-minute session per cohort)
 

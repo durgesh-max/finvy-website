@@ -73,21 +73,23 @@ While waiting for verification, no public profile is visible. Don't post publicl
 
 | Service | Price |
 |---|---|
-| US LLC Incorporation (Delaware / Wyoming) | from ₹99,000 |
-| US C-Corp Incorporation (Delaware) | from ₹1,49,000 |
+| US LLC Incorporation (Delaware / Wyoming) | Scope-based |
+| US C-Corp Incorporation (Delaware) | Scope-based |
 | India-to-Delaware Flip Structure | Scope-based |
-| FEMA ODI Compliance | ₹35,000 per transaction |
-| Form 5472 Annual Filing | ₹25,000 per year |
-| FBAR Filing (US-person) | ₹15,000 per year |
+| FEMA ODI Compliance | Scope-based |
+| Form 5472 Annual Filing | Scope-based |
+| FBAR Filing (US-person) | Scope-based |
 | SME IPO End-to-End Advisory | Scope-based |
-| DPIIT Startup Registration | ₹35,000 |
-| ESOP Plan Design + 409A | from ₹1,50,000 |
-| Transfer Pricing Study (India + US) | from ₹2,50,000 |
-| Cross-Border Tax Structuring | ₹50,000 initial scope + mandate |
+| DPIIT Startup Registration | Scope-based |
+| ESOP Plan Design + 409A | Scope-based |
+| Transfer Pricing Study (India + US) | Scope-based |
+| Cross-Border Tax Structuring | Scope-based |
 | GIFT City IFSC Fund Setup | Scope-based |
-| NRI Tax Planning + Filing | from ₹15,000 |
+| NRI Tax Planning + Filing | Scope-based |
 | US-India Reverse Flip | Scope-based |
-| VC Term Sheet Review | from ₹30,000 |
+| VC Term Sheet Review | Scope-based |
+
+**Note on pricing:** every BQP service is scoped and priced in writing before engagement begins. We don't display fixed public prices because scope varies materially by case — a founder's exact entity choice, state, timeline, and compliance needs each change the final fee. "Scope-based" tells prospects we quote per situation. The free 20-30 min scoping call produces the written number.
 
 ### Products (link to specific site pages)
 

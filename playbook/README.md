@@ -24,6 +24,7 @@ Everything in this folder is paste-ready. Nothing requires editing beyond adding
 | 05 | `05-partnership-outreach.md` | 2-3 partnership outreach per month | LinkedIn warm-intros or direct emails |
 | 06 | `06-reddit-quora-answers.md` | 2 substantive answers per week on each platform | Reddit + Quora accounts with profile set up |
 | 07 | `07-gbp-execution.md` | 30-minute GBP setup, then weekly maintenance | Google account for BQP |
+| 08 | `08-intake-backend.md` | Wire the LLC/C-Corp intake form to Formspree or Google Sheet | Formspree signup OR Google account |
 
 ---
 

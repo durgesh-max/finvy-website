@@ -133,7 +133,7 @@
 <section class="intake-hero">
   <p class="kicker">/ US Incorporation Intake</p>
   <h1>Start your US <em>LLC or C-Corp.</em></h1>
-  <p class="lead">Full intake for Indian founders setting up a US entity. Pick LLC or C-Corp first; then run through the questionnaire. The data goes straight to CA Durgesh Chavda who comes back within one working day with a scoped written proposal, timeline, and fee. No AI chatbot, no sales funnel &mdash; a working CA reads your submission.</p>
+  <p class="lead">Full intake for Indian founders setting up a US entity. Pick LLC or C-Corp first; then run through the questionnaire. The data goes straight to Bharat Quantum Prospera; a working CA at the firm comes back within one working day with a scoped written proposal, timeline, and fee. No AI chatbot, no sales funnel &mdash; a human reads your submission.</p>
   <div class="trust-row">
     <span>5-8 min to complete</span>
     <span>Direct to Durgesh</span>
@@ -523,7 +523,7 @@
   <!-- STEP 7: Final notes + submit -->
   <div class="step-panel" data-step="7" data-title="Review &amp; submit">
     <h2>Step 7 &mdash; Anything else?</h2>
-    <p class="step-intro">Last step. Anything we should know &mdash; prior entities, specific tax concerns, a hard deadline, an upcoming VC conversation &mdash; drop it here. Then submit; Durgesh reads every intake personally.</p>
+    <p class="step-intro">Last step. Anything we should know &mdash; prior entities, specific tax concerns, a hard deadline, an upcoming VC conversation &mdash; drop it here. Then submit; the firm reads every intake personally.</p>
 
     <div class="field">
       <label>Additional context</label>
@@ -544,7 +544,7 @@
     </div>
 
     <div class="field">
-      <label><input type="checkbox" name="consent" required/> I understand this intake goes to CA Durgesh Chavda and consent to receive a scoped written proposal via email / WhatsApp. <span class="req">*</span></label>
+      <label><input type="checkbox" name="consent" required/> I understand this intake goes to Bharat Quantum Prospera and consent to receive a scoped written proposal via email / WhatsApp. <span class="req">*</span></label>
     </div>
 
     <div class="nav-row">
@@ -563,8 +563,8 @@
   <div class="success-panel" id="successPanel">
     <div class="check">✓</div>
     <h2>Intake <em>sent.</em></h2>
-    <p>Thank you. CA Durgesh Chavda has received your submission. You'll hear back within one working day (Mon-Sat IST) with a scoped written proposal, timeline and fee.</p>
-    <p>If you prefer to WhatsApp a quick follow-up or have an urgent timeline, Durgesh is at <a href="https://wa.me/917801887130" target="_blank" rel="noopener" style="color:#C2312A">+91 78018 87130</a> or email <a href="mailto:durgesh@bharatquantumprospera.com" style="color:#C2312A">durgesh@bharatquantumprospera.com</a>.</p>
+    <p>Thank you. Bharat Quantum Prospera has received your submission. You'll hear back within one working day (Mon-Sat IST) with a scoped written proposal, timeline and fee.</p>
+    <p>If you prefer to WhatsApp a quick follow-up or have an urgent timeline, reach the firm at <a href="https://wa.me/917801887130" target="_blank" rel="noopener" style="color:#C2312A">+91 78018 87130</a> or email <a href="mailto:durgesh@bharatquantumprospera.com" style="color:#C2312A">durgesh@bharatquantumprospera.com</a>.</p>
     <p style="margin-top:28px"><a href="insights.html" style="display:inline-flex;align-items:center;padding:12px 24px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px">Browse the Insights library while you wait &rarr;</a></p>
   </div>
 
@@ -589,24 +589,20 @@
    INTAKE WIZARD — Configuration
    ====================================================================== */
 
-// Where to deliver the intake. The code tries endpoints in order:
-//   1) FORMSPREE_ENDPOINT — if set, POSTs JSON to Formspree (recommended)
-//   2) GOOGLE_APPS_SCRIPT — if set, POSTs JSON to a GAS Web App
-//   3) Email fallback — opens Gmail compose (desktop) or mailto (mobile)
+// Submissions go directly to durgesh@bharatquantumprospera.com via FormSubmit.co
+// (zero-signup form backend). On the first-ever submission, FormSubmit sends a
+// one-time activation email to that address; clicking the link enables all
+// future submissions to arrive directly.
 //
-// To activate Formspree:
-//   - Sign up at https://formspree.io (free tier: 50 submissions/mo)
-//   - Create a new form, get the endpoint URL (looks like https://formspree.io/f/xyz123)
-//   - Paste it below in FORMSPREE_ENDPOINT
-//
-// To activate Google Apps Script → Sheet:
-//   - See /playbook/08-intake-backend.md for the full setup script
-//   - Deploy the GAS Web App, paste the deployment URL in GOOGLE_APPS_SCRIPT below
-//
-// Default (both blank) → email fallback via Gmail compose + mailto.
+// Fallback chain (in order of preference):
+//   1) FORMSUBMIT_EMAIL — default, no signup, delivers to the email directly
+//   2) FORMSPREE_ENDPOINT — if set, POSTs JSON to Formspree
+//   3) GOOGLE_APPS_SCRIPT — if set, POSTs JSON to a GAS Web App (routes to Sheet)
+//   4) Email fallback — opens Gmail compose (desktop) or mailto (mobile)
 
-var FORMSPREE_ENDPOINT = "";          // e.g., "https://formspree.io/f/xyz123"
-var GOOGLE_APPS_SCRIPT = "";          // e.g., "https://script.google.com/macros/s/.../exec"
+var FORMSUBMIT_EMAIL = "durgesh@bharatquantumprospera.com";  // default route
+var FORMSPREE_ENDPOINT = "";          // optional: "https://formspree.io/f/xyz123"
+var GOOGLE_APPS_SCRIPT = "";          // optional: "https://script.google.com/macros/s/.../exec"
 var INTAKE_TO_EMAIL = "durgesh@bharatquantumprospera.com";
 
 /* ======================================================================
@@ -791,34 +787,65 @@ function submitIntake(event){
   event.preventDefault();
   var form = document.getElementById('intakeForm');
   var data = serializeForm(form);
+  var submitBtn = form.querySelector('button[type="submit"]');
+  if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Sending…'; }
 
-  // Try Formspree first
+  // Default: FormSubmit.co — zero signup, delivers directly to the configured email
+  if (FORMSUBMIT_EMAIL) {
+    var fsPayload = Object.assign({}, data);
+    // FormSubmit controls — email subject, template formatting, disable captcha, no honeypot
+    fsPayload._subject = 'BQP US Incorporation Intake — ' + (data.full_name || 'new founder') + ' (' + (data.country || '') + ', ' + (data.entity_type || '') + ')';
+    fsPayload._template = 'table';
+    fsPayload._captcha = 'false';
+    // Flatten arrays so FormSubmit renders them cleanly in the table template
+    Object.keys(fsPayload).forEach(function(k){
+      if (Array.isArray(fsPayload[k])) { fsPayload[k] = fsPayload[k].join(', '); }
+    });
+    fetch('https://formsubmit.co/ajax/' + encodeURIComponent(FORMSUBMIT_EMAIL), {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
+      body: JSON.stringify(fsPayload)
+    }).then(function(r){ return r.json(); })
+      .then(function(j){
+        if (j && (j.success === 'true' || j.success === true)) { showSuccess(); }
+        else { tryNextBackend(data); }
+      })
+      .catch(function(){ tryNextBackend(data); });
+    return false;
+  }
+
+  tryNextBackend(data);
+  return false;
+}
+
+function tryNextBackend(data){
+  // Try Formspree
   if (FORMSPREE_ENDPOINT && FORMSPREE_ENDPOINT.indexOf('formspree.io') >= 0) {
     fetch(FORMSPREE_ENDPOINT, {
       method: 'POST',
       headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
       body: JSON.stringify(data)
     }).then(function(r){
-      if (r.ok) { showSuccess(); } else { fallbackToEmail(data); }
-    }).catch(function(){ fallbackToEmail(data); });
-    return false;
+      if (r.ok) { showSuccess(); } else { tryGasOrEmail(data); }
+    }).catch(function(){ tryGasOrEmail(data); });
+    return;
   }
+  tryGasOrEmail(data);
+}
 
+function tryGasOrEmail(data){
   // Try Google Apps Script
   if (GOOGLE_APPS_SCRIPT && GOOGLE_APPS_SCRIPT.indexOf('script.google.com') >= 0) {
     fetch(GOOGLE_APPS_SCRIPT, {
       method: 'POST',
-      mode: 'no-cors',  // GAS Web Apps commonly block CORS pre-flight; no-cors sends the body opaquely
+      mode: 'no-cors',
       headers: {'Content-Type': 'text/plain;charset=utf-8'},
       body: JSON.stringify(data)
     }).then(function(){ showSuccess(); })
       .catch(function(){ fallbackToEmail(data); });
-    return false;
+    return;
   }
-
-  // Default: email fallback
   fallbackToEmail(data);
-  return false;
 }
 
 function fallbackToEmail(data){

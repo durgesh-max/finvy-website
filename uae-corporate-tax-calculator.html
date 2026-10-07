@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>UAE Corporate Tax Calculator 2026 | 9% + QFZP + Small Business Relief - BQP</title>
+<meta name="description" content="Free UAE Corporate Tax calculator for FY 2025-26: 9% above AED 375,000, Qualifying Free Zone Person (QFZP) 0% toggle, Small Business Relief check. Instant result for Dubai holdcos. CA Durgesh Chavda."/>
+<meta name="keywords" content="UAE Corporate Tax calculator, UAE CT 9% calculator, QFZP calculator UAE, Dubai Corporate Tax calculator 2026, UAE Free Zone tax calculator"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/uae-corporate-tax-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="UAE Corporate Tax Calculator 2026 - BQP"/>
+<meta property="og:description" content="Calculate UAE CT 9% + QFZP 0% + Small Business Relief."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/uae-corporate-tax-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:16px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input, .field select{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .field input:focus, .field select:focus{outline:none;border-color:#C2312A;box-shadow:0 0 0 3px rgba(194,49,42,.08)}
+  .field .checkbox-row{display:flex;align-items:center;gap:8px}
+  .field .checkbox-row input{width:auto;margin:0}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-card .rlabel{font:600 11px Inter;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .result-card .rvalue{font:700 36px Inter;color:#fff;letter-spacing:-.02em;line-height:1;margin-bottom:4px}
+  .result-card .rvalue.red{color:#f8b4b0}
+  .result-card .rhint{font:400 12px Inter;color:rgba(255,255,255,.7);line-height:1.4;margin-bottom:20px}
+  .result-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{font:500 13px Inter;color:rgba(255,255,255,.85)}
+  .result-row .val{font:600 14px Inter;color:#fff}
+  .result-row .val.highlight{color:#f8b4b0}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+  .ctx-card ul{margin:0.5em 0 1em 1.4em;color:#1a1613;font:400 14px Inter;line-height:1.65}
+  .ctx-card strong{font-weight:600}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"UAE Corporate Tax Calculator 2026","url":"https://bharatquantumprospera.com/uae-corporate-tax-calculator.html","applicationCategory":"FinanceApplication","operatingSystem":"Any","description":"Calculate UAE Corporate Tax 9% + QFZP 0% + Small Business Relief for FY 2025-26.","offers":{"@type":"Offer","price":"0","priceCurrency":"AED"},"author":{"@type":"Person","name":"CA Durgesh Chavda"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"UAE Corporate Tax Calculator","item":"https://bharatquantumprospera.com/uae-corporate-tax-calculator.html"}]}</script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+
+<main>
+
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; UAE Corporate Tax &middot; FY 2025-26</p>
+  <h1>UAE Corporate Tax <em>Calculator.</em></h1>
+  <p class="lead">Calculate UAE Corporate Tax under Federal Decree-Law 47 of 2022. 9% above AED 375,000, 0% for Qualifying Free Zone Persons on Qualifying Income, Small Business Relief toggle. For Dubai holdcos, DMCC entities, IFZA Free Zone, DIFC companies.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs</h2>
+    <p class="sub">Enter taxable income (profit) for the UAE tax year. All amounts in AED.</p>
+
+    <div class="field">
+      <label>Entity type</label>
+      <select id="entityType">
+        <option value="mainland">UAE Mainland LLC</option>
+        <option value="freezone_qfzp">Free Zone (QFZP qualifying)</option>
+        <option value="freezone_nonqfzp">Free Zone (non-QFZP)</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Total taxable income (AED) <span class="hint">Taxable profit under UAE CT (after allowable deductions). Typical SME range: AED 500K-5M.</span></label>
+      <input id="totalIncome" type="number" min="0" step="10000" value="2000000" />
+    </div>
+
+    <div class="field" id="qualifyingBlock">
+      <label>Of which, Qualifying Income (AED) <span class="hint">For QFZP only: portion that qualifies for 0% (transactions with Free Zone persons + qualifying activities with non-Free Zone persons).</span></label>
+      <input id="qualifyingIncome" type="number" min="0" step="10000" value="1800000" />
+    </div>
+
+    <div class="field">
+      <label>Prior-year revenue below AED 3M? <span class="hint">If yes, Small Business Relief may apply (0% CT on all income).</span></label>
+      <div class="checkbox-row"><input id="smallBiz" type="checkbox" /><label for="smallBiz" style="font:400 13px Inter;text-transform:none;letter-spacing:0;margin:0">Yes - revenue below AED 3M in current and prior year</label></div>
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="rlabel">UAE Corporate Tax</div>
+    <div class="rvalue red" id="ctAmount">AED 0</div>
+    <div class="rhint" id="ctRateHint">Effective rate: 0%</div>
+
+    <div class="result-row">
+      <span class="lbl">Total taxable income</span>
+      <span class="val" id="rTotal">AED 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Income taxed at 0%</span>
+      <span class="val" id="rZero">AED 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Income taxed at 9%</span>
+      <span class="val" id="rNine">AED 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Corporate Tax</span>
+      <span class="val highlight" id="rCt">AED 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">After-tax profit</span>
+      <span class="val" id="rNet">AED 0</span>
+    </div>
+
+    <div class="result-cta">
+      <a href="us-incorporation-intake.html">Need UAE CT compliance + QFZP qualification &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How UAE CT <em>works.</em></h2>
+    <p><strong>Standard rate:</strong> 9% on taxable income above AED 375,000 (small-business relief for all entities on first AED 375K).</p>
+    <p><strong>Free Zone Qualifying Free Zone Person (QFZP) regime:</strong> 0% on Qualifying Income (transactions with other Free Zone persons + Qualifying Activities + specific intangibles + treasury financing to related parties) + 9% on non-qualifying income. Requires substance + Qualifying Income analysis + audited financials + TP documentation.</p>
+    <p><strong>Small Business Relief:</strong> entities with revenue below AED 3 million in current AND preceding year can elect 0% rate on all income (not just the first AED 375K). Election via FTA portal.</p>
+    <p><strong>De minimis for QFZP:</strong> up to 5% of total revenue OR AED 5 million (whichever is lower) can come from non-qualifying sources without losing QFZP status.</p>
+    <p>Full regulatory update: <a href="uae-corporate-tax-2026-qfzp-fta-update.html">UAE Corporate Tax 2026 Update - QFZP + FTA Clarifications</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3><p>A chartered advisory built for founders who think beyond borders.</p></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li><li><a href="us-incorporation.html">US Incorporation</a></li><li><a href="sme-ipo.html">IPO Services</a></li><li><a href="transfer-pricing.html">Transfer Pricing</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="about.html">About</a></li><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li><li><a href="press.html">Press / Media</a></li><li><a href="case-studies.html">Case Studies</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li><li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span><span>Ahmedabad &middot; Est. in Practice</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); return "AED " + n.toLocaleString("en-US"); }
+
+function calc(){
+  var type = document.getElementById("entityType").value;
+  var total = parseFloat(document.getElementById("totalIncome").value) || 0;
+  var qualifying = parseFloat(document.getElementById("qualifyingIncome").value) || 0;
+  var smallBiz = document.getElementById("smallBiz").checked;
+
+  // Show/hide qualifying block
+  document.getElementById("qualifyingBlock").style.display = (type === "freezone_qfzp") ? "block" : "none";
+
+  var zeroPortion = 0;
+  var ninePortion = 0;
+  var ct = 0;
+  var rateHint = "";
+
+  if (smallBiz) {
+    zeroPortion = total;
+    ninePortion = 0;
+    ct = 0;
+    rateHint = "Small Business Relief: 0% on all income";
+  } else if (type === "freezone_qfzp") {
+    var qi = Math.min(qualifying, total);
+    var nonQi = total - qi;
+    // QFZP qualifying income at 0%
+    zeroPortion = qi;
+    // Non-qualifying income: 0% on first AED 375K, 9% above
+    var nonQiTaxable = Math.max(0, nonQi - 375000);
+    var nonQiZero = nonQi - nonQiTaxable;
+    zeroPortion += nonQiZero;
+    ninePortion = nonQiTaxable;
+    ct = ninePortion * 0.09;
+    rateHint = "QFZP: 0% on qualifying + 9% on non-qualifying above AED 375K";
+  } else {
+    // Mainland or non-QFZP Free Zone: 0% up to 375K, 9% above
+    zeroPortion = Math.min(total, 375000);
+    ninePortion = Math.max(0, total - 375000);
+    ct = ninePortion * 0.09;
+    rateHint = "Standard: 0% up to AED 375K, 9% above";
+  }
+
+  var effective = total > 0 ? (ct / total) * 100 : 0;
+
+  document.getElementById("ctAmount").textContent = fmt(ct);
+  document.getElementById("ctRateHint").textContent = rateHint + " · Effective rate: " + effective.toFixed(2) + "%";
+  document.getElementById("rTotal").textContent = fmt(total);
+  document.getElementById("rZero").textContent = fmt(zeroPortion);
+  document.getElementById("rNine").textContent = fmt(ninePortion);
+  document.getElementById("rCt").textContent = fmt(ct);
+  document.getElementById("rNet").textContent = fmt(total - ct);
+}
+
+["entityType","totalIncome","qualifyingIncome","smallBiz"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>India-US Flip Tax Impact Calculator 2026 | LTCG at Swap - BQP</title>
+<meta name="description" content="Free India-to-Delaware flip tax impact calculator for Indian founders. Compute Indian LTCG per shareholder on share-swap at current FMV vs flipping later at Series A/B FMV. Post-July-2024 12.5% rate. CA Durgesh Chavda."/>
+<meta name="keywords" content="India US flip tax calculator, flip LTCG calculator India, share swap tax calculator, Delaware flip tax impact, pre VC flip tax calculator, early flip vs late flip calculator"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/flip-tax-impact-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="Flip Tax Impact Calculator 2026 - BQP"/>
+<meta property="og:description" content="Early flip vs late flip Indian LTCG impact per shareholder."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/flip-tax-impact-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:16px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input, .field select{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-card .rlabel{font:600 11px Inter;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .result-card .rvalue{font:700 36px Inter;color:#fff;letter-spacing:-.02em;line-height:1;margin-bottom:4px}
+  .result-card .rvalue.red{color:#f8b4b0}
+  .result-card .rhint{font:400 12px Inter;color:rgba(255,255,255,.7);line-height:1.4;margin-bottom:20px}
+  .result-row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{font:500 13px Inter;color:rgba(255,255,255,.85)}
+  .result-row .val{font:600 14px Inter;color:#fff}
+  .result-row .val.highlight{color:#f8b4b0}
+  .result-row .val.green{color:#a7f3d0}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"India-US Flip Tax Impact Calculator","url":"https://bharatquantumprospera.com/flip-tax-impact-calculator.html","applicationCategory":"FinanceApplication","description":"Compute Indian LTCG on India-US flip share-swap at current vs future FMV.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+</header>
+
+<main>
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; India-US Flip Tax Impact</p>
+  <h1>Flip Tax Impact <em>Calculator.</em></h1>
+  <p class="lead">Model the Indian LTCG you (and each shareholder on your cap table) pay when flipping your Indian startup to a Delaware C-Corp parent via share-swap. Compare flipping NOW at current FMV vs flipping LATER at expected Series A / B FMV. Post-July-2024 LTCG rate 12.5% applied.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs - founder shareholder</h2>
+    <p class="sub">Model your own flip tax. For co-founders / angels on your cap table, repeat with their numbers.</p>
+
+    <div class="field">
+      <label>Your original cost basis in the Indian company (INR) <span class="hint">What you paid to acquire your shares. For a founder incorporating at par value: often INR 10,000-1,00,000 total.</span></label>
+      <input id="costBasis" type="number" min="0" step="1000" value="50000" />
+    </div>
+
+    <div class="field">
+      <label>Current FMV of your Indian shares (INR) <span class="hint">Your % ownership x current company FMV. Early stage: use last-round valuation or realistic current-stage benchmark.</span></label>
+      <input id="currentFmv" type="number" min="0" step="100000" value="30000000" />
+    </div>
+
+    <div class="field">
+      <label>Projected FMV if you delay flip 18-24 months (INR) <span class="hint">If you wait for Series A term sheet, what will your shares be worth then?</span></label>
+      <input id="futureFmv" type="number" min="0" step="100000" value="150000000" />
+    </div>
+
+    <div class="field">
+      <label>Holding period of Indian shares</label>
+      <select id="holding">
+        <option value="long" selected>Long-term (24+ months)</option>
+        <option value="short">Short-term (less than 24 months)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="rlabel">Flipping NOW tax</div>
+    <div class="rvalue" id="nowTax">INR 0</div>
+    <div class="rhint" id="rateHint">12.5% LTCG post-July 2024 (without indexation)</div>
+
+    <div class="result-row">
+      <span class="lbl">FMV at swap (now)</span>
+      <span class="val" id="rFmvNow">INR 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">LTCG now</span>
+      <span class="val green" id="rLtcgNow">INR 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">FMV at swap (18-24 months later)</span>
+      <span class="val" id="rFmvLater">INR 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">LTCG later</span>
+      <span class="val highlight" id="rLtcgLater">INR 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Savings by flipping NOW</span>
+      <span class="val green" id="rSavings">INR 0</span>
+    </div>
+
+    <div class="result-cta">
+      <a href="us-incorporation-intake.html">Scope your flip with BQP &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How flip tax <em>math works.</em></h2>
+    <p>When you flip your Indian startup to a Delaware C-Corp parent, each Indian shareholder's shares are transferred to the Delaware entity in exchange for Delaware stock. Under Section 2(47) of the Indian Income Tax Act, this is a <strong>taxable transfer</strong>. Capital gain = FMV of Delaware shares received minus cost basis of Indian shares surrendered.</p>
+    <p><strong>Rate (post-23 July 2024):</strong> 12.5% LTCG without indexation on unlisted equity held 24+ months. Short-term: slab rate (up to ~43% including surcharge). The 20%-with-indexation choice is only for pre-23-July-2024 acquisitions.</p>
+    <p><strong>Why early flip wins:</strong> FMV at pre-seed is low. Current FMV might be USD 2-5M (INR 1.7-4 crore for 100% company). Series A FMV might be USD 50M+ (INR 42+ crore). Same founder cost basis, 10-25x higher gain, 10-25x higher tax. The LTCG rate doesn't change; the FMV does.</p>
+    <p>Full guide: <a href="india-to-delaware-flip-structure.html">India-to-Delaware Flip Structure</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3><p>A chartered advisory built for founders who think beyond borders.</p></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li><li><a href="us-incorporation.html">US Incorporation</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="about.html">About</a></li><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li><li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span><span>Ahmedabad &middot; Est. in Practice</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); return "INR " + n.toLocaleString("en-IN"); }
+function calc(){
+  var cost = parseFloat(document.getElementById("costBasis").value) || 0;
+  var now = parseFloat(document.getElementById("currentFmv").value) || 0;
+  var later = parseFloat(document.getElementById("futureFmv").value) || 0;
+  var holding = document.getElementById("holding").value;
+  var rate = holding === "long" ? 0.125 : 0.35;
+  var ltcgNow = Math.max(0, now - cost) * rate;
+  var ltcgLater = Math.max(0, later - cost) * rate;
+  var savings = ltcgLater - ltcgNow;
+  document.getElementById("nowTax").textContent = fmt(ltcgNow);
+  document.getElementById("rFmvNow").textContent = fmt(now);
+  document.getElementById("rLtcgNow").textContent = fmt(ltcgNow);
+  document.getElementById("rFmvLater").textContent = fmt(later);
+  document.getElementById("rLtcgLater").textContent = fmt(ltcgLater);
+  document.getElementById("rSavings").textContent = fmt(savings);
+  document.getElementById("rateHint").textContent = holding === "long" ? "12.5% LTCG post-July 2024 (without indexation)" : "~35% STCG at slab rate";
+}
+["costBasis","currentFmv","futureFmv","holding"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

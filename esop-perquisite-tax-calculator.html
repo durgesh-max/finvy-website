@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>ESOP Perquisite Tax Calculator India 2026 | Section 17(2) - BQP</title>
+<meta name="description" content="ESOP perquisite tax calculator for Indian employees under Section 17(2)(vi). Compute tax at exercise (FMV minus strike) at slab rate, plus capital gains at eventual sale. Includes DPIIT eligible startup Section 192(1C) deferral. CA Durgesh Chavda tool."/>
+<meta name="keywords" content="ESOP perquisite tax calculator India, Section 17(2) ESOP tax calculator, ESOP exercise tax India 2026, DPIIT startup ESOP deferral calculator, 192(1C) ESOP TDS deferral"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/esop-perquisite-tax-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="ESOP Perquisite Tax Calculator India 2026 - BQP"/>
+<meta property="og:description" content="Section 17(2) ESOP exercise tax + capital gains at sale."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/esop-perquisite-tax-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:14px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input,.field select{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15);font:500 13px Inter}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{color:rgba(255,255,255,.85)}
+  .result-row .val{color:#fff;font-weight:600}
+  .result-row.highlight{background:rgba(194,49,42,.2);margin:0 -8px;padding:14px 8px;border-radius:4px}
+  .section-head{font:600 11px Inter;color:#f8b4b0;letter-spacing:.08em;text-transform:uppercase;margin:16px 0 4px}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"ESOP Perquisite Tax Calculator India","url":"https://bharatquantumprospera.com/esop-perquisite-tax-calculator.html","applicationCategory":"FinanceApplication","description":"Section 17(2) ESOP perquisite tax calculator for Indian employees.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+</header>
+
+<main>
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; ESOP Perquisite Tax &middot; FY 2025-26</p>
+  <h1>ESOP Perquisite Tax <em>Calculator.</em></h1>
+  <p class="lead">For Indian employees of Indian or foreign companies exercising ESOPs. Compute Section 17(2)(vi) perquisite tax at exercise + eventual capital gains at sale. Includes DPIIT eligible-startup Section 192(1C) 48-month deferral option.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs</h2>
+    <p class="sub">For Indian-resident employee. Different treatment for US restricted stock + 83(b) elections (not covered here).</p>
+
+    <div class="field">
+      <label>Number of shares being exercised</label>
+      <input id="shares" type="number" min="0" step="1" value="1000" />
+    </div>
+
+    <div class="field">
+      <label>Strike price per share (INR) <span class="hint">What the employee pays per share on exercise.</span></label>
+      <input id="strike" type="number" min="0" step="1" value="10" />
+    </div>
+
+    <div class="field">
+      <label>FMV per share at exercise (INR) <span class="hint">Fair Market Value under Rule 11UA on the exercise date. From latest 409A or Rule 11UA valuation.</span></label>
+      <input id="fmvExercise" type="number" min="0" step="1" value="500" />
+    </div>
+
+    <div class="field">
+      <label>Employee's marginal tax rate <span class="hint">Including surcharge and cess. Approximate your slab + surcharge bracket.</span></label>
+      <select id="marginalRate">
+        <option value="0.054">5% + 4% cess (low income, up to ~INR 5 lakh)</option>
+        <option value="0.208">20% + 4% cess (INR 5-10 lakh)</option>
+        <option value="0.312">30% + 4% cess (INR 10-50 lakh)</option>
+        <option value="0.343" selected>30% + 10% surcharge + 4% cess (INR 50L-1cr)</option>
+        <option value="0.390">30% + 15% surcharge + 4% cess (INR 1-2 crore)</option>
+        <option value="0.429">30% + 25% surcharge + 4% cess (INR 2-5 crore)</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Employer is DPIIT-recognised eligible startup?</label>
+      <select id="dpiit">
+        <option value="no" selected>No - standard tax at exercise</option>
+        <option value="yes">Yes - Section 192(1C) TDS deferral available</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Expected FMV per share at eventual sale (INR) <span class="hint">For capital gains at sale. Can be same as exercise FMV if selling immediately, or higher if holding.</span></label>
+      <input id="fmvSale" type="number" min="0" step="1" value="2000" />
+    </div>
+
+    <div class="field">
+      <label>Holding period from exercise to sale</label>
+      <select id="holdingPeriod">
+        <option value="long" selected>Long-term (24+ months unlisted, 12+ listed)</option>
+        <option value="short">Short-term</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="section-head">At EXERCISE - perquisite tax</div>
+    <div class="result-row"><span class="lbl">Shares exercised</span><span class="val" id="rShares">0</span></div>
+    <div class="result-row"><span class="lbl">Spread per share (FMV - strike)</span><span class="val" id="rSpread">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Total perquisite</span><span class="val" id="rPerq">INR 0</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>Tax at exercise</strong></span><span class="val" id="rExerciseTax">INR 0</span></div>
+    <div class="result-row"><span class="lbl">DPIIT 48-month deferral available?</span><span class="val" id="rDeferral">No</span></div>
+
+    <div class="section-head" style="margin-top:18px">At SALE - capital gains</div>
+    <div class="result-row"><span class="lbl">Sale proceeds</span><span class="val" id="rSaleProceeds">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Cost basis for CG (FMV at exercise)</span><span class="val" id="rCostBasis">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Capital gain</span><span class="val" id="rCapGain">INR 0</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>Tax at sale</strong></span><span class="val" id="rSaleTax">INR 0</span></div>
+
+    <div class="section-head" style="margin-top:18px">Total tax paid (exercise + sale)</div>
+    <div class="result-row highlight"><span class="lbl"><strong>Lifetime ESOP tax</strong></span><span class="val" id="rTotal">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Net cash to employee (sale - tax)</span><span class="val" id="rNet">INR 0</span></div>
+
+    <div class="result-cta">
+      <a href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20I%20need%20help%20with%20ESOP%20plan%20design%20%2F%20exercise%20tax%3A">ESOP plan design + 409A &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How ESOP tax <em>works in India.</em></h2>
+    <p><strong>At grant / vest:</strong> no tax. The employee receives the option (right to buy) but has no taxable event yet.</p>
+    <p><strong>At exercise:</strong> perquisite tax under Section 17(2)(vi). Spread = FMV at exercise - strike price (per share) x number of shares exercised. Perquisite is taxed as salary income at the employee's slab rate. Employer deducts TDS. This is cash-out-of-pocket for the employee - they have paid tax but have NOT yet sold shares.</p>
+    <p><strong>DPIIT Section 192(1C) deferral:</strong> for DPIIT-recognised eligible startups, employers may defer TDS on ESOP perquisite until the EARLIEST of: 48 months from end of the exercise financial year, actual sale of shares, or cessation of employment. Reduces the employee's immediate cash burden. BUT the perquisite remains payable - just deferred.</p>
+    <p><strong>At sale:</strong> capital gain = sale price - FMV at exercise (NOT strike price - the FMV is the new cost basis after perquisite tax was paid). Long-term (24+ months unlisted / 12+ months listed): 12.5% post-July-2024 without indexation. Short-term: slab rate.</p>
+    <p>Full guide: <a href="esop-vs-rsu-vs-phantom-stock-india-us.html">ESOP vs RSU vs Phantom Stock</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); if(n<0)n=0; return "INR " + n.toLocaleString("en-IN"); }
+function calc(){
+  var shares = parseFloat(document.getElementById("shares").value) || 0;
+  var strike = parseFloat(document.getElementById("strike").value) || 0;
+  var fmvEx = parseFloat(document.getElementById("fmvExercise").value) || 0;
+  var marginal = parseFloat(document.getElementById("marginalRate").value) || 0;
+  var dpiit = document.getElementById("dpiit").value;
+  var fmvSale = parseFloat(document.getElementById("fmvSale").value) || 0;
+  var holding = document.getElementById("holdingPeriod").value;
+
+  var spread = fmvEx - strike;
+  var perq = shares * spread;
+  var exerciseTax = perq * marginal;
+  var saleProceeds = shares * fmvSale;
+  var costBasis = shares * fmvEx;
+  var capGain = Math.max(0, saleProceeds - costBasis);
+  var cgRate = holding === "long" ? 0.125 : marginal;
+  var saleTax = capGain * cgRate;
+  // Add rough surcharge + cess on capital gains
+  var saleTaxFull = saleTax * 1.19;
+  var totalTax = exerciseTax + saleTaxFull;
+  var netCash = saleProceeds - totalTax - (shares * strike);
+
+  document.getElementById("rShares").textContent = shares.toLocaleString("en-IN");
+  document.getElementById("rSpread").textContent = fmt(spread);
+  document.getElementById("rPerq").textContent = fmt(perq);
+  document.getElementById("rExerciseTax").textContent = fmt(exerciseTax);
+  document.getElementById("rDeferral").textContent = dpiit === "yes" ? "Yes - up to 48 months" : "No - standard TDS at exercise";
+  document.getElementById("rSaleProceeds").textContent = fmt(saleProceeds);
+  document.getElementById("rCostBasis").textContent = fmt(costBasis);
+  document.getElementById("rCapGain").textContent = fmt(capGain);
+  document.getElementById("rSaleTax").textContent = fmt(saleTaxFull);
+  document.getElementById("rTotal").textContent = fmt(totalTax);
+  document.getElementById("rNet").textContent = fmt(netCash);
+}
+["shares","strike","fmvExercise","marginalRate","dpiit","fmvSale","holdingPeriod"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

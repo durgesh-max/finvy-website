@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>Form 5472 Penalty Calculator | USD 25K/Year Exposure - BQP</title>
+<meta name="description" content="Form 5472 penalty calculator for foreign-owned US LLC owners. Compute USD 25,000 per form per year exposure under IRC Section 6038A for missed years, multiple related parties. Reasonable-cause abatement guidance. CA Durgesh Chavda."/>
+<meta name="keywords" content="Form 5472 penalty calculator, IRC 6038A penalty, USD 25000 Form 5472, foreign owned LLC penalty calculator, missed Form 5472 years calculator"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/form-5472-penalty-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="Form 5472 Penalty Calculator - BQP"/>
+<meta property="og:description" content="Compute USD 25K per form per year penalty exposure for missed Form 5472 filings."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/form-5472-penalty-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:16px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input, .field select{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-card .rlabel{font:600 11px Inter;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .result-card .rvalue{font:700 36px Inter;color:#fff;letter-spacing:-.02em;line-height:1;margin-bottom:4px}
+  .result-card .rvalue.red{color:#f8b4b0}
+  .result-card .rhint{font:400 12px Inter;color:rgba(255,255,255,.7);line-height:1.4;margin-bottom:20px}
+  .result-row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.15)}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{font:500 13px Inter;color:rgba(255,255,255,.85)}
+  .result-row .val{font:600 14px Inter;color:#fff}
+  .result-row .val.highlight{color:#f8b4b0}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Form 5472 Penalty Calculator","url":"https://bharatquantumprospera.com/form-5472-penalty-calculator.html","applicationCategory":"FinanceApplication","description":"Compute USD 25,000 per form per year penalty under IRC Section 6038A for missed Form 5472 filings.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+
+<main>
+
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; Form 5472 Penalty &middot; USD 25K per year</p>
+  <h1>Form 5472 Penalty <em>Calculator.</em></h1>
+  <p class="lead">For Indian founders with Delaware or Wyoming LLCs who missed Form 5472 filings: compute the USD 25,000-per-form-per-year penalty exposure under IRC Section 6038A. Includes multi-related-party multiplier and reasonable-cause abatement framing.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs</h2>
+    <p class="sub">The penalty is USD 25,000 per form, per year. Each related party is a separate form.</p>
+
+    <div class="field">
+      <label>How many years of missed Form 5472 filings? <span class="hint">Count each tax year since the US entity was formed where you had reportable transactions but did not file.</span></label>
+      <input id="years" type="number" min="0" max="20" step="1" value="3" />
+    </div>
+
+    <div class="field">
+      <label>Number of related parties with reportable transactions <span class="hint">1 if just the single foreign owner; more if additional foreign related entities / loans / inter-company.</span></label>
+      <input id="relatedParties" type="number" min="1" max="10" step="1" value="1" />
+    </div>
+
+    <div class="field">
+      <label>Is this a voluntary pre-correspondence disclosure? <span class="hint">If yes, reasonable-cause penalty abatement is often granted. If IRS already corresponded, abatement is harder.</span></label>
+      <select id="voluntary">
+        <option value="yes">Yes - voluntarily discovering and filing before IRS correspondence</option>
+        <option value="no">No - IRS has already corresponded about the missed filing</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="rlabel">Gross penalty exposure</div>
+    <div class="rvalue red" id="grossPenalty">USD 0</div>
+    <div class="rhint" id="rateHint">USD 25,000 x years x related parties</div>
+
+    <div class="result-row">
+      <span class="lbl">Years missed</span>
+      <span class="val" id="rYears">0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Related parties</span>
+      <span class="val" id="rParties">0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Forms owed</span>
+      <span class="val" id="rForms">0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Gross penalty (USD 25K each)</span>
+      <span class="val highlight" id="rGross">USD 0</span>
+    </div>
+    <div class="result-row">
+      <span class="lbl">Estimated post-abatement</span>
+      <span class="val" id="rAbated">USD 0</span>
+    </div>
+
+    <div class="result-cta">
+      <a href="us-incorporation-intake.html">Clean up back years - start here &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How Form 5472 penalty <em>works.</em></h2>
+    <p>Under IRC Section 6038A, failure to file Form 5472 or to maintain required records attracts <strong>USD 25,000 per form per year</strong>, automatic. Separate penalty applies for each related party per year.</p>
+    <p>Example: a Delaware single-member LLC owned by one Indian individual with three missed years and no additional related parties = 3 forms owed = USD 75,000 gross penalty exposure.</p>
+    <p>Example: a Delaware single-member LLC with three missed years + a foreign-related inter-company loan to a UAE sister entity = 3 years x 2 related parties = 6 forms = USD 150,000 gross penalty exposure.</p>
+    <p><strong>Reasonable-cause abatement</strong> under IRC Section 6724(a) can reduce or eliminate the penalty for first-time voluntary non-filers who come forward before IRS correspondence. BQP's standard back-year cleanup includes a reasonable-cause statement for each year. Most abatement requests succeed for first-time non-filers.</p>
+    <p>Full regulatory context: <a href="file-form-5472-foreign-owned-us-llc.html">Form 5472 Full Guide</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3><p>A chartered advisory built for founders who think beyond borders.</p></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li><li><a href="us-incorporation.html">US Incorporation</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="about.html">About</a></li><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li><li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span><span>Ahmedabad &middot; Est. in Practice</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); return "USD " + n.toLocaleString("en-US"); }
+function calc(){
+  var years = parseInt(document.getElementById("years").value) || 0;
+  var parties = parseInt(document.getElementById("relatedParties").value) || 1;
+  var voluntary = document.getElementById("voluntary").value;
+  var forms = years * parties;
+  var gross = forms * 25000;
+  var abated = voluntary === "yes" ? gross * 0.1 : gross * 0.5;
+  var abatedLabel = voluntary === "yes" ? "~0-10% of gross (reasonable cause typically granted)" : "~30-60% of gross (negotiated abatement; harder once IRS has corresponded)";
+
+  document.getElementById("grossPenalty").textContent = fmt(gross);
+  document.getElementById("rYears").textContent = years;
+  document.getElementById("rParties").textContent = parties;
+  document.getElementById("rForms").textContent = forms;
+  document.getElementById("rGross").textContent = fmt(gross);
+  document.getElementById("rAbated").textContent = fmt(abated) + " estimated";
+  document.getElementById("rateHint").textContent = abatedLabel;
+}
+["years","relatedParties","voluntary"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

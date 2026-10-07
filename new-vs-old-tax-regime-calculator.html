@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>New vs Old Tax Regime Calculator FY 2025-26 | AY 2026-27 India - BQP</title>
+<meta name="description" content="Compare new (Section 115BAC default) vs old tax regime for FY 2025-26 AY 2026-27. Instant comparison with full deductions (80C, 80D, HRA, 24(b)). Pick the lower-tax regime. CA Durgesh Chavda free tool."/>
+<meta name="keywords" content="new vs old tax regime calculator FY 2025-26, Section 115BAC calculator, income tax calculator India 2026, old regime vs new regime 2026, AY 2026-27 tax calculator"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="New vs Old Tax Regime Calculator FY 2025-26 - BQP"/>
+<meta property="og:description" content="Compare both regimes with full deductions. Pick the lower-tax."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:14px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .ded-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:600px){.ded-grid{grid-template-columns:1fr}}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-card .rlabel{font:600 11px Inter;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .result-card .winner-banner{padding:12px 18px;background:#C2312A;border-radius:6px;margin-bottom:20px;font:600 14px Inter;color:#fff;text-align:center}
+  .result-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15);font:500 13px Inter}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{color:rgba(255,255,255,.85)}
+  .result-row .val{color:#fff;font-weight:600}
+  .result-row.highlight{background:rgba(194,49,42,.2);margin:0 -8px;padding:14px 8px;border-radius:4px}
+  .section-head{font:600 11px Inter;color:#f8b4b0;letter-spacing:.08em;text-transform:uppercase;margin:16px 0 4px}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"New vs Old Tax Regime Calculator FY 2025-26","url":"https://bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html","applicationCategory":"FinanceApplication","description":"Compare new (Section 115BAC) vs old tax regime for individual taxpayers AY 2026-27.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+</header>
+
+<main>
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; FY 2025-26 &middot; AY 2026-27</p>
+  <h1>New vs Old Tax Regime <em>Calculator.</em></h1>
+  <p class="lead">Compare the Section 115BAC default new regime vs the old regime for FY 2025-26 (ITR AY 2026-27). Enter your income + eligible deductions; see tax under both regimes side-by-side. The lower-tax regime is highlighted.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs</h2>
+    <p class="sub">For individual taxpayers below age 60. Senior citizen slabs vary slightly.</p>
+
+    <div class="field">
+      <label>Gross annual income (INR) <span class="hint">Salary + business + capital gains + rent + interest + other. Before any deductions.</span></label>
+      <input id="grossIncome" type="number" min="0" step="10000" value="2500000" />
+    </div>
+
+    <div class="field">
+      <label>Taxpayer category</label>
+      <select id="taxpayerType" style="width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;background:#fff;box-sizing:border-box">
+        <option value="salaried">Salaried individual</option>
+        <option value="business">Business / professional</option>
+      </select>
+    </div>
+
+    <h3 style="font:600 13px Inter;color:#C2312A;margin:22px 0 10px;letter-spacing:.04em;text-transform:uppercase">Deductions (old regime only)</h3>
+    <div class="ded-grid">
+      <div class="field">
+        <label>Section 80C (LIC/PF/ELSS)</label>
+        <input id="d80c" type="number" min="0" max="150000" step="1000" value="150000" />
+      </div>
+      <div class="field">
+        <label>Section 80D (health)</label>
+        <input id="d80d" type="number" min="0" step="1000" value="25000" />
+      </div>
+      <div class="field">
+        <label>Section 80CCD(1B) NPS</label>
+        <input id="d80ccd" type="number" min="0" max="50000" step="1000" value="50000" />
+      </div>
+      <div class="field">
+        <label>HRA exemption</label>
+        <input id="hra" type="number" min="0" step="1000" value="200000" />
+      </div>
+      <div class="field">
+        <label>Home loan interest (Sec 24(b))</label>
+        <input id="homeInt" type="number" min="0" max="200000" step="1000" value="0" />
+      </div>
+      <div class="field">
+        <label>Other old-regime deductions</label>
+        <input id="dOther" type="number" min="0" step="1000" value="0" />
+      </div>
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="rlabel">Regime comparison for FY 2025-26</div>
+    <div class="winner-banner" id="winnerBanner">Pick a regime</div>
+
+    <div class="section-head">New regime (default, Section 115BAC)</div>
+    <div class="result-row"><span class="lbl">Taxable income</span><span class="val" id="newTaxable">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Income tax</span><span class="val" id="newTax">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Rebate 87A</span><span class="val" id="newRebate">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Cess 4%</span><span class="val" id="newCess">INR 0</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>Total new regime</strong></span><span class="val" id="newTotal">INR 0</span></div>
+
+    <div class="section-head" style="margin-top:22px">Old regime</div>
+    <div class="result-row"><span class="lbl">Total deductions</span><span class="val" id="oldDeductions">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Taxable income</span><span class="val" id="oldTaxable">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Income tax</span><span class="val" id="oldTax">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Cess 4%</span><span class="val" id="oldCess">INR 0</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>Total old regime</strong></span><span class="val" id="oldTotal">INR 0</span></div>
+
+    <div class="result-cta">
+      <a href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20need%20help%20with%20AY%202026-27%20ITR%20filing%3A">WhatsApp for ITR filing &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How to read <em>this.</em></h2>
+    <p>Section 115BAC(1A) new regime is DEFAULT from AY 2024-25 for individuals. Old regime requires explicit election via Form 10IEA before ITR due date.</p>
+    <p><strong>New regime wins</strong> for taxpayers with limited deductions (no HRA, no large 80C, no home loan). The lower slabs + higher INR 7 lakh rebate-threshold make it attractive.</p>
+    <p><strong>Old regime wins</strong> for taxpayers claiming large deductions (80C full + 80D + HRA + Section 24(b) interest + 80CCD NPS) at incomes above INR 10-12 lakh.</p>
+    <p>Rough rule: if your total old-regime deductions exceed roughly INR 4-5 lakh, old regime typically wins above INR 10 lakh income. Below INR 10 lakh with small deductions, new regime almost always wins.</p>
+    <p>Full ITR guide: <a href="itr-filing-ay-2026-27-deadlines-changes-india.html">ITR Filing AY 2026-27</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); if(n<0)n=0; return "INR " + n.toLocaleString("en-IN"); }
+
+function newRegimeTax(taxable){
+  // FY 2025-26 slabs
+  var tax = 0;
+  var slabs = [[300000,0],[700000,0.05],[1000000,0.10],[1200000,0.15],[1500000,0.20],[Infinity,0.30]];
+  var prev = 0;
+  for (var i=0;i<slabs.length;i++){
+    var cap = slabs[i][0], rate = slabs[i][1];
+    if (taxable <= prev) break;
+    var inSlab = Math.min(taxable, cap) - prev;
+    tax += inSlab * rate;
+    prev = cap;
+    if (taxable <= cap) break;
+  }
+  return tax;
+}
+
+function oldRegimeTax(taxable){
+  var tax = 0;
+  var slabs = [[250000,0],[500000,0.05],[1000000,0.20],[Infinity,0.30]];
+  var prev = 0;
+  for (var i=0;i<slabs.length;i++){
+    var cap = slabs[i][0], rate = slabs[i][1];
+    if (taxable <= prev) break;
+    var inSlab = Math.min(taxable, cap) - prev;
+    tax += inSlab * rate;
+    prev = cap;
+    if (taxable <= cap) break;
+  }
+  return tax;
+}
+
+function calc(){
+  var gross = parseFloat(document.getElementById("grossIncome").value) || 0;
+  var type = document.getElementById("taxpayerType").value;
+  var d80c = parseFloat(document.getElementById("d80c").value) || 0;
+  var d80d = parseFloat(document.getElementById("d80d").value) || 0;
+  var d80ccd = parseFloat(document.getElementById("d80ccd").value) || 0;
+  var hra = parseFloat(document.getElementById("hra").value) || 0;
+  var homeInt = parseFloat(document.getElementById("homeInt").value) || 0;
+  var dOther = parseFloat(document.getElementById("dOther").value) || 0;
+
+  // New regime: standard deduction INR 75,000 if salaried
+  var sdNew = type === "salaried" ? 75000 : 0;
+  var newTaxable = Math.max(0, gross - sdNew);
+  var newT = newRegimeTax(newTaxable);
+  var newRebate = 0;
+  // Rebate 87A: new regime - full tax rebate if taxable income <= INR 7 lakh
+  if (newTaxable <= 700000) newRebate = newT;
+  var newAfterRebate = newT - newRebate;
+  var newCess = newAfterRebate * 0.04;
+  var newTotal = newAfterRebate + newCess;
+
+  // Old regime: standard deduction INR 50,000 if salaried, HRA + deductions
+  var sdOld = type === "salaried" ? 50000 : 0;
+  var deductions = d80c + d80d + d80ccd + hra + homeInt + dOther + sdOld;
+  var oldTaxable = Math.max(0, gross - deductions);
+  var oldT = oldRegimeTax(oldTaxable);
+  var oldRebate = 0;
+  // Rebate 87A: old regime - full rebate if taxable <= INR 5 lakh
+  if (oldTaxable <= 500000) oldRebate = oldT;
+  var oldAfterRebate = oldT - oldRebate;
+  var oldCess = oldAfterRebate * 0.04;
+  var oldTotal = oldAfterRebate + oldCess;
+
+  document.getElementById("newTaxable").textContent = fmt(newTaxable);
+  document.getElementById("newTax").textContent = fmt(newT);
+  document.getElementById("newRebate").textContent = fmt(newRebate);
+  document.getElementById("newCess").textContent = fmt(newCess);
+  document.getElementById("newTotal").textContent = fmt(newTotal);
+  document.getElementById("oldDeductions").textContent = fmt(deductions);
+  document.getElementById("oldTaxable").textContent = fmt(oldTaxable);
+  document.getElementById("oldTax").textContent = fmt(oldT);
+  document.getElementById("oldCess").textContent = fmt(oldCess);
+  document.getElementById("oldTotal").textContent = fmt(oldTotal);
+
+  var winner = newTotal <= oldTotal ? "new" : "old";
+  var saving = Math.abs(newTotal - oldTotal);
+  var banner = document.getElementById("winnerBanner");
+  if (winner === "new") {
+    banner.textContent = "NEW REGIME wins by " + fmt(saving);
+  } else {
+    banner.textContent = "OLD REGIME wins by " + fmt(saving);
+  }
+}
+
+["grossIncome","taxpayerType","d80c","d80d","d80ccd","hra","homeInt","dOther"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

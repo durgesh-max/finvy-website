@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>NRI Property Sale TDS + LDC Calculator | Section 195 India 2026 - BQP</title>
+<meta name="description" content="NRI property sale TDS + Lower Deduction Certificate (LDC Form 13) calculator for 2026. Compute buyer's Section 195 TDS (12.5% + surcharge + cess) with/without LDC. Save working-capital lock-up. CA Durgesh Chavda tool."/>
+<meta name="keywords" content="NRI property sale TDS calculator, Section 195 TDS NRI calculator, Lower Deduction Certificate NRI, LDC Form 13 calculator, NRI property TDS 2026, 12.5 percent TDS property NRI"/>
+<meta name="robots" content="index, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/nri-property-tds-ldc-calculator.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="NRI Property Sale TDS + LDC Calculator 2026 - BQP"/>
+<meta property="og:description" content="Section 195 TDS + Form 13 LDC calculator for NRI property sale."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/nri-property-tds-ldc-calculator.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .calc-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto}
+  .calc-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .calc-hero h1{font:400 clamp(30px,4vw,48px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .calc-hero h1 em{font-style:normal;color:#C2312A}
+  .calc-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:780px}
+  .calc-main{padding:0 5vw 60px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+  @media(max-width:860px){.calc-main{grid-template-columns:1fr}}
+  .calc-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .calc-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 10px}
+  .calc-card .sub{font:400 13px Inter;color:#857968;margin:0 0 20px;line-height:1.5}
+  .field{margin-bottom:16px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px}
+  .field input,.field select{width:100%;padding:10px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .result-card{background:#1a1613;color:#fff;border-radius:8px;padding:clamp(26px,3vw,38px)}
+  .result-card .rlabel{font:600 11px Inter;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+  .result-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.15);font:500 13px Inter}
+  .result-row:last-of-type{border-bottom:0}
+  .result-row .lbl{color:rgba(255,255,255,.85)}
+  .result-row .val{color:#fff;font-weight:600}
+  .result-row.highlight{background:rgba(194,49,42,.2);margin:0 -8px;padding:14px 8px;border-radius:4px}
+  .section-head{font:600 11px Inter;color:#f8b4b0;letter-spacing:.08em;text-transform:uppercase;margin:16px 0 4px}
+  .result-cta{margin-top:22px;padding-top:22px;border-top:1px solid rgba(255,255,255,.2)}
+  .result-cta a{display:inline-block;padding:10px 20px;background:#C2312A;color:#fff;font:600 13px Inter;text-decoration:none;border-radius:4px}
+  .ctx-section{padding:0 5vw 50px;max-width:1200px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,3.5vw,44px);margin-bottom:20px}
+  .ctx-card h2{font:400 clamp(20px,2.4vw,28px) Inter;text-transform:uppercase;color:#1a1613;margin:0 0 16px;letter-spacing:-.01em}
+  .ctx-card h2 em{font-style:normal;color:#C2312A}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"NRI Property Sale TDS + LDC Calculator","url":"https://bharatquantumprospera.com/nri-property-tds-ldc-calculator.html","applicationCategory":"FinanceApplication","description":"Compute Section 195 TDS on NRI property sale with and without Lower Deduction Certificate.","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+</header>
+
+<main>
+<section class="calc-hero">
+  <p class="kicker">/ Free Tool &middot; NRI Property TDS + LDC &middot; FY 2025-26</p>
+  <h1>NRI Property Sale TDS + LDC <em>Calculator.</em></h1>
+  <p class="lead">For NRIs selling Indian property: compare the buyer's Section 195 TDS at the full 12.5%-plus-surcharge default vs the reduced LDC (Lower Deduction Certificate, Form 13) rate on actual capital gains. Shows cash locked up vs released. Based on post-July-2024 LTCG at 12.5% without indexation.</p>
+</section>
+
+<section class="calc-main">
+  <div class="calc-card">
+    <h2>Inputs</h2>
+    <p class="sub">For NRI seller + Indian resident buyer. Default TDS rate assumes long-term property (holding 24+ months).</p>
+
+    <div class="field">
+      <label>Sale consideration (INR) <span class="hint">Total sale price agreed with buyer.</span></label>
+      <input id="salePrice" type="number" min="0" step="100000" value="20000000" />
+    </div>
+
+    <div class="field">
+      <label>Original cost of acquisition (INR) <span class="hint">What you paid when you purchased. Add stamp duty + registration fees paid at purchase.</span></label>
+      <input id="costBasis" type="number" min="0" step="100000" value="8000000" />
+    </div>
+
+    <div class="field">
+      <label>Holding period</label>
+      <select id="holding">
+        <option value="long" selected>Long-term (24+ months)</option>
+        <option value="short">Short-term (less than 24 months)</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Reinvestment under Section 54 / 54F / 54EC (INR) <span class="hint">Amount you plan to reinvest in another residential property or Section 54EC bonds within prescribed timelines. Reduces capital gains + TDS.</span></label>
+      <input id="reinvest" type="number" min="0" step="100000" value="0" />
+    </div>
+  </div>
+
+  <div class="result-card">
+    <div class="rlabel">Default vs LDC-reduced TDS comparison</div>
+
+    <div class="section-head">Without LDC - default Section 195 TDS</div>
+    <div class="result-row"><span class="lbl">Default rate (incl surcharge + cess)</span><span class="val" id="defaultRate">~14%</span></div>
+    <div class="result-row"><span class="lbl">TDS basis</span><span class="val">Sale consideration</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>TDS buyer withholds</strong></span><span class="val" id="defaultTds">INR 0</span></div>
+
+    <div class="section-head" style="margin-top:18px">With LDC Form 13 - actual tax basis</div>
+    <div class="result-row"><span class="lbl">Capital gain</span><span class="val" id="capGain">INR 0</span></div>
+    <div class="result-row"><span class="lbl">After Section 54/54F/54EC reinvestment</span><span class="val" id="taxableGain">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Actual LTCG tax (12.5%)</span><span class="val" id="ltcgTax">INR 0</span></div>
+    <div class="result-row highlight"><span class="lbl"><strong>TDS with LDC (~ actual tax)</strong></span><span class="val" id="ldcTds">INR 0</span></div>
+
+    <div class="section-head" style="margin-top:18px">Cash working capital</div>
+    <div class="result-row"><span class="lbl">Lock-up avoided with LDC</span><span class="val" id="savedCash">INR 0</span></div>
+    <div class="result-row"><span class="lbl">Refund wait avoided (12-18 months)</span><span class="val" id="refundWait">INR 0</span></div>
+
+    <div class="result-cta">
+      <a href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20I%20need%20to%20file%20Form%2013%20LDC%20for%20my%20property%20sale%3A">WhatsApp Durgesh for LDC Form 13 &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h2>How this <em>works.</em></h2>
+    <p><strong>Default Section 195 TDS:</strong> buyer withholds 12.5% + surcharge + 4% cess on the sale consideration (not the gain). Effective rate: 14-16.25% depending on sale value and surcharge slab. For a INR 2 crore sale, TDS can be INR 28 lakh - locked up for 12-18 months pending refund of excess.</p>
+    <p><strong>Lower Deduction Certificate (LDC, Form 13):</strong> filed 45 days before closing with the Indian tax authority (jurisdictional AO). LDC specifies a lower TDS rate based on actual expected capital gains tax. Typical reduction: from 14-16% of consideration down to 2-5% of consideration. Massive working-capital release.</p>
+    <p>Full guide: <a href="nri-selling-indian-property-capital-gains.html">NRI Selling Indian Property - Capital Gains</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span></div>
+  </div></div>
+</footer>
+
+<script>
+function fmt(n){ n=Math.round(n); if(n<0)n=0; return "INR " + n.toLocaleString("en-IN"); }
+function calc(){
+  var sale = parseFloat(document.getElementById("salePrice").value) || 0;
+  var cost = parseFloat(document.getElementById("costBasis").value) || 0;
+  var holding = document.getElementById("holding").value;
+  var reinvest = parseFloat(document.getElementById("reinvest").value) || 0;
+
+  // Default rate approximation (12.5% LTCG + 15% surcharge + 4% cess = ~14.95%)
+  // Rough blended rate 14% for most mid-range sales
+  var defaultEffective = holding === "long" ? 0.14 : 0.30;
+  var defaultTds = sale * defaultEffective;
+
+  var gain = Math.max(0, sale - cost);
+  var taxableGain = Math.max(0, gain - reinvest);
+  var ltcgTax = holding === "long" ? taxableGain * 0.125 : taxableGain * 0.30;
+  // Add approximate surcharge + cess on actual tax
+  var ltcgTotal = ltcgTax * 1.19; // rough 15% surcharge + 4% cess
+  // LDC rate reflects actual expected tax expressed as % of sale consideration
+  var ldcEffective = sale > 0 ? ltcgTotal / sale : 0;
+  var ldcTds = ltcgTotal;
+
+  var savedCash = defaultTds - ldcTds;
+
+  document.getElementById("defaultRate").textContent = (defaultEffective * 100).toFixed(1) + "% of consideration";
+  document.getElementById("defaultTds").textContent = fmt(defaultTds);
+  document.getElementById("capGain").textContent = fmt(gain);
+  document.getElementById("taxableGain").textContent = fmt(taxableGain);
+  document.getElementById("ltcgTax").textContent = fmt(ltcgTax);
+  document.getElementById("ldcTds").textContent = fmt(ldcTds) + " (~" + (ldcEffective * 100).toFixed(1) + "% of consideration)";
+  document.getElementById("savedCash").textContent = fmt(savedCash);
+  document.getElementById("refundWait").textContent = fmt(savedCash) + " not locked up";
+}
+["salePrice","costBasis","holding","reinvest"].forEach(function(id){
+  var el = document.getElementById(id);
+  el.addEventListener("input", calc);
+  el.addEventListener("change", calc);
+});
+calc();
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>BQP Client Portal | Secure Document Access + Upload - Bharat Quantum Prospera</title>
+<meta name="description" content="BQP secure client portal. Sign in with phone OTP, upload and access your Income Tax / GST / ROC / Agreements / Invoices / Bank Statements. Auto-organised by year and month. Powered by Google Drive."/>
+<meta name="robots" content="noindex, follow"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/client-portal.html"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="BQP Client Portal"/>
+<meta property="og:description" content="Secure document portal for BQP clients. Phone OTP authentication. Google Drive backed."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/client-portal.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .portal-hero{padding:120px 5vw 30px;max-width:1200px;margin:0 auto;text-align:center}
+  .portal-hero .kicker{font:600 12px Inter;color:#C2312A;letter-spacing:.1em;text-transform:uppercase;margin:0 0 14px}
+  .portal-hero h1{font:400 clamp(32px,4.4vw,54px) Inter;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;color:#1a1613;margin:0 0 18px}
+  .portal-hero h1 em{font-style:normal;color:#C2312A}
+  .portal-hero .lead{font-size:16px;line-height:1.6;color:#5a5147;max-width:680px;margin:0 auto 10px}
+
+  .portal-main{padding:0 5vw 60px;max-width:520px;margin:0 auto}
+  .auth-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(28px,4vw,44px);margin-top:24px;box-shadow:0 2px 14px rgba(26,22,19,.04)}
+  .auth-card h2{font:600 20px Inter;color:#1a1613;margin:0 0 8px;letter-spacing:-.01em}
+  .auth-card .sub{font:400 13px Inter;color:#857968;margin:0 0 22px;line-height:1.55}
+
+  .mode-switch{display:flex;background:#f8f3e8;border-radius:4px;padding:4px;margin-bottom:22px}
+  .mode-btn{flex:1;padding:10px 14px;background:transparent;border:0;cursor:pointer;font:600 12px Inter;color:#5a5147;letter-spacing:.04em;text-transform:uppercase;border-radius:3px;transition:all .15s}
+  .mode-btn.active{background:#fff;color:#1a1613;box-shadow:0 1px 3px rgba(26,22,19,.08)}
+
+  .field{margin-bottom:14px}
+  .field label{display:block;font:600 12px Inter;color:#1a1613;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+  .field label .hint{display:block;font:400 11px Inter;color:#857968;text-transform:none;letter-spacing:0;margin-top:3px;line-height:1.4}
+  .field input{width:100%;padding:12px 14px;border:1px solid #ece4d5;border-radius:4px;font:400 14px Inter;color:#1a1613;background:#fff;box-sizing:border-box}
+  .field input:focus{outline:none;border-color:#C2312A;box-shadow:0 0 0 3px rgba(194,49,42,.08)}
+
+  .otp-row{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:10px}
+  .otp-row input{text-align:center;font:600 20px Inter;padding:12px 0}
+
+  .btn-primary{width:100%;padding:14px 20px;background:#C2312A;color:#fff;border:0;border-radius:4px;font:600 14px Inter;cursor:pointer;letter-spacing:-.01em}
+  .btn-primary:hover{opacity:.92}
+  .btn-primary:disabled{opacity:.5;cursor:not-allowed}
+  .btn-secondary{display:block;width:100%;padding:12px 20px;background:transparent;color:#5a5147;border:0;font:500 13px Inter;cursor:pointer;letter-spacing:.02em;margin-top:14px;text-align:center}
+
+  .step-hidden{display:none}
+  .step-active{display:block}
+
+  .info-note{padding:12px 14px;background:#f8f3e8;border:1px solid #ece4d5;border-radius:4px;font:400 12px Inter;color:#5a5147;line-height:1.55;margin-bottom:16px}
+  .info-note strong{color:#1a1613;font-weight:600}
+
+  .trust-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px;font:500 11px Inter;color:#857968;letter-spacing:.06em;text-transform:uppercase}
+  .trust-row span{padding:5px 12px;background:#f8f3e8;border:1px solid #ece4d5;border-radius:4px}
+
+  .ctx-section{padding:0 5vw 50px;max-width:900px;margin:0 auto}
+  .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px);margin-bottom:20px}
+  .ctx-card h3{font:600 16px Inter;color:#1a1613;margin:0 0 12px;letter-spacing:-.01em}
+  .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.65;margin:0 0 1em}
+  .folder-tree{background:#f8f3e8;border:1px solid #ece4d5;border-radius:4px;padding:16px;font:400 13px 'SF Mono',Menlo,Consolas,monospace;color:#1a1613;line-height:1.6;overflow-x:auto}
+  .folder-tree .f1{color:#C2312A;font-weight:600}
+  .folder-tree .f2{color:#5a5147}
+
+  .demo-banner{background:#fef3c7;border:1px solid #fcd34d;color:#92400e;padding:10px 14px;border-radius:4px;font:500 12px Inter;margin-bottom:16px;text-align:center}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"BQP Client Portal","url":"https://bharatquantumprospera.com/client-portal.html","description":"Secure client document portal for Bharat Quantum Prospera clients with phone OTP authentication.","publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="tools.html" class="nav-pill">Tools</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+    <a href="about.html" class="nav-pill">About</a>
+  </nav>
+  <div class="nav-right"><a href="get-a-quote.html" class="nav-cta">Get a quote</a></div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+
+<main>
+
+<section class="portal-hero">
+  <p class="kicker">/ Secure client portal</p>
+  <h1>Your <em>documents.</em> Your <em>portal.</em></h1>
+  <p class="lead">Sign in with your registered phone number. Receive an OTP. Upload or access your BQP-held documents &mdash; organised by work (Income Tax, GST, ROC, Agreements, Invoices), year and month.</p>
+</section>
+
+<section class="portal-main">
+  <div class="auth-card">
+    <div class="demo-banner" id="demoBanner">
+      Demo mode &mdash; portal UI only. Backend setup pending. See <a href="playbook/09-client-portal-firebase-setup.md" style="color:#92400e;text-decoration:underline">setup playbook</a>.
+    </div>
+
+    <div class="mode-switch">
+      <button class="mode-btn active" id="modeSignin" onclick="switchMode('signin')">Sign in</button>
+      <button class="mode-btn" id="modeSignup" onclick="switchMode('signup')">Create account</button>
+    </div>
+
+    <!-- STEP 1: Phone + optional name/email -->
+    <div id="step-phone" class="step-active">
+      <h2 id="authHeading">Sign in to your portal</h2>
+      <p class="sub" id="authSub">Enter your BQP-registered mobile number. We'll send a 6-digit OTP.</p>
+
+      <div class="field" id="nameField" style="display:none">
+        <label>Full name <span class="hint">As on your BQP engagement letter.</span></label>
+        <input type="text" id="fullName" placeholder="e.g., CA Durgesh Chavda"/>
+      </div>
+
+      <div class="field" id="emailField" style="display:none">
+        <label>Email <span class="hint">For notification + account recovery.</span></label>
+        <input type="email" id="email" placeholder="you@example.com"/>
+      </div>
+
+      <div class="field">
+        <label>Mobile number <span class="hint">With country code. Must match the number on your BQP engagement.</span></label>
+        <input type="tel" id="phone" placeholder="+91 78018 87130" value="+91"/>
+      </div>
+
+      <button class="btn-primary" onclick="sendOtp()">Send OTP &rarr;</button>
+      <button class="btn-secondary" onclick="window.location.href='mailto:durgesh@bharatquantumprospera.com?subject=Client%20portal%20access'">Need help? Email Durgesh</button>
+    </div>
+
+    <!-- STEP 2: OTP verification -->
+    <div id="step-otp" class="step-hidden">
+      <h2>Enter the OTP</h2>
+      <p class="sub">6-digit code sent to <span id="otpPhone">your number</span>. Expires in 5 minutes.</p>
+
+      <div class="info-note" id="demoOtpHint">
+        <strong>Demo mode:</strong> use OTP <strong>123456</strong>
+      </div>
+
+      <div class="field">
+        <label>6-digit OTP</label>
+        <div class="otp-row">
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,0)"/>
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,1)"/>
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,2)"/>
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,3)"/>
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,4)"/>
+          <input type="text" maxlength="1" inputmode="numeric" class="otp-digit" oninput="otpInput(this,5)"/>
+        </div>
+      </div>
+
+      <button class="btn-primary" onclick="verifyOtp()" id="verifyBtn">Verify &amp; sign in &rarr;</button>
+      <button class="btn-secondary" onclick="goBack()">&larr; Change number / resend OTP</button>
+    </div>
+
+    <!-- STEP 3: Success -->
+    <div id="step-success" class="step-hidden" style="text-align:center">
+      <div style="width:60px;height:60px;background:#C2312A;color:#fff;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font:700 28px Inter;margin:0 auto 16px">✓</div>
+      <h2 style="text-align:center">Signed in.</h2>
+      <p class="sub" style="text-align:center">Redirecting to your document dashboard&hellip;</p>
+    </div>
+  </div>
+
+  <div class="trust-row">
+    <span>🔒 Phone OTP auth</span>
+    <span>📁 Google Drive-backed</span>
+    <span>🔐 Firebase-secured</span>
+    <span>Access-logged</span>
+  </div>
+</section>
+
+<section class="ctx-section">
+  <div class="ctx-card">
+    <h3>What's inside your portal</h3>
+    <p>On first sign-in, we create your private document folders in BQP's Google Drive, organised by work type &mdash; so you always know where to find or upload a document.</p>
+    <div class="folder-tree">
+<span class="f1">📁 {Your Name}/</span><br/>
+<span class="f2">  ├─ 📂 Income Tax/</span><br/>
+<span class="f2">  │   └─ 📂 FY 2025-26/ (Apr - Mar)</span><br/>
+<span class="f2">  │        ├─ 📂 Apr 2025/</span><br/>
+<span class="f2">  │        ├─ 📂 May 2025/ ...</span><br/>
+<span class="f2">  ├─ 📂 GST/</span><br/>
+<span class="f2">  │   └─ 📂 FY 2025-26/ (month folders)</span><br/>
+<span class="f2">  ├─ 📂 ROC Filings/</span><br/>
+<span class="f2">  ├─ 📂 Agreements/</span><br/>
+<span class="f2">  ├─ 📂 Invoices/</span><br/>
+<span class="f2">  ├─ 📂 Bank Statements/</span><br/>
+<span class="f2">  ├─ 📂 TDS Certificates / Form 16A/</span><br/>
+<span class="f2">  ├─ 📂 FEMA / ODI Filings/</span><br/>
+<span class="f2">  ├─ 📂 US Compliance (if applicable)/</span><br/>
+<span class="f2">  │   ├─ 📂 Form 5472/</span><br/>
+<span class="f2">  │   ├─ 📂 Form 1120/</span><br/>
+<span class="f2">  │   └─ 📂 Delaware Franchise Tax/</span><br/>
+<span class="f2">  └─ 📂 Miscellaneous/</span>
+    </div>
+  </div>
+
+  <div class="ctx-card">
+    <h3>How it works</h3>
+    <p>1. <strong>Create account</strong> on first visit using your BQP-registered phone number. We cross-check against your engagement letter to confirm you are a BQP client.</p>
+    <p>2. <strong>Sign in</strong> any time with phone + OTP. Firebase Auth handles the OTP (phone-based 2FA).</p>
+    <p>3. <strong>Upload or download</strong> documents from any folder. Files are stored in BQP's dedicated Google Drive workspace with your folder access-controlled.</p>
+    <p>4. <strong>BQP uploads too</strong> &mdash; when your tax return is filed or your ROC form is lodged, we drop the acknowledgement into the right folder.</p>
+    <p>5. <strong>Access log</strong> &mdash; every view, upload, download is logged for audit.</p>
+  </div>
+
+  <div class="ctx-card">
+    <h3>Not a BQP client yet?</h3>
+    <p>Portal access is available after you engage BQP. Start with a scoping call &mdash; <a href="https://wa.me/917801887130?text=Hi%20Durgesh%2C%20I%20want%20to%20engage%20BQP" target="_blank" rel="noopener" style="color:#C2312A">WhatsApp Durgesh</a>, email <a href="mailto:durgesh@bharatquantumprospera.com" style="color:#C2312A">durgesh@bharatquantumprospera.com</a>, or use the <a href="get-a-quote.html" style="color:#C2312A">intake form</a>.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-card"><div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand"><h3>Bharat Quantum<br/>Prospera</h3></div>
+      <div class="footer-col"><h5>Services</h5><ul><li><a href="services.html">All Services</a></li><li><a href="tools.html">Tools &amp; Calculators</a></li><li><a href="client-portal.html">Client Portal</a></li></ul></div>
+      <div class="footer-col"><h5>Firm</h5><ul><li><a href="about.html">About</a></li><li><a href="insights.html">Insights</a></li><li><a href="durgesh.html">Founder</a></li></ul></div>
+      <div class="footer-col"><h5>Reach</h5><ul><li><a href="tel:+917801887130">+91 78018 87130</a></li><li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Bharat Quantum Prospera.</span><span>Ahmedabad &middot; Est. in Practice</span></div>
+  </div></div>
+</footer>
+
+<script>
+/* =====================================================================
+   BQP CLIENT PORTAL — Authentication Flow
+   =====================================================================
+
+   This file runs in TWO MODES:
+
+   1) DEMO MODE (default, works today without any backend):
+      - localStorage simulation of accounts, OTP, session
+      - Universal OTP: 123456
+      - No real data upload; dashboard shows mock files
+
+   2) LIVE MODE (after Firebase + Google Drive setup):
+      - Firebase Auth for real phone OTP
+      - Firebase Firestore for user metadata
+      - Google Drive API for folder + file operations
+      - Set DEMO = false and configure FIREBASE_CONFIG below
+
+   Full setup playbook: /playbook/09-client-portal-firebase-setup.md
+   ===================================================================== */
+
+var DEMO = true;  // ← Flip to false after Firebase setup
+
+var FIREBASE_CONFIG = {
+  // Fill after creating Firebase project (see playbook step 2):
+  // apiKey: "...",
+  // authDomain: "bqp-client-portal.firebaseapp.com",
+  // projectId: "bqp-client-portal",
+  // storageBucket: "...",
+  // messagingSenderId: "...",
+  // appId: "..."
+};
+
+var currentMode = 'signin';
+var pendingPhone = null;
+
+function switchMode(mode){
+  currentMode = mode;
+  document.getElementById('modeSignin').classList.toggle('active', mode === 'signin');
+  document.getElementById('modeSignup').classList.toggle('active', mode === 'signup');
+  document.getElementById('nameField').style.display = mode === 'signup' ? 'block' : 'none';
+  document.getElementById('emailField').style.display = mode === 'signup' ? 'block' : 'none';
+  document.getElementById('authHeading').textContent = mode === 'signup' ? 'Create your portal account' : 'Sign in to your portal';
+  document.getElementById('authSub').textContent = mode === 'signup' ? 'Register with your BQP-engagement details. OTP will verify your phone.' : "Enter your BQP-registered mobile number. We'll send a 6-digit OTP.";
+}
+
+function sendOtp(){
+  var phone = document.getElementById('phone').value.trim();
+  if (!phone.match(/^\+\d{10,15}$/)) {
+    alert('Enter a valid phone number with country code (e.g., +91 78018 87130).');
+    return;
+  }
+  pendingPhone = phone;
+
+  if (currentMode === 'signup') {
+    var name = document.getElementById('fullName').value.trim();
+    var email = document.getElementById('email').value.trim();
+    if (!name || !email) {
+      alert('Enter your full name and email to create an account.');
+      return;
+    }
+    // Save pending signup data for post-OTP account creation
+    try { sessionStorage.setItem('bqp_signup_pending', JSON.stringify({name: name, email: email, phone: phone})); } catch(e) {}
+  }
+
+  if (DEMO) {
+    // Simulate OTP send
+    document.getElementById('otpPhone').textContent = phone;
+    document.getElementById('step-phone').classList.remove('step-active');
+    document.getElementById('step-phone').classList.add('step-hidden');
+    document.getElementById('step-otp').classList.remove('step-hidden');
+    document.getElementById('step-otp').classList.add('step-active');
+    document.querySelector('.otp-digit').focus();
+    return;
+  }
+
+  // LIVE MODE: Firebase Phone Auth
+  // Requires Firebase SDK loaded via <script src="https://www.gstatic.com/firebasejs/..."> in head.
+  // Pattern:
+  //   firebase.initializeApp(FIREBASE_CONFIG);
+  //   var auth = firebase.auth();
+  //   var recaptcha = new firebase.auth.RecaptchaVerifier('recaptcha-container', { size: 'invisible' });
+  //   auth.signInWithPhoneNumber(phone, recaptcha).then(function(confirmationResult){
+  //     window.confirmationResult = confirmationResult;
+  //     // Show OTP step
+  //   }).catch(function(err){ alert('OTP send failed: ' + err.message); });
+}
+
+function otpInput(el, idx){
+  var val = el.value.replace(/\D/g,'');
+  el.value = val;
+  if (val && idx < 5) {
+    document.querySelectorAll('.otp-digit')[idx + 1].focus();
+  }
+}
+
+function getEnteredOtp(){
+  return Array.from(document.querySelectorAll('.otp-digit')).map(function(el){return el.value;}).join('');
+}
+
+function verifyOtp(){
+  var otp = getEnteredOtp();
+  if (otp.length !== 6) {
+    alert('Enter the full 6-digit OTP.');
+    return;
+  }
+
+  if (DEMO) {
+    if (otp !== '123456') {
+      alert('Demo OTP is 123456.');
+      return;
+    }
+    // Simulated success
+    var session = {phone: pendingPhone, authAt: Date.now()};
+    try { sessionStorage.setItem('bqp_session', JSON.stringify(session)); } catch(e) {}
+    // If signup, persist to local accounts
+    try {
+      var pending = sessionStorage.getItem('bqp_signup_pending');
+      if (pending) {
+        var accounts = JSON.parse(localStorage.getItem('bqp_accounts') || '{}');
+        var data = JSON.parse(pending);
+        accounts[data.phone] = {name: data.name, email: data.email, phone: data.phone, createdAt: Date.now()};
+        localStorage.setItem('bqp_accounts', JSON.stringify(accounts));
+        sessionStorage.removeItem('bqp_signup_pending');
+      }
+    } catch(e) {}
+
+    document.getElementById('step-otp').classList.remove('step-active');
+    document.getElementById('step-otp').classList.add('step-hidden');
+    document.getElementById('step-success').classList.remove('step-hidden');
+    document.getElementById('step-success').classList.add('step-active');
+    setTimeout(function(){ window.location.href = 'client-portal-dashboard.html'; }, 1500);
+    return;
+  }
+
+  // LIVE MODE: Firebase OTP verification
+  // Pattern:
+  //   window.confirmationResult.confirm(otp).then(function(result){
+  //     // user = result.user; redirect to dashboard
+  //     window.location.href = 'client-portal-dashboard.html';
+  //   }).catch(function(err){ alert('Invalid OTP: ' + err.message); });
+}
+
+function goBack(){
+  document.getElementById('step-otp').classList.remove('step-active');
+  document.getElementById('step-otp').classList.add('step-hidden');
+  document.getElementById('step-phone').classList.remove('step-hidden');
+  document.getElementById('step-phone').classList.add('step-active');
+}
+
+// Hide the demo banner if DEMO = false
+if (!DEMO) {
+  var banner = document.getElementById('demoBanner');
+  var hint = document.getElementById('demoOtpHint');
+  if (banner) banner.style.display = 'none';
+  if (hint) hint.style.display = 'none';
+}
+
+// Auto-redirect if already signed in
+try {
+  var session = JSON.parse(sessionStorage.getItem('bqp_session') || 'null');
+  if (session && Date.now() - session.authAt < 3600000) {
+    window.location.href = 'client-portal-dashboard.html';
+  }
+} catch(e) {}
+</script>
+<script src="bqp.js" defer></script>
+</body>
+</html>

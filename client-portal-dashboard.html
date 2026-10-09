@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>BQP Client Portal - Dashboard | Bharat Quantum Prospera</title>
+<meta name="description" content="BQP client portal dashboard - browse your documents by work type, year, and month. Upload new files to any folder."/>
+<meta name="robots" content="noindex, nofollow"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  body{background:#f8f3e8}
+  .dash-wrap{max-width:1400px;margin:0 auto;padding:90px 20px 40px}
+  .dash-header{display:flex;justify-content:space-between;align-items:center;background:#fff;padding:16px 24px;border:1px solid #ece4d5;border-radius:8px;margin-bottom:20px;flex-wrap:wrap;gap:12px}
+  .dash-header .welcome{font:400 15px Inter;color:#1a1613}
+  .dash-header .welcome strong{color:#C2312A;font-weight:600}
+  .dash-header .meta{font:500 12px Inter;color:#857968;letter-spacing:.04em;text-transform:uppercase}
+  .dash-header .signout-btn{padding:8px 16px;background:transparent;color:#1a1613;border:1px solid #e5dfd4;border-radius:4px;font:600 12px Inter;cursor:pointer;text-decoration:none}
+
+  .demo-banner{background:#fef3c7;border:1px solid #fcd34d;color:#92400e;padding:10px 14px;border-radius:4px;font:500 12px Inter;margin-bottom:16px;text-align:center}
+
+  .dash-grid{display:grid;grid-template-columns:280px 1fr;gap:16px;align-items:start}
+  @media(max-width:860px){.dash-grid{grid-template-columns:1fr}}
+
+  .sidebar{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:18px;position:sticky;top:16px}
+  .sidebar h3{font:600 12px Inter;color:#857968;letter-spacing:.08em;text-transform:uppercase;margin:0 0 12px}
+  .folder-list{list-style:none;padding:0;margin:0}
+  .folder-list li{margin-bottom:4px}
+  .folder-btn{display:flex;align-items:center;gap:8px;width:100%;padding:9px 12px;background:transparent;border:0;cursor:pointer;font:500 13px Inter;color:#1a1613;text-align:left;border-radius:4px;text-decoration:none}
+  .folder-btn:hover{background:#f8f3e8}
+  .folder-btn.active{background:#C2312A;color:#fff}
+  .folder-btn.active:hover{background:#C2312A}
+  .folder-ico{flex-shrink:0;font-size:14px}
+
+  .main-panel{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:24px;min-height:500px}
+
+  .breadcrumb{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font:500 12px Inter;color:#857968;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #ece4d5}
+  .breadcrumb a{color:#C2312A;text-decoration:none}
+  .breadcrumb a:hover{text-decoration:underline}
+  .breadcrumb .sep{color:#d6ccb8}
+
+  .folder-view h2{font:600 20px Inter;color:#1a1613;margin:0 0 6px;letter-spacing:-.01em}
+  .folder-view .count{font:500 12px Inter;color:#857968;margin:0 0 20px;letter-spacing:.04em;text-transform:uppercase}
+
+  .subfolder-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:24px}
+  .subfolder-card{display:flex;align-items:center;gap:10px;padding:14px 16px;background:#f8f3e8;border:1px solid #ece4d5;border-radius:6px;cursor:pointer;text-decoration:none;color:#1a1613;transition:all .15s}
+  .subfolder-card:hover{border-color:#C2312A;background:#fff}
+  .subfolder-card .ico{font-size:18px}
+  .subfolder-card .name{font:600 13px Inter;color:#1a1613;letter-spacing:-.01em}
+
+  .upload-area{border:2px dashed #ece4d5;background:#f8f3e8;border-radius:8px;padding:28px;text-align:center;cursor:pointer;margin-bottom:20px;transition:all .15s}
+  .upload-area:hover,.upload-area.dragover{border-color:#C2312A;background:#fff}
+  .upload-area .u-icon{font-size:28px;margin-bottom:8px}
+  .upload-area .u-title{font:600 14px Inter;color:#1a1613;margin:0 0 4px}
+  .upload-area .u-sub{font:400 12px Inter;color:#857968}
+  .upload-area input[type="file"]{display:none}
+
+  .file-list{list-style:none;padding:0;margin:0}
+  .file-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid #ece4d5;border-radius:6px;margin-bottom:8px;background:#fff}
+  .file-row .f-icon{font-size:20px;flex-shrink:0}
+  .file-row .f-meta{flex:1;min-width:0}
+  .file-row .f-name{font:600 13px Inter;color:#1a1613;margin:0 0 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .file-row .f-info{font:400 11px Inter;color:#857968;letter-spacing:.02em}
+  .file-row .f-info .by{color:#C2312A;font-weight:600}
+  .file-row .f-actions{display:flex;gap:6px;flex-shrink:0}
+  .file-row .f-actions button, .file-row .f-actions a{padding:6px 10px;background:transparent;border:1px solid #e5dfd4;color:#1a1613;border-radius:3px;font:500 11px Inter;cursor:pointer;text-decoration:none}
+  .file-row .f-actions button:hover, .file-row .f-actions a:hover{border-color:#C2312A;color:#C2312A}
+
+  .empty-state{text-align:center;padding:40px 20px;color:#857968;font:400 13px Inter}
+  .empty-state .ei{font-size:36px;margin-bottom:12px}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader" style="position:fixed;top:0;left:0;right:0;background:#fff;z-index:50">
+  <a href="index.html" class="logo-mark" aria-label="BQP"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="tools.html" class="nav-pill">Tools</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right"><a href="#" class="nav-cta" onclick="signOut();return false;">Sign out</a></div>
+</header>
+
+<div class="dash-wrap">
+
+<div class="demo-banner" id="demoBanner">
+  Demo mode &mdash; files stored only in your browser (localStorage), not actually in Drive. See <a href="playbook/09-client-portal-firebase-setup.md" style="color:#92400e;text-decoration:underline">setup playbook</a> to connect real Google Drive.
+</div>
+
+<div class="dash-header">
+  <div>
+    <div class="welcome">Welcome back, <strong id="userName">Client</strong></div>
+    <div class="meta">Portal access &middot; <span id="userPhone">+91 XXXXX</span></div>
+  </div>
+  <a href="#" onclick="signOut();return false;" class="signout-btn">Sign out</a>
+</div>
+
+<div class="dash-grid">
+
+  <aside class="sidebar">
+    <h3>Document categories</h3>
+    <ul class="folder-list" id="folderList">
+      <!-- populated by JS -->
+    </ul>
+  </aside>
+
+  <main class="main-panel">
+    <div class="breadcrumb" id="breadcrumb">Dashboard</div>
+
+    <div class="folder-view" id="folderView">
+      <!-- populated by JS -->
+    </div>
+
+    <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+      <div class="u-icon">📤</div>
+      <div class="u-title" id="uploadTitle">Click or drop files here to upload</div>
+      <div class="u-sub" id="uploadSub">Navigate to a specific month folder to upload. Max 50 MB per file.</div>
+      <input type="file" id="fileInput" multiple onchange="handleFileUpload(this.files)"/>
+    </div>
+
+    <ul class="file-list" id="fileList"></ul>
+    <div class="empty-state" id="emptyState" style="display:none">
+      <div class="ei">📂</div>
+      <div>No files in this folder yet.<br/>Upload documents or wait for BQP to drop filed acknowledgements here.</div>
+    </div>
+  </main>
+
+</div>
+</div>
+
+<script>
+/* =====================================================================
+   BQP CLIENT PORTAL — Dashboard
+   =====================================================================
+
+   Demo mode: files stored in localStorage.
+   Live mode: swap localStorage calls for Google Drive API via Firebase
+   Cloud Functions. See /playbook/09-client-portal-firebase-setup.md
+   ===================================================================== */
+
+var DEMO = true;
+
+/* ---- Session check ---- */
+var session;
+try { session = JSON.parse(sessionStorage.getItem('bqp_session') || 'null'); } catch(e) { session = null; }
+if (!session || !session.phone) {
+  window.location.href = 'client-portal.html';
+}
+
+/* ---- User profile from accounts store (or defaults) ---- */
+var accounts = {};
+try { accounts = JSON.parse(localStorage.getItem('bqp_accounts') || '{}'); } catch(e) { accounts = {}; }
+var profile = accounts[session.phone] || {phone: session.phone, name: 'Portal User', email: ''};
+
+document.getElementById('userName').textContent = profile.name || 'Portal User';
+document.getElementById('userPhone').textContent = profile.phone || session.phone;
+
+/* ---- Folder structure (BQP's standard template) ---- */
+var CATEGORIES = [
+  {id: 'income-tax', name: 'Income Tax', icon: '📊', hasYearMonth: true},
+  {id: 'gst', name: 'GST', icon: '🧾', hasYearMonth: true},
+  {id: 'roc', name: 'ROC Filings', icon: '📑', hasYearMonth: true},
+  {id: 'agreements', name: 'Agreements', icon: '📝', hasYearMonth: false},
+  {id: 'invoices', name: 'Invoices', icon: '💳', hasYearMonth: true},
+  {id: 'bank', name: 'Bank Statements', icon: '🏦', hasYearMonth: true},
+  {id: 'tds', name: 'TDS / Form 16A', icon: '📜', hasYearMonth: true},
+  {id: 'fema', name: 'FEMA / ODI', icon: '🌐', hasYearMonth: false},
+  {id: 'us-compliance', name: 'US Compliance', icon: '🇺🇸', hasYearMonth: true, subCategories: ['Form 5472', 'Form 1120', 'Delaware Franchise Tax', 'FBAR', 'BOIR']},
+  {id: 'misc', name: 'Miscellaneous', icon: '📁', hasYearMonth: false}
+];
+
+/* ---- Current navigation state ---- */
+var state = {
+  category: null,
+  subCategory: null,
+  year: null,
+  month: null
+};
+
+/* ---- Months helper ---- */
+var MONTHS = ['Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec','Jan','Feb','Mar'];
+
+/* ---- Years helper (last 3 FYs + current) ---- */
+function getYears(){
+  var now = new Date();
+  var currentFyStart = now.getMonth() >= 3 ? now.getFullYear() : now.getFullYear() - 1;
+  var years = [];
+  for (var i = 0; i < 4; i++) {
+    var start = currentFyStart - i;
+    years.push('FY ' + start + '-' + String(start + 1).slice(-2));
+  }
+  return years;
+}
+
+/* ---- Render sidebar categories ---- */
+function renderSidebar(){
+  var ul = document.getElementById('folderList');
+  ul.innerHTML = '';
+  CATEGORIES.forEach(function(cat){
+    var li = document.createElement('li');
+    var btn = document.createElement('a');
+    btn.className = 'folder-btn' + (state.category === cat.id ? ' active' : '');
+    btn.href = '#';
+    btn.innerHTML = '<span class="folder-ico">' + cat.icon + '</span><span>' + cat.name + '</span>';
+    btn.onclick = function(e){ e.preventDefault(); navigate(cat.id); };
+    li.appendChild(btn);
+    ul.appendChild(li);
+  });
+}
+
+/* ---- Navigation ---- */
+function navigate(category, sub, year, month){
+  state.category = category;
+  state.subCategory = sub || null;
+  state.year = year || null;
+  state.month = month || null;
+  renderSidebar();
+  renderView();
+}
+
+/* ---- Breadcrumb + view ---- */
+function renderBreadcrumb(){
+  var bc = document.getElementById('breadcrumb');
+  var parts = ['<a href="#" onclick="navigate(null);return false;">Dashboard</a>'];
+  if (state.category) {
+    var cat = CATEGORIES.find(function(c){return c.id === state.category;});
+    parts.push('<span class="sep">/</span>');
+    if (state.subCategory || state.year || state.month) {
+      parts.push('<a href="#" onclick="navigate(\'' + state.category + '\');return false;">' + cat.name + '</a>');
+    } else {
+      parts.push('<span>' + cat.name + '</span>');
+    }
+    if (state.subCategory) {
+      parts.push('<span class="sep">/</span>');
+      if (state.year || state.month) {
+        parts.push('<a href="#" onclick="navigate(\'' + state.category + '\',\'' + state.subCategory + '\');return false;">' + state.subCategory + '</a>');
+      } else {
+        parts.push('<span>' + state.subCategory + '</span>');
+      }
+    }
+    if (state.year) {
+      parts.push('<span class="sep">/</span>');
+      if (state.month) {
+        parts.push('<a href="#" onclick="navigate(\'' + state.category + '\',\'' + (state.subCategory||'') + '\',\'' + state.year + '\');return false;">' + state.year + '</a>');
+      } else {
+        parts.push('<span>' + state.year + '</span>');
+      }
+    }
+    if (state.month) {
+      parts.push('<span class="sep">/</span>');
+      parts.push('<span>' + state.month + '</span>');
+    }
+  }
+  bc.innerHTML = parts.join(' ');
+}
+
+function renderView(){
+  renderBreadcrumb();
+  var view = document.getElementById('folderView');
+  var uploadArea = document.getElementById('uploadArea');
+  var uploadSub = document.getElementById('uploadSub');
+
+  // Dashboard home
+  if (!state.category) {
+    uploadArea.style.display = 'none';
+    document.getElementById('fileList').innerHTML = '';
+    document.getElementById('emptyState').style.display = 'none';
+    view.innerHTML = '<h2>Your document folders</h2><p class="count">' + CATEGORIES.length + ' categories</p><div class="subfolder-grid">' +
+      CATEGORIES.map(function(c){
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + c.id + '\');return false;"><span class="ico">' + c.icon + '</span><span class="name">' + c.name + '</span></a>';
+      }).join('') + '</div>';
+    return;
+  }
+
+  var cat = CATEGORIES.find(function(c){return c.id === state.category;});
+
+  // Category view with sub-categories
+  if (cat.subCategories && !state.subCategory) {
+    uploadArea.style.display = 'none';
+    document.getElementById('fileList').innerHTML = '';
+    document.getElementById('emptyState').style.display = 'none';
+    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + '</h2><p class="count">Pick a sub-category</p><div class="subfolder-grid">' +
+      cat.subCategories.map(function(s){
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + s + '\');return false;"><span class="ico">📂</span><span class="name">' + s + '</span></a>';
+      }).join('') + '</div>';
+    return;
+  }
+
+  // Year view
+  if (cat.hasYearMonth && !state.year) {
+    uploadArea.style.display = 'none';
+    document.getElementById('fileList').innerHTML = '';
+    document.getElementById('emptyState').style.display = 'none';
+    var years = getYears();
+    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + (state.subCategory ? ' / ' + state.subCategory : '') + '</h2><p class="count">Pick a financial year</p><div class="subfolder-grid">' +
+      years.map(function(y){
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + y + '\');return false;"><span class="ico">🗓️</span><span class="name">' + y + '</span></a>';
+      }).join('') + '</div>';
+    return;
+  }
+
+  // Month view
+  if (cat.hasYearMonth && state.year && !state.month) {
+    uploadArea.style.display = 'none';
+    document.getElementById('fileList').innerHTML = '';
+    document.getElementById('emptyState').style.display = 'none';
+    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + ' / ' + state.year + '</h2><p class="count">Pick a month</p><div class="subfolder-grid">' +
+      MONTHS.map(function(m){
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + state.year + '\',\'' + m + '\');return false;"><span class="ico">📅</span><span class="name">' + m + '</span></a>';
+      }).join('') + '</div>';
+    return;
+  }
+
+  // File listing view (leaf folder)
+  uploadArea.style.display = 'block';
+  var pathLabel = cat.name + (state.subCategory ? ' / ' + state.subCategory : '') + (state.year ? ' / ' + state.year : '') + (state.month ? ' / ' + state.month : '');
+  uploadSub.textContent = 'Upload to: ' + pathLabel;
+  view.innerHTML = '<h2>' + cat.icon + ' ' + pathLabel + '</h2><p class="count">Files in this folder</p>';
+  renderFiles();
+}
+
+/* ---- File operations (DEMO mode: localStorage) ---- */
+function folderKey(){
+  return [session.phone, state.category, state.subCategory || '', state.year || '', state.month || ''].join('|');
+}
+
+function getFiles(){
+  try {
+    var store = JSON.parse(localStorage.getItem('bqp_files') || '{}');
+    return store[folderKey()] || [];
+  } catch(e) { return []; }
+}
+
+function saveFiles(files){
+  try {
+    var store = JSON.parse(localStorage.getItem('bqp_files') || '{}');
+    store[folderKey()] = files;
+    localStorage.setItem('bqp_files', JSON.stringify(store));
+  } catch(e) {}
+}
+
+function renderFiles(){
+  var files = getFiles();
+  var list = document.getElementById('fileList');
+  var empty = document.getElementById('emptyState');
+  list.innerHTML = '';
+  if (files.length === 0) {
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+  files.forEach(function(f, idx){
+    var li = document.createElement('li');
+    li.className = 'file-row';
+    var extIcon = {pdf:'📄',doc:'📝',docx:'📝',xls:'📊',xlsx:'📊',jpg:'🖼️',jpeg:'🖼️',png:'🖼️',zip:'🗜️'}[f.ext] || '📎';
+    li.innerHTML =
+      '<div class="f-icon">' + extIcon + '</div>' +
+      '<div class="f-meta">' +
+        '<div class="f-name">' + f.name + '</div>' +
+        '<div class="f-info"><span class="by">' + (f.uploadedBy || 'You') + '</span> &middot; ' + f.size + ' &middot; ' + f.uploadedAt + '</div>' +
+      '</div>' +
+      '<div class="f-actions">' +
+        '<a href="' + (f.dataUrl || '#') + '" download="' + f.name + '">Download</a>' +
+        '<button onclick="deleteFile(' + idx + ')">Delete</button>' +
+      '</div>';
+    list.appendChild(li);
+  });
+}
+
+function handleFileUpload(fileList){
+  if (!state.category) { alert('Navigate into a folder first.'); return; }
+  var cat = CATEGORIES.find(function(c){return c.id === state.category;});
+  var needsLeaf = cat.hasYearMonth && (!state.year || !state.month);
+  if (needsLeaf) {
+    alert('Navigate into the month folder before uploading.');
+    return;
+  }
+
+  var files = Array.from(fileList);
+  var current = getFiles();
+  var reader;
+  var remaining = files.length;
+
+  files.forEach(function(f){
+    if (f.size > 50 * 1024 * 1024) {
+      alert(f.name + ' exceeds 50 MB limit (demo).');
+      remaining--;
+      if (remaining === 0) renderFiles();
+      return;
+    }
+    reader = new FileReader();
+    reader.onload = function(e){
+      var ext = (f.name.split('.').pop() || '').toLowerCase();
+      current.push({
+        name: f.name,
+        ext: ext,
+        size: (f.size / 1024).toFixed(1) + ' KB',
+        uploadedAt: new Date().toLocaleDateString('en-IN') + ' ' + new Date().toLocaleTimeString('en-IN', {hour:'2-digit',minute:'2-digit'}),
+        uploadedBy: 'You',
+        dataUrl: e.target.result  /* Demo only; in live mode this is a Drive file ID */
+      });
+      remaining--;
+      if (remaining === 0) {
+        saveFiles(current);
+        renderFiles();
+      }
+    };
+    reader.readAsDataURL(f);
+  });
+
+  document.getElementById('fileInput').value = '';
+}
+
+function deleteFile(idx){
+  if (!confirm('Delete this file? (Demo mode: deletes from browser only.)')) return;
+  var files = getFiles();
+  files.splice(idx, 1);
+  saveFiles(files);
+  renderFiles();
+}
+
+/* ---- Drag/drop upload ---- */
+var uploadArea = document.getElementById('uploadArea');
+['dragover','dragenter'].forEach(function(ev){
+  uploadArea.addEventListener(ev, function(e){ e.preventDefault(); uploadArea.classList.add('dragover'); });
+});
+['dragleave','drop'].forEach(function(ev){
+  uploadArea.addEventListener(ev, function(e){ e.preventDefault(); uploadArea.classList.remove('dragover'); });
+});
+uploadArea.addEventListener('drop', function(e){
+  e.preventDefault();
+  handleFileUpload(e.dataTransfer.files);
+});
+
+/* ---- Sign out ---- */
+function signOut(){
+  try {
+    sessionStorage.removeItem('bqp_session');
+  } catch(e) {}
+  window.location.href = 'client-portal.html';
+}
+
+/* ---- Hide demo banner in live mode ---- */
+if (!DEMO) {
+  var banner = document.getElementById('demoBanner');
+  if (banner) banner.style.display = 'none';
+}
+
+/* ---- Initial render ---- */
+renderSidebar();
+renderView();
+</script>
+</body>
+</html>

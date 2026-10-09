@@ -25,6 +25,8 @@ Everything in this folder is paste-ready. Nothing requires editing beyond adding
 | 06 | `06-reddit-quora-answers.md` | 2 substantive answers per week on each platform | Reddit + Quora accounts with profile set up |
 | 07 | `07-gbp-execution.md` | 30-minute GBP setup, then weekly maintenance | Google account for BQP |
 | 08 | `08-intake-backend.md` | Wire the LLC/C-Corp intake form to Formspree or Google Sheet | Formspree signup OR Google account |
+| 09 | `09-client-portal-firebase-setup.md` | Full Firebase + Google Drive setup for the client portal (phone OTP + auto folder tree) | Google account for Firebase + Google Cloud project |
+| 10 | `10-client-portal-saas-alternatives.md` | Honest SaaS comparison if you'd rather use SuiteFiles / Karbon / Zoho WorkDrive instead | Reading only |
 
 ---
 

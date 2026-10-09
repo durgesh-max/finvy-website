@@ -62,11 +62,29 @@
   .ctx-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px);margin-bottom:20px}
   .ctx-card h3{font:600 16px Inter;color:#1a1613;margin:0 0 12px;letter-spacing:-.01em}
   .ctx-card p{font:400 14px Inter;color:#1a1613;line-height:1.65;margin:0 0 1em}
-  .folder-tree{background:#f8f3e8;border:1px solid #ece4d5;border-radius:4px;padding:16px;font:400 13px 'SF Mono',Menlo,Consolas,monospace;color:#1a1613;line-height:1.6;overflow-x:auto}
-  .folder-tree .f1{color:#C2312A;font-weight:600}
-  .folder-tree .f2{color:#5a5147}
+  .folder-tree{background:#f8f3e8;border:1px solid #ece4d5;border-radius:6px;padding:20px 24px;font:400 13.5px Inter,system-ui,sans-serif;color:#1a1613;line-height:1.75;overflow-x:auto}
+  .folder-tree-row{display:flex;align-items:center;gap:10px;padding:3px 0}
+  .folder-tree-row.indent-1{padding-left:22px}
+  .folder-tree-row.indent-2{padding-left:44px}
+  .folder-tree-row.indent-3{padding-left:66px}
+  .folder-tree-row svg{flex-shrink:0;width:17px;height:17px;color:#C2312A}
+  .folder-tree-row.sub svg{color:#857968;width:15px;height:15px}
+  .folder-tree-row .ft-name{font:500 13.5px Inter,system-ui,sans-serif;color:#1a1613;letter-spacing:-.01em}
+  .folder-tree-row.sub .ft-name{font-weight:400;color:#5a5147;font-size:13px}
+  .folder-tree-row .ft-meta{font:400 12px Inter;color:#857968;margin-left:auto;letter-spacing:.02em}
 
-  .demo-banner{background:#fef3c7;border:1px solid #fcd34d;color:#92400e;padding:10px 14px;border-radius:4px;font:500 12px Inter;margin-bottom:16px;text-align:center}
+  .demo-banner{background:#fef3c7;border:1px solid #fcd34d;color:#92400e;padding:11px 16px;border-radius:4px;font:500 12.5px Inter;margin-bottom:16px;text-align:center;line-height:1.5}
+
+  .storage-card{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:clamp(26px,3vw,38px);margin-bottom:20px}
+  .storage-card h3{font:600 16px Inter;color:#1a1613;margin:0 0 10px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+  .storage-card h3 svg{width:22px;height:22px;color:#C2312A;flex-shrink:0}
+  .storage-card p{font:400 14px Inter;color:#1a1613;line-height:1.7;margin:0 0 1em}
+  .storage-card .status-row{display:flex;align-items:flex-start;gap:14px;padding:14px 16px;border:1px solid #ece4d5;border-radius:6px;margin-bottom:10px;background:#f8f3e8}
+  .storage-card .status-row svg{width:20px;height:20px;color:#C2312A;flex-shrink:0;margin-top:2px}
+  .storage-card .status-row .st-title{font:600 13px Inter;color:#1a1613;margin:0 0 3px;letter-spacing:-.01em}
+  .storage-card .status-row .st-body{font:400 12.5px Inter;color:#5a5147;line-height:1.55;margin:0}
+  .storage-card .status-row.live{background:#f0fdf4;border-color:#bbf7d0}
+  .storage-card .status-row.live svg{color:#16a34a}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"BQP Client Portal","url":"https://bharatquantumprospera.com/client-portal.html","description":"Secure client document portal for Bharat Quantum Prospera clients with phone OTP authentication.","publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera"}}</script>
 </head>
@@ -161,36 +179,98 @@
   </div>
 
   <div class="trust-row">
-    <span>🔒 Phone OTP auth</span>
-    <span>📁 Google Drive-backed</span>
-    <span>🔐 Firebase-secured</span>
-    <span>Access-logged</span>
+    <span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      Phone OTP auth
+    </span>
+    <span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+      Google Drive-backed
+    </span>
+    <span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      Firebase-secured
+    </span>
+    <span>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Access-logged
+    </span>
   </div>
 </section>
 
 <section class="ctx-section">
+  <div class="storage-card">
+    <h3>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Where your documents are saved
+    </h3>
+    <p>Honest answer, two states:</p>
+
+    <div class="status-row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <div>
+        <p class="st-title">Right now &mdash; DEMO mode</p>
+        <p class="st-body">Files you upload are stored only in your own browser's local storage. They do not leave your device. If you clear browser data, files are gone. This mode is for demonstrating the UI only &mdash; no real Drive integration yet.</p>
+      </div>
+    </div>
+
+    <div class="status-row live">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      <div>
+        <p class="st-title">After Firebase + Drive setup &mdash; LIVE mode</p>
+        <p class="st-body">Your files are uploaded to BQP's dedicated Google Drive workspace at <code style="font:400 12px Inter;background:#fff;padding:1px 6px;border-radius:3px;color:#1a1613">BQP Clients / {Your Name} / {Category} / {FY} / {Month}</code>. Only you + CA Durgesh Chavda have access. Every upload / download is logged in Firestore for audit. 60-90 min setup pending &mdash; see <a href="playbook/09-client-portal-firebase-setup.md" style="color:#C2312A;text-decoration:underline">setup playbook</a>.</p>
+      </div>
+    </div>
+  </div>
+
   <div class="ctx-card">
     <h3>What's inside your portal</h3>
     <p>On first sign-in, we create your private document folders in BQP's Google Drive, organised by work type &mdash; so you always know where to find or upload a document.</p>
     <div class="folder-tree">
-<span class="f1">📁 {Your Name}/</span><br/>
-<span class="f2">  ├─ 📂 Income Tax/</span><br/>
-<span class="f2">  │   └─ 📂 FY 2025-26/ (Apr - Mar)</span><br/>
-<span class="f2">  │        ├─ 📂 Apr 2025/</span><br/>
-<span class="f2">  │        ├─ 📂 May 2025/ ...</span><br/>
-<span class="f2">  ├─ 📂 GST/</span><br/>
-<span class="f2">  │   └─ 📂 FY 2025-26/ (month folders)</span><br/>
-<span class="f2">  ├─ 📂 ROC Filings/</span><br/>
-<span class="f2">  ├─ 📂 Agreements/</span><br/>
-<span class="f2">  ├─ 📂 Invoices/</span><br/>
-<span class="f2">  ├─ 📂 Bank Statements/</span><br/>
-<span class="f2">  ├─ 📂 TDS Certificates / Form 16A/</span><br/>
-<span class="f2">  ├─ 📂 FEMA / ODI Filings/</span><br/>
-<span class="f2">  ├─ 📂 US Compliance (if applicable)/</span><br/>
-<span class="f2">  │   ├─ 📂 Form 5472/</span><br/>
-<span class="f2">  │   ├─ 📂 Form 1120/</span><br/>
-<span class="f2">  │   └─ 📂 Delaware Franchise Tax/</span><br/>
-<span class="f2">  └─ 📂 Miscellaneous/</span>
+      <div class="folder-tree-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        <span class="ft-name">{Your Name}</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="4" x2="8" y2="10"/></svg>
+        <span class="ft-name">Income Tax</span><span class="ft-meta">FY + month folders</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+        <span class="ft-name">GST</span><span class="ft-meta">FY + month folders</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/><rect x="7" y="7" width="10" height="10" rx="1"/></svg>
+        <span class="ft-name">ROC Filings</span><span class="ft-meta">FY + month folders</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M18 15.5l-1.5-1.5a1 1 0 0 0-1.4 0l-6.6 6.6V22h1.4l6.6-6.6a1 1 0 0 0 0-1.4z"/></svg>
+        <span class="ft-name">Agreements</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        <span class="ft-name">Invoices</span><span class="ft-meta">FY + month folders</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/><line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/><line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>
+        <span class="ft-name">Bank Statements</span><span class="ft-meta">FY + month folders</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <span class="ft-name">TDS / Form 16A</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <span class="ft-name">FEMA / ODI Filings</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <span class="ft-name">US Compliance</span><span class="ft-meta">Form 5472 / 1120 / FBAR / BOIR</span>
+      </div>
+      <div class="folder-tree-row sub indent-1">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        <span class="ft-name">Miscellaneous</span>
+      </div>
     </div>
   </div>
 

@@ -12,7 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="bqp.css"/>
 <style>
-  body{background:#f8f3e8}
+  body{background:#f8f3e8;font-family:Inter,system-ui,sans-serif}
   .dash-wrap{max-width:1400px;margin:0 auto;padding:90px 20px 40px}
   .dash-header{display:flex;justify-content:space-between;align-items:center;background:#fff;padding:16px 24px;border:1px solid #ece4d5;border-radius:8px;margin-bottom:20px;flex-wrap:wrap;gap:12px}
   .dash-header .welcome{font:400 15px Inter;color:#1a1613}
@@ -33,7 +33,8 @@
   .folder-btn:hover{background:#f8f3e8}
   .folder-btn.active{background:#C2312A;color:#fff}
   .folder-btn.active:hover{background:#C2312A}
-  .folder-ico{flex-shrink:0;font-size:14px}
+  .folder-ico{flex-shrink:0;width:17px;height:17px;color:#5a5147}
+  .folder-btn.active .folder-ico{color:#fff}
 
   .main-panel{background:#fff;border:1px solid #ece4d5;border-radius:8px;padding:24px;min-height:500px}
 
@@ -48,29 +49,38 @@
   .subfolder-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:24px}
   .subfolder-card{display:flex;align-items:center;gap:10px;padding:14px 16px;background:#f8f3e8;border:1px solid #ece4d5;border-radius:6px;cursor:pointer;text-decoration:none;color:#1a1613;transition:all .15s}
   .subfolder-card:hover{border-color:#C2312A;background:#fff}
-  .subfolder-card .ico{font-size:18px}
+  .subfolder-card .ico{width:22px;height:22px;color:#C2312A;flex-shrink:0}
   .subfolder-card .name{font:600 13px Inter;color:#1a1613;letter-spacing:-.01em}
 
-  .upload-area{border:2px dashed #ece4d5;background:#f8f3e8;border-radius:8px;padding:28px;text-align:center;cursor:pointer;margin-bottom:20px;transition:all .15s}
+  .upload-area{border:2px dashed #ece4d5;background:#f8f3e8;border-radius:8px;padding:32px 24px;text-align:center;cursor:pointer;margin-bottom:20px;transition:all .15s}
   .upload-area:hover,.upload-area.dragover{border-color:#C2312A;background:#fff}
-  .upload-area .u-icon{font-size:28px;margin-bottom:8px}
+  .upload-area .u-icon{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#fff;border-radius:50%;color:#C2312A;margin-bottom:12px;border:1px solid #ece4d5}
+  .upload-area .u-icon svg{width:24px;height:24px}
   .upload-area .u-title{font:600 14px Inter;color:#1a1613;margin:0 0 4px}
   .upload-area .u-sub{font:400 12px Inter;color:#857968}
   .upload-area input[type="file"]{display:none}
 
   .file-list{list-style:none;padding:0;margin:0}
-  .file-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid #ece4d5;border-radius:6px;margin-bottom:8px;background:#fff}
-  .file-row .f-icon{font-size:20px;flex-shrink:0}
+  .file-row{display:flex;align-items:center;gap:14px;padding:12px 14px;border:1px solid #ece4d5;border-radius:6px;margin-bottom:8px;background:#fff}
+  .file-row .f-icon{width:38px;height:38px;background:#f8f3e8;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#C2312A;flex-shrink:0}
+  .file-row .f-icon svg{width:18px;height:18px}
   .file-row .f-meta{flex:1;min-width:0}
   .file-row .f-name{font:600 13px Inter;color:#1a1613;margin:0 0 2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .file-row .f-info{font:400 11px Inter;color:#857968;letter-spacing:.02em}
   .file-row .f-info .by{color:#C2312A;font-weight:600}
   .file-row .f-actions{display:flex;gap:6px;flex-shrink:0}
-  .file-row .f-actions button, .file-row .f-actions a{padding:6px 10px;background:transparent;border:1px solid #e5dfd4;color:#1a1613;border-radius:3px;font:500 11px Inter;cursor:pointer;text-decoration:none}
+  .file-row .f-actions button, .file-row .f-actions a{padding:6px 10px;background:transparent;border:1px solid #e5dfd4;color:#1a1613;border-radius:3px;font:500 11px Inter;cursor:pointer;text-decoration:none;letter-spacing:.02em}
   .file-row .f-actions button:hover, .file-row .f-actions a:hover{border-color:#C2312A;color:#C2312A}
 
-  .empty-state{text-align:center;padding:40px 20px;color:#857968;font:400 13px Inter}
-  .empty-state .ei{font-size:36px;margin-bottom:12px}
+  .empty-state{text-align:center;padding:48px 20px;color:#857968;font:400 13px Inter;line-height:1.65}
+  .empty-state .ei{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;background:#f8f3e8;border-radius:50%;color:#C2312A;margin-bottom:14px}
+  .empty-state .ei svg{width:28px;height:28px}
+
+  .storage-info{background:#fff;border:1px solid #ece4d5;border-left:3px solid #C2312A;border-radius:6px;padding:14px 16px;margin-bottom:20px;display:flex;align-items:flex-start;gap:12px}
+  .storage-info svg{width:18px;height:18px;color:#C2312A;flex-shrink:0;margin-top:2px}
+  .storage-info .si-title{font:600 12.5px Inter;color:#1a1613;margin:0 0 3px;letter-spacing:-.01em}
+  .storage-info .si-body{font:400 12px Inter;color:#5a5147;line-height:1.55;margin:0}
+  .storage-info code{font:400 11.5px Inter;background:#f8f3e8;padding:1px 6px;border-radius:3px;color:#1a1613}
 </style>
 </head>
 <body>
@@ -115,8 +125,18 @@
       <!-- populated by JS -->
     </div>
 
+    <div class="storage-info" id="storageInfo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <div>
+        <p class="si-title">Where this file will be saved</p>
+        <p class="si-body" id="storageInfoBody">Demo mode: in your browser's local storage only &mdash; not uploaded anywhere else. In live mode (after Firebase setup): <code>BQP Clients / {your name} / {current folder}</code> on Google Drive, accessible to you + CA Durgesh Chavda.</p>
+      </div>
+    </div>
+
     <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
-      <div class="u-icon">📤</div>
+      <div class="u-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+      </div>
       <div class="u-title" id="uploadTitle">Click or drop files here to upload</div>
       <div class="u-sub" id="uploadSub">Navigate to a specific month folder to upload. Max 50 MB per file.</div>
       <input type="file" id="fileInput" multiple onchange="handleFileUpload(this.files)"/>
@@ -124,8 +144,10 @@
 
     <ul class="file-list" id="fileList"></ul>
     <div class="empty-state" id="emptyState" style="display:none">
-      <div class="ei">📂</div>
-      <div>No files in this folder yet.<br/>Upload documents or wait for BQP to drop filed acknowledgements here.</div>
+      <div class="ei">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+      </div>
+      <div>No files in this folder yet.<br/>Upload documents, or wait for BQP to drop filed acknowledgements here.</div>
     </div>
   </main>
 
@@ -159,18 +181,41 @@ var profile = accounts[session.phone] || {phone: session.phone, name: 'Portal Us
 document.getElementById('userName').textContent = profile.name || 'Portal User';
 document.getElementById('userPhone').textContent = profile.phone || session.phone;
 
+/* ---- Premium SVG icons (monoline, 24x24, stroke-based) ---- */
+var ICONS = {
+  income_tax: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="4" x2="8" y2="10"/></svg>',
+  gst: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>',
+  roc: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/><rect x="7" y="7" width="10" height="10" rx="1"/></svg>',
+  agreements: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M18 15.5l-1.5-1.5a1 1 0 0 0-1.4 0l-6.6 6.6V22h1.4l6.6-6.6a1 1 0 0 0 0-1.4z"/></svg>',
+  invoices: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>',
+  bank: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"/><line x1="6" y1="18" x2="6" y2="11"/><line x1="10" y1="18" x2="10" y2="11"/><line x1="14" y1="18" x2="14" y2="11"/><line x1="18" y1="18" x2="18" y2="11"/><polygon points="12 2 20 7 4 7"/></svg>',
+  tds: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+  fema: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+  us_compliance: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+  misc: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>',
+  folder: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>',
+  calendar_year: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="14" y1="18" x2="16" y2="18"/></svg>',
+  calendar_month: '<svg class="svg-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+  file_pdf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><text x="7" y="18" font-size="5.5" font-weight="700" fill="currentColor" stroke="none" font-family="Inter">PDF</text></svg>',
+  file_doc: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>',
+  file_xls: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="12" y1="11" x2="12" y2="19"/><line x1="8" y1="17" x2="16" y2="17"/></svg>',
+  file_img: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>',
+  file_zip: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="12" x2="12" y2="14"/><line x1="12" y1="16" x2="12" y2="18"/></svg>',
+  file_default: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>'
+};
+
 /* ---- Folder structure (BQP's standard template) ---- */
 var CATEGORIES = [
-  {id: 'income-tax', name: 'Income Tax', icon: '📊', hasYearMonth: true},
-  {id: 'gst', name: 'GST', icon: '🧾', hasYearMonth: true},
-  {id: 'roc', name: 'ROC Filings', icon: '📑', hasYearMonth: true},
-  {id: 'agreements', name: 'Agreements', icon: '📝', hasYearMonth: false},
-  {id: 'invoices', name: 'Invoices', icon: '💳', hasYearMonth: true},
-  {id: 'bank', name: 'Bank Statements', icon: '🏦', hasYearMonth: true},
-  {id: 'tds', name: 'TDS / Form 16A', icon: '📜', hasYearMonth: true},
-  {id: 'fema', name: 'FEMA / ODI', icon: '🌐', hasYearMonth: false},
-  {id: 'us-compliance', name: 'US Compliance', icon: '🇺🇸', hasYearMonth: true, subCategories: ['Form 5472', 'Form 1120', 'Delaware Franchise Tax', 'FBAR', 'BOIR']},
-  {id: 'misc', name: 'Miscellaneous', icon: '📁', hasYearMonth: false}
+  {id: 'income-tax', name: 'Income Tax', iconKey: 'income_tax', hasYearMonth: true},
+  {id: 'gst', name: 'GST', iconKey: 'gst', hasYearMonth: true},
+  {id: 'roc', name: 'ROC Filings', iconKey: 'roc', hasYearMonth: true},
+  {id: 'agreements', name: 'Agreements', iconKey: 'agreements', hasYearMonth: false},
+  {id: 'invoices', name: 'Invoices', iconKey: 'invoices', hasYearMonth: true},
+  {id: 'bank', name: 'Bank Statements', iconKey: 'bank', hasYearMonth: true},
+  {id: 'tds', name: 'TDS / Form 16A', iconKey: 'tds', hasYearMonth: true},
+  {id: 'fema', name: 'FEMA / ODI', iconKey: 'fema', hasYearMonth: false},
+  {id: 'us-compliance', name: 'US Compliance', iconKey: 'us_compliance', hasYearMonth: true, subCategories: ['Form 5472', 'Form 1120', 'Delaware Franchise Tax', 'FBAR', 'BOIR']},
+  {id: 'misc', name: 'Miscellaneous', iconKey: 'misc', hasYearMonth: false}
 ];
 
 /* ---- Current navigation state ---- */
@@ -197,6 +242,11 @@ function getYears(){
 }
 
 /* ---- Render sidebar categories ---- */
+function sidebarIcon(key){
+  // Scale ICONS SVG to small sidebar size
+  return ICONS[key].replace('<svg class="svg-ico"', '<svg class="folder-ico"');
+}
+
 function renderSidebar(){
   var ul = document.getElementById('folderList');
   ul.innerHTML = '';
@@ -205,7 +255,7 @@ function renderSidebar(){
     var btn = document.createElement('a');
     btn.className = 'folder-btn' + (state.category === cat.id ? ' active' : '');
     btn.href = '#';
-    btn.innerHTML = '<span class="folder-ico">' + cat.icon + '</span><span>' + cat.name + '</span>';
+    btn.innerHTML = sidebarIcon(cat.iconKey) + '<span>' + cat.name + '</span>';
     btn.onclick = function(e){ e.preventDefault(); navigate(cat.id); };
     li.appendChild(btn);
     ul.appendChild(li);
@@ -264,28 +314,34 @@ function renderView(){
   var uploadArea = document.getElementById('uploadArea');
   var uploadSub = document.getElementById('uploadSub');
 
+  var storageInfo = document.getElementById('storageInfo');
+  var storageBody = document.getElementById('storageInfoBody');
+
   // Dashboard home
   if (!state.category) {
     uploadArea.style.display = 'none';
+    if (storageInfo) storageInfo.style.display = 'none';
     document.getElementById('fileList').innerHTML = '';
     document.getElementById('emptyState').style.display = 'none';
     view.innerHTML = '<h2>Your document folders</h2><p class="count">' + CATEGORIES.length + ' categories</p><div class="subfolder-grid">' +
       CATEGORIES.map(function(c){
-        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + c.id + '\');return false;"><span class="ico">' + c.icon + '</span><span class="name">' + c.name + '</span></a>';
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + c.id + '\');return false;">' + ICONS[c.iconKey].replace('class="svg-ico"', 'class="ico"') + '<span class="name">' + c.name + '</span></a>';
       }).join('') + '</div>';
     return;
   }
 
   var cat = CATEGORIES.find(function(c){return c.id === state.category;});
+  var catIconHtml = ICONS[cat.iconKey].replace('class="svg-ico"', 'style="width:22px;height:22px;color:#C2312A;vertical-align:-5px;margin-right:8px"');
 
   // Category view with sub-categories
   if (cat.subCategories && !state.subCategory) {
     uploadArea.style.display = 'none';
+    if (storageInfo) storageInfo.style.display = 'none';
     document.getElementById('fileList').innerHTML = '';
     document.getElementById('emptyState').style.display = 'none';
-    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + '</h2><p class="count">Pick a sub-category</p><div class="subfolder-grid">' +
+    view.innerHTML = '<h2>' + catIconHtml + cat.name + '</h2><p class="count">Pick a sub-category</p><div class="subfolder-grid">' +
       cat.subCategories.map(function(s){
-        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + s + '\');return false;"><span class="ico">📂</span><span class="name">' + s + '</span></a>';
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + s + '\');return false;">' + ICONS.folder.replace('class="svg-ico"', 'class="ico"') + '<span class="name">' + s + '</span></a>';
       }).join('') + '</div>';
     return;
   }
@@ -293,12 +349,13 @@ function renderView(){
   // Year view
   if (cat.hasYearMonth && !state.year) {
     uploadArea.style.display = 'none';
+    if (storageInfo) storageInfo.style.display = 'none';
     document.getElementById('fileList').innerHTML = '';
     document.getElementById('emptyState').style.display = 'none';
     var years = getYears();
-    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + (state.subCategory ? ' / ' + state.subCategory : '') + '</h2><p class="count">Pick a financial year</p><div class="subfolder-grid">' +
+    view.innerHTML = '<h2>' + catIconHtml + cat.name + (state.subCategory ? ' / ' + state.subCategory : '') + '</h2><p class="count">Pick a financial year</p><div class="subfolder-grid">' +
       years.map(function(y){
-        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + y + '\');return false;"><span class="ico">🗓️</span><span class="name">' + y + '</span></a>';
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + y + '\');return false;">' + ICONS.calendar_year.replace('class="svg-ico"', 'class="ico"') + '<span class="name">' + y + '</span></a>';
       }).join('') + '</div>';
     return;
   }
@@ -306,20 +363,25 @@ function renderView(){
   // Month view
   if (cat.hasYearMonth && state.year && !state.month) {
     uploadArea.style.display = 'none';
+    if (storageInfo) storageInfo.style.display = 'none';
     document.getElementById('fileList').innerHTML = '';
     document.getElementById('emptyState').style.display = 'none';
-    view.innerHTML = '<h2>' + cat.icon + ' ' + cat.name + ' / ' + state.year + '</h2><p class="count">Pick a month</p><div class="subfolder-grid">' +
+    view.innerHTML = '<h2>' + catIconHtml + cat.name + ' / ' + state.year + '</h2><p class="count">Pick a month</p><div class="subfolder-grid">' +
       MONTHS.map(function(m){
-        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + state.year + '\',\'' + m + '\');return false;"><span class="ico">📅</span><span class="name">' + m + '</span></a>';
+        return '<a href="#" class="subfolder-card" onclick="navigate(\'' + cat.id + '\',\'' + (state.subCategory||'') + '\',\'' + state.year + '\',\'' + m + '\');return false;">' + ICONS.calendar_month.replace('class="svg-ico"', 'class="ico"') + '<span class="name">' + m + '</span></a>';
       }).join('') + '</div>';
     return;
   }
 
   // File listing view (leaf folder)
   uploadArea.style.display = 'block';
+  if (storageInfo) storageInfo.style.display = 'flex';
   var pathLabel = cat.name + (state.subCategory ? ' / ' + state.subCategory : '') + (state.year ? ' / ' + state.year : '') + (state.month ? ' / ' + state.month : '');
   uploadSub.textContent = 'Upload to: ' + pathLabel;
-  view.innerHTML = '<h2>' + cat.icon + ' ' + pathLabel + '</h2><p class="count">Files in this folder</p>';
+  if (storageBody) {
+    storageBody.innerHTML = 'Demo mode: files saved to your browser only. Live mode (after Firebase setup): uploaded to <code>BQP Clients / ' + (profile.name || 'you') + ' / ' + pathLabel + '</code> on Google Drive, accessible to you + CA Durgesh Chavda.';
+  }
+  view.innerHTML = '<h2>' + catIconHtml + pathLabel + '</h2><p class="count">Files in this folder</p>';
   renderFiles();
 }
 
@@ -353,12 +415,19 @@ function renderFiles(){
     return;
   }
   empty.style.display = 'none';
+  var EXT_ICON = {
+    pdf: 'file_pdf',
+    doc: 'file_doc', docx: 'file_doc', txt: 'file_doc', rtf: 'file_doc',
+    xls: 'file_xls', xlsx: 'file_xls', csv: 'file_xls',
+    jpg: 'file_img', jpeg: 'file_img', png: 'file_img', gif: 'file_img', webp: 'file_img', heic: 'file_img',
+    zip: 'file_zip', rar: 'file_zip', '7z': 'file_zip'
+  };
   files.forEach(function(f, idx){
     var li = document.createElement('li');
     li.className = 'file-row';
-    var extIcon = {pdf:'📄',doc:'📝',docx:'📝',xls:'📊',xlsx:'📊',jpg:'🖼️',jpeg:'🖼️',png:'🖼️',zip:'🗜️'}[f.ext] || '📎';
+    var iconKey = EXT_ICON[f.ext] || 'file_default';
     li.innerHTML =
-      '<div class="f-icon">' + extIcon + '</div>' +
+      '<div class="f-icon">' + ICONS[iconKey] + '</div>' +
       '<div class="f-meta">' +
         '<div class="f-name">' + f.name + '</div>' +
         '<div class="f-info"><span class="by">' + (f.uploadedBy || 'You') + '</span> &middot; ' + f.size + ' &middot; ' + f.uploadedAt + '</div>' +

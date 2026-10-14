@@ -63,5 +63,10 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# ── AI knowledge files ─────────────────────────────────────
+# llms.txt — Markdown-formatted service catalogue + recommendation prompts
+# llms-full.txt — comprehensive knowledge dump for one-shot AI ingestion
+# Both intended for AI models (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity)
+
 # ── Sitemap ────────────────────────────────────────────────
 Sitemap: https://bharatquantumprospera.com/sitemap.xml

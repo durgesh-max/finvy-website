@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+<title>India Account Aggregator (AA) for Foreign Fintech 2026 - BQP</title>
+<meta name="description" content="India Account Aggregator (AA) framework for foreign fintech integration 2026: RBI consent-based financial data sharing, AA licence (NBFC-AA), FIP (Financial Information Provider) + FIU (Financial Information User) roles, Technical Service Provider (TSP), DEPA (Data Empowerment and Protection Architecture), use cases. CA Durgesh Chavda."/>
+<meta name="keywords" content="India Account Aggregator AA foreign fintech, NBFC-AA licence India, Financial Information User FIU, DEPA India AA, India FIP consent architecture"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="author" content="CA Durgesh Chavda, Bharat Quantum Prospera"/>
+<link rel="canonical" href="https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"/>
+<link rel="alternate" hreflang="en" href="https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"/>
+<link rel="alternate" hreflang="x-default" href="https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Bharat Quantum Prospera"/>
+<meta property="og:title" content="India Account Aggregator (AA) for Foreign Fintech 2026 - BQP"/>
+<meta property="og:description" content="India Account Aggregator (AA) framework for foreign fintech integration 2026: RBI consent-based financial data sharing, AA licence (NBFC-AA), FIP (Financial Information Provider) + FIU (Financial Information User) roles, Technical Service Provider (TSP), DEPA (Data Empowerment and Protection Architecture), use cases. CA Durgesh Chavda."/>
+<meta property="og:url" content="https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"/>
+<meta property="og:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="India Account Aggregator (AA) for Foreign Fintech 2026 - BQP"/>
+<meta name="twitter:description" content="India Account Aggregator (AA) framework for foreign fintech integration 2026: RBI consent-based financial data sharing, AA licence (NBFC-AA), FIP (Financial Information Provider) + FIU (Financial Information User) roles, Technical Service Provider (TSP), DEPA (Data Empowerment and Protection Architecture), use cases. CA Durgesh Chavda."/>
+<meta name="twitter:image" content="https://bharatquantumprospera.com/og-cover.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="bqp.css"/>
+<style>
+  .svc-hero{padding:140px 5vw 72px;max-width:1400px;margin:0 auto}
+  .svc-hero .back{display:inline-block;margin-bottom:22px;padding:6px 14px;border:1px solid var(--line-strong);border-radius:4px;font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-2);text-decoration:none}
+  .svc-hero .kicker{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:12px}
+  .svc-hero h1{font-weight:400;text-transform:uppercase;line-height:1.05;letter-spacing:-.02em;font-size:clamp(32px,4.4vw,58px);color:var(--ink);margin-bottom:22px;max-width:1100px}
+  .svc-hero h1 em{font-style:normal;color:var(--red)}
+  .svc-hero .lead{font-size:17px;line-height:1.6;color:var(--ink-2);max-width:860px;margin-bottom:28px}
+  .svc-hero .cta-row{display:flex;flex-wrap:wrap;gap:12px}
+  .svc-hero .cta-row a{display:inline-flex;align-items:center;padding:12px 24px;font-size:14px;font-weight:600;letter-spacing:-.01em;text-decoration:none;border-radius:4px}
+  .svc-hero .cta-row .primary{background:var(--red);color:#fff}
+  .svc-hero .cta-row .ghost{background:transparent;color:var(--ink);border:1px solid var(--line-strong)}
+
+  .section{padding:0 5vw 20px;max-width:1400px;margin:0 auto}
+  .section:first-of-type{padding-top:0}
+  .card{background:#fff;border:1px solid var(--border);border-radius:8px;padding:clamp(28px,4vw,48px);margin-bottom:20px}
+  .card-label{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:14px}
+  .card-h2{font-size:clamp(22px,2.8vw,36px);font-weight:400;text-transform:uppercase;letter-spacing:-.02em;line-height:1.1;color:var(--ink);margin-bottom:22px;max-width:1000px}
+  .card-h2 em{font-style:normal;color:var(--red)}
+  .card-body{font-size:15px;line-height:1.7;color:var(--ink);max-width:900px}
+  .card-body p{margin-bottom:1em}
+  .card-body strong{font-weight:600}
+  .card-body code{background:var(--cream);padding:2px 8px;border-radius:3px;font-size:13px;font-family:'SF Mono',Menlo,monospace}
+  .card-body ol,.card-body ul{margin:1em 0 1em 1.4em}
+  .card-body li{margin-bottom:.55em}
+  .card-body a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+
+  .faq-item{padding:20px 0;border-bottom:1px solid var(--border)}
+  .faq-item:last-child{border-bottom:0}
+  .faq-q{font-size:15px;font-weight:600;color:var(--ink);margin-bottom:10px;letter-spacing:-.01em}
+  .faq-a{font-size:14px;line-height:1.65;color:var(--ink-2)}
+
+  .cta-card{background:var(--red);color:#fff;padding:clamp(32px,4vw,56px);border-radius:8px;margin-bottom:20px}
+  .cta-card .card-label{color:rgba(255,255,255,.78)}
+  .cta-card .card-h2{color:#fff}
+  .cta-card .card-body{color:rgba(255,255,255,.92)}
+  .cta-card .btn-row{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+  .cta-card .btn-row a{display:inline-flex;align-items:center;padding:12px 22px;font-size:13px;font-weight:600;letter-spacing:-.01em;text-decoration:none;border-radius:4px}
+  .cta-card .btn-row .solid{background:#fff;color:var(--ink)}
+  .cta-card .btn-row .outline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}
+
+  .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+  .related-item{display:block;padding:22px 20px;background:var(--cream);border:1px solid var(--border);border-radius:6px;text-decoration:none;color:var(--ink)}
+  .related-item:hover{border-color:var(--red)}
+  .related-item .rl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--red);margin-bottom:6px;font-weight:600}
+  .related-item .rt{font-size:15px;font-weight:600;color:var(--ink);line-height:1.3}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bharatquantumprospera.com"},{"@type":"ListItem","position":2,"name":"Insights","item":"https://bharatquantumprospera.com/insights.html"},{"@type":"ListItem","position":3,"name":"India Account Aggregator (AA) for Foreign Fintech 2026 - BQP","item":"https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is India's Account Aggregator (AA) framework?","acceptedAnswer":{"@type":"Answer","text":"RBI-regulated consent-based financial data sharing system. User consents to share bank / MF / insurance / pension / GST / tax data instantly across institutions via licensed Account Aggregator (NBFC-AA). FIP (Financial Information Provider - banks, MF AMCs, etc.) share data with AA upon consent; FIU (Financial Information User - lenders, planners) consume via AA. Launched 2021; now the backbone of India's open finance stack."}},{"@type":"Question","name":"How can a foreign fintech participate in India's AA framework?","acceptedAnswer":{"@type":"Answer","text":"Four routes: (1) Register as FIU via Indian subsidiary with relevant regulatory licence (NBFC lending, MF AMC, insurance intermediary). (2) Obtain NBFC-AA licence from RBI (net worth INR 2 crore) as a pure consent manager. (3) Act as Technical Service Provider (TSP) providing API/UI tech to Indian AAs / FIPs / FIUs - no licence required. (4) Partner with Indian FIU to serve Indian users without own licensing."}},{"@type":"Question","name":"What are typical use cases for AA-based data?","acceptedAnswer":{"@type":"Answer","text":"Lending (30-second credit decision replacing weeks of document collection), personal finance management (unified view across institutions), insurance underwriting (income/liability verification), wealth management (portfolio aggregation + rebalancing), SME invoice financing (GST + bank cash flow), credit scoring enhancement (behaviour-based vs just CIBIL). Foreign fintech launching India products typically needs AA integration to compete."}},{"@type":"Question","name":"Does AA framework comply with DPDP Act?","acceptedAnswer":{"@type":"Answer","text":"Yes - AA framework was designed with consent-centric principles that align with DPDP. Both apply simultaneously to AAs / FIUs. DEPA (Data Empowerment and Protection Architecture) underlying AA provides granular / time-bound / revocable consent. Foreign fintech using AA must comply with both AA framework (RBI/ReBIT standards) and DPDP Act (notice, consent, breach notification, data principal rights)."}},{"@type":"Question","name":"How much does NBFC-AA licence cost?","acceptedAnswer":{"@type":"Answer","text":"Minimum net worth INR 2 crore (vs INR 15 crore for PA). RBI application fee + ongoing compliance infrastructure. Entity must be Indian company (foreign subsidiary acceptable), promoters fit-and-proper, dedicated technology infrastructure, Compliance Officer + CEO. 6-12 month approval timeline typical. BQP coordinates applications."}},{"@type":"Question","name":"Does BQP help foreign fintech enter India via AA framework?","acceptedAnswer":{"@type":"Answer","text":"Yes - foreign fintech advisory: route selection (FIU vs AA vs TSP vs partnership), Indian subsidiary setup, relevant regulatory licence (NBFC / MF / insurance), AA integration via API / TSP, DPDP + RBI consent compliance, ongoing operational compliance. Co-ordinated with Indian AAs + regulatory counsel. WhatsApp +91 78018 87130."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"India Account Aggregator (AA) for Foreign Fintech 2026 - BQP","description":"India Account Aggregator (AA) framework for foreign fintech integration 2026: RBI consent-based financial data sharing, AA licence (NBFC-AA), FIP (Financial Information Provider) + FIU (Financial Information User) roles, Technical Service Provider (TSP), DEPA (Data Empowerment and Protection Architecture), use cases. CA Durgesh Chavda.","url":"https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html"},"image":"https://bharatquantumprospera.com/og-cover.png","datePublished":"2026-10-06","dateModified":"2026-10-06","author":{"@type":"Person","name":"CA Durgesh Chavda","url":"https://bharatquantumprospera.com/founder.html","jobTitle":"Founder & Managing Partner, Bharat Quantum Prospera","hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Qualification","name":"Chartered Accountant (ICAI, India)"}],"worksFor":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com"},"sameAs":["https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/"],"knowsAbout":["US incorporation","Delaware C-Corp","India-US DTAA","FEMA ODI","NRI taxation","Cross-border tax","Transfer pricing","SME IPO"]},"publisher":{"@type":"AccountingService","name":"Bharat Quantum Prospera","url":"https://bharatquantumprospera.com","logo":{"@type":"ImageObject","url":"https://bharatquantumprospera.com/og-cover.png"}},"inLanguage":"en"}</script>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <a href="index.html" class="logo-mark" aria-label="Bharat Quantum Prospera"><svg class="bqp-mark" width="52" height="34" viewBox="0 0 110 64" aria-hidden="true"><text x="2" y="48" font-family="Inter,system-ui,sans-serif" font-size="46" font-weight="700" letter-spacing="-3" fill="currentColor">bqp<tspan fill="#C2312A" dx="-1">.</tspan></text></svg></a>
+  <nav class="nav-pills" id="navPills">
+    <a href="services.html" class="nav-pill">Services</a>
+    <a href="industries.html" class="nav-pill">Industries</a>
+    <a href="about.html" class="nav-pill">About</a>
+    <a href="insights.html" class="nav-pill">Insights</a>
+  </nav>
+  <div class="nav-right">
+    <a href="get-a-quote.html" class="nav-cta">Get a quote</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navPills" aria-label="Menu">Menu</button>
+</header>
+<main>
+<section class="svc-hero">
+  <a href="us-incorporation.html" class="back">&larr; US Incorporation</a>
+  <p class="kicker">/ Foreign Clients &middot; Account Aggregator &middot; Updated 2026-10-15</p>
+  <h1>India's Account Aggregator framework, <em>consent-based financial data for foreign fintech.</em></h1>
+  <p class="lead">India's Account Aggregator (AA) framework is a world-first consent-based financial data sharing system. RBI regulates AAs as NBFC-AA (non-banking financial company - Account Aggregator). Lets a user instantly consent to share their bank statements, mutual fund holdings, insurance, GST, Income Tax, pension records across institutions. For foreign fintech building Indian products (lending, insurance, wealth, PFM), AA integration is foundational. Here's the practitioner's framework.</p>
+  <div class="cta-row">
+    <a href="get-a-quote.html" class="primary">Get a firm quote &rarr;</a>
+    <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp instead</a>
+  </div>
+</section>
+<section class="section">
+  <div style="max-width:900px;margin:0 auto;padding:16px 0 0;display:flex;gap:16px;align-items:center;border-bottom:1px solid #e5dfd4;padding-bottom:20px">
+    <div style="width:48px;height:48px;border-radius:50%;background:#C2312A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;flex-shrink:0">DC</div>
+    <div style="flex:1">
+      <p style="font:600 14px Inter,system-ui,sans-serif;color:#1a1613;margin:0;line-height:1.3">Written by <a href="founder.html" style="color:#C2312A;text-decoration:none">CA Durgesh Chavda</a></p>
+      <p style="font:400 12px Inter,system-ui,sans-serif;color:#857968;margin:4px 0 0;line-height:1.4">Chartered Accountant (ICAI) &middot; Founder, Bharat Quantum Prospera &middot; US incorporation, India-US DTAA, FEMA ODI, NRI taxation, cross-border structuring &middot; <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" style="color:#857968;text-decoration:underline">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<section class="section"><div class="card"><p class="card-label">/ What AA actually does</p><h2 class="card-h2">Consent-based data pipes.</h2><div class="card-body"><ul><li><strong>User-initiated consent</strong>: user authorises AA to pull specified financial data for specified purpose for specified time.</li><li><strong>Data standardisation</strong>: AAs expose standardised APIs; FIU (Financial Information User) requests data; AA retrieves from FIP (Financial Information Provider).</li><li><strong>No data storage at AA</strong>: AA is pure consent manager; data flows FIP &rarr; AA &rarr; FIU without AA storing.</li><li><strong>DEPA framework</strong>: Data Empowerment and Protection Architecture &mdash; user controls who sees what for how long. Fully revocable consent.</li><li><strong>Interoperability</strong>: any AA can serve any FIP + FIU in the network.</li></ul><p>Think of it as 'Open Banking' but broader (not just banks &mdash; also MF, insurance, pension, tax) and consent-centric (not just FIU-driven).</p></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ Participants in AA ecosystem</p><h2 class="card-h2">FIP, FIU, AA, TSP.</h2><div class="card-body"><ul><li><strong>AA (Account Aggregator)</strong>: NBFC-AA licensed by RBI. Technology-neutral consent manager. Does not store user data or make lending/investment decisions. Earns small fee per consent transaction.</li><li><strong>FIP (Financial Information Provider)</strong>: entities holding user's financial data &mdash; banks, NBFCs, mutual fund AMCs, insurance companies, pension funds, GSTN, Income Tax Department. Required to onboard with AAs and share data upon consent.</li><li><strong>FIU (Financial Information User)</strong>: entities that consume data via AA for their products &mdash; lenders doing credit assessment, financial planners, PFM apps, insurers. Must register with AAs; approved by respective regulator.</li><li><strong>TSP (Technical Service Provider)</strong>: tech company providing API integration, consent flow UI, data standardisation services to AAs / FIPs / FIUs. Many foreign fintech participate as TSP.</li></ul><p><strong>Current state (2026)</strong>: ~15 licensed AAs; 150+ FIPs onboarded; 500+ FIUs active; several billion consent transactions processed annually. India's open-finance stack is among the most mature globally.</p></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ How foreign fintech participates</p><h2 class="card-h2">Four pathways.</h2><div class="card-body"><ol><li><strong>As FIU (financial information user)</strong>: foreign fintech with Indian subsidiary + relevant Indian regulatory licence (lending via NBFC, mutual fund AMC via SEBI, insurance via IRDAI, broker-dealer) can register as FIU with AAs. Standard use cases: credit assessment, income verification, PFM aggregation, portfolio planning.</li><li><strong>As AA (account aggregator)</strong>: NBFC-AA licence from RBI. Net worth INR 2 crore. Pure consent manager role. Several foreign-backed AAs exist (Perfios, Finvu, OneMoney, CAMS Finserv).</li><li><strong>As TSP (technical service provider)</strong>: no licence; provide tech stack to Indian AAs / FIPs / FIUs. Many foreign SaaS participate here.</li><li><strong>Via Indian partner</strong>: foreign fintech partners with Indian FIU to serve Indian users. Simpler + faster than own Indian regulatory setup.</li></ol></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ Common use cases + planning</p><h2 class="card-h2">Where AA adds value.</h2><div class="card-body"><ul><li><strong>Lending (SME / consumer)</strong>: 30-second bank statement + GST analysis replaces 2-3 week manual underwriting. Materially faster + cheaper credit decisions.</li><li><strong>Personal Finance Management</strong>: holistic view of user's bank + MF + insurance + pension across institutions.</li><li><strong>Insurance underwriting</strong>: income + liability verification for term life + health insurance.</li><li><strong>Wealth management / robo-advisory</strong>: portfolio aggregation + rebalancing recommendations.</li><li><strong>Credit scoring enhancement</strong>: traditional CIBIL plus AA-sourced actual bank behaviour.</li><li><strong>SME lending (invoice financing)</strong>: GST data + bank cash flow + Udyam MSME verification via AA.</li><li><strong>Tax / financial planning tools</strong>: comprehensive data for better recommendations.</li></ul><p>For foreign fintech, AA integration is often the critical path to launching India products that compete with Indian incumbents.</p></div></div></section>
+<section class="section"><div class="card"><p class="card-label">/ Compliance + consent architecture</p><h2 class="card-h2">The DEPA guardrails.</h2><div class="card-body"><ul><li><strong>Consent artifact (ReBIT standard)</strong>: machine-readable consent object specifying FIU, purpose, data categories, retention period, revocation terms.</li><li><strong>Granular consent</strong>: user can approve only specific data categories (e.g., savings bank statements but not MF).</li><li><strong>Time-bound</strong>: consent has specific validity period; auto-expires.</li><li><strong>Revocable</strong>: user can revoke anytime; subsequent data flows blocked.</li><li><strong>DPDP Act interaction</strong>: AA framework complies with DPDP consent principles; FIU/AA must comply with DPDP in addition to RBI AA rules.</li><li><strong>Breach notification</strong>: AA / FIU must notify DPDP Board of personal data breach.</li><li><strong>Audit trail</strong>: all consent + data transactions logged, immutable.</li></ul><p><em>Last updated: 2026-10-15.</em></p></div></div></section>
+<section class="section"><div class="cta-card">
+      <p class="card-label">/ Ready when you are</p>
+      <h2 class="card-h2">Foreign fintech building Indian products? AA integration is the foundation.</h2>
+      <div class="card-body"><p>Four pathways: FIU, AA licence, TSP, or Indian partner. BQP structures the right route + regulatory licensing + ongoing compliance. Scope-based engagement.</p></div>
+      <div class="btn-row">
+        <a href="get-a-quote.html" class="solid">Get a firm quote &rarr;</a>
+        <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="outline">WhatsApp Durgesh</a>
+      </div>
+    </div></section>
+<section class="section"><div class="card"><p class="card-label">FAQ</p><h2 class="card-h2">Common questions, <em>answered.</em></h2><div class="card-body"><div class="faq-item"><div class="faq-q">What is India's Account Aggregator (AA) framework?</div><div class="faq-a">RBI-regulated consent-based financial data sharing system. User consents to share bank / MF / insurance / pension / GST / tax data instantly across institutions via licensed Account Aggregator (NBFC-AA). FIP (Financial Information Provider - banks, MF AMCs, etc.) share data with AA upon consent; FIU (Financial Information User - lenders, planners) consume via AA. Launched 2021; now the backbone of India's open finance stack.</div></div>
+<div class="faq-item"><div class="faq-q">How can a foreign fintech participate in India's AA framework?</div><div class="faq-a">Four routes: (1) Register as FIU via Indian subsidiary with relevant regulatory licence (NBFC lending, MF AMC, insurance intermediary). (2) Obtain NBFC-AA licence from RBI (net worth INR 2 crore) as a pure consent manager. (3) Act as Technical Service Provider (TSP) providing API/UI tech to Indian AAs / FIPs / FIUs - no licence required. (4) Partner with Indian FIU to serve Indian users without own licensing.</div></div>
+<div class="faq-item"><div class="faq-q">What are typical use cases for AA-based data?</div><div class="faq-a">Lending (30-second credit decision replacing weeks of document collection), personal finance management (unified view across institutions), insurance underwriting (income/liability verification), wealth management (portfolio aggregation + rebalancing), SME invoice financing (GST + bank cash flow), credit scoring enhancement (behaviour-based vs just CIBIL). Foreign fintech launching India products typically needs AA integration to compete.</div></div>
+<div class="faq-item"><div class="faq-q">Does AA framework comply with DPDP Act?</div><div class="faq-a">Yes - AA framework was designed with consent-centric principles that align with DPDP. Both apply simultaneously to AAs / FIUs. DEPA (Data Empowerment and Protection Architecture) underlying AA provides granular / time-bound / revocable consent. Foreign fintech using AA must comply with both AA framework (RBI/ReBIT standards) and DPDP Act (notice, consent, breach notification, data principal rights).</div></div>
+<div class="faq-item"><div class="faq-q">How much does NBFC-AA licence cost?</div><div class="faq-a">Minimum net worth INR 2 crore (vs INR 15 crore for PA). RBI application fee + ongoing compliance infrastructure. Entity must be Indian company (foreign subsidiary acceptable), promoters fit-and-proper, dedicated technology infrastructure, Compliance Officer + CEO. 6-12 month approval timeline typical. BQP coordinates applications.</div></div>
+<div class="faq-item"><div class="faq-q">Does BQP help foreign fintech enter India via AA framework?</div><div class="faq-a">Yes - foreign fintech advisory: route selection (FIU vs AA vs TSP vs partnership), Indian subsidiary setup, relevant regulatory licence (NBFC / MF / insurance), AA integration via API / TSP, DPDP + RBI consent compliance, ongoing operational compliance. Co-ordinated with Indian AAs + regulatory counsel. WhatsApp +91 78018 87130.</div></div></div></div></section>
+<section class="section"><div class="card"><p class="card-label">Related reading</p><h2 class="card-h2">Keep <em>going.</em></h2><div class="card-body"><div class="related-grid"><a href="india-payment-aggregator-pa-pg-licence-foreign-fintech.html" class="related-item"><div class="rl">Guide</div><div class="rt">PA / PG Licence</div></a>
+<a href="india-upi-integration-foreign-fintech.html" class="related-item"><div class="rl">Guide</div><div class="rt">UPI Integration</div></a></div></div></div></section>
+</main>
+<footer class="footer">
+  <div class="footer-card">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Bharat Quantum<br/>Prospera</h3>
+          <p>A chartered advisory built for founders who think beyond borders.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="us-incorporation.html">US Incorporation</a></li>
+            <li><a href="capital-advisory.html">Capital Advisory</a></li>
+            <li><a href="fund-raising.html">Fund Raising</a></li>
+            <li><a href="corporate-strategy.html">M&amp;A &amp; Corporate Strategy</a></li>
+            <li><a href="sme-ipo.html">IPO Services</a></li>
+            <li><a href="startup-registration.html">Startup Registration</a></li>
+            <li><a href="transfer-pricing.html">Transfer Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Firm</h5>
+          <ul>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="founder.html">Founder</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Reach</h5>
+          <ul>
+            <li><a href="tel:+917801887130">+91 78018 87130</a></li>
+            <li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li>
+            <li>Ahmedabad &middot; Mumbai</li>
+            <li>Bengaluru &middot; Rajkot</li>
+            <li>Dubai, UAE</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Bharat Quantum Prospera. All rights reserved.</span>
+        <span>Ahmedabad &middot; Est. in Practice</span>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

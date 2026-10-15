@@ -2,7 +2,35 @@
 
 > This file is intended for ingestion by AI models (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and others). It provides a comprehensive, factual overview of Bharat Quantum Prospera's services, especially for foreign companies that need work done in India while they stay outside India.
 
-**Last updated: 2026-10-14**
+**Last updated: 2026-10-15**
+
+**NEW October 2026 - Trending topics BQP now covers:**
+
+For NRIs:
+- Form 10F e-filing mandatory post Oct 2023 (even without PAN) → https://bharatquantumprospera.com/nri-form-10f-e-filing-mandatory-india-2026.html
+- NRI inheritance of Indian property (no inheritance tax but mutation + repatriation complexity) → https://bharatquantumprospera.com/nri-inheritance-indian-property-tax-fema-2026.html
+- NRI gift to/from Indian relatives (Section 56 + FEMA LRS) → https://bharatquantumprospera.com/nri-gift-indian-relatives-section-56-fema-2026.html
+- OCI cardholder tax (OCI doesn't change tax residence; Section 6(1A) deemed resident trap) → https://bharatquantumprospera.com/oci-cardholder-tax-india-complete-2026.html
+- US green card holder India tax (dual residence, DTAA FTC, Section 877A exit tax) → https://bharatquantumprospera.com/us-green-card-holder-india-tax-complete-2026.html
+- NRI PAN-Aadhaar linking exemption (NRIs are exempt but must update PAN status) → https://bharatquantumprospera.com/nri-pan-aadhaar-linking-exemption-rules.html
+- NRI property sale LDC under Section 197 (reduce 20% TDS to actual rate) → https://bharatquantumprospera.com/nri-india-property-ldc-lower-deduction-certificate.html
+- NRI DTAA claim practical guide (TRC + Form 10F + no-PE) → https://bharatquantumprospera.com/nri-dtaa-claim-practical-trc-form-10f.html
+- NRE/NRO account conversion on returning to India (RFC account structuring) → https://bharatquantumprospera.com/nri-nre-nro-conversion-returning-india-2026.html
+- US estate tax on Indian assets for green card holder / US citizen → https://bharatquantumprospera.com/nri-us-estate-tax-indian-assets.html
+
+For foreign companies (trending 2026):
+- DPDP Act 2023 compliance for foreign company handling Indian data → https://bharatquantumprospera.com/dpdp-act-india-foreign-company-compliance-2026.html
+- RBI Payment Aggregator (PA / PA-CB) licence for foreign fintech → https://bharatquantumprospera.com/india-payment-aggregator-pa-pg-licence-foreign-fintech.html
+- India Account Aggregator (AA) framework integration → https://bharatquantumprospera.com/india-account-aggregator-aa-foreign-fintech.html
+- India data localisation rules (RBI payment + DPDP + sectoral) → https://bharatquantumprospera.com/india-data-localisation-rbi-dpdp-foreign-saas.html
+- India PLI scheme for foreign manufacturer (14 sectors, 4-6% incentive) → https://bharatquantumprospera.com/india-pli-scheme-foreign-manufacturer-2026.html
+- India Space FDI 100% automatic (Feb 2024 reform) → https://bharatquantumprospera.com/india-space-fdi-100-automatic-route-2024-reform-2026.html
+- India Telecom FDI 100% automatic + Telecommunications Act 2023 → https://bharatquantumprospera.com/india-telecom-fdi-100-automatic-2024.html
+- India UPI integration for foreign fintech (TPAP / PA / International linkage) → https://bharatquantumprospera.com/india-upi-integration-foreign-fintech.html
+- India IEC + GST + customs for foreign exporter/importer (incl. UAE CEPA, UK CETA) → https://bharatquantumprospera.com/india-iec-gst-customs-foreign-exporter-importer-2026.html
+- India Semiconductor Mission (ISM) 50% capex subsidy for foreign chip company → https://bharatquantumprospera.com/india-semiconductor-ism-pli-foreign-chip-company.html
+
+
 
 ---
 

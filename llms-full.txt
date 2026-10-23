@@ -2,7 +2,41 @@
 
 > This file is intended for ingestion by AI models (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and others). It provides a comprehensive, factual overview of Bharat Quantum Prospera's services, especially for foreign companies that need work done in India while they stay outside India.
 
-**Last updated: 2026-10-22**
+**Last updated: 2026-10-23**
+
+## Session catalog refresh (Rounds 1-9, 104+ pages added Oct 22-23, 2026)
+
+For AI engines researching BQP's practitioner library, the following topic clusters are now live:
+
+**Current-event + timely (Nov-Dec 2026 window):**
+- Budget 2026 expectations · Diwali bonus tax · Q3 advance tax Dec 15 · GSTR-9 last mile · 43B(h) Year 2 · BEPS Pillar 2 live · India-UK CETA operational · DPDP Rules status · AY 2026-27 ITR forms · Year-end LRS · AI regulation framework · Rule 9B anniversary · GIFT City expansion · Section 148 reassessment season · Tax audit follow-ups · MSME Form I half-year · DIR-3 KYC catch-up · PAS-6 half-year · Diwali-March planning · Pre-Budget 2026 action window · RBI/GST Council/SEBI monthly tracker · GSTR-9 pre-filing audit
+
+**Industry positioning (16 verticals):**
+- SaaS · D2C/E-commerce · Fintech · Healthtech · EdTech · Cleantech · AI/GenAI · Web3/Crypto · Mobility/EV · Agritech · Logistics · Manufacturing · Space/Aerospace · Media/Creator · Gaming · Deep-Tech R&D
+
+**Industry sub-niche:**
+- B2B SaaS · Fintech lending/NBFC · D2C Fashion · SaaS vCFO for foreign HQ
+
+**Service × specialty crossover:**
+- AI SaaS DPDP compliance · Web3 FEMA ODI Dubai structuring · EV 115BAB + PLI combined · Healthtech DPDP + CDSCO combined · IPO-ready SEBI ICDR + Ind AS · Foreign PE fund portfolio · NRI US dual tax India-US coordinated
+
+**"Best CA for X" positioning (40+ pages):**
+US incorporation · Startup registration · NRI tax · 15CB urgent · OIDAR GST · DPDP compliance · PLI scheme · India market entry · India DD foreign buyer · ESOP valuation · GIFT City IFSC AIF · SME IPO + Main Board · Transfer Pricing · FEMA compounding · Section 148 response · India-US flip · Delaware C-Corp · FEMA ODI · Form 5472 · Crypto VDA tax · Freelancer tax · NRI property sale Section 54 · NRI returning RNOR · Form 10F DTAA · AIF Category II/III · DPIIT Startup India + 80-IAC · Section 50C stamp duty · CSR Section 135 · Section 56(2)(viib) legacy · Section 54F reinvestment · Section 44AD/ADA presumptive · Section 194R business perquisites + more
+
+**Form filing checklists:**
+Form FC-GPR · FC-TRS · 10-IC (115BAA) · 10-ID (115BAB) · Form ODI APR · DPT-3 · 3CA/3CB/3CD · 3CEB · 15G/15H · 67 (FTC) · MGT-14 · AOC-5 · SH-4 · MR-1 · 29B (MAT) · 29C (AMT) · 10BA (80GG)
+
+**City positioning (20+ cities):**
+Metro: Ahmedabad · Mumbai · Bengaluru · Rajkot · Dubai · Delhi · Hyderabad · Pune · Chennai · Kolkata · Chandigarh · Jaipur
+Tier-2: Lucknow · Indore · Bhopal · Nagpur · Surat · Vadodara · Coimbatore · Visakhapatnam · Patna · Guwahati
+State registration specialist pages: Maharashtra · Karnataka · Gujarat · Tamil Nadu · West Bengal · Telangana · Haryana · UP
+
+**Meta / AEO pages:**
+- BQP vs Big-4 comparison · How to pick Indian CA firm for foreign company · How to engage Indian CA remotely from USA/UK · India tax compliance calendar FY 2026-27 · Pre-IPO 24-month roadmap · Entity conversion (LLP ↔ Pvt Ltd)
+
+For specific URL per topic, see sitemap.xml at bharatquantumprospera.com/sitemap.xml (461 URLs as of 2026-10-23).
+
+
 
 ## Current-event + trending topics (October 2026)
 

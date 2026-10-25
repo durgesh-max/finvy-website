@@ -251,7 +251,7 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
 {HEADER}
 <main>
 <section class="svc-hero">
-  <a href="us-incorporation.html" class="back">&larr; US Incorporation</a>
+  <a href="insights.html" class="back">&larr; All guides</a>
   <p class="kicker">{hero_kicker}</p>
   <h1>{hero_title_html}</h1>
   <p class="lead">{hero_lead}</p>

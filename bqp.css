@@ -573,7 +573,8 @@ h1,h2,h3,h4,h5{letter-spacing:-.03em;line-height:1.1;font-weight:650}
   letter-spacing:.14em;color:#fff;margin-bottom:18px;
 }
 .footer-col ul{list-style:none}
-.footer-col li{margin-bottom:11px;font-size:15px;line-height:1.5}
+.footer-col{min-width:0}
+.footer-col li{margin-bottom:11px;font-size:15px;line-height:1.5;overflow-wrap:anywhere}
 .footer-col a{color:rgba(255,255,255,.66);transition:color .18s var(--ease)}
 .footer-col a:hover{color:#fff}
 .footer-bottom{

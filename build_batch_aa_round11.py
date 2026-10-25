@@ -503,7 +503,7 @@ PAGES = [
              "Yes - specialist practice. Pre-return planning + residence status determination + RNOR optimisation + account conversion + Form 1040 + 1116 FTC coordination + FBAR + Form 8938 + Form 8854 if applicable + Section 877A planning + Indian ITR integration. Co-ordinated with US CPA / tax advisor. For green card holders returning to India + considering surrender. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("us-green-card-holder-india-tax-complete-2026.html", "Related", "Green Card India Tax Full Guide"),
-                          ("nri-returning-india-rnor-complete-planning.html", "Related", "NRI Returning Full Guide")],
+                          ("nri-returning-india-tax-rnor-transition.html", "Related", "NRI Returning Full Guide")],
         "cta_h": "US green card holder returning to India?",
         "cta_b": "Pre-return + RNOR + account conversion + dual-tax + Section 877A planning. BQP specialist dual-tax practice + US CPA coordination.",
         "keywords": "CA for US green card holder returning India step by step, dual tax India US CA, green card returning India RNOR CA, Section 877A exit tax CA India",

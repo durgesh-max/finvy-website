@@ -416,7 +416,7 @@ write_page("us-green-card-holder-india-tax-complete-2026", page(
          "Yes - coordinated India + US cross-border advisory for green card holders. Indian residential status + ITR filing + Section 195 TDS structuring + Form 10F + TRC + DTAA FTC claim + repatriation + property / investment tax. Co-ordinate with US CPA / tax advisor for Form 1040 + Form 1116 + FBAR + Form 8938 integration. WhatsApp +91 78018 87130."),
     ],
     related=[
-        ("nri-returning-india-rnor-complete-planning.html", "Guide", "NRI Returning"),
+        ("nri-returning-india-tax-rnor-transition.html", "Guide", "NRI Returning"),
         ("india-us-tax-treaty-dtaa.html", "Guide", "India-US DTAA"),
     ],
     cta_headline="US green card + India income or Indian stay? Dual tax doesn't have to mean double tax.",
@@ -587,7 +587,7 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
     ],
     related=[
         ("nri-selling-indian-property-capital-gains.html", "Guide", "NRI Property Sale"),
-        ("nri-india-property-tds-ldc-calculator.html", "Tool", "NRI Property TDS Calculator"),
+        ("nri-property-tds-ldc-calculator.html", "Tool", "NRI Property TDS Calculator"),
     ],
     cta_headline="Selling Indian property as NRI? Don't lose 20% to TDS pool.",
     cta_body="LDC under Section 197 reduces TDS from 20% default to your actual tax rate. 4-8 week application via Form 13 on TRACES. BQP: capital gain calc + Form 13 + AO follow-up + buyer coordination.",

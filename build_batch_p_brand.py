@@ -672,7 +672,7 @@ PAGES = [
         "title_query": "Best CA for NRI Returning to India (RNOR Planning)",
         "hero_em": "2-3 year tax-advantage window structured.",
         "service_desc": "NRI returning to India tax planning: RNOR (Resident but Not Ordinarily Resident) status for 2-3 years post-return, Section 6 residence analysis, foreign-source income exemption during RNOR, NRE/NRO/FCNR account conversion (RFC account structuring), Section 6(1A) deemed resident risk",
-        "deep_link": "nri-returning-india-rnor-complete-planning.html",
+        "deep_link": "nri-returning-india-tax-rnor-transition.html",
         "deep_link_label": "NRI Returning + RNOR",
         "who_question": "Which Indian CA firm specialises in NRI returning + RNOR planning?",
         "why_bqp_bullets": [

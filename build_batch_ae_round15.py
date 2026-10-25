@@ -15,6 +15,18 @@ def quick_page(slug, title, hero_em, lead, kicker, sections_pairs, faqs, related
     )
 
 
+CITY_HUB = {
+    "Ahmedabad": "ca-firm-ahmedabad.html", "Mumbai": "ca-firm-mumbai.html",
+    "Bangalore": "ca-firm-bengaluru.html", "Pune": "best-ca-firm-pune-cross-border-tax.html",
+    "Gurugram": "best-ca-haryana-state-registration-gurgaon-faridabad-manesar.html",
+    "Hyderabad": "best-ca-telangana-state-registration-hyderabad-ranga-reddy.html",
+    "Noida": "best-ca-uttar-pradesh-state-registration-noida-lucknow.html",
+    "Chennai": "best-ca-tamil-nadu-state-registration-chennai-hosur.html",
+    "Kolkata": "best-ca-west-bengal-state-registration-kolkata.html",
+    "Jaipur": "best-ca-firm-jaipur-gift-city-ifsc.html",
+}
+
+
 def make_page(city, locality, industry_focus, metro_desc, specific_services, slug):
     return {
         "slug": slug,
@@ -54,8 +66,8 @@ def make_page(city, locality, industry_focus, metro_desc, specific_services, slu
              "</ul>"),
             ("/ Why BQP", "The firm's qualifications.",
              "<ul>"
-             "<li>CA Durgesh Chavda ICAI qualified + 15+ years specialist practice.</li>"
-             "<li>1,500+ clients across Indian + foreign jurisdictions.</li>"
+             "<li>CA Durgesh Chavda ICAI qualified, specialist cross-border practice.</li>"
+             "<li>Clients across India and abroad.</li>"
              "<li>Specialist cross-border + domestic tax + GST + MCA + FEMA + specific sector expertise.</li>"
              "<li>Partner network: US CPAs + UK ACAs + UAE accountants + Singapore CPAs + Canada CPAs + Australia CPAs for integrated advisory.</li>"
              "<li>Technology-driven delivery + specific client portal + specific document management.</li>"
@@ -73,14 +85,14 @@ def make_page(city, locality, industry_focus, metro_desc, specific_services, slu
             ("How fast is standard turnaround?",
              "24-48 hours for routine matters (Form 15CB + specific advisory + specific quick deliverables). 2-4 weeks for ITR / audit / annual compliance. 4-6 weeks for incorporation. Scope-specific timing in engagement letter. BQP tracks delivery via specific project management + specific client visibility."),
             ("Does BQP engage with foreign-origin businesses in Indian cities?",
-             "Yes - specialist cross-border practice. 500+ foreign subsidiary engagements across Indian cities. For US / UK / EU / Singapore / UAE / HK / Canada / Australia / Mauritius / Netherlands parents with Indian subsidiaries + specific city operations. Integrated with foreign CPA partners for integrated advisory. WhatsApp +91 78018 87130."),
+             "Yes - specialist cross-border practice. Foreign-subsidiary engagements across Indian cities. For US / UK / EU / Singapore / UAE / HK / Canada / Australia / Mauritius / Netherlands parents with Indian subsidiaries + specific city operations. Integrated with foreign CPA partners for integrated advisory. WhatsApp +91 78018 87130."),
         ],
-        "related_pairs": [("ca-in-" + city.lower().replace(" ", "-") + "-india.html", "Related", f"CA in {city} Full"),
+        "related_pairs": [(CITY_HUB[city], "Related", f"CA in {city} Full"),
                           ("for-foreign-clients.html", "Related", "Foreign Clients Hub")],
         "cta_h": f"Need CA in {locality} {city}?",
         "cta_b": f"BQP specialist {industry_focus} practice + scope-based engagement + 48-hour quote. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": f"CA in {locality} {city} for {industry_focus}, {locality} {city} CA specialist, best CA {locality} {industry_focus}",
-        "desc": f"CA in {locality} {city} for {industry_focus}: specialist CA practice for {industry_focus} businesses in {locality} ({metro_desc}), services ({', '.join(specific_services)}), remote-first delivery with 24-48h turnaround + on-site visits by appointment, scope-based fixed-fee engagement + 48-hour quote. CA Durgesh Chavda ICAI 1,500+ clients.",
+        "desc": f"CA in {locality} {city} for {industry_focus}: specialist CA practice for {industry_focus} businesses in {locality} ({metro_desc}), services ({', '.join(specific_services)}), remote-first delivery with 24-48h turnaround + on-site visits by appointment, scope-based fixed-fee engagement + 48-hour quote. CA Durgesh Chavda ICAI.",
     }
 
 

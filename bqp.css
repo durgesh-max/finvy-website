@@ -653,3 +653,6 @@ h1,h2,h3,h4,h5{letter-spacing:-.03em;line-height:1.1;font-weight:650}
 .check-q input:focus,.check-q select:focus{
   outline:none;border-color:var(--red)!important;box-shadow:0 0 0 3px rgba(194,49,42,.13);
 }
+.card-body table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:15px;display:block;overflow-x:auto}
+.card-body th,.card-body td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line,#e5dfd4)}
+.card-body th{font-weight:600}

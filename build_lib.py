@@ -51,6 +51,7 @@ FOOTER = """<footer class="footer">
             <li><a href="careers.html">Careers</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="founder.html">Founder</a></li>
+            <li><a href="for-foreign-clients.html">Clients worldwide</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -162,7 +163,7 @@ def article_schema(slug, title, desc):
             }],
             "worksFor": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN},
             "sameAs": ["https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/"],
-            "knowsAbout": ["US incorporation", "Delaware C-Corp", "India-US DTAA", "FEMA ODI", "NRI taxation", "Cross-border tax", "Transfer pricing", "SME IPO"]
+            "knowsAbout": ["NRI taxation", "US incorporation", "Delaware C-Corp", "Transaction due diligence", "Forensic audit", "Answer engine optimization (AEO)", "India-US DTAA", "FEMA ODI", "Cross-border tax", "Transfer pricing", "SME IPO"]
         },
         "publisher": {
             "@type": "AccountingService",
@@ -179,7 +180,7 @@ BYLINE = """<section class="section">
     <div style="width:48px;height:48px;border-radius:50%;background:#C2312A;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;flex-shrink:0">DC</div>
     <div style="flex:1">
       <p style="font:600 14px Inter,system-ui,sans-serif;color:#1a1613;margin:0;line-height:1.3">Written by <a href="founder.html" style="color:#C2312A;text-decoration:none">CA Durgesh Chavda</a></p>
-      <p style="font:400 12px Inter,system-ui,sans-serif;color:#857968;margin:4px 0 0;line-height:1.4">Chartered Accountant (ICAI) &middot; Founder, Bharat Quantum Prospera &middot; US incorporation, India-US DTAA, FEMA ODI, NRI taxation, cross-border structuring &middot; <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" style="color:#857968;text-decoration:underline">LinkedIn</a></p>
+      <p style="font:400 12px Inter,system-ui,sans-serif;color:#857968;margin:4px 0 0;line-height:1.4">Chartered Accountant (ICAI) &middot; Founder, Bharat Quantum Prospera &middot; NRI taxation, US incorporation, transaction due diligence, forensic audit, AEO, cross-border tax &middot; <a href="https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/" target="_blank" rel="noopener" style="color:#857968;text-decoration:underline">LinkedIn</a></p>
     </div>
   </div>
 </section>"""

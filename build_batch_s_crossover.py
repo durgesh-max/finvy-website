@@ -597,7 +597,7 @@ DEADLINE_ALERTS = [
             ("section-43b-h-year-2-impact-buyers-mse-india.html", "Deep Guide", "Section 43B(h) Year 2"),
             ("udyam-msme-registration-benefits-india-2026.html", "Deep Guide", "Udyam MSME"),
         ],
-        "cta_h": "MSME Form I due 29 November 2026. 38 days left.",
+        "cta_h": "MSME Form I due 31 October 2026. 38 days left.",
         "cta_b": "MSE supplier aging + Section 15 interest + MCA v3 portal filing. BQP integrated compliance: MSME Form I + Section 43B(h) + Form 3CD.",
         "keywords": "MSME Form I due date November 2026, Form MSME-1 half-year October 2026, MSME Form I 29 November, Section 15 MSMED CA",
     },
@@ -640,7 +640,7 @@ DEADLINE_ALERTS = [
              "<li>MGT-7 due 29 November 2026 (60 days post AGM). Needs active DIN.</li>"
              "<li>PAS-6 for Rule 9B demat companies due 29 November 2026. Needs active DIN.</li>"
              "<li>DPT-3 due later in year but needs active DIN.</li>"
-             "<li>MSME Form I due 29 November 2026. Needs active DIN.</li>"
+             "<li>MSME Form I due 31 October 2026. Needs active DIN.</li>"
              "<li>Section 148A show-cause response (if received) - needs active DIN to e-file response.</li>"
              "</ul>"
              "<p>Fix DIN first, then execute year-end compliance.</p>"

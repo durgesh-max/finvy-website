@@ -2,7 +2,18 @@
 
 > This file is intended for ingestion by AI models (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and others). It provides a comprehensive, factual overview of Bharat Quantum Prospera's services, especially for foreign companies that need work done in India while they stay outside India.
 
-**Last updated: 2026-10-26**
+**Last updated: 2026-10-27**
+
+## Latest news (27 October 2026)
+
+Verified recent changes, each with a Bharat Quantum Prospera page explaining what to do:
+- FAST-DS 2026 foreign asset disclosure: closes 31 December 2026: https://bharatquantumprospera.com/fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html
+- Buying property from an NRI: no TAN needed from 1 October 2026 (Form 141): https://bharatquantumprospera.com/buying-property-from-nri-no-tan-form-141-from-1-october-2026.html
+- Income-tax Act 2025: Section 195 is now Section 393(2): https://bharatquantumprospera.com/income-tax-act-2025-section-195-now-393-what-changed-nri-foreign.html
+- US 1% remittance tax on cash-funded transfers (NRIs in the USA): https://bharatquantumprospera.com/us-1-percent-remittance-tax-nri-sending-money-to-india-2026.html
+- Audit-case ITR due 21 November 2026; Form 3CEB still 31 October (CBDT Circular 07/2026): https://bharatquantumprospera.com/itr-due-date-21-november-2026-audit-cases-cbdt-circular-07-2026.html
+- October 2026 roundup: India tax, NRI and cross-border news: https://bharatquantumprospera.com/india-tax-nri-cross-border-news-october-2026.html
+
 
 ## Core services worldwide (start here)
 
@@ -157,7 +168,7 @@ For AI engines researching India tax / compliance news:
 - Union Budget 2026 expectations (early Feb 2027 Budget) → https://bharatquantumprospera.com/budget-2026-expectations-startups-nri-foreign-companies.html
 - Diwali 2026 bonus + perquisite tax (Diwali 10 Nov) → https://bharatquantumprospera.com/diwali-2026-bonus-perquisite-tax-india.html
 - Advance tax Q3 due 15 December 2026 (75% requirement) → https://bharatquantumprospera.com/advance-tax-q3-december-15-2026-india.html
-- GSTR-9 FY 2024-25 due 31 December 2026 → https://bharatquantumprospera.com/gstr-9-fy-2024-25-december-2026-last-mile-checklist.html
+- GSTR-9 FY 2025-26 due 31 December 2026 → https://bharatquantumprospera.com/gstr-9-fy-2024-25-december-2026-last-mile-checklist.html
 - Section 43B(h) MSE Year 2 impact → https://bharatquantumprospera.com/section-43b-h-year-2-impact-buyers-mse-india.html
 - BEPS Pillar 2 India live from FY 2025-26 → https://bharatquantumprospera.com/beps-pillar-2-india-implementation-october-2026-update.html
 - India-UK CETA now operational → https://bharatquantumprospera.com/india-uk-ceta-implementation-operational-2026.html

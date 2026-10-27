@@ -355,7 +355,7 @@ write_page("tax-audit-season-november-2026-post-filing-followups", page(
          "<li>Specified financial transaction disclosure (Clause 32) matching Form 61A reports.</li>"
          "<li>Pending Section 148A(b) notices from November-December 2026 reassessment season - urgent response.</li>"
          "<li>Advance tax Q3 (15 December) computation based on finalised audited financials.</li>"
-         "<li>GSTR-9 FY 2024-25 preparation (due 31 December 2026).</li>"
+         "<li>GSTR-9 FY 2025-26 preparation (due 31 December 2026).</li>"
          "<li><em>Last updated: 2026-10-22.</em></p>"),
     ],
     faqs=[

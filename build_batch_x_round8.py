@@ -20,7 +20,7 @@ PAGES = [
         "slug": "gstr-9-pre-filing-audit-checklist-december-2026",
         "title": "GSTR-9 Pre-Filing Audit Checklist December 2026",
         "hero_em": "catch reconciliation gaps before filing.",
-        "lead": "GSTR-9 FY 2024-25 due 31 December 2026. Pre-filing audit catches reconciliation gaps before submission - preventing scrutiny notices + enabling optimal position. Four-week pre-filing audit framework covering GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5) blocked ITC, Section 16(4) time-barred, HSN summary, GSTR-9C reconciliation. Working CA checklist by Durgesh Chavda.",
+        "lead": "GSTR-9 FY 2025-26 due 31 December 2026. Pre-filing audit catches reconciliation gaps before submission - preventing scrutiny notices + enabling optimal position. Four-week pre-filing audit framework covering GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5) blocked ITC, Section 16(4) time-barred, HSN summary, GSTR-9C reconciliation. Working CA checklist by Durgesh Chavda.",
         "kicker": "/ GSTR-9 Pre-Filing Audit &middot; Updated 2026-10-22",
         "sections_pairs": [
             ("/ Why pre-filing audit matters", "Prevent ASMT-10 notices.",
@@ -55,7 +55,7 @@ PAGES = [
              "<li>Table 9 (tax paid).</li>"
              "<li>Tables 10-14 (amendments, demand, refund).</li>"
              "<li>Tables 15-16 (HSN-wise summary) - must match actual trade pattern.</li>"
-             "<li>Section 16(4) time-barred ITC: for FY 2024-25, maximum claim window closed with earlier of (a) October 2025 3B filing or (b) GSTR-9 filing date. Missed ITC permanently lost.</li>"
+             "<li>Section 16(4) time-barred ITC: for FY 2025-26, maximum claim window closed with earlier of (a) October 2025 3B filing or (b) GSTR-9 filing date. Missed ITC permanently lost.</li>"
              "</ul>"
              "<p><strong>Week 4: GSTR-9C (if applicable) + voluntary disclosure</strong></p>"
              "<ul>"
@@ -93,7 +93,7 @@ PAGES = [
         ],
         "related_pairs": [("gstr-9-fy-2024-25-december-2026-last-mile-checklist.html", "Related", "GSTR-9 Last Mile"),
                           ("gstr-9-gstr-9c-annual-return-india-2026.html", "Related", "GSTR-9 Full Guide")],
-        "cta_h": "GSTR-9 FY 2024-25 due 31 December 2026. Pre-filing audit catches gaps.",
+        "cta_h": "GSTR-9 FY 2025-26 due 31 December 2026. Pre-filing audit catches gaps.",
         "cta_b": "4-week pre-filing audit + voluntary disclosure strategy + GSTR-9 Table-by-Table + GSTR-9C Part-by-Part. BQP priority December engagement.",
         "keywords": "GSTR-9 pre-filing audit India 2026, GSTR-9 reconciliation CA India, GSTR-9C self-certification CA, December 2026 GSTR-9",
         "desc": "GSTR-9 pre-filing audit checklist December 2026: 4-week framework covering GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5) blocked ITC, Section 16(4) time-barred, HSN summary, GSTR-9C reconciliation + voluntary disclosure strategy. Working CA guide by Durgesh Chavda.",

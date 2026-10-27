@@ -156,7 +156,7 @@ PAGES = [
             ("Why voluntary disclosure before notice?",
              "90% penalty saving. Section 73 (non-fraud, voluntary): 10% penalty / INR 10,000 whichever higher. Section 74 (reactive post-notice fraud/suppression): 100% penalty + 5-year lookback + specific prosecution risk. Specific action window closes once ASMT-10 / DRC-01 / GST audit notice served."),
             ("What's the deadline for DRC-03 voluntary disclosure?",
-             "No specific statutory deadline - but window closes once Department serves specific notice (ASMT-10 Section 61 scrutiny, DRC-01 Section 73/74 demand, GST audit notice). Must be filed BEFORE such service. Practical: before 31 December 2026 GSTR-9 FY 2024-25 deadline + before FY 2025-26 department focus on current year."),
+             "No specific statutory deadline - but window closes once Department serves specific notice (ASMT-10 Section 61 scrutiny, DRC-01 Section 73/74 demand, GST audit notice). Must be filed BEFORE such service. Practical: before 31 December 2026 GSTR-9 FY 2025-26 deadline + before FY 2025-26 department focus on current year."),
             ("Can DRC-03 be filed for multiple years + multiple issues?",
              "Yes - single DRC-03 can cover specific month/year/issue; multiple DRC-03s for different periods/issues. Each DRC-03 has specific tax + interest + penalty. For complex multi-year shortfalls: multiple DRC-03s with aggregated computation."),
             ("What's interest rate on DRC-03?",

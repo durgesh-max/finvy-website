@@ -492,7 +492,7 @@ PAGES.append({
     ],
     "faqs": [
         ("What's the biggest-impact deadline in Q3 of FY 2026-27?",
-         "15 December 2026: Q3 advance tax (75% cumulative). Material cash outflow for profitable companies + individuals. Also 29 November 2026: MGT-7 (annual return) + Form 3CEB TP audit + PAS-6 Rule 9B demat + MSME Form I. 31 October 2026: AOC-4 + tax audit ITR + Form 3CA/CB/CD."),
+         "15 December 2026: Q3 advance tax (75% cumulative). Material cash outflow for profitable companies + individuals. Also 29 November 2026: MGT-7 (annual return) + Form 3CEB TP audit + PAS-6 Rule 9B demat. 31 October 2026: AOC-4 + tax audit ITR + Form 3CA/CB/CD."),
         ("Which deadlines are most commonly missed?",
          "DIR-3 KYC (30 Sept) - deactivates DIN. Form MSME-1 (29 Nov) - specific MSE compliance. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
         ("What are the GST filing deadlines?",

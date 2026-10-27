@@ -603,7 +603,7 @@ write_page("section-206c-1h-tcs-sale-goods-india", page(
 write_page("gstr-9-gstr-9c-annual-return-india-2026", page(
     slug="gstr-9-gstr-9c-annual-return-india-2026",
     title="GSTR-9 & GSTR-9C Annual Return 2026 | Threshold, Due Date, Reconciliation - BQP",
-    description="GSTR-9 annual return + GSTR-9C reconciliation statement for FY 2024-25: INR 2 crore threshold for GSTR-9, INR 5 crore for GSTR-9C, 31 December deadline, late fee INR 200/day, reconciliation with books, common mismatches. Working CA guide by Durgesh Chavda.",
+    description="GSTR-9 annual return + GSTR-9C reconciliation statement for FY 2025-26: INR 2 crore threshold for GSTR-9, INR 5 crore for GSTR-9C, 31 December deadline, late fee INR 200/day, reconciliation with books, common mismatches. Working CA guide by Durgesh Chavda.",
     keywords="GSTR-9 annual return 2026, GSTR-9C reconciliation statement, GSTR-9 due date 2026, GSTR-9 vs GSTR-9C, GSTR-9 late fee, GSTR-9 threshold INR 2 crore",
     hero_kicker="/ Blog &middot; GSTR-9 / GSTR-9C &middot; Updated 2026-10-12",
     hero_title_html="GSTR-9 and GSTR-9C, <em>annual GST reconciliation.</em>",
@@ -666,7 +666,7 @@ write_page("gstr-9-gstr-9c-annual-return-india-2026", page(
          "No. GSTR-9 is mandatory only for taxpayers with aggregate turnover above INR 2 crore in the FY. For taxpayers with turnover below INR 2 crore, GSTR-9 is optional (made optional via Notification 47/2019 and subsequent amendments). Composition dealers file GSTR-9A instead."),
         ("What is the difference between GSTR-9 and GSTR-9C?",
          "GSTR-9 is the annual return summarising all monthly / quarterly returns for the FY. GSTR-9C is the reconciliation statement reconciling GSTR-9 figures with audited financial statements (books of accounts). GSTR-9C mandatory for turnover above INR 5 crore. GSTR-9C was earlier CA-certified; now self-certified from FY 2020-21 onwards."),
-        ("When is GSTR-9 for FY 2024-25 due?",
+        ("When is GSTR-9 for FY 2025-26 due?",
          "31 December 2025 (standard deadline). CBIC typically extends via notification; verify current status before filing. Late fee if filed after extended due date: INR 200 per day (INR 100 CGST + INR 100 SGST), capped at 0.25% of turnover."),
         ("Can I claim missed ITC in GSTR-9?",
          "No. GSTR-9 is only a summary / reconciliation statement; it does not allow fresh ITC claims. Missed ITC must be claimed in GSTR-3B by the earlier of (a) due date of September's 3B of the next FY, or (b) date of filing GSTR-9 for the FY (effectively 30 November following FY, with annual return deadline). Beyond this, ITC is time-barred under Section 16(4)."),

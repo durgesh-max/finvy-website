@@ -419,8 +419,8 @@ PAGES = [
         "sections_pairs": [
             ("/ The 5-month planning window", "November to March.",
              "<ul>"
-             "<li><strong>November 2026</strong>: Diwali 10 Nov. Form 29B MAT verification. Form 3CEB TP audit (30 November). MGT-7 (29 November). PAS-6 (29 November). MSME Form I (29 November). AOC-4 (if not already Oct 30).</li>"
-             "<li><strong>December 2026</strong>: Q3 advance tax (15 Dec, 75% cumulative). Form ODI APR (31 Dec). GSTR-9 FY 2024-25 (31 Dec). Belated / revised ITR (31 Dec).</li>"
+             "<li><strong>November 2026</strong>: Diwali 10 Nov. Form 29B MAT verification. Form 3CEB TP audit (30 November). MGT-7 (29 November). PAS-6 (29 November). MSME Form I (31 October). AOC-4 (if not already Oct 30).</li>"
+             "<li><strong>December 2026</strong>: Q3 advance tax (15 Dec, 75% cumulative). Form ODI APR (31 Dec). GSTR-9 FY 2025-26 (31 Dec). Belated / revised ITR (31 Dec).</li>"
              "<li><strong>January 2027</strong>: Q3 TDS returns (31 Jan). Specific sector returns.</li>"
              "<li><strong>February 2027</strong>: Union Budget 2026-27 (expected 1 Feb). Pre-Budget investment / capital gain timing decisions.</li>"
              "<li><strong>March 2027</strong>: Q4 advance tax (15 Mar, 100% cumulative). Section 80C/80D/80G last-minute investment. Section 54 reinvestment completion. 31 Mar FY end.</li>"
@@ -471,7 +471,7 @@ PAGES = [
             ("New or Old regime for AY 2027-28?",
              "Varies by deduction profile. For individuals with substantial deductions (HRA + home loan interest + Section 80C + 80D + 80G), old regime typically better. For simpler profile (minimum deductions), new regime often better due to lower rates + INR 7 lakh rebate. Use BQP calculator at bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html."),
             ("What's the biggest Diwali-season compliance miss BQP sees?",
-             "Director DIR-3 KYC catch-up (missed 30 September deadline, deactivated DIN blocking all MCA filings). Fix urgently with INR 5,000 late fee + 24-72 hour reactivation. Also: PAS-6 half-year (29 November) + MSME Form I (29 November) often missed."),
+             "Director DIR-3 KYC catch-up (missed 30 September deadline, deactivated DIN blocking all MCA filings). Fix urgently with INR 5,000 late fee + 24-72 hour reactivation. Also: PAS-6 half-year (29 November) + MSME Form I (31 October) often missed."),
             ("Does BQP offer year-end tax planning engagement?",
              "Yes - November-March intensive engagement: Q3 advance tax + GSTR-9 + Form ODI APR + Form 3CEB + managerial compliance + Section 54 reinvestment + Section 80C/D/G optimisation + regime decision + ESOP/bonus timing + Section 148 response + 2027 Budget planning. For individuals + startups + mid-market companies. WhatsApp +91 78018 87130."),
         ],
@@ -574,7 +574,7 @@ PAGES = [
              "<ul>"
              "<li>Periodic GST Council meetings issue rate clarifications + sector-specific guidance.</li>"
              "<li>Recent focus areas: online gaming 28% framework fine-tuning, specific export of service clarifications, OIDAR classification, specific HSN rate rationalisation.</li>"
-             "<li>GSTR-9 + GSTR-9C FY 2024-25 deadline 31 December 2026 - any extension / amendment announcements tracked.</li>"
+             "<li>GSTR-9 + GSTR-9C FY 2025-26 deadline 31 December 2026 - any extension / amendment announcements tracked.</li>"
              "<li>Section 43B(h) MSE payment year 2 impact clarifications.</li>"
              "<li>GST Appellate Tribunal (GSTAT) operationalisation + specific procedure updates.</li>"
              "</ul>"),

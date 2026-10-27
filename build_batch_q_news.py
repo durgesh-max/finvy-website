@@ -53,7 +53,7 @@ write_page("budget-2026-expectations-startups-nri-foreign-companies", page(
          "<li><strong>Q3 FY 2026-27 advance tax</strong>: due 15 December 2026. Pay 75% of estimated full-year tax by then. See our Q3 advance tax guide.</li>"
          "<li><strong>FY 2026-27 planning</strong>: finalise capital gain reinvestment (Section 54 / 54F / 54EC) decisions before 31 March 2027.</li>"
          "<li><strong>Section 115BAB opt-in</strong>: new manufacturing company must opt in via Form 10-ID at first ITR filing. Verify eligibility.</li>"
-         "<li><strong>GSTR-9 FY 2024-25</strong>: due 31 December 2026. Reconcile GSTR-1 vs 3B, 3B vs 2B, books vs GST turnover.</li>"
+         "<li><strong>GSTR-9 FY 2025-26</strong>: due 31 December 2026. Reconcile GSTR-1 vs 3B, 3B vs 2B, books vs GST turnover.</li>"
          "<li><strong>DPDP compliance readiness</strong>: audit personal data flows, prepare consent architecture, Data Protection Officer (where applicable).</li>"
          "<li><strong>Transfer pricing documentation</strong>: Form 3CEB benchmarking study for FY 2025-26 Indian subsidiary of foreign MNC.</li>"
          "<li><strong>FEMA compounding of past breaches</strong>: use pre-Budget window to voluntarily compound before any policy tightening.</li>"
@@ -262,19 +262,19 @@ write_page("advance-tax-q3-december-15-2026-india", page(
 # 4. GSTR-9 last mile
 write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
     slug="gstr-9-fy-2024-25-december-2026-last-mile-checklist",
-    title="GSTR-9 FY 2024-25 Due 31 December 2026 | Last-Mile Checklist - BQP",
-    description="GSTR-9 annual return FY 2024-25 due 31 December 2026 last-mile checklist: GSTR-1 vs 3B turnover reconciliation, 3B ITC vs 2B shortfall, books vs GST turnover, Section 17(5) blocked ITC review, Section 16(4) time-barred ITC, HSN summary, GSTR-9C self-certification (if > INR 5 crore). 2026 CA working checklist. CA Durgesh Chavda.",
-    keywords="GSTR-9 FY 2024-25 due date December 2026, GSTR-9 last mile checklist, GSTR-9C self-certification 2026, GST annual return reconciliation",
+    title="GSTR-9 FY 2025-26 Due 31 December 2026 | Last-Mile Checklist - BQP",
+    description="GSTR-9 annual return FY 2025-26 due 31 December 2026 last-mile checklist: GSTR-1 vs 3B turnover reconciliation, 3B ITC vs 2B shortfall, books vs GST turnover, Section 17(5) blocked ITC review, Section 16(4) time-barred ITC, HSN summary, GSTR-9C self-certification (if > INR 5 crore). 2026 CA working checklist. CA Durgesh Chavda.",
+    keywords="GSTR-9 FY 2025-26 due date December 2026, GSTR-9 last mile checklist, GSTR-9C self-certification 2026, GST annual return reconciliation",
     hero_kicker="/ GST Year-End Alert &middot; Updated 2026-10-22",
-    hero_title_html="GSTR-9 FY 2024-25, <em>31 December 2026 last-mile checklist.</em>",
-    hero_lead="GSTR-9 annual return for FY 2024-25 is due <strong>31 December 2026</strong> (extension possible but not certain). GSTR-9C reconciliation statement additionally for turnover above INR 5 crore. 70+ days left as of 22 October 2026. Here's the practitioner's last-mile checklist to file right the first time.",
+    hero_title_html="GSTR-9 FY 2025-26, <em>31 December 2026 last-mile checklist.</em>",
+    hero_lead="GSTR-9 annual return for FY 2025-26 is due <strong>31 December 2026</strong> (extension possible but not certain). GSTR-9C reconciliation statement additionally for turnover above INR 5 crore. 70+ days left as of 22 October 2026. Here's the practitioner's last-mile checklist to file right the first time.",
     sections=[
         ("/ Who must file + due date", "Scope + deadline.",
          "<ul>"
          "<li><strong>GSTR-9 (Annual Return)</strong>: mandatory for every registered taxpayer with aggregate turnover above INR 2 crore in FY 2024-25. Below INR 2 crore - filing is optional.</li>"
          "<li><strong>GSTR-9C (Reconciliation Statement)</strong>: mandatory for turnover above INR 5 crore. Self-certified (CA certification requirement removed from FY 2020-21 onwards).</li>"
          "<li><strong>Exempt from GSTR-9</strong>: Casual Taxable Person, Non-Resident Taxable Person, Input Service Distributor, Composition dealer (GSTR-9A instead), TDS collector (GSTR-7), TCS collector (GSTR-8).</li>"
-         "<li><strong>Due date</strong>: 31 December 2026 for FY 2024-25. CBIC typically extends via notification; verify current status before 31 December.</li>"
+         "<li><strong>Due date</strong>: 31 December 2026 for FY 2025-26. CBIC typically extends via notification; verify current status before 31 December.</li>"
          "<li><strong>Late fee</strong>: INR 200 per day (INR 100 CGST + INR 100 SGST), capped at 0.25% of turnover. Section 47 CGST Act.</li>"
          "</ul>"),
         ("/ Reconciliation workstreams", "Four critical ones.",
@@ -328,14 +328,14 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     faqs=[
-        ("What's the GSTR-9 due date for FY 2024-25?",
+        ("What's the GSTR-9 due date for FY 2025-26?",
          "31 December 2026. For taxpayers with aggregate turnover above INR 2 crore. CBIC typically extends via notification - verify current status before filing. Late fee INR 200/day capped at 0.25% of turnover under Section 47 CGST Act."),
         ("Is GSTR-9C still CA-certified?",
          "No - from FY 2020-21 onwards, GSTR-9C is self-certified by the taxpayer (CA certification removed by Finance Act 2021). Underlying reconciliation workload remains - audited books vs GST returns must still be reconciled line-by-line. Mandatory for turnover above INR 5 crore. Many taxpayers still engage CA to prepare GSTR-9C given technical complexity."),
         ("What's the common mismatch in GSTR-1 vs GSTR-3B?",
          "Credit notes / debit notes timing differences, invoice entered in 3B but not pushed to 1 (ERP sync lag), year-end sales returns, invoice booked in books but 3B reporting delayed, export turnover classification (zero-rated vs nil-rated). Reconcile monthly; year-end GSTR-9 is reconciliation, not fresh declaration."),
         ("Can I claim missed ITC via GSTR-9?",
-         "No. GSTR-9 is summary / reconciliation statement - does not allow fresh ITC claim. Missed ITC must be claimed in GSTR-3B by earlier of (a) due date of September's 3B of next FY (so for FY 2024-25 missed ITC: due date of October 2025 3B), or (b) date of filing GSTR-9 for the FY. Beyond: time-barred under Section 16(4)."),
+         "No. GSTR-9 is summary / reconciliation statement - does not allow fresh ITC claim. Missed ITC must be claimed in GSTR-3B by earlier of (a) due date of September's 3B of next FY (so for FY 2025-26 missed ITC: due date of October 2025 3B), or (b) date of filing GSTR-9 for the FY. Beyond: time-barred under Section 16(4)."),
         ("What triggers ASMT-10 after GSTR-9 filing?",
          "GST-9 vs GST-9 reconciliation discrepancies, ITC claim exceeding 2B available by material amount, Section 17(5) blocked ITC not properly reversed, GSTR-9C reconciliation gaps unexplained, HSN summary significant mismatch with trade pattern. ASMT-10 is notice of discrepancy under Section 61 - response window typically 15-30 days."),
         ("Does BQP handle GSTR-9 + GSTR-9C filing?",
@@ -345,7 +345,7 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
         ("gstr-9-gstr-9c-annual-return-india-2026.html", "Guide", "GSTR-9 Guide"),
         ("gst-notice-response-india-asmt-drc-gstr.html", "Guide", "GST Notice Response"),
     ],
-    cta_headline="GSTR-9 FY 2024-25 due 31 December 2026. 70 days left.",
+    cta_headline="GSTR-9 FY 2025-26 due 31 December 2026. 70 days left.",
     cta_body="GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5), Section 16(4) - comprehensive reconciliation. BQP priority engagement through December 2026.",
 ))
 

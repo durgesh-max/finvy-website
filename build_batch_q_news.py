@@ -657,7 +657,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
          "<li><strong>31 October 2026</strong>: taxpayers subject to tax audit (Section 44AB) + specified assessees.</li>"
          "<li><strong>30 November 2026</strong>: taxpayers subject to transfer pricing audit (Form 3CEB applicable).</li>"
          "<li><strong>31 December 2026</strong>: belated return filing deadline (with Section 234F late fee); revised return.</li>"
-         "<li><strong>31 March 2027</strong>: updated return under Section 139(8A) (up to 24 months from end of relevant AY, with specific additional tax).</li>"
+         "<li><strong>31 March 2027</strong>: updated return under Section 139(8A) (up to 48 months from end of relevant AY after Finance Act 2025, with specific additional tax).</li>"
          "</ul>"),
         ("/ Common AY 2026-27 ITR mistakes to avoid", "Where filings go wrong.",
          "<ul>"

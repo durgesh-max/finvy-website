@@ -141,7 +141,7 @@ PAGES = [
             "Co-founder shareholding + voting agreement",
             "GST registration + Shops & Establishment + Professional Tax + Udyam MSME",
             "Bank account coordination with HDFC / ICICI / Kotak / Axis",
-            "Annual compliance roadmap: AOC-4, MGT-7, DIR-3 KYC, DPT-3, PAS-6, income tax, GST, TDS",
+            "Annual compliance roadmap: AOC-4, MGT-7, DPT-3, PAS-6, DIR-3 KYC (every three years), income tax, GST, TDS",
         ],
         "keywords": "best CA firm startup registration India, best chartered accountant startup setup India, top CA firm Pvt Ltd incorporation, DPIIT startup India CA, Section 80-IAC tax holiday CA",
     },

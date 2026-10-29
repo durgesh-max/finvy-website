@@ -731,7 +731,7 @@ write_page("india-audit-services-foreign-shareholder-remote", page(
         ("Who signs the Indian audit report?",
          "Indian Chartered Accountant (ICAI member) and partner of an ICAI-registered firm (sole proprietor CA, LLP, or Partnership). Foreign auditors (US CPA, UK CA, etc.) cannot sign Indian statutory audit directly. BQP's Indian partners sign; coordination with foreign parent's auditor (Big 4 or regional) is standard."),
         ("Does BQP handle India audit for foreign-shareholder subsidiaries?",
-         "Yes - full annual stack: statutory audit (Companies Act) + tax audit (Section 44AB) + TP audit (Form 3CEB) + ROC filings (AOC-4 + MGT-7 + DIR-3 KYC) + FLA Return (RBI) + annual ITR filing + parent reporting package. Standard annual engagement scoped per turnover + complexity. WhatsApp +91 78018 87130."),
+         "Yes - full annual stack: statutory audit (Companies Act) + tax audit (Section 44AB) + TP audit (Form 3CEB) + ROC filings (AOC-4 + MGT-7; DIR-3 KYC every three years) + FLA Return (RBI) + annual ITR filing + parent reporting package. Standard annual engagement scoped per turnover + complexity. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("foreign-company-setup-indian-subsidiary-wos.html", "Guide", "WOS Setup"),

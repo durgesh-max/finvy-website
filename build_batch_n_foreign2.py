@@ -360,7 +360,7 @@ write_page("company-secretarial-services-india-remote", page(
     ],
     faqs=[
         ("What does a Company Secretary do for an Indian company?",
-         "Company Secretary (CS) handles all Companies Act 2013 compliance: board meetings, AGM, statutory filings (AOC-4, MGT-7, DIR-3 KYC, DPT-3, PAS-6, MSME Form 1), event-based filings (DIR-12, PAS-3, MGT-14, CHG forms), statutory registers (Members, Directors, Charges, RPT, Loans, Deposits), resolutions, Secretarial Audit for applicable companies. For foreign-shareholder subsidiaries, CS also handles FEMA FDI reporting coordination."),
+         "Company Secretary (CS) handles all Companies Act 2013 compliance: board meetings, AGM, statutory filings (AOC-4, MGT-7, DPT-3, PAS-6, DIR-3 KYC (every three years), MSME Form 1), event-based filings (DIR-12, PAS-3, MGT-14, CHG forms), statutory registers (Members, Directors, Charges, RPT, Loans, Deposits), resolutions, Secretarial Audit for applicable companies. For foreign-shareholder subsidiaries, CS also handles FEMA FDI reporting coordination."),
         ("Can CS services be delivered remotely for foreign shareholders?",
          "Yes - entirely remote. Board meetings via video conference (permitted under Companies Act with specific procedure), AGM physical or virtual (allowed), all filings electronic via MCA portal, statutory registers maintained in cloud. Foreign directors can sign resolutions digitally (DSC) or via physical signing + courier."),
         ("What is Secretarial Audit and when is it required?",

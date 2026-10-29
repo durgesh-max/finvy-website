@@ -679,7 +679,7 @@ PAGES = [
             ("/ Key annual deadlines FY 2026-27", "Date-by-date.",
              "<ul>"
              "<li>31 July 2026: Individuals ITR (non-audit).</li>"
-             "<li>30 September 2026: DIR-3 KYC annual.</li>"
+             "<li>30 September 2026: DIR-3 KYC, now once every three years (by 30 June of the due year).</li>"
              "<li>31 October 2026: AOC-4 + tax audit cases ITR + Form 3CA/3CB + Form 3CD + Form 10-IC/10-ID opt-in.</li>"
              "<li>29 November 2026: MGT-7 + Form 3CEB TP audit + PAS-6 + MSME Form I.</li>"
              "<li>15 December 2026: Q3 advance tax (75%).</li>"

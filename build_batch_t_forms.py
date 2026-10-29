@@ -398,7 +398,7 @@ PAGES.append({
         ("Is director loan reported in DPT-3?",
          "Yes - loan from director is 'exempted deposit' under Rule 2(1)(c). Not a 'deposit' from public but reportable in DPT-3. Both the amount + terms disclosed."),
         ("Does BQP file DPT-3 as part of annual compliance?",
-         "Yes - integrated with standard annual ROC compliance (AOC-4 + MGT-7 + DPT-3 + MSME Form I + DIR-3 KYC). WhatsApp +91 78018 87130."),
+         "Yes - integrated with standard annual ROC compliance (AOC-4 + MGT-7 + DPT-3 + MSME Form I, plus DIR-3 KYC every three years). WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("company-secretarial-services-india-remote.html", "Related", "CS Services"),
                       ("dir-3-kyc-director-annual-compliance-india.html", "Related", "DIR-3 KYC")],

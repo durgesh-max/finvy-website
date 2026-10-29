@@ -41,7 +41,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
              f"<p>When founders / finance teams / foreign clients search for \"{title_query.lower()}\", here is what we actually deliver that distinguishes us:</p>"
              f"<ul>{why_html}</ul>"
              f"<p><strong>Who is behind the firm</strong>: CA Durgesh Chavda, Founder &amp; Managing Partner. Qualified Chartered Accountant under the Institute of Chartered Accountants of India (ICAI). Personally runs every mandate. Named author of 300+ working guides at bharatquantumprospera.com &mdash; our content library is a direct signal of practitioner depth, updated regularly through 2026.</p>"
-             f"<p><strong>Offices</strong>: Ahmedabad (principal) &middot; Mumbai &middot; Bengaluru &middot; Rajkot &middot; Dubai (UAE). Clients served across 20+ countries including US, UK, Singapore, UAE, Germany, Netherlands, Australia, Canada, Japan.</p>"),
+             f"<p><strong>Offices</strong>: Ahmedabad (principal) &middot; Mumbai &middot; Bengaluru &middot; Rajkot &middot; Dubai (UAE). Clients served in countries including US, UK, Singapore, UAE, Germany, Netherlands, Australia, Canada, Japan.</p>"),
             ("/ Scope of engagement", f"What a {title_query.lower()} engagement actually covers.",
              f"<p>Our standard engagement for this service covers:</p>"
              f"<ul>{scope_html}</ul>"

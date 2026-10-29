@@ -657,7 +657,7 @@ PAGES.append({
          "<li>High return rate (20-40%): credit note GST + Income Tax treatment + revenue recognition timing.</li>"
          "<li>Inventory obsolescence: fashion cycle 60-90 days; year-end stock write-down.</li>"
          "<li>Sales return accounting: ASC 606 variable consideration vs direct reversal.</li>"
-         "<li>Garment GST: 12% / 18% / 28% (ready-made garments 18%; fabric 12%; luxury 28%).</li>"
+         "<li>Garment GST since 22 September 2025: 5% on apparel up to INR 2,500 per piece and 18% above; most fabrics 5%.</li>"
          "<li>Marketplace (Myntra / Amazon Fashion / Flipkart) vs direct website: Section 194-O TDS vs 206C(1H) TCS different.</li>"
          "<li>Returns / COD orders handling: specific GST + accounting treatment.</li>"
          "<li>Multi-state logistics + e-way bill compliance.</li>"
@@ -679,7 +679,7 @@ PAGES.append({
     ],
     "faqs": [
         ("What's the GST rate on fashion / apparel in India?",
-         "Ready-made garments: 18%. Fabric / cloth: 12%. Luxury / designer segment: 28% (plus cess for very high-value). Specific HSN classification affects rate - common area of GST classification disputes."),
+         "Since 22 September 2025: apparel up to INR 2,500 per piece 5%, above INR 2,500 18%; most fabrics 5%. Specific HSN classification affects rate - common area of GST classification disputes."),
         ("How is sales return GST handled?",
          "Credit note under Section 34 CGST Act: supplier issues credit note; GST reversal in both parties' records. Timing: in month of credit note issue. ASC 606 revenue recognition: 'expected value' of returns provisioned at sale; actual returns reconciled against provision. Material impact on P&L for 20-40% return rate D2C fashion."),
         ("Marketplace vs direct website - how does GST + TDS differ?",
@@ -692,7 +692,7 @@ PAGES.append({
     "cta_h": "D2C fashion / apparel brand?",
     "cta_b": "Returns + credit notes + inventory obsolescence + GST + 194-O / 206C(1H) + unit economics. BQP D2C fashion specialist practice.",
     "keywords": "best CA D2C fashion India, apparel brand CA India, D2C fashion returns GST CA, marketplace vs direct website CA",
-    "desc": "Best CA for D2C fashion / apparel India 2026: high return rate + credit note GST + inventory obsolescence + 12%/18%/28% garment GST + marketplace vs direct website compliance + Section 194-O / 206C(1H) + unit economics for fundraising. CA Durgesh Chavda specialist practice.",
+    "desc": "Best CA for D2C fashion / apparel India 2026: high return rate + credit note GST + inventory obsolescence + 5%/18% garment GST (INR 2,500 per-piece threshold) + marketplace vs direct website compliance + Section 194-O / 206C(1H) + unit economics for fundraising. CA Durgesh Chavda specialist practice.",
 })
 
 PAGES.append({

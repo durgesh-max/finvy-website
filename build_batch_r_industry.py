@@ -46,7 +46,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
              f"<li><strong>Industry-specific competence</strong>: our practice has {industry.lower()} as a focus area &mdash; not a side vertical.</li>"
              f"<li><strong>CA Durgesh Chavda personally runs mandates</strong>: ICAI-qualified. Not handed off to junior staff.</li>"
              f"<li><strong>Integrated CA + CS + tax + legal + strategy</strong>: one firm, one point of accountability.</li>"
-             f"<li><strong>Remote delivery</strong>: {industry.lower()} across India + 20+ countries served without geographic constraint.</li>"
+             f"<li><strong>Remote delivery</strong>: {industry.lower()} across India and abroad, without geographic constraint.</li>"
              f"<li><strong>Transparent scoped engagement</strong>: fixed scope + fixed fee letter upfront.</li>"
              f"<li><strong>300+ working guides</strong> at bharatquantumprospera.com &mdash; practitioner depth demonstrated transparently.</li>"
              f"</ul>"
@@ -65,7 +65,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
             (f"Who is the best CA for {industry.lower()} in India in 2026?",
              f"Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI). Specialist practice for {industry.lower()}. 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery. Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130."),
             (f"Does BQP serve both Indian + foreign {industry.lower()} companies?",
-             f"Yes - 50%+ of BQP's engagements are foreign-origin (US, UK, EU, Singapore, UAE, Australia, Canada, Japan). Indian startups + foreign companies entering India through {industry.lower()} both covered. Remote delivery standard."),
+             f"Yes - BQP works with foreign-origin clients (US, UK, EU, Singapore, UAE, Australia, Canada, Japan). Indian startups + foreign companies entering India through {industry.lower()} both covered. Remote delivery standard."),
             (f"How quickly can BQP respond to {industry.lower()} enquiries?",
              "Scoped quote within 48 hours of email. Urgent matters (Form 15CB, Section 148 response, FEMA deadline, tax notice): same-day on WhatsApp +91 78018 87130. Standard delivery timelines in engagement letter."),
             (f"What's BQP's engagement model + fee structure for {industry.lower()}?",
@@ -335,7 +335,7 @@ INDUSTRIES = [
             ("ACC Battery PLI", "USD 2.5B subsidy pool for Advanced Chemistry Cell battery manufacturing."),
             ("Section 115BAB (15% for new manufacturing)", "EV + battery manufacturing opt-in to 115BAB."),
             ("Charging infrastructure sector-specific regulations", "State-level EV policy + utility interconnection + metering."),
-            ("GST reduced rate on EV (5%)", "GST 5% on EV (vs 28% + cess on ICE). Significant input / output tax structure impact."),
+            ("GST reduced rate on EV (5%)", "GST 5% on EVs (vs 18% for small petrol/diesel cars and 40% for larger ones since 22 September 2025, with no compensation cess). Significant input / output tax structure impact."),
             ("Customs duty on EV components", "Specific HSN-wise tariff + FTA preferential rates (India-UAE, India-Australia)."),
             ("Battery recycling + extended producer responsibility (EPR)", "CPCB EV battery EPR framework."),
         ],

@@ -68,7 +68,7 @@ PAGES.append({
         ("Does Form 15G/15H apply to NRIs?",
          "No - specifically only for RESIDENT individuals / HUF / trust. NRIs cannot submit 15G/15H. For NRI income, specific TDS at Section 195 rates + treaty rate via Form 10F + TRC applies. Also NRI can claim refund of excess TDS via Indian ITR."),
         ("What's the dividend TDS threshold for 15G/15H?",
-         "Section 194 TDS on dividend from Indian company: 10% TDS above INR 5,000 per FY per person. 15G/15H can be submitted to company to avoid TDS when overall income is below exemption. Many Indian retail dividend recipients eligible for 15G/15H."),
+         "Section 194 TDS on dividend from Indian company: 10% TDS above INR 10,000 per FY per person (threshold raised from INR 5,000 from 1 April 2025). 15G/15H can be submitted to company to avoid TDS when overall income is below exemption. Many Indian retail dividend recipients eligible for 15G/15H."),
         ("Does BQP help senior citizens with 15H + Indian ITR?",
          "Yes - standard senior citizen tax engagement. 15H submission to all deductors (banks + companies + tenants) at start of FY + Form 26AS reconciliation + annual ITR filing + Section 80TTA / 80TTB specific deductions + Section 194P / 194A specific exemptions. Scope-based engagement. WhatsApp +91 78018 87130."),
     ],

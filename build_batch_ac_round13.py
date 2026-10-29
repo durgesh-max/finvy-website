@@ -452,7 +452,7 @@ PAGES = [
              "<li>Safe Harbour Rules (SHR) optional: Rule 10TD + 10TE.</li>"
              "<li>Section 195 TDS on service receivables from ULC: typically 2% equalisation levy or specific treaty / specific DTAA relief under India-Canada DTAA.</li>"
              "<li>FEMA FDI reporting: ULC's investment in Indian captive via FC-GPR.</li>"
-             "<li>Annual MCA compliance: AOC-4 + MGT-7 + DIR-3 KYC + specific board resolutions.</li>"
+             "<li>Annual MCA compliance: AOC-4 + MGT-7 + specific board resolutions; DIR-3 KYC every three years.</li>"
              "</ul>"),
             ("/ Canada side considerations", "ULC-level compliance.",
              "<ul>"

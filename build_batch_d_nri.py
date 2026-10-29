@@ -34,7 +34,7 @@ write_page("nri-taxation-india-complete-guide", page(
          "<p><strong>Section 115A:</strong> NRI dividend income from Indian companies &mdash; 20% rate (plus surcharge and cess) with no deduction and no need to file return if TDS is correctly deducted. Royalty and FTS from Indian payers: 10% rate.</p>"
          "<p><strong>Section 115AB:</strong> Long-term capital gains for NRIs on specified Indian equity &mdash; 12.5% (post-July 2024) without indexation.</p>"
          "<p><strong>Section 115AC:</strong> NRI income from foreign-currency bonds / GDRs of Indian companies &mdash; 10% rate.</p>"
-         "<p><strong>Section 115E:</strong> NRI investment income from specified foreign-exchange assets &mdash; 20% rate; LTCG on such assets taxed at 10%.</p>"
+         "<p><strong>Section 115E:</strong> NRI investment income from specified foreign-exchange assets &mdash; 20% rate; LTCG on such assets taxed at 12.5% for transfers from 23 July 2024 (10% earlier).</p>"
          "<p><strong>Section 195:</strong> general TDS mechanism for payments to non-residents &mdash; the Indian payer deducts tax at the applicable rate (treaty rate if lower, with TRC + Form 10F) at the time of payment.</p>"
          "<p>Election: NRIs can choose between Section 115A/E rates (concessional) and normal slab rates &mdash; whichever is lower in their situation. The choice is made at return-filing time.</p>"),
         ("/ DTAA relief", "The treaty override.",

@@ -618,7 +618,7 @@ PAGES = [
              "<li>Promoter identification issues - founders + their affiliates per SEBI definition.</li>"
              "<li>Independent Financial Advice / ICFR audit - audit framework needs setup.</li>"
              "<li>Specific litigation + material contingent liability disclosure.</li>"
-             "<li>DPT-3 + MSME Form I + DIR-3 KYC + specific annual filings gaps.</li>"
+             "<li>DPT-3 + MSME Form I + DIR-3 KYC (every three years) + specific annual filings gaps.</li>"
              "</ul>"
              "<p><em>Last updated: 2026-10-22.</em></p>"),
         ],

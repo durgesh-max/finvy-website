@@ -457,7 +457,7 @@ PAGES.append({
          "<li><strong>30 September + 31 March</strong>: half-year end for specific reporting.</li>"
          "<li><strong>29 November (60 days from 30 Sep)</strong>: Form PAS-6 (Rule 9B demat reconciliation) + MSME Form I (dues to MSE above 45 days).</li>"
          "<li><strong>30 May (60 days from 31 Mar)</strong>: Form PAS-6 + MSME Form I.</li>"
-         "<li><strong>30 September</strong>: DIR-3 KYC annual.</li>"
+         "<li><strong>30 September</strong>: DIR-3 KYC, now once every three years (by 30 June of the due year).</li>"
          "<li>End of HY: specific ESIC / PF statutory contributions reconciliation.</li>"
          "</ul>"),
         ("/ Annual compliance (ITR + ROC + FEMA)", "Big deadlines.",

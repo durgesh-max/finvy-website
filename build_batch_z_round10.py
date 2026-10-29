@@ -90,13 +90,13 @@ PAGES = [
         "slug": "which-regime-new-vs-old-tax-regime-decision-india-2026-27",
         "title": "Which Regime New vs Old Tax Decision India AY 2026-27 Complete",
         "hero_em": "individual choice framework.",
-        "lead": "New vs Old tax regime decision for Indian individuals in AY 2026-27 (FY 2025-26): both can be chosen per year for non-business income (business income has lock-in). New regime default: lower rates + INR 7 lakh exemption with Section 87A rebate + standard deduction INR 75K + employer NPS. Old regime: higher rates + full deduction suite. Here's the complete BQP decision framework.",
+        "lead": "New vs Old tax regime decision for Indian individuals in AY 2026-27 (FY 2025-26): both can be chosen per year for non-business income (business income has lock-in). New regime default: lower rates + nil tax up to INR 12 lakh with the Section 87A rebate (INR 12.75 lakh for salaried) + standard deduction INR 75K + employer NPS. Old regime: higher rates + full deduction suite. Here's the complete BQP decision framework.",
         "kicker": "/ Regime Decision &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ New regime (default from AY 2024-25)", "The simpler path.",
              "<ul>"
              "<li><strong>Rates</strong>: 0% up to INR 3L / 5% from 3-7L / 10% from 7-10L / 15% from 10-12L / 20% from 12-15L / 30% above 15L.</li>"
-             "<li>Section 87A rebate: full tax rebate for income up to INR 7 lakh (effective zero tax).</li>"
+             "<li>Section 87A rebate: up to INR 60,000 under the new regime, making tax nil up to INR 12 lakh of taxable income (INR 12.75 lakh for salaried); old regime up to INR 12,500 for income up to INR 5 lakh.</li>"
              "<li>Standard deduction INR 75,000 (post Finance Act 2024).</li>"
              "<li>Section 80CCD(2) employer NPS contribution deduction allowed.</li>"
              "<li>Most other deductions NOT allowed: Section 80C / 80D / 80G / 80E / 80TTA / HRA / home loan interest Section 24.</li>"
@@ -130,7 +130,7 @@ PAGES = [
              "<li>Rental income (no HRA + no home loan).</li>"
              "<li>Simple PPF-only investment with no health insurance / donations.</li>"
              "<li>Variable income years where Section 80C target not met.</li>"
-             "<li>Specific income types below INR 7 lakh (87A rebate zero tax).</li>"
+             "<li>Income below INR 12 lakh under the new regime (87A rebate makes tax nil).</li>"
              "</ul>"),
             ("/ Switch between regimes", "Flexibility rules.",
              "<ul>"
@@ -585,7 +585,7 @@ PAGES = [
              "<li><strong>Section 80GG</strong>: house rent for non-HRA.</li>"
              "<li><strong>Section 80JJAA</strong>: new employment deduction (preserved in 115BAA).</li>"
              "<li><strong>Section 80M</strong>: inter-corporate dividend deduction.</li>"
-             "<li><strong>Section 87A</strong>: rebate for income up to INR 7 lakh (new regime) / INR 5 lakh (old regime).</li>"
+             "<li><strong>Section 87A</strong>: rebate for income up to INR 12 lakh (new regime, up to INR 60,000) / INR 5 lakh (old regime, up to INR 12,500).</li>"
              "<li><strong>Section 90 / 91</strong>: DTAA relief / unilateral FTC.</li>"
              "<li><strong>Section 112A</strong>: LTCG on listed equity 12.5% (post Finance Act 2024).</li>"
              "<li><strong>Section 115A</strong>: non-resident royalty / FTS rate (20% / 10% with treaty).</li>"

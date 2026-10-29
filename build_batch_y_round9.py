@@ -444,7 +444,7 @@ PAGES = [
              "</ul>"),
             ("/ New vs Old regime decision", "AY 2027-28 planning.",
              "<ul>"
-             "<li>New regime (default): INR 7 lakh exemption + rebate. Lower rates. No most deductions except Section 80CCD(2) employer NPS + standard deduction INR 75K.</li>"
+             "<li>New regime (default): nil tax up to INR 12 lakh with the 87A rebate (INR 12.75 lakh for salaried). Lower rates. No most deductions except Section 80CCD(2) employer NPS + standard deduction INR 75K.</li>"
              "<li>Old regime: higher rates + full deduction suite (80C, 80D, 80G, HRA, home loan interest, etc.).</li>"
              "<li>Decision varies by individual deduction profile.</li>"
              "<li>Can switch each year for non-business income; business income has specific lock-in.</li>"
@@ -469,7 +469,7 @@ PAGES = [
             ("How to time Section 54 reinvestment?",
              "If LTCG realised in current FY: reinvestment window is 2 years forward (purchase) / 3 years forward (construction). Deposit in Capital Gain Account Scheme (CGAS) by 31 July 2027 if actual investment delayed. Must complete investment within 2/3 year window from original sale date."),
             ("New or Old regime for AY 2027-28?",
-             "Varies by deduction profile. For individuals with substantial deductions (HRA + home loan interest + Section 80C + 80D + 80G), old regime typically better. For simpler profile (minimum deductions), new regime often better due to lower rates + INR 7 lakh rebate. Use BQP calculator at bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html."),
+             "Varies by deduction profile. For individuals with substantial deductions (HRA + home loan interest + Section 80C + 80D + 80G), old regime typically better. For simpler profile (minimum deductions), new regime often better due to lower rates and nil tax up to INR 12 lakh. Use BQP calculator at bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html."),
             ("What's the biggest Diwali-season compliance miss BQP sees?",
              "Director DIR-3 KYC catch-up (missed 30 September deadline, deactivated DIN blocking all MCA filings). Fix urgently with INR 5,000 late fee + 24-72 hour reactivation. Also: PAS-6 half-year (29 November) + MSME Form I (31 October) often missed."),
             ("Does BQP offer year-end tax planning engagement?",

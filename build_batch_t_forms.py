@@ -548,7 +548,7 @@ PAGES.append({
     "slug": "best-ca-b2b-saas-startup-india-2026",
     "title": "Best CA for B2B SaaS Startup India 2026",
     "hero_em": "enterprise SaaS specialist.",
-    "lead": "B2B SaaS startup faces distinct issues from consumer SaaS: enterprise contract + billing complexity, longer sales cycles, net dollar retention cohort reporting, custom MSAs with each customer, Section 194J B2B TDS, Section 194Q + 206C(1H) B2B TCS. BQP B2B SaaS specialist practice navigates all. Here's the framework.",
+    "lead": "B2B SaaS startup faces distinct issues from consumer SaaS: enterprise contract + billing complexity, longer sales cycles, net dollar retention cohort reporting, custom MSAs with each customer, Section 194J B2B TDS, Section 194Q TDS on goods purchases. BQP B2B SaaS specialist practice navigates all. Here's the framework.",
     "kicker": "/ B2B SaaS Specialist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ B2B SaaS specific issues", "Where general SaaS CA misses depth.",
@@ -567,7 +567,7 @@ PAGES.append({
          "<li>ASC 606 / Ind AS 115 revenue recognition framework for complex B2B contracts.</li>"
          "<li>Deferred revenue accounting + variable consideration tracking.</li>"
          "<li>GST + export of service LUT bond + ITC refund.</li>"
-         "<li>Section 194J + 194Q + 206C(1H) framework.</li>"
+         "<li>Section 194J + 194Q framework.</li>"
          "<li>NDR / GRR / cohort unit economics + investor reporting pack.</li>"
          "<li>Transfer pricing + Form 3CEB for India entity serving foreign customers.</li>"
          "<li>Section 115BAA opt-in.</li>"
@@ -591,7 +591,7 @@ PAGES.append({
     "cta_h": "B2B SaaS startup with complex enterprise contracts?",
     "cta_b": "ASC 606 + export of service LUT + transfer pricing + Section 194J/194Q + NDR + ESOP. BQP B2B SaaS specialist practice.",
     "keywords": "best CA B2B SaaS India, enterprise SaaS CA 2026, ASC 606 B2B CA, B2B SaaS GST export CA",
-    "desc": "Best CA for B2B SaaS startup India 2026: enterprise contract + ASC 606 revenue recognition, GST export of service LUT bond, Section 194J/194Q/206C(1H), Transfer Pricing Form 3CEB, Net Dollar Retention cohort reporting, ESOP 409A + Rule 11UA. CA Durgesh Chavda specialist practice.",
+    "desc": "Best CA for B2B SaaS startup India 2026: enterprise contract + ASC 606 revenue recognition, GST export of service LUT bond, Section 194J/194Q, Transfer Pricing Form 3CEB, Net Dollar Retention cohort reporting, ESOP 409A + Rule 11UA. CA Durgesh Chavda specialist practice.",
 })
 
 PAGES.append({
@@ -649,7 +649,7 @@ PAGES.append({
     "slug": "best-ca-d2c-fashion-apparel-india-2026",
     "title": "Best CA for D2C Fashion / Apparel India 2026",
     "hero_em": "high-return rate + inventory specialist.",
-    "lead": "D2C Fashion / Apparel brands face unique CA issues: high return rate (20-40% typical) + sales return GST handling + inventory obsolescence provisions + credit note treatment + 18% GST on garments + Section 206C(1H) TCS on sales + marketplace vs direct website GST + Section 194-O marketplace TDS. BQP D2C fashion specialist practice. Here's the framework.",
+    "lead": "D2C Fashion / Apparel brands face unique CA issues: high return rate (20-40% typical) + sales return GST handling + inventory obsolescence provisions + credit note treatment + 5%/18% GST on garments (INR 2,500 per-piece threshold) + marketplace vs direct website GST + Section 194-O marketplace TDS. BQP D2C fashion specialist practice. Here's the framework.",
     "kicker": "/ D2C Fashion / Apparel Specialist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ D2C fashion specific issues", "Where general D2C CA misses depth.",
@@ -658,7 +658,7 @@ PAGES.append({
          "<li>Inventory obsolescence: fashion cycle 60-90 days; year-end stock write-down.</li>"
          "<li>Sales return accounting: ASC 606 variable consideration vs direct reversal.</li>"
          "<li>Garment GST since 22 September 2025: 5% on apparel up to INR 2,500 per piece and 18% above; most fabrics 5%.</li>"
-         "<li>Marketplace (Myntra / Amazon Fashion / Flipkart) vs direct website: Section 194-O TDS vs 206C(1H) TCS different.</li>"
+         "<li>Marketplace (Myntra / Amazon Fashion / Flipkart) vs direct website: Section 194-O TDS applies only on marketplace sales.</li>"
          "<li>Returns / COD orders handling: specific GST + accounting treatment.</li>"
          "<li>Multi-state logistics + e-way bill compliance.</li>"
          "<li>Private label vs white-label: GST classification + customs duty for imported finished goods.</li>"
@@ -668,7 +668,7 @@ PAGES.append({
          "<li>GST classification by HSN + rate confirmation (ready-made garments, fabric, accessories, luxury).</li>"
          "<li>Returns + credit note GST + Income Tax treatment.</li>"
          "<li>Inventory obsolescence provision + year-end stock take.</li>"
-         "<li>Section 206C(1H) TCS on direct sales + Section 194-O on marketplace.</li>"
+         "<li>Section 194-O TDS on marketplace sales (TCS on direct sales discontinued from 1 April 2025).</li>"
          "<li>Multi-state logistics + e-way bill compliance.</li>"
          "<li>ASC 606 / Ind AS 115 revenue recognition with returns.</li>"
          "<li>Working capital advisory: receivables + inventory + payables (very specific for D2C).</li>"
@@ -683,16 +683,16 @@ PAGES.append({
         ("How is sales return GST handled?",
          "Credit note under Section 34 CGST Act: supplier issues credit note; GST reversal in both parties' records. Timing: in month of credit note issue. ASC 606 revenue recognition: 'expected value' of returns provisioned at sale; actual returns reconciled against provision. Material impact on P&L for 20-40% return rate D2C fashion."),
         ("Marketplace vs direct website - how does GST + TDS differ?",
-         "Marketplace: Section 194-O 1% TDS on gross receipts (e-commerce operator deducts). Section 52 TCS by marketplace. Seller gets net of these. Direct website: Section 206C(1H) 0.1% TCS by seller (if turnover + sales thresholds crossed). GST handling slightly different."),
+         "Marketplace: Section 194-O 0.1% TDS on gross receipts (since 1 October 2024) (e-commerce operator deducts). Section 52 TCS by marketplace. Seller gets net of these. Direct website: no TCS on sale of goods since 1 April 2025; large business buyers may deduct 0.1% TDS under Section 194Q. GST handling slightly different."),
         ("Does BQP handle D2C fashion-specific GST + accounting?",
          "Yes - specialist D2C fashion practice. Returns + credit note handling, inventory obsolescence, GST classification + rate, marketplace vs direct website compliance, unit economics for fundraising, multi-state logistics. WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("best-ca-d2c-ecommerce-india-2026.html", "Related", "Best CA for D2C"),
                       ("section-206c-1h-tcs-sale-goods-india.html", "Related", "Section 206C(1H)")],
     "cta_h": "D2C fashion / apparel brand?",
-    "cta_b": "Returns + credit notes + inventory obsolescence + GST + 194-O / 206C(1H) + unit economics. BQP D2C fashion specialist practice.",
+    "cta_b": "Returns + credit notes + inventory obsolescence + GST + 194-O + unit economics. BQP D2C fashion specialist practice.",
     "keywords": "best CA D2C fashion India, apparel brand CA India, D2C fashion returns GST CA, marketplace vs direct website CA",
-    "desc": "Best CA for D2C fashion / apparel India 2026: high return rate + credit note GST + inventory obsolescence + 5%/18% garment GST (INR 2,500 per-piece threshold) + marketplace vs direct website compliance + Section 194-O / 206C(1H) + unit economics for fundraising. CA Durgesh Chavda specialist practice.",
+    "desc": "Best CA for D2C fashion / apparel India 2026: high return rate + credit note GST + inventory obsolescence + 5%/18% garment GST (INR 2,500 per-piece threshold) + marketplace vs direct website compliance + Section 194-O / 194Q + unit economics for fundraising. CA Durgesh Chavda specialist practice.",
 })
 
 PAGES.append({

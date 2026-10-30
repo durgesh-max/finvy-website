@@ -327,7 +327,7 @@ write_page("section-194r-tds-business-perquisites-india", page(
         ("Does Section 194R apply to foreign vendors / recipients?",
          "No. Section 194R applies only to resident recipients. Non-resident recipients are covered under Section 195 (which has its own treaty-rate framework). For pharma companies providing samples to US-resident doctors or UK-resident clinicians, Section 195 applies with India-US / India-UK DTAA rate."),
         ("Does BQP handle Section 194R compliance?",
-         "Yes - 194R scoping for your sales/marketing/channel-incentive programmes, aggregation methodology per recipient, TDS deposit + Form 26Q filing, Form 16A issuance, recipient ITR support if needed. Also handles related Section 194Q (TDS on goods purchase) and Section 206C(1H) (TCS on sale of goods). WhatsApp +91 78018 87130."),
+         "Yes - 194R scoping for your sales/marketing/channel-incentive programmes, aggregation methodology per recipient, TDS deposit + Form 26Q filing, Form 16A issuance, recipient ITR support if needed. Also handles related Section 194Q (TDS on goods purchase). WhatsApp +91 78018 87130."),
     ],
     related=[
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Blog", "ITR AY 2026-27"),

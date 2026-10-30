@@ -450,7 +450,7 @@ PAGES = [
              "<li>Transfer pricing Form 3CEB mandatory.</li>"
              "<li>TNMM cost-plus with 15-20% OP/OC typical for software captive.</li>"
              "<li>Safe Harbour Rules (SHR) optional: Rule 10TD + 10TE.</li>"
-             "<li>Section 195 TDS on service receivables from ULC: typically 2% equalisation levy or specific treaty / specific DTAA relief under India-Canada DTAA.</li>"
+             "<li>Receipts from the ULC are export receipts of the Indian captive; no Indian TDS applies to them. The 2% equalisation levy on e-commerce was abolished from 1 August 2024.</li>"
              "<li>FEMA FDI reporting: ULC's investment in Indian captive via FC-GPR.</li>"
              "<li>Annual MCA compliance: AOC-4 + MGT-7 + specific board resolutions; DIR-3 KYC every three years.</li>"
              "</ul>"),

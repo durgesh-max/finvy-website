@@ -100,26 +100,28 @@
 document.getElementById('calc-btn').addEventListener('click',function(){
   var entity=document.getElementById('entity').value;
   var speed=document.getElementById('speed').value;
-  var cap=parseInt(document.getElementById('cap').value)||10;
-  var tm=document.getElementById('trademark').checked;
-  var vm=document.getElementById('vmail').checked;
-  var bk=document.getElementById('bookkeep').checked;
-  var year1=0,annual=0,breakdown='';
-  var pkg=999;
-  var stateFee=speed==='24hr'?(entity==='ccorp'?1089:1090):89;
-  year1+=pkg+stateFee;
-  breakdown+='BQP all-in package: $'+pkg+'<br/>';
-  breakdown+='Delaware state filing fee: $'+stateFee+(speed==='24hr'?' (expedited)':'')+'<br/>';
-  var franchise=entity==='ccorp'?Math.max(400,cap*0.0004*1000):300;
-  annual+=franchise;
-  breakdown+='<br/><strong>Annual recurring:</strong><br/>Delaware franchise tax (est.): $'+franchise.toFixed(0)+'<br/>';
-  annual+=200;breakdown+='Registered agent renewal: $200<br/>';
-  annual+=(entity==='ccorp'?1500:800);breakdown+='Federal tax return prep (Form '+(entity==='ccorp'?'1120':'1065')+'): $'+(entity==='ccorp'?1500:800)+'<br/>';
-  if(tm){year1+=550;breakdown='Trademark (USPTO): $550<br/>'+breakdown;}
-  if(vm){year1+=360;annual+=360;breakdown='Virtual mailing address: $360/yr<br/>'+breakdown;}
-  if(bk){year1+=480;annual+=480;breakdown='Bookkeeping software: $480/yr<br/>'+breakdown;}
-  var html='<strong style="font-size:18px">Year 1 total: $'+year1.toLocaleString()+'</strong><br/><strong style="font-size:18px">Annual recurring: $'+annual.toLocaleString()+'/yr</strong><br/><br/><strong>Breakdown:</strong><br/>'+breakdown;
-  document.getElementById('result-us-text').innerHTML=html;
+  var capM=parseInt(document.getElementById('cap').value)||10;
+  var tm=document.getElementById('trademark').checked, vm=document.getElementById('vmail').checked, bk=document.getElementById('bookkeep').checked;
+  var lines=[];
+  lines.push('<strong>Year 1 (one-time):</strong>');
+  lines.push('Delaware state filing fee: per the Division of Corporations fee schedule revised from 1 August 2026'+(speed==='24hr'?', plus the expedited-service fee':'')+'.');
+  lines.push('EIN from the IRS: free.');
+  if(tm) lines.push('USPTO trademark: official fee per class per the current USPTO schedule.');
+  lines.push('<br/><strong>Every year:</strong>');
+  if(entity==='ccorp'){
+    var shares=capM*1000000;
+    var asm = shares<=5000 ? 175 : (shares<=10000 ? 250 : Math.min(200000, 250+Math.ceil((shares-10000)/10000)*85));
+    lines.push('Delaware franchise tax: USD 400 minimum under the Assumed Par Value Capital method (USD '+asm.toLocaleString()+' under the Authorized Shares method for '+shares.toLocaleString()+' shares; you pay the lower), due 1 March, plus the annual report fee.');
+    lines.push('Federal return: Form 1120, and Form 5472 if 25% foreign-owned.');
+  } else {
+    lines.push('Delaware LLC annual tax: USD 400, due 1 June (late: USD 200 penalty plus 1.5% a month).');
+    lines.push('Federal filing: Form 5472 with pro forma 1120 if single-member and foreign-owned.');
+  }
+  lines.push('Registered agent: annual fee set by the provider.');
+  if(vm) lines.push('Virtual mailing address: provider fee.');
+  if(bk) lines.push('Bookkeeping software: subscription fee.');
+  lines.push('<br/>Professional fees for formation, EIN, founders\u2019 stock, banking and annual filings are quoted by BQP as a fixed fee per engagement.');
+  document.getElementById('result-us-text').innerHTML=lines.join('<br/>');
   document.getElementById('result-us').style.display='block';
 });
 </script>
@@ -127,7 +129,7 @@ document.getElementById('calc-btn').addEventListener('click',function(){
   <div class="card">
     <p class="card-label">Engage us</p>
     <h2 class="card-h2">Ready to <em>incorporate?</em></h2>
-    <div class="card-body" style="max-width:820px"><p>BQP's all-in US incorporation package starts at $999. We handle entity, EIN, registered agent, founders' stock and bank-account onboarding. Talk to us to get started.</p></div>
+    <div class="card-body" style="max-width:820px"><p>BQP quotes a fixed fee for end-to-end US incorporation after a short scoping call. We handle entity, EIN, registered agent, founders' stock and bank-account onboarding. Talk to us to get started.</p></div>
     <div class="related-grid">
       <a href="us-incorporation.html" class="related-item"><div><div class="related-label">Full service</div><h3 class="related-title">US Incorporation</h3></div><span class="related-arrow">Read more →</span></a>
       <a href="delaware-c-corp-vs-llc.html" class="related-item"><div><div class="related-label">Compare</div><h3 class="related-title">C-Corp vs LLC</h3></div><span class="related-arrow">Read more →</span></a>

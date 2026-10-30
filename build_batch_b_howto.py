@@ -358,7 +358,7 @@ write_page("convert-llc-to-c-corp-f-reorganization", page(
         ("/ Post-conversion to-do list", "The 30-day window.",
          "<ol>"
          "<li><strong>Delaware Certificate of Incorporation</strong> for the new C-Corp (or Certificate of Conversion for the statutory conversion route).</li>"
-         "<li><strong>Delaware franchise tax filings</strong>: the entity transitions from LLC franchise tax (USD 300 flat) to C-Corp franchise tax (minimum USD 400, scales with authorised shares).</li>"
+         "<li><strong>Delaware franchise tax filings</strong>: the entity transitions from LLC annual tax (USD 400 flat from 2026) to C-Corp franchise tax (minimum USD 400, scales with authorised shares).</li>"
          "<li><strong>83(b) elections</strong> for founder restricted stock: file within 30 days of the stock issuance. Mandatory window &mdash; miss it and you cannot recover.</li>"
          "<li><strong>EIN update</strong>: the C-Corp typically obtains a new EIN. The old LLC EIN is retained for closing out the LLC's final tax filings.</li>"
          "<li><strong>Form 2553 (optional S-Corp election)</strong>: generally NOT elected for founders planning US venture funding &mdash; non-US-citizen owners disqualify S-Corp status, and S-Corp cannot have preferred stock. Skip for VC-track companies.</li>"
@@ -395,7 +395,7 @@ write_page("convert-llc-to-c-corp-f-reorganization", page(
         {"name": "Issue C-Corp stock to former LLC members", "text": "Mirror the LLC ownership percentages. Vesting schedules can be added for founder restricted stock."},
         {"name": "File 83(b) election within 30 days of stock issuance", "text": "Mandatory window for founders with vesting restrictions. Missing is unrecoverable."},
         {"name": "Obtain new EIN for C-Corp", "text": "Via Form SS-4; keep old LLC EIN active until LLC final return filed."},
-        {"name": "Transition Delaware franchise tax regime", "text": "LLC USD 300 flat to C-Corp min USD 400 scaling with authorised shares. Choose authorised share count carefully."},
+        {"name": "Transition Delaware franchise tax regime", "text": "LLC USD 400 flat (from 2026) to C-Corp min USD 400 scaling with authorised shares. Choose authorised share count carefully."},
         {"name": "Assign or novate contracts", "text": "LLC contracts (customers, vendors, employees, SaaS) assigned to or novated with the C-Corp."},
         {"name": "File final LLC tax filings", "text": "Pro forma 1120 + 5472 for the stub period if the LLC was foreign-owned disregarded."}
     ]},

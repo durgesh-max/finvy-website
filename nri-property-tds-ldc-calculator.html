@@ -98,7 +98,7 @@
     </div>
 
     <div class="field">
-      <label>Reinvestment under Section 54 / 54F / 54EC (INR) <span class="hint">Amount you plan to reinvest in another residential property or Section 54EC bonds within prescribed timelines. Reduces capital gains + TDS.</span></label>
+      <label>Reinvestment under Section 54 / 54F / 54EC (INR) <span class="hint">Amount you plan to reinvest in another residential property in India (Section 54/54F, exemption capped at INR 10 crore) or Section 54EC bonds (up to INR 50 lakh) within the time limits. Reduces capital gains and the lower deduction certificate rate.</span></label>
       <input id="reinvest" type="number" min="0" step="100000" value="0" />
     </div>
   </div>
@@ -107,7 +107,7 @@
     <div class="rlabel">Default vs LDC-reduced TDS comparison</div>
 
     <div class="section-head">Without LDC - default Section 195 TDS</div>
-    <div class="result-row"><span class="lbl">Default rate (incl surcharge + cess)</span><span class="val" id="defaultRate">~14%</span></div>
+    <div class="result-row"><span class="lbl">Default rate (incl surcharge + cess)</span><span class="val" id="defaultRate">~13%</span></div>
     <div class="result-row"><span class="lbl">TDS basis</span><span class="val">Sale consideration</span></div>
     <div class="result-row highlight"><span class="lbl"><strong>TDS buyer withholds</strong></span><span class="val" id="defaultTds">INR 0</span></div>
 
@@ -152,42 +152,31 @@
 
 <script>
 function fmt(n){ n=Math.round(n); if(n<0)n=0; return "INR " + n.toLocaleString("en-IN"); }
-function calc(){
-  var sale = parseFloat(document.getElementById("salePrice").value) || 0;
-  var cost = parseFloat(document.getElementById("costBasis").value) || 0;
-  var holding = document.getElementById("holding").value;
-  var reinvest = parseFloat(document.getElementById("reinvest").value) || 0;
-
-  // Default rate approximation (12.5% LTCG + 15% surcharge + 4% cess = ~14.95%)
-  // Rough blended rate 14% for most mid-range sales
-  var defaultEffective = holding === "long" ? 0.14 : 0.30;
-  var defaultTds = sale * defaultEffective;
-
-  var gain = Math.max(0, sale - cost);
-  var taxableGain = Math.max(0, gain - reinvest);
-  var ltcgTax = holding === "long" ? taxableGain * 0.125 : taxableGain * 0.30;
-  // Add approximate surcharge + cess on actual tax
-  var ltcgTotal = ltcgTax * 1.19; // rough 15% surcharge + 4% cess
-  // LDC rate reflects actual expected tax expressed as % of sale consideration
-  var ldcEffective = sale > 0 ? ltcgTotal / sale : 0;
-  var ldcTds = ltcgTotal;
-
-  var savedCash = defaultTds - ldcTds;
-
-  document.getElementById("defaultRate").textContent = (defaultEffective * 100).toFixed(1) + "% of consideration";
-  document.getElementById("defaultTds").textContent = fmt(defaultTds);
-  document.getElementById("capGain").textContent = fmt(gain);
-  document.getElementById("taxableGain").textContent = fmt(taxableGain);
-  document.getElementById("ltcgTax").textContent = fmt(ltcgTax);
-  document.getElementById("ldcTds").textContent = fmt(ldcTds) + " (~" + (ldcEffective * 100).toFixed(1) + "% of consideration)";
-  document.getElementById("savedCash").textContent = fmt(savedCash);
-  document.getElementById("refundWait").textContent = fmt(savedCash) + " not locked up";
+// FY 2026-27, Section 393(2) of the Income-tax Act, 2025 (earlier Section 195). Surcharge 10% above INR 50 lakh, 15% above INR 1 crore (capped at 15% on long-term gains); 25% on short-term gains above INR 2 crore (new-regime cap).
+function surcharge(amount, longTerm){ if(amount>20000000 && !longTerm) return 0.25; if(amount>10000000) return 0.15; if(amount>5000000) return 0.10; return 0; }
+function nriProperty(o){
+  var lt = o.holding==="long", base = lt ? 0.125 : 0.30;
+  var defaultRate = base*(1+surcharge(o.sale,lt))*1.04;
+  var gain = Math.max(0, o.sale-o.cost);
+  var exempt = Math.min(o.reinvest, gain, 100000000);
+  var taxableGain = gain-exempt;
+  var tax = taxableGain*base;
+  var actual = tax*(1+surcharge(taxableGain,lt))*1.04;
+  return {defaultRate:defaultRate, defaultTds:o.sale*defaultRate, gain:gain, taxableGain:taxableGain, tax:tax, actual:actual, saved:Math.max(0,o.sale*defaultRate-actual)};
 }
-["salePrice","costBasis","holding","reinvest"].forEach(function(id){
-  var el = document.getElementById(id);
-  el.addEventListener("input", calc);
-  el.addEventListener("change", calc);
-});
+function calc(){
+  var v=function(id){var e=document.getElementById(id); return e.tagName==="SELECT"?e.value:(parseFloat(e.value)||0);};
+  var sale=v("salePrice"), r=nriProperty({sale:sale, cost:v("costBasis"), holding:v("holding"), reinvest:v("reinvest")});
+  document.getElementById("defaultRate").textContent = (r.defaultRate*100).toFixed(2) + "% of consideration";
+  document.getElementById("defaultTds").textContent = fmt(r.defaultTds);
+  document.getElementById("capGain").textContent = fmt(r.gain);
+  document.getElementById("taxableGain").textContent = fmt(r.taxableGain);
+  document.getElementById("ltcgTax").textContent = fmt(r.tax);
+  document.getElementById("ldcTds").textContent = fmt(r.actual) + (sale>0 ? " (~" + (r.actual/sale*100).toFixed(1) + "% of consideration)" : "");
+  document.getElementById("savedCash").textContent = fmt(r.saved);
+  document.getElementById("refundWait").textContent = fmt(r.saved) + " not locked up";
+}
+["salePrice","costBasis","holding","reinvest"].forEach(function(id){ var el=document.getElementById(id); el.addEventListener("input",calc); el.addEventListener("change",calc); });
 calc();
 </script>
 <script src="bqp.js" defer></script>

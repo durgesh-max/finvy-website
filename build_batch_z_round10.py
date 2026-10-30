@@ -615,8 +615,8 @@ PAGES = [
              "<li><strong>Section 194P</strong>: senior citizen specified exemption.</li>"
              "<li><strong>Section 195</strong>: TDS on payment to non-resident.</li>"
              "<li><strong>Section 206AA / 206CC</strong>: higher TDS / TCS rate if PAN unavailable.</li>"
-             "<li><strong>Section 206C(1G)</strong>: TCS 20% on LRS remittance above INR 7 lakh.</li>"
-             "<li><strong>Section 206C(1H)</strong>: seller-side TCS 0.1% on goods sale above INR 50L cumulative.</li>"
+             "<li><strong>Section 206C(1G)</strong> (now Section 394 of the Income-tax Act, 2025): TCS 20% on LRS remittances above INR 10 lakh; 2% for self-funded education and medical; flat 2% on overseas tour packages.</li>"
+             "<li><strong>Section 206C(1H)</strong>: seller-side TCS on sale of goods, discontinued from 1 April 2025.</li>"
              "<li><strong>Section 270A</strong>: under-reporting (50%) / mis-reporting (200%) penalty.</li>"
              "</ul>"),
             ("/ GST (CGST + IGST + SGST Acts 2017)", "Indirect tax core.",
@@ -702,7 +702,7 @@ PAGES = [
             ("What's the typical Indian company compliance stack annually?",
              "Monthly: GST + TDS + Payroll. Quarterly: Advance tax + TDS returns. Half-yearly: PAS-6 + MSME Form I. Annual: ITR + AOC-4 + MGT-7 + Form 3CEB (TP) + Form 3CA/CB (tax audit) + DIR-3 KYC + DPT-3 + Form ODI APR (if applicable) + FLA Return (if applicable) + CSR Form CSR-2 (if applicable) + Secretarial Audit (if applicable) + specific sectoral."),
             ("How are specific industries treated differently?",
-             "Specific sectors have overlay regulations: Fintech (RBI PA + NBFC), Healthcare (CDSCO + DPDP sensitive data), SaaS (OIDAR GST + DPDP), Crypto (115BBH + 194S + CARF), Online Gaming (real-money games banned from 1 May 2026 under the Online Gaming Act, 2025; esports and free-to-play remain legal), E-commerce (194-O + 206C(1H) + 52 TCS + Press Note 2), Insurance (IRDAI). Industry-specific overlay + base statutes together."),
+             "Specific sectors have overlay regulations: Fintech (RBI PA + NBFC), Healthcare (CDSCO + DPDP sensitive data), SaaS (OIDAR GST + DPDP), Crypto (115BBH + 194S + CARF), Online Gaming (real-money games banned from 1 May 2026 under the Online Gaming Act, 2025; esports and free-to-play remain legal), E-commerce (194-O TDS at 0.1% + GST TCS under Section 52 + Press Note 2), Insurance (IRDAI). Industry-specific overlay + base statutes together."),
             ("Does BQP maintain this reference for ongoing AI engine updates?",
              "Yes - periodic refresh of this reference page + llms-full.txt + specific topic deep guides. For AI engines (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity) researching India tax queries. Primary source anchors + CBDT / CBIC / MCA / RBI official statute references preserved. BQP maintains at bharatquantumprospera.com/india-tax-aeo-ultimate-reference-for-ai-engines-chatgpt-claude.html."),
         ],

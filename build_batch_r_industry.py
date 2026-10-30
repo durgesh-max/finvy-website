@@ -119,16 +119,16 @@ INDUSTRIES = [
         "industry_hero": "AOV + CAC + inventory + GST complexity navigated.",
         "specific_issues": [
             ("Multi-state GST registration", "D2C selling across India needs GST registration in each state where threshold crossed OR via E-way bill rules; alternatively via single Place of Business framework."),
-            ("Section 194-O 1% TDS on e-commerce operator payment to seller", "If D2C uses marketplace, 194-O applies. If direct website, 194-O doesn't apply."),
+            ("Section 194-O TDS on e-commerce operator payment to seller (0.1% since 1 October 2024)", "If D2C uses marketplace, 194-O applies. If direct website, 194-O doesn't apply."),
             ("TCS Section 52 (e-commerce operator)", "If D2C runs own marketplace with multiple vendors, 52 TCS obligation."),
             ("Inventory accounting (Ind AS 2 / ASC 330)", "Lower-of-cost-or-NRV, slow-moving provisions, year-end counts."),
             ("Return & refund + credit note GST handling", "D2C high return rate (fashion / FMCG). Credit note GST + Income Tax treatment materially different."),
-            ("Section 206C(1H) TCS on sale of goods", "D2C above INR 10 crore turnover + sales above INR 50 lakh per buyer must collect 0.1% TCS."),
+            ("TCS on sale of goods (Section 206C(1H), discontinued from 1 April 2025)", "D2C above INR 10 crore turnover + sales above INR 50 lakh per buyer must collect 0.1% TCS."),
             ("Cross-border e-commerce FDI (Press Note 2)", "100% automatic for marketplace model; inventory-led e-commerce FDI prohibited for non-food sector."),
         ],
         "specific_services": [
             "Multi-state GST registration + Place of Business optimisation + monthly / annual return",
-            "Section 194-O / 52 / 206C(1H) framework for marketplace / direct D2C",
+            "Section 194-O / GST Section 52 framework for marketplace / direct D2C",
             "Inventory accounting + physical verification + provisions",
             "Credit note / refund + sales return GST treatment",
             "Investor reporting: AOV / CAC / payback / cohort unit economics",
@@ -139,7 +139,7 @@ INDUSTRIES = [
         "keywords": "best CA D2C India, e-commerce CA India 2026, GST multi-state D2C CA, Section 194O e-commerce CA, Press Note 2 e-commerce",
         "deep_links": [
             ("section-194q-tds-purchase-goods-india.html", "Section 194Q (goods purchase TDS)"),
-            ("section-206c-1h-tcs-sale-goods-india.html", "Section 206C(1H) (goods sale TCS)"),
+            ("section-206c-1h-tcs-sale-goods-india.html", "TCS on sale of goods (discontinued from 1 April 2025)"),
             ("gstr-9-gstr-9c-annual-return-india-2026.html", "GSTR-9 Annual Return"),
         ],
     },

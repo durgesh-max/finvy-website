@@ -259,27 +259,27 @@ PAGES = [
              "<li>Must be at Arm's Length Price (ALP) under Section 92F.</li>"
              "<li>Form 3CEB mandatory annual filing (30 November following FY) + Form 3CEB auditor's report.</li>"
              "<li>Form 3CEAA Master File (MF) + Form 3CEAD Country-by-Country Report (CbCR) if MNE consolidated revenue EUR 750M+.</li>"
-             "<li>Specific Safe Harbour available: specific markup + specific conditions (Rule 10TD + 10TE).</li>"
+             "<li>From tax year 2026-27, a single IT services safe harbour (software development, ITeS, KPO and software contract R&amp;D) applies at 15.5% of operating expenses where the eligible international transactions do not exceed INR 2,000 crore; one Form 49 covers five years (earlier: Rule 10TD/10TE, 17-24%, INR 300 crore limit).</li>"
              "</ul>"),
             ("/ Cost-plus benchmarking (TNMM)", "The standard method.",
              "<ul>"
              "<li>Transactional Net Margin Method (TNMM) typical for captive services.</li>"
              "<li>Operating profit margin (OP/Operating Costs) benchmarked against external comparables.</li>"
              "<li>Comparables selected from Prowess / Capitaline / CMIE database: Indian IT services / BPO / R&D services companies with similar functions.</li>"
-             "<li>Industry-typical markup for software captive: 15-20% OP/OC range (industry median FY 2024-25 was 17-18%).</li>"
+             "<li>Industry-typical markup for software captive: 15-20% OP/OC range.</li>"
              "<li>Industry-typical for pure R&D captive: 15-18% OP/OC.</li>"
              "<li>Industry-typical for BPO back-office: 12-15% OP/OC.</li>"
              "<li>Specific comparability adjustments: idle capacity, startup phase, specific contractual terms.</li>"
              "</ul>"),
             ("/ Safe Harbour Rules (SHR)", "The simplification option.",
              "<ul>"
-             "<li>Rule 10TD + 10TE: Safe Harbour Rules for specific captive services.</li>"
+             "<li>From tax year 2026-27, a single IT services safe harbour (software development, ITeS, KPO and software contract R&amp;D) applies at 15.5% of operating expenses where the eligible international transactions do not exceed INR 2,000 crore; one Form 49 covers five years.</li>"
              "<li>Software development services: 17% OP/OC if INR 100 crore+ operating cost; 18% if < INR 100 crore (approximate).</li>"
              "<li>ITES/BPO: specific rates per category.</li>"
              "<li>R&D services (contract): specific rate.</li>"
              "<li>SHR benefit: no comparability analysis required + specific exemption from TP audit scrutiny for 5-year block.</li>"
              "<li>SHR limitations: specific transaction thresholds + specific documentation + specific service categories only.</li>"
-             "<li>Opt-in: Form 3CEFA filed before specified date.</li>"
+             "<li>Opt-in: Form 49 filed with DGIT (Systems) by the return due date of the first year.</li>"
              "</ul>"),
             ("/ Advance Pricing Agreement (APA)", "The certainty option.",
              "<ul>"
@@ -308,7 +308,7 @@ PAGES = [
              "<li>Function-Asset-Risk (FAR) analysis.</li>"
              "<li>Form 3CEB auditor's report preparation + filing.</li>"
              "<li>Master File + CbCR if applicable.</li>"
-             "<li>Safe Harbour opt-in evaluation + Form 3CEFA filing.</li>"
+             "<li>Safe Harbour opt-in evaluation + Form 49 filing.</li>"
              "<li>APA (unilateral / bilateral) preparation + filing + representation.</li>"
              "<li>TP audit + DRP + CIT(A) + ITAT representation.</li>"
              "<li>MAP preparation + competent authority liaison (via Indian CBDT + US CPA).</li>"
@@ -319,7 +319,7 @@ PAGES = [
         ],
         "faqs": [
             ("What's the typical markup for Indian software captive to US parent?",
-             "15-20% OP/OC under TNMM benchmarking. Industry median FY 2024-25: 17-18% for software development; 15-18% R&D; 12-15% BPO. Specific comparability adjustments for idle capacity / startup phase / specific contractual terms. Safe Harbour Rules offer 17-18% certainty."),
+             "15-20% OP/OC under TNMM benchmarking. Margins depend on functions, assets and risks and the comparables selected. Specific comparability adjustments for idle capacity / startup phase / specific contractual terms. Safe Harbour Rules now offer certainty at 15.5% of operating expenses (from tax year 2026-27)."),
             ("Should we opt for Safe Harbour Rules?",
              "Depends on: (a) actual operating margin position, (b) comparability analysis conclusion, (c) specific transaction thresholds, (d) specific service category eligibility. If actual margin at or above SHR rate: SHR offers audit exemption + simplicity. If actual margin below SHR rate: comparable benchmarking analysis may support lower + SHR not optimal."),
             ("What's the APA timeline + cost?",
@@ -334,7 +334,7 @@ PAGES = [
         "cta_h": "Delaware C-Corp + Indian engineering center TP?",
         "cta_b": "Benchmarking + Form 3CEB + SHR / APA / TP audit / MAP + BEPS Pillar 2 + US CPA coordination. BQP specialist TP practice. WhatsApp +91 78018 87130.",
         "keywords": "Delaware C-Corp Indian engineering center transfer pricing CA India, Indian software captive US parent TP CA, India APA MAP TNMM CA",
-        "desc": "Delaware C-Corp + Indian engineering center transfer pricing CA India: TNMM cost-plus benchmarking (15-20% OP/OC), Form 3CEB + Master File + CbCR, Safe Harbour Rules (Rule 10TD/10TE 17-18%), APA framework (unilateral + bilateral 5-year + 4-year rollback), TP audit + DRP + ITAT + MAP defence, BEPS Pillar 2, US CPA coordination (Form 5471 + GILTI). CA Durgesh Chavda specialist TP practice.",
+        "desc": "Delaware C-Corp + Indian engineering center transfer pricing CA India: TNMM cost-plus benchmarking (15-20% OP/OC), Form 3CEB + Master File + CbCR, Safe Harbour Rules (15.5% for IT services from tax year 2026-27), APA framework (unilateral + bilateral 5-year + 4-year rollback), TP audit + DRP + ITAT + MAP defence, BEPS Pillar 2, US CPA coordination (Form 5471 + GILTI). CA Durgesh Chavda specialist TP practice.",
     },
     {
         "slug": "dubai-free-zone-indian-branch-repatriation-ca",
@@ -449,7 +449,7 @@ PAGES = [
              "<li>Indian captive = AE of ULC under Section 92A.</li>"
              "<li>Transfer pricing Form 3CEB mandatory.</li>"
              "<li>TNMM cost-plus with 15-20% OP/OC typical for software captive.</li>"
-             "<li>Safe Harbour Rules (SHR) optional: Rule 10TD + 10TE.</li>"
+             "<li>Safe Harbour Rules (SHR) optional: 15.5% of operating expenses for IT services from tax year 2026-27 (limit INR 2,000 crore).</li>"
              "<li>Receipts from the ULC are export receipts of the Indian captive; no Indian TDS applies to them. The 2% equalisation levy on e-commerce was abolished from 1 August 2024.</li>"
              "<li>FEMA FDI reporting: ULC's investment in Indian captive via FC-GPR.</li>"
              "<li>Annual MCA compliance: AOC-4 + MGT-7 + specific board resolutions; DIR-3 KYC every three years.</li>"
@@ -493,7 +493,7 @@ PAGES = [
             ("Does India-Canada DTAA apply to Canadian ULC?",
              "ULC is Canadian resident for Canadian tax purposes - DTAA treats as Canadian resident. India-Canada DTAA Article 4 residence tie-breaker + Article 5 PE + Article 7 business profits + specific withholding rates apply. MLI PPT + India GAAR apply - substance file for ULC essential."),
             ("Can Indian software captive opt for Safe Harbour Rules?",
-             "Yes - Rule 10TD + 10TE for software development services. 17-18% OP/OC rate depending on operating cost scale. Safe Harbour offers audit exemption for 5-year block. Opt-in Form 3CEFA. Alternative: TNMM benchmarking study + specific comparability analysis. BQP evaluates optimal choice."),
+             "Yes. From tax year 2026-27, a single IT services safe harbour (software development, ITeS, KPO and software contract R&amp;D) applies at 15.5% of operating expenses where the eligible international transactions do not exceed INR 2,000 crore; one Form 49 covers five years (the old Rule 10TD/10TE regime had 17-24% margins and a INR 300 crore limit). Opting in avoids a TP adjustment on the covered transaction but gives up MAP for it. Alternative: TNMM benchmarking study + specific comparability analysis. BQP evaluates optimal choice."),
             ("What's BEPS Pillar 2 impact on ULC chain?",
              "If MNE consolidated revenue EUR 750M+: GloBE rules apply. QDMTT in Canada (effective FY 2024) + India QDMTT (FY 2025-26). IIR (Income Inclusion Rule) + UTPR (Undertaxed Payments Rule). ULC hybrid tax planning may trigger specific minimum tax top-ups. BQP + Canadian partner Pillar 2 assessment."),
             ("Does BQP handle Canadian ULC + Indian captive integrated engagement?",

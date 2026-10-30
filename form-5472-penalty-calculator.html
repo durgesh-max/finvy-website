@@ -96,7 +96,7 @@
     </div>
 
     <div class="field">
-      <label>Is this a voluntary pre-correspondence disclosure? <span class="hint">If yes, reasonable-cause penalty abatement is often granted. If IRS already corresponded, abatement is harder.</span></label>
+      <label>Is this a voluntary pre-correspondence disclosure? <span class="hint">If yes, a reasonable-cause request is stronger because you corrected the failure before IRS contact. If the IRS has already written to you, relief is harder and continuation penalties may be running.</span></label>
       <select id="voluntary">
         <option value="yes">Yes - voluntarily discovering and filing before IRS correspondence</option>
         <option value="no">No - IRS has already corresponded about the missed filing</option>
@@ -126,7 +126,7 @@
       <span class="val highlight" id="rGross">USD 0</span>
     </div>
     <div class="result-row">
-      <span class="lbl">Estimated post-abatement</span>
+      <span class="lbl">Relief outlook</span>
       <span class="val" id="rAbated">USD 0</span>
     </div>
 
@@ -142,7 +142,7 @@
     <p>Under IRC Section 6038A, failure to file Form 5472 or to maintain required records attracts <strong>USD 25,000 per form per year</strong>, automatic. Separate penalty applies for each related party per year.</p>
     <p>Example: a Delaware single-member LLC owned by one Indian individual with three missed years and no additional related parties = 3 forms owed = USD 75,000 gross penalty exposure.</p>
     <p>Example: a Delaware single-member LLC with three missed years + a foreign-related inter-company loan to a UAE sister entity = 3 years x 2 related parties = 6 forms = USD 150,000 gross penalty exposure.</p>
-    <p><strong>Reasonable-cause abatement</strong> under IRC Section 6724(a) can reduce or eliminate the penalty for first-time voluntary non-filers who come forward before IRS correspondence. BQP's standard back-year cleanup includes a reasonable-cause statement for each year. Most abatement requests succeed for first-time non-filers.</p>
+    <p><strong>Reasonable-cause abatement</strong> under IRC Section 6724(a) can reduce or eliminate the penalty for first-time voluntary non-filers who come forward before IRS correspondence. BQP's standard back-year cleanup includes a reasonable-cause statement for each year. Relief depends on showing reasonable cause for each year; there is no automatic first-time relief for this penalty.</p>
     <p>Full regulatory context: <a href="file-form-5472-foreign-owned-us-llc.html">Form 5472 Full Guide</a>.</p>
   </div>
 </section>
@@ -171,15 +171,14 @@ function calc(){
   var voluntary = document.getElementById("voluntary").value;
   var forms = years * parties;
   var gross = forms * 25000;
-  var abated = voluntary === "yes" ? gross * 0.1 : gross * 0.5;
-  var abatedLabel = voluntary === "yes" ? "~0-10% of gross (reasonable cause typically granted)" : "~30-60% of gross (negotiated abatement; harder once IRS has corresponded)";
+  var abatedLabel = "USD 25,000 per form per year under IRC 6038A(d), plus USD 25,000 for each 30 days the failure continues more than 90 days after IRS notice. Relief only for reasonable cause, decided case by case.";
 
   document.getElementById("grossPenalty").textContent = fmt(gross);
   document.getElementById("rYears").textContent = years;
   document.getElementById("rParties").textContent = parties;
   document.getElementById("rForms").textContent = forms;
   document.getElementById("rGross").textContent = fmt(gross);
-  document.getElementById("rAbated").textContent = fmt(abated) + " estimated";
+  document.getElementById("rAbated").textContent = voluntary === "yes" ? "Filing before IRS contact strengthens a reasonable-cause request; no fixed reduction" : "Continuation penalties may already be running; act quickly";
   document.getElementById("rateHint").textContent = abatedLabel;
 }
 ["years","relatedParties","voluntary"].forEach(function(id){

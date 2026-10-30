@@ -94,14 +94,17 @@
     </div>
 
     <div class="field">
-      <label>Employee's marginal tax rate <span class="hint">Including surcharge and cess. Approximate your slab + surcharge bracket.</span></label>
+      <label>Employee's marginal tax rate <span class="hint">Including surcharge and cess, under the default new regime for FY 2026-27. Pick the bracket of your total income.</span></label>
       <select id="marginalRate">
-        <option value="0.054">5% + 4% cess (low income, up to ~INR 5 lakh)</option>
-        <option value="0.208">20% + 4% cess (INR 5-10 lakh)</option>
-        <option value="0.312">30% + 4% cess (INR 10-50 lakh)</option>
-        <option value="0.343" selected>30% + 10% surcharge + 4% cess (INR 50L-1cr)</option>
-        <option value="0.390">30% + 15% surcharge + 4% cess (INR 1-2 crore)</option>
-        <option value="0.429">30% + 25% surcharge + 4% cess (INR 2-5 crore)</option>
+        <option value="0.052">5% + 4% cess (new regime, INR 4-8 lakh)</option>
+        <option value="0.104">10% + 4% cess (INR 8-12 lakh)</option>
+        <option value="0.156">15% + 4% cess (INR 12-16 lakh)</option>
+        <option value="0.208">20% + 4% cess (INR 16-20 lakh)</option>
+        <option value="0.26">25% + 4% cess (INR 20-24 lakh)</option>
+        <option value="0.312">30% + 4% cess (INR 24-50 lakh)</option>
+        <option value="0.3432" selected>30% + 10% surcharge + 4% cess (INR 50 lakh-1 crore)</option>
+        <option value="0.3588">30% + 15% surcharge + 4% cess (INR 1-2 crore)</option>
+        <option value="0.39">30% + 25% surcharge + 4% cess (above INR 2 crore; new-regime cap)</option>
       </select>
     </div>
 
@@ -119,9 +122,16 @@
     </div>
 
     <div class="field">
+      <label>Are the shares listed in India? <span class="hint">Listed: long-term after 12 months, 20% short-term, INR 1.25 lakh yearly exemption. Unlisted: long-term after 24 months.</span></label>
+      <select id="listed">
+        <option value="no" selected>Unlisted (startup ESOP)</option>
+        <option value="yes">Listed on an Indian stock exchange</option>
+      </select>
+    </div>
+    <div class="field">
       <label>Holding period from exercise to sale</label>
       <select id="holdingPeriod">
-        <option value="long" selected>Long-term (24+ months unlisted, 12+ listed)</option>
+        <option value="long" selected>Long-term (more than 24 months unlisted, 12 months listed)</option>
         <option value="short">Short-term</option>
       </select>
     </div>
@@ -178,45 +188,22 @@
 
 <script>
 function fmt(n){ n=Math.round(n); if(n<0)n=0; return "INR " + n.toLocaleString("en-IN"); }
-function calc(){
-  var shares = parseFloat(document.getElementById("shares").value) || 0;
-  var strike = parseFloat(document.getElementById("strike").value) || 0;
-  var fmvEx = parseFloat(document.getElementById("fmvExercise").value) || 0;
-  var marginal = parseFloat(document.getElementById("marginalRate").value) || 0;
-  var dpiit = document.getElementById("dpiit").value;
-  var fmvSale = parseFloat(document.getElementById("fmvSale").value) || 0;
-  var holding = document.getElementById("holdingPeriod").value;
-
-  var spread = fmvEx - strike;
-  var perq = shares * spread;
-  var exerciseTax = perq * marginal;
-  var saleProceeds = shares * fmvSale;
-  var costBasis = shares * fmvEx;
-  var capGain = Math.max(0, saleProceeds - costBasis);
-  var cgRate = holding === "long" ? 0.125 : marginal;
-  var saleTax = capGain * cgRate;
-  // Add rough surcharge + cess on capital gains
-  var saleTaxFull = saleTax * 1.19;
-  var totalTax = exerciseTax + saleTaxFull;
-  var netCash = saleProceeds - totalTax - (shares * strike);
-
-  document.getElementById("rShares").textContent = shares.toLocaleString("en-IN");
-  document.getElementById("rSpread").textContent = fmt(spread);
-  document.getElementById("rPerq").textContent = fmt(perq);
-  document.getElementById("rExerciseTax").textContent = fmt(exerciseTax);
-  document.getElementById("rDeferral").textContent = dpiit === "yes" ? "Yes - up to 48 months" : "No - standard TDS at exercise";
-  document.getElementById("rSaleProceeds").textContent = fmt(saleProceeds);
-  document.getElementById("rCostBasis").textContent = fmt(costBasis);
-  document.getElementById("rCapGain").textContent = fmt(capGain);
-  document.getElementById("rSaleTax").textContent = fmt(saleTaxFull);
-  document.getElementById("rTotal").textContent = fmt(totalTax);
-  document.getElementById("rNet").textContent = fmt(netCash);
+function esop(o){
+  var perq=o.shares*(o.fmvEx-o.strike), exerciseTax=perq*o.marginal;
+  var proceeds=o.shares*o.fmvSale, costBasis=o.shares*o.fmvEx, gain=Math.max(0,proceeds-costBasis), saleTax;
+  if(o.holding==="long") saleTax = (o.listed ? Math.max(0,gain-125000) : gain)*0.125*1.04;
+  else saleTax = o.listed ? gain*0.20*1.04 : gain*o.marginal;
+  return {perq:perq, exerciseTax:exerciseTax, proceeds:proceeds, costBasis:costBasis, gain:gain, saleTax:saleTax, total:exerciseTax+saleTax, net:proceeds-exerciseTax-saleTax-o.shares*o.strike};
 }
-["shares","strike","fmvExercise","marginalRate","dpiit","fmvSale","holdingPeriod"].forEach(function(id){
-  var el = document.getElementById(id);
-  el.addEventListener("input", calc);
-  el.addEventListener("change", calc);
-});
+function calc(){
+  var v=function(id){var e=document.getElementById(id); return e.tagName==="SELECT"?e.value:(parseFloat(e.value)||0);};
+  var o={shares:v("shares"),strike:v("strike"),fmvEx:v("fmvExercise"),marginal:parseFloat(v("marginalRate")),fmvSale:v("fmvSale"),holding:v("holdingPeriod"),listed:v("listed")==="yes"};
+  var r=esop(o), set=function(id,x){document.getElementById(id).textContent=x;};
+  set("rShares",o.shares.toLocaleString("en-IN")); set("rSpread",fmt(o.fmvEx-o.strike)); set("rPerq",fmt(r.perq)); set("rExerciseTax",fmt(r.exerciseTax));
+  set("rDeferral", v("dpiit")==="yes" ? "Yes - TDS deferred up to 48 months (eligible startups)" : "No - TDS at exercise");
+  set("rSaleProceeds",fmt(r.proceeds)); set("rCostBasis",fmt(r.costBasis)); set("rCapGain",fmt(r.gain)); set("rSaleTax",fmt(r.saleTax)); set("rTotal",fmt(r.total)); set("rNet",fmt(r.net));
+}
+["shares","strike","fmvExercise","marginalRate","dpiit","fmvSale","holdingPeriod","listed"].forEach(function(id){ var el=document.getElementById(id); el.addEventListener("input",calc); el.addEventListener("change",calc); });
 calc();
 </script>
 <script src="bqp.js" defer></script>

@@ -79,7 +79,7 @@
         <input type="number" id="q2" step="1" placeholder="e.g. 4" style="width:200px;padding:10px 14px;border:1px solid var(--border-strong);border-radius:8px;font-family:inherit;font-size:14px"/>
       </div>
       <div class="check-q" style="margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--border)">
-        <label style="display:block;font-weight:600;margin-bottom:10px;text-transform:uppercase;font-size:12px;letter-spacing:.05em">Q3 / Operating profitable in how many of last 3 FYs?</label>
+        <label style="display:block;font-weight:600;margin-bottom:10px;text-transform:uppercase;font-size:12px;letter-spacing:.05em">Q3 / In how many of the last 3 FYs was operating profit (EBITDA) at least ₹1 crore?</label>
         <select id="q3" style="width:200px;padding:10px 14px;border:1px solid var(--border-strong);border-radius:8px;font-family:inherit;font-size:14px"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
       </div>
       <div class="check-q" style="margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--border)">
@@ -87,7 +87,7 @@
         <input type="number" id="q4" step="0.1" placeholder="e.g. 3" style="width:200px;padding:10px 14px;border:1px solid var(--border-strong);border-radius:8px;font-family:inherit;font-size:14px"/>
       </div>
       <div class="check-q" style="margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--border)">
-        <label style="display:block;font-weight:600;margin-bottom:10px;text-transform:uppercase;font-size:12px;letter-spacing:.05em">Q5 / Average PAT in 3 of last 5 FYs (₹ crore)</label>
+        <label style="display:block;font-weight:600;margin-bottom:10px;text-transform:uppercase;font-size:12px;letter-spacing:.05em">Q5 / Average operating profit over the last 3 FYs (₹ crore)</label>
         <input type="number" id="q5" step="0.1" placeholder="e.g. 2" style="width:200px;padding:10px 14px;border:1px solid var(--border-strong);border-radius:8px;font-family:inherit;font-size:14px"/>
       </div>
       <div class="check-q" style="margin-bottom:32px">
@@ -110,19 +110,20 @@ document.getElementById('check-btn').addEventListener('click',function(){
   var q4=parseFloat(document.getElementById('q4').value)||0;
   var q5=parseFloat(document.getElementById('q5').value)||0;
   var q6=parseInt(document.getElementById('q6').value);
+  var note='<p style="margin-top:14px;font-size:13px">Based on SEBI ICDR rules as amended in March 2025. SEBI\'s 14 October 2026 consultation paper proposes an average operating profit of ₹3 crore and market-cap-based eligibility for SME IPOs; these are proposals until notified. Exchanges (NSE Emerge, BSE SME, main board) add their own criteria.</p>';
   var result='';
-  if(!q6){result='<strong style="color:var(--orange)">Not eligible.</strong> Company must be Indian and not under BIFR/winding-up.';}
-  else if(q1>=10 && q5>=15 && q4>=1 && q3>=2){result='<strong style="color:#2d7d4f">✓ Eligible for Main Board IPO (Profitability Route).</strong> Strong financial profile. You should consider Main Board listing on BSE / NSE.';}
-  else if(q1>=1 && q1<=25 && q2>=3 && q3>=2 && q4>=1){result='<strong style="color:#2d7d4f">✓ Eligible for SME IPO.</strong> Your company meets BSE SME / NSE Emerge criteria. Total cost typically ₹40 lakh – ₹1.5 crore. Timeline 4–6 months.';}
+  if(!q6){result='<strong style="color:var(--orange)">Not eligible.</strong> The issuer must be an Indian company that is not under insolvency or winding-up.';}
+  else if(q3===3 && q5>=15 && q4>=1){result='<strong style="color:#2d7d4f">✓ Likely meets the Main Board profitability test.</strong> Average operating profit of ₹15 crore or more over three years with a profit each year, and net worth of at least ₹1 crore. Also check net tangible assets of ₹3 crore in each year and the exchange\'s paid-up capital requirement.';}
+  else if(q1>=1 && q1<=25 && q2>=3 && q3>=2 && q4>0){result='<strong style="color:#2d7d4f">✓ Likely meets the SME IPO criteria.</strong> Operating profit of ₹1 crore or more in two of the last three years, a three-year track record, positive net worth and post-issue paid-up capital within the SME limit. Confirm the exchange\'s additional conditions.';}
   else{
     var gaps=[];
-    if(q1<1)gaps.push('Post-issue paid-up capital must be ≥ ₹1 crore (SME) or ₹10 crore (Main Board)');
-    if(q2<3)gaps.push('Operating track record must be ≥ 3 years');
-    if(q3<2)gaps.push('Must be operating-profitable in at least 2 of last 3 FYs');
-    if(q4<1)gaps.push('Net worth must be ≥ ₹1 crore');
-    result='<strong style="color:var(--orange)">Not yet eligible.</strong> Gaps to address:<ul style="margin-top:12px;padding-left:24px;line-height:1.8">'+gaps.map(g=>'<li>'+g+'</li>').join('')+'</ul>';
+    if(q1<1||q1>25)gaps.push('Post-issue paid-up capital should be within the SME platform range (up to ₹25 crore)');
+    if(q2<3)gaps.push('Operating track record of at least 3 years');
+    if(q3<2)gaps.push('Operating profit (EBITDA) of at least ₹1 crore in 2 of the last 3 financial years');
+    if(q4<=0)gaps.push('Positive net worth');
+    result='<strong style="color:var(--orange)">Not yet eligible.</strong> Gaps to address:<ul style="margin-top:12px;padding-left:24px;line-height:1.8">'+gaps.map(function(g){return '<li>'+g+'</li>';}).join('')+'</ul>';
   }
-  document.getElementById('result-text').innerHTML=result;
+  document.getElementById('result-text').innerHTML=result+note;
   document.getElementById('result').style.display='block';
 });
 </script>

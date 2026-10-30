@@ -12,7 +12,7 @@
   </url>
 
   <!-- Service pages — high priority, indexable -->
-  <url><loc>https://bharatquantumprospera.com/sme-ipo.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://bharatquantumprospera.com/sme-ipo.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://bharatquantumprospera.com/capital-advisory.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
   <url><loc>https://bharatquantumprospera.com/fund-raising.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
   <url><loc>https://bharatquantumprospera.com/us-incorporation.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
@@ -95,7 +95,7 @@
   <!-- High-intent SEO landing pages -->
   <url><loc>https://bharatquantumprospera.com/startup-registration.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://bharatquantumprospera.com/transfer-pricing.html</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://bharatquantumprospera.com/ipo-advisor.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://bharatquantumprospera.com/ipo-advisor.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 
 
   <!-- Fast-SEO push: geo + comparison + cost + tool pages -->
@@ -120,7 +120,7 @@
   <url><loc>https://bharatquantumprospera.com/sme-ipo-cost-india.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://bharatquantumprospera.com/esop-valuation-cost.html</loc><lastmod>2026-06-13</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://bharatquantumprospera.com/startup-registration-cost.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://bharatquantumprospera.com/sme-ipo-eligibility-checker.html</loc><lastmod>2026-06-13</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bharatquantumprospera.com/sme-ipo-eligibility-checker.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://bharatquantumprospera.com/us-incorporation-cost-calculator.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
 
 
@@ -1043,4 +1043,5 @@
   <!-- Round 24 Oct 30 -->
   <url><loc>https://bharatquantumprospera.com/llp-form-8-due-30-october-2026-no-extension-late-fee.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://bharatquantumprospera.com/november-2026-compliance-calendar-india-tax-gst-mca.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://bharatquantumprospera.com/sebi-sme-ipo-consultation-paper-october-2026-proposed-rules.html</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
 </urlset>

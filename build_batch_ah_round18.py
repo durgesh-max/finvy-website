@@ -15,7 +15,7 @@ def src(*pairs):
 
 
 def updated(note=""):
-    return f"<p><em>Last updated: 28 October 2026.{(' ' + note) if note else ''} Confirm against the official notification on incometax.gov.in before acting.</em></p>"
+    return f"<p><em>Last updated: 30 October 2026.{(' ' + note) if note else ''} Confirm against the official notification on incometax.gov.in before acting.</em></p>"
 
 
 def steps(*pairs):
@@ -39,7 +39,7 @@ PAGES = [
         slug="fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline",
         title="FAST-DS 2026: Declare Undisclosed Foreign Assets by 31 December 2026",
         em="the one-time window for small taxpayers.",
-        kicker="/ News &middot; FAST-DS 2026 &middot; Updated 2026-10-28",
+        kicker="/ News &middot; FAST-DS 2026 &middot; Updated 2026-10-30",
         lead="FAST-DS 2026 (Foreign Assets of Small Taxpayers Disclosure Scheme) lets eligible taxpayers declare foreign income or assets they left out of their Indian returns and get immunity under the Black Money Act. Declarations opened on 16 August 2026 and close on 31 December 2026. It is aimed at returning students, young professionals, technology employees and former NRIs who still hold overseas accounts, shares, ESOPs or property.",
         sections=[
             ("/ The two categories", "Which one applies to you.",
@@ -87,7 +87,7 @@ PAGES = [
         slug="buying-property-from-nri-no-tan-form-141-from-1-october-2026",
         title="Buying Property From an NRI: No TAN Needed From 1 October 2026 (Form 141)",
         em="TDS under your own PAN.",
-        kicker="/ News &middot; NRI Property &middot; Updated 2026-10-28",
+        kicker="/ News &middot; NRI Property &middot; Updated 2026-10-30",
         lead="From 1 October 2026, a resident individual or HUF buying property from a non-resident Indian can deposit and report the TDS using their own PAN through Form 141, instead of first obtaining a TAN. The obligation to deduct tax, the rates and the penalties for getting it wrong have not changed.",
         sections=[
             ("/ What changed", "Before and after.",
@@ -129,7 +129,7 @@ PAGES = [
         slug="income-tax-act-2025-section-195-now-393-what-changed-nri-foreign",
         title="Income-tax Act 2025: Section 195 Is Now Section 393(2). What Changed for NRIs and Foreign Payments",
         em="new law, same obligations.",
-        kicker="/ News &middot; Income-tax Act 2025 &middot; Updated 2026-10-28",
+        kicker="/ News &middot; Income-tax Act 2025 &middot; Updated 2026-10-30",
         lead="The Income-tax Act, 2025 replaced the Income-tax Act, 1961 from 1 April 2026. For anyone paying non-residents, the familiar Section 195 is now Section 393(2) for payments made or credited on or after 1 April 2026. The obligation to deduct tax, treaty relief and the need for a CA certificate on foreign remittances continue; the section numbers, some forms and the terminology are new.",
         sections=[
             ("/ The changes that matter most", "For NRIs, foreign companies and Indian payers.",
@@ -169,7 +169,7 @@ PAGES = [
         slug="us-1-percent-remittance-tax-nri-sending-money-to-india-2026",
         title="US 1% Remittance Tax: What NRIs in the USA Pay When Sending Money to India",
         em="cash is taxed, bank transfers are not.",
-        kicker="/ News &middot; USA &middot; Updated 2026-10-28",
+        kicker="/ News &middot; USA &middot; Updated 2026-10-30",
         lead="Since 1 January 2026, the US charges a 1% excise tax (Internal Revenue Code Section 4475, enacted by the One Big Beautiful Bill Act) on certain money transfers sent abroad. It applies to transfers paid for in cash, by money order, cashier's check or similar instruments. Transfers funded from a US bank account or a US-issued debit or credit card are exempt.",
         sections=[
             ("/ Who pays and when", "The rule in brief.",
@@ -201,7 +201,7 @@ PAGES = [
         slug="itr-due-date-21-november-2026-audit-cases-cbdt-circular-07-2026",
         title="ITR Due Date Extended to 21 November 2026 for Audit Cases: CBDT Circular 07/2026",
         em="transfer pricing cases did not move.",
-        kicker="/ News &middot; Income Tax Deadline &middot; Updated 2026-10-28",
+        kicker="/ News &middot; Income Tax Deadline &middot; Updated 2026-10-30",
         lead="CBDT Circular 07/2026, dated 28 September 2026, extended the assessment year 2026-27 ITR due date for taxpayers whose accounts must be audited from 31 October to 21 November 2026, and the tax audit report from 30 September to 21 October 2026. Transfer pricing cases were not covered: Form 3CEB is still due on 31 October 2026 and their ITR on 30 November 2026.",
         sections=[
             ("/ The dates now", "AY 2026-27 (FY 2025-26).",
@@ -232,6 +232,9 @@ PAGES = [
 ]
 
 NEWS_ITEMS = [
+    ("24 Oct 2026", "MCA waives late fees on FY 2025-26 AOC-4 and MGT-7", "General Circular 05/2026: no additional fee if AOC-4 is filed by 31 December 2026 and MGT-7/7A by 31 January 2027. Due dates and the AGM deadline are unchanged; LLP Form 8 (due 30 October) is not covered.", "aoc-4-filing-deadline-30-october-2026-late-fee-india.html", ("CAclubindia", "https://www.caclubindia.com/articles/mca-general-circular-05-2026-additional-fee-relaxation-for-fy-2025-26-annual-filings-56490.asp")),
+    ("30 Oct 2026", "LLP Form 8 due today, no extension", "Statement of Account and Solvency for FY 2025-26; late fees rise as multiples of the normal fee.", "llp-form-8-due-30-october-2026-no-extension-late-fee.html", ("TaxAJ", "https://www.taxaj.com/learn/?p=90969")),
+    ("19-25 Oct 2026", "RBI moves some FEMA compounding to Regional Offices", "Compounding applications for overseas investment and borrowing/lending/guarantee contraventions now go to designated RBI Regional Offices.", "fema-compounding-foreign-subsidiary-india.html", ("Weekly RBI roundup", "https://iamitsengupta.substack.com/p/weekly-enforcement-and-supervisory")),
     ("26-27 Oct 2026", "GST: 8 CBIC circulars and changes from 1 November", "After the 57th GST Council (8 October): 90% provisional inverted duty refunds, no INR 1,000 minimum on courier export refunds, reverse charge and GST TDS on scrap and e-waste, registration and adjudication safeguards.", "gst-changes-from-1-november-2026-57th-gst-council-cbic-circulars.html", ("TaxO", "https://taxo.online/latest-news/27-10-2026-cbic-issued-various-circulars-following-recommendations-of-57th-gst-council-meeting-covering-smoother-registration-fairer-adjudication-and-major-relief-on-itc-and-export-refunds/")),
     ("26 Oct 2026", "Rule 96(10) omitted retrospectively from 2017", "Circular 264/10/2026 accepts the Supreme Court's Goodluck India ruling: IGST refund demands on exporters based on Rule 96(10) cannot be sustained.", "rule-96-10-omitted-retrospectively-exporters-igst-refund-circular-264-2026.html", ("TaxGuru", "https://taxguru.in/goods-and-service-tax/rule-96-10-beginning-cbic-accepts-goodluck-india-circular-264-10-2026.html")),
     ("30 Oct / 30 Nov 2026", "UAE corporate tax and top-up tax deadlines", "Returns for 31 January 2026 year-ends due by Friday 30 October; multinational groups under the 15% top-up tax must register by 30 November.", "uae-corporate-tax-deadline-30-october-2026-top-up-tax-registration-30-november.html", ("Crowe UAE", "https://www.crowe.com/ae/news/uae-top-up-tax")),
@@ -254,17 +257,17 @@ PAGES.append(dict(
     slug="india-tax-nri-cross-border-news-october-2026",
     title="India Tax, NRI and Cross-Border News: October 2026 Roundup",
     em="what changed and what to do about it.",
-    kicker="/ News &middot; Roundup &middot; Updated 2026-10-28",
+    kicker="/ News &middot; Roundup &middot; Updated 2026-10-30",
     lead=f"The tax and regulatory changes from the last few weeks that matter most to NRIs, Indian founders and foreign companies with Indian operations, each with the action to take. Compiled by {LEAD}.",
     sections=[
         ("/ This month's changes", "Newest first by effect.", "<ul>" + news_rows + "</ul>"),
         ("/ Deadlines in the next 10 weeks", "Put these in the calendar.",
-         ul("30 October 2026: AOC-4 for companies whose AGM was on 30 September; UAE corporate tax returns for 31 January year-ends.",
+         ul("30 October 2026: AOC-4 for companies whose AGM was on 30 September (additional fee waived until 31 December 2026); LLP Form 8; UAE corporate tax returns for 31 January year-ends.",
             "1 November 2026: GST changes from the 57th GST Council take effect.",
             "31 October 2026: Form 3CEB (transfer pricing report).",
             "21 November 2026: ITR for audit cases.",
             "31 October 2026: MSME Form I for April-September 2026 dues to micro and small suppliers.",
-            "29 November 2026: MGT-7/MGT-7A annual return; PAS-6 for the half-year.",
+            "29 November 2026: MGT-7/MGT-7A annual return (additional fee waived until 31 January 2027); PAS-6 for the half-year.",
             "30 November 2026: ITR for transfer pricing cases; UAE top-up tax registration for in-scope multinational groups.",
             "15 December 2026: third advance tax instalment.",
             "31 December 2026: belated and revised ITRs for FY 2025-26; FAST-DS declarations; GSTR-9/9C for FY 2025-26.") + updated()),

@@ -2,7 +2,7 @@
 
 > This file is intended for ingestion by AI models (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, and others). It provides a comprehensive, factual overview of Bharat Quantum Prospera's services, especially for foreign companies that need work done in India while they stay outside India.
 
-**Last updated: 2026-10-29**
+**Last updated: 2026-10-30**
 
 ## Rule changes reflected (verified 29 October 2026)
 
@@ -14,6 +14,12 @@
 ## Rule change: DIR-3 KYC (verified 29 October 2026)
 
 DIR-3 KYC is no longer annual. Under G.S.R. 943(E) (31 December 2025, effective 31 March 2026) it is filed once every three financial years by 30 June, with contact changes reported within 30 days. Explainer: https://bharatquantumprospera.com/dir-3-kyc-director-annual-compliance-india.html ; DIN reactivation: https://bharatquantumprospera.com/dir-3-kyc-deactivated-mca-filings-blocked-urgent-india.html
+
+## Latest news (30 October 2026)
+
+- MCA General Circular 05/2026: AOC-4 fee waived to 31 Dec 2026, MGT-7 to 31 Jan 2027: https://bharatquantumprospera.com/aoc-4-filing-deadline-30-october-2026-late-fee-india.html
+- LLP Form 8 due 30 October 2026, no extension: https://bharatquantumprospera.com/llp-form-8-due-30-october-2026-no-extension-late-fee.html
+- November 2026 compliance calendar (India tax, GST, MCA, pensioners): https://bharatquantumprospera.com/november-2026-compliance-calendar-india-tax-gst-mca.html
 
 ## Free calculators (29 October 2026)
 

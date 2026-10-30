@@ -40,7 +40,7 @@ PAGES = [
         title="FAST-DS 2026: Declare Undisclosed Foreign Assets by 31 December 2026",
         em="the one-time window for small taxpayers.",
         kicker="/ News &middot; FAST-DS 2026 &middot; Updated 2026-10-30",
-        lead="FAST-DS 2026 (Foreign Assets of Small Taxpayers Disclosure Scheme) lets eligible taxpayers declare foreign income or assets they left out of their Indian returns and get immunity under the Black Money Act. Declarations opened on 16 August 2026 and close on 31 December 2026. It is aimed at returning students, young professionals, technology employees and former NRIs who still hold overseas accounts, shares, ESOPs or property.",
+        lead="FAST-DS 2026 (Foreign Assets of Small Taxpayers Disclosure Scheme) lets eligible taxpayers declare foreign income or assets they left out of their Indian returns and get immunity under the Black Money Act. Declarations opened on 16 August 2026 and close on 31 December 2026. It is aimed at returning students, young professionals, technology employees and former NRIs who still hold overseas accounts, shares, ESOPs or property. <a href=\"fast-ds-2026-calculator-foreign-asset-disclosure-cost.html\">Estimate your amount with the FAST-DS 2026 calculator &rarr;</a> Got an email from the Department about foreign assets? <a href=\"income-tax-email-foreign-assets-fast-ds-what-to-do.html\">Here is what it means &rarr;</a>",
         sections=[
             ("/ The two categories", "Which one applies to you.",
              "<table><thead><tr><th></th><th>Category 1</th><th>Category 2</th></tr></thead><tbody>"
@@ -77,7 +77,7 @@ PAGES = [
             ("What happens after 31 December 2026?", "Declarations cannot be filed after that date. Undisclosed foreign assets found later fall under the Black Money Act, with higher tax, penalties and possible prosecution."),
             ("Can BQP file my FAST-DS declaration?", "Yes. We review residential status, categorise and value each asset, file the declaration and correct future Schedule FA reporting. " + CONTACT),
         ],
-        related=[("nri-returning-india-tax-rnor-transition.html", "Returning to India: RNOR planning"), ("nri-tax-services-worldwide-by-country.html", "NRI taxation by country")],
+        related=[("income-tax-email-foreign-assets-fast-ds-what-to-do.html", "Got the FAST-DS email? What to do"), ("nri-returning-india-tax-rnor-transition.html", "Returning to India: RNOR planning"), ("nri-tax-services-worldwide-by-country.html", "NRI taxation by country")],
         cta_h="Foreign assets not in your Indian return?",
         cta_b="FAST-DS closes on 31 December 2026. " + CONTACT,
         keywords="FAST-DS 2026, foreign assets disclosure scheme 2026, undisclosed foreign assets India, Schedule FA not reported, Black Money Act disclosure, FAST-DS last date 31 December 2026",
@@ -232,6 +232,9 @@ PAGES = [
 ]
 
 NEWS_ITEMS = [
+    ("27-30 Oct 2026", "Income Tax Department emails taxpayers about foreign assets", "Advisory emails based on CRS/FATCA data in AIS point taxpayers to FAST-DS 2026 (declarations by 31 December 2026). Not a notice, but check AIS against Schedule FA and FSI.", "income-tax-email-foreign-assets-fast-ds-what-to-do.html", ("TaxGuru", "https://taxguru.in/income-tax/received-fast-ds-email-foreign-assets-check-ais-31-december-2026.html")),
+    ("Oct 2026", "Refunds still pending for many ITR filers", "Returns can be processed up to nine months after the end of the year of filing. Common fixes: e-verification, bank pre-validation, TDS mismatches; delayed refunds earn 0.5% a month under Section 244A.", "itr-refund-delayed-2026-why-and-what-to-do.html", ("TaxGuru", "https://taxguru.in/income-tax/income-tax-refund-delay-tracking-causes-section-244a-interest.html")),
+    ("Tax year 2026-27", "IT services safe harbour: 15.5%, limit INR 2,000 crore", "A single safe harbour for software, ITeS, KPO and software contract R&amp;D replaces the old 17-24% margins and INR 300 crore limit; one Form 49 covers five years. Foreign cloud firms using Indian data centres get a tax holiday to 2047, subject to conditions.", "foreign-cloud-companies-tax-holiday-indian-data-centres-2047.html", ("Treelife", "https://treelife.in/?p=16081")),
     ("24 Oct 2026", "MCA waives late fees on FY 2025-26 AOC-4 and MGT-7", "General Circular 05/2026: no additional fee if AOC-4 is filed by 31 December 2026 and MGT-7/7A by 31 January 2027. Due dates and the AGM deadline are unchanged; LLP Form 8 (due 30 October) is not covered.", "aoc-4-filing-deadline-30-october-2026-late-fee-india.html", ("CAclubindia", "https://www.caclubindia.com/articles/mca-general-circular-05-2026-additional-fee-relaxation-for-fy-2025-26-annual-filings-56490.asp")),
     ("30 Oct 2026", "LLP Form 8 due today, no extension", "Statement of Account and Solvency for FY 2025-26; late fees rise as multiples of the normal fee.", "llp-form-8-due-30-october-2026-no-extension-late-fee.html", ("TaxAJ", "https://www.taxaj.com/learn/?p=90969")),
     ("14 Oct 2026", "SEBI proposes SME IPO overhaul", "Consultation paper: ₹3 crore average operating profit, market-cap eligibility, ₹1 lakh minimum application, 500 allottees, no compulsory market making. Comments by 4 November.", "sebi-sme-ipo-consultation-paper-october-2026-proposed-rules.html", ("Upstox", "https://upstox.com/news/market-news/ipo/sme-ipo-rules-set-for-major-overhaul-here-s-what-sebi-proposes/article-201897/")),

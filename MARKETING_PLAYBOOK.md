@@ -12,7 +12,7 @@ Priority order below is set by expected traffic/trust lift per minute of your ti
 
 ### Steps
 
-1. Go to https://business.google.com/create and sign in with the Google account you want to own this profile (recommend `durgesh@bqpartners.in` or a dedicated `marketing@bqpartners.in`).
+1. Go to https://business.google.com/create and sign in with the Google account you want to own this profile (recommend `durgesh@bharatquantumprospera.com` or a dedicated `marketing@bqpartners.in`).
 
 2. Create a profile. Name: **Bharat Quantum Prospera**
 
@@ -116,7 +116,7 @@ Target: 25 reviews in 90 days.
 2. Headline (260 char max): 
    > CA + cross-border advisory for Indian founders | US Delaware C-Corp, FEMA ODI, India-US DTAA, SME IPO, GIFT City IFSC | Founder, Bharat Quantum Prospera | 100+ guides at bharatquantumprospera.com
 3. About section — paste:
-   > I run Bharat Quantum Prospera, a chartered advisory for founders operating across India, US, UAE, UK and Singapore. We help Indian founders incorporate in Delaware, flip to US parent structures before VC rounds, run Form 5472 / FBAR / BOIR compliance clean, structure cross-border employee equity (ESOP + 409A), and prepare for SME IPO. Not a template shop — working-CA engagements with direct partner access on every mandate. Published 100+ practitioner guides at bharatquantumprospera.com/insights. Reach me at durgesh@bqpartners.in or +91 78018 87130.
+   > I run Bharat Quantum Prospera, a chartered advisory for founders operating across India, US, UAE, UK and Singapore. We help Indian founders incorporate in Delaware, flip to US parent structures before VC rounds, run Form 5472 / FBAR / BOIR compliance clean, structure cross-border employee equity (ESOP + 409A), and prepare for SME IPO. Not a template shop — working-CA engagements with direct partner access on every mandate. Published 100+ practitioner guides at bharatquantumprospera.com/insights. Reach me at durgesh@bharatquantumprospera.com or +91 78018 87130.
 4. Featured section — pin 3 posts (do these over week 1):
    - A post about India-US DTAA + screenshot of the page
    - A post about Delaware franchise tax calculator with the direct link

@@ -4,7 +4,7 @@
 
 **Who executes:** CA Durgesh Chavda personally (requires signing in as the business owner's Google account; verification tied to the business owner).
 
-**Prerequisite:** a Google account you control — recommend `durgesh@bqpartners.in` or a dedicated `marketing@bqpartners.in`.
+**Prerequisite:** a Google account you control — recommend `durgesh@bharatquantumprospera.com` or a dedicated `marketing@bqpartners.in`.
 
 ---
 
@@ -151,7 +151,7 @@ Post one per day for the first 5 days post-verification. Each post 150-300 words
 Ask a colleague / past client to post each question; you then answer as the business.
 
 1. **Q:** Do you help Indian founders set up US companies?
-   **A:** Yes — Delaware C-Corp and Wyoming LLC incorporation, EIN without SSN, Mercury/Brex bank introduction, Form 5472 compliance, 83(b) elections, FEMA ODI on India side. Standard package from INR 99,000 all-in. Please WhatsApp +91 78018 87130 or email durgesh@bqpartners.in to scope.
+   **A:** Yes — Delaware C-Corp and Wyoming LLC incorporation, EIN without SSN, Mercury/Brex bank introduction, Form 5472 compliance, 83(b) elections, FEMA ODI on India side. Standard package from INR 99,000 all-in. Please WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com to scope.
 
 2. **Q:** Do you handle NRI tax filings?
    **A:** Yes — annual ITR for NRIs (ITR-2 or ITR-3), DTAA relief under India-US / India-UK / India-UAE / India-Singapore treaties, Form 10F + TRC, Form 15CA/15CB for repatriation, residential-status planning for return to India, sale of Indian property for NRIs. Please reach out via WhatsApp.

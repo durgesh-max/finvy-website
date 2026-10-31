@@ -48,7 +48,7 @@
         'Dear Team Bharat Quantum Prospera,\n\n' + message + '\n\nWarm regards,\n' + name +
         (company ? '\n' + company : '') + '\n' + email
       );
-      window.location.href = 'mailto:durgesh@bqpartners.in?subject=' + subject + '&body=' + body;
+      window.location.href = 'mailto:durgesh@bharatquantumprospera.com?subject=' + subject + '&body=' + body;
       status.textContent = 'Mail client opening. Thank you.';
       status.style.color = '#4A5157';
     });

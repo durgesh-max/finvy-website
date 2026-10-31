@@ -24,7 +24,7 @@
 
 ### CRITICAL: Email address inconsistency across site
 
-- **180 pages** use `durgesh@bqpartners.in` (older email)
+- **180 pages** use `durgesh@bharatquantumprospera.com` (older email)
 - **47 pages** use `durgesh@bharatquantumprospera.com` (newer, domain-matched email)
 
 Both are used in `mailto:` links, footer contact, and schema `email` fields. If one of these addresses is unmonitored, leads sent there are lost.
@@ -33,7 +33,7 @@ Both are used in `mailto:` links, footer contact, and schema `email` fields. If 
 
 Once you tell me, I'll unify all 227 pages to that address in one commit. Options:
 
-1. **`durgesh@bqpartners.in`** — unify everything to this. (The historical default; most pages already have it.)
+1. **`durgesh@bharatquantumprospera.com`** — unify everything to this. (The historical default; most pages already have it.)
 2. **`durgesh@bharatquantumprospera.com`** — unify everything to this. (Matches the website domain; cleaner for brand coherence.)
 3. **Both, with explicit "primary"** — list both in footer but mark `bqpartners.in` as primary or vice versa.
 

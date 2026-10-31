@@ -542,7 +542,7 @@ PAGES = [
             ("What's typical WOS setup timeline for foreign parent?",
              "30-45 days end-to-end: DSC/DIN (3 days) + name reservation (2 days) + SPICe+ incorporation (10 days) + bank account (14 days) + FC-GPR filing after capital remittance (variable). Longest step: foreign document apostille (7-21 days depending on country)."),
             ("Does BQP handle complete foreign entity structuring + ongoing compliance?",
-             "Yes - 100+ foreign-WOS incorporations executed. Entity decision + apostille coordination + SPICe+ incorporation + resident director nominee + bank account + FC-GPR + ongoing annual audit + Form 3CEB TP + FLA Return + Form ODI if applicable + specific sector regulatory. Remote delivery for US / UK / EU / Singapore / UAE parents. WhatsApp +91 78018 87130."),
+             "Yes. Entity decision + apostille coordination + SPICe+ incorporation + resident director nominee + bank account + FC-GPR + ongoing annual audit + Form 3CEB TP + FLA Return + Form ODI if applicable + specific sector regulatory. Remote delivery for US / UK / EU / Singapore / UAE parents. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("branch-office-vs-liaison-vs-wos-india-foreign.html", "Related", "Branch vs Liaison vs WOS Full Comparison"),
                           ("foreign-company-setup-indian-subsidiary-wos.html", "Related", "WOS Setup")],

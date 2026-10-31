@@ -54,7 +54,7 @@ def city_page(slug, city, specialty, title_specialty, desc_specialty, keywords):
             (f"How quickly does BQP respond to {city} enquiries?",
              "Scoped quote within 48 hours of email. Urgent (Form 15CB, Section 148 response): same-day via WhatsApp +91 78018 87130. Weekly / bi-weekly status call cadence during engagement."),
             ("What are BQP's credentials?",
-             "Founder CA Durgesh Chavda is Chartered Accountant qualified under ICAI (India's statutory accounting body since 1949). Personally runs mandates. 300+ working guides at bharatquantumprospera.com. 100+ foreign-client engagements. Multi-standard competence."),
+             "Founder CA Durgesh Chavda is Chartered Accountant qualified under ICAI (India's statutory accounting body since 1949). Personally runs mandates. 300+ working guides at bharatquantumprospera.com. Multi-standard competence."),
             (f"Can BQP handle {city}-based client's local GST + state-specific registrations?",
              f"Yes - all Indian state-specific GST + Shops & Establishment + Professional Tax + state industrial incentives handled remotely. State coordination via online government portals + where physical presence required, BQP's associate CA network across Indian cities handles."),
         ],

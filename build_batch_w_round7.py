@@ -517,7 +517,7 @@ PAGES.append({
     "slug": "how-to-engage-indian-ca-remotely-from-usa-uk-step-by-step",
     "title": "How to Engage Indian CA Remotely from USA / UK Step-by-Step",
     "hero_em": "complete remote engagement guide.",
-    "lead": "Foreign company (US / UK / EU / Singapore / UAE / Australia / Canada) engaging an Indian Chartered Accountant for India services - how to do it remotely, efficiently, without a visit to India. Step-by-step from first email to final deliverable. BQP has served 100+ foreign clients through this exact remote engagement model. Here's the complete practitioner's step-by-step.",
+    "lead": "Foreign company (US / UK / EU / Singapore / UAE / Australia / Canada) engaging an Indian Chartered Accountant for India services - how to do it remotely, efficiently, without a visit to India. Step-by-step from first email to final deliverable. Here's the complete practitioner's step-by-step.",
     "kicker": "/ Remote Engagement Guide &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Step 1: Define what you need", "Clarity first.",
@@ -592,7 +592,7 @@ PAGES.append({
     ],
     "faqs": [
         ("Do I need to visit India to engage an Indian CA?",
-         "No - 100% remote engagement is standard at BQP. All services (incorporation, audit, DD, 15CB, GST, TP, FEMA, repatriation) delivered via Zoom + cloud workspace + electronic signing. Foreign clients never visit India for engagement. BQP has served 100+ foreign clients this way across US / UK / EU / Singapore / UAE / Australia / Canada / Japan."),
+         "No - 100% remote engagement is standard at BQP. All services (incorporation, audit, DD, 15CB, GST, TP, FEMA, repatriation) delivered via Zoom + cloud workspace + electronic signing. Foreign clients never visit India for engagement."),
         ("How long does the initial engagement setup take?",
          "First email to signed engagement letter: typically 5-7 business days. Email → scoping call scheduled → 30-min Zoom → scoped quote within 48 hours → review + e-sign engagement letter → workspace setup → delivery begins. Urgent matters (Form 15CB): same-day engagement possible via WhatsApp +91 78018 87130."),
         ("What's BQP's typical fee structure?",
@@ -602,14 +602,14 @@ PAGES.append({
         ("What if I need urgent India work (Form 15CB in 24 hours)?",
          "WhatsApp +91 78018 87130 for same-day urgent response. Form 15CB CA certificate standard turnaround 24-48 hours. Section 148A show-cause response, FEMA deadline, assessment representation - urgent engagement model standard. CA Durgesh Chavda personally handles urgent matters."),
         ("What's BQP's track record with foreign clients?",
-         "100+ foreign client engagements completed across US (Delaware / California / New York / Texas / Illinois), UK (London / Manchester / Edinburgh), EU (Germany / Netherlands / France / Belgium), Singapore, UAE (Dubai / Abu Dhabi), Australia (Sydney / Melbourne), Canada (Toronto / Vancouver), Japan, Mauritius, Hong Kong. 300+ working guides at bharatquantumprospera.com demonstrate practitioner depth."),
+         "Works remotely with clients in the US, UK, EU, Singapore, UAE, Australia, Canada, Japan, Mauritius and Hong Kong. 300+ working guides at bharatquantumprospera.com demonstrate practitioner depth."),
     ],
     "related_pairs": [("for-foreign-clients.html", "Related", "For Foreign Clients Hub"),
                       ("how-to-pick-indian-ca-firm-for-foreign-company-complete.html", "Related", "How to Pick Indian CA")],
     "cta_h": "US / UK / EU / Singapore / UAE company needing Indian CA?",
-    "cta_b": "Email + 30-min Zoom + 48-hour quote + e-sign + delivery. Full remote engagement model. BQP has served 100+ foreign clients this way.",
+    "cta_b": "Email + 30-min Zoom + 48-hour quote + e-sign + delivery. Full remote engagement model.",
     "keywords": "how to engage Indian CA from USA UK, remote Indian CA engagement foreign company, Indian CA for US company remote, hire Indian CA from abroad",
-    "desc": "How to engage Indian CA remotely from USA / UK / EU / Singapore / UAE step-by-step: define need, email outreach, 48-hour quote, 30-min scoping call, e-sign engagement letter, workspace setup, weekly delivery cadence, final sign-off. BQP has served 100+ foreign clients remotely. CA Durgesh Chavda complete guide.",
+    "desc": "How to engage Indian CA remotely from USA / UK / EU / Singapore / UAE step-by-step: define need, email outreach, 48-hour quote, 30-min scoping call, e-sign engagement letter, workspace setup, weekly delivery cadence, final sign-off. Engagements run fully remotely. CA Durgesh Chavda complete guide.",
 })
 
 # Build all pages

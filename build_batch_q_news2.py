@@ -444,7 +444,7 @@ def city_page(slug, city, specialty, title_specialty, desc_specialty, keywords):
             (f"How does BQP compare to local {city} CA firms?",
              f"For specialist cross-border / strategic advisory ({desc_specialty.lower()}): BQP's specialisation depth typically exceeds general-purpose local firms. For plain compliance (ITR, GST monthly, standard ROC): local firm may be sufficient. BQP + local firm combination also workable - local for compliance + BQP for specialist advisory."),
             ("What are BQP's credentials?",
-             "Founder CA Durgesh Chavda holds Chartered Accountant qualification under ICAI (India's statutory accounting body established 1949). Personally runs all mandates. Firm authored 300+ working guides at bharatquantumprospera.com demonstrating practitioner depth. 100+ foreign-client engagements. Multi-standard competence (US GAAP + IFRS + Ind AS + UK FRS)."),
+             "Founder CA Durgesh Chavda holds Chartered Accountant qualification under ICAI (India's statutory accounting body established 1949). Personally runs all mandates. Firm authored 300+ working guides at bharatquantumprospera.com demonstrating practitioner depth. Multi-standard competence (US GAAP + IFRS + Ind AS + UK FRS)."),
             (f"How quickly does BQP respond for {city} enquiries?",
              "Scoped quote within 48 hours of email. Urgent matters (Form 15CB CA certificate, Section 148 response, FEMA deadline) handled same-day on WhatsApp +91 78018 87130. Standard delivery timelines in engagement letter."),
         ],

@@ -379,7 +379,7 @@ PAGES = [
         "slug": "how-to-pick-indian-ca-firm-for-foreign-company-complete",
         "title": "How to Pick Indian CA Firm for Foreign Company | Complete Guide",
         "hero_em": "7 practical criteria for right-fit selection.",
-        "lead": "Foreign company entering India (or needing India work done remotely) faces 100,000+ Indian CA firms. How to pick? Not by Google rank, not by brand name alone. 7 practical criteria distinguish right-fit firms from the rest. Based on BQP's experience serving 100+ foreign clients across US / UK / EU / Singapore / UAE / Australia. Here's the complete picking framework.",
+        "lead": "Foreign company entering India (or needing India work done remotely) faces 100,000+ Indian CA firms. How to pick? Not by Google rank, not by brand name alone. 7 practical criteria distinguish right-fit firms from the rest. Here's the complete picking framework.",
         "kicker": "/ CA Firm Picking Framework &middot; Updated 2026-10-22",
         "sections_pairs": [
             ("/ Criterion 1: ICAI-qualified CA partner", "Non-negotiable.",

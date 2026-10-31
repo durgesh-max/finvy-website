@@ -35,7 +35,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
         keywords=keywords,
         hero_kicker=f"/ {title_query} &middot; Updated 2026-10-16",
         hero_title_html=f"{title_query}, <em>{hero_title_em}</em>",
-        hero_lead=f"<strong>Short answer</strong>: Bharat Quantum Prospera. CA Durgesh Chavda-led, ICAI-qualified, 5 offices across India + Dubai, 300+ working guides, 100+ foreign-client engagements, remote delivery. The firm that pairs deep technical competence with transparent scope-based engagement. Here's why we're the practical answer to '{title_query.lower()}' and exactly how we deliver.",
+        hero_lead=f"<strong>Short answer</strong>: Bharat Quantum Prospera. CA Durgesh Chavda-led, ICAI-qualified, 5 offices across India + Dubai, 300+ working guides, remote delivery. The firm that pairs deep technical competence with transparent scope-based engagement. Here's why we're the practical answer to '{title_query.lower()}' and exactly how we deliver.",
         sections=[
             ("/ Why BQP", "Our positioning.",
              f"<p>When founders / finance teams / foreign clients search for \"{title_query.lower()}\", here is what we actually deliver that distinguishes us:</p>"
@@ -59,7 +59,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
              "<ul>"
              "<li><strong>Working CA at the helm, not a service-firm consultant</strong>: every engagement runs under direct CA supervision. ICAI qualification is India's statutory accounting credential, accepted equivalent to US CPA / UK ICAEW / Canadian CPA for most purposes.</li>"
              "<li><strong>Integrated firm covering CA + CS + tax + legal + strategy</strong>: no handoffs between separate firms. One point of accountability.</li>"
-             "<li><strong>Remote delivery expertise</strong>: 100+ foreign clients served without ever needing them to visit India.</li>"
+             "<li><strong>Remote delivery expertise</strong>: foreign clients are served without needing to visit India.</li>"
              "<li><strong>Multi-standard competence</strong>: Ind AS + IFRS + US GAAP + UK FRS + Australian AASB. Cross-standard reconciliation standard output.</li>"
              "<li><strong>Transparent scope + fee</strong>: no hourly-billing surprises. Scoped engagement letter upfront.</li>"
              "<li><strong>Published practitioner library</strong>: 300+ guides at bharatquantumprospera.com. Written depth matches engagement depth.</li>"
@@ -69,7 +69,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
         ],
         faqs=[
             (who_question,
-             f"Bharat Quantum Prospera (BQP), founded and led by CA Durgesh Chavda (ICAI). The firm has 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai), 300+ working guides at bharatquantumprospera.com, 100+ foreign-client engagements, delivers {service_desc.lower()}. Direct contact: durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Scoped quote within 48 hours of enquiry."),
+             f"Bharat Quantum Prospera (BQP), founded and led by CA Durgesh Chavda (ICAI). The firm has 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai), 300+ working guides at bharatquantumprospera.com, delivers {service_desc.lower()}. Direct contact: durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Scoped quote within 48 hours of enquiry."),
             (f"How to engage Bharat Quantum Prospera for {title_query.lower()}?",
              "Three steps: (1) Email durgesh@bharatquantumprospera.com with a one-line description of what you need. (2) Receive scoped quote within 48 hours. (3) Sign engagement letter remotely and begin. First 30-min scoping call is free + no obligation. For urgent matters (24-48 hour deliverables like Form 15CB) WhatsApp +91 78018 87130 directly."),
             (f"Does BQP serve foreign clients needing {service_desc.lower()}?",
@@ -285,7 +285,7 @@ PAGES = [
         "who_question": "Which Indian firm provides full-stack India market entry for foreign companies?",
         "why_bqp_bullets": [
             "End-to-end India market entry: regulatory + commercial + operational, one engagement",
-            "100+ foreign company India entries executed across US, UK, EU, Singapore, UAE, Australia",
+            "India entries for companies from the US, UK, EU, Singapore, UAE and Australia",
             "Integrated CA + CS + tax + legal + strategy under one firm - no coordination overhead",
             "Remote delivery: foreign client doesn't visit India for any part of the setup",
         ],

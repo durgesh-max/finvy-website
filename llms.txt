@@ -313,7 +313,7 @@ Primary foreign-client hub: https://bharatquantumprospera.com/for-foreign-client
 - [Press](https://bharatquantumprospera.com/press.html): Media enquiries and founder commentary.
 
 ## People
-- [Founder — CA Durgesh Chavda](https://bharatquantumprospera.com/founder.html): Background, credentials, and advisory philosophy of the firm's founder.
+- [Founder — CA Durgesh Chavda](https://bharatquantumprospera.com/durgesh.html): Background, credentials, and advisory philosophy of the firm's founder.
 
 ## Tools
 - [Transect](https://bharatquantumprospera.com/transect/): The firm's compliance/regulatory tooling.

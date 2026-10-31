@@ -67,7 +67,7 @@ app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "Exp
        "url": f"{DOMAIN}/{SLUG}.html", "applicationCategory": "FinanceApplication", "operatingSystem": "Any",
        "description": "Deadline to receive export proceeds and to file the EDF for services under the FEMA (Export and Import of Goods and Services) Regulations, 2026.",
        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-       "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/founder.html"},
+       "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/durgesh.html"},
        "publisher": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN}}
 
 BLOCK = (f"<style>{CALC_CSS}</style>"

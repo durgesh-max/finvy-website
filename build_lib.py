@@ -154,7 +154,7 @@ def article_schema(slug, title, desc):
         "author": {
             "@type": "Person",
             "name": "CA Durgesh Chavda",
-            "url": f"{DOMAIN}/founder.html",
+            "url": f"{DOMAIN}/durgesh.html",
             "jobTitle": "Founder & Managing Partner, Bharat Quantum Prospera",
             "hasCredential": [{
                 "@type": "EducationalOccupationalCredential",

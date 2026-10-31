@@ -37,7 +37,7 @@ def calc_block(slug, name, desc, inputs_html, main_id, main_label, rows, js):
     app = {"@context": "https://schema.org", "@type": "WebApplication", "name": name, "url": f"{DOMAIN}/{slug}.html",
            "applicationCategory": "FinanceApplication", "operatingSystem": "Any", "description": desc,
            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
-           "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/founder.html"},
+           "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/durgesh.html"},
            "publisher": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN}}
     return (f"<style>{CALC_CSS}</style>"
             f'<script type="application/ld+json">{json.dumps(app, separators=(",", ":"), ensure_ascii=False)}</script>'

@@ -142,7 +142,7 @@ PAGES = [
             ("Who files with HMRC?", "Your practice reviews and files as the agent; we prepare the work."),
             ("How is pricing set?", "Fixed scope, agreed per engagement after a sample. " + CONTACT),
         ],
-        related=[("uk-accountants-outsourcing-to-india-gdpr-idta-checklist.html", "UK GDPR outsourcing checklist"), ("indian-ca-for-clients-in-uk.html", "Indian CA for clients in the UK")],
+        related=[("uk-accountants-outsourcing-to-india-gdpr-idta-checklist.html", "UK GDPR outsourcing checklist"), ("mtd-income-tax-quarterly-update-7-november-2026-deadlines-uk-practices.html", "MTD for Income Tax 2026-27 deadlines"), ("indian-ca-for-clients-in-uk.html", "Indian CA for clients in the UK")],
         cta_h="Need capacity for MTD and year-ends?", cta_b=CONTACT,
         keywords="outsourced bookkeeping for UK accountants, outsource accounting to India UK, offshore accounting UK practices, MTD for income tax outsourcing, outsourced year end accounts UK, white label accounting UK",
         desc="Outsourced bookkeeping, VAT and MTD work, year-end accounts and CT600/SA100 preparation for UK accountancy practices from an Indian CA firm, in Xero, QuickBooks or Sage, with UK GDPR transfer safeguards (Article 28 contract, IDTA or Addendum).",

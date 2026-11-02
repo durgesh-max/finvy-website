@@ -140,7 +140,7 @@ PAGES = [
             ("What's Section 7874 US inversion risk?",
              "If Indian shareholders own 80%+ of future US C-Corp: US treats C-Corp as 'surrogate foreign corporation' + specific US tax consequences (inversion). 60-80%: limited US tax impact. Below 60%: no inversion. Must plan ownership mix in F-reorganisation."),
             ("Does QSBS Section 1202 holding period continue?",
-             "Yes - F-reorganisation specifically preserves 10-year QSBS holding period. Original acquisition date carries over. Material for founders + early employees planning Section 1202 100% exclusion exit (up to USD 10M per shareholder OR 10x basis)."),
+             "Yes - F-reorganisation specifically preserves 10-year QSBS holding period. Original acquisition date carries over. Material for founders + early employees planning Section 1202 100% exclusion exit (up to USD 15M per shareholder for stock issued after 4 July 2025, USD 10M before, OR 10x basis)."),
             ("Does BQP handle F-reorganisation + VC-funding readiness?",
              "Yes - 50+ F-reorganisations executed. US tax + Indian tax + FEMA ODI + specific VC term sheet readiness + QSBS planning + Section 7874 ownership structuring + Delaware legal coordination. Co-ordinated with US counsel (Cooley / WSGR / Fenwick / Latham / Perkins Coie) + Delaware agents. WhatsApp +91 78018 87130."),
         ],

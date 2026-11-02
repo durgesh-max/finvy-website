@@ -4,7 +4,7 @@ from build_lib import page, write_page
 
 CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 LEAD = "CA Durgesh Chavda, Bharat Quantum Prospera"
-UPDATED = "1 November 2026"
+UPDATED = "2 November 2026"
 SLUG = "india-tax-nri-cross-border-news-november-2026"
 
 
@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("7 Nov 2026", "UK: second MTD for Income Tax quarterly update due",
+     "Sole traders and landlords in the first Making Tax Digital for Income Tax cohort send their update for 6 July to 5 October 2026 by 7 November. No penalty points for late quarterly updates in 2026-27, but returns and payments are still penalised.",
+     "mtd-income-tax-quarterly-update-7-november-2026-deadlines-uk-practices.html",
+     ("Xero", "https://www.xero.com/uk/guides/mtd-for-income-tax-penalties/")),
     ("1 Nov 2026", "GST: post-supply discounts, faster inverted-duty refunds, no INR 1,000 export refund floor",
      "Notification 03/2026-Central Tax (26 October 2026) brings Sections 153 to 155 of the Finance Act, 2026 into force from today. Discounts given after a supply can be adjusted through a credit note (Sections 15(3)(b) and 34(1)), 90% of inverted-duty refund claims can be paid provisionally (Section 54(6)), and the INR 1,000 minimum no longer applies to refunds on goods exported with payment of tax.",
      "gst-changes-from-1-november-2026-57th-gst-council-cbic-circulars.html",
@@ -28,6 +32,7 @@ sections = [
     ("/ This month's changes", "Newest first.", "<ul>" + news_rows + "</ul>"),
     ("/ Deadlines this month and next", "Put these in the calendar.",
      ul("4 November 2026: comments to SEBI on the SME IPO consultation paper.",
+        "7 November 2026 (UK): second MTD for Income Tax quarterly update.",
         "15 November 2026: TDS certificates (Form 131) for July-September 2026.",
         "21 November 2026: ITR for audit cases, AY 2026-27.",
         "29 November 2026: MGT-7/MGT-7A annual return (additional fee waived until 31 January 2027).",

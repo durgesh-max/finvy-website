@@ -20,6 +20,13 @@ TABLE = ("<table><thead><tr><th>Return (calendar-year filers)</th><th>Due</th><t
 sections = [
     ("/ The 2027 filing-season dates", "Calendar-year returns for tax year 2026.",
      TABLE + "<p>An extension extends the time to file, not to pay. Fiscal-year entities follow their own dates.</p>"),
+    ("/ 1099 changes for 2026 payments", "What clients need to know before January.",
+     ul("Forms 1099-NEC and 1099-MISC: the reporting threshold rises from USD 600 to USD 2,000 for payments made from 1 January 2026 (One Big Beautiful Bill Act), with inflation adjustments from 2027. Some 1099-MISC boxes keep their own thresholds.",
+        "Form 1099-K: the threshold for payment apps and marketplaces returns to USD 20,000 and 200 transactions.",
+        "Income is still taxable when no 1099 is issued; contractors must report it.",
+        "Collect Forms W-9 now so January preparation is not held up.") +
+     '<p><strong>Sources:</strong> <a href="https://cpapracticeadvisor.com/2025/07/30/one-big-beautiful-bill-act-changes-1099-thresholds/165863/" rel="nofollow noopener" target="_blank">CPA Practice Advisor</a>; '
+     '<a href="https://www.patriotsoftware.com/blog/accounting/1099-reporting-threshold/" rel="nofollow noopener" target="_blank">Patriot Software</a>.</p>'),
     ("/ When to line up outsourced help", "Work back from the deadlines.",
      "<ol><li><strong>November to December 2026</strong>: choose the provider, sign the confidentiality agreement, add the third-party provider clause to engagement letters, add the Section 7216 offshore consent to organizers, update the written information security plan, set up remote access and test with sample returns.</li>"
      "<li><strong>January 2027</strong>: W-2 and 1099 preparation, year-end bookkeeping clean-up and reconciliations.</li>"
@@ -35,13 +42,14 @@ sections = [
      '<p>See <a href="outsourced-tax-preparation-accounting-for-us-cpa-firms-india.html">how outsourcing works for US CPA firms</a> and the <a href="us-cpa-firm-outsource-tax-returns-india-section-7216-consent-checklist.html">Section 7216 consent checklist</a>.</p>'
      '<p><strong>Sources:</strong> <a href="https://www.irs.gov/publications/p509" rel="nofollow noopener" target="_blank">IRS Publication 509, Tax Calendars</a>; '
      '<a href="https://www.fincen.gov/report-foreign-bank-and-financial-accounts" rel="nofollow noopener" target="_blank">FinCEN: FBAR</a>.</p>'
-     "<p><em>Last updated: 1 November 2026. Check IRS announcements for disaster-area relief and any changes to these dates.</em></p>"),
+     "<p><em>Last updated: 2 November 2026. Check IRS announcements for disaster-area relief and any changes to these dates.</em></p>"),
 ]
 
 faqs = [
     ("When are 2026 partnership and S corporation returns due?", "Calendar-year Forms 1065 and 1120-S are due on 15 March 2027, or 15 September 2027 with a Form 7004 extension."),
     ("When are 2026 individual returns due?", "Form 1040 is due on 15 April 2027, or 15 October 2027 with Form 4868. Tax is still due by 15 April."),
     ("When are 1099-NEC forms due for 2026?", "1 February 2027, because 31 January 2027 falls on a Sunday."),
+    ("What is the 1099-NEC threshold for 2026?", "USD 2,000 for payments made from 1 January 2026, up from USD 600, under the One Big Beautiful Bill Act."),
     ("When should a CPA firm set up outsourcing for busy season?", "In November or December, so that consents, engagement letters, the security plan and system access are ready before January."),
     ("Can BQP add capacity for the 2027 season?", "Yes: return preparation, bookkeeping and 1099s inside your systems, for your review. " + CONTACT),
 ]
@@ -49,8 +57,8 @@ faqs = [
 html = page(slug=SLUG,
             title="US Tax Season 2027 Deadlines for CPA Firms, and When to Line Up Outsourced Help",
             description="2027 filing-season deadlines for tax year 2026: 1099-NEC/W-2 1 February, 1065/1120-S 15 March, 1040/1120/FBAR 15 April, extensions 15 September and 15 October. A November-to-April timeline for setting up outsourced tax preparation.",
-            keywords="tax season 2027 deadlines, 1065 due date 2027, 1120-S due date March 15 2027, 1040 due date April 15 2027, 1099-NEC due date 2027, CPA firm busy season outsourcing, seasonal tax preparer outsourcing",
-            hero_kicker="/ US CPA Firms &middot; Busy Season &middot; Updated 2026-11-01",
+            keywords="1099-NEC threshold 2026 2000, tax season 2027 deadlines, 1065 due date 2027, 1120-S due date March 15 2027, 1040 due date April 15 2027, 1099-NEC due date 2027, CPA firm busy season outsourcing, seasonal tax preparer outsourcing",
+            hero_kicker="/ US CPA Firms &middot; Busy Season &middot; Updated 2026-11-02",
             hero_title_html="US Tax Season 2027 Deadlines for CPA Firms, <em>and when to line up help.</em>",
             hero_lead="For tax year 2026, W-2s and 1099-NECs are due on 1 February 2027, partnership and S corporation returns on 15 March, and individual and C corporation returns and FBARs on 15 April, with extensions to 15 September and 15 October. Firms that want outsourced capacity should set it up in November and December, before the season starts.",
             sections=sections, faqs=faqs,

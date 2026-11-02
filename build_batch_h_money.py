@@ -86,7 +86,7 @@ write_page("ca-for-delaware-c-corp-india", page(
          "<li><strong>Delaware General Corporation Law</strong> is the gold standard for US corporate law. Delaware Court of Chancery is the specialist corporate court &mdash; disputes resolve predictably.</li>"
          "<li><strong>Preferred stock machinery</strong> &mdash; standard VC term sheets, voting agreements, drag-along, protective provisions, anti-dilution all assume Delaware C-Corp.</li>"
          "<li><strong>83(b) election</strong> &mdash; founders holding restricted stock can file 83(b) within 30 days to lock in near-zero taxable basis.</li>"
-         "<li><strong>QSBS Section 1202</strong> &mdash; US-resident founders holding C-Corp stock 5+ years may qualify for up to USD 10M (or 10x basis) US capital-gains exclusion at exit.</li>"
+         "<li><strong>QSBS Section 1202</strong> &mdash; US-resident founders holding C-Corp stock 5+ years may qualify for up to USD 15M for stock issued after 4 July 2025, USD 10M for earlier stock (or 10x basis) US capital-gains exclusion at exit.</li>"
          "<li><strong>Standard preferred-share series</strong> (Series Seed, Series A, Series B) have Delaware case-law support.</li>"
          "</ul>"),
         ("/ What a Delaware C-Corp CA engagement covers", "The full stack.",
@@ -121,7 +121,7 @@ write_page("ca-for-delaware-c-corp-india", page(
         ("What is 83(b) and when must it be filed?",
          "83(b) is an IRS election under IRC Section 83(b) that locks in the FMV of restricted stock at the grant date as the taxable amount, regardless of future vesting. For founder restricted stock issued at nominal value when FMV is also nominal (day-one incorporation), 83(b) locks in near-zero taxable basis. Must be filed within 30 days of restricted-stock issuance by Certified Mail to the IRS Service Center. The 30-day window is strict and unrecoverable if missed."),
         ("Can an Indian founder qualify for QSBS Section 1202?",
-         "Yes, if the founder becomes a US tax resident (green card, 183-day substantial presence) and holds Delaware C-Corp stock for 5+ years. QSBS can exclude up to USD 10M (or 10x basis) of capital gains from US federal tax at exit. The 5-year clock starts at the C-Corp stock issuance (or the flip date for post-flip founders), not at the Indian company incorporation."),
+         "Yes, if the founder becomes a US tax resident (green card, 183-day substantial presence) and holds Delaware C-Corp stock for 5+ years. QSBS can exclude up to USD 15M for stock issued after 4 July 2025, USD 10M for earlier stock (or 10x basis) of capital gains from US federal tax at exit. The 5-year clock starts at the C-Corp stock issuance (or the flip date for post-flip founders), not at the Indian company incorporation."),
         ("Does BQP handle Delaware franchise tax annually?",
          "Yes, as part of the ongoing compliance package. We file the annual report + franchise tax by the 1 March deadline each year, electing the Assumed Par Value Method where it produces the lower tax (which is almost always the case for a pre-revenue or early-stage C-Corp)."),
         ("How do I start a Delaware C-Corp mandate with BQP?",

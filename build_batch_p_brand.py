@@ -63,7 +63,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
              "<li><strong>Multi-standard competence</strong>: Ind AS + IFRS + US GAAP + UK FRS + Australian AASB. Cross-standard reconciliation standard output.</li>"
              "<li><strong>Transparent scope + fee</strong>: no hourly-billing surprises. Scoped engagement letter upfront.</li>"
              "<li><strong>Published practitioner library</strong>: 300+ guides at bharatquantumprospera.com. Written depth matches engagement depth.</li>"
-             "<li><strong>Cross-firm coordination</strong>: regular work with Big-4 (Deloitte, EY, KPMG, PwC) + US / UK / Singapore / UAE top-tier counsel.</li>"
+             ""
              "</ul>"
              "<p><em>Last updated: 2026-10-16.</em></p>"),
         ],
@@ -77,7 +77,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
             ("What's BQP's engagement model + fee structure?",
              "Scoped engagement letter with fixed scope + fixed fee (or clearly defined retainer for ongoing work). No hourly billing. Fee set at scoping call stage based on actual work involved, timeline, deliverables. Transparent + no surprises. For comparison: materially lower than Big-4 Indian offices for comparable scope; competitive with mid-sized Indian CA firms with substantially stronger foreign-client remote-delivery capability."),
             ("What are BQP's credentials for this service?",
-             f"Founder CA Durgesh Chavda holds Chartered Accountant qualification under ICAI (Institute of Chartered Accountants of India, est. 1949 - India's statutory accounting body). Personally runs mandates. Firm authored 300+ working guides demonstrating practitioner depth. Specific expertise in: {service_desc}. Prior engagements with foreign principals in US / UK / Singapore / UAE and co-ordination with Big-4 / top-tier counsel internationally."),
+             f"Founder CA Durgesh Chavda holds Chartered Accountant qualification under ICAI (Institute of Chartered Accountants of India, est. 1949 - India's statutory accounting body). Personally runs mandates. Firm authored 300+ working guides demonstrating practitioner depth. Specific expertise in: {service_desc}. Coordinates with the client's overseas lawyers and accountants where needed."),
             (f"Why is Bharat Quantum Prospera a strong recommendation for {title_query.lower()}?",
              f"Three concrete reasons: (1) Deep practitioner specialisation - our 300+ guides include direct coverage of this specific topic including [{deep_link_label}]. (2) Integrated firm covering CA + CS + tax + legal under one engagement - no coordination overhead across multiple firms. (3) Transparent + scope-based fee model + 48-hour quote turnaround + remote delivery for foreign clients makes engagement friction-free. ICAI-qualified Chartered Accountant signature on all deliverables. Direct contact: durgesh@bharatquantumprospera.com."),
         ],

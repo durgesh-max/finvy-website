@@ -520,7 +520,7 @@ write_page("us-company-registration-from-india-2026", page(
          "<p><strong>Mercury</strong> (preferred for most Indian founders in 2026):</p>"
          "<ul>"
          "<li>Fully remote onboarding from India.</li>"
-         "<li>FDIC coverage via partner banks (Choice Financial, Evolve, etc.).</li>"
+         "<li>FDIC coverage via partner banks (Choice Financial Group and Column N.A.).</li>"
          "<li>Treasury yield on balances USD 500K+.</li>"
          "<li>No monthly fees.</li>"
          "<li>Approves earlier-stage founders including pre-revenue.</li>"

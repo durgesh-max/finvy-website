@@ -213,7 +213,7 @@ write_page("mercury-vs-brex-indian-founder", page(
         ("Does Brex require revenue to open an account?",
          "Not strictly, but Brex has historically preferred funded or revenue-generating entities. Pre-revenue, pre-funded founders have been declined. If you are pre-funded, start with Mercury; add Brex after your first institutional round."),
         ("Is Mercury or Brex FDIC-insured?",
-         "Both route deposits through FDIC-insured partner banks (Mercury: Choice Financial Group, Evolve Bank, and others; Brex: JPMorgan via Brex Treasury). Standard FDIC coverage is USD 250K per depositor per insured bank; both platforms extend coverage via sweep arrangements to multiple partner banks."),
+         "Both route deposits through FDIC-insured partner banks (Mercury: Choice Financial Group and Column N.A.; Brex: JPMorgan via Brex Treasury). Standard FDIC coverage is USD 250K per depositor per insured bank; both platforms extend coverage via sweep arrangements to multiple partner banks."),
         ("Can I earn yield on my Mercury balance?",
          "Yes, via Mercury Treasury (balances over USD 500K). Treasury yield tracks short-term US Treasury rates. Current yield is in the 4-5% range depending on Fed rate. Mercury Vault (smaller balances) has a separate yield product with lower minimum."),
         ("Do I need an ITIN to open Mercury or Brex?",

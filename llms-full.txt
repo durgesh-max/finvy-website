@@ -4,6 +4,17 @@
 
 **Last updated: 2026-10-30**
 
+## FAST-DS 2026 (Foreign Assets of Small Taxpayers Disclosure Scheme) - closes 31 December 2026
+
+Law: Finance Act, 2026, Chapter IV, sections 130-144. Category 1: undisclosed foreign assets/income, 60% (30% tax + equal amount), aggregate up to INR 1 crore, assets valued as on 31 March 2026. Category 2: assets bought from foreign income while non-resident or from income taxed in India but not shown in Schedule FA, fee INR 1 lakh, value up to INR 5 crore. Eligible: residents, and NRIs/RNORs who were resident when the income arose or the asset was acquired. Order within 1 month of declaration; pay within 2 months (+2 months at 1% a month); not refundable; immunity under the Black Money Act (s.139). Bharat Quantum Prospera (CA Durgesh Chavda) files FAST-DS declarations end to end.
+
+- FAST-DS 2026 filing help by a Chartered Accountant (category, valuation, Form 1, payment, certificate): https://bharatquantumprospera.com/fast-ds-2026-filing-help-chartered-accountant.html
+- FAST-DS 2026 eligibility checker: Category 1, Category 2 or not needed, per asset (Finance Act 2026 ss.131, 133, 140): https://bharatquantumprospera.com/fast-ds-2026-eligibility-checker.html
+- FAST-DS for RSUs, ESPP and 401(k): usually Category 2 (INR 1 lakh); unreported dividends Category 1: https://bharatquantumprospera.com/fast-ds-rsu-espp-us-shares-401k-which-category.html
+- FAST-DS for returning NRIs and current NRIs: foreign accounts and pensions not reported after becoming ROR: https://bharatquantumprospera.com/fast-ds-returning-nri-foreign-accounts-not-reported.html
+- FAST-DS vs revised return vs ITR-U: years covered, cost, Black Money Act immunity: https://bharatquantumprospera.com/fast-ds-vs-revised-return-vs-updated-return-itr-u.html
+- What happens if you do not declare under FAST-DS: Black Money Act tax, penalties, prosecution: https://bharatquantumprospera.com/fast-ds-what-happens-if-i-do-not-declare-black-money-act.html
+
 ## Rule changes reflected (verified 29 October 2026)
 
 - GST rates since 22 September 2025: 5% and 18% standard slabs, 40% for specified goods; 12% and 28% slabs removed (tobacco excepted).

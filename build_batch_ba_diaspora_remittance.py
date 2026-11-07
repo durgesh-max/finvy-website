@@ -327,7 +327,13 @@ PAGES.append(dict(
     desc="Free checker for Indians in the UK, US, Canada, Australia and Europe: forms, limits (NRO USD 1 million, LRS USD 250,000), TCS from 1 April 2026, gift tax rules and country-side reporting for sending money to or from India.",
     howto=None))
 
+ALSO_READ = ("/ Also read", "Property, inheritance and study abroad.", ul(
+    '<a href="sell-property-in-india-living-in-uk-usa-canada-australia-tax-both-countries-2026.html">Selling Indian property while living abroad</a>: tax in both countries and moving the money.',
+    '<a href="inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html">Inheriting money or property from India</a>: no Indian inheritance tax, Form 3520, repatriation.',
+    '<a href="parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html">Parents paying for study abroad</a>: LRS and TCS of nil, 2% or 20%.',
+    '<a href="nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html">28 questions answered</a> about moving money to and from India.'))
 for p in PAGES:
+    p["sections"] = p["sections"] + [ALSO_READ]
     html = page(slug=p["slug"], title=p["title"], description=p["desc"], keywords=p["keywords"],
                 hero_kicker=p["kicker"], hero_title_html=f'{p["title"]}, <em>{p["em"]}</em>',
                 hero_lead=p["lead"], sections=p["sections"], faqs=p["faqs"],

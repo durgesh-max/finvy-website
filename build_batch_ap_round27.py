@@ -36,7 +36,7 @@ PAGES = [
              "<tr><td>You hold nothing abroad, or the AIS entry is wrong</td><td>Give feedback on the AIS entry; do not file anything just to be safe</td></tr>"
              "<tr><td>Asset bought while non-resident or from taxed income, but missing from Schedule FA</td><td>FAST-DS Category 2: flat INR 1 lakh fee (assets up to INR 5 crore)</td></tr>"
              "<tr><td>Foreign income or assets never taxed in India</td><td>FAST-DS Category 1: 60% of the value (up to INR 1 crore in aggregate)</td></tr>"
-             "<tr><td>Error only in the AY 2026-27 return</td><td>A revised return before 31 December 2026 may be simpler</td></tr></tbody></table>"
+             "<tr><td>Error only in the AY 2026-27 return</td><td>A revised return (free until 31 December 2026, with a fee until 31 March 2027) may be simpler</td></tr></tbody></table>"
              "<p>Foreign assets (other than immovable property) with an aggregate value up to INR 20 lakh fall below the Black Money Act penalty threshold for non-reporting; check your exposure before paying anything.</p>"),
             ("/ How FAST-DS filing works", "Four forms.",
              ul("<strong>Form 1</strong>: your declaration, filed on the e-filing portal by 31 December 2026. One form can cover several assets.",

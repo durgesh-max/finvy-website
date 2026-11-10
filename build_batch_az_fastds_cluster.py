@@ -183,7 +183,7 @@ PAGES.append(dict(
                + cta_box("Holding RSUs, ESPP or a 401(k)?")),
               ("/ Before you file", "Check these first.",
                ul("Your residential status for each year: the foreign-assets schedule is required in years you are resident and ordinarily resident, not in RNOR years.",
-                  "Whether the dividends and gains were reported; for 2025-26, a revised return by 31 December 2026 can fix the return itself.",
+                  "Whether the dividends and gains were reported; for 2025-26, a revised return (free until 31 December 2026, or with a fee until 31 March 2027) can fix the return itself.",
                   "Whether the total of Category 2 assets is within INR 5 crore, and any Category 1 items within INR 1 crore.") + SRC_LAW)],
     faqs=[("Do RSUs need FAST-DS?", "If the RSU shares were taxed through Indian payroll but never shown in the foreign-assets schedule, they usually fall under Category 2: a fee of INR 1 lakh, if the value is INR 5 crore or less."),
           ("Is a US 401(k) covered by FAST-DS?", "A 401(k) built while you were non-resident and not reported after you became resident and ordinarily resident usually falls in Category 2 (asset bought from foreign income earned while non-resident)."),

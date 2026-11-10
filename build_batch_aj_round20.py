@@ -221,7 +221,7 @@ CALCS = [
              ("/ The rules", "FY 2025-26 returns (1961 Act).",
               ul("<strong>Late fee, Section 234F</strong>: INR 5,000; INR 1,000 if total income is INR 5 lakh or less.",
                  "<strong>Interest, Section 234A</strong>: 1% for every month or part of a month from the day after the due date until filing, on tax unpaid, rounded down to the nearest INR 100.",
-                 "<strong>Last date</strong>: 31 December 2026 for belated and revised returns.",
+                 "<strong>Last date</strong>: 31 December 2026 for belated returns; revised returns until 31 March 2027 (fee after 31 December 2026).",
                  "<strong>Losses</strong>: business and capital losses cannot be carried forward from a belated return.",
                  "<strong>After 31 December</strong>: only an updated return (ITR-U) with 25% to 70% additional tax, and no refunds.")),
              ("/ Next step", "File, or let us file.",

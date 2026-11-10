@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("10 Nov 2026", "Income tax: revised returns for FY 2025-26 can be filed until 31 March 2027",
+     "The Finance Act, 2026 extended the Section 139(5) window from nine to twelve months. Revising until 31 December 2026 stays free; a revision from 1 January to 31 March 2027 attracts a fee under section 234-I of INR 1,000 or INR 5,000 depending on total income. Belated returns are still due by 31 December 2026.",
+     "revised-itr-section-139-5-deadline-31-december-2026-india.html",
+     ("LiveLaw", "https://www.livelawbiz.com/top-stories/budget-2026-proposes-12-month-window-from-assessment-year-end-to-file-revised-income-tax-returns-521417")),
     ("7 Nov 2026", "UK: second MTD for Income Tax quarterly update due",
      "Sole traders and landlords in the first Making Tax Digital for Income Tax cohort send their update for 6 July to 5 October 2026 by 7 November. No penalty points for late quarterly updates in 2026-27, but returns and payments are still penalised.",
      "mtd-income-tax-quarterly-update-7-november-2026-deadlines-uk-practices.html",

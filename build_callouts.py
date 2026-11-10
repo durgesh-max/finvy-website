@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "fprop": ("Own a house or flat abroad?", 'Property gets no small-asset relief under the Black Money Act; if it is not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html">property abroad and FAST-DS</a>.'),
     "ussec": ("Getting US Social Security in India?", 'It is taxable only in the US under Article 20(2) of the treaty; show it as exempt in your return: <a href="us-social-security-taxable-in-india-dtaa-article-20-returning-nri.html">US Social Security and Indian tax</a>.'),
     "usstk": ("Bought US stocks through an app?", f'If they are not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="us-stocks-bought-from-india-not-in-schedule-fa-fast-ds-vested-indmoney.html">US stocks and Schedule FA</a>.'),
     "fdpay": ("Filed Form 1?", f'Work out when Form 2 is due, the last date to pay and the 1% interest, and how ITNS 289, Form 3 and Form 4 work: <a href="{PAY}">FAST-DS payment calculator and steps</a>.'),
@@ -26,13 +27,13 @@ TARGETS = {
     "what-is-form-w-8ben.html": ["usstk"],
     "how-to-buy-us-stocks-from-india-2026.html": ["usstk"],
     "fast-ds-2026-filing-help-chartered-accountant.html": ["fdpay", "fins"],
-    "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["fdpay"],
-    "fast-ds-2026-calculator-foreign-asset-disclosure-cost.html": ["fdpay"],
+    "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["fprop", "fdpay"],
+    "fast-ds-2026-calculator-foreign-asset-disclosure-cost.html": ["fprop", "fdpay"],
     "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["fdpay"],
-    "fast-ds-2026-eligibility-checker.html": ["usstk", "fdpay", "fins"],
-    "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["fdpay"],
+    "fast-ds-2026-eligibility-checker.html": ["fprop", "usstk", "fdpay", "fins"],
+    "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["fprop", "fdpay"],
     "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],
-    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["fdpay", "f40", "fins"],
+    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["fprop", "fdpay", "f40", "fins"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins"],
     "residential-status-calculator-india-nri-rnor-section-6.html": ["ussec", "f40"],
     "lrs-tcs-calculator.html": ["usstk", "tcsref"],

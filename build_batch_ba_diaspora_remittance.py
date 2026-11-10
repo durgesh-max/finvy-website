@@ -201,11 +201,11 @@ PAGES.append(dict(
           "Assets built from income earned while you were non-resident and not reported fall in Category 2 of FAST-DS 2026: a flat fee of INR 1 lakh if the value is INR 5 crore or less. Interest or dividends actually earned in resident years and not offered to tax are Category 1 (60%). Declarations close on 31 December 2026."),
     sections=[("/ Typical holdings", "How each is usually treated.",
                "<table><thead><tr><th>Holding</th><th>If built while non-resident and not in Schedule FA</th><th>Watch for</th></tr></thead><tbody>"
-               "<tr><td>UK workplace pension or SIPP</td><td>Category 2 (INR 1 lakh, up to INR 5 crore)</td><td>India's relief for notified foreign retirement accounts (UK, US, Canada) under section 89A lets accruals be taxed on withdrawal</td></tr>"
+               "<tr><td>UK workplace pension or SIPP</td><td>Category 2 (INR 1 lakh, up to INR 5 crore)</td><td>India's relief for foreign retirement accounts (section 89A up to FY 2025-26; section 158 and <a href='form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-tax-india.html'>Form 40</a> from 2026-27) lets accruals be taxed on withdrawal</td></tr>"
                "<tr><td>UK ISA (cash or stocks)</td><td>Category 2</td><td>ISA interest and dividends are tax-free in the UK but taxable in India in resident years: unreported amounts are Category 1</td></tr>"
                "<tr><td>Canadian RRSP</td><td>Category 2</td><td>Canada is a notified country for section 89A</td></tr>"
                "<tr><td>Canadian TFSA</td><td>Category 2</td><td>Income inside it is tax-free in Canada, not in India once you are resident and ordinarily resident</td></tr>"
-               "<tr><td>Australian superannuation</td><td>Category 2</td><td>Australia is not notified under section 89A: get the yearly position reviewed</td></tr>"
+               "<tr><td>Australian superannuation</td><td>Category 2</td><td>Australia was not notified under section 89A (up to FY 2025-26), but the official Form 40 FAQ lists it as notified under section 158 from 2026-27: see <a href='form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-tax-india.html'>Form 40</a></td></tr>"
                "<tr><td>Foreign bank or brokerage account</td><td>Category 2</td><td>Unreported interest or dividends in resident years: Category 1</td></tr></tbody></table>"
                + cta_box("India (returned from abroad)", "Returned with a pension, ISA, RRSP or super?")),
               ("/ Before you file", "Check these first.",
@@ -214,10 +214,10 @@ PAGES.append(dict(
                   "Whether growth inside a foreign retirement account was taxable in India each year: a technical point that depends on the account and the treaty, so have it reviewed before choosing a category.",
                   "Total Category 2 value within INR 5 crore and Category 1 items within INR 1 crore.") +
                '<p>More: <a href="fast-ds-rsu-espp-us-shares-401k-which-category.html">FAST-DS for RSUs, ESPP and 401(k)</a>, <a href="fast-ds-returning-nri-foreign-accounts-not-reported.html">returning NRIs</a>, <a href="fast-ds-2026-eligibility-checker.html">eligibility checker</a>.</p>'
-               f'<p><strong>Source:</strong> Finance Act, 2026, Chapter IV (sections 130 to 144), the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026; section 89A of the Income-tax Act, 1961 and rule 21AAA. <em>{UPDATED}</em></p>')],
+               f'<p><strong>Source:</strong> Finance Act, 2026, Chapter IV (sections 130 to 144), the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026; section 89A of the Income-tax Act, 1961 and rule 21AAA; section 158 of the Income-tax Act, 2025, rule 74 and the Form 40 FAQs. <em>{UPDATED}</em></p>')],
     faqs=[("Do I need FAST-DS for my UK pension after returning to India?", "If you have been resident and ordinarily resident and did not list it in Schedule FA, usually yes, under Category 2 (INR 1 lakh fee, value up to INR 5 crore) for a pension built while non-resident."),
           ("Is ISA income taxable in India?", "Yes, in years you are resident and ordinarily resident, even though it is tax-free in the UK. Unreported ISA interest or dividends are undisclosed foreign income (Category 1, 60%)."),
-          ("Is Australian super covered by FAST-DS?", "Yes. Super built while non-resident and not reported after becoming resident and ordinarily resident is usually Category 2. Australia is not a notified country for section 89A, so have the yearly tax position reviewed."),
+          ("Is Australian super covered by FAST-DS?", "Yes. Super built while non-resident and not reported after becoming resident and ordinarily resident is usually Category 2. Australia was not notified under section 89A (up to FY 2025-26); the official Form 40 FAQ lists it as notified under section 158 from tax year 2026-27, so the deferral can now be considered."),
           ("What is the deadline?", "Declarations under FAST-DS 2026 close on 31 December 2026."),
           ("Can BQP file FAST-DS for my foreign pension?", "Yes. " + contact("India, returned from abroad"))],
     related=[("fast-ds-2026-eligibility-checker.html", "FAST-DS eligibility checker"), ("fast-ds-2026-filing-help-chartered-accountant.html", "FAST-DS filing help"),

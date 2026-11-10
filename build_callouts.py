@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "jacct": ("Parents in India named on your foreign account?", 'As joint holders or signatories they usually have to show it in their own Schedule FA: <a href="parents-joint-holder-nri-child-foreign-account-schedule-fa-india.html">joint holders and signing authority</a>.'),
     "fwal": ("Freelancer with a Wise or Payoneer balance abroad?", 'The income is in your return, but the account may also belong in Schedule FA: <a href="wise-payoneer-paypal-revolut-balance-schedule-fa-freelancer-fast-ds.html">foreign wallets, Schedule FA and FAST-DS</a>.'),
     "fprop": ("Own a house or flat abroad?", 'Property gets no small-asset relief under the Black Money Act; if it is not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html">property abroad and FAST-DS</a>.'),
     "ussec": ("Getting US Social Security in India?", 'It is taxable only in the US under Article 20(2) of the treaty; show it as exempt in your return: <a href="us-social-security-taxable-in-india-dtaa-article-20-returning-nri.html">US Social Security and Indian tax</a>.'),
@@ -22,6 +23,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html": ["jacct"],
+    "nri-gift-indian-relatives-section-56-fema-2026.html": ["jacct"],
     "best-ca-section-44ad-44ada-presumptive-scheme-india.html": ["fwal"],
     "fast-ds-vs-revised-return-vs-updated-return-itr-u.html": ["fwal"],
     "fema-export-rules-1-october-2026-nine-month-realisation-edf-services.html": ["fwal"],
@@ -35,11 +38,11 @@ TARGETS = {
     "fast-ds-2026-filing-help-chartered-accountant.html": ["fdpay", "fins"],
     "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["fprop", "fdpay"],
     "fast-ds-2026-calculator-foreign-asset-disclosure-cost.html": ["fprop", "fdpay"],
-    "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["fdpay"],
+    "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["jacct", "fdpay"],
     "fast-ds-2026-eligibility-checker.html": ["fprop", "usstk", "fdpay", "fins"],
-    "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["fprop", "fdpay"],
+    "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["jacct", "fprop", "fdpay"],
     "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],
-    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["fprop", "fdpay", "f40", "fins"],
+    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["jacct", "fprop", "fdpay", "f40", "fins"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins"],
     "residential-status-calculator-india-nri-rnor-section-6.html": ["ussec", "f40"],
     "lrs-tcs-calculator.html": ["usstk", "tcsref"],

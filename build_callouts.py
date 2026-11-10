@@ -12,23 +12,27 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "usstk": ("Bought US stocks through an app?", f'If they are not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="us-stocks-bought-from-india-not-in-schedule-fa-fast-ds-vested-indmoney.html">US stocks and Schedule FA</a>.'),
     "fdpay": ("Filed Form 1?", f'Work out when Form 2 is due, the last date to pay and the 1% interest, and how ITNS 289, Form 3 and Form 4 work: <a href="{PAY}">FAST-DS payment calculator and steps</a>.'),
     "f40": ("Foreign pension after moving back?", f'Defer Indian tax on a 401(k), IRA, UK pension, RRSP or super with <a href="{F40}">Form 40 (formerly Form 10-EE)</a>; Australia is now notified.'),
     "tcsref": ("TCS is refundable.", f'Get it back through your return or your employer: <a href="{TCS}">TCS refund on foreign remittance, step by step</a>.'),
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "nri-us-estate-tax-indian-assets.html": ["usstk"],
+    "what-is-form-w-8ben.html": ["usstk"],
+    "how-to-buy-us-stocks-from-india-2026.html": ["usstk"],
     "fast-ds-2026-filing-help-chartered-accountant.html": ["fdpay", "fins"],
     "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["fdpay"],
     "fast-ds-2026-calculator-foreign-asset-disclosure-cost.html": ["fdpay"],
     "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["fdpay"],
-    "fast-ds-2026-eligibility-checker.html": ["fdpay", "fins"],
+    "fast-ds-2026-eligibility-checker.html": ["usstk", "fdpay", "fins"],
     "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["fdpay"],
-    "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["fdpay", "f40"],
+    "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],
     "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["fdpay", "f40", "fins"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["f40", "fins"],
     "residential-status-calculator-india-nri-rnor-section-6.html": ["f40"],
-    "lrs-tcs-calculator.html": ["tcsref"],
+    "lrs-tcs-calculator.html": ["usstk", "tcsref"],
     "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref"],
     "year-end-lrs-tcs-20-planning-october-march-2026-27.html": ["tcsref"],
     "parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html": ["tcsref"],

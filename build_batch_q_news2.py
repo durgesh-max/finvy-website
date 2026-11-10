@@ -304,7 +304,7 @@ write_page("section-148-reassessment-season-november-december-2026", page(
 write_page("tax-audit-season-november-2026-post-filing-followups", page(
     slug="tax-audit-season-november-2026-post-filing-followups",
     title="Tax Audit Season November 2026 Post-Filing Follow-ups - BQP",
-    description="Post Tax Audit filing (31 October 2026 deadline) November follow-ups: Form 3CA/3CB + 3CD common issues, Section 43B(h) MSE reporting Year 2, Clause 44 GST + Income Tax reconciliation, specified financial transactions reconciliation, Form 3CEB TP audit (30 November deadline), AY 2026-27 ITR Nov-Dec filing coordination. CA Durgesh Chavda complete 2026 guide.",
+    description="Post Tax Audit filing (31 October 2026 deadline) November follow-ups: Form 3CA/3CB + 3CD common issues, Section 43B(h) MSE reporting Year 2, Clause 44 GST + Income Tax reconciliation, specified financial transactions reconciliation, Form 3CEB TP audit (report 31 October, TP-case ITR 30 November), AY 2026-27 ITR Nov-Dec filing coordination. CA Durgesh Chavda complete 2026 guide.",
     keywords="tax audit season November 2026 followups, Form 3CA 3CD common issues 2026, Section 43B(h) tax audit, Form 3CEB TP audit November, AY 2026-27 ITR tax audit",
     hero_kicker="/ Tax Audit Post-Filing &middot; Updated 2026-10-22",
     hero_title_html="Tax audit filed, <em>November follow-ups to execute.</em>",
@@ -361,8 +361,8 @@ write_page("tax-audit-season-november-2026-post-filing-followups", page(
     faqs=[
         ("What follow-ups are critical after tax audit filing on 31 October?",
          "Form 3CA/3CB status verification on portal, UDIN check against ICAI records, Form 3CD Clause-by-Clause coherence (especially 22, 32, 34, 44), coordination with ITR filing (30 November TP cases, 31 October standard), 43B(h) MSE reversal tracking, Clause 44 GST reconciliation feeding into GSTR-9 (December 2026), advance tax Q3 (15 December), Form 3CEB TP audit (30 November)."),
-        ("Is Form 3CEB TP audit also due on 31 October?",
-         "No - Form 3CEB has its own deadline: 30 November 2026 for AY 2026-27 (one month after standard tax audit). Mandatory for any Indian subsidiary / company with international transactions above INR 1 crore. Benchmarking study + comparability analysis underlying + Master File + CbCR for in-scope groups."),
+        ("When is Form 3CEB TP audit due?",
+         "Form 3CEB is due one month before the transfer-pricing return date: 31 October 2026 for AY 2026-27, with the return due 30 November 2026. CBDT Circular 07/2026 extended only the tax audit report (to 21 October) and audit-case returns (to 21 November). From tax year 2026-27 the report becomes Form 48. Mandatory for any Indian subsidiary / company with international transactions above INR 1 crore. Benchmarking study + comparability analysis underlying + Master File + CbCR for in-scope groups."),
         ("What's Clause 44 of Form 3CD?",
          "Clause 44 requires reconciliation of Income Tax turnover with GST turnover (as per GSTR-1 + GSTR-9). Line-by-line explanation of differences: credit notes timing, exempt supplies, year-end adjustments, discounts. Feeds into GSTR-9 reconciliation (December 2026). Common area of discrepancy requiring narrative."),
         ("How does Section 43B(h) show up in Form 3CD?",

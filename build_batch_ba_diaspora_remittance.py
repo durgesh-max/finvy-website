@@ -331,7 +331,10 @@ ALSO_READ = ("/ Also read", "Property, inheritance and study abroad.", ul(
     '<a href="sell-property-in-india-living-in-uk-usa-canada-australia-tax-both-countries-2026.html">Selling Indian property while living abroad</a>: tax in both countries and moving the money.',
     '<a href="inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html">Inheriting money or property from India</a>: no Indian inheritance tax, Form 3520, repatriation.',
     '<a href="parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html">Parents paying for study abroad</a>: LRS and TCS of nil, 2% or 20%.',
-    '<a href="nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html">28 questions answered</a> about moving money to and from India.'))
+    '<a href="nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html">28 questions answered</a> about moving money to and from India.',
+    '<a href="tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html">TCS refund on foreign remittance</a>: through your return or your employer.',
+    '<a href="form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-tax-india.html">Form 40</a>: defer Indian tax on a 401(k), UK pension, RRSP or super.',
+    '<a href="foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html">Foreign life insurance policies</a> after moving back.'))
 for p in PAGES:
     p["sections"] = p["sections"] + [ALSO_READ]
     html = page(slug=p["slug"], title=p["title"], description=p["desc"], keywords=p["keywords"],

@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("11 Nov 2026", "FAST-DS: Income Tax Department nudging owners of undisclosed UAE property",
+     "Business Standard reported on 26 October 2026, citing Finance Ministry sources, that the department has begun selectively contacting taxpayers who may hold undisclosed UAE residential or commercial property, with about 1,100 FAST-DS declarations filed so far. Regional committees under Principal Chief Commissioners handle queries. Declarations close on 31 December 2026.",
+     "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html",
+     ("Business Standard", "https://www.business-standard.com/finance/news/i-t-dept-nudges-uae-property-owners-as-fast-ds-gets-1-100-declarations-126102601405_1.html")),
     ("10 Nov 2026", "Income tax: revised returns for FY 2025-26 can be filed until 31 March 2027",
      "The Finance Act, 2026 extended the Section 139(5) window from nine to twelve months. Revising until 31 December 2026 stays free; a revision from 1 January to 31 March 2027 attracts a fee under section 234-I of INR 1,000 or INR 5,000 depending on total income. Belated returns are still due by 31 December 2026.",
      "revised-itr-section-139-5-deadline-31-december-2026-india.html",

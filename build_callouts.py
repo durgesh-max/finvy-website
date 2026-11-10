@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "uaep": ("Property in Dubai or the UAE?", 'The Income Tax Department has started nudging owners of undisclosed UAE property: <a href="dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html">what to do before 31 December 2026</a>.'),
     "jacct": ("Parents in India named on your foreign account?", 'As joint holders or signatories they usually have to show it in their own Schedule FA: <a href="parents-joint-holder-nri-child-foreign-account-schedule-fa-india.html">joint holders and signing authority</a>.'),
     "fwal": ("Freelancer with a Wise or Payoneer balance abroad?", 'The income is in your return, but the account may also belong in Schedule FA: <a href="wise-payoneer-paypal-revolut-balance-schedule-fa-freelancer-fast-ds.html">foreign wallets, Schedule FA and FAST-DS</a>.'),
     "fprop": ("Own a house or flat abroad?", 'Property gets no small-asset relief under the Black Money Act; if it is not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html">property abroad and FAST-DS</a>.'),
@@ -23,6 +24,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "ca-for-nri-tax-return-filing.html": ["uaep"],
+    "house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html": ["uaep"],
     "nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html": ["jacct"],
     "nri-gift-indian-relatives-section-56-fema-2026.html": ["jacct"],
     "best-ca-section-44ad-44ada-presumptive-scheme-india.html": ["fwal"],
@@ -35,10 +38,10 @@ TARGETS = {
     "nri-us-estate-tax-indian-assets.html": ["usstk"],
     "what-is-form-w-8ben.html": ["usstk"],
     "how-to-buy-us-stocks-from-india-2026.html": ["usstk"],
-    "fast-ds-2026-filing-help-chartered-accountant.html": ["fdpay", "fins"],
-    "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["fprop", "fdpay"],
+    "fast-ds-2026-filing-help-chartered-accountant.html": ["uaep", "fdpay", "fins"],
+    "fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline.html": ["uaep", "fprop", "fdpay"],
     "fast-ds-2026-calculator-foreign-asset-disclosure-cost.html": ["fprop", "fdpay"],
-    "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["jacct", "fdpay"],
+    "income-tax-email-foreign-assets-fast-ds-what-to-do.html": ["uaep", "jacct", "fdpay"],
     "fast-ds-2026-eligibility-checker.html": ["fprop", "usstk", "fdpay", "fins"],
     "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["jacct", "fprop", "fdpay"],
     "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],

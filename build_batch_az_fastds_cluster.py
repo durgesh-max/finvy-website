@@ -122,6 +122,14 @@ CHECK_JS = LOGIC + r'''
     $("fWhy").innerHTML=r.why.map(function(t){return "<li>"+t+"</li>";}).join("");
   }
   ["fKind","fResThen","fResSince","fSource","fFA","fInc","fVal","fOther","fPmla","fBma"].forEach(function(id){$(id).addEventListener("input",show);$(id).addEventListener("change",show);});
+  // Prefill from a link (used by the FAST-DS self-check newsletter): ?kind=&then=&since=&src=&fa=&inc=&val=
+  try {
+    var q=new URLSearchParams(location.search), MAP={kind:"fKind",then:"fResThen",since:"fResSince",src:"fSource",fa:"fFA",inc:"fInc",val:"fVal"}, hit=false;
+    Object.keys(MAP).forEach(function(k){ var v=q.get(k), el=$(MAP[k]); if(v===null||!el) return;
+      if(el.tagName==="SELECT"){ if([].some.call(el.options,function(o){return o.value===v;})){ el.value=v; hit=true; } }
+      else if(/^\d+(\.\d+)?$/.test(v)){ el.value=v; hit=true; } });
+    if(hit){ var c=document.querySelector(".calc-embed"); if(c&&c.scrollIntoView) setTimeout(function(){c.scrollIntoView({block:"start"});},50); }
+  } catch(e) {}
   show();
 })();'''
 app = {"@context": "https://schema.org", "@type": "WebApplication", "name": "FAST-DS 2026 Eligibility Checker", "url": f"{DOMAIN}/fast-ds-2026-eligibility-checker.html",

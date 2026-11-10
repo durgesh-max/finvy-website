@@ -420,7 +420,7 @@ PAGES = [
             "Representation at TP assessment / DRP / ITAT where disputed",
         ],
         "scope_bullets": [
-            "Form 3CEB preparation + filing by 31 October / 30 November deadline",
+            "Form 3CEB preparation + filing by 31 October (the transfer-pricing ITR follows by 30 November)",
             "Benchmarking study: TNMM / Resale Price Method / Cost Plus / Profit Split / Other Method as appropriate",
             "Comparable set construction + inter-quartile range + comparability adjustments",
             "Master File (Form 3CEAA) for groups above INR 500 crore + INR 50 crore IT thresholds",

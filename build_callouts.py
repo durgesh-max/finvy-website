@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "fwal": ("Freelancer with a Wise or Payoneer balance abroad?", 'The income is in your return, but the account may also belong in Schedule FA: <a href="wise-payoneer-paypal-revolut-balance-schedule-fa-freelancer-fast-ds.html">foreign wallets, Schedule FA and FAST-DS</a>.'),
     "fprop": ("Own a house or flat abroad?", 'Property gets no small-asset relief under the Black Money Act; if it is not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html">property abroad and FAST-DS</a>.'),
     "ussec": ("Getting US Social Security in India?", 'It is taxable only in the US under Article 20(2) of the treaty; show it as exempt in your return: <a href="us-social-security-taxable-in-india-dtaa-article-20-returning-nri.html">US Social Security and Indian tax</a>.'),
     "usstk": ("Bought US stocks through an app?", f'If they are not in Schedule FA, FAST-DS Category 2 (INR 1 lakh) can fix it before 31 December 2026: <a href="us-stocks-bought-from-india-not-in-schedule-fa-fast-ds-vested-indmoney.html">US stocks and Schedule FA</a>.'),
@@ -21,6 +22,11 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "best-ca-section-44ad-44ada-presumptive-scheme-india.html": ["fwal"],
+    "fast-ds-vs-revised-return-vs-updated-return-itr-u.html": ["fwal"],
+    "fema-export-rules-1-october-2026-nine-month-realisation-edf-services.html": ["fwal"],
+    "best-ca-freelancer-consultant-tax-india-2026.html": ["fwal"],
+    "freelancer-consultant-tax-india-2026-complete.html": ["fwal"],
     "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-tax-india.html": ["ussec"],
     "us-green-card-holder-india-tax-complete-2026.html": ["ussec"],
     "nri-us-estate-tax-indian-assets.html": ["usstk"],

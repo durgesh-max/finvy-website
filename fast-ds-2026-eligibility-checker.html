@@ -223,7 +223,7 @@ function fastds(i) {
     Object.keys(MAP).forEach(function(k){ var v=q.get(k), el=$(MAP[k]); if(v===null||!el) return;
       if(el.tagName==="SELECT"){ if([].some.call(el.options,function(o){return o.value===v;})){ el.value=v; hit=true; } }
       else if(/^\d+(\.\d+)?$/.test(v)){ el.value=v; hit=true; } });
-    if(hit){ var c=document.querySelector(".calc-embed"); if(c&&c.scrollIntoView) setTimeout(function(){c.scrollIntoView({block:"start"});},50); }
+    if(hit){ var go=function(){ var c=document.querySelector(".calc-embed"); if(c){ window.scrollTo(0, c.getBoundingClientRect().top + window.pageYOffset - 80); } }; if(document.readyState==="complete") setTimeout(go,150); else window.addEventListener("load", function(){ setTimeout(go,150); }); }
   } catch(e) {}
   show();
 })();

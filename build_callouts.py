@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "chidv": ("Director of a UK company living in India?", 'Companies House identity verification for existing directors must be done by 18 November 2026: <a href="companies-house-identity-verification-director-living-in-india-18-november-2026.html">how to verify from India, and the Indian ODI and Schedule FA side</a>.'),
     "fdlim": ("Above INR 1 crore or INR 5 crore?", 'FAST-DS cannot be used above its limits, but there are still steps to take before 31 December 2026: <a href="fast-ds-not-eligible-above-1-crore-5-crore-limit-what-are-the-options.html">options above the FAST-DS limits</a>.'),
     "uaep": ("Property in Dubai or the UAE?", 'The Income Tax Department has started nudging owners of undisclosed UAE property: <a href="dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html">what to do before 31 December 2026</a>.'),
     "jacct": ("Parents in India named on your foreign account?", 'As joint holders or signatories they usually have to show it in their own Schedule FA: <a href="parents-joint-holder-nri-child-foreign-account-schedule-fa-india.html">joint holders and signing authority</a>.'),
@@ -25,6 +26,10 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "us-incorporation-for-uk-founders.html": ["chidv"],
+    "ca-for-fema-odi-compliance.html": ["chidv"],
+    "uk-ltd-indian-subsidiary-psc-filing-ca.html": ["chidv"],
+    "uk-incorporation-indian-founder.html": ["chidv"],
     "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["fdlim"],
     "ca-for-nri-tax-return-filing.html": ["uaep"],
     "house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html": ["uaep"],

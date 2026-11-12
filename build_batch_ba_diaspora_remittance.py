@@ -233,7 +233,7 @@ LOGIC = open("tools/nri-money-transfer-logic.js", encoding="utf-8").read().repla
 _lrs = open("lrs-tcs-calculator.html", encoding="utf-8").read()
 CALC_CSS = re.sub(r"\.calc-hero[^\n]*\n", "", re.search(r"<style>(.*?)</style>", _lrs, re.S).group(1))
 CALC_CSS += ("\n  .calc-embed .calc-main{padding:0;max-width:none}\n  .calc-embed .rtrace{margin:8px 0 0;padding-left:18px;font-size:13px;line-height:1.55}\n"
-             "  .calc-embed .rtrace li{margin:0 0 6px}\n  .calc-embed .rsec{font-size:13px;margin:14px 0 0;font-weight:600}\n")
+             "  .calc-embed .rtrace li{margin:0 0 6px}\n  .calc-embed .result-card .rtrace strong,.calc-embed .result-card .rtrace b{color:#fff}\n  .calc-embed .rsec{font-size:13px;margin:14px 0 0;font-weight:600}\n")
 
 
 def fld(fid, label, hint, opts=None, num=None):

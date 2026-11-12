@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "rflip": ("Flipping back to India?", 'Since 17 September 2024 a foreign parent can merge into its Indian subsidiary through the section 233 fast track: <a href="reverse-flip-india-fast-track-inbound-merger-section-233-rbi-tax-2026.html">reverse flip by fast-track merger</a>.'),
     "uaebit": ("Investing in India from the UAE?", 'FDI route, the India-UAE BIT 2024 (covers portfolio investment) and the FC-GPR and FLA filings: <a href="uae-investor-investing-in-india-fdi-india-uae-bit-2024-dtaa-compliance.html">UAE investors in India</a>.'),
     "poa": ("Selling from abroad?", 'Power of attorney (apostille, three-month stamping), lower TDS and repatriation, step by step: <a href="nri-sell-property-in-india-from-abroad-power-of-attorney-tds-repatriation-2026.html">sell Indian property while living abroad</a>.'),
     "remote": ("Remote employees in India, no Indian entity?", 'Payroll tax, permanent establishment risk and when to switch from EOR or contractors to a subsidiary: <a href="foreign-company-remote-employee-india-pe-risk-eor-contractor-subsidiary-2026.html">foreign company with remote staff in India</a>.'),
@@ -35,6 +36,11 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "nri-returning-startup-moving-to-india.html": ["rflip"],
+    "flip-tax-impact-calculator.html": ["rflip"],
+    "best-ca-india-us-flip-structuring.html": ["rflip"],
+    "ca-for-india-us-flip.html": ["rflip"],
+    "us-india-reverse-flip-structure.html": ["rflip"],
     "press-note-2-2026-fdi-land-border-countries-china-10-percent-60-day-approval.html": ["uaebit"],
     "uae-incorporation-indian-founder.html": ["uaebit"],
     "dubai-free-zone-indian-branch-repatriation-ca.html": ["uaebit"],

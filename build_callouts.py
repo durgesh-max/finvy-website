@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "uaedr": ("Living in the UAE with Indian income above INR 15 lakh?", 'You may be a deemed resident (RNOR) for that year; UAE salary stays outside Indian tax: <a href="dubai-uae-nri-indian-income-above-15-lakh-deemed-resident-india-tax-2026.html">the deemed resident rule for Gulf NRIs</a>.'),
     "retguides": ("Moving back to India?", 'Country guides: <a href="returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html">UAE</a> &middot; <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">UK</a> &middot; <a href="returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html">Canada</a> &middot; <a href="returning-to-india-from-australia-super-dasp-cgt-property-india-tax-2026.html">Australia</a> &middot; <a href="returning-to-india-from-singapore-cpf-ir21-singapore-accounts-india-tax-2026.html">Singapore</a> &middot; <a href="h1b-holders-returning-to-india-tax-rnor-401k-2026.html">USA</a>.'),
     "ausret": ("Moving back from Australia?", 'Super, DASP, CGT on leaving and what India taxes once you are resident: <a href="returning-to-india-from-australia-super-dasp-cgt-property-india-tax-2026.html">returning from Australia, tax checklist</a>.'),
     "ukret": ("Moving back from the UK?", 'ISA, UK pension and UK property: what India taxes once you are resident: <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">returning from the UK, tax checklist</a>.'),
@@ -31,6 +32,10 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "oci-cardholder-tax-india-complete-2026.html": ["uaedr"],
+    "nri-selling-indian-property-capital-gains.html": ["uaedr"],
+    "returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html": ["uaedr"],
+    "nri-residential-status-rnor-india.html": ["uaedr"],
     "indian-ca-for-clients-in-singapore.html": ["retguides"],
     "best-ca-nri-returning-india-rnor-planning.html": ["retguides"],
     "nri-returning-india-tax-rnor-transition.html": ["retguides"],
@@ -46,7 +51,7 @@ TARGETS = {
     "ca-for-fema-odi-compliance.html": ["chidv"],
     "uk-ltd-indian-subsidiary-psc-filing-ca.html": ["chidv"],
     "uk-incorporation-indian-founder.html": ["chidv"],
-    "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["uaeret", "fdlim"],
+    "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["uaedr", "uaeret", "fdlim"],
     "ca-for-nri-tax-return-filing.html": ["uaep"],
     "house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html": ["uaep"],
     "nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html": ["jacct"],
@@ -70,7 +75,7 @@ TARGETS = {
     "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],
     "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["retguides", "canret", "uaeret", "jacct", "fprop", "fdpay", "f40", "fins"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins"],
-    "residential-status-calculator-india-nri-rnor-section-6.html": ["retguides", "uaeret", "ussec", "f40"],
+    "residential-status-calculator-india-nri-rnor-section-6.html": ["uaedr", "retguides", "uaeret", "ussec", "f40"],
     "lrs-tcs-calculator.html": ["usstk", "tcsref"],
     "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref"],
     "year-end-lrs-tcs-20-planning-october-march-2026-27.html": ["tcsref"],

@@ -9,7 +9,7 @@ INR 10 lakh Black Money Act penalty for non-disclosure where foreign assets othe
 from urllib.parse import quote
 from build_lib import page, write_page
 
-UPDATED = "Last updated: 10 November 2026."
+UPDATED = "Last updated: 12 November 2026."
 CK = ("fast-ds-2026-eligibility-checker.html?kind=asset&then=yes&src=taxedIndia&fa=no&inc=yes&val=500000")
 CK_INC = "fast-ds-2026-eligibility-checker.html?kind=income&then=yes&inc=no&val=50000"
 
@@ -59,6 +59,7 @@ PAGES = [dict(
          ul("<strong>FAST-DS Category 2, INR 1 lakh:</strong> for shares bought from income already taxed in India (salary, business income, savings) and not shown in Schedule FA. One fee covers an asset worth up to INR 5 crore, and it brings immunity under the Black Money Act for what you declare.",
             "<strong>FAST-DS Category 1, 60%:</strong> for dividends or gains that were taxable in India but never offered to tax, within the INR 1 crore aggregate.",
             "<strong>Revised return:</strong> fixes the FY 2025-26 return only (free until 31 December 2026, with a fee until 31 March 2027). It does not cover earlier years or give Black Money Act immunity for them.",
+            "<strong>Small holdings:</strong> if the money was taxed and your foreign assets other than property never exceeded INR 20 lakh in total, the INR 10 lakh Black Money Act penalty for non-disclosure does not apply. A revised return for FY 2025-26 and correct reporting from now on may then be enough; FAST-DS mainly buys certainty for earlier years. Check the totals year by year before paying INR 1 lakh.",
             "<strong>Doing nothing:</strong> the Black Money Act allows a penalty of INR 10 lakh for not disclosing foreign assets in a return where they exceed INR 20 lakh (other than immovable property), apart from tax on undisclosed income.")
          + '<p>Compare routes: <a href="fast-ds-vs-revised-return-vs-updated-return-itr-u.html">FAST-DS vs revised return vs ITR-U</a> &middot; cost: <a href="fast-ds-2026-calculator-foreign-asset-disclosure-cost.html">FAST-DS calculator</a> &middot; dates: <a href="fast-ds-payment-due-date-interest-calculator-itns-289-form-3-form-4.html">payment calculator</a>.</p>'),
         ("/ Before you declare", "Collect these.",
@@ -73,6 +74,7 @@ PAGES = [dict(
     faqs=[("Do I need to report US stocks in Schedule FA if I never sold them?", "Yes, if you are resident and ordinarily resident. Holdings are reported whether or not you sold, along with any uninvested cash in the US wallet."),
           ("Which period does Schedule FA cover for AY 2026-27?", "The calendar year ending 31 December 2025, not the April to March financial year."),
           ("I bought US stocks through an app and missed Schedule FA. Is FAST-DS Category 1 or 2?", "Usually Category 2, a flat INR 1 lakh, if the money came from income already taxed in India. Unreported dividends or gains are a separate Category 1 item at 60%."),
+          ("My US portfolio is small. Is FAST-DS worth INR 1 lakh?", "Not always. If the money was taxed and your foreign assets other than property stayed within INR 20 lakh in total, the INR 10 lakh Black Money Act penalty does not apply, and a revised return for FY 2025-26 with correct reporting going forward may be enough. Larger holdings or several missed years usually favour FAST-DS."),
           ("Where do I report dividends from US stocks?", "In Schedule FSI, with the US tax withheld claimed as credit in Schedule TR. File Form 67 to claim the credit."),
           ("What is the deadline to fix it under FAST-DS?", "Declarations close on 31 December 2026. The payment follows the Form 2 order."),
           ("Can BQP check my app statements and file?", "Yes. " + CONTACT)],

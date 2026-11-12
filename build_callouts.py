@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "ukret": ("Moving back from the UK?", 'ISA, UK pension and UK property: what India taxes once you are resident: <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">returning from the UK, tax checklist</a>.'),
     "canret": ("Moving back from Canada?", 'Departure tax, RRSP, TFSA and what India taxes once you are resident: <a href="returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html">returning from Canada, tax checklist</a>.'),
     "uaeret": ("Returning from the UAE?", 'Gratuity, UAE bank accounts and property: what India taxes year by year: <a href="returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html">returning from the UAE, tax checklist</a>.'),
     "chidv": ("Director of a UK company living in India?", 'Companies House identity verification for existing directors must be done by 18 November 2026: <a href="companies-house-identity-verification-director-living-in-india-18-november-2026.html">how to verify from India, and the Indian ODI and Schedule FA side</a>.'),
@@ -28,7 +29,10 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
-    "fast-ds-uk-pension-isa-canada-rrsp-australia-super-schedule-fa.html": ["canret"],
+    "returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html": ["ukret"],
+    "send-money-uk-to-india-india-to-uk-nri-tax-fema-2026.html": ["ukret"],
+    "indian-ca-for-clients-in-uk.html": ["ukret"],
+    "fast-ds-uk-pension-isa-canada-rrsp-australia-super-schedule-fa.html": ["ukret", "canret"],
     "indian-ca-for-clients-in-canada.html": ["canret"],
     "nri-nre-nro-conversion-returning-india-2026.html": ["uaeret"],
     "us-incorporation-for-uk-founders.html": ["chidv"],

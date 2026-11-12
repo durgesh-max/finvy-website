@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "poa": ("Selling from abroad?", 'Power of attorney (apostille, three-month stamping), lower TDS and repatriation, step by step: <a href="nri-sell-property-in-india-from-abroad-power-of-attorney-tds-repatriation-2026.html">sell Indian property while living abroad</a>.'),
     "remote": ("Remote employees in India, no Indian entity?", 'Payroll tax, permanent establishment risk and when to switch from EOR or contractors to a subsidiary: <a href="foreign-company-remote-employee-india-pe-risk-eor-contractor-subsidiary-2026.html">foreign company with remote staff in India</a>.'),
     "uaedr": ("Living in the UAE with Indian income above INR 15 lakh?", 'You may be a deemed resident (RNOR) for that year; UAE salary stays outside Indian tax: <a href="dubai-uae-nri-indian-income-above-15-lakh-deemed-resident-india-tax-2026.html">the deemed resident rule for Gulf NRIs</a>.'),
     "retguides": ("Moving back to India?", 'Country guides: <a href="returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html">UAE</a> &middot; <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">UK</a> &middot; <a href="returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html">Canada</a> &middot; <a href="returning-to-india-from-australia-super-dasp-cgt-property-india-tax-2026.html">Australia</a> &middot; <a href="returning-to-india-from-singapore-cpf-ir21-singapore-accounts-india-tax-2026.html">Singapore</a> &middot; <a href="h1b-holders-returning-to-india-tax-rnor-401k-2026.html">USA</a>.'),
@@ -33,6 +34,10 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "dubai-uae-nri-indian-income-above-15-lakh-deemed-resident-india-tax-2026.html": ["poa"],
+    "sell-property-in-india-living-in-uk-usa-canada-australia-tax-both-countries-2026.html": ["poa"],
+    "buying-property-from-nri-no-tan-form-141-from-1-october-2026.html": ["poa"],
+    "repatriate-money-from-india-to-abroad-nro-usd-1-million-15ca-15cb-2026.html": ["poa"],
     "indian-ca-for-clients-in-europe.html": ["remote"],
     "for-foreign-clients.html": ["remote"],
     "india-services-for-foreign-companies-complete-list.html": ["remote"],
@@ -40,7 +45,7 @@ TARGETS = {
     "transfer-pricing-india-foreign-mnc.html": ["remote"],
     "employer-of-record-india-hire-from-abroad.html": ["remote"],
     "oci-cardholder-tax-india-complete-2026.html": ["uaedr"],
-    "nri-selling-indian-property-capital-gains.html": ["uaedr"],
+    "nri-selling-indian-property-capital-gains.html": ["poa", "uaedr"],
     "returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html": ["uaedr"],
     "nri-residential-status-rnor-india.html": ["uaedr"],
     "indian-ca-for-clients-in-singapore.html": ["retguides"],

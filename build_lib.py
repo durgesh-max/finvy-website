@@ -289,5 +289,17 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
 
 
 def write_page(slug, html):
-    with open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8", newline="\r\n") as f:
+    # Freshness for search and answer engines: dateModified is the build date (a rebuild means the content changed);
+    # datePublished is kept from the existing file, or set to the build date for a new page.
+    import datetime, re as _re
+    path = os.path.join(ROOT, slug + ".html")
+    today = datetime.date.today().isoformat()
+    published = today
+    if os.path.exists(path):
+        m = _re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})"', open(path, encoding="utf-8").read())
+        if m:
+            published = m.group(1)
+    html = _re.sub(r'("datePublished":\s*")2026-10-06(")', r"\g<1>" + published + r"\2", html)
+    html = _re.sub(r'("dateModified":\s*")2026-10-06(")', r"\g<1>" + today + r"\2", html)
+    with open(path, "w", encoding="utf-8", newline="\r\n") as f:
         f.write(html)

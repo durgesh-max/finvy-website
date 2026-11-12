@@ -113,5 +113,8 @@ for p in PAGES:
     html = page(slug=p["slug"], title=p["title"], description=p["desc"], keywords=p["keywords"], hero_kicker=p["kicker"],
                 hero_title_html=f'{p["title"]}, <em>{p["em"]}</em>', hero_lead=p["lead"], sections=p["sections"], faqs=p["faqs"],
                 related=[(h, "Related", t) for h, t in p["related"]], cta_headline=p["cta_h"], cta_body=p["cta_b"], howto=p["howto"])
+    # consolidate with the older calculator page (same intent)
+    CANON_OLD = "nri-property-tds-ldc-calculator"
+    html = html.replace(f'<link rel="canonical" href="{DOMAIN}/{p["slug"]}.html"', f'<link rel="canonical" href="{DOMAIN}/{CANON_OLD}.html"', 1)
     write_page(p["slug"], html)
 print("Batch BW complete")

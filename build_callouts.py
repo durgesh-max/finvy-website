@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "uaeret": ("Returning from the UAE?", 'Gratuity, UAE bank accounts and property: what India taxes year by year: <a href="returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html">returning from the UAE, tax checklist</a>.'),
     "chidv": ("Director of a UK company living in India?", 'Companies House identity verification for existing directors must be done by 18 November 2026: <a href="companies-house-identity-verification-director-living-in-india-18-november-2026.html">how to verify from India, and the Indian ODI and Schedule FA side</a>.'),
     "fdlim": ("Above INR 1 crore or INR 5 crore?", 'FAST-DS cannot be used above its limits, but there are still steps to take before 31 December 2026: <a href="fast-ds-not-eligible-above-1-crore-5-crore-limit-what-are-the-options.html">options above the FAST-DS limits</a>.'),
     "uaep": ("Property in Dubai or the UAE?", 'The Income Tax Department has started nudging owners of undisclosed UAE property: <a href="dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html">what to do before 31 December 2026</a>.'),
@@ -26,11 +27,12 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "nri-nre-nro-conversion-returning-india-2026.html": ["uaeret"],
     "us-incorporation-for-uk-founders.html": ["chidv"],
     "ca-for-fema-odi-compliance.html": ["chidv"],
     "uk-ltd-indian-subsidiary-psc-filing-ca.html": ["chidv"],
     "uk-incorporation-indian-founder.html": ["chidv"],
-    "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["fdlim"],
+    "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["uaeret", "fdlim"],
     "ca-for-nri-tax-return-filing.html": ["uaep"],
     "house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html": ["uaep"],
     "nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html": ["jacct"],
@@ -52,9 +54,9 @@ TARGETS = {
     "fast-ds-2026-eligibility-checker.html": ["fdlim", "fprop", "usstk", "fdpay", "fins"],
     "fast-ds-what-happens-if-i-do-not-declare-black-money-act.html": ["fdlim", "jacct", "fprop", "fdpay"],
     "fast-ds-rsu-espp-us-shares-401k-which-category.html": ["usstk", "fdpay", "f40"],
-    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["jacct", "fprop", "fdpay", "f40", "fins"],
+    "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["uaeret", "jacct", "fprop", "fdpay", "f40", "fins"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins"],
-    "residential-status-calculator-india-nri-rnor-section-6.html": ["ussec", "f40"],
+    "residential-status-calculator-india-nri-rnor-section-6.html": ["uaeret", "ussec", "f40"],
     "lrs-tcs-calculator.html": ["usstk", "tcsref"],
     "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref"],
     "year-end-lrs-tcs-20-planning-october-march-2026-27.html": ["tcsref"],

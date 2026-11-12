@@ -227,10 +227,10 @@ PAGES.append(dict(
     title="FAST-DS vs Revised Return vs Updated Return (ITR-U): Which Route for Foreign Assets?",
     em="the answer depends on the year and the category.",
     kicker="/ FAST-DS 2026 &middot; Comparison &middot; Updated 2026-11-04",
-    lead="For FY 2025-26, a revised return can be filed by 31 December 2026 and can add a missed foreign asset or income to that return. An updated return (ITR-U) lets you offer more income for earlier years with additional tax, but it does not grant immunity under the Black Money Act. FAST-DS 2026 does: a valid declaration with payment gives immunity from further tax, penalty and prosecution under the Black Money Act for the declared items, for years up to 2025-26 (section 139). " + DEADLINE,
+    lead="For FY 2025-26, a revised return can be filed free until 31 December 2026 (and with a section 234-I fee until 31 March 2027) and can add a missed foreign asset or income to that return. An updated return (ITR-U) lets you offer more income for earlier years with additional tax, but it does not grant immunity under the Black Money Act. FAST-DS 2026 does: a valid declaration with payment gives immunity from further tax, penalty and prosecution under the Black Money Act for the declared items, for years up to 2025-26 (section 139). " + DEADLINE,
     sections=[("/ Side by side", "Choosing the route.",
                "<table><thead><tr><th></th><th>Revised return</th><th>Updated return (ITR-U)</th><th>FAST-DS 2026</th></tr></thead><tbody>"
-               "<tr><td>Years covered</td><td>FY 2025-26 (by 31 December 2026)</td><td>Earlier years within the time allowed</td><td>Any year up to 2025-26</td></tr>"
+               "<tr><td>Years covered</td><td>FY 2025-26 (free until 31 December 2026; with a fee until 31 March 2027)</td><td>Earlier years within the time allowed</td><td>Any year up to 2025-26</td></tr>"
                "<tr><td>Cost</td><td>Normal tax and interest</td><td>Tax, interest and additional tax that rises with delay</td><td>60% (Category 1) or INR 1 lakh (Category 2)</td></tr>"
                "<tr><td>Black Money Act immunity</td><td>Not by itself</td><td>No</td><td>Yes, for declared items (section 139)</td></tr>"
                "<tr><td>Refund of amount paid</td><td>As per return</td><td>As per return</td><td>Not refundable (section 138)</td></tr></tbody></table>"
@@ -243,7 +243,7 @@ PAGES.append(dict(
           ("Does ITR-U give immunity for foreign assets?", "No. An updated return adds income with additional tax but does not grant immunity under the Black Money Act; FAST-DS does for declared items."),
           ("Which is cheaper, ITR-U or FAST-DS?", "It depends on the category and years. For an asset bought from taxed income but missing from the schedule, FAST-DS Category 2 is a flat INR 1 lakh."),
           ("Can BQP compare the routes for me?", "Yes. " + CONTACT)],
-    related=[("fast-ds-2026-eligibility-checker.html", "FAST-DS eligibility checker"), ("revised-itr-section-139-5-deadline-31-december-2026-india.html", "Revised return by 31 December 2026")],
+    related=[("fast-ds-2026-eligibility-checker.html", "FAST-DS eligibility checker"), ("revised-itr-section-139-5-deadline-31-december-2026-india.html", "Revised return: free until 31 December 2026, fee until 31 March 2027")],
     cta_h="Pick the right route before 31 December", cta_b=CONTACT,
     keywords="FAST-DS vs ITR-U, FAST-DS vs revised return, updated return foreign assets, revised return Schedule FA missed, which is better FAST-DS or ITR-U, Black Money Act immunity FAST-DS",
     desc="FAST-DS 2026 vs revised return vs updated return (ITR-U) for missed foreign assets: years covered, cost, Black Money Act immunity (only FAST-DS, section 139) and when each route makes sense.",

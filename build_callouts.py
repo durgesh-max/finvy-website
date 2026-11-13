@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
     "tdscalc": ("How much extra TDS will the buyer deduct?", 'The buyer deducts on the full price, you owe tax only on the gain. See the gap on your numbers: <a href="nri-property-tds-ldc-calculator.html">NRI property sale TDS calculator</a>.'),
@@ -39,6 +40,13 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "best-ca-for-us-incorporation-indian-founder-2026.html": ["tri"],
+    "delaware-c-corp-vs-llc.html": ["tri"],
+    "how-to-flip-indian-company-to-us.html": ["tri"],
+    "india-to-delaware-flip-structure.html": ["tri"],
+    "how-to-structure-india-us-flip-f-reorganization-step-by-step.html": ["tri"],
+    "best-ca-fema-odi-us-subsidiary-india.html": ["tri"],
+    "fema-odi-us-entity-indian-founder.html": ["tri"],
     "what-is-gift-city.html": ["ifscl"],
     "reverse-flip-india-fast-track-inbound-merger-section-233-rbi-tax-2026.html": ["ifscl"],
     "gift-city.html": ["ifscl"],
@@ -83,7 +91,7 @@ TARGETS = {
     "indian-ca-for-clients-in-canada.html": ["canret"],
     "nri-nre-nro-conversion-returning-india-2026.html": ["retguides", "uaeret"],
     "us-incorporation-for-uk-founders.html": ["chidv"],
-    "ca-for-fema-odi-compliance.html": ["chidv"],
+    "ca-for-fema-odi-compliance.html": ["tri", "chidv"],
     "uk-ltd-indian-subsidiary-psc-filing-ca.html": ["chidv"],
     "uk-incorporation-indian-founder.html": ["chidv"],
     "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["uaedr", "uaeret", "fdlim"],

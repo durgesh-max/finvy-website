@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("13 Nov 2026", "Company law: GIFT IFSC direct listing opened to equity instruments and loss-making companies",
+     "G.S.R. 968(E) dated 3 November 2026 amends the listing rules for permissible jurisdictions: equity instruments including convertible debentures and preference shares, unlisted public companies in the IFSC, negative net worth companies with at least 75% of the net offer to QIBs, and offers for sale by eligible existing holders.",
+     "direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html",
+     ("TaxGuru", "https://taxguru.in/company-law/mca-expands-ifsc-listing-rules-equity-instruments-2026.html")),
     ("11 Nov 2026", "FAST-DS: Income Tax Department nudging owners of undisclosed UAE property",
      "Business Standard reported on 26 October 2026, citing Finance Ministry sources, that the department has begun selectively contacting taxpayers who may hold undisclosed UAE residential or commercial property, with about 1,100 FAST-DS declarations filed so far. Regional committees under Principal Chief Commissioners handle queries. Declarations close on 31 December 2026.",
      "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html",

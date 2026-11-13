@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
     "tdscalc": ("How much extra TDS will the buyer deduct?", 'The buyer deducts on the full price, you owe tax only on the gain. See the gap on your numbers: <a href="nri-property-tds-ldc-calculator.html">NRI property sale TDS calculator</a>.'),
     "rflip": ("Flipping back to India?", 'Since 17 September 2024 a foreign parent can merge into its Indian subsidiary through the section 233 fast track: <a href="reverse-flip-india-fast-track-inbound-merger-section-233-rbi-tax-2026.html">reverse flip by fast-track merger</a>.'),
@@ -38,6 +39,9 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "what-is-gift-city.html": ["ifscl"],
+    "reverse-flip-india-fast-track-inbound-merger-section-233-rbi-tax-2026.html": ["ifscl"],
+    "gift-city.html": ["ifscl"],
     "india-market-entry-foreign-company-guide.html": ["gcc"],
     "ca-in-whitefield-bangalore-for-saas-gcc.html": ["gcc"],
     "foreign-company-setup-indian-subsidiary-wos.html": ["gcc"],
@@ -46,8 +50,8 @@ TARGETS = {
     "nri-returning-startup-moving-to-india.html": ["rflip"],
     "flip-tax-impact-calculator.html": ["rflip"],
     "best-ca-india-us-flip-structuring.html": ["rflip"],
-    "ca-for-india-us-flip.html": ["rflip"],
-    "us-india-reverse-flip-structure.html": ["rflip"],
+    "ca-for-india-us-flip.html": ["ifscl", "rflip"],
+    "us-india-reverse-flip-structure.html": ["ifscl", "rflip"],
     "press-note-2-2026-fdi-land-border-countries-china-10-percent-60-day-approval.html": ["uaebit"],
     "uae-incorporation-indian-founder.html": ["uaebit"],
     "dubai-free-zone-indian-branch-repatriation-ca.html": ["uaebit"],

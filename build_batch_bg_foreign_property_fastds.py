@@ -44,11 +44,11 @@ PAGES = [dict(
     kicker="/ Property abroad &middot; Schedule FA &middot; FAST-DS &middot; Updated 2026-11-10",
     lead=("If you are resident and ordinarily resident in India, a house, flat or plot you own outside India has to be shown in the immovable property table of Schedule FA every year, even if it earns nothing. "
           "Many returning NRIs keep the home they bought abroad and never list it. "
-          "If it was bought while you were an NRI, or from income already taxed in India, FAST-DS Category 2 settles it for a flat INR 1 lakh (asset up to INR 5 crore) if you declare by 31 December 2026. Rent that was never offered to tax is a separate Category 1 item at 60%."),
+          "If it was bought while you were an NRI, or from income already taxed in India, FAST-DS Category 2 settles it for a flat INR 1 lakh (foreign assets up to INR 5 crore in total) if you declare by 31 December 2026. Rent that was never offered to tax is a separate Category 1 item at 60%."),
     sections=[
         ("/ Which route fits", "It depends on where the money came from.",
          table(["Your situation", "FAST-DS route", "Cost"], [
-             ["Bought abroad while you were an NRI, from foreign earnings; not in Schedule FA after you became resident", "Category 2", "INR 1 lakh (asset up to INR 5 crore)"],
+             ["Bought abroad while you were an NRI, from foreign earnings; not in Schedule FA after you became resident", "Category 2", "INR 1 lakh (foreign assets up to INR 5 crore in total)"],
              ["Bought under the LRS from income taxed in India; not in Schedule FA", "Category 2", "INR 1 lakh"],
              ["Rent from it earned while resident and never offered to tax in India", "Category 1 (income)", "60% of the income, within INR 1 crore"],
              ["Bought with money that was never taxed in India and cannot be explained", "Category 1 (asset)", "60% of the value, within INR 1 crore"],
@@ -70,7 +70,7 @@ PAGES = [dict(
          + f'<p><strong>Sources:</strong> Income-tax return instructions for Schedule FA; Finance Act, 2026, Chapter IV (FAST-DS); Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015, sections 42 and 43; Foreign Exchange Management Act, 1999, section 6(4). <em>{UPDATED}</em> General information, not advice for your situation.</p>'),
     ],
     faqs=[("Do I need to show a house abroad in Schedule FA if it earns no rent?", "Yes, if you are resident and ordinarily resident. Immovable property outside India has its own table in Schedule FA, whether or not it earns income."),
-          ("Can FAST-DS cover a property abroad?", "Yes. A property bought while you were an NRI, or from income already taxed in India, and left out of Schedule FA usually falls in Category 2: a flat INR 1 lakh for an asset worth up to INR 5 crore, if you declare by 31 December 2026."),
+          ("Can FAST-DS cover a property abroad?", "Yes. A property bought while you were an NRI, or from income already taxed in India, and left out of Schedule FA usually falls in Category 2: a flat INR 1 lakh for foreign assets worth up to INR 5 crore in total, if you declare by 31 December 2026."),
           ("Does the INR 20 lakh relief under the Black Money Act cover property?", "No. The relief from the INR 10 lakh non-disclosure penalty applies only to assets other than immovable property. A property abroad gets no such relief at any value."),
           ("I never paid Indian tax on the rent. What then?", "Rent earned while you were resident and not offered to tax is undisclosed foreign income: Category 1 at 60%, within the INR 1 crore limit. The property itself may still be a Category 2 item."),
           ("Can I keep a property I bought abroad as an NRI after moving back?", "Yes. Section 6(4) of FEMA lets a resident hold property abroad that was acquired while non-resident. It still has to be in Schedule FA every year you are resident and ordinarily resident."),

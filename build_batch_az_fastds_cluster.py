@@ -32,7 +32,7 @@ RELATED_ALL = [("fast-ds-2026-filing-help-chartered-accountant.html", "FAST-DS f
 CATS = ("<table><thead><tr><th></th><th>Category 1</th><th>Category 2</th></tr></thead><tbody>"
         "<tr><td>What</td><td>Undisclosed asset located outside India (no satisfactory explanation of the source of investment), or undisclosed foreign income (chargeable to tax in India but not offered to tax)</td><td>Asset outside India bought (a) from foreign income earned while non-resident, or (b) from income already offered to tax in India, but not shown in the foreign-assets schedule of the return</td></tr>"
         "<tr><td>Amount payable</td><td>30% tax on the asset value as on 31 March 2026 and on the income, plus an equal amount: 60% in all</td><td>A fee of INR 1 lakh</td></tr>"
-        "<tr><td>Limit</td><td>Aggregate of such assets and income up to INR 1 crore</td><td>Value of the asset up to INR 5 crore</td></tr>"
+        "<tr><td>Limit</td><td>Aggregate of such assets and income up to INR 1 crore</td><td>Total value of foreign assets up to INR 5 crore</td></tr>"
         "<tr><td>Law</td><td>Section 133, Table, item 1</td><td>Section 133, Table, item 2</td></tr></tbody></table>")
 
 TIMELINE = ul("<strong>Declaration (Form 1)</strong>: filed electronically on the e-filing portal by <strong>31 December 2026</strong> (sections 132 and 134).",
@@ -97,7 +97,7 @@ def fld(fid, label, hint, opts=None, num=None):
 
 
 YN = [("no", "No"), ("yes", "Yes")]
-INPUTS = (fld("fKind", "What are you checking?", "Check one asset or income item at a time.", [("asset", "A foreign asset (bank account, shares, RSUs, 401(k), property, crypto)"), ("income", "Foreign income (interest, dividends, rent, salary) not shown in my return")])
+INPUTS = (fld("fKind", "What are you checking?", "Check one asset or income item at a time; for Category 2 the INR 5 crore limit applies to the total of all your undisclosed foreign assets.", [("asset", "A foreign asset (bank account, shares, RSUs, 401(k), property, crypto)"), ("income", "Foreign income (interest, dividends, rent, salary) not shown in my return")])
           + fld("fResThen", "Were you resident in India when you acquired it / earned it?", "Resident under section 6 in that year.", [("yes", "Yes, resident"), ("no", "No, I was a non-resident (or RNOR)")])
           + fld("fResSince", "Have you been resident and ordinarily resident in India in any later year up to 2025-26?", "Only asked if you were non-resident at the time.", YN)
           + fld("fSource", "Where did the money to buy it come from?", "", [("taxedIndia", "Income already taxed in India (salary, RSU/ESPP taxed via payroll, savings)"), ("foreignWhileNR", "Foreign income earned while I was a non-resident"), ("untaxed", "Income never taxed in India / I cannot explain the source")])

@@ -61,7 +61,7 @@ PAGES = [dict(
             "<strong>Singapore company or ESOPs:</strong> shares in a Singapore employer or your own Singapore company stay reportable; for founders, see <a href=\"nri-returning-startup-moving-to-india.html\">moving a startup back to India</a>."))
         ,
         ("/ If you returned years ago", "Fix it before 31 December 2026.",
-         ul("Singapore accounts, shares or CPF built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (asset up to INR 5 crore).",
+         ul("Singapore accounts, shares or CPF built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (foreign assets up to INR 5 crore in total).",
             "Singapore interest, dividends or rent earned while resident and ordinarily resident and never offered to tax in India: <strong>Category 1, 60%</strong> within INR 1 crore.",
             "Declare by 31 December 2026, pay after the Form 2 order, and report every year after.")
          + '<p>Other country guides: <a href="returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html">UAE</a> &middot; <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">UK</a> &middot; <a href="returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html">Canada</a> &middot; <a href="returning-to-india-from-australia-super-dasp-cgt-property-india-tax-2026.html">Australia</a> &middot; <a href="h1b-holders-returning-to-india-tax-rnor-401k-2026.html">USA</a>.</p>'

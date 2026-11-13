@@ -60,7 +60,7 @@ PAGES = [dict(
             "<strong>Selling UAE assets during RNOR years</strong> generally keeps the gain outside Indian tax; after that it is taxed in India."))
         ,
         ("/ If you returned years ago", "The FAST-DS window.",
-         ul("UAE accounts, investments or property built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>Category 2, INR 1 lakh</strong> (asset up to INR 5 crore).",
+         ul("UAE accounts, investments or property built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>Category 2, INR 1 lakh</strong> (foreign assets up to INR 5 crore in total).",
             "UAE rent or interest earned while resident and ordinarily resident and never offered to tax: <strong>Category 1, 60%</strong> within INR 1 crore.",
             "Declare by 31 December 2026; pay after the Form 2 order; then report every year.")
          + '<p>Related: <a href="fast-ds-returning-nri-foreign-accounts-not-reported.html">FAST-DS for returning NRIs</a> &middot; <a href="nri-nre-nro-conversion-returning-india-2026.html">NRE and NRO conversion on return</a> &middot; <a href="house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html">property abroad and FAST-DS</a>.</p>'

@@ -56,7 +56,7 @@ PAGES = [dict(
              ["Sale of shares", "Capital gains schedule (and FSI)", "Long-term after 24 months for foreign shares"]])
          + BOX),
         ("/ If you missed Schedule FA", "Your options before 31 December 2026.",
-         ul("<strong>FAST-DS Category 2, INR 1 lakh:</strong> for shares bought from income already taxed in India (salary, business income, savings) and not shown in Schedule FA. One fee covers an asset worth up to INR 5 crore, and it brings immunity under the Black Money Act for what you declare.",
+         ul("<strong>FAST-DS Category 2, INR 1 lakh:</strong> for shares bought from income already taxed in India (salary, business income, savings) and not shown in Schedule FA. One fee covers foreign assets worth up to INR 5 crore in total, and it brings immunity under the Black Money Act for what you declare.",
             "<strong>FAST-DS Category 1, 60%:</strong> for dividends or gains that were taxable in India but never offered to tax, within the INR 1 crore aggregate.",
             "<strong>Revised return:</strong> fixes the FY 2025-26 return only (free until 31 December 2026, with a fee until 31 March 2027). It does not cover earlier years or give Black Money Act immunity for them.",
             "<strong>Small holdings:</strong> if the money was taxed and your foreign assets other than property never exceeded INR 20 lakh in total, the INR 10 lakh Black Money Act penalty for non-disclosure does not apply. A revised return for FY 2025-26 and correct reporting from now on may then be enough; FAST-DS mainly buys certainty for earlier years. Check the totals year by year before paying INR 1 lakh.",

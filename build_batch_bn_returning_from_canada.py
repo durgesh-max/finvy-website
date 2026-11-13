@@ -65,7 +65,7 @@ PAGES = [dict(
             "<strong>CPP and OAS</strong> paid to you in India bear Canadian non-resident tax; check the India-Canada treaty position for your case before filing in India."))
         ,
         ("/ If you returned years ago", "Fix it before 31 December 2026.",
-         ul("Canadian accounts and investments built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (asset up to INR 5 crore).",
+         ul("Canadian accounts and investments built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (foreign assets up to INR 5 crore in total).",
             "TFSA income, interest or dividends earned while resident and ordinarily resident and never offered to tax: <strong>Category 1, 60%</strong> within INR 1 crore.",
             "Declare by 31 December 2026, pay after the Form 2 order, and report every year after.")
          + '<p>Related: <a href="fast-ds-returning-nri-foreign-accounts-not-reported.html">FAST-DS for returning NRIs</a> &middot; <a href="fast-ds-uk-pension-isa-canada-rrsp-australia-super-schedule-fa.html">RRSP, ISA and super in Schedule FA</a> &middot; <a href="indian-ca-for-clients-in-canada.html">Indian CA for clients in Canada</a>.</p>'

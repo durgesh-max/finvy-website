@@ -45,7 +45,7 @@ PAGES = [dict(
     kicker="/ UAE property &middot; FAST-DS nudge &middot; Updated 2026-11-11",
     lead=("Business Standard reported on 26 October 2026, citing Finance Ministry sources, that the Income Tax Department has begun selectively contacting taxpayers who may hold undisclosed residential or commercial property in the UAE, as FAST-DS declarations reached about 1,100. "
           "If you are resident and ordinarily resident in India and own a flat, villa or off-plan unit in Dubai or elsewhere in the UAE that is not in Schedule FA, the cheapest fix closes on 31 December 2026: "
-          "a flat INR 1 lakh under FAST-DS Category 2 if it was bought from income taxed in India or while you were an NRI, and the property is worth up to INR 5 crore."),
+          "a flat INR 1 lakh under FAST-DS Category 2 if it was bought from income taxed in India or while you were an NRI, and your foreign assets total up to INR 5 crore."),
     sections=[
         ("/ Which route fits", "Source of money and value decide it.",
          table(["Your situation", "Route", "Cost"], [
@@ -72,7 +72,7 @@ PAGES = [dict(
     ],
     faqs=[("Is the Income Tax Department contacting people with property in Dubai?", "Yes. Business Standard reported on 26 October 2026, citing Finance Ministry sources, that the department has begun selectively nudging taxpayers who may hold undisclosed UAE residential or commercial property to use FAST-DS before 31 December 2026."),
           ("Is a nudge a tax demand?", "No. It is a prompt to review your return. But it shows the department has information, and after 31 December 2026 the FAST-DS route closes."),
-          ("How much does FAST-DS cost for a Dubai flat?", "INR 1 lakh under Category 2 if it was bought from income taxed in India or while you were an NRI and is worth up to INR 5 crore as on 31 March 2026. Property bought with untaxed money, or rent never taxed, is Category 1 at 60% within INR 1 crore."),
+          ("How much does FAST-DS cost for a Dubai flat?", "INR 1 lakh under Category 2 if it was bought from income taxed in India or while you were an NRI and your foreign assets total up to INR 5 crore as on 31 March 2026. Property bought with untaxed money, or rent never taxed, is Category 1 at 60% within INR 1 crore."),
           ("Is rent from a Dubai property taxable in India?", "Yes, for a resident and ordinarily resident. The UAE has no personal income tax, so there is no foreign tax credit to claim; the rent is taxed in India at slab rates."),
           ("My Dubai property is worth more than INR 5 crore. Can I use FAST-DS?", "Not under Category 2, which is limited to INR 5 crore. You need advice on the regular route, including revised or updated returns where they are still allowed."),
           ("Can BQP handle the declaration?", "Yes. " + CONTACT)],

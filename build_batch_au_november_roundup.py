@@ -4,7 +4,7 @@ from build_lib import page, write_page
 
 CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 LEAD = "CA Durgesh Chavda, Bharat Quantum Prospera"
-UPDATED = "2 November 2026"
+UPDATED = "13 November 2026"
 SLUG = "india-tax-nri-cross-border-news-november-2026"
 
 
@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("13 Nov 2026", "FEMA: where to file compounding for ODI, overseas loans and guarantees",
+     "RBI A.P. (DIR Series) Circular No. 28/2026-27 (23 October 2026) moved compounding of overseas investment, borrowing/lending and guarantee contraventions to seven Regional Offices. Overseas investment cases go by the foreign entity's UIN prefix; cases with no UIN, or mixed categories, stay with CEFA at the Central Office in Mumbai. Procedure and computation are unchanged.",
+     "fema-compounding-odi-rbi-regional-office-uin-circular-28-october-2026.html",
+     ("TaxGuru", "https://taxguru.in/rbi/fema-compounding-overseas-investments-loans-guarantees-delegated-regional-offices-rbi.html")),
     ("13 Nov 2026", "Company law: GIFT IFSC direct listing opened to equity instruments and loss-making companies",
      "G.S.R. 968(E) dated 3 November 2026 amends the listing rules for permissible jurisdictions: equity instruments including convertible debentures and preference shares, unlisted public companies in the IFSC, negative net worth companies with at least 75% of the net offer to QIBs, and offers for sale by eligible existing holders.",
      "direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html",

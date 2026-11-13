@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "fcomp": ("FEMA compounding: new filing point", 'Since 23 October 2026, ODI, overseas loan and guarantee compounding goes to an RBI Regional Office chosen by your UIN prefix (no UIN stays in Mumbai): <a href="fema-compounding-odi-rbi-regional-office-uin-circular-28-october-2026.html">which office handles your case</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -40,6 +41,11 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "fema-compounding-foreign-subsidiary-india.html": ["fcomp"],
+    "best-ca-fema-compounding-voluntary-india.html": ["fcomp"],
+    "fema-breach-found-pre-ma-diligence-urgent-compounding-india.html": ["fcomp"],
+    "form-odi-apr-annual-performance-report-india-2026.html": ["fcomp"],
+    "triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html": ["fcomp"],
     "best-ca-for-us-incorporation-indian-founder-2026.html": ["tri"],
     "delaware-c-corp-vs-llc.html": ["tri"],
     "how-to-flip-indian-company-to-us.html": ["tri"],
@@ -91,7 +97,7 @@ TARGETS = {
     "indian-ca-for-clients-in-canada.html": ["canret"],
     "nri-nre-nro-conversion-returning-india-2026.html": ["retguides", "uaeret"],
     "us-incorporation-for-uk-founders.html": ["chidv"],
-    "ca-for-fema-odi-compliance.html": ["tri", "chidv"],
+    "ca-for-fema-odi-compliance.html": ["tri", "chidv", "fcomp"],
     "uk-ltd-indian-subsidiary-psc-filing-ca.html": ["chidv"],
     "uk-incorporation-indian-founder.html": ["chidv"],
     "dubai-uae-property-not-disclosed-india-income-tax-nudge-fast-ds-2026.html": ["uaedr", "uaeret", "fdlim"],

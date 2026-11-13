@@ -49,7 +49,7 @@ PAGES = [dict(
         ("/ The limits, precisely", "Measured as on 31 March 2026.",
          table(["Category", "Who it is for", "Limit", "Cost under FAST-DS"], [
              ["Category 1", "Undisclosed foreign income, or assets bought from it", "Aggregate up to INR 1 crore", "60% (30% tax + equal additional amount)"],
-             ["Category 2", "Assets from income taxed in India or earned abroad while NRI, missing from Schedule FA", "Asset value up to INR 5 crore", "INR 1 lakh"],
+             ["Category 2", "Assets from income taxed in India or earned abroad while NRI, missing from Schedule FA", "Total foreign asset value up to INR 5 crore", "INR 1 lakh"],
              ["Above either limit", "-", "-", "Not available; regular law applies"]])
          + BOX),
         ("/ What is left above the limit", "Each has limits of its own.",
@@ -69,7 +69,7 @@ PAGES = [dict(
          f'<p><strong>Sources:</strong> Finance Act, 2026, Chapter IV (FAST-DS); Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015, sections 3, 41, 42, 43, 49 and 50; Finance Act, 2025 (updated return period). <em>{UPDATED}</em> General information, not advice for your situation; cases above the limits need individual advice.</p>'),
     ],
     faqs=[("What if my foreign assets are above the FAST-DS limit?", "FAST-DS cannot be used above INR 1 crore (Category 1) or INR 5 crore (Category 2). What remains is the revised return for FY 2025-26, updated returns for earlier years where additional income is involved, documenting the source of the money, and reporting correctly from now on."),
-          ("Is the INR 5 crore limit per asset or in total?", "Check your items against the scheme's rules with an adviser; values are taken as on 31 March 2026, and Category 1 and Category 2 items are counted separately. Use the FAST-DS calculator to split your items first."),
+          ("Is the INR 5 crore limit per asset or in total?", "In total. The official FAST-DS FAQ applies the INR 5 crore Category 2 limit to the aggregate value of the foreign assets, measured as on 31 March 2026, so assets cannot be split to stay under it. Category 1 has its own INR 1 crore aggregate limit."),
           ("Can I use an updated return just to add a foreign asset?", "No. An updated return has to report additional income and increase tax. It cannot be used only to add an asset to Schedule FA, and it is barred after a search, survey or certain notices."),
           ("What does the Black Money Act charge if I do nothing?", "30% tax on the undisclosed foreign income or asset, a penalty of three times that tax, an INR 10 lakh penalty for non-disclosure in the return, and possible prosecution with imprisonment of six months to seven years."),
           ("Does it help to act before 31 December 2026 even if I cannot use FAST-DS?", "Yes. Correcting the latest return, paying tax on income through an updated return where allowed, and documenting the source of funds all narrow the exposure before the department acts."),

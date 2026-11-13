@@ -65,7 +65,7 @@ PAGES = [dict(
             "<strong>Australian property you keep:</strong> rent is taxed in Australia as a foreign resident and, once you are resident and ordinarily resident, in India with credit for the Australian tax."))
         ,
         ("/ If you returned years ago", "Fix it before 31 December 2026.",
-         ul("Super, accounts or shares built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (asset up to INR 5 crore).",
+         ul("Super, accounts or shares built from salary earned while you were an NRI, not shown in Schedule FA after you became resident: <strong>FAST-DS Category 2, INR 1 lakh</strong> (foreign assets up to INR 5 crore in total).",
             "Australian rent, interest or dividends earned while resident and ordinarily resident and never offered to tax in India: <strong>Category 1, 60%</strong> within INR 1 crore.",
             "Declare by 31 December 2026, pay after the Form 2 order, and report every year after.")
          + '<p>Related: <a href="fast-ds-returning-nri-foreign-accounts-not-reported.html">FAST-DS for returning NRIs</a> &middot; <a href="indian-ca-for-clients-in-australia-new-zealand.html">Indian CA for clients in Australia and New Zealand</a> &middot; <a href="returning-to-india-from-uk-isa-uk-pension-property-split-year-india-tax-2026.html">returning from the UK</a> &middot; <a href="returning-to-india-from-canada-rrsp-tfsa-departure-tax-india-tax-2026.html">returning from Canada</a>.</p>'

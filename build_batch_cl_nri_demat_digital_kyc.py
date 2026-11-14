@@ -7,8 +7,9 @@ residents of non-compliant countries stay under existing rules; KYC done before 
 SEBI circular of 11 November 2026: intermediaries that are reporting financial institutions align FATCA/CRS reporting,
 onboarding and KYC with the Income-tax Rules, 2026.
 NRI investing basics: repatriable (NRE) investment in listed shares through the Portfolio Investment Scheme with a
-designated bank; non-repatriable through NRO; an NRI may hold up to 5% of a listed company's paid-up capital, NRIs/OCIs
-together 10% (can be raised to 24% by special resolution); listed equity gains: short-term 20%, long-term 12.5% above
+designated bank (and, since the June 2026 amendments, a designated repatriable rupee account); non-repatriable through NRO;
+NDI (Third Amendment) Rules notified 12 June 2026 (effective 13 June): any individual resident outside India, including
+NRIs and OCIs, may hold below 10% of a listed company's paid-up equity, 24% in aggregate (earlier 5% and 10%); listed equity gains: short-term 20%, long-term 12.5% above
 INR 1.25 lakh a year; tax deducted at source on NRI gains.
 Sources: Moneylife, LiveLaw, Outlook Money, CorpLawUpdates (checked 15 Nov 2026); FEMA NDI Rules, 2019."""
 from urllib.parse import quote
@@ -45,7 +46,7 @@ PAGES = [dict(
     kicker="/ NRI &middot; OCI &middot; Investing &middot; SEBI &middot; Updated 2026-11-15",
     lead=("From <strong>3 December 2026</strong>, NRIs, OCI cardholders and foreign nationals living in <strong>FATF-compliant countries</strong> can complete <strong>KYC digitally from abroad</strong> to open or update Indian broking, demat and other market accounts, without being physically in India (SEBI circular dated <strong>4 November 2026</strong>). "
           "Verification can be done by video, and the intermediary uploads the KYC to the KYC registration agency within three working days. Residents of non-compliant countries stay under the existing rules. "
-          "The FEMA rules on how NRIs invest are unchanged: <strong>repatriable investment in listed shares goes through the Portfolio Investment Scheme (PIS)</strong> linked to an NRE account, non-repatriable investment through NRO, with holding limits and TDS on gains."),
+          "The FEMA rules on how NRIs invest are unchanged: <strong>repatriable investment in listed shares goes through your bank's designated route</strong> (traditionally the Portfolio Investment Scheme linked to an NRE account, and since June 2026 also a designated repatriable rupee account), non-repatriable investment through NRO. Since 13 June 2026 an individual may hold <strong>below 10%</strong> of a listed company (earlier 5%), with a <strong>24%</strong> aggregate."),
     sections=[
         ("/ What changes on 3 December 2026", "Digital KYC from abroad.",
          table(["Point", "Detail"], [
@@ -57,27 +58,27 @@ PAGES = [dict(
              ["Related", "SEBI's 11 November 2026 circular asks intermediaries to align FATCA/CRS self-certification and reporting with the Income-tax Rules, 2026, so expect a declaration request"]])),
         ("/ How NRIs invest in Indian shares", "FEMA rules (unchanged).",
          table(["Topic", "Rule"], [
-             ["Repatriable (NRE)", "Listed shares through the Portfolio Investment Scheme with a designated bank branch, linked to an NRE account and NRE demat"],
+             ["Repatriable (NRE)", "Listed shares through the bank's designated route: the Portfolio Investment Scheme linked to an NRE account, or the designated repatriable rupee account introduced in June 2026; ask your bank which it offers"],
              ["Non-repatriable (NRO)", "Through an NRO account and NRO demat"],
-             ["Holding limits", "One NRI up to 5% of a listed company's paid-up capital; all NRIs and OCIs together 10%, which the company can raise to 24%"],
+             ["Holding limits (from 13 June 2026)", "Any individual resident outside India, including NRIs and OCIs: below 10% of a listed company's paid-up equity; 24% for all such individuals together (earlier 5% and 10% for NRIs/OCIs); see <a href=\"foreign-individuals-invest-indian-listed-shares-fema-schedule-iii-2026.html\">the June 2026 amendment</a>"],
              ["Mutual funds", "Allowed, but some fund houses restrict US and Canada residents because of FATCA; check before investing"],
              ["Tax on listed equity", "Short-term gains 20%; long-term gains 12.5% above INR 1.25 lakh a year; tax deducted at source on NRI gains"]])
          + BOX
          + '<p>Related: <a href="nri-mutual-funds-india-tax.html">NRI mutual funds and tax</a> &middot; <a href="can-oci-open-nre-nro-account-nri-bank-accounts-tax-repatriation-2026.html">NRE vs NRO vs FCNR for NRIs and OCIs</a> &middot; <a href="foreign-individuals-invest-indian-listed-shares-fema-schedule-iii-2026.html">foreign individuals in listed Indian shares</a> &middot; <a href="best-ca-for-nri-tax-return-filing-india-2026.html">NRI tax return</a>.</p>'
-         + f'<p><strong>Sources:</strong> SEBI circular dated 4 November 2026 on KYC for persons resident outside India (effective 3 December 2026); SEBI circular dated 11 November 2026 on FATCA/CRS under the Income-tax Rules, 2026; FEMA (Non-debt Instruments) Rules, 2019 (investment by NRIs and OCIs); Income-tax Act, 2025. Secondary coverage checked 15 November 2026: Moneylife, LiveLaw, Outlook Money, CorpLawUpdates. <em>{UPDATED}</em> General information, not investment advice.</p>'),
+         + f'<p><strong>Sources:</strong> SEBI circular dated 4 November 2026 on KYC for persons resident outside India (effective 3 December 2026); SEBI circular dated 11 November 2026 on FATCA/CRS under the Income-tax Rules, 2026; FEMA (Non-debt Instruments) Rules, 2019 and (Third Amendment) Rules, 2026 notified 12 June 2026 (investment by individuals resident outside India); Income-tax Act, 2025. Secondary coverage checked 15 November 2026: Moneylife, LiveLaw, Outlook Money, CorpLawUpdates. <em>{UPDATED}</em> General information, not investment advice.</p>'),
     ],
     faqs=[("Can NRIs complete KYC online from abroad for a demat account?", "Yes, from 3 December 2026, if they live in a FATF-compliant country. SEBI's 4 November 2026 circular removes the need to be physically in India for digital KYC; verification can be done by video."),
           ("Does this apply to OCI cardholders?", "Yes. It covers individual persons resident outside India, including NRIs, OCIs and foreign nationals, living in FATF-compliant countries."),
           ("What if I live in a country that is not FATF-compliant?", "The existing KYC requirements continue to apply to you."),
-          ("Do NRIs still need a PIS account to trade shares?", "For repatriable investment in listed shares, yes: through the Portfolio Investment Scheme with a designated bank, linked to an NRE account. Non-repatriable investment goes through NRO."),
-          ("How much can an NRI hold in one listed company?", "Up to 5% of its paid-up capital; all NRIs and OCIs together up to 10%, which the company can raise to 24%."),
+          ("Do NRIs still need a PIS account to trade shares?", "Repatriable investment in listed shares goes through the bank's designated route: the PIS account linked to NRE, or the designated repatriable rupee account introduced in June 2026. Non-repatriable investment goes through NRO."),
+          ("How much can an NRI hold in one listed company?", "Since 13 June 2026, below 10% of its paid-up equity (earlier 5%), with 24% for all individual non-resident investors together."),
           ("How are NRI share gains taxed?", "Listed equity: short-term gains at 20%, long-term gains at 12.5% above INR 1.25 lakh a year, with tax deducted at source."),
           ("Can BQP help?", "Yes. " + CONTACT)],
     related=[("nri-mutual-funds-india-tax.html", "NRI mutual funds and tax"), ("can-oci-open-nre-nro-account-nri-bank-accounts-tax-repatriation-2026.html", "NRE vs NRO vs FCNR"),
              ("foreign-individuals-invest-indian-listed-shares-fema-schedule-iii-2026.html", "Foreign individuals in listed shares")],
     cta_h="Investing in Indian markets from abroad?", cta_b=CONTACT,
-    keywords="NRI digital KYC from abroad SEBI, NRI demat account online from abroad, OCI demat account KYC, SEBI circular 4 November 2026 KYC NRI, FATF compliant countries KYC NRI, NRI PIS account, NRI trading account India 2026, NRI share tax India",
-    desc="SEBI's 4 November 2026 circular lets NRIs, OCIs and foreign nationals in FATF-compliant countries complete KYC digitally from abroad from 3 December 2026. What changes, PIS and NRE/NRO routes, holding limits and tax on NRI share gains.",
+    keywords="NRI digital KYC from abroad SEBI, NRI demat account online from abroad, OCI demat account KYC, SEBI circular 4 November 2026 KYC NRI, FATF compliant countries KYC NRI, NRI PIS account, NRI 10% limit listed company 2026, NRI trading account India 2026, NRI share tax India",
+    desc="SEBI's 4 November 2026 circular lets NRIs, OCIs and foreign nationals in FATF-compliant countries complete KYC digitally from abroad from 3 December 2026. What changes, PIS and NRE/NRO routes, the June 2026 limits (below 10% per individual, 24% aggregate) and tax on NRI share gains.",
     howto={"name": "How an NRI opens an Indian demat and trading account from abroad", "description": "Steps from 3 December 2026.", "steps": [
         {"name": "Choose the route", "text": "Repatriable (NRE with PIS) or non-repatriable (NRO)."},
         {"name": "Complete digital KYC", "text": "Submit KYC documents online and complete video verification with the broker or depository participant."},

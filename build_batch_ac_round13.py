@@ -355,8 +355,8 @@ PAGES = [
             ("/ Indian branch of Dubai entity", "PE + tax exposure.",
              "<ul>"
              "<li><strong>Liaison Office (LO)</strong>: representational only - no business activity. No tax liability if genuine LO. RBI approval + annual Form LO reporting + CA certificate.</li>"
-             "<li><strong>Project Office (PO)</strong>: specific project execution. Business income taxable in India as PE profit at 40% + surcharge + cess + Section 195 TDS on remittances.</li>"
-             "<li><strong>Branch Office (BO)</strong>: specific permitted activities (export / import / consultancy specific). Business income taxable at 40% + surcharge + cess.</li>"
+             "<li><strong>Project Office (PO)</strong>: specific project execution. Business income taxable in India as PE profit at 35% + surcharge + cess + Section 195 TDS on remittances.</li>"
+             "<li><strong>Branch Office (BO)</strong>: specific permitted activities (export / import / consultancy specific). Business income taxable at 35% + surcharge + cess.</li>"
              "<li>India-UAE DTAA Article 5 PE definition + Article 7 business profits attributable to PE.</li>"
              "<li>Transfer pricing: Form 3CEB mandatory for AE transactions between Dubai parent + Indian branch.</li>"
              "</ul>"),
@@ -364,7 +364,7 @@ PAGES = [
              "<ul>"
              "<li>LO: no profits (representational) - no repatriation issue.</li>"
              "<li>PO: project completion → PO closes + residual balances repatriated.</li>"
-             "<li>BO: branch profits remittable after corporate tax paid in India (40%+) + Form 15CA/15CB + AD bank.</li>"
+             "<li>BO: branch profits remittable after corporate tax paid in India (35%+) + Form 15CA/15CB + AD bank.</li>"
              "<li>Repatriation requires: audited financial statements + Form 15CB CA certificate + Form 15CA e-filing + specific supporting documentation.</li>"
              "<li>Dubai parent receives remittance: UAE 9% CT on business income from Indian branch (specific DTAA relief for Indian tax paid).</li>"
              "<li>FTC: UAE CT allows credit for Indian corporate tax paid (specific limitations + treaty).</li>"
@@ -383,7 +383,7 @@ PAGES = [
             ("/ Common structuring triggers", "Scenarios.",
              "<ul>"
              "<li><strong>UAE free zone trading company + Indian LO for market representation</strong>: standard, no Indian tax, annual Form LO filing.</li>"
-             "<li><strong>UAE engineering firm + Indian PO for specific project</strong>: project profits taxable in India at 40%+; corresponding adjustment UAE side.</li>"
+             "<li><strong>UAE engineering firm + Indian PO for specific project</strong>: project profits taxable in India at 35%+; corresponding adjustment UAE side.</li>"
              "<li><strong>UAE consultancy + Indian BO for consultancy delivery</strong>: branch business profits in India + transfer pricing + specific DTAA relief.</li>"
              "<li><strong>UAE holding + Indian subsidiary (not branch)</strong>: specific different framework - FEMA FC-GPR + dividend repatriation + Section 195 TDS.</li>"
              "<li><strong>UAE free zone + Indian branch dealing with mainland UAE</strong>: specific QFZP conditions assessment required.</li>"
@@ -405,9 +405,9 @@ PAGES = [
             ("What's UAE 9% CT impact on Dubai parent of Indian branch?",
              "9% UAE CT on Dubai parent's business income (including Indian branch profits). India-UAE DTAA provides FTC for Indian corporate tax paid - typically credit available up to UAE CT on same income. Dubai parent net tax: UAE CT - credit for Indian tax. QFZP status (if applicable) may preserve 0% CT on qualifying income."),
             ("Does Indian LO have Indian tax exposure?",
-             "No if genuine liaison (representational only - no business activity, no sales, no contracts). Must comply: RBI approval + annual Form LO + CA certificate. If Indian tax officer finds LO conducting business activity: deemed PE + Section 9(1)(i) business connection + branch taxation at 40%+."),
+             "No if genuine liaison (representational only - no business activity, no sales, no contracts). Must comply: RBI approval + annual Form LO + CA certificate. If Indian tax officer finds LO conducting business activity: deemed PE + Section 9(1)(i) business connection + branch taxation at 35%+."),
             ("What's the repatriation process from Indian branch to Dubai?",
-             "Audit financial statements + file ITR + pay Indian corporate tax 40%+ + prepare Form 15CB CA certificate + file Form 15CA e-filing + AD bank processes remittance. BQP standard turnaround 2-4 weeks post ITR + Form 15CB execution."),
+             "Audit financial statements + file ITR + pay Indian corporate tax 35%+ + prepare Form 15CB CA certificate + file Form 15CA e-filing + AD bank processes remittance. BQP standard turnaround 2-4 weeks post ITR + Form 15CB execution."),
             ("Does BEPS Pillar 2 affect UAE free zone + Indian branch?",
              "Yes if MNE consolidated revenue EUR 750M+. UAE QDMTT from FY 2024: 15% minimum effective rate. India QDMTT + IIR from FY 2025-26. QFZP 0% UAE CT may trigger specific top-up calculation. BQP + UAE partner Pillar 2 assessment + specific jurisdictional analysis."),
             ("Does BQP handle Dubai + Indian branch integrated engagement?",

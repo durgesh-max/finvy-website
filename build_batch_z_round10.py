@@ -490,7 +490,7 @@ PAGES = [
              "</ul>"
              "<p><strong>Q4: Specific narrow operational scope (export/import, consultancy, R&D)?</strong></p>"
              "<ul>"
-             "<li>Yes + parent wants direct accountability (branch's acts bind parent) → Branch Office (RBI prior approval + 40% branch tax + narrow permitted activities).</li>"
+             "<li>Yes + parent wants direct accountability (branch's acts bind parent) → Branch Office (RBI prior approval + 35% branch tax + narrow permitted activities).</li>"
              "<li>No → continue to Q5.</li>"
              "</ul>"
              "<p><strong>Q5: Sector-restricted FDI OR specific partnership strategic value with Indian partner?</strong></p>"
@@ -506,13 +506,13 @@ PAGES = [
              "<tr><td style='padding:5px;border:1px solid #ece4d5'>Can invoice?</td><td style='padding:5px;border:1px solid #ece4d5'>Yes</td><td style='padding:5px;border:1px solid #ece4d5'>Yes (narrow)</td><td style='padding:5px;border:1px solid #ece4d5'>NO</td><td style='padding:5px;border:1px solid #ece4d5'>Project-only</td><td style='padding:5px;border:1px solid #ece4d5'>Yes</td></tr>"
              "<tr><td style='padding:5px;border:1px solid #ece4d5'>Setup time</td><td style='padding:5px;border:1px solid #ece4d5'>30-45 days</td><td style='padding:5px;border:1px solid #ece4d5'>2-4 months</td><td style='padding:5px;border:1px solid #ece4d5'>2-4 months</td><td style='padding:5px;border:1px solid #ece4d5'>2-3 months</td><td style='padding:5px;border:1px solid #ece4d5'>30-45 days</td></tr>"
              "<tr><td style='padding:5px;border:1px solid #ece4d5'>RBI approval</td><td style='padding:5px;border:1px solid #ece4d5'>No (FDI auto)</td><td style='padding:5px;border:1px solid #ece4d5'>YES</td><td style='padding:5px;border:1px solid #ece4d5'>YES</td><td style='padding:5px;border:1px solid #ece4d5'>YES</td><td style='padding:5px;border:1px solid #ece4d5'>No</td></tr>"
-             "<tr><td style='padding:5px;border:1px solid #ece4d5'>Tax rate</td><td style='padding:5px;border:1px solid #ece4d5'>22% (115BAA) / 25%</td><td style='padding:5px;border:1px solid #ece4d5'>40%+ (branch)</td><td style='padding:5px;border:1px solid #ece4d5'>No tax</td><td style='padding:5px;border:1px solid #ece4d5'>40%+ branch</td><td style='padding:5px;border:1px solid #ece4d5'>22% (115BAA) / 25%</td></tr>"
+             "<tr><td style='padding:5px;border:1px solid #ece4d5'>Tax rate</td><td style='padding:5px;border:1px solid #ece4d5'>22% (115BAA) / 25%</td><td style='padding:5px;border:1px solid #ece4d5'>35%+ (branch)</td><td style='padding:5px;border:1px solid #ece4d5'>No tax</td><td style='padding:5px;border:1px solid #ece4d5'>35%+ branch</td><td style='padding:5px;border:1px solid #ece4d5'>22% (115BAA) / 25%</td></tr>"
              "<tr><td style='padding:5px;border:1px solid #ece4d5'>Repatriation</td><td style='padding:5px;border:1px solid #ece4d5'>Dividend / royalty / buyback</td><td style='padding:5px;border:1px solid #ece4d5'>Post-tax profit remit</td><td style='padding:5px;border:1px solid #ece4d5'>Reimbursement</td><td style='padding:5px;border:1px solid #ece4d5'>Project surplus</td><td style='padding:5px;border:1px solid #ece4d5'>Dividend etc.</td></tr>"
              "<tr><td style='padding:5px;border:1px solid #ece4d5'>Closure</td><td style='padding:5px;border:1px solid #ece4d5'>Medium</td><td style='padding:5px;border:1px solid #ece4d5'>High (RBI)</td><td style='padding:5px;border:1px solid #ece4d5'>Simpler</td><td style='padding:5px;border:1px solid #ece4d5'>Project-end</td><td style='padding:5px;border:1px solid #ece4d5'>Medium</td></tr>"
              "</table>"),
             ("/ Why WOS wins 90% of foreign-entrant decisions", "The default rationale.",
              "<ul>"
-             "<li><strong>Lower tax</strong>: 115BAA 22% effective 25.17% vs Branch 40%+ (branch tax rate for foreign company).</li>"
+             "<li><strong>Lower tax</strong>: 115BAA 22% effective 25.17% vs Branch 35%+ (branch tax rate for foreign company).</li>"
              "<li><strong>No RBI prior approval</strong>: FDI automatic route in most sectors - 30-45 day setup vs 2-4 months for Branch / Liaison.</li>"
              "<li><strong>Operational flexibility</strong>: can enter any lawful business + hire employees + sign long-term customer contracts + raise local debt + eventual IPO.</li>"
              "<li><strong>Exit flexibility</strong>: sell shares to Indian / foreign buyer + buyback + voluntary winding up.</li>"
@@ -531,10 +531,10 @@ PAGES = [
              "<p><em>Last updated: 2026-10-23.</em></p>"),
         ],
         "faqs": [
-            ("Why do 90% of foreign entrants choose WOS?",
-             "Lower tax (115BAA 22% vs Branch 40%+), no RBI prior approval (FDI automatic route - 30-45 day setup vs 2-4 months Branch/Liaison), operational flexibility (any lawful business + employees + customers), exit flexibility (sell/buyback/winding up), liability shield (WOS liability stays with WOS). Default decision for most foreign companies entering India for business."),
+            ("Why do most foreign entrants choose WOS?",
+             "Lower tax (115BAA 22% vs Branch 35%+), no RBI prior approval (FDI automatic route - 30-45 day setup vs 2-4 months Branch/Liaison), operational flexibility (any lawful business + employees + customers), exit flexibility (sell/buyback/winding up), liability shield (WOS liability stays with WOS). Default decision for most foreign companies entering India for business."),
             ("When does Branch Office make sense?",
-             "Narrow operational scope matching permitted activities (export/import, consultancy, R&D, specific agency, buying/selling agent). Parent prefers direct accountability + specific sector tradition. Short-medium term presence. Parent OK with branch 40%+ tax rate vs 22% WOS. 2-4 month RBI prior approval cycle acceptable."),
+             "Narrow operational scope matching permitted activities (export/import, consultancy, R&D, specific agency, buying/selling agent). Parent prefers direct accountability + specific sector tradition. Short-medium term presence. Parent OK with branch 35%+ tax rate vs 22% WOS. 2-4 month RBI prior approval cycle acceptable."),
             ("Can a foreign company own 100% of Indian WOS?",
              "Yes - via FDI automatic route in most sectors. Prohibited sectors: lottery, chit funds, real estate dealing, atomic energy. Capped sectors: multi-brand retail 51%, print media 26%, defence 74%, insurance 74% (post 2024). Press Note 3 restriction: investment from land-bordering country (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan) requires prior government approval regardless of sector."),
             ("Does foreign company need resident director?",

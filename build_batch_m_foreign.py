@@ -963,7 +963,7 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
     keywords="branch office vs liaison office India, WOS vs branch office India, India entity options foreign company, Pvt Ltd vs branch India, LLP India foreign",
     hero_kicker="/ Foreign Clients &middot; Entity Comparison &middot; Updated 2026-10-13",
     hero_title_html="Branch vs Liaison vs WOS, <em>which India entity fits.</em>",
-    hero_lead="Foreign company evaluating India entry has five legal options. Each has different RBI approval, permitted activities, tax position, FDI treatment, and closure complexity. The right choice depends on scope + duration + revenue model + risk appetite. For 90% of companies, WOS Pvt Ltd is the answer. For the 10% exceptions, here's the detailed comparison.",
+    hero_lead="Foreign company evaluating India entry has five legal options. Each has different RBI approval, permitted activities, tax position, FDI treatment, and closure complexity. The right choice depends on scope + duration + revenue model + risk appetite. For most companies, WOS Pvt Ltd is the answer. For the 10% exceptions, here's the detailed comparison.",
     sections=[
         ("/ The five options at a glance", "Comparison table.",
          "<table style='width:100%;border-collapse:collapse;margin:12px 0;font:400 12px Inter'>"
@@ -972,7 +972,7 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>Can invoice?</td><td style='padding:6px;border:1px solid #ece4d5'>Yes</td><td style='padding:6px;border:1px solid #ece4d5'>Yes (narrow)</td><td style='padding:6px;border:1px solid #ece4d5'>NO</td><td style='padding:6px;border:1px solid #ece4d5'>Project-specific</td><td style='padding:6px;border:1px solid #ece4d5'>Yes</td></tr>"
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>RBI prior approval</td><td style='padding:6px;border:1px solid #ece4d5'>No (automatic FDI)</td><td style='padding:6px;border:1px solid #ece4d5'>YES</td><td style='padding:6px;border:1px solid #ece4d5'>YES</td><td style='padding:6px;border:1px solid #ece4d5'>YES</td><td style='padding:6px;border:1px solid #ece4d5'>No (automatic in specific sectors)</td></tr>"
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>FDI permitted</td><td style='padding:6px;border:1px solid #ece4d5'>Most sectors 100%</td><td style='padding:6px;border:1px solid #ece4d5'>N/A (not FDI)</td><td style='padding:6px;border:1px solid #ece4d5'>N/A</td><td style='padding:6px;border:1px solid #ece4d5'>N/A</td><td style='padding:6px;border:1px solid #ece4d5'>Limited</td></tr>"
-         "<tr><td style='padding:6px;border:1px solid #ece4d5'>Tax rate</td><td style='padding:6px;border:1px solid #ece4d5'>25% / 22% (115BAA)</td><td style='padding:6px;border:1px solid #ece4d5'>40%+ (branch tax)</td><td style='padding:6px;border:1px solid #ece4d5'>No tax (no income)</td><td style='padding:6px;border:1px solid #ece4d5'>40%+ branch rate</td><td style='padding:6px;border:1px solid #ece4d5'>30%+ (slab/alternate)</td></tr>"
+         "<tr><td style='padding:6px;border:1px solid #ece4d5'>Tax rate</td><td style='padding:6px;border:1px solid #ece4d5'>25% / 22% (115BAA)</td><td style='padding:6px;border:1px solid #ece4d5'>35%+ (branch tax)</td><td style='padding:6px;border:1px solid #ece4d5'>No tax (no income)</td><td style='padding:6px;border:1px solid #ece4d5'>35%+ branch rate</td><td style='padding:6px;border:1px solid #ece4d5'>30%+ (slab/alternate)</td></tr>"
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>Resident director</td><td style='padding:6px;border:1px solid #ece4d5'>YES (min 1)</td><td style='padding:6px;border:1px solid #ece4d5'>No (authorised rep)</td><td style='padding:6px;border:1px solid #ece4d5'>No (authorised rep)</td><td style='padding:6px;border:1px solid #ece4d5'>No</td><td style='padding:6px;border:1px solid #ece4d5'>YES (1 designated partner)</td></tr>"
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>Repatriation</td><td style='padding:6px;border:1px solid #ece4d5'>Dividend / royalty / buyback</td><td style='padding:6px;border:1px solid #ece4d5'>Remittance of profits (post tax)</td><td style='padding:6px;border:1px solid #ece4d5'>No profits (reimbursement)</td><td style='padding:6px;border:1px solid #ece4d5'>Project surplus</td><td style='padding:6px;border:1px solid #ece4d5'>Distribution to partners</td></tr>"
          "<tr><td style='padding:6px;border:1px solid #ece4d5'>Closure complexity</td><td style='padding:6px;border:1px solid #ece4d5'>Medium</td><td style='padding:6px;border:1px solid #ece4d5'>High (RBI approval)</td><td style='padding:6px;border:1px solid #ece4d5'>Simpler (RBI approval)</td><td style='padding:6px;border:1px solid #ece4d5'>Project-end</td><td style='padding:6px;border:1px solid #ece4d5'>Medium</td></tr>"
@@ -991,7 +991,7 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
          "<li>Narrow operational scope (export/import, consultancy, R&amp;D, agent).</li>"
          "<li>Parent prefers direct accountability (branch's acts bind parent legally).</li>"
          "<li>Sector where branch form is traditional (banks, insurance, airlines).</li>"
-         "<li>Short-medium term presence; parent OK with branch tax rate (~40% vs 25% WOS).</li>"
+         "<li>Short-medium term presence; parent OK with branch tax rate (~35% vs 25% WOS).</li>"
          "</ul>"
          "<p><strong>Liaison Office</strong>:</p>"
          "<ul>"
@@ -1026,14 +1026,14 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
          "<li>&nbsp;&nbsp;&mdash; IT and software services.</li>"
          "<li>&nbsp;&nbsp;&mdash; Technical support services.</li>"
          "<li>&nbsp;&nbsp;&mdash; Foreign airline/shipping company agency.</li>"
-         "<li>Tax: 40% + surcharge + cess (branch of foreign company) = ~43.68% effective. Materially higher than WOS 25%.</li>"
+         "<li>Tax: 35% + surcharge + cess (branch of foreign company) = ~38.22% effective (35% base rate from AY 2025-26). Materially higher than WOS 25%.</li>"
          "<li>No separate legal entity &mdash; branch's acts legally bind foreign parent.</li>"
          "<li>Annual filings: audit, Income Tax, Form 29B (if MAT applicable), FLA Return.</li>"
          "</ul>"),
         ("/ Why most foreign companies choose WOS", "The economics.",
          "<p>Over 95% of foreign-origin new Indian entities in 2024-25 are WOS Pvt Ltd. Reasons:</p>"
          "<ul>"
-         "<li><strong>Lower tax</strong>: 25% (standard) or 22% (Section 115BAA) &mdash; vs 40%+ for Branch.</li>"
+         "<li><strong>Lower tax</strong>: 25% (standard) or 22% (Section 115BAA) &mdash; vs 35%+ for Branch.</li>"
          "<li><strong>No RBI prior approval</strong>: automatic FDI route for most sectors &rarr; 30-45 day setup vs 2-4 months for Branch.</li>"
          "<li><strong>Operational flexibility</strong>: can enter any lawful business, hire employees, sign long-term customer contracts, raise local debt, IPO in India later.</li>"
          "<li><strong>Exit flexibility</strong>: sell shares to Indian / foreign buyer, buyback, voluntary winding up &mdash; all simpler than Branch closure.</li>"
@@ -1045,17 +1045,17 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
     ],
     faqs=[
         ("Why would a foreign company choose Branch Office instead of WOS?",
-         "Narrow permitted scope aligns with parent's needs (consultancy, R&D, buying/selling agent, foreign airline/shipping agency). Parent prefers direct accountability (branch's acts bind parent). Some regulated sectors (banks, airlines, insurance) traditionally use branch form. However, Branch has higher tax rate (~43.7% effective vs 25% WOS) and RBI prior approval (2-4 months) - most foreign entrants prefer WOS."),
+         "Narrow permitted scope aligns with parent's needs (consultancy, R&D, buying/selling agent, foreign airline/shipping agency). Parent prefers direct accountability (branch's acts bind parent). Some regulated sectors (banks, airlines, insurance) traditionally use branch form. However, Branch has higher tax rate (~38.2% effective vs 25% WOS) and RBI prior approval (2-4 months) - most foreign entrants prefer WOS."),
         ("What's the difference between Branch and Liaison Office?",
          "Branch Office can conduct commercial activity (invoice Indian customers for permitted activities, generate revenue). Liaison Office cannot - purely representational (market research, communication, promotion). Liaison's expenses funded by parent remittance; no local income. Both require RBI prior approval. Liaison is typically precursor to upgrading to Branch or WOS once commercial activity planned."),
         ("Can a foreign company open an LLP in India?",
          "Yes - with restrictions. FDI into LLP permitted via automatic route in sectors where 100% FDI is allowed without any performance-linked conditions. Most IT / SaaS / services sectors qualify. Not permitted in sectors with FDI conditions (defence, insurance, retail trading). For foreign-parent entrants with pure services business, LLP can be an alternative to Pvt Ltd WOS - but rare in practice."),
         ("Which entity has the lowest tax rate for a foreign company in India?",
-         "WOS Pvt Ltd under Section 115BAA: 22% + 10% surcharge + 4% cess = 25.17% effective. Branch Office of foreign company: 40% + 5% surcharge + 4% cess = 43.68% effective. LLP: 30% + surcharge + cess = ~34.94% effective (plus 30% alternate minimum tax on adjusted total income). WOS Pvt Ltd is materially the most tax-efficient."),
+         "WOS Pvt Ltd under Section 115BAA: 22% + 10% surcharge + 4% cess = 25.17% effective. Branch Office of foreign company: 35% + 5% surcharge + 4% cess = 38.22% effective (cut from 40% from AY 2025-26). LLP: 30% + surcharge + cess = ~34.94% effective (plus 30% alternate minimum tax on adjusted total income). WOS Pvt Ltd is materially the most tax-efficient."),
         ("How long does Branch Office setup take?",
          "2-4 months typical: Form FNC filing to AD-I bank (1 month compilation of parent docs + apostille), RBI review + approval (1-3 months). Add 1-2 months for bank account opening + PAN + GST post-approval. End-to-end 3-6 months. Compares with 30-45 days for WOS - a key reason WOS is preferred when parent flexibility is on timeline."),
         ("Does BQP handle all five entity structures for foreign companies?",
-         "Yes - WOS Pvt Ltd (default, 90% of our foreign-client work), Branch Office (RBI Form FNC coordination + ongoing compliance), Liaison Office (FNC filing + annual reporting), Project Office (specific project + closure), LLP (where appropriate). Structure recommendation + end-to-end execution + annual compliance under one engagement. WhatsApp +91 78018 87130."),
+         "Yes - WOS Pvt Ltd (the usual choice for foreign entrants), Branch Office (RBI Form FNC coordination + ongoing compliance), Liaison Office (FNC filing + annual reporting), Project Office (specific project + closure), LLP (where appropriate). Structure recommendation + end-to-end execution + annual compliance under one engagement. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("foreign-company-setup-indian-subsidiary-wos.html", "Guide", "WOS Setup"),

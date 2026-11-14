@@ -4,7 +4,7 @@ from build_lib import page, write_page
 
 CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 LEAD = "CA Durgesh Chavda, Bharat Quantum Prospera"
-UPDATED = "14 November 2026"
+UPDATED = "15 November 2026"
 SLUG = "india-tax-nri-cross-border-news-november-2026"
 
 
@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("15 Nov 2026", "SEBI: NRIs and OCIs can complete market KYC from abroad from 3 December",
+     "A SEBI circular dated 4 November 2026 lets intermediaries accept digital KYC and re-KYC from NRIs, OCIs and foreign nationals living in FATF-compliant countries without being physically in India, with video verification, from 3 December 2026. A separate 11 November circular aligns FATCA/CRS self-certification with the Income-tax Rules, 2026.",
+     "nri-oci-demat-trading-account-digital-kyc-from-abroad-sebi-3-december-2026.html",
+     ("Moneylife", "https://www.moneylife.in/article/sebi-eases-kyc-process-for-nris-ocis-and-foreign-nationals-allows-digital-onboarding-from-fatfcompliant-countries/82124.html")),
     ("14 Nov 2026", "Foreign digital companies: significant economic presence under the new Income-tax Act",
      "With the equalisation levy gone (2% ended 1 August 2024, 6% ended 1 April 2025), Indian revenue of foreign SaaS, app and ad businesses is tested under section 9 of the Income-tax Act, 2025: payments from India above INR 2 crore or 3 lakh users in India create a business connection. Treaty-country companies with a TRC and Form 10F (Form 41) and no PE are usually protected.",
      "significant-economic-presence-foreign-saas-app-company-india-2-crore-3-lakh-users-2026.html",

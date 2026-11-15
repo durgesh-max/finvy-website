@@ -165,8 +165,8 @@ faqs = [
 ]
 
 html = page(slug=SLUG,
-            title="Residential Status Calculator India: NRI, RNOR or Resident Under Section 6 (1961 and 2025 Acts)",
-            description="Free residential status calculator for individuals under section 6 of the Income-tax Act, 1961 (FY 2025-26) and the Income-tax Act, 2025 (tax year 2026-27): 182-day, 60/120-day and 365-day tests, deemed resident, RNOR. Built from the official statutory text, with a travel-date day counter.",
+            title="NRI Days Calculator and Residential Status Calculator India (2026): 182, 120 and 60-Day Tests, NRI, RNOR or Resident",
+            description="Free NRI days calculator and residential status calculator for individuals under section 6 of the Income-tax Act, 1961 (FY 2025-26) and the Income-tax Act, 2025 (tax year 2026-27): 182-day, 60/120-day and 365-day tests, deemed resident, RNOR. Built from the official statutory text, with a travel-date day counter.",
             keywords="residential status calculator, NRI status calculator India, RNOR calculator, section 6 residential status, 182 days rule calculator, 120 days rule NRI, deemed resident calculator, residential status income tax act 2025",
             hero_kicker="/ Free Tool &middot; Residential Status &middot; Updated 2026-11-03",
             hero_title_html="Residential Status Calculator, <em>NRI, RNOR or resident under section 6.</em>",

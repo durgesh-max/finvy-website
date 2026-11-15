@@ -231,7 +231,7 @@ write_page("ca-for-fema-odi-compliance", page(
          "<li><strong>Pre-investment scoping</strong> &mdash; eligibility under Automatic Route vs Approval Route, LRS limit check, Press Note 3 analysis if any beneficial owner from land-border country.</li>"
          "<li><strong>Valuation certificate</strong> &mdash; SEBI-registered Merchant Banker certificate for pricing-guideline compliance on the overseas investment.</li>"
          "<li><strong>Authorised Dealer bank co-ordination</strong> &mdash; outward remittance via your Indian bank's forex desk (HDFC, ICICI, Axis, SBI).</li>"
-         "<li><strong>Form ODI filing</strong> &mdash; filed within 30 days of outward remittance via the AD bank. Form ODI Part I for first-time investment, Part II for additional investment in existing structure.</li>"
+         "<li><strong>Form ODI filing</strong> &mdash; reported in Form FC (which replaced Form ODI Part I in August 2022) through the AD bank when the investment is made; RBI allots a UIN; evidence of investment within six months; Form APR every year by 31 December.</li>"
          "<li><strong>UIN</strong> (Unique Identification Number) &mdash; obtained from RBI; stored; all subsequent reporting references this UIN.</li>"
          "<li><strong>Annual Performance Report (APR)</strong> &mdash; filed annually within 60 days of financial year-end, reporting the overseas entity's performance.</li>"
          "<li><strong>Disinvestment reporting</strong> &mdash; if the Indian investor sells or exits the overseas entity, Form ODI Part III within 30 days.</li>"
@@ -255,7 +255,7 @@ write_page("ca-for-fema-odi-compliance", page(
         ("What is the LRS limit for overseas investment?",
          "USD 250,000 per financial year per Indian resident individual under the Liberalised Remittance Scheme (LRS). Covers investment, education, medical, travel, maintenance of relatives abroad. Investment-specific sub-limits apply (e.g., equity investment capped at the LRS limit itself)."),
         ("What is Form ODI Part I vs Part II vs Part III?",
-         "Part I: first-time overseas investment in a new overseas entity. Part II: additional investment in an existing overseas entity (already has UIN). Part III: disinvestment or exit from an overseas entity. Each filed within 30 days of the relevant event."),
+         "Since the Overseas Investment Rules and Directions of August 2022 the old Form ODI parts are replaced: Form FC reports each financial commitment (first investment and later ones under the same UIN), Form APR is the annual performance report due 31 December, Form FLA is the annual return on foreign assets and liabilities, and a sale or exit (disinvestment) is reported through the AD bank within 30 days."),
         ("What is Annual Performance Report (APR)?",
          "An annual filing under FEMA ODI framework reporting the overseas entity's performance (financial results, operations, dividend/royalty flows back to India). Filed within 60 days of the overseas entity's financial year-end. Mandatory even if the entity is dormant."),
         ("What happens if I miss FEMA ODI filings?",
@@ -485,7 +485,7 @@ write_page("ca-firm-for-indian-startup-going-us", page(
 # 8. US Company Registration from India 2026
 write_page("us-company-registration-from-india-2026", page(
     slug="us-company-registration-from-india-2026",
-    title="US Company Registration from India 2026 | Complete Guide + Service - BQP",
+    title="US Company Registration from India (2026): Delaware vs Wyoming, EIN Without SSN, US Bank Account and FEMA ODI - BQP",
     description="Complete 2026 guide to US company registration from India: Delaware C-Corp vs Wyoming LLC, EIN without SSN, Mercury bank, FEMA ODI, Form 5472, Delaware franchise tax. Bharat Quantum Prospera handles end-to-end. ICAI-qualified CA.",
     keywords="US company registration from India 2026, register US company from India, how to register US company India, Delaware company from India 2026, US LLC registration India 2026",
     hero_kicker="/ US Company Registration from India &middot; 2026",
@@ -499,7 +499,7 @@ write_page("us-company-registration-from-india-2026", page(
          "<li><strong>Appoint registered agent</strong> in state. Required for every US entity.</li>"
          "<li><strong>Obtain EIN</strong> via Form SS-4. Non-SSN founders use fax or international phone route. Phone (+1-267-941-1099) is faster &mdash; same-day EIN possible. Fax typically 4-8 weeks.</li>"
          "<li><strong>Open US business bank account.</strong> Mercury or Brex are the standard options for Indian founders. Fully remote onboarding. 2-4 weeks.</li>"
-         "<li><strong>FEMA ODI</strong> on India side. Outward remittance via your Indian authorised dealer bank (HDFC / ICICI / Axis / SBI). Form ODI filed within 30 days via the AD bank. UIN obtained from RBI.</li>"
+         "<li><strong>FEMA ODI</strong> on India side. Outward remittance via your Indian authorised dealer bank (HDFC / ICICI / Axis / SBI). Investment reported in Form FC (which replaced Form ODI Part I in August 2022) through the AD bank; RBI allots a UIN; evidence of investment (share certificate) to the bank within six months; Form APR every 31 December. A resident individual can invest only in an operating foreign entity, within the LRS limit of USD 250,000 a financial year, and, where the individual has control, not in one engaged in financial services or one with its own subsidiary or step-down subsidiary.</li>"
          "<li><strong>Set up year-1 compliance.</strong> Delaware franchise tax (annual, 1 March), Form 5472 (foreign-owned LLC, 15 April), Form 1120 (C-Corp), state registrations.</li>"
          "</ol>"
          "<p>Total timeline: 3-6 weeks from kickoff to funded Mercury account.</p>"),

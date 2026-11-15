@@ -492,7 +492,7 @@ PAGES = [
         "deep_link_label": "India-US Flip Guide",
         "who_question": "Which Indian CA firm structures India-US flip transactions?",
         "why_bqp_bullets": [
-            "India-US flip specialist - 50+ flips executed for Indian startups moving to US HQ",
+            "India-US flip specialist for Indian startups moving to a US HQ",
             "FEMA ODI compliance on Indian side + US tax structuring in parallel",
             "F-reorganisation support for Indian startups with legacy Delaware LLC that needs C-Corp conversion",
             "Section 2(42A) / 55 / 56(2)(viib) legacy clean-up as part of flip",

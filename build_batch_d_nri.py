@@ -50,8 +50,8 @@ write_page("nri-taxation-india-complete-guide", page(
         ("/ NRE, NRO and FCNR accounts", "Where NRIs hold money &mdash; and the tax rules.",
          "<p><strong>NRE (Non-Resident External) account:</strong> rupee-denominated, maintained from foreign earnings. Interest earned on NRE deposits is <strong>exempt from Indian tax</strong> (Section 10(4)(ii)). Principal and interest are fully repatriable.</p>"
          "<p><strong>NRO (Non-Resident Ordinary) account:</strong> rupee-denominated, for income earned in India (rent, dividend, pension). Interest earned on NRO deposits is <strong>fully taxable</strong> in India as income. Repatriation up to USD 1M per financial year with CA certificate (Form 15CA + Form 15CB).</p>"
-         "<p><strong>FCNR (Foreign Currency Non-Resident) deposit:</strong> foreign-currency denominated, no exchange risk. Interest is <strong>exempt from Indian tax</strong> (Section 10(4)(ii)). Fully repatriable.</p>"
-         "<p>Practical rule: route foreign earnings through NRE / FCNR (tax-free interest). Route India-source income through NRO (fully taxable). The NRE-to-NRO transfer is allowed; the reverse is not without specific authorisations.</p>"),
+         "<p><strong>FCNR (Foreign Currency Non-Resident) deposit:</strong> foreign-currency denominated, no exchange risk. Interest is <strong>exempt from Indian tax</strong> for a non-resident or RNOR (section 10(15)(iv)(fa)). Fully repatriable.</p>"
+         "<p>Practical rule: route foreign earnings through NRE / FCNR (tax-free interest). Route India-source income through NRO (fully taxable). NRE-to-NRO transfers are allowed; NRO-to-NRE transfers are allowed within the USD 1 million per financial year repatriation limit, after tax, with Forms 145/146 (formerly 15CA/15CB).</p>"),
         ("/ Capital gains for NRIs on Indian assets", "Shares, mutual funds, property.",
          "<p><strong>Listed Indian equity shares (held 12+ months, LTCG):</strong> 12.5% post-July 2024, with INR 1.25 lakh exemption per year. STT must be paid at sale. Buyback: separate regime from Oct 2024 onwards.</p>"
          "<p><strong>Unlisted Indian equity shares (held 24+ months, LTCG):</strong> 20% with indexation, or 12.5% without indexation (post-July 2024 choice).</p>"
@@ -206,7 +206,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
          "<li><strong>Sell foreign real estate.</strong> US / UAE / UK property sold during RNOR &mdash; US / UAE / UK tax at source, no Indian tax on top. After RNOR, Indian tax on worldwide capital gains applies (with FTC).</li>"
          "<li><strong>Close dormant foreign bank accounts.</strong> Simplifies future FBAR / Schedule FA reporting. During RNOR there is no Schedule FA filing obligation; after ROR there is.</li>"
          "<li><strong>Convert foreign business income streams.</strong> If you hold a foreign business, consider taking the final distribution / liquidating / converting to passive income during RNOR. Post-RNOR, foreign business income can be Indian-taxable if controlled from India.</li>"
-         "<li><strong>Re-designate NRE / FCNR accounts.</strong> On becoming Resident, NRE and FCNR accounts must be re-designated as Resident accounts (RFC or regular) within specified timelines. The interest exemption under Section 10(4)(ii) ends on re-designation.</li>"
+         "<li><strong>Re-designate NRE / FCNR accounts.</strong> On becoming Resident, NRE and FCNR accounts must be re-designated as Resident accounts (RFC or regular) within specified timelines. NRE interest becomes taxable once you are resident; FCNR interest stays exempt while you are RNOR (section 10(15)(iv)(fa)).</li>"
          "<li><strong>File Schedule FA (Foreign Assets) once ROR.</strong> Mandatory annual disclosure of all foreign assets. Non-disclosure penalty: Black Money Act, up to USD 10 lakh + possible imprisonment. Build the asset log during RNOR.</li>"
          "</ol>"),
         ("/ The IRA / 401(k) decision", "A detailed walk-through.",
@@ -411,7 +411,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
          "<ul>"
          "<li>Foreign-currency denominated (USD, GBP, EUR, JPY, AUD, CAD) &mdash; no exchange risk for the NRI.</li>"
          "<li>Only term deposit (1 to 5 years); no FCNR savings account.</li>"
-         "<li>Interest is fully exempt from Indian income tax under Section 10(4)(ii).</li>"
+         "<li>Interest is exempt from Indian income tax for a non-resident or RNOR under section 10(15)(iv)(fa) of the 1961 Act (carried into the Income-tax Act, 2025), so it stays tax-free for a returning NRI until RNOR status ends.</li>"
          "<li>Principal and interest are fully repatriable (no USD 1M cap).</li>"
          "<li>Protects NRI corpus from INR depreciation.</li>"
          "</ul>"),
@@ -420,7 +420,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
          "<p><strong>NRE Fixed Deposit interest:</strong> Nil Indian tax (Section 10(4)(ii)). Important: this exemption applies only while the account holder is NRI. On becoming Resident, the exemption ends from the re-designation date.</p>"
          "<p><strong>NRO Savings Account interest:</strong> Fully taxable in India at the NRI's slab rate. The bank deducts TDS at 30% + surcharge + cess at source. If the actual slab rate is lower, refund via ITR filing.</p>"
          "<p><strong>NRO Fixed Deposit interest:</strong> Same as NRO Savings &mdash; fully taxable; TDS at 30% deducted at source.</p>"
-         "<p><strong>FCNR interest:</strong> Nil Indian tax (Section 10(4)(ii)). Foreign-currency protected.</p>"
+         "<p><strong>FCNR interest:</strong> Nil Indian tax while you are non-resident or RNOR (section 10(15)(iv)(fa)). Foreign-currency protected.</p>"
          "<p><strong>DTAA relief on NRO interest:</strong> treaty rate (typically 10-15%) overrides 30% domestic withholding if TRC + Form 10F are filed with the bank in advance. Many NRIs miss this and pay 30% unnecessarily.</p>"),
         ("/ Repatriation rules", "What leaves India and how.",
          "<p><strong>From NRE:</strong> freely repatriable; no cap. Bank processes outward remittance to the NRI's overseas account on request. Form 15CA / 15CB generally not required (NRE funds are considered foreign-origin).</p>"
@@ -432,7 +432,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
          "<ul>"
          "<li>NRE and NRO accounts must be re-designated as Resident accounts within reasonable time (practically 60-90 days post-return).</li>"
          "<li>NRE Fixed Deposits can be converted to RFC (Resident Foreign Currency) deposits &mdash; useful if the NRI wants to retain the foreign-currency corpus but is now Resident.</li>"
-         "<li>FCNR deposits can continue until maturity even after becoming Resident, but the exemption on interest ends from the re-designation date; interest from re-designation onward is taxable.</li>"
+         "<li>FCNR deposits can continue until maturity after you return; the interest stays exempt while you are RNOR and becomes taxable once you are ordinarily resident. NRE interest is different: it becomes taxable once you are resident.</li>"
          "<li>RFC Account (Resident Foreign Currency): allows Returning NRIs to continue holding foreign currency balances; interest taxable but useful for ongoing foreign-currency obligations.</li>"
          "</ul>"
          "<p>Failure to re-designate: FEMA breach; bank may freeze the account; penalty under FEMA Section 13 up to 3 times the amount involved.</p>"),
@@ -456,8 +456,8 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("nri-returning-india-tax-rnor-transition.html", "Guide", "Returning to India (RNOR)"),
         ("nri-residential-status-rnor-india.html", "Guide", "Residential Status Rules"),
     ],
-    cta_headline="Running NRE + NRO + FCNR accounts correctly saves 20-30% of annual interest.",
-    cta_body="Most NRIs we onboard have been paying 30% TDS on NRO interest when a treaty-based 10-15% rate was available via Form 10F. We fix the account setup, file the Form 10F stack, handle the DTAA rate claim, and co-ordinate repatriation. Setup + first-year filing is a one-time engagement.",
+    cta_headline="Running NRE, NRO and FCNR accounts correctly can cut the tax on your Indian interest.",
+    cta_body="Many NRIs pay 30% TDS on NRO interest when a treaty rate of 10-15% was available through Form 10F. We fix the account setup, file the Form 10F stack, handle the DTAA rate claim, and co-ordinate repatriation. Setup + first-year filing is a one-time engagement.",
 ))
 
 print("Batch D complete: 6 NRI taxation pages written")

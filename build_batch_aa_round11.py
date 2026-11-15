@@ -359,7 +359,7 @@ PAGES = [
     },
     {
         "slug": "how-to-file-form-10f-electronic-india-nri-no-pan-step-by-step",
-        "title": "How to File Form 10F Electronic India for NRI Without PAN",
+        "title": "Form 10F Online Without PAN (2026): Step-by-Step for NRIs and Foreign Companies",
         "hero_em": "PAN-less registration + e-filing.",
         "lead": "NRIs without Indian PAN can file electronic Form 10F on Indian Income Tax e-filing portal via specific PAN-less registration. CBDT Notification/Circular July 2024 clarified this route. Required for every NRI claiming DTAA treaty rate on India-source income. Here's the complete step-by-step process.",
         "kicker": "/ Form 10F PAN-Less Filing &middot; Updated 2026-10-23",

@@ -719,7 +719,7 @@ write_page("india-arbitration-enforcement-foreign-claimant", page(
 # 9. Nominee director
 write_page("nominee-resident-director-india-foreign-company", page(
     slug="nominee-resident-director-india-foreign-company",
-    title="Nominee / Resident Director India Service 2026 | For Foreign Company - BQP",
+    title="Resident Director for a Foreign Company in India (182-Day Rule): Nominee Director Service 2026 - BQP",
     description="Nominee / Resident Director India service for foreign-owned private limited companies: Section 149(3) resident director requirement, DIN + DSC + address + KYC, fiduciary scope, liability indemnity, replacement workflow. Fully remote arrangement for US / UK / EU / Singapore / UAE parent companies. Working CA governance guide by Durgesh Chavda.",
     keywords="nominee director India foreign company, resident director India service, Section 149(3) resident director, India Pvt Ltd foreign parent director, DIN resident director",
     hero_kicker="/ Foreign Clients &middot; Nominee Director &middot; Updated 2026-10-14",

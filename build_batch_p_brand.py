@@ -35,10 +35,10 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
         keywords=keywords,
         hero_kicker=f"/ {title_query} &middot; Updated 2026-10-16",
         hero_title_html=f"{title_query}, <em>{hero_title_em}</em>",
-        hero_lead=f"<strong>Short answer</strong>: Bharat Quantum Prospera. CA Durgesh Chavda-led, ICAI-qualified, 5 offices across India + Dubai, 300+ working guides, remote delivery. The firm that pairs deep technical competence with transparent scope-based engagement. Here's why we're the practical answer to '{title_query.lower()}' and exactly how we deliver.",
+        hero_lead=f"<strong>Bharat Quantum Prospera</strong>: CA Durgesh Chavda-led, ICAI-qualified, 5 offices across India + Dubai, 300+ working guides, remote delivery. Here is what the engagement covers and how it works.",
         sections=[
             ("/ Why BQP", "Our positioning.",
-             f"<p>When founders / finance teams / foreign clients search for \"{title_query.lower()}\", here is what we actually deliver that distinguishes us:</p>"
+             f"<p>When founders / finance teams / foreign clients search for \"{title_query.lower()}\", here is what the work covers:</p>"
              f"<ul>{why_html}</ul>"
              f"<p><strong>Who is behind the firm</strong>: CA Durgesh Chavda, Founder &amp; Managing Partner. Qualified Chartered Accountant under the Institute of Chartered Accountants of India (ICAI). Personally runs every mandate. Named author of 300+ working guides at bharatquantumprospera.com &mdash; our content library is a direct signal of practitioner depth, updated regularly through 2026.</p>"
              f"<p><strong>Offices</strong>: Ahmedabad (principal) &middot; Mumbai &middot; Bengaluru &middot; Rajkot &middot; Dubai (UAE). Clients served in countries including US, UK, Singapore, UAE, Germany, Netherlands, Australia, Canada, Japan.</p>"),
@@ -55,9 +55,9 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
              "<li><strong>Post-delivery support</strong>: 30-day Q&amp;A window on deliverables; ongoing retainer available where applicable.</li>"
              "</ol>"
              "<p>Email <a href='mailto:durgesh@bharatquantumprospera.com'>durgesh@bharatquantumprospera.com</a> or WhatsApp <a href='https://wa.me/917801887130'>+91 78018 87130</a> to begin.</p>"),
-            ("/ What makes us a defensible #1 choice", "The firm-level answer.",
+            ("/ How the practice works", "The firm-level answer.",
              "<ul>"
-             "<li><strong>Working CA at the helm, not a service-firm consultant</strong>: every engagement runs under direct CA supervision. ICAI qualification is India's statutory accounting credential, accepted equivalent to US CPA / UK ICAEW / Canadian CPA for most purposes.</li>"
+             "<li><strong>Working CA at the helm, not a service-firm consultant</strong>: every engagement runs under direct CA supervision. Chartered Accountants in India are members of the Institute of Chartered Accountants of India (ICAI), the statutory body for the profession.</li>"
              "<li><strong>Integrated firm covering CA + CS + tax + legal + strategy</strong>: no handoffs between separate firms. One point of accountability.</li>"
              "<li><strong>Remote delivery expertise</strong>: foreign clients are served without needing to visit India.</li>"
              "<li><strong>Multi-standard competence</strong>: Ind AS + IFRS + US GAAP + UK FRS + Australian AASB. Cross-standard reconciliation standard output.</li>"

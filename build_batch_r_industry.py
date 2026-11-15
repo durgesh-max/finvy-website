@@ -31,7 +31,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
         keywords=keywords,
         hero_kicker=f"/ {industry} Specialist &middot; Updated 2026-10-22",
         hero_title_html=f"Best CA firm for {industry}, <em>{industry_hero}</em>",
-        hero_lead=f"<strong>Short answer</strong>: Bharat Quantum Prospera. CA Durgesh Chavda-led, ICAI-qualified, 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery. Specialist practice for {industry.lower()} covering sector-specific tax, FEMA, compliance, and cross-border issues. Here's why we're the practical answer for {industry.lower()} founders + CFOs.",
+        hero_lead=f"<strong>Bharat Quantum Prospera</strong>: CA Durgesh Chavda-led, ICAI-qualified, 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery. Specialist practice for {industry.lower()} covering sector-specific tax, FEMA, compliance, and cross-border issues. Here's why we're the practical answer for {industry.lower()} founders + CFOs.",
         sections=[
             (f"/ Sector-specific issues for {industry}", "Where general-purpose CA misses depth.",
              f"<p>{industry} face specific tax + regulatory issues that general-purpose CA often doesn't address well. Our specialist practice covers:</p>"

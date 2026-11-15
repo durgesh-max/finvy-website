@@ -861,7 +861,7 @@ write_page("repatriate-profits-india-foreign-parent", page(
          "<li>Section 115A: 20% TDS default; 10% under most DTAAs with TRC + Form 10F.</li>"
          "<li>Deductible in Indian subsidiary's P&amp;L (unlike dividend which is not).</li>"
          "<li>Transfer pricing scrutiny &mdash; must be benchmarked.</li>"
-         "<li>FEMA: current account; subject to Reserve Bank Automatic Route limits (typically 5% of domestic sales for brand; 8% of exports for brand).</li>"
+         "<li>FEMA: current account; royalty and technology payments are permitted without the old percentage caps (removed in 2009-2010), subject to arm's-length pricing and withholding.</li>"
          "</ul>"
          "<p><strong>3. Fees for Technical Services (FTS) / Management Fee</strong></p>"
          "<ul>"
@@ -873,10 +873,10 @@ write_page("repatriate-profits-india-foreign-parent", page(
          "<p><strong>4. Buyback / Capital Reduction</strong></p>"
          "<ul>"
          "<li>Indian subsidiary buys back shares from foreign parent.</li>"
-         "<li>Section 115QA: buyback tax 20% + surcharge on distributed income (effectively ~23.3%).</li>"
-         "<li>Receipt in parent's hands = capital gain &mdash; often non-taxable in India for foreign parent (Section 10(34A) exempts buyback-related income).</li>"
+         "<li>Buyback: taxed as capital gains in the shareholder's hands from 1 April 2026 (Finance Act, 2026), with an additional levy for promoters; Section 115QA no longer applies.</li>"
+         "<li>Receipt in the parent's hands is a capital gain taxable in India (most treaties let India tax gains on shares of Indian companies), plus the additional promoter levy; the old section 10(34A) exemption ended with the company-level buyback tax. Model the total cost against a dividend.</li>"
          "<li>FEMA: subject to pricing guidelines; must be at fair value.</li>"
-         "<li>Companies Act: 10%-25% maximum buyback limits + 2-year gap between buybacks.</li>"
+         "<li>Companies Act, section 68: up to 10% of paid-up capital and free reserves with board approval, 25% with a special resolution; no new buyback offer within one year of the previous one.</li>"
          "<li>Complex but useful for large one-time repatriation.</li>"
          "</ul>"),
         ("/ Choosing the right route", "Decision factors.",
@@ -897,7 +897,7 @@ write_page("repatriate-profits-india-foreign-parent", page(
          "</ul>"
          "<p><strong>For large one-time repatriation (USD 10M+)</strong>:</p>"
          "<ul>"
-         "<li>Buyback / capital reduction may be more tax-efficient than dividend (buyback tax 20% on distribution amount vs 20% TDS on dividend amount &mdash; roughly similar but can be optimised).</li>"
+         "<li>Buyback or capital reduction can suit a large one-off return of cash, but since 1 April 2026 a buyback is taxed as capital gains with an extra promoter levy, so compare the total tax with a dividend at the treaty rate before choosing.</li>"
          "<li>Also provides cap table cleanup.</li>"
          "</ul>"
          "<p><strong>Deemed dividend (Section 2(22)(e))</strong> trap:</p>"
@@ -908,16 +908,16 @@ write_page("repatriate-profits-india-foreign-parent", page(
         ("/ Treaty rates for key countries", "DTAA WHT.",
          "<table style='width:100%;border-collapse:collapse;margin:12px 0;font:400 13px Inter'>"
          "<tr style='background:#f8f3e8'><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Country</th><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Dividend (DTAA)</th><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Royalty (DTAA)</th><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>FTS (DTAA)</th></tr>"
-         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>USA</strong></td><td style='padding:8px;border:1px solid #ece4d5'>15% (25% hold); 25% else</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td></tr>"
-         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>UK</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10% (10% hold); 15% else</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td></tr>"
+         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>USA</strong></td><td style='padding:8px;border:1px solid #ece4d5'>15% (company holding 10%+ voting stock); 25% else</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td></tr>"
+         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>UK</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10% (15% for dividends from property investment vehicles)</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td><td style='padding:8px;border:1px solid #ece4d5'>10-15%</td></tr>"
          "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>Singapore</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10% (25% hold); 15% else</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td></tr>"
          "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>Mauritius</strong></td><td style='padding:8px;border:1px solid #ece4d5'>5% (10% hold); 15% else</td><td style='padding:8px;border:1px solid #ece4d5'>15%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td></tr>"
-         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>UAE</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td></tr>"
+         "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>UAE</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>No FTS article: business profits, taxable in India only with a PE</td></tr>"
          "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>Netherlands</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td></tr>"
          "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>Germany</strong></td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td><td style='padding:8px;border:1px solid #ece4d5'>10%</td></tr>"
          "</table>"
          "<p><em>Rates indicative; verify specific DTAA article + beneficial ownership + GAAR implications before relying.</em></p>"
-         "<p><strong>Must-haves for treaty rate</strong>: TRC from parent's country + Form 10F (electronic post Oct 2023) + No-PE declaration (where applicable).</p>"),
+         "<p><strong>Must-haves for treaty rate</strong>: TRC from parent's country + Form 10F (Form 41 from 1 April 2026; electronic filing) + No-PE declaration (where applicable).</p>"),
         ("/ Execution workflow", "What repatriation actually involves.",
          "<ol>"
          "<li><strong>Confirm distributable profits</strong> (for dividend) or arm's-length pricing (for royalty / FTS).</li>"
@@ -929,7 +929,7 @@ write_page("repatriate-profits-india-foreign-parent", page(
          "<li><strong>Form 27Q quarterly return</strong>: by 31 Jul / 31 Oct / 31 Jan / 31 May.</li>"
          "<li><strong>AD bank processing</strong>: with 15CA acknowledgement + 15CB attached, bank releases SWIFT.</li>"
          "<li><strong>Payee receives net remittance</strong> in foreign bank account.</li>"
-         "<li><strong>Form 16A</strong> issued to foreign payee for TDS credit (if payee files Indian ITR to claim refund where applicable).</li>"
+         "<li><strong>TDS certificate (Form 16A; Form 131 from 1 April 2026)</strong> issued to foreign payee for TDS credit (if payee files Indian ITR to claim refund where applicable).</li>"
          "</ol>"
          "<p><em>Last updated: 2026-10-13.</em></p>"),
     ],
@@ -943,7 +943,7 @@ write_page("repatriate-profits-india-foreign-parent", page(
         ("Do I need TRC and Form 10F every year?",
          "Yes - TRC is typically annual (year-specific). Form 10F is electronic (post Oct 2023 via India e-filing portal), also annual. Both required for every remittance claiming DTAA treaty rate. Must be in place before Form 15CB is signed. BQP maintains TRC + Form 10F file for recurring remittance clients."),
         ("Can I use buyback to repatriate from India?",
-         "Yes - Indian subsidiary buys back shares from foreign parent. Buyback tax under Section 115QA: 20% + surcharge on distributed income (~23.3% effective) paid by Indian subsidiary. Receipt is capital gain in parent's hands but Section 10(34A) exempts buyback-related income - foreign parent typically pays no further India tax. Useful for large one-time repatriation + cap table cleanup. Max 10-25% buyback per Companies Act with 2-year gap."),
+         "Yes - Indian subsidiary buys back shares from foreign parent. Buybacks from 1 April 2026 (Finance Act, 2026) are taxed as capital gains in the shareholder's hands on the buyback price minus cost, with an additional levy for promoters (effective 30% for non-corporate and 22% for domestic corporate promoters); between 1 October 2024 and 31 March 2026 they were taxed as dividend, and the company-level Section 115QA tax no longer applies. Model the foreign parent's tax, including the promoter levy and treaty position, before choosing it. Useful for large one-time repatriation + cap table cleanup. Max 10-25% buyback per Companies Act, section 68, with a one-year gap between offers."),
         ("Does BQP handle profit repatriation end-to-end?",
          "Yes - route recommendation (dividend vs royalty vs FTS vs buyback), TP support (for royalty + FTS), TRC + Form 10F coordination with parent, Form 15CA + 15CB preparation, Section 195 TDS deposit + Form 27Q quarterly filing, AD bank liaison for SWIFT, Form 16A issuance. Standard annual engagement for Indian subsidiaries of foreign parents making regular remittances. WhatsApp +91 78018 87130."),
     ],

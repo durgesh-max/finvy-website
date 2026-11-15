@@ -724,7 +724,7 @@ write_page("nominee-resident-director-india-foreign-company", page(
     keywords="nominee director India foreign company, resident director India service, Section 149(3) resident director, India Pvt Ltd foreign parent director, DIN resident director",
     hero_kicker="/ Foreign Clients &middot; Nominee Director &middot; Updated 2026-10-14",
     hero_title_html="Nominee resident director India, <em>Section 149(3) solved.</em>",
-    hero_lead="Section 149(3) Companies Act 2013: every Indian company must have at least one director who has stayed in India for 182 days in the preceding FY. Foreign parent with no India-resident person needs a nominee resident director. BQP provides this as a standard governance service &mdash; CA-qualified resident director, standard indemnity + fiduciary scope, fully remote arrangement, replacement workflow. Here's exactly how it works.",
+    hero_lead="Section 149(3) Companies Act 2013: every Indian company must have at least one director who stays in India for at least 182 days during the financial year. Foreign parent with no India-resident person needs a nominee resident director. BQP provides this as a standard governance service &mdash; CA-qualified resident director, standard indemnity + fiduciary scope, fully remote arrangement, replacement workflow. Here's exactly how it works.",
     sections=[
         ("/ What Section 149(3) requires", "The core rule.",
          "<ul>"
@@ -785,11 +785,11 @@ write_page("nominee-resident-director-india-foreign-company", page(
     ],
     faqs=[
         ("What is a nominee / resident director in India?",
-         "A person named as director of an Indian company to satisfy Section 149(3) Companies Act 2013 requirement that at least one director must be an India resident (stayed in India 182+ days in preceding FY). Nominee's role is statutory governance - signing filings and resolutions - not operational business decisions. Standard arrangement for foreign-owned Indian subsidiaries without an India-resident person on their leadership team."),
+         "A person named as director of an Indian company to satisfy Section 149(3) Companies Act 2013 requirement that at least one director must be an India resident (stayed in India for at least 182 days during the financial year). Nominee's role is statutory governance - signing filings and resolutions - not operational business decisions. Standard arrangement for foreign-owned Indian subsidiaries without an India-resident person on their leadership team."),
         ("What is the legal risk of being a nominee director?",
          "Directors owe fiduciary duties to the company (Section 166 Companies Act) + liable for non-compliance by the company (Section 164 disqualification, Section 450 default penalties). Mitigated by: (a) scope restriction (nominee doesn't participate in operational decisions), (b) foreign parent's indemnity, (c) regular DIR-3 KYC + DIR-8 + MBP-1 compliance, (d) D&O insurance (optional). BQP's nominee program bundles standard protective structuring."),
         ("Can a Non-Resident Indian (NRI) be the resident director?",
-         "Depends on actual residence, not citizenship. If the NRI has stayed in India 182+ days in the preceding FY, they qualify as 'resident' for Section 149(3). If the NRI is a tax non-resident (less than 182 days), they do NOT qualify - even with Indian passport. Common misunderstanding. Nominee director must be assessed by physical residence, not citizenship."),
+         "Depends on actual residence, not citizenship. If the NRI stays in India for at least 182 days during the financial year, they qualify as 'resident' for Section 149(3). If the NRI is a tax non-resident (less than 182 days), they do NOT qualify - even with Indian passport. Common misunderstanding. Nominee director must be assessed by physical residence, not citizenship."),
         ("How much does nominee director service cost?",
          "Scope-based annual fee. Includes: DIN + DSC maintenance, annual DIR-3 KYC, signing of standard ROC filings (AOC-4, MGT-7, DIR-12 as applicable), participation in required board meetings. Typically scope-based engagement priced per annum. Pre-signed resignation + indemnity + replacement workflow included."),
         ("Can I use my Indian employee / consultant as director?",

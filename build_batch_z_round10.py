@@ -538,7 +538,7 @@ PAGES = [
             ("Can a foreign company own 100% of Indian WOS?",
              "Yes - via FDI automatic route in most sectors. Prohibited sectors: lottery, chit funds, real estate dealing, atomic energy. Capped sectors: multi-brand retail 51%, print media 26%, defence 74%, insurance 74% (post 2024). Press Note 3 restriction: investment from land-bordering country (China, Pakistan, Bangladesh, Nepal, Bhutan, Myanmar, Afghanistan) requires prior government approval regardless of sector."),
             ("Does foreign company need resident director?",
-             "Yes - Section 149(3) Companies Act 2013: every Indian company (WOS or JV) must have at least one director resident in India (182+ days in preceding FY). BQP arranges nominee resident director if foreign parent has no India-resident person. CA-qualified nominee + indemnity + replacement workflow + annual DIR-3 KYC."),
+             "Yes - Section 149(3) Companies Act 2013: every Indian company (WOS or JV) must have at least one director resident in India (at least 182 days during the financial year). BQP arranges nominee resident director if foreign parent has no India-resident person. CA-qualified nominee + indemnity + replacement workflow + annual DIR-3 KYC."),
             ("What's typical WOS setup timeline for foreign parent?",
              "30-45 days end-to-end: DSC/DIN (3 days) + name reservation (2 days) + SPICe+ incorporation (10 days) + bank account (14 days) + FC-GPR filing after capital remittance (variable). Longest step: foreign document apostille (7-21 days depending on country)."),
             ("Does BQP handle complete foreign entity structuring + ongoing compliance?",

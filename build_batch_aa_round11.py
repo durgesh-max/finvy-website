@@ -661,7 +661,7 @@ PAGES = [
             ("/ Section 149(3) requirement", "The statutory rule.",
              "<ul>"
              "<li>Every Indian company (Pvt Ltd + Public Ltd) must have minimum directors (2 for Pvt Ltd; 3 for Public Ltd).</li>"
-             "<li>At least ONE director must be <strong>resident of India</strong> - stayed in India 182+ days in preceding FY.</li>"
+             "<li>At least ONE director must be <strong>resident of India</strong> - stayed in India for at least 182 days during the financial year.</li>"
              "<li>Non-resident Indians (NRIs) with Indian passport but non-resident status: do NOT qualify.</li>"
              "<li>Foreign citizens who are tax-residents of India (182+ days physical): qualify.</li>"
              "<li>Non-compliance: Section 164 director disqualification risk + ROC filing blockage + Section 450 default penalty.</li>"
@@ -719,7 +719,7 @@ PAGES = [
         ],
         "faqs": [
             ("Why do foreign-owned Indian subsidiaries need nominee director?",
-             "Section 149(3) Companies Act 2013: every Indian company must have at least one director resident in India (stayed 182+ days in preceding FY). If foreign parent has no India-resident person on leadership team: nominee resident director required. Standard arrangement for 90%+ of foreign WOS incorporations."),
+             "Section 149(3) Companies Act 2013: every Indian company must have at least one director resident in India (stays in India for at least 182 days during the financial year). If foreign parent has no India-resident person on leadership team: nominee resident director required. Standard arrangement for 90%+ of foreign WOS incorporations."),
             ("What's the legal risk of being a nominee director?",
              "Directors owe fiduciary duties (Section 166) + liable for non-compliance by company (Section 164 disqualification, Section 450 default penalties). Mitigated by: scope restriction (nominee doesn't participate in operational decisions), foreign parent's indemnity, regular DIR-3 KYC + DIR-8 + MBP-1 compliance, D&O insurance (optional). BQP structuring includes standard protective framework."),
             ("Can my Indian employee be the resident director instead?",

@@ -66,7 +66,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
          "<ul>"
          "<li><strong>Press Note 3 trap</strong>: investor based in China / Hong Kong routing via Singapore holdco. Beneficial ownership check applies &mdash; prior government approval needed. Must disclose BO.</li>"
          "<li><strong>FDI sector cap violation</strong>: assuming 100% FDI permitted when sector cap is lower (e.g., multi-brand retail trading 51%, print media 26%, defence 74%). Pre-check.</li>"
-         "<li><strong>No resident director</strong>: trying to incorporate with only foreign directors. Section 149(3) Companies Act requires at least 1 director to be resident in India (&gt;120 days in FY).</li>"
+         "<li><strong>No resident director</strong>: trying to incorporate with only foreign directors. Section 149(3) Companies Act requires at least 1 director to be resident in India (at least 182 days during the financial year).</li>"
          "<li><strong>FC-GPR missed deadline</strong>: 30-day window from receipt of remittance. Late filing requires compounding under FEMA Section 13 &mdash; INR 10,000-50,000 per instance.</li>"
          "<li><strong>Apostille vs attestation confusion</strong>: Hague Convention member countries (USA, UK, EU, Singapore, UAE, etc.) use apostille. Non-Hague countries need embassy attestation + MEA attestation chain. Different docs; different timelines.</li>"
          "<li><strong>Missing Form 3CEB</strong>: thinking TP audit doesn't apply because 'it's just a subsidiary of my own company'. Any transaction with foreign parent is Associated Enterprise &mdash; Form 3CEB mandatory. See <a href='transfer-pricing-india-foreign-mnc.html'>our TP guide</a>.</li>"
@@ -79,7 +79,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
         ("Do I need to visit India to incorporate my Indian subsidiary?",
          "No. Full remote execution. Foreign directors can obtain DSC + DIN remotely via online KYC with apostilled passport. Documents (MOA/AOA/consents) signed digitally. Bank account can be opened with foreign director KYC (video or in-person at bank's foreign branch). The foreign parent does not need to visit India."),
         ("Why is a resident director mandatory in India?",
-         "Section 149(3) Companies Act 2013: every Indian company must have at least one director who has stayed in India for 182 days in the preceding FY (effectively a resident). This is to ensure accountable local presence. BQP arranges resident director nominee if the parent has no India-resident person - typical fee USD 1,500-3,000/year scope-based."),
+         "Section 149(3) Companies Act 2013: every Indian company must have at least one director who stays in India for at least 182 days during the financial year (effectively a resident). This is to ensure accountable local presence. BQP arranges resident director nominee if the parent has no India-resident person - typical fee USD 1,500-3,000/year scope-based."),
         ("How long does Indian WOS incorporation take?",
          "30-45 days end-to-end: DSC (3 days) + name reservation (2 days) + SPICe+ incorporation (10 days) + bank account (14 days) + FC-GPR filing after capital remittance (variable). The longest step is foreign document apostille which can take 7-21 days depending on the issuing country."),
         ("What is Form FC-GPR?",

@@ -27,7 +27,7 @@ PAGES.append({
     "slug": "form-fc-gpr-filing-checklist-india-2026",
     "title": "Form FC-GPR Filing Checklist India 2026 | FDI Reporting Guide - BQP",
     "hero_em": "30-day deadline + checklist.",
-    "lead": "Form FC-GPR (Foreign Currency - Gross Provisional Return) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 filing checklist.",
+    "lead": "Form FC-GPR (the FEMA return on issue of shares to a person resident outside India) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 filing checklist.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Who must file + when", "The core rule.",

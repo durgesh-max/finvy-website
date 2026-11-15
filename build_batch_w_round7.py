@@ -468,7 +468,7 @@ PAGES.append({
          "<li><strong>15 July</strong>: FLA Return (foreign liabilities + assets) to RBI.</li>"
          "<li><strong>31 July</strong>: Individuals + HUFs ITR (non-audit) + Form 10E (salary arrears relief).</li>"
          "<li><strong>31 August</strong>: AGM (if company's AGM date is specific).</li>"
-         "<li><strong>30 September</strong>: DIR-3 KYC + AGM date (last by 30 Sept for most companies).</li>"
+         "<li><strong>30 September</strong>: AGM (last date for most companies). DIR-3 KYC is now due by 30 June, once every three financial years (from 31 March 2026).</li>"
          "<li><strong>31 October</strong>: AOC-4 (financial statements) + ITR (tax audit cases) + Form 3CA/CB + Form 3CD + Form 10-IC (115BAA opt-in) + Form 10-ID (115BAB opt-in).</li>"
          "<li><strong>29 November</strong>: MGT-7 (annual return) + Form 3CEB (TP audit) + PAS-6 (September HY) + MSME Form I (September HY).</li>"
          "<li><strong>31 December</strong>: GSTR-9 (annual return) + GSTR-9C (reconciliation) + Form ODI Part II (APR) + belated / revised ITR deadline.</li>"
@@ -494,7 +494,7 @@ PAGES.append({
         ("What's the biggest-impact deadline in Q3 of FY 2026-27?",
          "15 December 2026: Q3 advance tax (75% cumulative). Material cash outflow for profitable companies + individuals. Also 29 November 2026: MGT-7 (annual return) + Form 3CEB TP audit + PAS-6 Rule 9B demat. 31 October 2026: AOC-4 + tax audit ITR + Form 3CA/CB/CD."),
         ("Which deadlines are most commonly missed?",
-         "DIR-3 KYC (30 Sept) - deactivates DIN. Form MSME-1 (29 Nov) - specific MSE compliance. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
+         "DIR-3 KYC (30 June, once every three financial years from 31 March 2026) - missing it deactivates the DIN. Form MSME-1 (29 Nov) - specific MSE compliance. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
         ("What are the GST filing deadlines?",
          "Monthly: GSTR-1 by 11th + GSTR-3B by 20th + GSTR-7 (TDS) by 10th + GSTR-8 (TCS) by 10th. Small taxpayers under QRMP: GSTR-3B / 1 by 22nd / 24th. Annual: GSTR-9 (annual return) + GSTR-9C (reconciliation) by 31 December."),
         ("Can I file ITR after 31 October tax audit deadline?",

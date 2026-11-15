@@ -45,7 +45,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
          "<li><strong>Certificate of Incorporation + PAN + TAN</strong>: issued together by MCA / Income Tax Department. 5-10 working days.</li>"
          "<li><strong>Bank account</strong>: open current account with HDFC / ICICI / Kotak / Axis. Resident director typically signs; foreign director KYC can be remote. 7-14 days.</li>"
          "<li><strong>Share capital remittance</strong>: foreign parent wires subscription money to India bank account. AD bank issues FIRC (Foreign Inward Remittance Certificate).</li>"
-         "<li><strong>FC-GPR filing</strong> within 30 days of receiving remittance &mdash; mandatory FEMA compliance. Non-filing attracts compounding penalty.</li>"
+         "<li><strong>FC-GPR filing</strong> within 30 days of allotting the shares (allotment itself is due within 60 days of receiving the money) &mdash; mandatory FEMA compliance. Non-filing attracts compounding penalty.</li>"
          "<li><strong>Post-incorporation</strong>: GST registration (if applicable), Professional Tax (state-specific), Shops &amp; Establishment, PF &amp; ESI (once headcount triggers).</li>"
          "</ol>"),
         ("/ Ongoing compliance (year 1 onwards)", "The India compliance calendar.",
@@ -83,7 +83,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
         ("How long does Indian WOS incorporation take?",
          "30-45 days end-to-end: DSC (3 days) + name reservation (2 days) + SPICe+ incorporation (10 days) + bank account (14 days) + FC-GPR filing after capital remittance (variable). The longest step is foreign document apostille which can take 7-21 days depending on the issuing country."),
         ("What is Form FC-GPR?",
-         "Foreign Currency - Gross Provisional Return. Mandatory FEMA filing to RBI within 30 days of receiving foreign share subscription money. Reports: shareholder details, remittance amount, equity issued, pricing method. Non-filing attracts FEMA compounding fee under Section 13. Core service we deliver as part of standard WOS setup engagement."),
+         "The FEMA return an Indian company files on the RBI FIRMS portal, through its AD bank, within 30 days of issuing (allotting) shares to a foreign investor; shares must be allotted within 60 days of receiving the money. Reports: shareholder details, remittance amount, equity issued, pricing method. Non-filing attracts FEMA compounding fee under Section 13. Core service we deliver as part of standard WOS setup engagement."),
         ("Does BQP handle Indian WOS setup for foreign companies?",
          "Yes - this is a core service. Full remote execution from India: DSC/DIN, SPICe+ incorporation, resident director arrangement, bank account coordination, FC-GPR filing, PAN/TAN/GST, FLA Return, annual audit + ROC compliance, TP documentation (Form 3CEB). Standard engagement for US / UK / EU / Singapore / UAE parents. WhatsApp +91 78018 87130."),
     ],
@@ -396,7 +396,7 @@ write_page("transfer-pricing-india-foreign-mnc", page(
          "<li>Secondary filing (Form 3CEAC &amp; 3CEAD) on Indian subsidiary of foreign parent if parent country has no CbCR regime or no information-sharing MoU.</li>"
          "</ul>"
          "<p>Contents: country-by-country breakdown of revenue, profit, tax paid, employees, tangible assets.</p>"
-         "<p><strong>BEPS Pillar 2 (Global Minimum Tax, 15%)</strong>: India implementing from FY 2025-26 for groups with consolidated revenue &gt; EUR 750M. Separate GloBE compliance alongside TP. See our <a href='pillar-2-global-minimum-tax-india-startups-2026.html'>Pillar 2 guide</a>.</p>"),
+         "<p><strong>BEPS Pillar 2 (Global Minimum Tax, 15%)</strong>: applies to groups with consolidated revenue above EUR 750 million. India had not legislated GloBE rules (no QDMTT, IIR or UTPR) as of November 2026, so top-up tax on low-taxed Indian profits is collected by the parent's jurisdiction; plan for an Indian QDMTT if one is introduced. See our <a href='pillar-2-global-minimum-tax-india-startups-2026.html'>Pillar 2 guide</a>.</p>"),
         ("/ APA (Advance Pricing Agreement)", "Certainty for 5+5 years.",
          "<p>For taxpayers wanting certainty on TP position: Section 92CC Advance Pricing Agreement with CBDT.</p>"
          "<ul>"
@@ -725,7 +725,7 @@ write_page("india-audit-services-foreign-shareholder-remote", page(
         ("Is Ind AS or AS applicable to my Indian subsidiary?",
          "Ind AS mandatory if net worth >= INR 250 crore OR if parent is listed OR if subsidiary of Ind AS-adopter. Below that, older AS applies. For foreign subsidiaries, Ind AS voluntary adoption is often recommended - simplifies IFRS consolidation at parent level. Ind AS and IFRS are 95%+ identical post-2019."),
         ("When are India audits due?",
-         "Statutory audit: before AGM (within 6 months of FY end - so typically by late September). Tax audit (Section 44AB): 31 October of AY. Transfer pricing audit (Form 3CEB): 31 October (sometimes extended to 30 November). Non-compliance: late fees + penalties + ITR filing blockage."),
+         "Statutory audit: before AGM (within 6 months of FY end - so typically by late September). Tax audit report (Section 44AB): 30 September of the assessment year, one month before the 31 October return due date (dates are sometimes extended). Transfer pricing audit (Form 3CEB): 31 October (sometimes extended to 30 November). Non-compliance: late fees + penalties + ITR filing blockage."),
         ("Does BQP deliver audit report in parent's reporting format?",
          "Yes - standard scope includes: Indian-GAAP signed audit report (per Companies Act 2013), Ind AS to IFRS / US GAAP reconciliation schedule, group-reporting-template fill (parent's standard template), management letter + CARO 2020 for group audit team review. Monthly MIS to parent in parent's format."),
         ("Who signs the Indian audit report?",
@@ -1051,7 +1051,7 @@ write_page("branch-office-vs-liaison-vs-wos-india-foreign", page(
         ("Can a foreign company open an LLP in India?",
          "Yes - with restrictions. FDI into LLP permitted via automatic route in sectors where 100% FDI is allowed without any performance-linked conditions. Most IT / SaaS / services sectors qualify. Not permitted in sectors with FDI conditions (defence, insurance, retail trading). For foreign-parent entrants with pure services business, LLP can be an alternative to Pvt Ltd WOS - but rare in practice."),
         ("Which entity has the lowest tax rate for a foreign company in India?",
-         "WOS Pvt Ltd under Section 115BAA: 22% + 10% surcharge + 4% cess = 25.17% effective. Branch Office of foreign company: 35% + 5% surcharge + 4% cess = 38.22% effective (cut from 40% from AY 2025-26). LLP: 30% + surcharge + cess = ~34.94% effective (plus 30% alternate minimum tax on adjusted total income). WOS Pvt Ltd is materially the most tax-efficient."),
+         "WOS Pvt Ltd under Section 115BAA: 22% + 10% surcharge + 4% cess = 25.17% effective. Branch Office of foreign company: 35% + 5% surcharge + 4% cess = 38.22% effective (cut from 40% from AY 2025-26). LLP: 30% + surcharge + cess = ~34.94% effective (alternate minimum tax of 18.5% of adjusted total income applies if regular tax is lower). WOS Pvt Ltd is materially the most tax-efficient."),
         ("How long does Branch Office setup take?",
          "2-4 months typical: Form FNC filing to AD-I bank (1 month compilation of parent docs + apostille), RBI review + approval (1-3 months). Add 1-2 months for bank account opening + PAN + GST post-approval. End-to-end 3-6 months. Compares with 30-45 days for WOS - a key reason WOS is preferred when parent flexibility is on timeline."),
         ("Does BQP handle all five entity structures for foreign companies?",

@@ -461,7 +461,7 @@ write_page("fema-odi-us-entity-indian-founder", page(
          "<li>Investments above these limits need prior RBI approval through the approval route.</li>"
          "</ul>"),
         ("/ Annual Performance Report (APR)", "Every year, forever (or until you divest).",
-         "<p>After the initial Form ODI filing, you must submit the APR to RBI through your AD bank by June 30 each year, covering the previous Indian financial year (April to March).</p>"
+         "<p>After the initial Form ODI filing, you must submit the APR through your AD bank by 31 December each year, based on the foreign entity's latest audited (or certified) financial statements.</p>"
          "<p>APR reports: foreign entity's audited financial statements, business update, investment valuation, any changes in capital structure, any additional investments made during the year. The APR is NOT optional and NOT dependent on whether the foreign entity made any transactions &mdash; even a dormant US entity needs an APR each year.</p>"
          "<p>Common failure: founders file Form ODI at inception, launch the US entity, then forget about APR. First APR deadline passes. Second APR deadline passes. By the third year the back-reporting plus late-filing penalties start adding up materially.</p>"),
         ("/ Penalties and clean-up", "What the FEMA regulator actually does.",
@@ -477,7 +477,7 @@ write_page("fema-odi-us-entity-indian-founder", page(
         ("Can I bypass FEMA ODI by funding the US LLC from US revenue?",
          "If the US LLC generates US-source revenue in its own US bank account and uses that revenue to fund operations, FEMA ODI does not apply to that specific flow (no Indian funds crossed the border). FEMA ODI applies at the moment of outbound remittance from India. If no outbound Indian remittance happens, there is no ODI event. However, the initial capital to open the US bank and get operational typically needs some Indian funding &mdash; and that triggers ODI."),
         ("What is the Annual Performance Report deadline?",
-         "APR for the previous Indian financial year (ending March 31) is due to RBI through your AD bank by June 30 each year. Example: for FY2025-26 (ending 31 March 2026), the APR is due by 30 June 2026. Delays are compoundable per missed year."),
+         "The APR is due through your AD bank by 31 December every year, based on the foreign entity's latest audited (or, where the host country does not require an audit, certified) financial statements. Example: for a US entity whose accounting year ended 31 December 2025, the APR is due by 31 December 2026. Delays are compoundable per missed year."),
         ("Does FEMA apply if I'm an NRI founder?",
          "FEMA ODI applies to Indian residents under the Foreign Exchange Management Act. If you are a Non-Resident Indian (NRI) under FEMA, you are not an Indian resident for FEMA purposes and ODI does not apply to your outbound investment into a US entity (because the capital is not crossing India's border from an Indian resident's hands). However, Indian income tax residency can still apply even for NRIs on certain income &mdash; separate analysis."),
         ("Can BQP file the Form ODI and APR for me?",

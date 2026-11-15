@@ -426,7 +426,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
          "<p><strong>From NRE:</strong> freely repatriable; no cap. Bank processes outward remittance to the NRI's overseas account on request. Form 15CA / 15CB generally not required (NRE funds are considered foreign-origin).</p>"
          "<p><strong>From NRO:</strong> up to USD 1 million per financial year (April to March). Form 15CA + Form 15CB required.</p>"
          "<p><strong>From FCNR:</strong> freely repatriable in the foreign currency of the deposit; no exchange, no cap.</p>"
-         "<p><strong>Transfer between accounts:</strong> NRE to NRO is permitted (NRE loses its 'external' character once in NRO). NRO to NRE is NOT permitted without specific authorisation &mdash; this is a common FEMA trap. NRE to FCNR and FCNR to NRE transfers are permitted.</p>"),
+         "<p><strong>Transfer between accounts:</strong> NRE to NRO is permitted (NRE loses its 'external' character once in NRO). NRO to NRE is permitted, but only within the USD 1 million per financial year repatriation limit, after tax is paid and with Forms 145/146 (formerly 15CA/15CB) and a FEMA declaration to the bank. NRE to FCNR and FCNR to NRE transfers are permitted.</p>"),
         ("/ On becoming Resident", "The re-designation step.",
          "<p>When the NRI returns to India permanently and becomes Resident:</p>"
          "<ul>"
@@ -443,7 +443,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("Is NRE Fixed Deposit interest tax-free in India and in my country of residence?",
          "In India: yes, under Section 10(4)(ii), provided NRI status is maintained. In your country of residence: depends. US NRIs report NRE interest as taxable income to the IRS under worldwide-income rules. UK NRIs report under self-assessment. UAE residents post-Corporate-Tax may report as business income if applicable. The tax-free Indian treatment is specifically an Indian rule, not an international one."),
         ("Can I transfer money from NRO to NRE account?",
-         "Only with specific authorisation under FEMA, limited to the USD 1 million per financial year cap and only after proper documentation (Form 15CA + Form 15CB confirming tax paid on the NRO balance). It is not automatic. Many NRIs mistakenly assume NRO-to-NRE is free &mdash; it is not; the transaction is treated as outward remittance from NRO."),
+         "Yes. Transfers from NRO to NRE are permitted within the USD 1 million per financial year repatriation limit (shared with remittances abroad from NRO), after tax is paid on the funds and with a FEMA declaration and Forms 145/146 (formerly 15CA/15CB) to the bank. It is not automatic. Many NRIs mistakenly assume NRO-to-NRE is free &mdash; it is not; the transaction is treated as outward remittance from NRO."),
         ("What happens to my NRE account when I return to India?",
          "You must re-designate within 60-90 days of return. Savings component converts to Resident Savings Account (interest fully taxable from conversion). Fixed Deposits can be converted to RFC (Resident Foreign Currency) Account to retain foreign-currency denomination, or to Resident Rupee Fixed Deposits. The Section 10(4)(ii) exemption ends on the re-designation date; interest earned before is retained tax-free."),
         ("Can I claim DTAA treaty rate on NRO interest instead of 30% domestic TDS?",

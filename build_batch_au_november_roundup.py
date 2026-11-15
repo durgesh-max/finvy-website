@@ -14,6 +14,10 @@ def ul(*items):
 
 # (date, title, text, our page, (source name, source url)) - newest first
 NEWS_ITEMS = [
+    ("15 Nov 2026", "GST: amendments in force from 1 November 2026; intermediary services now exports",
+     "Notification 03/2026-Central Tax brought sections 153 to 155 of the Finance Act, 2026 into force on 1 November 2026: a revised post-supply discount rule (section 15(3)(b)) with matching credit notes, and refund changes including 90% provisional refunds of inverted-duty input tax credit. Rate notifications effective the same day extend reverse charge to used cooking oil, plastic waste, tyre scrap and e-waste bought from unregistered suppliers. Separately, intermediary services to foreign clients have been zero-rated exports since 30 March 2026, when section 157 of the Finance Act, 2026 omitted section 13(8)(b) of the IGST Act.",
+     "gst-intermediary-services-export-section-13-8-b-omitted-30-march-2026.html",
+     ("TaxGuru", "https://taxguru.in/goods-and-service-tax/gst-1-november-2026-item-wise-guide-notifications.html")),
     ("15 Nov 2026", "SEBI: NRIs and OCIs can complete market KYC from abroad from 3 December",
      "A SEBI circular dated 4 November 2026 lets intermediaries accept digital KYC and re-KYC from NRIs, OCIs and foreign nationals living in FATF-compliant countries without being physically in India, with video verification, from 3 December 2026. A separate 11 November circular aligns FATCA/CRS self-certification with the Income-tax Rules, 2026.",
      "nri-oci-demat-trading-account-digital-kyc-from-abroad-sebi-3-december-2026.html",

@@ -341,14 +341,14 @@ write_page("nri-mutual-funds-india-tax", page(
          "<li><strong>STT</strong> is paid at redemption on equity MFs, qualifying them for the above rates.</li>"
          "<li><strong>TDS by AMC:</strong> yes, deducted at source on redemption for NRIs (unlike for Indian residents). Rate matches the applicable LTCG / STCG rate; refund via ITR filing if excess.</li>"
          "</ul>"
-         "<p><strong>DTAA override:</strong> treaty-based lower rate may apply where available &mdash; most treaties do not reduce capital gains on Indian shares post-2016/2017 protocols. The 12.5% domestic rate typically applies in full.</p>"),
+         "<p><strong>DTAA override:</strong> most of India's treaties let India tax gains on <em>shares</em> of Indian companies, so the domestic rates usually apply to direct shares. Mutual fund units are not shares, however: tax tribunals have held that gains of UAE residents on Indian mutual fund units are taxable only in the UAE under Article 13(5) of the India-UAE treaty (Delhi ITAT, October 2024; Cochin ITAT, 2019), and similar rulings exist for Singapore residents. The fund house still deducts TDS; the refund is claimed in the Indian return with a tax residency certificate and Form 41 (formerly 10F). See <a href=\"india-uae-dtaa-for-nris-dubai-nro-interest-mutual-funds-property-trc-2026.html\">India-UAE DTAA for NRIs</a>. The tax department can contest this position.</p>"),
         ("/ Taxation of debt and hybrid mutual funds", "Post-April 2023 regime.",
          "<p><strong>Debt-oriented mutual funds</strong> (post-April 2023 purchases):</p>"
          "<ul>"
          "<li>Gains are taxed at the NRI's <strong>slab rate</strong>, regardless of holding period &mdash; the LTCG preferential rate was removed in Finance Act 2023 for debt MFs.</li>"
          "<li>Grandfathering: debt MF units purchased before 1 April 2023 retain the pre-amendment regime (LTCG 20% with indexation after 3-year holding) until sold.</li>"
          "</ul>"
-         "<p><strong>Hybrid mutual funds:</strong> treated based on actual equity exposure. &ge;65% equity: equity MF treatment. 35-65% equity: a specific balanced-advantage category exists with a 12.5% LTCG + INR 1.25 lakh exemption treatment (post-2024 rules). &lt;35% equity: slab-rate treatment like debt MFs.</p>"
+         "<p><strong>Hybrid mutual funds:</strong> treated based on actual equity exposure. &ge;65% equity: equity MF treatment. Funds investing more than 65% in debt and money market instruments are &lsquo;specified mutual funds&rsquo; (section 50AA as amended by the Finance (No. 2) Act, 2024): gains taxed at slab rates whatever the holding period. Funds in between (more than 35% but less than 65% equity, and not more than 65% debt): long-term after 24 months, taxed at 12.5% without the INR 1.25 lakh exemption (which applies only to equity-oriented funds); short-term at slab rates.</p>"
          "<p><strong>TDS by AMC:</strong> deducted at source for NRIs at the applicable rate.</p>"),
         ("/ Repatriation and reporting", "What the NRI must file.",
          "<p><strong>Repatriable scheme sales:</strong> proceeds credit to NRE account; repatriable freely outside India without USD 1M cap.</p>"

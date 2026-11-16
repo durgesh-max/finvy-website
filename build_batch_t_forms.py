@@ -420,9 +420,9 @@ PAGES.append({
          "<ul>"
          "<li>Turnover above <strong>INR 1 crore</strong> (goods) / <strong>INR 50 lakh</strong> (profession) for AY 2026-27.</li>"
          "<li>Business with 95%+ digital receipts: INR 10 crore turnover threshold.</li>"
-         "<li>Professional with 95%+ digital receipts: INR 75 lakh threshold.</li>"
+         "<li>Professionals: tax audit above INR 50 lakh gross receipts (the INR 75 lakh figure is the limit for the section 44ADA presumptive scheme where cash receipts are within 5%, not a tax audit threshold).</li>"
          "<li>Section 44AD / 44ADA presumptive scheme + turnover below threshold = exempt.</li>"
-         "<li>Due date: 31 October of AY (vs 31 July for non-audit). TP cases 30 November.</li>"
+         "<li>Due dates: tax audit report 30 September of the AY and return 31 October (for AY 2026-27 extended to 21 October and 21 November 2026); transfer pricing cases file the return by 30 November.</li>"
          "</ul>"),
         ("/ Form 3CA vs 3CB", "Which applies.",
          "<ul>"
@@ -432,7 +432,7 @@ PAGES.append({
          "</ul>"),
         ("/ Clause 22 Section 43B(h) focus", "The year-2 critical clause.",
          "<ul>"
-         "<li>Clause 22 expanded post Finance Act 2023 for Section 43B(h) MSE compliance.</li>"
+         "<li>Clause 22 reports interest inadmissible under the MSMED Act, and clause 26 reports section 43B items, including section 43B(h) payments to micro and small enterprises (Finance Act 2023).</li>"
          "<li>Current year disallowance: MSE expense paid beyond 45 days.</li>"
          "<li>Prior year reversal: MSE expense disallowed in prior year, paid during current year - allowed as deduction in current year.</li>"
          "<li>Udyam certificate collection + aging + Section 15 MSMED interest documentation.</li>"
@@ -457,24 +457,24 @@ PAGES.append({
     ],
     "faqs": [
         ("What's the tax audit turnover threshold for AY 2026-27?",
-         "INR 1 crore (goods) / INR 50 lakh (profession) standard. INR 10 crore (goods) / INR 75 lakh (profession) if 95%+ digital receipts. Section 44AD / 44ADA presumptive scheme + turnover below threshold = exempt."),
+         "INR 1 crore (goods) / INR 50 lakh (profession) standard. INR 10 crore for businesses whose cash receipts and payments are each within 5%; professionals stay at INR 50 lakh. Section 44AD / 44ADA presumptive scheme + turnover below threshold = exempt."),
         ("What's Clause 22 of Form 3CD?",
          "Post Finance Act 2023 expansion: specific disclosure of Section 43B(h) MSE expense disallowance in current year + prior year reversal when paid during current year. Udyam certificate collection + 45-day aging + Section 15 MSMED interest. Cross-references MSME Form I half-yearly ROC filing."),
         ("What's Clause 44 Form 3CD GST reconciliation?",
          "Reconciliation of Income Tax turnover with GST turnover (GSTR-1 + GSTR-9). Common adjustments: credit notes timing, exempt supplies, year-end returns, discounts, FX exports. Narrative explanation for each unreconciled item. ICAI 2024 guidance clarifies methodology."),
         ("Is UDIN mandatory on Form 3CA/3CB?",
          "Yes - ICAI UDIN mandatory for every CA audit report + certificate since 2019. Generated on ICAI portal before signing + attached to Form 3CA/3CB. UDIN verifiable by taxpayer + tax authority against ICAI records."),
-        ("What's the late fee for missing 31 October tax audit?",
+        ("What's the penalty for missing the tax audit deadline?",
          "Section 234F late ITR filing fee + Section 271B penalty for late tax audit: 0.5% of turnover or INR 1,50,000 whichever lower. ITR filing blocked until Form 3CA/3CB linked on portal. Section 148A show-cause risk from AO."),
         ("Does BQP conduct tax audit + file Form 3CA/3CB/3CD?",
          "Yes - standard engagement. CA Durgesh Chavda personally signs tax audit reports as ICAI-qualified CA. Full 44-clause Form 3CD + Form 3CA/3CB + UDIN + ITR coordination. Priority turnaround in October 2026 tax audit window. WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("tax-audit-season-november-2026-post-filing-followups.html", "Related", "Tax Audit Post-Filing"),
                       ("ay-2026-27-itr-forms-new-disclosures-india.html", "Related", "AY 2026-27 ITR")],
-    "cta_h": "Tax audit threshold crossed? Form 3CA/3CB/3CD + UDIN due 31 October.",
+    "cta_h": "Tax audit threshold crossed? Form 3CA/3CB/3CD + UDIN due 30 September (21 October 2026 for AY 2026-27).",
     "cta_b": "44-clause Form 3CD + Clause 22 Section 43B(h) + Clause 44 GST reconciliation + UDIN + ITR coordination. BQP standard annual tax audit engagement.",
     "keywords": "Form 3CA 3CB 3CD tax audit India 2026, Section 44AB tax audit CA, Clause 22 Section 43B(h) CA, Clause 44 GST reconciliation CA",
-    "desc": "Form 3CA/3CB/3CD tax audit India AY 2026-27 complete checklist: Section 44AB threshold, 44 clauses, Clause 22 Section 43B(h) MSE, Clause 44 GST reconciliation, ICAI UDIN, 31 October deadline. Working CA guide by Durgesh Chavda.",
+    "desc": "Form 3CA/3CB/3CD tax audit India AY 2026-27 complete checklist: Section 44AB threshold, 44 clauses, Clause 26 Section 43B(h) MSE, Clause 44 GST reconciliation, ICAI UDIN, 30 September report deadline. Working CA guide by Durgesh Chavda.",
 })
 
 # 8. Form 3CEB TP audit

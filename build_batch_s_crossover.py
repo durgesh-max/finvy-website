@@ -571,7 +571,7 @@ DEADLINE_ALERTS = [
              "<li>Compile list of MSE suppliers (verified via Udyam certificate).</li>"
              "<li>Extract outstanding dues as of 30 September 2026 - specifically those over 45 days from acceptance date.</li>"
              "<li>Age bucket analysis (46-60 / 61-90 / 91-180 / 180+ days).</li>"
-             "<li>Compute Section 15 MSMED interest at 3x RBI bank rate compounded monthly.</li>"
+             "<li>Compute Section 16 MSMED interest at 3x RBI bank rate compounded monthly.</li>"
              "<li>Reason-for-delay documentation.</li>"
              "<li>Reconcile with Section 43B(h) tax audit disclosure (Form 3CD Clause 22).</li>"
              "<li>File MSME Form I by 29 November 2026 via MCA v3 portal.</li>"
@@ -597,7 +597,7 @@ DEADLINE_ALERTS = [
             ("section-43b-h-year-2-impact-buyers-mse-india.html", "Deep Guide", "Section 43B(h) Year 2"),
             ("udyam-msme-registration-benefits-india-2026.html", "Deep Guide", "Udyam MSME"),
         ],
-        "cta_h": "MSME Form I due 31 October 2026. 38 days left.",
+        "cta_h": "The April-September 2026 MSME Form I was due 31 October 2026; file now, as the penalty keeps growing.",
         "cta_b": "MSE supplier aging + Section 15 interest + MCA v3 portal filing. BQP integrated compliance: MSME Form I + Section 43B(h) + Form 3CD.",
         "keywords": "MSME Form I due date November 2026, Form MSME-1 half-year October 2026, MSME Form I 29 November, Section 15 MSMED CA",
     },

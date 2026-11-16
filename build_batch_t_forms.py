@@ -96,15 +96,15 @@ PAGES.append({
     "slug": "form-fc-trs-filing-checklist-india-2026",
     "title": "Form FC-TRS Filing Checklist India 2026 | Share Transfer Guide - BQP",
     "hero_em": "60-day transfer reporting.",
-    "lead": "Form FC-TRS mandatory FEMA filing for transfer of shares between resident and non-resident (or between two non-residents in Indian entity): within 60 days of transaction. Covers primary + secondary market transfers. Pricing guidelines + consent letters + CA / Merchant Banker certification required. Here's the complete 2026 filing framework.",
+    "lead": "Form FC-TRS mandatory FEMA filing for transfer of shares between resident and non-resident (or between two non-residents in Indian entity): within 60 days of transaction. Covers transfers of existing shares (fresh issues are reported in FC-GPR). Pricing guidelines + consent letters + CA / Merchant Banker certification required. Here's the complete 2026 filing framework.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ When FC-TRS applies", "Covered transfers.",
          "<ul>"
          "<li><strong>Resident to non-resident</strong>: Indian resident selling shares of Indian company to foreign buyer. FC-TRS by resident.</li>"
          "<li><strong>Non-resident to resident</strong>: Foreign shareholder selling to Indian buyer. FC-TRS by resident buyer.</li>"
-         "<li><strong>Non-resident to non-resident</strong>: Foreign shareholder transferring to another foreign party. FC-TRS by the Indian company whose shares are being transferred.</li>"
-         "<li>Covers primary + secondary market; equity + preference + convertible; direct + indirect.</li>"
+         "<li><strong>Non-resident to non-resident</strong>: Foreign shareholder transferring to another foreign party: no FC-TRS, because FC-TRS covers only transfers between a resident and a non-resident (sector caps and conditions still apply).</li>"
+         "<li>Covers transfers of existing equity, preference and convertible instruments (fresh issues go in FC-GPR).</li>"
          "<li><strong>Timeline</strong>: within 60 days of transaction via FIRMS portal.</li>"
          "</ul>"),
         ("/ Required documents", "The attachments.",
@@ -131,7 +131,7 @@ PAGES.append({
          "<li>Angel exit - angel investor selling to Series A VC (foreign).</li>"
          "<li>M&A exit - Indian promoters selling to foreign strategic acquirer.</li>"
          "<li>Buyback - Indian company buying back shares from foreign shareholder.</li>"
-         "<li>ESOP exercise by non-resident employee of Indian company.</li>"
+         "<li>Note: shares issued to a non-resident employee on ESOP exercise are a fresh issue reported in Form ESOP, not FC-TRS.</li>"
          "<li>Group restructuring - inter-affiliate transfers of Indian shares.</li>"
          "<li>Flip - Indian company shares transferred to new US HQ parent.</li>"
          "</ul>"
@@ -140,14 +140,14 @@ PAGES.append({
     "faqs": [
         ("When is Form FC-TRS due?",
          "Within 60 days of share transfer transaction. Filed via FIRMS portal (RBI). Non-filing attracts FEMA Section 13 compounding."),
-        ("Who files FC-TRS when non-resident sells to non-resident?",
-         "The Indian company whose shares are being transferred. Resident party to transaction is the Indian company itself. Specific scenario for inter-foreign-party transfers of Indian securities."),
+        ("Is FC-TRS needed when a non-resident sells to another non-resident?",
+         "No. FC-TRS covers transfers between a resident and a non-resident. A transfer between two non-residents is not reported in FC-TRS, though sector caps, entry routes and Indian capital gains tax on the seller still apply."),
         ("What's the pricing restriction?",
          "Rule 21: resident cannot sell below fair value to non-resident; cannot buy above fair value from non-resident. Fair value = DCF for unlisted, closing price for listed. CA / Merchant Banker certificate mandatory confirming compliance."),
         ("Does FC-TRS need Form 15CA + 15CB?",
          "If share consideration is paid in foreign currency to non-resident (e.g., Indian buyer paying foreign seller): Form 15CA + 15CB required under Rule 37BB. Payment is 'chargeable to tax in India' (capital gain) - Section 195 TDS at applicable rate (treaty rate with TRC + Form 10F)."),
         ("What if FC-TRS was missed historically?",
-         "FEMA voluntary compounding under Section 13 - typical INR 10,000-50,000 per instance. Materially cheaper than RBI inspection. BQP integrated FEMA compounding service covers past FC-TRS misses."),
+         "A late FC-TRS can be regularised by paying a Late Submission Fee (INR 7,500 plus 0.025% of the amount for each year of delay, capped at the amount involved) within three years of the due date; after that, the contravention goes through compounding. BQP integrated FEMA compounding service covers past FC-TRS misses."),
         ("Does BQP file FC-TRS for secondary / M&A transactions?",
          "Yes - standard service alongside M&A transaction advisory. Pricing certificate + share transfer agreement + SH-4 + FIRMS portal filing + Form 15CA/15CB if applicable. Standard turnaround 7-14 days. WhatsApp +91 78018 87130."),
     ],

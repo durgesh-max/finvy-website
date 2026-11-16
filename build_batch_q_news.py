@@ -275,7 +275,7 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
          "<li><strong>GSTR-9C (Reconciliation Statement)</strong>: mandatory for turnover above INR 5 crore. Self-certified (CA certification requirement removed from FY 2020-21 onwards).</li>"
          "<li><strong>Exempt from GSTR-9</strong>: Casual Taxable Person, Non-Resident Taxable Person, Input Service Distributor, Composition dealer (GSTR-9A instead), TDS collector (GSTR-7), TCS collector (GSTR-8).</li>"
          "<li><strong>Due date</strong>: 31 December 2026 for FY 2025-26. CBIC typically extends via notification; verify current status before 31 December.</li>"
-         "<li><strong>Late fee</strong>: INR 200 per day (INR 100 CGST + INR 100 SGST), capped at 0.25% of turnover. Section 47 CGST Act.</li>"
+         "<li><strong>Late fee</strong>: INR 50 a day for turnover up to INR 5 crore and INR 100 a day for INR 5-20 crore (each capped at 0.04% of turnover), INR 200 a day above INR 20 crore (capped at 0.5%), under Notification 07/2023-Central Tax for FY 2022-23 onwards. Section 47 CGST Act.</li>"
          "</ul>"),
         ("/ Reconciliation workstreams", "Four critical ones.",
          "<p><strong>Reconciliation 1: GSTR-1 vs GSTR-3B turnover</strong></p>"

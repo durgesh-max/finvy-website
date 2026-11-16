@@ -71,7 +71,7 @@ PAGES = [
             ("Should startup choose Pvt Ltd or LLP in 2026?",
              "If raising external VC/angel funding + ESOPs + IPO plan: Pvt Ltd. If 2+ founders + no external funding + limited liability + simpler compliance: LLP. If simple professional practice + no growth plan: Partnership. If solo + minimal liability + simplicity: Sole Proprietor. BQP decision-tree analysis per specific context."),
             ("Does Pvt Ltd always need to opt into Section 115BAA?",
-             "Not always. 115BAA 22% effective 25.17% + no MAT vs standard 25% + 15% MAT. For most mature profitable companies 115BAA wins. For companies with substantial SEZ 10AA / scientific research / carry-forward losses - standard regime may be better. Decision modelling critical."),
+             "Not always. 115BAA 22% effective 25.17% + no MAT vs standard 25% + 14% MAT (a final tax from FY 2026-27). For most mature profitable companies 115BAA wins. For companies with substantial SEZ 10AA / scientific research / carry-forward losses - standard regime may be better. Decision modelling critical."),
             ("Can I start as sole proprietor and convert later?",
              "Yes - sole proprietor to Pvt Ltd conversion is standard business transfer. Specific tax implications: Section 47 may not fully apply; capital gain on business transfer. BQP handles conversion with Section 47 planning + specific tax structuring. Easier if planned early."),
             ("What's HUF suitability for new-age startup?",
@@ -594,7 +594,7 @@ PAGES = [
              "<li><strong>Section 115BAC</strong>: new personal income tax regime.</li>"
              "<li><strong>Section 115BBH</strong>: 30% flat tax on VDA (crypto / NFT).</li>"
              "<li><strong>Section 115BBJ</strong>: 30% tax on online gaming winnings.</li>"
-             "<li><strong>Section 115JB</strong>: MAT 15% of book profit (for companies).</li>"
+             "<li><strong>Section 115JB</strong>: MAT 14% of book profit from FY 2026-27, 15% earlier (for companies); a final tax from 1 April 2026 with no new MAT credit.</li>"
              "<li><strong>Section 115JC</strong>: AMT 18.5% (for individuals + HUF + LLP + Partnership firms).</li>"
              "<li><strong>Section 115QA</strong>: buyback tax 20% distributed income.</li>"
              "<li><strong>Section 139(8A)</strong>: updated return 24-month window.</li>"

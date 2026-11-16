@@ -479,7 +479,7 @@ write_page("india-market-entry-foreign-company-guide", page(
         ("/ GST + tax regime", "The compliance stack.",
          "<ul>"
          "<li><strong>Corporate tax</strong>: 25% / 22% (Section 115BAA) / 15% (Section 115BAB new manufacturing). See <a href='section-115baa-115bab-corporate-tax-regime-india.html'>corporate tax guide</a>.</li>"
-         "<li><strong>Minimum Alternate Tax (MAT)</strong>: 15% on book profit (does not apply if 115BAA / 115BAB opted).</li>"
+         "<li><strong>Minimum Alternate Tax (MAT)</strong>: 14% of book profit from FY 2026-27, 15% earlier (does not apply if 115BAA / 115BAB opted); MAT is now a final tax with no new credit.</li>"
          "<li><strong>Dividend Distribution Tax (DDT)</strong>: abolished from April 2020. Dividend taxable in shareholder's hands (foreign parent &rarr; Section 195 TDS at treaty rate).</li>"
          "<li><strong>GST</strong>: 18% standard; 5% / 12% reduced; 28% luxury. Monthly GSTR-1 + 3B. Annual GSTR-9 if turnover &gt; INR 2 crore.</li>"
          "<li><strong>IGST on imports</strong>: paid on customs value + Basic Customs Duty; credit available if used for GST-taxable supply.</li>"

@@ -57,7 +57,7 @@ write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
          "<li>Submit with Aadhaar OTP (not required for non-residents) OR using the account-level digital signature if available.</li>"
          "<li>Acknowledgement number generated &mdash; retain + share with Indian payer.</li>"
          "</ol>"
-         "<p>Form 10F now visible to Indian payer when they look up the non-resident's Indian tax profile for Form 15CB signing.</p>"),
+         "<p>Share the filed Form 10F acknowledgement with the Indian payer and the CA signing Form 15CB.</p>"),
         ("/ Common Form 10F mistakes", "Where NRIs trip.",
          "<ul>"
          "<li><strong>Missing TRC</strong>: Form 10F cannot substitute TRC. Both are needed. TRC = tax authority of home country confirms residence; Form 10F = non-resident's own declaration about residence + treaty eligibility + beneficial ownership.</li>"
@@ -198,7 +198,7 @@ write_page("nri-gift-indian-relatives-section-56-fema-2026", page(
          "<li>NRI son gifts to Indian parent &mdash; parent is 'relative', fully exempt.</li>"
          "<li>Indian parent gifts to NRI daughter &mdash; daughter's parent is 'relative', fully exempt.</li>"
          "<li>NRI sibling gift / inheritance &mdash; sibling is 'relative', fully exempt.</li>"
-         "<li>NRI uncle / aunt / cousin / niece / nephew &mdash; uncle / aunt via blood (parent's sibling) is 'relative'; via marriage is NOT; cousin / niece / nephew is NOT 'relative'; taxable above INR 50K.</li>"
+         "<li>NRI uncle / aunt / cousin / niece / nephew &mdash; your parents' brothers and sisters and their spouses are 'relatives'; cousins, nieces and nephews are NOT, so their gifts are taxable above INR 50K.</li>"
          "<li>NRI friend gift &mdash; NOT 'relative'; taxable above INR 50K.</li>"
          "</ul>"
          "<p>See our comprehensive <a href='section-56-2-x-gift-tax-india-2026.html'>Section 56(2)(x) guide</a>.</p>"),

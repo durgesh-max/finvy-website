@@ -387,11 +387,11 @@ write_page("india-us-dtaa-withholding-rates", page(
         ("/ The headline rates", "What the India-US DTAA caps.",
          "<p>The India-US Double Taxation Avoidance Agreement (signed 1989, in force 1990, protocols 1991 and 1999) sets maximum withholding tax rates that override higher domestic rates. Current treaty-capped rates:</p>"
          "<ul>"
-         "<li><strong>Dividends (Article 10):</strong> 15% (default); 25% applies in older cases but 15% is the general cap. For dividends from a US corporation to a 10%+ Indian corporate shareholder, 15% is the floor.</li>"
+         "<li><strong>Dividends (Article 10):</strong> 15% where the beneficial owner is a company owning at least 10% of the voting stock of the paying company; 25% in all other cases, including individuals.</li>"
          "<li><strong>Interest (Article 11):</strong> 10% for financial institutions; 15% for other interest.</li>"
          "<li><strong>Royalties and Fees for Included Services (Article 12):</strong> 10% for industrial equipment royalties; 15% for other royalties and most Fees for Included Services (FIS). Note India and US use different terminology &mdash; India calls it FTS (Fees for Technical Services), the treaty calls it FIS.</li>"
          "<li><strong>Business profits (Article 7):</strong> taxable only in the residence country unless there is a Permanent Establishment in the source country. If US customer pays Indian company for services with no US PE, no US withholding at all.</li>"
-         "<li><strong>Capital gains on shares (Article 13):</strong> taxable in the country of residence of the seller, with specific carve-outs.</li>"
+         "<li><strong>Capital gains (Article 13):</strong> the India-US treaty leaves capital gains to each country&rsquo;s domestic law, so India taxes gains on Indian shares and property sold by US residents, and the US gives a foreign tax credit.</li>"
          "</ul>"),
         ("/ Who gets which rate", "Reading the article is the whole game.",
          "<p>Characterisation determines rate. The same money flow can be royalty (Article 12, 15% cap) or business profits (Article 7, no US withholding if no US PE). Which one applies depends on the facts and the contract.</p>"
@@ -401,7 +401,7 @@ write_page("india-us-dtaa-withholding-rates", page(
          "<p>To get the US payer to withhold at the treaty rate (instead of the default 30% US domestic rate on most cross-border payments), the Indian recipient must give the US payer:</p>"
          "<ol>"
          "<li><strong>Form W-8BEN-E</strong> (for entities; W-8BEN for individuals). This is a US IRS form the Indian recipient signs certifying their foreign status and treaty eligibility. Must be renewed every 3 years or when circumstances change.</li>"
-         "<li><strong>Indian Tax Residency Certificate (TRC)</strong> from the Indian tax authority (CBDT), issued per Section 90(4) of the Indian Income-tax Act. Request through your jurisdictional Assessing Officer. Validity 1 year.</li>"
+         "<li><strong>Indian Tax Residency Certificate (TRC)</strong> from the Indian tax authority (CBDT), issued per Section 90(4) of the Indian Income-tax Act. Apply online on the income-tax portal in Form 42 (formerly Form 10FA); the certificate is issued in Form 43 (formerly Form 10FB). Valid for the year stated.</li>"
          "<li><strong>Form 10F</strong> &mdash; an Indian prescribed form self-certifying additional information required to claim treaty benefits. From April 2023, must be filed electronically on the Indian income tax portal. Mandatory for non-resident claims.</li>"
          "</ol>"
          "<p>Without all three documents, the US payer must withhold at the full 30% default. Many Indian service providers lose 15 percentage points of their US revenue by not providing the documents to the US customer at onboarding.</p>"),
@@ -412,7 +412,7 @@ write_page("india-us-dtaa-withholding-rates", page(
     ],
     faqs=[
         ("What is the dividend withholding rate under the India-US DTAA?",
-         "15% is the general cap. The treaty's older 25% rate applies only in limited circumstances. For a US C-Corp paying dividends to its Indian parent company, the rate is 15% provided all treaty-claim documents (Form W-8BEN-E, TRC, Form 10F) are in place with the US payer."),
+         "15% where the beneficial owner is a company owning at least 10% of the paying company's voting stock; 25% in all other cases, including individual shareholders. A US C-Corp paying dividends to its Indian parent (10%+) withholds 15% if the parent gives a valid Form W-8BEN-E claiming the treaty; the same caps apply to Indian dividends paid to US residents."),
         ("What is Form 10F and when is it required?",
          "Form 10F is a self-certification prescribed under Indian Rule 21AB used by non-residents to claim DTAA treaty benefits in India. From April 2023, it must be filed electronically on the Indian income tax portal (incometax.gov.in) by any non-resident claiming DTAA relief. Without it, treaty benefits are typically denied on an audit."),
         ("Do I need Form 10F for US-source income received by an Indian company?",
@@ -422,7 +422,7 @@ write_page("india-us-dtaa-withholding-rates", page(
         ("What is a Permanent Establishment and does my Indian company have one in the US?",
          "A Permanent Establishment (PE) under Article 5 of the India-US DTAA is a fixed place of business in the US &mdash; a leased office, a warehouse, employees physically working there. A US customer, a US bank account, or occasional business travel does not create a PE. If you have US employees or a US office, you likely have a PE and the Article 7 business-profits exemption is lost on activity attributable to that PE."),
         ("How do I get an Indian Tax Residency Certificate?",
-         "Apply through your jurisdictional Assessing Officer with Form 10FA and supporting documents (PAN card, proof of Indian residence, bank statements). Issued per Section 90(4) and Rule 21AB. Typical processing is 15-30 days. Valid for 1 financial year. Must be renewed annually to maintain DTAA eligibility for cross-border payments."),
+         "Apply online on the income-tax portal in Form 42 (formerly Form 10FA) with supporting documents (PAN, proof of Indian residence). The certificate is issued in Form 43 (formerly Form 10FB). Valid for the year stated on it. Must be renewed annually to maintain DTAA eligibility for cross-border payments."),
     ],
     related=[
         ("us-incorporation.html", "Service", "US Incorporation (overview)"),

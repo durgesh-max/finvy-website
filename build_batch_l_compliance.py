@@ -296,7 +296,7 @@ write_page("section-56-2-x-gift-tax-india-2026", page(
          "<p><strong>NOT relatives</strong> (gifts from these ARE taxable above INR 50,000):</p>"
          "<ul>"
          "<li>Friend.</li>"
-         "<li>Uncle's or aunt's spouse (if the uncle/aunt is not blood-related).</li>"
+         "<li>Spouse of a cousin, niece or nephew.</li>"
          "<li>Cousin.</li>"
          "<li>Niece, nephew (unless lineal descendant via another route).</li>"
          "<li>Employer (except specific perquisite rules).</li>"

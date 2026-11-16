@@ -361,7 +361,7 @@ PAGES = [
         "slug": "how-to-file-form-10f-electronic-india-nri-no-pan-step-by-step",
         "title": "Form 10F Online Without PAN (2026): Step-by-Step for NRIs and Foreign Companies",
         "hero_em": "PAN-less registration + e-filing.",
-        "lead": "NRIs without Indian PAN can file electronic Form 10F on Indian Income Tax e-filing portal via specific PAN-less registration. CBDT Notification/Circular July 2024 clarified this route. Required for every NRI claiming DTAA treaty rate on India-source income. Here's the complete step-by-step process.",
+        "lead": "NRIs without Indian PAN can file electronic Form 10F on Indian Income Tax e-filing portal via specific PAN-less registration. The portal has offered this route since 2023, after the manual-filing relaxation ended on 30 September 2023. Required for every NRI claiming DTAA treaty rate on India-source income. Here's the complete step-by-step process.",
         "kicker": "/ Form 10F PAN-Less Filing &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ Pre-registration preparation", "What NRI needs.",
@@ -404,7 +404,7 @@ PAGES = [
              "</ol>"),
             ("/ Post-filing + ongoing", "Share with Indian payer.",
              "<ul>"
-             "<li>Form 10F now visible to Indian payer when they look up non-resident's Indian tax profile.</li>"
+             "<li>Share the filed Form 10F acknowledgement with the Indian payer.</li>"
              "<li>Indian payer uses Form 10F + TRC + no-PE declaration to apply treaty rate (not 20% default) under Section 195.</li>"
              "<li>Form 10F valid for period covered by TRC (typically 1 year).</li>"
              "<li>Renew annually: new TRC + fresh Form 10F.</li>"
@@ -415,7 +415,7 @@ PAGES = [
         ],
         "faqs": [
             ("Can NRI without PAN file Form 10F?",
-             "Yes - CBDT Notification/Circular July 2024 specifically clarified this route. NRI registers on India e-filing portal as 'Non-Resident Not Holding and Not Required to Have PAN' using foreign TIN or passport + country of residence + email + mobile. Account enables Form 10F e-filing. Not required to obtain Indian PAN specifically for Form 10F."),
+             "Yes - The e-filing portal has allowed non-residents without PAN to register for this since 2023, after the manual-filing relaxation ended on 30 September 2023. NRI registers on India e-filing portal as 'Non-Resident Not Holding and Not Required to Have PAN' using foreign TIN or passport + country of residence + email + mobile. Account enables Form 10F e-filing. Not required to obtain Indian PAN specifically for Form 10F."),
             ("What's TRC and why is it needed?",
              "Tax Residency Certificate - issued by home country tax authority confirming NRI is tax resident there. Required under Section 90(4) Income Tax Act for DTAA treaty rate. Form 10F + TRC together form the stack for Indian payer to apply treaty rate under Section 195."),
             ("How often to refile Form 10F?",

@@ -627,7 +627,7 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Section 115BAA 22% (optional, with specific conditions).</li>"
              "<li>&nbsp;&nbsp;&mdash; Section 115BAB 15% (optional, new manufacturing + specific conditions + specific date limits).</li>"
              "<li>&nbsp;&nbsp;&mdash; Surcharge + 4% cess on top.</li>"
-             "<li>&nbsp;&nbsp;&mdash; MAT 15% / AMT if specific scenarios + 115BAA/BAB opt-in exempt MAT.</li>"
+             "<li>&nbsp;&nbsp;&mdash; MAT 14% (15% up to FY 2025-26) / AMT if specific scenarios + 115BAA/BAB opt-in exempt MAT.</li>"
              "<li>&nbsp;&nbsp;&mdash; Dividend to shareholders: taxed in shareholder's hands at specific rates (115BBDA abolished post FY 2020-21).</li>"
              "<li>&nbsp;&nbsp;&mdash; Buyback: Section 115QA 20% buyback tax on company.</li>"
              "<li><strong>LLP</strong>:</li>"
@@ -693,7 +693,7 @@ PAGES = [
             ("Can LLP receive VC/PE investment?",
              "LLPs can accept FDI since 2015 but VC/PE generally AVOIDS LLP structure because: (a) no shares - only capital contribution, (b) no CCPS / CCD / preferred equity instruments, (c) no ESOP mechanism, (d) cannot list on stock exchange, (e) 100-partner max limit. VC/PE strongly prefers Private Limited for standard equity-based investment."),
             ("What's the tax difference LLP vs Private Limited?",
-             "Private Limited: 25%/30% base (or Section 115BAA 22% / Section 115BAB 15% opt-in) + MAT 15% + dividend taxable in shareholders' hands. LLP: 30% flat + AMT 18.5% if applicable + Section 10(2A) exempts partner's share of profit + Section 40(b) regulates partner remuneration deduction."),
+             "Private Limited: 25%/30% base (or Section 115BAA 22% / Section 115BAB 15% opt-in) + MAT 14% (15% up to FY 2025-26) + dividend taxable in shareholders' hands. LLP: 30% flat + AMT 18.5% if applicable + Section 10(2A) exempts partner's share of profit + Section 40(b) regulates partner remuneration deduction."),
             ("Can LLP convert to Private Limited later?",
              "Yes - LLP to Private Limited conversion possible under specific framework (specific NCLT + Section 366 Companies Act or specific LLP Act). Specific tax implications + specific capital gain. Alternatively: new Private Limited incorporated with specific business transfer + specific valuation + specific partnership. BQP advises optimal path based on specific scenarios."),
             ("Does BQP handle LLP + Private Limited both?",
@@ -740,7 +740,7 @@ PAGES = [
              "<ul>"
              "<li>Profitable established companies with turnover > INR 400 crore (base rate 30% without 115BAA, so 22% is material saving).</li>"
              "<li>Companies without specific 10AA SEZ / 35 R&D / 32(1)(iia) depreciation claims.</li>"
-             "<li>Companies previously paying MAT (effective rate 15% + surcharge + cess = ~17-18%) but having book profit higher than ITA computed - 115BAA MAT exemption + specific other benefits.</li>"
+             "<li>Companies previously paying MAT (15% plus surcharge and cess up to FY 2025-26; 14% from FY 2026-27, now a final tax) but having book profit higher than ITA computed - 115BAA MAT exemption + specific other benefits.</li>"
              "<li>Companies in services / consumer / most sectors without specific depreciation-intensive capex.</li>"
              "<li>Standard profitable SMEs + mid-market Indian companies.</li>"
              "</ul>"),

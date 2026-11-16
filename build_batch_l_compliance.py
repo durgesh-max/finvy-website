@@ -175,7 +175,7 @@ write_page("section-115baa-115bab-corporate-tax-regime-india", page(
          "<ul>"
          "<li>Rate: 25% (if turnover up to INR 400 crore in FY preceding by 2) or 30% (above).</li>"
          "<li>Full access to all deductions, carry-forward losses, Section 80 benefits.</li>"
-         "<li>MAT applies at 15%.</li>"
+         "<li>MAT applies at 14% from FY 2026-27 (15% earlier). From 1 April 2026 (Finance Act, 2026) MAT is 14% and a final tax: no new MAT credit arises, and credit brought forward from earlier years can be set off only by companies that move to the lower-rate regime, up to one-fourth of the tax liability.</li>"
          "</ul>"
          "<p><strong>2. Section 115BAA (concessional for any domestic company)</strong>:</p>"
          "<ul>"

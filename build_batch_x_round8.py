@@ -102,13 +102,13 @@ PAGES = [
         "slug": "form-29b-mat-applicability-certificate-india-2026",
         "title": "Form 29B MAT Applicability Certificate India 2026",
         "hero_em": "Section 115JB 15% MAT compliance.",
-        "lead": "Form 29B is Chartered Accountant certificate on Minimum Alternate Tax (MAT) applicability + computation under Section 115JB Income Tax Act. 15% of book profit as alternative tax when standard provisions result in lower tax. Mandatory for companies in MAT scope. Section 115BAA / 115BAB opt-in exempts from MAT. Here's the complete 2026 Form 29B framework.",
+        "lead": "Form 29B is Chartered Accountant certificate on Minimum Alternate Tax (MAT) applicability + computation under Section 115JB Income Tax Act. 14% of book profit (15% up to FY 2025-26) as alternative tax when standard provisions result in lower tax. Mandatory for companies in MAT scope. Section 115BAA / 115BAB opt-in exempts from MAT. Here's the complete 2026 Form 29B framework.",
         "kicker": "/ Form 29B Checklist &middot; Updated 2026-10-22",
         "sections_pairs": [
             ("/ Section 115JB MAT core", "The 15% alternative.",
              "<ul>"
-             "<li>MAT (Minimum Alternate Tax) applies to companies where tax under standard regime (25% / 22% / 30%) is LOWER than 15% of book profit.</li>"
-             "<li>In that case: MAT at 15% + surcharge + cess = ~15.6% effective applies instead.</li>"
+             "<li>MAT (Minimum Alternate Tax) applies to companies where tax under standard regime (25% / 22% / 30%) is LOWER than 14% of book profit (15% up to FY 2025-26). From 1 April 2026 (Finance Act, 2026) MAT is 14% and a final tax: no new MAT credit arises, and credit brought forward from earlier years can be set off only by companies that move to the lower-rate regime, up to one-fourth of the tax liability.</li>"
+             "<li>In that case: MAT at 14% (15% up to FY 2025-26) + surcharge + cess applies instead. From 1 April 2026 (Finance Act, 2026) MAT is 14% and a final tax: no new MAT credit arises, and credit brought forward from earlier years can be set off only by companies that move to the lower-rate regime, up to one-fourth of the tax liability.</li>"
              "<li>Book profit = net profit per P&amp;L adjusted for specific additions / deletions (Explanation 1 to Section 115JB).</li>"
              "<li>MAT credit: excess MAT paid over standard tax carried forward 15 years + can be set off against future years when standard tax exceeds MAT.</li>"
              "<li><strong>Section 115BAA / 115BAB opt-in exempts from MAT</strong>: specific legislative design. Mature companies in 115BAA regime (22%) + new manufacturing in 115BAB (15%) are MAT-free.</li>"
@@ -140,9 +140,9 @@ PAGES = [
         ],
         "faqs": [
             ("Who needs to file Form 29B?",
-             "Every company liable to pay MAT under Section 115JB. If company's standard tax (25% / 30%) is lower than 15% of book profit, MAT applies + Form 29B mandatory. Companies that opted into Section 115BAA or 115BAB are exempt from MAT - Form 29B not needed for them."),
+             "Every company liable to pay MAT under Section 115JB. If company's standard tax (25% / 30%) is lower than 14% of book profit (15% up to FY 2025-26), MAT applies + Form 29B mandatory. Companies that opted into Section 115BAA or 115BAB are exempt from MAT - Form 29B not needed for them."),
             ("What's the MAT rate for 2026?",
-             "15% of book profit + applicable surcharge + 4% cess = ~15.6% effective. (Rate was 18.5% pre-Finance Act 2019; reduced to 15% to encourage profitability-based taxation.)"),
+             "14% of book profit from tax year 2026-27 (15% up to FY 2025-26) + applicable surcharge + 4% cess. (Rate was 18.5% pre-Finance Act 2019; reduced to 15% to encourage profitability-based taxation.)"),
             ("Does Section 115BAA opt-in avoid MAT?",
              "Yes - companies in Section 115BAA (22%) are exempt from MAT. One of the key benefits of 115BAA opt-in (alongside concessional rate). Companies with substantial MAT concern pre-opt-in see additional reason to switch to 115BAA via Form 10-IC."),
             ("What's MAT credit?",
@@ -156,7 +156,7 @@ PAGES = [
                           ("form-10-ic-section-115baa-election-checklist-india-2026.html", "Related", "Form 10-IC")],
         "cta_h": "Company liable to MAT or opting into Section 115BAA?",
         "cta_b": "Form 29B CA certificate + Section 115BAA opt-in modelling + MAT credit carry-forward. BQP standard tax engagement.",
-        "keywords": "Form 29B MAT India 2026, Section 115JB MAT 15% CA, MAT applicability CA India, Form 29B Section 115BAA exempt",
+        "keywords": "Form 29B MAT India 2026, Section 115JB MAT 14% CA, MAT applicability CA India, Form 29B Section 115BAA exempt",
         "desc": "Form 29B MAT applicability certificate India 2026: Section 115JB 15% Minimum Alternate Tax, book profit computation Explanation 1 adjustments, MAT credit 15-year carry-forward, Section 115BAA / 115BAB opt-in exempts from MAT. Working CA guide by Durgesh Chavda.",
     },
     {
@@ -201,7 +201,7 @@ PAGES = [
         ],
         "faqs": [
             ("What's Section 115JC AMT?",
-             "Alternate Minimum Tax at 18.5% applicable to individuals + HUFs + LLPs + Partnership firms (NOT companies - companies have MAT at 15% under Section 115JB). AMT applies when regular tax is lower than 18.5% of 'adjusted total income' (regular income + specific deductions added back)."),
+             "Alternate Minimum Tax at 18.5% applicable to individuals + HUFs + LLPs + Partnership firms (NOT companies - companies have MAT at 14% under Section 115JB from FY 2026-27, 15% earlier). AMT applies when regular tax is lower than 18.5% of 'adjusted total income' (regular income + specific deductions added back)."),
             ("Does AMT apply to small individuals?",
              "Individual + HUF: AMT exempt if adjusted total income < INR 20 lakh. Above INR 20 lakh with specific deductions (10AA / 35AD / Section 80), AMT may apply. LLPs + Partnership firms: AMT applies regardless of threshold."),
             ("What's Form 29C and when is it filed?",

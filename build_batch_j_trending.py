@@ -502,7 +502,7 @@ write_page("gift-city-section-10-4d-2026-update", page(
     keywords="GIFT City Section 10(4D) 2026, GIFT City AIF Category III tax, Section 80LA GIFT City, Section 10(4F) IFSC, IFSCA FME licensing, GIFT City fund setup",
     hero_kicker="/ Blog &middot; GIFT City IFSC &middot; Updated 2026-10-09",
     hero_title_html="GIFT City IFSC Section 10(4D), <em>the 2026 state of play.</em>",
-    hero_lead="GIFT City (Gujarat International Finance Tec-City) IFSC continues to expand through 2024-2026 as India's onshore-international fund hub. Section 10(4D) exempts specified Category III AIF income from Indian tax. Section 80LA provides a 100% tax holiday for IFSC business units. Section 10(4F) exempts non-resident unit holders. By October 2026, 100+ AIFs are operating at GIFT City with IFSCA Fund Management Entity (FME) licensing. This is the practitioner's current map.",
+    hero_lead="GIFT City (Gujarat International Finance Tec-City) IFSC continues to expand through 2024-2026 as India's onshore-international fund hub. Section 10(4D) exempts specified Category III AIF income from Indian tax. Section 80LA (now section 147 of the Income-tax Act, 2025) provides a 100% tax holiday for IFSC business units, for 20 consecutive years out of 25 after the Finance Act, 2026. Section 10(4F) exempts non-resident unit holders. By October 2026, 100+ AIFs are operating at GIFT City with IFSCA Fund Management Entity (FME) licensing. This is the practitioner's current map.",
     sections=[
         ("/ Section 10(4D): what it exempts", "The AIF Category III carve-out.",
          "<p>Section 10(4D) of the Income Tax Act provides for exemption of specified income of certain funds operating in IFSC. Scope:</p>"
@@ -512,7 +512,7 @@ write_page("gift-city-section-10-4d-2026-update", page(
          "<li>Specified income types eligible for exemption: capital gains on specified securities, interest, dividend, portfolio management income earned by the Specified Fund.</li>"
          "<li>Income earned from investments in Indian or foreign securities, provided held at IFSC level in the Specified Fund.</li>"
          "</ul>"
-         "<p><strong>Combined with Section 80LA</strong> (100% tax holiday for IFSC units for 10 consecutive years out of 15), GIFT City Specified Funds can effectively deliver <strong>0% Indian tax</strong> on fund-level qualifying income.</p>"
+         "<p><strong>Combined with Section 80LA</strong> (100% tax holiday for IFSC units for 20 consecutive years out of 25 since the Finance Act, 2026, earlier 10 out of 15; now section 147 of the Income-tax Act, 2025), GIFT City Specified Funds can effectively deliver <strong>0% Indian tax</strong> on fund-level qualifying income.</p>"
          "<p>Compare to a Mumbai-based Category III AIF (not in IFSC): taxed at the fund level at MMR (~42.7% including surcharge and cess) on specified income. The GIFT City delta is 40+ percentage points on fund-level tax drag. This is why Category III managers have migrated to GIFT City.</p>"),
         ("/ Section 10(4F): non-resident unit holder exemption", "The LP side.",
          "<p>Section 10(4F) exempts non-resident unit holders of IFSC Specified Funds on specified income types:</p>"

@@ -94,7 +94,7 @@ write_page("gift-city-vs-mauritius-vs-singapore-fund", page(
          "<li><strong>Section 10(23FE):</strong> exemption on specified investments by Specified Persons (sovereign wealth, pension funds).</li>"
          "<li><strong>Section 10(4D):</strong> 0% Indian tax on income earned by specified Category III AIFs operating in IFSC on specified types of investment income.</li>"
          "<li><strong>Section 10(4F):</strong> 0% on income of non-resident unit holders of IFSC Category I/II/III AIFs on specified income.</li>"
-         "<li>Standard 10-year 100% tax holiday for IFSC business units (Section 80LA).</li>"
+         "<li>100% tax holiday for IFSC business units for 20 consecutive years out of 25 (Finance Act, 2026; section 147 of the 2025 Act, formerly section 80LA), then a 15% rate.</li>"
          "<li>GST 0% on specified IFSC-based services.</li>"
          "</ul>"
          "<p><strong>Licensing:</strong> IFSCA Category I/II/III AIF regulations, familiar to Indian managers. GIFT City Fund Management Entity (FME) licence required for GPs.</p>"

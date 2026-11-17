@@ -425,7 +425,7 @@ PAGES = [
              "</ul>"),
             ("/ 115BAA vs Standard: the usual question", "Where most Indian companies choose.",
              "<ul>"
-             "<li>Mature profitable Indian company without substantial SEZ / scientific research / specific sector deductions: Section 115BAA 22% effective 25.17% wins vs Standard 25% + 15% MAT = ~27% effective.</li>"
+             "<li>Mature profitable Indian company without substantial SEZ / scientific research / specific sector deductions: Section 115BAA 22% effective 25.17% wins vs Standard 25% + MAT (14% from FY 2026-27, 15% earlier).</li>"
              "<li>Decision drivers:</li>"
              "<li>&nbsp;&nbsp;&mdash; No MAT under 115BAA = ~2-3% tax saving.</li>"
              "<li>&nbsp;&nbsp;&mdash; 22% vs 25% rate = 3% saving.</li>"

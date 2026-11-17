@@ -41,7 +41,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 PAGES = [dict(
     slug=SLUG,
     title="Dubai or UAE Property Not in Your Indian Tax Return? The Income Tax Department Has Started Asking (FAST-DS 2026)",
-    em="seven weeks left to fix it cheaply.",
+    em="fix it before FAST-DS closes on 31 December 2026.",
     kicker="/ UAE property &middot; FAST-DS nudge &middot; Updated 2026-11-11",
     lead=("Business Standard reported on 26 October 2026, citing Finance Ministry sources, that the Income Tax Department has begun selectively contacting taxpayers who may hold undisclosed residential or commercial property in the UAE, as FAST-DS declarations reached about 1,100. "
           "If you are resident and ordinarily resident in India and own a flat, villa or off-plan unit in Dubai or elsewhere in the UAE that is not in Schedule FA, the cheapest fix closes on 31 December 2026: "

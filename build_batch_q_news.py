@@ -345,7 +345,7 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
         ("gstr-9-gstr-9c-annual-return-india-2026.html", "Guide", "GSTR-9 Guide"),
         ("gst-notice-response-india-asmt-drc-gstr.html", "Guide", "GST Notice Response"),
     ],
-    cta_headline="GSTR-9 FY 2025-26 due 31 December 2026. 70 days left.",
+    cta_headline="GSTR-9 FY 2025-26 due 31 December 2026.",
     cta_body="GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5), Section 16(4) - comprehensive reconciliation. BQP priority engagement through December 2026.",
 ))
 

@@ -53,7 +53,7 @@ PAGES.append({
          "<li>Verify FDI route: automatic vs approval; sector cap check.</li>"
          "<li>Press Note 3 beneficial ownership check for land-bordering country investments.</li>"
          "<li>Receive foreign remittance in AD-I bank account. Obtain FIRC.</li>"
-         "<li>Allot shares via board resolution within 60 days of remittance (Rule 2A Companies Act).</li>"
+         "<li>Allot shares via board resolution within 60 days of receiving the money (FEMA; section 42 of the Companies Act sets the same 60 days for private placements).</li>"
          "<li>Issue share certificates + file Form PAS-3 within 30 days.</li>"
          "<li>Obtain pricing certificate from CA / Merchant Banker.</li>"
          "<li>File Form FC-GPR via FIRMS portal within 30 days of allotment.</li>"
@@ -62,10 +62,10 @@ PAGES.append({
          "</ol>"),
         ("/ Common mistakes + fixes", "What goes wrong.",
          "<ul>"
-         "<li><strong>Missed 30-day deadline</strong>: FEMA compounding under Section 13 - INR 10,000-50,000 per instance typically.</li>"
+         "<li><strong>Missed 30-day deadline</strong>: pay a Late Submission Fee (INR 7,500 plus 0.025% of the amount for each year of delay, capped at the amount involved) within three years of the due date; after that the contravention goes to compounding.</li>"
          "<li><strong>Pricing below Rule 21 guidelines</strong>: FEMA breach - compounding + possible unwinding.</li>"
          "<li><strong>Press Note 3 breach</strong>: beneficial ownership from land-bordering country without approval - serious compounding + unwinding risk.</li>"
-         "<li><strong>Share allotment delay beyond 60 days</strong>: separate FEMA breach (Rule 2A pre-amendment was 180 days; now 60 days).</li>"
+         "<li><strong>Share allotment delay beyond 60 days</strong>: separate FEMA breach: shares must be issued within 60 days of receiving the money (the earlier FEMA limit was 180 days), or the money refunded within 15 days after that.</li>"
          "<li><strong>FIRC not obtained</strong>: cannot file FC-GPR without FIRC. Chase AD bank.</li>"
          "<li><strong>Wrong pricing method</strong>: unlisted uses DCF (Rule 21); listed uses closing price. Methodology must match Rule 21.</li>"
          "</ul>"
@@ -313,7 +313,7 @@ PAGES.append({
     "sections_pairs": [
         ("/ Who files + when", "The core rule.",
          "<ul>"
-         "<li>Any Indian company that has made overseas direct investment (ODI) in foreign subsidiary / JV / branch.</li>"
+         "<li>Any Indian company that has made overseas direct investment (ODI) in a foreign subsidiary or joint venture.</li>"
          "<li>Must file APR annually by <strong>31 December</strong> for FY ended previous March.</li>"
          "<li>So APR for FY 2025-26 (ended March 2026) due by 31 December 2026.</li>"
          "<li>Via FIRMS portal (RBI) through AD-I category bank.</li>"
@@ -332,7 +332,7 @@ PAGES.append({
         ("/ Common APR issues", "Where companies trip.",
          "<ul>"
          "<li>Multi-year non-filing - cleaner via one consolidated FEMA compounding.</li>"
-         "<li>Foreign subsidiary audit not completed by December - APR filing delayed. Provisional APR acceptable.</li>"
+         "<li>Foreign subsidiary audit not completed by December - APR filing delayed. Where the host country does not require an audit, CA-certified unaudited statements can be used.</li>"
          "<li>Dividend received not reflected in Indian company Form 15CA / 15CB coordination.</li>"
          "<li>Change of foreign subsidiary name / registered office not updated in APR.</li>"
          "<li>Foreign subsidiary wound up but Indian company didn't file wind-up ODI Form - continuing APR obligation misreported.</li>"
@@ -343,9 +343,9 @@ PAGES.append({
         ("When is Form ODI Part II (APR) due?",
          "31 December each year for FY ended previous March. So APR for FY 2025-26 due by 31 December 2026."),
         ("What if foreign subsidiary audit not complete?",
-         "File provisional APR with unaudited numbers; file revised APR within 30 days of foreign subsidiary audit completion. Acceptable practice; don't delay provisional filing waiting for audit."),
+         "The APR is based on the foreign entity's audited financial statements; where the host country does not require an audit, unaudited statements certified by a chartered accountant (or the statutory auditor) can be used. Plan the foreign audit timetable so the 31 December date is met."),
         ("What's the penalty for missed APR?",
-         "FEMA Section 13 compounding: typically INR 10,000-50,000 per missed year. Multi-year missed APRs can be consolidated in single compounding application."),
+         "A late APR can be regularised by paying a Late Submission Fee (INR 7,500 plus 0.025% of the amount for each year of delay) within three years of the due date; beyond that, compounding under the FEMA rules applies. Until pending APRs are filed, further overseas investment by the Indian entity is restricted."),
         ("Does BQP file APR for Indian parent of foreign subsidiary?",
          "Yes - standard annual service. Foreign subsidiary financial data collection + APR drafting + FIRMS portal filing + Form 15CA/15CB coordination for dividend repatriation. Also compounding of past missed APRs. WhatsApp +91 78018 87130."),
     ],

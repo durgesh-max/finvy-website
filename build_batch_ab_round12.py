@@ -216,8 +216,8 @@ PAGES = [
              "</ol>"),
             ("/ Compounding fee typical range", "What to budget.",
              "<ul>"
-             "<li>FC-GPR / FC-TRS late filing (minor delay): INR 10,000-50,000 per instance.</li>"
-             "<li>FLA / APR non-filing (per year missed): INR 10,000-50,000 per year.</li>"
+             "<li>FC-GPR / FC-TRS late filing: a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date).</li>"
+             "<li>APR delay: Late Submission Fee within three years; FLA non-filing: compounding at an amount computed by the RBI.</li>"
              "<li>Pricing guideline breach: higher - up to multiples of pricing variance.</li>"
              "<li>Sector cap / Press Note 3 breach: significant - can be 100%+ of amount involved; may require unwinding.</li>"
              "<li>Multi-year / multi-instance breaches: consolidated application for cost efficiency.</li>"

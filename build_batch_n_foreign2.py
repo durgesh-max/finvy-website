@@ -425,8 +425,8 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
          "<p>Compounding fee is at Compounding Authority's discretion but follows published guidelines (RBI Master Direction on Compounding):</p>"
          "<ul>"
          "<li><strong>Base fee</strong>: proportional to amount involved + nature of breach.</li>"
-         "<li><strong>FC-GPR / FC-TRS late filing (minor delay)</strong>: typically INR 10,000-50,000 per instance.</li>"
-         "<li><strong>FLA / APR non-filing (per year)</strong>: typically INR 10,000-50,000 per year.</li>"
+         "<li><strong>FC-GPR / FC-TRS late filing (minor delay)</strong>: a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date).</li>"
+         "<li><strong>FLA / APR non-filing (per year)</strong>: compounding at an amount computed by the RBI based on the period of delay.</li>"
          "<li><strong>Pricing guideline breach</strong>: higher &mdash; up to multiples of the pricing variance.</li>"
          "<li><strong>Sector cap breach / Press Note 3 breach</strong>: significant &mdash; can be 100%+ of amount involved; may require unwinding.</li>"
          "<li><strong>Multi-year / multi-instance breaches</strong>: compound; often grouped under single application for cost efficiency.</li>"
@@ -453,7 +453,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("When should an Indian subsidiary pursue voluntary compounding?",
          "When FEMA breaches are discovered - typically during pre-IPO due diligence, pre-M&A due diligence, auditor review, or internal compliance review. Voluntary compounding is cheaper than compounding driven by RBI inspection. Compounding should be pursued before any formal RBI notice because once a notice is issued, lower-fee voluntary route may close."),
         ("How much does FEMA compounding cost?",
-         "Discretionary - set by Compounding Authority based on guidelines + amount + nature + delay. Rough ranges: FC-GPR/FC-TRS late filing INR 10,000-50,000 per instance; FLA / APR non-filing INR 10,000-50,000 per year; pricing guideline breach higher. Total cleanup for typical foreign-subsidiary: INR 50,000 - INR 10 lakh. BQP engagement fee separate."),
+         "Discretionary - set by Compounding Authority based on guidelines + amount + nature + delay. Reporting delays (FC-GPR, FC-TRS, APR) within three years are usually regularised by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); other contraventions and older delays are compounded at amounts computed under the RBI's guidelines, rising with the amount and period involved. BQP engagement fee separate."),
         ("What breaches are typically compounded for foreign-subsidiary companies?",
          "Most common: missed/late FC-GPR filing after inward FDI remittance; late FC-TRS on share transfer; non-filing of FLA Return (annual); non-filing of Form ODI Part II/APR for Indian company's overseas investment; pricing guideline breach on share issue to non-resident; delays in share allotment post remittance; Press Note 3 breach (investment from land-bordering country without approval)."),
         ("How long does FEMA compounding take?",

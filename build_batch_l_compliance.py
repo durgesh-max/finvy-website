@@ -733,7 +733,7 @@ write_page("fla-return-foreign-liabilities-assets-rbi-india", page(
          "</ul>"),
         ("/ Non-compliance consequences", "What breaks.",
          "<ul>"
-         "<li><strong>FEMA compounding</strong>: non-filing is a FEMA breach under Section 13. Compounding application can be filed voluntarily to pay reduced penalty (approximately INR 10,000-50,000 per year of non-filing, scaling with company size).</li>"
+         "<li><strong>FEMA compounding</strong>: non-filing is a FEMA breach under Section 13. A compounding application can be filed voluntarily; the RBI computes the compounding amount under its guidelines based on the period of delay.</li>"
          "<li><strong>Compounding + penalty</strong>: for persistent non-filing, RBI can impose compounding fee + penalty up to 3 times the amount involved.</li>"
          "<li><strong>Operational</strong>: AD banks may hesitate to process future foreign remittances (inward FDI or outward ODI dividend repatriation) if FLA Return history is non-compliant.</li>"
          "<li><strong>Diligence red flag</strong>: in M&amp;A diligence, future FDI, future ODI, auditor review &mdash; FLA Return non-compliance surfaces and must be fixed.</li>"
@@ -751,7 +751,7 @@ write_page("fla-return-foreign-liabilities-assets-rbi-india", page(
         ("Where do I file FLA Return?",
          "FLAIR portal (Foreign Liabilities and Assets Information Reporting) at flair.rbi.org.in. First-time users register with PAN + entity type + authorised person details. Fill online form, attach audited (or provisional) financials, submit with DSC. Download acknowledgement."),
         ("What happens if I miss FLA Return?",
-         "FEMA breach under Section 13. Voluntary compounding application reduces penalty - approximately INR 10,000-50,000 per year of non-filing. Persistent non-filing can attract higher penalty up to 3 times the amount involved. Also blocks AD banks from processing future foreign remittances. Clean up: file all missed years + apply compounding."),
+         "FEMA breach under Section 13. A voluntary compounding application avoids penalty proceedings; the RBI computes the compounding amount based on the period of delay. Persistent non-filing can attract higher penalty up to 3 times the amount involved. Also blocks AD banks from processing future foreign remittances. Clean up: file all missed years + apply compounding."),
         ("Does BQP handle FLA Return filing?",
          "Yes - FLA Return preparation + FLAIR portal filing, foreign shareholder-wise equity breakdown, outbound investment reconciliation with FEMA ODI records, past-year FLA cleanup if any missed, voluntary compounding application if non-filing is historic. Annual engagement for companies with FDI / ODI. Co-ordinated with Form FC-GPR, FC-TRS, Form ODI, APR under one FEMA compliance stack. WhatsApp +91 78018 87130."),
     ],

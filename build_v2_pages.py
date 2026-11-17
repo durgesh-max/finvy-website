@@ -481,7 +481,7 @@ write_page("fema-odi-us-entity-indian-founder", page(
         ("Does FEMA apply if I'm an NRI founder?",
          "FEMA ODI applies to Indian residents under the Foreign Exchange Management Act. If you are a Non-Resident Indian (NRI) under FEMA, you are not an Indian resident for FEMA purposes and ODI does not apply to your outbound investment into a US entity (because the capital is not crossing India's border from an Indian resident's hands). However, Indian income tax residency can still apply even for NRIs on certain income &mdash; separate analysis."),
         ("Can BQP file the Form ODI and APR for me?",
-         "Yes &mdash; it is a standard inclusion in our US incorporation mandate for Indian clients. We handle the initial Form ODI filing within the 30-day window, prepare the APR each year, and liaise with your AD bank. If you did your US formation elsewhere (Stripe Atlas, Doola) and need just the FEMA side handled, we take on compliance-only engagements starting at INR 25,000 per year."),
+         "Yes &mdash; it is a standard inclusion in our US incorporation mandate for Indian clients. We handle the initial Form ODI filing within the 30-day window, prepare the APR each year, and liaise with your AD bank. If you did your US formation elsewhere (Stripe Atlas, Doola) and need just the FEMA side handled, we also take on compliance-only engagements, with a fixed-scope quote on request."),
     ],
     related=[
         ("us-incorporation.html", "Service", "US Incorporation (overview)"),

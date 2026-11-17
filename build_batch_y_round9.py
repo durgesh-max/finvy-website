@@ -296,7 +296,7 @@ PAGES = [
         "slug": "form-sh-4-share-transfer-form-india-2026",
         "title": "Form SH-4 Share Transfer Form India 2026 Complete Checklist",
         "hero_em": "stamp duty + proper execution.",
-        "lead": "Form SH-4 is the share transfer form under Section 56 Companies Act 2013 + Rule 11 Companies (Share Capital and Debentures) Rules 2014. Prescribed form for every share transfer between members. Stamp duty payable per Indian Stamp Act (0.015% in most states; vary). Signed by both transferor + transferee + witness. Here's the complete 2026 SH-4 framework.",
+        "lead": "Form SH-4 is the share transfer form under Section 56 Companies Act 2013 + Rule 11 Companies (Share Capital and Debentures) Rules 2014. Prescribed form for every share transfer between members. Stamp duty payable under the Indian Stamp Act (0.015%, uniform across India since 1 July 2020). Signed by both transferor + transferee + witness. Here's the complete 2026 SH-4 framework.",
         "kicker": "/ Share Transfer Checklist &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ Form SH-4 core", "The prescribed form.",
@@ -310,13 +310,13 @@ PAGES = [
              "</ul>"),
             ("/ Post Rule 9B demat regime", "Reduced SH-4 use.",
              "<ul>"
-             "<li>Post Rule 9B mandatory dematerialisation of unlisted shares (October 2024 for private companies), most share transfers are now in demat form - depository-based transfer without SH-4.</li>"
+             "<li>Post Rule 9B mandatory dematerialisation of unlisted shares (30 June 2025 for private companies that were not small companies on 31 March 2023, extended from 30 September 2024), most share transfers are now in demat form - depository-based transfer without SH-4.</li>"
              "<li>SH-4 still relevant for: companies not yet Rule 9B compliant (unresponsive shareholders in physical form), small companies exempt from Rule 9B, specific legacy / inheritance share transfers.</li>"
              "<li>Buy-back / specific restructuring may still use SH-4 for specific share class.</li>"
              "</ul>"),
             ("/ SH-4 + FC-TRS integration (foreign shareholder)", "FEMA angle.",
              "<ul>"
-             "<li>Share transfer between resident + non-resident OR between two non-residents requires Form FC-TRS filing within 60 days.</li>"
+             "<li>Share transfer between a resident and a non-resident requires Form FC-TRS filing within 60 days (transfers between two non-residents are not reported in FC-TRS).</li>"
              "<li>SH-4 is the share transfer deed; FC-TRS is the FEMA reporting.</li>"
              "<li>Both required for share transfer involving foreign shareholder.</li>"
              "<li>Rule 21 pricing guidelines verification + CA / Merchant Banker certificate.</li>"
@@ -326,7 +326,7 @@ PAGES = [
              "<ul>"
              "<li>Stamp duty under-paid (wrong state rate applied, wrong consideration basis).</li>"
              "<li>Missing witness signature.</li>"
-             "<li>SH-4 lodged with company > 2 months after execution (Rule 11 time limit).</li>"
+             "<li>SH-4 lodged with the company more than 60 days after execution (section 56(1) time limit).</li>"
              "<li>Company's refusal to register transfer (specific grounds under Section 58).</li>"
              "<li>Lost share certificates - must issue duplicate under Rule 6 before transfer.</li>"
              "<li>Non-compliance with Rule 9B demat requirement for Rule 9B companies - transfer in physical form invalid post Rule 9B date.</li>"
@@ -336,9 +336,9 @@ PAGES = [
         ],
         "faqs": [
             ("When is Form SH-4 needed?",
-             "For every share transfer between members in physical form. Post Rule 9B mandatory demat (October 2024 for private companies), most transfers are depository-based without SH-4. SH-4 still relevant for Rule 9B-exempt entities + legacy physical shares + specific restructuring."),
+             "For every share transfer between members in physical form. Post Rule 9B mandatory demat (30 June 2025 for private companies that were not small companies on 31 March 2023, extended from 30 September 2024), most transfers are depository-based without SH-4. SH-4 still relevant for Rule 9B-exempt entities + legacy physical shares + specific restructuring."),
             ("What's the stamp duty on SH-4?",
-             "Per Indian Stamp Act + state-specific adjustments. Standard: 0.015% of consideration or face value whichever higher. Maharashtra, Karnataka, Tamil Nadu, Gujarat have specific state-level rates. Payable via physical stamp paper or e-stamping (preferred)."),
+             "Under the Indian Stamp Act as amended by the Finance Act, 2019: 0.015% of the consideration, uniform across India since 1 July 2020 (earlier 0.25% with state-level variations). Payable via physical stamp paper or e-stamping (preferred)."),
             ("Can share transfer be rejected by company?",
              "Section 58 Companies Act: company can refuse to register transfer only on specific grounds (not frivolous). Refusal: within 30 days + reasoned order + specific appeal mechanism to NCLT. Rare in practice for standard transfers."),
             ("Does BQP handle SH-4 + FC-TRS integrated for foreign-shareholder transfers?",
@@ -349,7 +349,7 @@ PAGES = [
         "cta_h": "Share transfer involving physical shares or foreign shareholder?",
         "cta_b": "SH-4 + stamp duty + FC-TRS (foreign) + Rule 9B demat compliance + related. BQP integrated engagement.",
         "keywords": "Form SH-4 India 2026, share transfer form India CA, Section 56 share transfer CA India, stamp duty SH-4",
-        "desc": "Form SH-4 share transfer form India 2026 complete checklist: Section 56 Companies Act 2013 + Rule 11 Companies (Share Capital) Rules 2014. Stamp duty 0.015% (varies by state). Post Rule 9B demat regime reduced SH-4 use. SH-4 + FC-TRS integration for foreign shareholder transfers. Working CA guide by Durgesh Chavda.",
+        "desc": "Form SH-4 share transfer form India 2026 complete checklist: Section 56 Companies Act 2013 + Rule 11 Companies (Share Capital) Rules 2014. Stamp duty 0.015% (uniform across India since 1 July 2020). Post Rule 9B demat regime reduced SH-4 use. SH-4 + FC-TRS integration for foreign shareholder transfers. Working CA guide by Durgesh Chavda.",
     },
     {
         "slug": "form-mr-1-managerial-personnel-appointment-india-2026",

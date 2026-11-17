@@ -288,7 +288,7 @@ PAGES = [
              "<li>Bilateral APA: with CBDT + US IRS: certainty both sides + avoids double taxation.</li>"
              "<li>Multilateral APA: multiple jurisdictions.</li>"
              "<li>Timeline: APA typically 24-36 months for bilateral; 12-18 months for unilateral.</li>"
-             "<li>Fee: INR 10-20 lakh (specific scale).</li>"
+             "<li>CBDT filing fee: INR 10-20 lakh depending on the value of international transactions (Rule 10F onwards).</li>"
              "<li>Cost: materially cheaper than specific TP audit + MAP defence.</li>"
              "</ul>"),
             ("/ TP audit + MAP defence", "If assessed adversely.",

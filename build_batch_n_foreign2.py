@@ -729,7 +729,7 @@ write_page("nominee-resident-director-india-foreign-company", page(
         ("/ What Section 149(3) requires", "The core rule.",
          "<ul>"
          "<li>Every company incorporated under Companies Act 2013 must have minimum 2 directors (Pvt Ltd) or 3 directors (Public Ltd).</li>"
-         "<li>At least ONE director must be a 'resident of India' &mdash; defined as a person who has stayed in India for at least 182 days during the preceding FY.</li>"
+         "<li>At least ONE director must be a 'resident of India' &mdash; defined as a person who has stayed in India for at least 182 days during the financial year.</li>"
          "<li>Non-resident Indians (NRIs) with Indian passport but non-resident status do NOT qualify.</li>"
          "<li>Foreign citizens who are tax-residents of India (physically present 182+ days) qualify.</li>"
          "<li>Non-compliance consequences: Section 164 director disqualification risk, ROC filing blockage, inability to incorporate / sign filings.</li>"
@@ -737,8 +737,8 @@ write_page("nominee-resident-director-india-foreign-company", page(
         ("/ When foreign companies need nominee director", "Common scenarios.",
          "<ul>"
          "<li><strong>Foreign parent incorporating Indian WOS</strong>: parent appoints 2 foreign directors from its own leadership team. Needs 1 India-resident director &mdash; BQP provides.</li>"
-         "<li><strong>India-resident director resigns</strong>: company left without resident director. 30 days to appoint replacement &mdash; BQP provides temporary / long-term.</li>"
-         "<li><strong>Expat executive relocates out of India</strong>: director who was India-resident loses that status after 180+ days abroad. Replacement needed.</li>"
+         "<li><strong>India-resident director resigns</strong>: company left without a resident director and non-compliant with section 149(3) until a replacement is appointed &mdash; BQP provides temporary / long-term.</li>"
+         "<li><strong>Expat executive relocates out of India</strong>: director who will not be in India for 182 days in the financial year no longer counts as resident. Replacement needed.</li>"
          "<li><strong>Dormant Indian subsidiary</strong>: subsidiary not actively operated but still needs 1 resident director for compliance.</li>"
          "</ul>"),
         ("/ Scope of nominee director's role", "What they do and don't do.",

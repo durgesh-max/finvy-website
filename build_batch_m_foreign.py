@@ -567,7 +567,7 @@ write_page("employer-of-record-india-hire-from-abroad", page(
          "<li><strong>ESI</strong>: if applicable (gross salary &lt;= INR 21,000/month, often not applicable for mid-senior roles).</li>"
          "<li><strong>Professional Tax</strong>: state-specific, max INR 2,500/year.</li>"
          "<li><strong>TDS Section 192</strong>: monthly deduction + quarterly Form 24Q filing.</li>"
-         "<li><strong>Gratuity</strong>: provision in books; payable on exit after 5 years of continuous service.</li>"
+         "<li><strong>Gratuity</strong>: provision in books; payable on exit after 5 years of continuous service (1 year for fixed-term employees under the labour codes in force since 21 November 2025).</li>"
          "<li><strong>Form 16</strong>: issued to employee annually (by 15 June).</li>"
          "<li><strong>Statutory compliance</strong>: labour welfare fund, bonus, leave encashment, maternity benefit, Shops &amp; Establishment renewal, labour returns.</li>"
          "</ul>"),
@@ -617,7 +617,7 @@ write_page("employer-of-record-india-hire-from-abroad", page(
         ("What is an Employer of Record (EOR) in India?",
          "EOR is a third-party entity that becomes the legal employer of your Indian hires. EOR handles Indian employment contract, monthly payroll, PF, ESI, Professional Tax, Section 192 TDS, Form 24Q, Form 16, gratuity, labour law compliance. You pay EOR a monthly fee + the employee's cost; the employee effectively works for your company. Fast path to hire Indian talent without setting up your own Indian entity."),
         ("When should I use EOR vs own Indian subsidiary?",
-         "EOR for 1-15 Indian hires + short/medium-term India plan + no need to invoice Indian customers. Own subsidiary for 15+ hires + long-term plan + Indian customer invoicing + direct ESOP grants + brand/IP presence. Break-even cost around 8-12 Indian hires: EOR cost ~USD 100-300/employee/month scales linearly; own subsidiary has fixed setup + annual compliance that amortises."),
+         "EOR for 1-15 Indian hires + short/medium-term India plan + no need to invoice Indian customers. Own subsidiary for 15+ hires + long-term plan + Indian customer invoicing + direct ESOP grants + brand/IP presence. The break-even is usually somewhere around 8-15 Indian hires: EOR fees scale with headcount, while a subsidiary has fixed setup and annual compliance costs that spread across more employees."),
         ("What is PE (Permanent Establishment) risk with EOR?",
          "If Indian employees working through EOR take decisions / sign contracts / provide client-facing services on behalf of the foreign company, India's tax authority can argue the foreign company has a Dependent Agent PE / Service PE / Fixed Place PE in India - creating Indian taxable presence + profit attribution. Mitigation: keep EOR employees in support/development roles, decision authority at foreign HQ, no contract-signing authority."),
         ("Can I hire Indian contractors directly instead of using EOR?",

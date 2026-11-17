@@ -788,7 +788,7 @@ write_page("india-iec-gst-customs-foreign-exporter-importer-2026", page(
 write_page("india-semiconductor-ism-pli-foreign-chip-company", page(
     slug="india-semiconductor-ism-pli-foreign-chip-company",
     title="India Semiconductor Mission (ISM) for Foreign Chip Company 2026 - BQP",
-    description="India Semiconductor Mission (ISM) framework for foreign semiconductor / chip / display companies 2026: Modified SPECS (up to 50% capex subsidy), DLI (Design Linked Incentive), ATMP / OSAT scheme, compound semiconductor + display fab, Section 115BAB combination, Gujarat / Tamil Nadu / Karnataka state ecosystem. CA Durgesh Chavda.",
+    description="India Semiconductor Mission (ISM) framework for foreign semiconductor / chip / display companies 2026: the Semicon India Programme fab and display schemes (up to 50% fiscal support), DLI (Design Linked Incentive), ATMP / OSAT scheme, compound semiconductor + display fab, section 115BAA tax rate, Gujarat / Tamil Nadu / Karnataka state ecosystem. CA Durgesh Chavda.",
     keywords="India Semiconductor Mission ISM foreign company, India chip fab 50% subsidy, Modified SPECS India semiconductor, DLI Design Linked Incentive India, India ATMP OSAT foreign",
     hero_kicker="/ Foreign Clients &middot; Semiconductor ISM &middot; Updated 2026-10-15",
     hero_title_html="India Semiconductor Mission, <em>what foreign chip companies get.</em>",
@@ -806,8 +806,8 @@ write_page("india-semiconductor-ism-pli-foreign-chip-company", page(
          "<ul>"
          "<li><strong>Tata Group + Powerchip (PSMC Taiwan)</strong>: Dholera (Gujarat) 28nm chip fab. INR 91,000 crore investment; up to INR 45,000 crore subsidy. Operational 2026-2027.</li>"
          "<li><strong>Micron Technology (US)</strong>: Sanand (Gujarat) ATMP facility. USD 2.75B investment; up to USD 1.3B subsidy.</li>"
-         "<li><strong>Tata Group + ASIP (Advanced Semiconductor Imaging Partners)</strong>: Assam compound semiconductor plant. Approved 2024.</li>"
-         "<li><strong>CG Power (Murugappa Group) + Renesas + Stars Microelectronics</strong>: Sanand (Gujarat) OSAT. INR 7,500 crore investment.</li>"
+         "<li><strong>Tata Semiconductor Assembly and Test</strong>: Jagiroad (Assam) OSAT facility, approved February 2024.</li>"
+         "<li><strong>CG Power (Murugappa Group) + Renesas + Stars Microelectronics</strong>: Sanand (Gujarat) OSAT. About INR 7,600 crore investment.</li>"
          "<li><strong>Kaynes Semicon</strong>: Gujarat ATMP.</li>"
          "<li><strong>Several design-stage startups</strong>: DLI beneficiaries &mdash; Mindgrove, Netrasemi, Signalchip (foundational IP).</li>"
          "</ul>"
@@ -816,7 +816,7 @@ write_page("india-semiconductor-ism-pli-foreign-chip-company", page(
          "<ol>"
          "<li><strong>Full fab via JV with Indian partner</strong>: Tata-PSMC model. Foreign semiconductor company brings technology + know-how; Indian partner brings local relationships, land, state partnerships, project execution. Equity split varies 26-74% depending on partner leverage.</li>"
          "<li><strong>Full ATMP / OSAT via WOS or JV</strong>: Micron model (WOS). Lower capex than fab; faster execution. 100% FDI automatic route.</li>"
-         "<li><strong>Design centre via WOS</strong>: fabless semiconductor company sets up Indian chip-design centre. No ISM subsidy for pure design (DLI available for specific IP / tape-out). Section 115BAB applies if designated as manufacturing.</li>"
+         "<li><strong>Design centre via WOS</strong>: fabless semiconductor company sets up Indian chip-design centre. No ISM subsidy for pure design (DLI available for specific IP / tape-out). Section 115BAB (15%) is closed to new companies (production had to begin by 31 March 2024), so a new Indian entity normally uses the 22% rate under section 115BAA.</li>"
          "<li><strong>Joint-venture with Indian fabless + co-investment</strong>: for foreign chip company wanting partnership route; Indian partner handles ISM / state co-ordination.</li>"
          "</ol>"),
         ("/ Combined incentive stack for foreign fab", "The total value.",

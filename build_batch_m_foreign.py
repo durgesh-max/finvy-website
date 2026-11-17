@@ -310,7 +310,7 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
          "</ol>"),
         ("/ Common OIDAR mistakes + risks", "What foreign SaaS gets wrong.",
          "<ul>"
-         "<li><strong>Not registering at all</strong>: assuming 'we don't have an Indian entity, so no GST applies'. Wrong &mdash; OIDAR applies even without Indian presence. Non-registration = tax demand under Section 74 (fraud / wilful suppression) up to 5 years back + 100% penalty.</li>"
+         "<li><strong>Not registering at all</strong>: assuming 'we don't have an Indian entity, so no GST applies'. Wrong &mdash; OIDAR applies even without Indian presence. Non-registration = tax demand under section 74A (from FY 2024-25; section 74 for earlier periods), with a penalty equal to the tax if suppression is alleged.</li>"
          "<li><strong>Not distinguishing B2B vs B2C</strong>: Indian B2B customer should provide their GSTIN for self-assessment (reverse charge). Foreign supplier should capture GSTIN at checkout. Without GSTIN capture, every sale defaults to B2C &rarr; 18% OIDAR GST obligation.</li>"
          "<li><strong>Charging INR-denominated vs USD-denominated</strong>: GST is on supply value. If invoice is in USD, convert at RBI reference rate for the day. Document FX conversion rate.</li>"
          "<li><strong>Credit note / refund processing errors</strong>: refunds reduce taxable supply but need proper credit-note documentation under GST invoice rules.</li>"
@@ -329,7 +329,7 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
         ("Do I need an Indian representative for OIDAR?",
          "Not strictly mandatory, but highly recommended. The Indian authorised representative handles: representation with tax officer, monthly return filing, IGST payment execution, response to notices, annual return (GSTR-9A). Without an Indian representative, every compliance step is harder for foreign supplier. BQP acts as authorised representative for several foreign SaaS clients."),
         ("What happens if I don't register for OIDAR?",
-         "Section 74 GST demand (fraud / wilful suppression) can go back 5 years with 100% penalty. Section 73 (non-fraud) 3 years back with 10% penalty / INR 10,000 whichever higher. Payment gateway blocking is also possible (RBI can direct). Reputational risk if major customer tax audit surfaces the issue."),
+         "For tax periods from FY 2024-25, demands fall under section 74A of the CGST Act: a notice can be issued within 42 months of the due date of the annual return and the order within 12 months after that, with a penalty of 10% of tax or INR 10,000 (whichever is higher) in non-fraud cases and equal to the tax where there is fraud or wilful suppression. Earlier periods stay under sections 73 and 74. Payment gateway blocking is also possible (RBI can direct). Reputational risk if major customer tax audit surfaces the issue."),
         ("Does BQP handle OIDAR registration + ongoing compliance?",
          "Yes - full stack: OIDAR registration, Indian authorised representative service, monthly IGST computation + payment, GSTR-9A annual return, notice response, tax audit coordination. Standard annual engagement for foreign SaaS / e-commerce selling to Indian consumers. WhatsApp +91 78018 87130."),
     ],
@@ -338,7 +338,7 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
         ("gstr-9-gstr-9c-annual-return-india-2026.html", "Guide", "GSTR-9"),
     ],
     cta_headline="Foreign SaaS / e-commerce with Indian B2C paying customers?",
-    cta_body="OIDAR registration is from the first rupee. Non-registration = tax demand up to 5 years back with 100% penalty. BQP: registration + Indian representative + monthly compliance + GSTR-9A. Standard annual engagement.",
+    cta_body="OIDAR registration is from the first rupee. Non-registration = tax demand with interest and penalty (section 74A for FY 2024-25 onwards). BQP: registration + Indian representative + monthly compliance + GSTR-9A. Standard annual engagement.",
 ))
 
 # 5. Transfer pricing India for foreign MNC

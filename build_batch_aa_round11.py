@@ -277,7 +277,7 @@ PAGES = [
             ("Does Section 194-IA apply to share transfer?",
              "No - Section 194-IA is 1% TDS on sale of immovable property above INR 50 lakh. Share transfer is governed by Section 195 (if non-resident) or Section 194A/C/J (specific sections). Section 112A LTCG 12.5% on listed equity (post Finance Act 2024). Specific rate per asset type + residence."),
             ("What if FC-TRS was missed historically?",
-             "FEMA voluntary compounding under Section 13 - typical INR 10,000-50,000 per instance. Materially cheaper than RBI inspection. BQP integrated FEMA compounding service for historical FC-TRS misses."),
+             "A missed FC-TRS within three years is usually regularised by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); older misses go through FEMA compounding. Materially cheaper than RBI inspection. BQP integrated FEMA compounding service for historical FC-TRS misses."),
             ("Does BQP handle share transfer end-to-end?",
              "Yes - integrated service. Pre-transfer DD + STA drafting + SH-4 + Rule 21 pricing certificate + Form FC-TRS filing within 60 days + Form 15CA+15CB if cross-border + tax position analysis + Section 112A/115AD capital gain + ITR integration + MCA records update + Rule 9B demat compliance. For angel exits + M&A + flip + specific restructuring. WhatsApp +91 78018 87130."),
         ],

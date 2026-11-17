@@ -75,7 +75,7 @@ PAGES.append({
         ("When is Form FC-GPR due?",
          "Within 30 days of share allotment to foreign subscriber. Allotment itself must be within 60 days of remittance receipt (Rule 2A Companies Act). So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR."),
         ("What's the penalty for late FC-GPR?",
-         "FEMA Section 13 compounding (voluntary): typically INR 10,000-50,000 per instance for minor delay. For prolonged non-filing or sector-cap breach: significantly higher, up to 3x amount involved. Voluntary compounding is cheaper than RBI inspection-driven proceedings."),
+         "Reporting delays within three years are usually settled by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); otherwise FEMA compounding applies. For prolonged non-filing or sector-cap breach: significantly higher, up to 3x amount involved. Voluntary compounding is cheaper than RBI inspection-driven proceedings."),
         ("What's Rule 21 pricing guidelines?",
          "FEMA Rule 21 (Non-debt Instrument Rules 2019 + predecessors): share issue to non-resident must be at fair value. Unlisted: DCF method (discounted cash flow) by Merchant Banker or Chartered Accountant. Listed: closing price. Issue below Rule 21 pricing is FEMA breach."),
         ("Can BQP file FC-GPR for Indian subsidiary of foreign parent?",

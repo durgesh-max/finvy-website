@@ -23,8 +23,8 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "<li>Every <strong>unlisted public company AND private company</strong> (other than small company and government company) must:</li>"
          "<li>&nbsp;&nbsp;&mdash; Issue securities only in dematerialised form.</li>"
          "<li>&nbsp;&nbsp;&mdash; Facilitate dematerialisation of existing shareholders' securities before any new issuance / transfer / buyback / transmission.</li>"
-         "<li>Effective for private companies from <strong>30 September 2024</strong> (extended once from 30 September 2024 to accommodate implementation).</li>"
-         "<li>Deadline for existing holders to demat: 30 September 2024 (post-notification; some extensions granted for specific company sizes).</li>"
+         "<li>Effective for private companies (other than small and producer companies) from <strong>30 June 2025</strong>, after the MCA extended the original 30 September 2024 deadline (G.S.R. 131(E), 12 February 2025).</li>"
+         "<li>Deadline: 30 June 2025 for private companies that were not small companies on 31 March 2023 (extended from 30 September 2024 by G.S.R. 131(E)); producer companies have until 31 March 2028.</li>"
          "</ul>"
          "<p><strong>Exempt from Rule 9B:</strong></p>"
          "<ul>"
@@ -70,7 +70,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
         ("Which companies must dematerialise shares under Rule 9B?",
          "All unlisted public companies and private companies (except small companies, government companies, Nidhi companies). Small company threshold under Section 2(85): paid-up capital up to INR 4 crore + turnover up to INR 40 crore. Most growth-stage startups and mid-sized private companies cross this and are in scope."),
         ("What is the deadline for private company demat under Rule 9B?",
-         "Rule 9B became effective for private companies from 30 September 2024 (extended once). Existing shareholders should have their physical shares dematerialised by then. From that date, any new issuance / transfer / buyback / transmission cannot proceed in physical form."),
+         "Rule 9B applies to private companies (other than small and producer companies) from 30 June 2025, after the MCA extended the original 30 September 2024 deadline (G.S.R. 131(E), 12 February 2025). Existing shareholders should have their physical shares dematerialised by then. From that date, any new issuance / transfer / buyback / transmission cannot proceed in physical form."),
         ("How do I get ISIN for my private limited company shares?",
          "Apply via a Registrar & Transfer Agent (RTA) to NSDL or CDSL (depositories). Submit application with company documents (MOA, AOA, incorporation certificate, latest audited balance sheet). One-time fee approximately INR 10,000-20,000 per class of security (equity, preference, debentures). Approval typically 15-30 days."),
         ("What is Form PAS-6 and when do I file it?",

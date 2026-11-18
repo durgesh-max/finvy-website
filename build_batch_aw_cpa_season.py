@@ -2,7 +2,7 @@
 """Batch AW: 2027 US tax season deadlines and outsourcing set-up timeline for CPA firms."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SLUG = "us-tax-season-2027-deadlines-cpa-firms-outsourcing-plan"
 
 

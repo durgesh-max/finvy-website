@@ -44,9 +44,9 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not advice for your situation.</p>'
 
 
-C_RCM = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your list of foreign vendors and what you pay them for. "
+C_RCM = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your list of foreign vendors and what you pay them for. "
          "We reply within one working day with the GST and withholding position and a fixed-scope quote.")
-C_PO = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, the Indian client, how the project is funded and its length. "
+C_PO = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, the Indian client, how the project is funded and its length. "
         "We reply within one working day with the route (project office, branch or subsidiary) and a fixed-scope quote.")
 
 RCM = dict(

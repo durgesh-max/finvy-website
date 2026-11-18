@@ -34,7 +34,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your days in the UAE and India for the last two years and the Indian income you have (NRO interest, rent, mutual funds, shares, property sale). "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your days in the UAE and India for the last two years and the Indian income you have (NRO interest, rent, mutual funds, shares, property sale). "
            "We reply the same working day with the treaty position, what your bank or fund house should deduct and how to claim any refund.")
 SLUG = "india-uae-dtaa-for-nris-dubai-nro-interest-mutual-funds-property-trc-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

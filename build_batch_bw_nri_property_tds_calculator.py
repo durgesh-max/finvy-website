@@ -69,7 +69,7 @@ CALC = (f"<style>{CALC_CSS}</style><script type=\"application/ld+json\">{json.du
         '<ul class="rtrace" id="tList"></ul>'
         f'<p style="font-size:13px;margin:14px 0 0"><a href="{wa("Hi Durgesh, I am an NRI selling property in India. Can you apply for a lower TDS certificate?")}" target="_blank" rel="noopener">Apply for a lower TDS certificate with us &rarr;</a></p></div></div></div>'
         f"<script>{JS}\n</script>")
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the sale price, purchase cost and date, and your country. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the sale price, purchase cost and date, and your country. "
            "We reply the same working day with the lower-TDS route and a fixed-scope quote.")
 
 PAGES = [dict(

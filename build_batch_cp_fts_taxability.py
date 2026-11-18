@@ -30,7 +30,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, a description of the services and the supplier's country. "
+CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, a description of the services and the supplier's country. "
            "We reply within one working day with the withholding rate, treaty position and documents, with a fixed-scope quote.")
 SLUG = "fees-for-technical-services-fts-taxability-india-make-available-treaty-withholding-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

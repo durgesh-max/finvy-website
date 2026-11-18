@@ -2,7 +2,7 @@
 """Batch AL: Round 22 - rewrite gaming page for the Online Gaming Act, 2025 (real-money games banned from 1 May 2026)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 
 
 def ul(*items):

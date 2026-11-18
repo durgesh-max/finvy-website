@@ -44,9 +44,9 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not legal or tax advice for your situation.</p>'
 
 
-C_INH = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with who passed away and when, whether there is a will, the heirs and where they live, and the property details. "
+C_INH = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who passed away and when, whether there is a will, the heirs and where they live, and the property details. "
          "We reply the same working day with the steps, the tax on a sale and a fixed-scope quote; legal documents are prepared with your lawyer.")
-C_NRI = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your country of residence, the Indian income and the years involved. "
+C_NRI = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your country of residence, the Indian income and the years involved. "
          "We reply the same working day with the treaty position and a fixed-scope quote.")
 
 INH = dict(

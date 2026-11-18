@@ -30,7 +30,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your days in India this year and the last four, who pays you and where you work from. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your days in India this year and the last four, who pays you and where you work from. "
            "We reply the same working day with your residential status and whether your salary is taxable in India.")
 SLUG = "nri-salary-taxable-in-india-remote-work-indian-employer-tds-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

@@ -26,7 +26,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your SSA-1042S or SSA-1099, your US status "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your SSA-1042S or SSA-1099, your US status "
            "and the year you moved back. We reply the same working day with what is needed and a fixed-scope quote.")
 SLUG = "us-social-security-taxable-in-india-dtaa-article-20-returning-nri"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

@@ -53,7 +53,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
              f"<p><em>Last updated: 2026-10-22.</em></p>"),
             ("/ Engagement + fee", "How to begin.",
              "<ol>"
-             "<li>Email <a href='mailto:durgesh@bharatquantumprospera.com'>durgesh@bharatquantumprospera.com</a> with one-line description of your position + what you need.</li>"
+             "<li>Email <a href='mailto:info@bharatquantumprospera.com'>info@bharatquantumprospera.com</a> with one-line description of your position + what you need.</li>"
              "<li>30-min Zoom scoping call at your preferred time.</li>"
              "<li>Scoped quote within 48 hours.</li>"
              "<li>Sign engagement letter remotely.</li>"
@@ -63,7 +63,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
         ],
         faqs=[
             (f"Who is the best CA for {industry.lower()} in India in 2026?",
-             f"Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI). Specialist practice for {industry.lower()}. 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery. Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130."),
+             f"Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI). Specialist practice for {industry.lower()}. 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery. Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130."),
             (f"Does BQP serve both Indian + foreign {industry.lower()} companies?",
              f"Yes - BQP works with foreign-origin clients (US, UK, EU, Singapore, UAE, Australia, Canada, Japan). Indian startups + foreign companies entering India through {industry.lower()} both covered. Remote delivery standard."),
             (f"How quickly can BQP respond to {industry.lower()} enquiries?",

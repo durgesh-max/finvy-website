@@ -34,7 +34,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the village and taluka, the nearest town, how you got the land (inheritance or otherwise) and whether you want to keep, lease or sell it. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the village and taluka, the nearest town, how you got the land (inheritance or otherwise) and whether you want to keep, lease or sell it. "
            "We reply the same working day with the FEMA and tax position and a fixed-scope quote.")
 SLUG = "nri-oci-agricultural-land-india-buy-inherit-sell-tax-fema-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

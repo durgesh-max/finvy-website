@@ -2,7 +2,7 @@
 """Batch AI: Round 19 - verified news 28 Oct 2026: GST 1 Nov changes, Rule 96(10), FEMA foreign individuals, UAE CT/top-up tax, H-1B returnees."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours; work delivered remotely."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours; work delivered remotely."
 
 
 def ul(*items):

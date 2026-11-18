@@ -44,11 +44,11 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not advice for your situation.</p>'
 
 
-C_AUS = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with who will own the Australian company, the business and expected turnover. "
+C_AUS = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who will own the Australian company, the business and expected turnover. "
          "We reply the same working day with the FEMA route, the Indian tax position and a fixed-scope quote, and coordinate with your Australian accountant.")
-C_ACC = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your residence status, passport and OCI details and what the money is for. "
+C_ACC = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your residence status, passport and OCI details and what the money is for. "
          "We reply the same working day.")
-C_128 = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the payment type, the payer, the expected amount for the year and your estimated tax. "
+C_128 = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the payment type, the payer, the expected amount for the year and your estimated tax. "
          "We reply the same working day and can file Form 128 for you.")
 
 AUS = dict(

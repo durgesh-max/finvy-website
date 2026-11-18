@@ -29,7 +29,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, the Indian customer and the scheme its facility is approved under. "
+CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the contract, the Indian customer and the scheme its facility is approved under. "
            "We reply within one working day on whether the presumptive scheme applies, the withholding rate and the Indian return, with a fixed-scope quote.")
 SLUG = "section-44bbd-presumptive-tax-non-resident-electronics-semiconductor-services-25-percent-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

@@ -79,7 +79,7 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
         ("Are debt mutual funds still LTCG-eligible?",
          "Only for units purchased before 1 April 2023 (grandfathered under the earlier 20%-with-indexation regime). Debt MF units purchased on or after 1 April 2023 are taxed at the investor's slab rate regardless of holding period - no LTCG preferential rate."),
         ("Does BQP help with capital gains planning under the new regime?",
-         "Yes - transaction-by-transaction modelling (20% with indexation vs 12.5% without), Section 54/54F/54EC reinvestment structuring, flip/reverse-flip tax impact, buyback vs secondary sale decision, and ongoing capital-gains ITR filing. WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com."),
+         "Yes - transaction-by-transaction modelling (20% with indexation vs 12.5% without), Section 54/54F/54EC reinvestment structuring, flip/reverse-flip tax impact, buyback vs secondary sale decision, and ongoing capital-gains ITR filing. WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com."),
     ],
     related=[
         ("nri-selling-indian-property-capital-gains.html", "Guide", "NRI Property Sale"),

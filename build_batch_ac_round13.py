@@ -87,7 +87,7 @@ PAGES = [
         "related_pairs": [("india-us-tax-treaty-dtaa.html", "Related", "US-India DTAA"),
                           ("ca-for-us-green-card-holder-returning-india-tax-step-by-step.html", "Related", "Green Card Returning")],
         "cta_h": "US LLC + Indian member tax planning?",
-        "cta_b": "K-1 analysis + Section 90 FTC + Form 67 + FEMA LRS + ODI + US CPA coordination. BQP end-to-end engagement. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
+        "cta_b": "K-1 analysis + Section 90 FTC + Form 67 + FEMA LRS + ODI + US CPA coordination. BQP end-to-end engagement. info@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": "US LLC Indian member K-1 pass through tax CA India, US LLC Form 1065 K-1 Indian resident CA, Section 90 FTC Form 67 US LLC CA India",
         "desc": "US LLC with Indian member K-1 pass-through tax CA India: US LLC partnership tax (Form 1065 + Schedule K-1 + Section 1446 37% withholding to foreign partner), Indian tax treatment (ROR worldwide income + head-wise characterisation + FTC Section 90 + Form 67), FEMA LRS USD 250K + ODI framework + Section 206C(1G) TCS, scenarios (founder/engineering services/subsidiary chain). CA Durgesh Chavda US-India specialist.",
     },

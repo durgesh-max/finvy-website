@@ -31,7 +31,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your agency or service agreement, where the client sits and how you are paid. "
+CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your agency or service agreement, where the client sits and how you are paid. "
            "We reply within one working day on export status, the LUT, refunds and any past-period exposure, with a fixed-scope quote.")
 SLUG = "gst-intermediary-services-export-section-13-8-b-omitted-30-march-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

@@ -8,7 +8,7 @@ from build_lib import page, write_page
 
 DOMAIN = "https://bharatquantumprospera.com"
 WA = "https://wa.me/917801887130?text=" + quote("Hi Durgesh, I need help with FAST-DS 2026. My situation: ")
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with a short note of your foreign accounts or assets and the years you were resident. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with a short note of your foreign accounts or assets and the years you were resident. "
            "Fixed-scope quote within 48 hours.")
 UPDATED = "Last updated: 4 November 2026."
 DEADLINE = "Declarations close on 31 December 2026."

@@ -28,7 +28,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the monthly rent, your other Indian income, any home loan on the property and your country of residence. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the monthly rent, your other Indian income, any home loan on the property and your country of residence. "
            "We reply the same working day on a lower deduction certificate, the return and repatriation, with a fixed-scope quote.")
 SLUG = "nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

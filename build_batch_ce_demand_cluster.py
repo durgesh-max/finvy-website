@@ -47,11 +47,11 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not advice for your situation.</p>'
 
 
-C_NRI = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your country of residence, the Indian income (interest, rent, dividends, capital gains) and the years involved. "
+C_NRI = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your country of residence, the Indian income (interest, rent, dividends, capital gains) and the years involved. "
          "We reply the same working day with the treaty position and a fixed-scope quote.")
-C_UAE = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with who will own the UAE company (you, family or your Indian company), the business, and where it will be managed from. "
+C_UAE = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who will own the UAE company (you, family or your Indian company), the business, and where it will be managed from. "
          "We reply the same working day with the FEMA route, the tax position on both sides and a fixed-scope quote.")
-C_TRC = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the country asking for the certificate, the year and the type of income. "
+C_TRC = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the country asking for the certificate, the year and the type of income. "
          "We reply the same working day and can file Form 42 for you.")
 
 

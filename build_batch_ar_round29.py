@@ -2,7 +2,7 @@
 """Batch AR: Round 29 - old vs new income tax form numbers (Income-tax Rules, 2026) with a lookup box."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SLUG = "old-vs-new-income-tax-form-numbers-2026-15ca-145-15cb-146-10f-41"
 
 

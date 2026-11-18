@@ -2,7 +2,7 @@
 """Batch AF: Round 16 - deadline pages for Oct-Dec 2026 (AOC-4, MGT-7, belated/revised ITR, ITR-U, disqualification, strike-off, NRI missed ITR)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your CIN/PAN and the notice or deadline you are facing. You get a fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your CIN/PAN and the notice or deadline you are facing. You get a fixed-scope quote within 48 hours."
 UPDATED = "<p><em>Last updated: 25 October 2026. Statutory dates can be extended by MCA or CBDT notification; check the latest circular before relying on a date.</em></p>"
 
 

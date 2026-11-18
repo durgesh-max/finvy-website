@@ -2,7 +2,7 @@
 """Batch AH: Round 18 - verified late-October 2026 news pages (FAST-DS, Form 141, Income-tax Act 2025, US remittance tax, CBDT Circular 07/2026, news hub)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours; work delivered remotely."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours; work delivered remotely."
 LEAD = "Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI)"
 
 

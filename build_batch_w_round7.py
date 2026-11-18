@@ -539,7 +539,7 @@ PAGES.append({
          "<p>Define needs in a one-paragraph email - BQP can advise on specific scope.</p>"),
         ("/ Step 2: First outreach", "Email + 48-hour quote.",
          "<ol>"
-         "<li>Email durgesh@bharatquantumprospera.com with:</li>"
+         "<li>Email info@bharatquantumprospera.com with:</li>"
          "<li>&nbsp;&nbsp;&mdash; Your company name + country + brief context.</li>"
          "<li>&nbsp;&nbsp;&mdash; What you need (one paragraph).</li>"
          "<li>&nbsp;&nbsp;&mdash; Timeline urgency.</li>"

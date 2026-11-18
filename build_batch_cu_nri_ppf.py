@@ -29,7 +29,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your PPF opening year, the date you became NRI and your country of residence. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your PPF opening year, the date you became NRI and your country of residence. "
            "We reply the same working day on closure or continuation, repatriation and how your country taxes it.")
 SLUG = "nri-ppf-account-rules-continue-maturity-premature-closure-extension-repatriation-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

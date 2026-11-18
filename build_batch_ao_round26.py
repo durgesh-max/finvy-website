@@ -2,7 +2,7 @@
 """Batch AO: Round 26 - TCS on sale of goods discontinued (1 Apr 2025); 194Q pages rewritten; 206AB omitted."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SRC = ('<p><strong>Sources:</strong> <a href="https://vjmglobal.com/blog/key-amendments-in-income-tax-provisions-1st-april-2025" rel="nofollow noopener" target="_blank">VJM Global: amendments from 1 April 2025</a>; '
        '<a href="https://calcguru.in/?p=8271" rel="nofollow noopener" target="_blank">CalcGuru: 194Q vs 206C(1H) after the change</a>; '
        '<a href="https://www.incometaxindia.gov.in/w/section-206ab-6" rel="nofollow noopener" target="_blank">Income Tax Department: Section 206AB omitted</a>.</p>'

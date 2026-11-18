@@ -38,10 +38,10 @@ def box(title, msg):
     return (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
             f'<p style="margin:0 0 8px;font-weight:600">{title}</p><p style="margin:0">Message CA Durgesh Chavda on '
             f'<a href="{wa(msg)}" target="_blank" rel="noopener"><strong>WhatsApp</strong></a> or email '
-            f'<a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a>.</p></div>')
+            f'<a href="mailto:info@bharatquantumprospera.com">info@bharatquantumprospera.com</a>.</p></div>')
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with a short note of your situation. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with a short note of your situation. "
            "We reply the same working day with what is needed and a fixed-scope quote.")
 PAGES = []
 

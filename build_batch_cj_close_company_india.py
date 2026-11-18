@@ -31,7 +31,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the company name, whether it has any assets, loans, GST registration or employees, and where the shareholders are. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the company name, whether it has any assets, loans, GST registration or employees, and where the shareholders are. "
            "We reply the same working day with the right exit route and a fixed-scope quote.")
 SLUG = "close-company-in-india-strike-off-stk-2-procedure-restore-foreign-subsidiary-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

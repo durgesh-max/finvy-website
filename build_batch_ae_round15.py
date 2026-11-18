@@ -53,7 +53,7 @@ def make_page(city, locality, industry_focus, metro_desc, specific_services, slu
              "<li>24-48 hour standard turnaround for routine matters (Form 15CB, specific advisory).</li>"
              "<li>On-site visit by appointment: Ahmedabad principal office + specific city coverage.</li>"
              "<li>WhatsApp +91 78018 87130 for urgent matters + specific client support.</li>"
-             "<li>Email durgesh@bharatquantumprospera.com for structured engagement.</li>"
+             "<li>Email info@bharatquantumprospera.com for structured engagement.</li>"
              "</ul>"),
             ("/ BQP engagement model", "Scope-based.",
              "<ul>"
@@ -77,7 +77,7 @@ def make_page(city, locality, industry_focus, metro_desc, specific_services, slu
         ],
         "faqs": [
             (f"Does BQP serve {locality} + {city}?",
-             f"Yes - BQP serves {locality} + entire {city} metro area with remote-first delivery + on-site visits by appointment. Specialist CA practice for {industry_focus} + cross-border + domestic matters. Scope-based engagement + 48-hour quote. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
+             f"Yes - BQP serves {locality} + entire {city} metro area with remote-first delivery + on-site visits by appointment. Specialist CA practice for {industry_focus} + cross-border + domestic matters. Scope-based engagement + 48-hour quote. info@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
             (f"What's typical {industry_focus} CA engagement in {locality}?",
              f"Specific scope: {', '.join(specific_services)}. Each engagement: scope-based fixed-fee + specific deliverables + specific timing. BQP's specialist practice covers {industry_focus} end-to-end: incorporation + annual compliance + specific sector-specific regulatory + specific tax optimisation + cross-border advisory."),
             ("Can engagement be fully remote?",
@@ -90,7 +90,7 @@ def make_page(city, locality, industry_focus, metro_desc, specific_services, slu
         "related_pairs": [(CITY_HUB[city], "Related", f"CA in {city} Full"),
                           ("for-foreign-clients.html", "Related", "Foreign Clients Hub")],
         "cta_h": f"Need CA in {locality} {city}?",
-        "cta_b": f"BQP specialist {industry_focus} practice + scope-based engagement + 48-hour quote. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
+        "cta_b": f"BQP specialist {industry_focus} practice + scope-based engagement + 48-hour quote. info@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": f"CA in {locality} {city} for {industry_focus}, {locality} {city} CA specialist, best CA {locality} {industry_focus}",
         "desc": f"CA in {locality} {city} for {industry_focus}: specialist CA practice for {industry_focus} businesses in {locality} ({metro_desc}), services ({', '.join(specific_services)}), remote-first delivery with 24-48h turnaround + on-site visits by appointment, scope-based fixed-fee engagement + 48-hour quote. CA Durgesh Chavda ICAI.",
     }

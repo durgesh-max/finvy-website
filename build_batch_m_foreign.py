@@ -478,22 +478,22 @@ write_page("india-market-entry-foreign-company-guide", page(
          "<p>Pre-check your sector + beneficial ownership before incorporation.</p>"),
         ("/ GST + tax regime", "The compliance stack.",
          "<ul>"
-         "<li><strong>Corporate tax</strong>: 25% / 22% (Section 115BAA) / 15% (Section 115BAB new manufacturing). See <a href='section-115baa-115bab-corporate-tax-regime-india.html'>corporate tax guide</a>.</li>"
+         "<li><strong>Corporate tax</strong>: 25% / 22% (Section 115BAA); the 15% section 115BAB rate is closed to companies that had not started production by 31 March 2024. See <a href='section-115baa-115bab-corporate-tax-regime-india.html'>corporate tax guide</a>.</li>"
          "<li><strong>Minimum Alternate Tax (MAT)</strong>: 14% of book profit from FY 2026-27, 15% earlier (does not apply if 115BAA / 115BAB opted); MAT is now a final tax with no new credit.</li>"
          "<li><strong>Dividend Distribution Tax (DDT)</strong>: abolished from April 2020. Dividend taxable in shareholder's hands (foreign parent &rarr; Section 195 TDS at treaty rate).</li>"
-         "<li><strong>GST</strong>: 18% standard; 5% / 12% reduced; 28% luxury. Monthly GSTR-1 + 3B. Annual GSTR-9 if turnover &gt; INR 2 crore.</li>"
+         "<li><strong>GST</strong>: two main rates since 22 September 2025 (5% and 18%), plus a 40% rate for luxury and sin goods; the 12% and 28% slabs were removed (56th GST Council). Monthly GSTR-1 + 3B. Annual GSTR-9 if turnover &gt; INR 2 crore.</li>"
          "<li><strong>IGST on imports</strong>: paid on customs value + Basic Customs Duty; credit available if used for GST-taxable supply.</li>"
          "<li><strong>Customs duty</strong>: Basic Customs Duty + Social Welfare Surcharge + IGST. HSN-wise rates. Free Trade Agreement countries (ASEAN, Japan, Korea, UAE post-CEPA, UK post-CETA 2026) have preferential rates.</li>"
          "<li><strong>Transfer pricing</strong>: Form 3CEB + benchmarking study. See <a href='transfer-pricing-india-foreign-mnc.html'>TP guide</a>.</li>"
-         "<li><strong>Equalisation Levy</strong>: 2% on digital services payments to non-residents (though under BEPS Pillar 1 phase-out).</li>"
+         "<li><strong>Equalisation Levy</strong>: abolished (2% levy ended 1 August 2024; 6% levy ended 1 April 2025); foreign digital businesses are now tested under significant economic presence rules.</li>"
          "</ul>"),
         ("/ Hiring Indian talent + payroll", "People side.",
          "<ul>"
-         "<li><strong>Employment contracts</strong>: Indian subsidiary hires Indian employees directly. Standard offer letter + employment agreement + leave + termination terms. Governed by Shops &amp; Establishment Act (state-specific) + Industrial Employment (Standing Orders) Act.</li>"
+         "<li><strong>Employment contracts</strong>: Indian subsidiary hires Indian employees directly. Standard offer letter + employment agreement + leave + termination terms. Governed by the state shops and establishments law and the four labour codes in force since 21 November 2025.</li>"
          "<li><strong>PF (Provident Fund)</strong>: 12% employer + 12% employee contribution. Mandatory if headcount &gt;= 20.</li>"
          "<li><strong>ESI (Employee State Insurance)</strong>: 3.25% employer + 0.75% employee. Mandatory if gross salary &lt;= INR 21,000/month.</li>"
          "<li><strong>Professional Tax</strong>: state-specific, max INR 2,500/year per employee.</li>"
-         "<li><strong>Gratuity</strong>: 15 days salary per completed year of service, payable on exit after 5 years. Provision required in books.</li>"
+         "<li><strong>Gratuity</strong>: 15 days' wages per completed year of service, payable on exit after 5 years (1 year for fixed-term employees under the labour codes in force since 21 November 2025). Provision required in books.</li>"
          "<li><strong>Section 192 TDS</strong>: employer deducts income tax on employee salary monthly.</li>"
          "<li><strong>Alternative - EOR</strong>: if you don't yet have Indian subsidiary, use Employer of Record. See <a href='employer-of-record-india-hire-from-abroad.html'>EOR guide</a>.</li>"
          "</ul>"),

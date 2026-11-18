@@ -45,9 +45,9 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not legal or tax advice for your situation.</p>'
 
 
-C_CAN = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with who will own the Canadian company, the province you prefer and the business. "
+C_CAN = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who will own the Canadian company, the province you prefer and the business. "
          "We reply the same working day with the FEMA route, the Indian tax position and a fixed-scope quote, and coordinate with your Canadian lawyer and accountant.")
-C_AUO = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your practice size, the work you want to outsource (bookkeeping, BAS, individual or company returns, SMSF) and your software. "
+C_AUO = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your practice size, the work you want to outsource (bookkeeping, BAS, individual or company returns, SMSF) and your software. "
          "We reply within one working day with a pilot plan and a fixed-scope quote.")
 
 CAN = dict(

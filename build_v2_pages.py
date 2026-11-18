@@ -55,7 +55,7 @@ FOOTER = """<footer class="footer">
           <h5>Reach</h5>
           <ul>
             <li><a href="tel:+917801887130">+91 78018 87130</a></li>
-            <li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li>
+            <li><a href="mailto:info@bharatquantumprospera.com">info@bharatquantumprospera.com</a></li>
             <li>Ahmedabad &middot; Mumbai</li>
             <li>Bengaluru &middot; Rajkot</li>
             <li>Dubai, UAE</li>

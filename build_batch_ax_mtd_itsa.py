@@ -2,7 +2,7 @@
 """Batch AX: MTD for Income Tax quarterly update deadlines 2026-27 (next due 7 November 2026), for UK practices."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SLUG = "mtd-income-tax-quarterly-update-7-november-2026-deadlines-uk-practices"
 
 TABLE = ("<table><thead><tr><th>Quarterly period (2026-27)</th><th>Update due</th></tr></thead><tbody>"

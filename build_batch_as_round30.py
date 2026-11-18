@@ -2,7 +2,7 @@
 """Batch AS: Round 30 - Press Note 2 (2026): FDI from land-border countries eased (10% non-controlling, 60-day track)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SLUG = "press-note-2-2026-fdi-land-border-countries-china-10-percent-60-day-approval"
 
 

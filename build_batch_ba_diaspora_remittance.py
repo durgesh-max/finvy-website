@@ -20,7 +20,7 @@ def wa(topic):
 
 
 def contact(where):
-    return (f"WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com: tell us where you live ({where}), how much you want to move and from which "
+    return (f"WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com: tell us where you live ({where}), how much you want to move and from which "
             "account. We reply the same working day with what is needed and a fixed-scope quote. Form 15CB can usually be issued within 24 hours once documents are complete.")
 
 

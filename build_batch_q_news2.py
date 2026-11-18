@@ -425,7 +425,7 @@ def city_page(slug, city, specialty, title_specialty, desc_specialty, keywords):
              f"<p>For general local compliance, local firm fine. For specialist cross-border / strategic advisory, BQP provides specialist competence while remaining accessible to {city} clients.</p>"),
             ("/ Engagement process", "How to begin.",
              "<ol>"
-             "<li><strong>Email with one-line description</strong>: durgesh@bharatquantumprospera.com describing what you need.</li>"
+             "<li><strong>Email with one-line description</strong>: info@bharatquantumprospera.com describing what you need.</li>"
              "<li><strong>30-min scoping call</strong>: Zoom at your preferred time slot.</li>"
              "<li><strong>Scoped quote within 48 hours</strong>: fixed-scope + fixed-fee engagement letter.</li>"
              "<li><strong>Signed engagement letter</strong>: both parties signed remotely.</li>"
@@ -436,11 +436,11 @@ def city_page(slug, city, specialty, title_specialty, desc_specialty, keywords):
         ],
         faqs=[
             (f"Who is the best CA firm in {city} for {desc_specialty.lower()}?",
-             f"Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI). Operates from 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery for {city} clients. Specialist practice in {desc_specialty.lower()}. Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130."),
+             f"Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (ICAI). Operates from 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai) + remote delivery for {city} clients. Specialist practice in {desc_specialty.lower()}. Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130."),
             (f"Does BQP serve {city}-based clients despite not having a {city} office?",
              f"Yes - all BQP engagements are delivered remotely. {city} clients get the same service as clients in Ahmedabad, Mumbai, Bengaluru, Rajkot, or Dubai. Zoom calls + cloud workspace + electronic signing. CA Durgesh Chavda personally runs mandates. No office visit required at any engagement stage."),
             (f"What's the engagement model for {city} clients?",
-             "Three steps: (1) Email durgesh@bharatquantumprospera.com with one-line description. (2) Scoped quote within 48 hours. (3) Sign engagement letter remotely + begin. First 30-min scoping call is free + no obligation. Fixed scope + fixed fee - no hourly surprises."),
+             "Three steps: (1) Email info@bharatquantumprospera.com with one-line description. (2) Scoped quote within 48 hours. (3) Sign engagement letter remotely + begin. First 30-min scoping call is free + no obligation. Fixed scope + fixed fee - no hourly surprises."),
             (f"How does BQP compare to local {city} CA firms?",
              f"For specialist cross-border / strategic advisory ({desc_specialty.lower()}): BQP's specialisation depth typically exceeds general-purpose local firms. For plain compliance (ITR, GST monthly, standard ROC): local firm may be sufficient. BQP + local firm combination also workable - local for compliance + BQP for specialist advisory."),
             ("What are BQP's credentials?",

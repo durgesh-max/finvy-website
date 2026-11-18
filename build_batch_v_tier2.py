@@ -40,7 +40,7 @@ def city_page(slug, city, specialty, title_specialty, desc_specialty, keywords):
              f"<p><em>Last updated: 2026-10-22.</em></p>"),
             ("/ Engagement process", "Three steps.",
              "<ol>"
-             "<li>Email <a href='mailto:durgesh@bharatquantumprospera.com'>durgesh@bharatquantumprospera.com</a> with one-line description.</li>"
+             "<li>Email <a href='mailto:info@bharatquantumprospera.com'>info@bharatquantumprospera.com</a> with one-line description.</li>"
              "<li>30-min Zoom scoping call at your preferred time.</li>"
              "<li>Scoped quote within 48 hours. Sign engagement letter remotely.</li>"
              "</ol>"

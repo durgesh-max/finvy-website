@@ -26,7 +26,7 @@ def wa(topic):
 
 
 def contact(where):
-    return (f"WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com: tell us where you live ({where}) and what you want to do. "
+    return (f"WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com: tell us where you live ({where}) and what you want to do. "
             "We reply the same working day with what is needed and a fixed-scope quote. Form 15CB can usually be issued within 24 hours once documents are complete.")
 
 
@@ -47,7 +47,7 @@ def box(title, topic, extra=""):
     return (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
             f'<p style="margin:0 0 8px;font-weight:600">{title}</p>'
             f'<p style="margin:0">{extra}Message CA Durgesh Chavda on <a href="{wa(topic)}" target="_blank" rel="noopener"><strong>WhatsApp</strong></a> '
-            f'or email <a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a>. Or try the free '
+            f'or email <a href="mailto:info@bharatquantumprospera.com">info@bharatquantumprospera.com</a>. Or try the free '
             f'<a href="nri-send-money-to-from-india-checker.html">send-money checker</a>.</p></div>')
 
 

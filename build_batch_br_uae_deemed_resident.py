@@ -27,7 +27,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your Indian income for the year (rent, interest, capital gains, salary) and your days in India for the last five years. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your Indian income for the year (rent, interest, capital gains, salary) and your days in India for the last five years. "
            "We reply the same working day with your status and a fixed-scope quote.")
 SLUG = "dubai-uae-nri-indian-income-above-15-lakh-deemed-resident-india-tax-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

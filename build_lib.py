@@ -58,7 +58,7 @@ FOOTER = """<footer class="footer">
           <h5>Reach</h5>
           <ul>
             <li><a href="tel:+917801887130">+91 78018 87130</a></li>
-            <li><a href="mailto:durgesh@bharatquantumprospera.com">durgesh@bharatquantumprospera.com</a></li>
+            <li><a href="mailto:info@bharatquantumprospera.com">info@bharatquantumprospera.com</a></li>
             <li>Ahmedabad &middot; Mumbai</li>
             <li>Bengaluru &middot; Rajkot</li>
             <li>Dubai, UAE</li>
@@ -220,7 +220,7 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
     from urllib.parse import quote as _q
     _topic = title.split(' | ')[0][:90]
     fab_wa = "https://wa.me/917801887130?text=" + _q(f"Hi Durgesh, I read your page on {_topic} (bharatquantumprospera.com) and need help with: ")
-    fab_em = "mailto:durgesh@bharatquantumprospera.com?subject=" + _q("Enquiry: " + _topic) + "&body=" + _q("Hi Durgesh," + chr(10) * 2 + "I read your page on " + _topic + " and need help with:" + chr(10) * 2 + "My country / city:" + chr(10) + "Deadline:" + chr(10) * 2 + "Thanks")
+    fab_em = "mailto:info@bharatquantumprospera.com?subject=" + _q("Enquiry: " + _topic) + "&body=" + _q("Hi Durgesh," + chr(10) * 2 + "I read your page on " + _topic + " and need help with:" + chr(10) * 2 + "My country / city:" + chr(10) + "Deadline:" + chr(10) * 2 + "Thanks")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>

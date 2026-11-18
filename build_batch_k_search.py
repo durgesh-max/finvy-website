@@ -144,7 +144,7 @@ write_page("section-143-2-scrutiny-notice-response-india", page(
         ("How long does a Section 143(3) assessment take?",
          "By law, within 12 months from the end of the FY in which the return was furnished (longer for cross-border or transfer-pricing cases). In practice, limited scrutiny closes faster (3-6 months); complete scrutiny takes 6-12 months with 2-4 rounds of document calls."),
         ("Does BQP handle Section 143(2) scrutiny?",
-         "Yes - response drafting, document pack preparation, follow-up query responses, appeal to CIT(A) if 143(3) order is adverse. For ITAT and above we co-ordinate with tax counsel. Standard engagement scoped per complexity. WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com."),
+         "Yes - response drafting, document pack preparation, follow-up query responses, appeal to CIT(A) if 143(3) order is adverse. For ITAT and above we co-ordinate with tax counsel. Standard engagement scoped per complexity. WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com."),
     ],
     related=[
         ("section-143-1-intimation-response-india-2026.html", "Blog", "Section 143(1) Response"),
@@ -309,7 +309,7 @@ write_page("gst-notice-response-india-asmt-drc-gstr", page(
         ("What is the time limit for GST notices?",
          "Section 73 SCN: within 3 years of the due date of the annual return (GSTR-9) for the relevant period. Section 74 SCN: within 5 years. For FY 2024-25, GSTR-9 due date is 31 December 2025, so Section 73 limitation runs until 31 December 2028 and Section 74 until 31 December 2030."),
         ("Does BQP handle GST notice responses?",
-         "Yes - ASMT-10 reconciliation, DRC-01A pre-SCN response, DRC-01 SCN defence, GSTR-2A/2B/3B mismatch cleanup, Section 65 audit co-ordination, Section 73/74 classification challenges, CGST Appellate Authority appeals. WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com."),
+         "Yes - ASMT-10 reconciliation, DRC-01A pre-SCN response, DRC-01 SCN defence, GSTR-2A/2B/3B mismatch cleanup, Section 65 audit co-ordination, Section 73/74 classification challenges, CGST Appellate Authority appeals. WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com."),
     ],
     related=[
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Blog", "ITR AY 2026-27"),

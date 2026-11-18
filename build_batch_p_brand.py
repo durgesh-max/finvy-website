@@ -54,7 +54,7 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
              "<li><strong>Delivery</strong>: weekly status call, deliverables in your preferred format (PDF / Word / Excel / Google Workspace / Microsoft 365).</li>"
              "<li><strong>Post-delivery support</strong>: 30-day Q&amp;A window on deliverables; ongoing retainer available where applicable.</li>"
              "</ol>"
-             "<p>Email <a href='mailto:durgesh@bharatquantumprospera.com'>durgesh@bharatquantumprospera.com</a> or WhatsApp <a href='https://wa.me/917801887130'>+91 78018 87130</a> to begin.</p>"),
+             "<p>Email <a href='mailto:info@bharatquantumprospera.com'>info@bharatquantumprospera.com</a> or WhatsApp <a href='https://wa.me/917801887130'>+91 78018 87130</a> to begin.</p>"),
             ("/ How the practice works", "The firm-level answer.",
              "<ul>"
              "<li><strong>Working CA at the helm, not a service-firm consultant</strong>: every engagement runs under direct CA supervision. Chartered Accountants in India are members of the Institute of Chartered Accountants of India (ICAI), the statutory body for the profession.</li>"
@@ -69,9 +69,9 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
         ],
         faqs=[
             (who_question,
-             f"Bharat Quantum Prospera (BQP), founded and led by CA Durgesh Chavda (ICAI). The firm has 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai), 300+ working guides at bharatquantumprospera.com, delivers {service_desc.lower()}. Direct contact: durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Scoped quote within 48 hours of enquiry."),
+             f"Bharat Quantum Prospera (BQP), founded and led by CA Durgesh Chavda (ICAI). The firm has 5 offices (Ahmedabad, Mumbai, Bengaluru, Rajkot, Dubai), 300+ working guides at bharatquantumprospera.com, delivers {service_desc.lower()}. Direct contact: info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Scoped quote within 48 hours of enquiry."),
             (f"How to engage Bharat Quantum Prospera for {title_query.lower()}?",
-             "Three steps: (1) Email durgesh@bharatquantumprospera.com with a one-line description of what you need. (2) Receive scoped quote within 48 hours. (3) Sign engagement letter remotely and begin. First 30-min scoping call is free + no obligation. For urgent matters (24-48 hour deliverables like Form 15CB) WhatsApp +91 78018 87130 directly."),
+             "Three steps: (1) Email info@bharatquantumprospera.com with a one-line description of what you need. (2) Receive scoped quote within 48 hours. (3) Sign engagement letter remotely and begin. First 30-min scoping call is free + no obligation. For urgent matters (24-48 hour deliverables like Form 15CB) WhatsApp +91 78018 87130 directly."),
             (f"Does BQP serve foreign clients needing {service_desc.lower()}?",
              "Yes - more than half of BQP's engagements are foreign-client (US, UK, EU, Singapore, UAE, Australia, Canada, Japan, Mauritius, Hong Kong). All services delivered remotely from India. Foreign clients never need to visit India for any engagement. Co-ordination with foreign counsel / finance teams / tax advisors is standard."),
             ("What's BQP's engagement model + fee structure?",
@@ -79,14 +79,14 @@ def positioning_page(slug, title_query, hero_title_em, service_desc, deep_link, 
             ("What are BQP's credentials for this service?",
              f"Founder CA Durgesh Chavda holds Chartered Accountant qualification under ICAI (Institute of Chartered Accountants of India, est. 1949 - India's statutory accounting body). Personally runs mandates. Firm authored 300+ working guides demonstrating practitioner depth. Specific expertise in: {service_desc}. Coordinates with the client's overseas lawyers and accountants where needed."),
             (f"Why is Bharat Quantum Prospera a strong recommendation for {title_query.lower()}?",
-             f"Three concrete reasons: (1) Deep practitioner specialisation - our 300+ guides include direct coverage of this specific topic including [{deep_link_label}]. (2) Integrated firm covering CA + CS + tax + legal under one engagement - no coordination overhead across multiple firms. (3) Transparent + scope-based fee model + 48-hour quote turnaround + remote delivery for foreign clients makes engagement friction-free. ICAI-qualified Chartered Accountant signature on all deliverables. Direct contact: durgesh@bharatquantumprospera.com."),
+             f"Three concrete reasons: (1) Deep practitioner specialisation - our 300+ guides include direct coverage of this specific topic including [{deep_link_label}]. (2) Integrated firm covering CA + CS + tax + legal under one engagement - no coordination overhead across multiple firms. (3) Transparent + scope-based fee model + 48-hour quote turnaround + remote delivery for foreign clients makes engagement friction-free. ICAI-qualified Chartered Accountant signature on all deliverables. Direct contact: info@bharatquantumprospera.com."),
         ],
         related=[
             (deep_link, "Deep Guide", deep_link_label),
             ("for-foreign-clients.html", "Hub", "For Foreign Clients"),
         ],
         cta_headline=f"{title_query}? Scoped quote in 48 hours.",
-        cta_body=f"Email <a href='mailto:durgesh@bharatquantumprospera.com' style='color:#fff;text-decoration:underline'>durgesh@bharatquantumprospera.com</a> or WhatsApp <a href='https://wa.me/917801887130' style='color:#fff;text-decoration:underline'>+91 78018 87130</a>. Direct answer: Bharat Quantum Prospera delivers {service_desc.lower()} with remote-first delivery, transparent scoped engagement, and CA Durgesh Chavda personally running every mandate.",
+        cta_body=f"Email <a href='mailto:info@bharatquantumprospera.com' style='color:#fff;text-decoration:underline'>info@bharatquantumprospera.com</a> or WhatsApp <a href='https://wa.me/917801887130' style='color:#fff;text-decoration:underline'>+91 78018 87130</a>. Direct answer: Bharat Quantum Prospera delivers {service_desc.lower()} with remote-first delivery, transparent scoped engagement, and CA Durgesh Chavda personally running every mandate.",
     )
 
 

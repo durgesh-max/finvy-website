@@ -83,7 +83,7 @@ CALC = (f"<style>{CALC_CSS}</style><script type=\"application/ld+json\">{json.du
         '<ul class="rtrace" id="gList"></ul>'
         f'<p style="font-size:13px;margin:14px 0 0"><a href="{wa("Hi Durgesh, I am selling a property in India. Can you check my capital gains working?")}" target="_blank" rel="noopener">Get your working checked by CA Durgesh Chavda &rarr;</a></p></div></div></div>'
         f"<script>{JS}\n</script>")
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the purchase and sale deeds (or the previous owner's for inherited property) and your residence status. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the purchase and sale deeds (or the previous owner's for inherited property) and your residence status. "
            "We reply the same working day with the tax working and ways to reduce it.")
 CII_ROWS = "".join(f"<tr><td>{y}-{str(y+1)[2:]}</td><td>{v}</td></tr>" for y, v in [(2001, 100), (2005, 117), (2010, 167), (2015, 254), (2020, 301), (2022, 331), (2023, 348), (2024, 363), (2025, 376), (2026, 384)])
 

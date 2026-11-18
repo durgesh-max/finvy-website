@@ -81,7 +81,7 @@ write_page("us-tax-2026-indian-founders-landscape", page(
         ("What is GILTI and does it affect Indian founders?",
          "Global Intangible Low-Taxed Income - US tax inclusion rule under IRC Section 951A. A US shareholder (including a Delaware C-Corp) owning 10%+ of a Controlled Foreign Corporation (CFC) must include GILTI in US taxable income annually. For Indian founders with Delaware parent + Indian subsidiary structure, GILTI typically applies if the Indian sub is a CFC. Section 250 deduction (50% of GILTI for C-Corps) + foreign tax credit mitigate the actual US tax impact."),
         ("Does BQP handle US tax filings for Indian founders in 2026?",
-         "Yes - Form 1120 (C-Corp return), Form 5472 (foreign-owned), FBAR + Form 8938 (US-person foreign asset disclosure), 83(b) elections, QSBS positioning, GILTI calculations, state registrations + state returns, and India-side DTAA + FEMA co-ordination. WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com."),
+         "Yes - Form 1120 (C-Corp return), Form 5472 (foreign-owned), FBAR + Form 8938 (US-person foreign asset disclosure), 83(b) elections, QSBS positioning, GILTI calculations, state registrations + state returns, and India-side DTAA + FEMA co-ordination. WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com."),
     ],
     related=[
         ("us-incorporation.html", "Hub", "US Incorporation"),

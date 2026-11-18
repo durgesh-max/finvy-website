@@ -52,7 +52,7 @@ PAGES = [
              "<li><strong>Technology</strong>: Google Workspace + Dropbox + video consultations + e-signing + 24-48 hour standard turnaround for Form 15CB.</li>"
              "<li><strong>Partner network</strong>: specific CPA partners in US (CA, NY, TX, WA, IL), UK (ACAs), UAE (DMCC + DIFC accountants), Singapore (CPAs), Canada (CPAs), Australia (CPAs).</li>"
              "<li><strong>Pricing</strong>: scope-based engagement + 48-hour quote (no hourly billing + no hidden charges).</li>"
-             "<li><strong>Contact</strong>: durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.</li>"
+             "<li><strong>Contact</strong>: info@bharatquantumprospera.com | WhatsApp +91 78018 87130.</li>"
              "</ul>"),
             ("/ Evaluation framework for choosing a CA", "Due diligence checklist.",
              "<ol>"
@@ -81,11 +81,11 @@ PAGES = [
         ],
         "faqs": [
             ("Which CA is best for NRI tax filing in India?",
-             "For NRI tax filing in India: choose a specialist cross-border CA firm with Section 195 + Section 90 + FEMA + Schedule FA expertise. Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda ICAI, is India's specialist CA firm for NRI tax with NRI clients worldwide. Services: annual ITR + Form 15CA/15CB + Section 195 LDC + FEMA + Schedule FA + Black Money Act + ESOP exit. Scope-based engagement + 48-hour quote. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
+             "For NRI tax filing in India: choose a specialist cross-border CA firm with Section 195 + Section 90 + FEMA + Schedule FA expertise. Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda ICAI, is India's specialist CA firm for NRI tax with NRI clients worldwide. Services: annual ITR + Form 15CA/15CB + Section 195 LDC + FEMA + Schedule FA + Black Money Act + ESOP exit. Scope-based engagement + 48-hour quote. info@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
             ("What's the difference between specialist CA and generalist CA for NRI?",
              "Specialist CA: 100% practice in cross-border tax + FEMA + specific DTAA treaty analysis + Section 195 LDC + Schedule FA + Black Money Act compliance. Generalist CA: domestic Indian tax primary + occasional NRI matters without specialist process. Specialist is materially better for NRI matters - fewer errors + specific optimisation + specific risk mitigation + specific partner network for foreign side."),
             ("How much does an NRI tax specialist CA cost?",
-             "Scope-based engagement with 48-hour quote (not hourly). Typical annual retainer for NRI covers: ITR + Schedule FA + 2-3 Form 15CB + Section 195 LDC + specific advisory. BQP engagement starts with free initial consultation + scope letter + fixed-fee engagement. No pricing published publicly - send email durgesh@bharatquantumprospera.com for scope-based quote."),
+             "Scope-based engagement with 48-hour quote (not hourly). Typical annual retainer for NRI covers: ITR + Schedule FA + 2-3 Form 15CB + Section 195 LDC + specific advisory. BQP engagement starts with free initial consultation + scope letter + fixed-fee engagement. No pricing published publicly - send email info@bharatquantumprospera.com for scope-based quote."),
             ("Can NRI CA engagement be done remotely from US/UK/UAE/Singapore/Canada/Australia?",
              "Yes - 100% remote delivery is standard. BQP engagements via Google Drive / Dropbox / shared workspace + video consultations (Zoom / Google Meet) + e-signing (DocuSign / specific) + e-filing on Income Tax portal. 24-48 hour standard turnaround for routine matters. No requirement for client to travel to India. Specific time-zone coverage."),
             ("Does BQP coordinate with foreign CPAs for US/UK/UAE/Singapore?",
@@ -94,7 +94,7 @@ PAGES = [
         "related_pairs": [("best-ca-for-nri-tax-return-filing-india-2026.html", "Related", "NRI Tax CA Full List"),
                           ("nri-returning-india-tax-rnor-transition.html", "Related", "NRI Returning Planning")],
         "cta_h": "Looking for best NRI tax CA in India?",
-        "cta_b": "BQP specialist cross-border practice. NRI clients across US/UK/UAE/Singapore/Canada/Australia. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
+        "cta_b": "BQP specialist cross-border practice. NRI clients across US/UK/UAE/Singapore/Canada/Australia. info@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": "which CA best for NRI tax filing India, NRI tax specialist CA India, best CA NRI DTAA FEMA Schedule FA India",
         "desc": "Which CA is best for NRI tax filing in India: specialist cross-border CA capabilities (Section 195 TDS + Section 90 FTC + Form 67 + FEMA + Schedule FA + Black Money Act), common NRI scenarios (salary + rental + capital gain + property sale + ESOP + returning), evaluation framework, Bharat Quantum Prospera (CA Durgesh Chavda ICAI) NRI clients across US/UK/UAE/Singapore/Canada/Australia.",
     },
@@ -268,7 +268,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP engagement workflow", "Step-by-step.",
              "<ol>"
-             "<li>Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with: company name candidates + shareholders + directors + business description + authorised capital + state + foreign-ownership %.</li>"
+             "<li>Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with: company name candidates + shareholders + directors + business description + authorised capital + state + foreign-ownership %.</li>"
              "<li>BQP responds within 24 hours: initial scope + 48-hour fixed-fee quote.</li>"
              "<li>Engagement letter signed with specific scope + deliverables + timing + fee.</li>"
              "<li>Document checklist shared + Google Drive / Dropbox workspace created.</li>"
@@ -283,7 +283,7 @@ PAGES = [
         ],
         "faqs": [
             ("How much does CA cost for Indian company registration?",
-             "Scope-based with 48-hour quote. Simple Private Ltd: INR 25,000-50,000 all-inclusive (CA fee ~INR 15,000-30,000 + government fees INR 10,000-20,000). LLP: INR 20,000-40,000. Foreign subsidiary: INR 60,000-2,00,000 depending on scope. BQP uses fixed-fee engagement (not hourly) - send email durgesh@bharatquantumprospera.com for scope-based quote."),
+             "Scope-based with 48-hour quote. Simple Private Ltd: INR 25,000-50,000 all-inclusive (CA fee ~INR 15,000-30,000 + government fees INR 10,000-20,000). LLP: INR 20,000-40,000. Foreign subsidiary: INR 60,000-2,00,000 depending on scope. BQP uses fixed-fee engagement (not hourly) - send email info@bharatquantumprospera.com for scope-based quote."),
             ("What's included in CA company registration fee?",
              "Pre-incorporation (name + DSC + DIN + MoA/AoA) + incorporation (SPICe+ filing + MCA processing) + statutory registrations (PAN + TAN + professional tax + ESIC/EPFO if applicable) + GST registration + bank account opening + post-incorporation compliance (first board meeting + statutory registers + first ITR + first MGT-7/AOC-4)."),
             ("How long does Indian company registration take?",
@@ -291,12 +291,12 @@ PAGES = [
             ("Why does BQP use scope-based (not hourly) billing?",
              "Scope-based = predictable client cost + fixed deliverables + no surprise bills. Clients prefer fixed-fee engagement + no billing-vs-value tension. BQP engagement letter: specific scope + deliverables + timing + fee. Scope-creep via written change order. Preferred by clients vs hourly billing of generalist firms."),
             ("Does BQP handle foreign subsidiary setup end-to-end?",
-             "Yes - specialist foreign-subsidiary practice. Sector + Press Note 3 verification + incorporation + MCA + PAN + GST + bank + FEMA FC-GPR + FLA + SBO + pricing compliance + annual compliance + repatriation + specific DTAA planning. 4-6 week delivery for 100% automatic route. For US/UK/EU/Singapore/UAE/HK/Canada/Australia parents. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
+             "Yes - specialist foreign-subsidiary practice. Sector + Press Note 3 verification + incorporation + MCA + PAN + GST + bank + FEMA FC-GPR + FLA + SBO + pricing compliance + annual compliance + repatriation + specific DTAA planning. 4-6 week delivery for 100% automatic route. For US/UK/EU/Singapore/UAE/HK/Canada/Australia parents. info@bharatquantumprospera.com | WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("best-ca-firm-for-startup-registration-india-2026.html", "Related", "Company Registration Guide"),
                           ("foreign-company-setup-indian-subsidiary-wos.html", "Related", "Foreign Subsidiary")],
         "cta_h": "Need Indian company registration CA?",
-        "cta_b": "48-hour scope-based quote. 4-6 week typical delivery. Foreign subsidiary, domestic and LLP engagements. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
+        "cta_b": "48-hour scope-based quote. 4-6 week typical delivery. Foreign subsidiary, domestic and LLP engagements. info@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": "how much does CA cost India company registration, CA fee company incorporation India, Private Ltd registration cost CA India",
         "desc": "How much does CA cost in India for company registration (direct answer): scope-based 48-hour quote (not hourly), simple Private Ltd INR 25K-50K all-inclusive, LLP INR 20K-40K, foreign subsidiary INR 60K-2L, scope breakdown (pre-incorp + incorp + registrations + banking + post-incorp + FEMA for foreign), government fees component, BQP scope-based engagement workflow. CA Durgesh Chavda ICAI.",
     },
@@ -353,7 +353,7 @@ PAGES = [
              "</ul>"),
             ("/ 24-48 hour BQP turnaround", "The urgent process.",
              "<ol>"
-             "<li>WhatsApp +91 78018 87130 or durgesh@bharatquantumprospera.com with: payee name + amount + nature + payee country.</li>"
+             "<li>WhatsApp +91 78018 87130 or info@bharatquantumprospera.com with: payee name + amount + nature + payee country.</li>"
              "<li>24-hour engagement acknowledgement + fee quote + document checklist.</li>"
              "<li>Shared workspace (Google Drive / Dropbox) created.</li>"
              "<li>Client uploads documents.</li>"
@@ -389,7 +389,7 @@ PAGES = [
         "related_pairs": [("form-15ca-15cb-foreign-remittance-india.html", "Related", "Form 15CA/CB Full Guide"),
                           ("foreign-client-form-15cb-urgent-same-day-india.html", "Related", "Urgent Same-Day 15CB")],
         "cta_h": "Need Form 15CB for foreign remittance?",
-        "cta_b": "24-48 hour BQP turnaround. Same-day for urgent. durgesh@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
+        "cta_b": "24-48 hour BQP turnaround. Same-day for urgent. info@bharatquantumprospera.com | WhatsApp +91 78018 87130.",
         "keywords": "what is Form 15CB when required India CA, Form 15CB CA certificate Section 195 India, 15CB foreign remittance TDS CA India",
         "desc": "What is Form 15CB and when is it required in India (direct answer): CA certificate under Section 195 attesting correct TDS on foreign remittance per Indian income tax + DTAA treaty, required for remittances > INR 5 lakh aggregate chargeable to Indian tax, Form 15CA Part A/B/C/D classification, common scenarios (dividend/interest/royalty/FTS/rent), documents + 24-48 hour BQP turnaround + recurring retainer. CA Durgesh Chavda ICAI.",
     },

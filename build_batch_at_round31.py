@@ -2,7 +2,7 @@
 """Batch AT: Round 31 - old vs new section numbers (Income-tax Act, 2025) for NRIs, founders and foreign companies, with a lookup box."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SLUG = "income-tax-act-2025-section-mapping-old-vs-new-54-is-82-80c-is-123-nri"
 
 

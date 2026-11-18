@@ -49,11 +49,11 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not advice for your situation.</p>'
 
 
-C_EPF = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your years of service, the date you left India and your current country. "
+C_EPF = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your years of service, the date you left India and your current country. "
          "We reply the same working day with the tax on withdrawal and the steps.")
-C_PE = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with what your people or agents do in India, for how long, and your country of residence. "
+C_PE = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with what your people or agents do in India, for how long, and your country of residence. "
         "We reply within one working day with a PE risk view and a fixed-scope quote.")
-C_USP = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your citizenship, OCI status, where you live and the property you want to buy, hold or sell. "
+C_USP = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your citizenship, OCI status, where you live and the property you want to buy, hold or sell. "
          "We reply the same working day with the FEMA and tax position in India and what to report in the US.")
 
 EPF = dict(

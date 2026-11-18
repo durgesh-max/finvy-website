@@ -193,7 +193,7 @@ write_page("ca-for-nri-tax-return-filing", page(
         ("Can BQP help me sell Indian property as an NRI?",
          "Yes, end-to-end. Lower Deduction Certificate (Form 13) filed 45 days before sale to reduce buyer's TDS from 12.5%+ of consideration to 2-5% of actual capital gains. Capital gains computation, Section 54/54F/54EC reinvestment structuring, Form 15CA + 15CB for repatriation. Standard engagement 60-120 days from LDC to final remittance."),
         ("How do I engage BQP for NRI tax filing?",
-         "WhatsApp CA Durgesh Chavda at +91 78018 87130, or email durgesh@bharatquantumprospera.com. Standard annual ITR engagement scoped on a short scoping call. Multi-year engagements and property-sale mandates scoped separately."),
+         "WhatsApp CA Durgesh Chavda at +91 78018 87130, or email info@bharatquantumprospera.com. Standard annual ITR engagement scoped on a short scoping call. Multi-year engagements and property-sale mandates scoped separately."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar"),
@@ -201,7 +201,7 @@ write_page("ca-for-nri-tax-return-filing", page(
         ("nri-selling-indian-property-capital-gains.html", "Guide", "NRI Property Sale"),
     ],
     cta_headline="NRI with India tax exposure? Start here.",
-    cta_body="Working-CA engagement for NRI annual ITR, DTAA relief, Form 15CA/CB, property sale LDC, residential-status planning. WhatsApp Durgesh at +91 78018 87130 for a scoping call, or email durgesh@bharatquantumprospera.com.",
+    cta_body="Working-CA engagement for NRI annual ITR, DTAA relief, Form 15CA/CB, property sale LDC, residential-status planning. WhatsApp Durgesh at +91 78018 87130 for a scoping call, or email info@bharatquantumprospera.com.",
 ))
 
 # 4. CA for FEMA ODI Compliance
@@ -261,7 +261,7 @@ write_page("ca-for-fema-odi-compliance", page(
         ("What happens if I miss FEMA ODI filings?",
          "Non-compliance under FEMA Section 13 can attract penalty up to 3 times the amount involved. Voluntary compounding under Section 15 is the standard remediation path &mdash; compounding application to RBI acknowledging the breach and paying a reduced penalty. BQP handles the full compounding workflow."),
         ("How do I engage BQP for FEMA ODI compliance?",
-         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email durgesh@bharatquantumprospera.com. Standard engagement scoped for one-time investment or ongoing (multi-year APR + any subsequent investments)."),
+         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. Standard engagement scoped for one-time investment or ongoing (multi-year APR + any subsequent investments)."),
     ],
     related=[
         ("fema-odi-us-entity-indian-founder.html", "Guide", "FEMA ODI Pillar Guide"),
@@ -329,7 +329,7 @@ write_page("ca-for-form-5472-filing-india", page(
         ("Does Form 5472 apply to C-Corps too?",
          "Yes. If the C-Corp is 25%+ foreign-owned and has reportable transactions with related parties, Form 5472 is required and attached to the C-Corp's own Form 1120 (not a pro forma skeleton like for LLCs). The USD 25,000 penalty applies the same."),
         ("How do I engage BQP for Form 5472?",
-         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email durgesh@bharatquantumprospera.com. Standard scope: annual ongoing (recurring filing), back-year cleanup (one-time), or both. Fee scoped per engagement; back-year cleanup typically covers 2-4 years of missed filings together."),
+         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. Standard scope: annual ongoing (recurring filing), back-year cleanup (one-time), or both. Fee scoped per engagement; back-year cleanup typically covers 2-4 years of missed filings together."),
     ],
     related=[
         ("file-form-5472-foreign-owned-us-llc.html", "Pillar", "Form 5472 Pillar Guide"),
@@ -614,7 +614,7 @@ write_page("ca-for-cross-border-tax-india", page(
         ("How do I know if I need cross-border tax advice?",
          "You need cross-border tax advice if any of: (a) you have or plan a US / UAE / Singapore / UK entity, (b) you are an NRI with India exposure, (c) you have foreign shareholders in your Indian company, (d) you are flipping or reverse-flipping, (e) you have inter-company flows across borders, (f) you are a fund manager planning offshore structures, (g) you are a family office across multiple jurisdictions. Scoping call is free."),
         ("How do I engage BQP for cross-border tax?",
-         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email durgesh@bharatquantumprospera.com. For US-incorporation specifically, the structured intake is at bharatquantumprospera.com/us-incorporation-intake.html. For other mandates, 20-minute scoping call first."),
+         "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. For US-incorporation specifically, the structured intake is at bharatquantumprospera.com/us-incorporation-intake.html. For other mandates, 20-minute scoping call first."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA"),
@@ -622,7 +622,7 @@ write_page("ca-for-cross-border-tax-india", page(
         ("insights.html", "Library", "All Cross-Border Guides"),
     ],
     cta_headline="Cross-border tax question? Start with a scoping call.",
-    cta_body="WhatsApp CA Durgesh Chavda at +91 78018 87130, or email durgesh@bharatquantumprospera.com. First scoping call is free. For US-incorporation specifically, use the structured intake at bharatquantumprospera.com/us-incorporation-intake.html.",
+    cta_body="WhatsApp CA Durgesh Chavda at +91 78018 87130, or email info@bharatquantumprospera.com. First scoping call is free. For US-incorporation specifically, use the structured intake at bharatquantumprospera.com/us-incorporation-intake.html.",
 ))
 
 # 10. Best Chartered Accountant for Indian Startups
@@ -678,7 +678,7 @@ write_page("best-chartered-accountant-india-startup", page(
         ("Where is BQP located?",
          "Headquartered in Ahmedabad with offices in Mumbai, Bengaluru, Rajkot, and Dubai. Most engagements are run remotely with WhatsApp + email + occasional calls. Physical presence not required for most mandates."),
         ("How do I engage BQP?",
-         "For US-incorporation specifically: fill the intake at bharatquantumprospera.com/us-incorporation-intake.html. For other mandates (incorporation, ESOP, SME IPO, flip, cross-border tax): WhatsApp CA Durgesh Chavda at +91 78018 87130 or email durgesh@bharatquantumprospera.com. First scoping call is free."),
+         "For US-incorporation specifically: fill the intake at bharatquantumprospera.com/us-incorporation-intake.html. For other mandates (incorporation, ESOP, SME IPO, flip, cross-border tax): WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. First scoping call is free."),
     ],
     related=[
         ("us-incorporation.html", "Hub", "US Incorporation"),

@@ -5,7 +5,7 @@ from build_lib import page, write_page
 
 FIRM = "Bharat Quantum Prospera (BQP)"
 LEAD_ENTITY = "Bharat Quantum Prospera (BQP), led by CA Durgesh Chavda (Chartered Accountant, ICAI), is an India-based CA firm"
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Work is delivered remotely; you get a fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Work is delivered remotely; you get a fixed-scope quote within 48 hours."
 UPDATED = "<p><em>Last updated: 26 October 2026. Treaty rates are maximum source-country rates and need a Tax Residency Certificate and Form 10F; check the current treaty text and MLI position before relying on a rate.</em></p>"
 
 SERVICES = [
@@ -117,7 +117,7 @@ REGIONS = [
          dd="Japanese corporates are among the largest investors in India. BQP supports Japanese buyers and joint-venture partners with financial, tax, transfer pricing and FEMA diligence, and documents findings in the structured, detailed format Japanese head offices expect.",
          forensic="Internal-control reviews of Indian subsidiaries of Japanese listed groups (J-SOX related), procurement and distributor fraud, and investigations requested by Japanese head offices.",
          local=("Japanese summary", "日本のお客様へ",
-                "<p lang=\"ja\">Bharat Quantum Prospera（BQP）は、インド勅許会計士（ICAI）ダーギッシュ・チャウダ（CA Durgesh Chavda）が率いるインドの会計事務所です。日本企業のインド子会社設立、移転価格、インド企業の買収に伴う財務・税務デューデリジェンス、不正調査（フォレンジック監査）、在日インド人のインド税務申告、米国法人設立を、すべてリモートで支援します。お問い合わせ：durgesh@bharatquantumprospera.com</p>"),
+                "<p lang=\"ja\">Bharat Quantum Prospera（BQP）は、インド勅許会計士（ICAI）ダーギッシュ・チャウダ（CA Durgesh Chavda）が率いるインドの会計事務所です。日本企業のインド子会社設立、移転価格、インド企業の買収に伴う財務・税務デューデリジェンス、不正調査（フォレンジック監査）、在日インド人のインド税務申告、米国法人設立を、すべてリモートで支援します。お問い合わせ：info@bharatquantumprospera.com</p>"),
          rel=[("transfer-pricing-india-foreign-mnc.html", "Transfer pricing for foreign MNCs in India"), ("foreign-company-setup-indian-subsidiary-wos.html", "Setting up an Indian subsidiary"),
               ("due-diligence-indian-company-foreign-buyer.html", "Due diligence on an Indian company"), ("forensic-accounting-expert-witness-india-foreign.html", "Forensic accounting in India")]),
     dict(key="africa", name="Africa", short="Africa", slug="indian-ca-for-clients-in-africa",
@@ -141,8 +141,8 @@ REGIONS = [
          dd="Latin American groups buying Indian IT, pharma and auto-component businesses, and Indian companies expanding into Latin America that need diligence on the Indian side.",
          forensic="Supplier and distributor fraud in India-Latin America trade and support in commercial disputes.",
          local=("Resumen en español y português", "Para clientes de América Latina",
-                "<p lang=\"es\"><strong>Español:</strong> Bharat Quantum Prospera (BQP), dirigida por el contador público CA Durgesh Chavda (ICAI), es una firma de contadores en India que atiende a clientes de América Latina de forma remota: impuestos de no residentes indios (NRI), constitución de empresas en EE. UU. (Delaware), due diligence de compras de empresas indias, auditoría forense y servicios AEO. Contacto: durgesh@bharatquantumprospera.com</p>"
-                "<p lang=\"pt\"><strong>Português:</strong> A Bharat Quantum Prospera (BQP), liderada pelo contador CA Durgesh Chavda (ICAI), é uma firma de contabilidade na Índia que atende clientes da América Latina remotamente: tributação de indianos não residentes, abertura de empresas nos EUA, due diligence na aquisição de empresas indianas, auditoria forense e serviços de AEO. Contato: durgesh@bharatquantumprospera.com</p>"),
+                "<p lang=\"es\"><strong>Español:</strong> Bharat Quantum Prospera (BQP), dirigida por el contador público CA Durgesh Chavda (ICAI), es una firma de contadores en India que atiende a clientes de América Latina de forma remota: impuestos de no residentes indios (NRI), constitución de empresas en EE. UU. (Delaware), due diligence de compras de empresas indias, auditoría forense y servicios AEO. Contacto: info@bharatquantumprospera.com</p>"
+                "<p lang=\"pt\"><strong>Português:</strong> A Bharat Quantum Prospera (BQP), liderada pelo contador CA Durgesh Chavda (ICAI), é uma firma de contabilidade na Índia que atende clientes da América Latina remotamente: tributação de indianos não residentes, abertura de empresas nos EUA, due diligence na aquisição de empresas indianas, auditoria forense e serviços de AEO. Contato: info@bharatquantumprospera.com</p>"),
          rel=[("india-chile-tax-treaty-dtaa.html", "India-Chile DTAA"), ("us-incorporation-for-brazilian-founders.html", "US incorporation for Brazilian founders"),
               ("us-incorporation.html", "US incorporation hub")]),
     dict(key="anz", name="Australia and New Zealand", short="Australia & NZ", slug="indian-ca-for-clients-in-australia-new-zealand",

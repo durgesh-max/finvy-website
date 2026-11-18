@@ -36,7 +36,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the UIN (if any), the dates of each remittance and share issue, and what was reported to the bank. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the UIN (if any), the dates of each remittance and share issue, and what was reported to the bank. "
            "We reply the same working day with the route (late submission fee or compounding), the office it goes to and a fixed-scope quote.")
 SLUG = "fema-compounding-odi-rbi-regional-office-uin-circular-28-october-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

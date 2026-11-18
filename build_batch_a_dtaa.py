@@ -105,7 +105,7 @@ write_page("india-uk-tax-treaty-dtaa", page(
         ("What is Form 15CA and Form 15CB?",
          "Form 15CA is a self-declaration by the Indian remitter about the nature of the overseas payment and withholding applied. Form 15CB is a certificate from a Chartered Accountant certifying the characterisation and withholding rate. Both are filed on the Indian income tax portal before each cross-border remittance of INR 5 lakh+."),
         ("Does BQP handle India-UK vendor payments and treaty claims?",
-         "Yes &mdash; both one-off (per-remittance 15CA/15CB) and ongoing (quarterly batches for Indian companies with recurring UK vendor payments). We also handle UK TRC co-ordination with the vendor and Form 10F filing. Standard pricing is per-remittance for small volumes and a monthly retainer for recurring payment programmes. Email durgesh@bharatquantumprospera.com or use get-a-quote.html."),
+         "Yes &mdash; both one-off (per-remittance 15CA/15CB) and ongoing (quarterly batches for Indian companies with recurring UK vendor payments). We also handle UK TRC co-ordination with the vendor and Form 10F filing. Standard pricing is per-remittance for small volumes and a monthly retainer for recurring payment programmes. Email info@bharatquantumprospera.com or use get-a-quote.html."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA Rates"),

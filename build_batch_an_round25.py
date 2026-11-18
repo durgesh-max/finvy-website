@@ -2,7 +2,7 @@
 """Batch AN: Round 25 - SEBI SME IPO consultation paper (14 October 2026)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 
 
 def ul(*items):

@@ -2,7 +2,7 @@
 """Batch AK: Round 21 - DIR-3 KYC now once every three years (G.S.R. 943(E), effective 31 March 2026): rewrite two pages, redirect one."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 SRC = ('<p><strong>Sources:</strong> <a href="https://blog.instafinancials.com/2026/04/06/new-mca-rules-for-directors-kyc/" rel="nofollow noopener" target="_blank">InstaFinancials</a>; '
        '<a href="https://www.taxaj.com/learn/?p=372" rel="nofollow noopener" target="_blank">TaxAJ</a>; '
        '<a href="https://ebizfiling.com/blog/mca-revises-dir-3-kyc-norms/" rel="nofollow noopener" target="_blank">Ebizfiling</a>.</p>'

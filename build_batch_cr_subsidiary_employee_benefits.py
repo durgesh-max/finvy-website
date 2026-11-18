@@ -30,7 +30,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the parent's country, the Indian states where staff will sit, headcount and the salary range. "
+CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with the parent's country, the Indian states where staff will sit, headcount and the salary range. "
            "We reply within one working day with the registrations, a benefits checklist and a payroll calendar, with a fixed-scope quote.")
 SLUG = "foreign-company-india-subsidiary-employee-benefits-payroll-epf-esic-gratuity-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

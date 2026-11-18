@@ -2,7 +2,7 @@
 """Batch AU: November 2026 news roundup (add items to NEWS_ITEMS and re-run this file during November)."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 LEAD = "CA Durgesh Chavda, Bharat Quantum Prospera"
 UPDATED = "15 November 2026"
 SLUG = "india-tax-nri-cross-border-news-november-2026"

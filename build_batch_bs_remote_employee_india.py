@@ -26,13 +26,13 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with your country, the roles you have or plan in India and what they do (engineering, sales, support). "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your country, the roles you have or plan in India and what they do (engineering, sales, support). "
            "We reply the same working day with the options for your case and a fixed-scope quote.")
 SLUG = "foreign-company-remote-employee-india-pe-risk-eor-contractor-subsidiary-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
        f'<p style="margin:0 0 8px;font-weight:600">The role matters more than the headcount</p>'
        f'<p style="margin:0">One engineer writing code is a different risk from one salesperson signing contracts with Indian customers. Tell us what your India hires do and we will map the safest structure: '
-       f'<a href="{wa("Hi Durgesh, we are a foreign company with remote employees in India. Which structure should we use?")}" target="_blank" rel="noopener"><strong>WhatsApp CA Durgesh Chavda</strong></a> or email durgesh@bharatquantumprospera.com.</p></div>')
+       f'<a href="{wa("Hi Durgesh, we are a foreign company with remote employees in India. Which structure should we use?")}" target="_blank" rel="noopener"><strong>WhatsApp CA Durgesh Chavda</strong></a> or email info@bharatquantumprospera.com.</p></div>')
 
 PAGES = [dict(
     slug=SLUG,

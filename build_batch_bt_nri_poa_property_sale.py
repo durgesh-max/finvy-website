@@ -25,7 +25,7 @@ def ol(*x):
     return "<ol>" + "".join(f"<li>{i}</li>" for i in x) + "</ol>"
 
 
-CONTACT = ("WhatsApp +91 78018 87130 or email durgesh@bharatquantumprospera.com with the property city, purchase year and cost, the expected sale price and your country. "
+CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the property city, purchase year and cost, the expected sale price and your country. "
            "We reply the same working day with the tax steps, the lower-TDS route and a fixed-scope quote; your lawyer handles the POA and sale deed.")
 SLUG = "nri-sell-property-in-india-from-abroad-power-of-attorney-tds-repatriation-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'

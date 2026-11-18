@@ -2,7 +2,7 @@
 """Batch AP: Round 27 - pages answering what people ask on X: FAST-DS emails, ITR refund delays, foreign cloud tax holiday."""
 from build_lib import page, write_page
 
-CONTACT = "Email durgesh@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
 
 
 def ul(*items):

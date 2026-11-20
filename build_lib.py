@@ -251,6 +251,7 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
 <link rel="stylesheet" href="bqp.css"/>
 {PAGE_STYLE}
 {chr(10).join(schemas)}
+<script src="bqp-track.js" defer></script>
 </head>
 <body>
 {HEADER}

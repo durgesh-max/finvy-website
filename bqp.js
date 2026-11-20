@@ -46,7 +46,8 @@
       var subject = encodeURIComponent('Advisory Enquiry - ' + name + (company ? ' (' + company + ')' : ''));
       var body = encodeURIComponent(
         'Dear Team Bharat Quantum Prospera,\n\n' + message + '\n\nWarm regards,\n' + name +
-        (company ? '\n' + company : '') + '\n' + email
+        (company ? '\n' + company : '') + '\n' + email +
+        (window.bqpRef ? '\n\n[' + window.bqpRef() + ']' : '')
       );
       window.location.href = 'mailto:info@bharatquantumprospera.com?subject=' + subject + '&body=' + body;
       status.textContent = 'Mail client opening. Thank you.';

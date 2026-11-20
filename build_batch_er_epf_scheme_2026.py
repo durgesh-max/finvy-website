@@ -47,11 +47,11 @@ PAGES = [dict(
              ["Partial withdrawal", "Many separate purposes and service conditions", "Specified purposes after 12 months of membership; 25% of contributions must remain"],
              ["Pension withdrawal benefit (short service)", "After two months", "After 36 months from the last contribution, or at superannuation"],
              ["Death cover (EDLI)", "Up to INR 7 lakh", "INR 2.5 lakh minimum and INR 7 lakh maximum with 12 months&rsquo; continuous employment"],
-             ["Past defaults", "-", "Special windows: Employees&rsquo; Enrolment Campaign, VISHWAS and AMNESTY 2026"]])
+             ["Past defaults", "-", "VISHWAS 2026 (reduced damages for late payments) open until 28 December 2026; the enrolment campaign for left-out employees closed on 31 October 2026"]])
          + call_box("The new provident fund rules and our payroll", ["Whether your salary structure meets the new definition of wages",
                                                                    "Cost of the INR 25,000 ceiling and options for higher earners",
                                                                    "Foreign nationals on payroll: international worker rules and certificates of coverage",
-                                                                   "Past gaps and whether the enrolment or VISHWAS windows help",
+                                                                   "Past late payments and the VISHWAS 2026 window that closes on 28 December 2026",
                                                                    "For individuals: withdrawing PF after moving abroad, and the tax on it"],
                     "your payroll summary or salary structure, headcount, any foreign nationals employed, or your PF and service details.")),
         ("/ What to do now", "Employers, foreign-owned subsidiaries and individuals.",
@@ -61,6 +61,7 @@ PAGES = [dict(
             "<strong>Foreign-owned subsidiaries:</strong> align group payroll and benefits with the new scheme; see <a href=\"foreign-company-india-subsidiary-employee-benefits-payroll-epf-esic-gratuity-2026.html\">payroll and benefits for an Indian subsidiary</a>.",
             "<strong>Foreign nationals:</strong> international workers contribute unless they hold a certificate of coverage; see <a href=\"india-social-security-agreements-list-2026-uk-double-contributions-convention-us-totalization-certificate-of-coverage.html\">India&rsquo;s social security agreements</a>.",
             "<strong>NRIs and people moving abroad:</strong> full withdrawal remains possible on permanent settlement abroad; see <a href=\"nri-epf-pf-withdrawal-process-online-tax-form-19-15g-2026.html\">EPF withdrawal for NRIs</a> for forms and tax.",
+            "<strong>Past late payments:</strong> settle damages at reduced rates under <a href=\"epfo-vishwas-2026-pf-damages-settlement-reduced-rates-last-date-28-december-2026.html\">VISHWAS 2026</a> by 28 December 2026.",
             "<strong>Gratuity and other codes:</strong> see the <a href=\"gratuity-calculator-new-labour-codes-2026.html\">gratuity calculator under the labour codes</a>.")
          + '<p>Related: <a href="employer-of-record-india-hire-from-abroad.html">employer of record in India</a> &middot; <a href="foreign-owned-indian-subsidiary-annual-compliance-calendar-fy-2026-27.html">compliance calendar for foreign-owned subsidiaries</a> &middot; <a href="expat-tax-india-foreign-employee-residency-rnor-salary-pf-dtaa-2026.html">expat tax in India</a>.</p>'
          + sources("Employees' Provident Fund Scheme, 2026 (G.S.R. 525(E), 29 June 2026), Employees' Pension Scheme, 2026 and Employees' Deposit-Linked Insurance Scheme, 2026 under the Code on Social Security, 2020, as summarised by Nexdigm ('New EPF, EPS and EDLI Schemes 2026') and TaxGuru ('EPF Scheme, 2026: Ten Major Changes', 18 July 2026); Notification S.O. 5109(E) of 17 September 2026 on the wage ceiling. Check the notifications and EPFO circulars for effective dates of individual provisions.")),
@@ -82,7 +83,7 @@ PAGES = [dict(
         {"name": "Apply the INR 25,000 ceiling", "text": "Cover employees up to the ceiling; decide the policy for higher earners."},
         {"name": "Clean member records", "text": "UAN, Aadhaar, PAN, bank seeding and e-nominations."},
         {"name": "File returns on time", "text": "Monthly electronic return within 15 days after month end."},
-        {"name": "Check foreign nationals and past gaps", "text": "Certificates of coverage; enrolment and VISHWAS windows."}]})]
+        {"name": "Check foreign nationals and past gaps", "text": "Certificates of coverage; VISHWAS 2026 for past late payments, open until 28 December 2026."}]})]
 
 for p in PAGES:
     html = page(slug=p["slug"], title=p["title"], description=p["desc"], keywords=p["keywords"], hero_kicker=p["kicker"],

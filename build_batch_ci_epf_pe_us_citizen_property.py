@@ -67,8 +67,8 @@ EPF = dict(
     sections=[
         ("/ Can you withdraw, and how much", "By situation.",
          table(["Situation", "Position"], [
-             ["Moved abroad to settle or for a job abroad", "Full PF withdrawal allowed (exit reason: settlement abroad); pension withdrawal benefit via Form 10C if service is under 10 years, otherwise a scheme certificate"],
-             ["Still in India, left employment", "Full withdrawal after two months without employment; partial withdrawals for specified purposes"],
+             ["Moved abroad to settle or for a job abroad", "Full PF withdrawal allowed (exit reason: settlement abroad; the 2026 scheme lists migration for permanent settlement abroad, so check the reason EPFO accepts if you left only for a job); pension withdrawal benefit via Form 10C if service is under 10 years, payable 36 months after the last contribution under the 2026 pension scheme, otherwise a scheme certificate"],
+             ["Still in India, left employment", "Under the EPF Scheme, 2026: full withdrawal 12 months after leaving employment (it was two months under the 1952 scheme); partial withdrawals for specified purposes after 12 months of membership, keeping 25% in the account"],
              ["Do nothing", "The account can stay; interest is credited under EPFO rules, but interest credited after you stop working is generally taxable each year"]])),
         ("/ Tax on withdrawal", "Five years is the line.",
          table(["Service", "Tax"], [
@@ -84,7 +84,7 @@ EPF = dict(
             "The money is paid to your Indian bank account; for NRIs this is usually an NRO account, from which it can be repatriated with Forms 145/146.",
             "Report the withdrawal and TDS in your Indian return if taxable, and in your country of residence as its rules require.")
          + '<p>Related: <a href="nre-nro-fcnr-account-tax-rules.html">NRE, NRO and FCNR tax rules</a> &middot; <a href="nil-lower-tds-certificate-form-128-formerly-form-13-section-395-how-to-apply-2026.html">lower TDS certificate (Form 128)</a> &middot; <a href="repatriate-money-from-india-to-abroad-nro-usd-1-million-15ca-15cb-2026.html">repatriating money from India</a>.</p>'
-         + src("Employees' Provident Funds Scheme, 1952 (final settlement, Form 19); Employees' Pension Scheme, 1995 (Form 10C); Income-tax Act exemption for withdrawal after five years of continuous service and TDS on premature withdrawal (carried into the Income-tax Act, 2025); Finance Act, 2021 (INR 2.5 lakh limit). Secondary summaries checked 14 November 2026: nriinformation, finright, scopex.")),
+         + src("Employees' Provident Fund Scheme, 2026 and Employees' Pension Scheme, 2026 (notified 29 June 2026, replacing the 1952 and 1995 schemes; final settlement Form 19, pension withdrawal Form 10C; see <a href=\"epf-scheme-2026-changes-employers-foreign-subsidiaries-nri-withdrawal-12-months-wages-definition.html\">what the 2026 scheme changed</a>); Income-tax Act exemption for withdrawal after five years of continuous service and TDS on premature withdrawal (carried into the Income-tax Act, 2025); Finance Act, 2021 (INR 2.5 lakh limit). Secondary summaries checked 14 November 2026: nriinformation, finright, scopex.")),
     ],
     faqs=[("Can an NRI withdraw EPF after moving abroad?", "Yes. Employees who settle or take up employment abroad can withdraw the full PF balance with Form 19, and the pension portion with Form 10C if service is under 10 years."),
           ("Can I withdraw EPF online from abroad?", "Yes, through the EPFO member portal with an active UAN and completed KYC, choosing settlement abroad as the reason. Payment goes to your Indian bank account."),

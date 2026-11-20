@@ -15,6 +15,8 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
+A.UPDATED = "Last updated: 21 November 2026."
+
 DESK = "deadline-desk-20-november-2026-to-31-january-2027-income-tax-gst-roc-nri-foreign-companies"
 ITC = "gst-itc-last-date-30-november-2026-fy-2025-26-section-16-4-claim-before-cutoff"
 
@@ -31,15 +33,17 @@ PAGES.append(dict(
     sections=[
         ("/ The calendar", "20 November 2026 to 31 January 2027.",
          table(["Date", "What", "Who", "If missed"], [
-             ["20 November 2026", "GSTR-3B for October (monthly filers)", "GST-registered businesses", "Late fee and 18% interest; last regular return in which FY 2025-26 ITC can be claimed"],
+             ["20 November 2026 (passed)", "GSTR-3B for October (monthly filers)", "GST-registered businesses", "Late fee and 18% interest; last regular return in which FY 2025-26 ITC can be claimed"],
              ["21 November 2026", "ITR for tax-audit cases (not transfer pricing), extended by CBDT Circular 07/2026", "Companies, firms and individuals with tax audit", "Belated return by 31 December with fee and interest; some deductions and loss carry-forward lost"],
              ["30 November 2026", "ITR for transfer-pricing cases (no extension); master file where applicable", "Companies with international or specified domestic transactions, including foreign-owned subsidiaries", "Same as above, plus transfer pricing penalty exposure"],
              ["30 November 2026", "Last date to claim GST input tax credit for FY 2025-26 (section 16(4))", "Every GST-registered business", "Credit lost permanently"],
              ["30 November 2026", "Liaison office annual statement (Form 49C) for FY 2025-26, per current guidance", "Foreign companies' liaison offices", "Penalty exposure"],
+             ["30 November 2026", "Pensioners' annual life certificate (<a href=\"nri-pensioner-life-certificate-from-abroad-30-november-2026-indian-pension-tax-dtaa.html\">from abroad too</a>)", "Pensioners, including those living outside India", "December pension held until it is submitted"],
              ["7 December 2026", "TDS and TCS deposit for November", "All deductors", "Interest and disallowance"],
              ["15 December 2026", "Advance tax, third instalment (75% cumulative)", "Businesses, NRIs with Indian income above the threshold", "Interest under the advance-tax provisions"],
+             ["28 December 2026", "EPFO VISHWAS 2026: apply to settle damages on provident fund paid late before 14 June 2024 (<a href=\"epfo-vishwas-2026-pf-damages-settlement-reduced-rates-last-date-28-december-2026.html\">guide</a>)", "Employers with past late PF payments", "Regular damages of up to 37% a year; no extension expected"],
              ["31 December 2026", "Belated and revised ITR for AY 2026-27", "Anyone who missed or needs to correct a return, including NRIs claiming refunds", "Only an updated return afterwards, with additional tax and no refund"],
-             ["31 December 2026", "GSTR-9 and GSTR-9C for FY 2025-26", "Turnover above INR 2 crore (9C above INR 5 crore)", "Late fee; notices on mismatches"],
+             ["31 December 2026", "GSTR-9 and GSTR-9C for FY 2025-26 (<a href=\"gstr-9-gstr-9c-fy-2025-26-mandatory-optional-tables-notification-05-2026-due-31-december-2026.html\">mandatory vs optional tables</a>)", "Turnover above INR 2 crore (9C above INR 5 crore)", "Late fee of INR 50 to 200 a day by turnover; notices on mismatches"],
              ["31 December 2026", "AOC-4 without additional fee (General Circular 05/2026)", "Companies that missed 30 October", "Additional fee from the original due date"],
              ["31 December 2026", "FAST-DS 2026 foreign-asset declarations", "Residents with undisclosed foreign assets or income", "Black Money Act exposure"],
              ["31 December 2026", "ODI annual performance report", "Indian entities and residents with overseas direct investment", "Late submission fee; restrictions on new ODI"],

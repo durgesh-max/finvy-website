@@ -33,4 +33,8 @@ t("link kinds", () => {
   assert.strictEqual(T.linkKind("book-a-call.html"), "book_call_link");
   assert.strictEqual(T.linkKind("nri-taxation-india-complete-guide.html"), "");
 });
+t("opt-in zones", () => {
+  ["Europe/London", "Europe/Berlin", "Europe/Zurich", "Europe/Dublin", "Atlantic/Reykjavik", "Asia/Nicosia", "Atlantic/Canary"].forEach(z => assert.strictEqual(T.optInZone(z), true, z));
+  ["Asia/Kolkata", "Asia/Calcutta", "Asia/Dubai", "America/New_York", "America/Toronto", "Australia/Sydney", "Asia/Singapore", "Atlantic/Bermuda", ""].forEach(z => assert.strictEqual(T.optInZone(z), false, z));
+});
 console.log("all " + n + " tests passed");

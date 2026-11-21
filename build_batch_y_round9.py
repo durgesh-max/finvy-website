@@ -640,6 +640,8 @@ PAGES = [
 ]
 
 for p in PAGES:
+    if p["slug"] == "pre-budget-2026-startup-foreign-company-actions-window":
+        continue  # superseded 21 Nov 2026 by build_batch_ey_budget_2027_prep.py (now a redirect)
     html = quick_page(
         slug=p["slug"], title=p["title"], hero_em=p["hero_em"], lead=p["lead"],
         kicker=p["kicker"], sections_pairs=p["sections_pairs"],

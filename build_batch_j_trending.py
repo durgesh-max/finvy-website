@@ -93,7 +93,8 @@ write_page("us-tax-2026-indian-founders-landscape", page(
 ))
 
 # 2. Budget 2027 preparation
-write_page("budget-2027-india-startup-founder-preparation", page(
+# Superseded on 21 Nov 2026 by build_batch_ey_budget_2027_prep.py; disabled so the old text is not restored.
+(lambda *a, **k: None)("budget-2027-india-startup-founder-preparation", page(
     slug="budget-2027-india-startup-founder-preparation",
     title="Budget 2027 India | What Startup Founders Should Prepare For - BQP",
     description="Union Budget 2027 preview for Indian startup founders and NRIs: expected tax changes, capital gains outlook, GIFT City expansion, startup incentive extensions, LRS and TCS considerations. Pre-Budget prep checklist by CA Durgesh Chavda.",

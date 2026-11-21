@@ -27,7 +27,7 @@ PAGES = [
              "<ul>"
              "<li>Incorporated on or after 1 April 2016 (current scheme window).</li>"
              "<li>Private Limited Company / LLP / Partnership firm (not sole proprietor).</li>"
-             "<li>Turnover below INR 100 crore in any FY.</li>"
+             "<li>Turnover up to INR 200 crore in any year (INR 300 crore for deep tech startups) for DPIIT recognition; the tax holiday itself needs turnover of INR 100 crore or less in the claim year.</li>"
              "<li>Works toward innovation / improvement in product / process / service OR has scalable business model with high potential for employment / wealth creation.</li>"
              "<li>Not formed by splitting up / reconstruction of existing business.</li>"
              "<li>Not more than 10 years from incorporation.</li>"
@@ -67,11 +67,11 @@ PAGES = [
         ],
         "faqs": [
             ("What's the DPIIT Startup India eligibility window?",
-             "Incorporated on or after 1 April 2016 (current scheme). Private Limited Company / LLP / Partnership firm. Turnover below INR 100 crore in any FY. Works on innovation / improvement OR scalable business model. Not from splitting / reconstruction. Not more than 10 years from incorporation."),
+             "Incorporated on or after 1 April 2016 (current scheme). Private Limited Company / LLP / Partnership firm. Turnover up to INR 200 crore in any year (INR 300 crore for deep tech startups) for DPIIT recognition; the tax holiday itself needs turnover of INR 100 crore or less in the claim year. Works on innovation / improvement OR scalable business model. Not from splitting / reconstruction. Not more than 10 years from incorporation."),
             ("What's Section 80-IAC 3-year tax holiday?",
              "100% deduction of profit for any 3 CONSECUTIVE years out of first 10 years of incorporation. Elect strategically - typically first profitable years. Requires separate application via Form 10-IAC + Inter-Ministerial Board (IMB) approval. Mutually exclusive with Section 115BAA (22% rate) during claim years."),
             ("Does DPIIT recognition last forever?",
-             "DPIIT Recognition Certificate valid until 10 years from incorporation OR turnover crosses INR 100 crore - whichever earlier. Automatic lapse post those triggers. Ongoing eligibility must be maintained for Section 80-IAC claim."),
+             "DPIIT Recognition Certificate valid until 10 years from incorporation or turnover above INR 200 crore, whichever is earlier (20 years and INR 300 crore for deep tech startups, under the February 2026 notification). Automatic lapse post those triggers. Ongoing eligibility must be maintained for Section 80-IAC claim."),
             ("Can I combine Section 80-IAC with Section 115BAA?",
              "No - during Section 80-IAC claim years, cannot opt into 115BAA. Standard regime applies with 80-IAC 100% deduction. Post-80-IAC years, can opt into 115BAA (22%). Model which combination optimises over startup's growth trajectory."),
             ("Does Finance Act 2024 abolition of Section 56(2)(viib) matter for new DPIIT startups?",

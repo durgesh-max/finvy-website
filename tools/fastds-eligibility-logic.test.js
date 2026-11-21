@@ -28,6 +28,14 @@ T({ kind: "income", value: 500000, incomeReported: false }, "CAT1", "unreported 
 T({ kind: "income", value: 500000, incomeReported: true }, "NOT_NEEDED", "foreign income reported");
 T({ kind: "income", residentThen: false, residentSince: true, value: 500000, incomeReported: false }, "NOT_NEEDED", "income earned while NR");
 T({ kind: "income", value: 9000000, otherCat1: 1500000, incomeReported: false }, "NOT_ELIGIBLE", "income aggregate above INR 1 crore");
+// Supplementary FAQs, November 2026
+T({ smallBank: true }, "NOT_NEEDED", "FAQ 67: taxed bank accounts never above INR 20 lakh");
+T({ smallBank: true, incomeReported: false }, "INCOME_ONLY", "FAQ 67: small account, interest not offered to tax");
+T({ smallBank: true, source: "untaxed", value: 1500000 }, "CAT1", "small account holding untaxed money still needs Category 1", 900000);
+T({ smallBank: true, residentThen: false, residentSince: true, source: "foreignWhileNR" }, "NOT_NEEDED", "FAQ 67: small account opened while NR");
+T({ source: "mixed", value: 3000000 }, "CAT1", "FAQ 70: mixed funding goes to Category 1", 1800000);
+T({ source: "mixed", value: 10000001 }, "NOT_ELIGIBLE", "FAQ 70: mixed funding above INR 1 crore");
+T({ source: "mixed", reportedFA: true, incomeReported: true }, "CAT1", "mixed funding even if listed in Schedule FA", 1200000);
 // Exclusions
 T({ pmla: true }, "EXCLUDED", "PMLA proceedings");
 T({ bmaDone: true, source: "untaxed" }, "EXCLUDED", "BMA assessment completed");

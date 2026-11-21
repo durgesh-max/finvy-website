@@ -656,3 +656,12 @@ h1,h2,h3,h4,h5{letter-spacing:-.03em;line-height:1.1;font-weight:650}
 .card-body table{width:100%;border-collapse:collapse;margin:8px 0 16px;font-size:15px;display:block;overflow-x:auto}
 .card-body th,.card-body td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line,#e5dfd4)}
 .card-body th{font-weight:600}
+
+/* Long hero titles: keep the answer and the call button on the first screen */
+section.svc-hero h1.h1-long{font-size:clamp(23px,2.5vw,34px);line-height:1.14;letter-spacing:-.01em}
+section.svc-hero h1.h1-xlong{font-size:clamp(21px,2.1vw,29px);line-height:1.16;letter-spacing:-.005em}
+@media (max-width:640px){
+  section.svc-hero:has(h1.h1-long),section.svc-hero:has(h1.h1-xlong){padding-top:112px;padding-bottom:48px}
+  section.svc-hero h1.h1-long{font-size:22px}
+  section.svc-hero h1.h1-xlong{font-size:20px}
+}

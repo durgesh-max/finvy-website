@@ -57,7 +57,7 @@ write_page("dpdp-act-india-foreign-company-compliance-2026", page(
          "<li>&nbsp;&nbsp;&mdash; Appoint independent Data Auditor to assess compliance.</li>"
          "<li>&nbsp;&nbsp;&mdash; Periodic Data Protection Impact Assessment (DPIA) + periodic audit.</li>"
          "<li>&nbsp;&nbsp;&mdash; Other measures as Central Government specifies.</li>"
-         "<li><strong>Likely SDF candidates</strong>: large social media (Meta, X, Google), large fintech, large health platforms, large e-commerce. Specific notifications pending (Rules in draft 2024-2025).</li>"
+         "<li><strong>Likely SDF candidates</strong>: large social media (Meta, X, Google), large fintech, large health platforms, large e-commerce. No country had been notified as restricted when this page was last checked (November 2026).</li>"
          "</ul>"),
         ("/ Cross-border data transfer", "The sovereign carve-out.",
          "<ul>"
@@ -76,7 +76,7 @@ write_page("dpdp-act-india-foreign-company-compliance-2026", page(
          "<li>&nbsp;&nbsp;&mdash; Non-fulfilment of SDF obligations: up to INR 150 crore.</li>"
          "<li>&nbsp;&nbsp;&mdash; Breach of other provisions: up to INR 50 crore.</li>"
          "<li><strong>Appeal</strong>: TDSAT (Telecom Disputes Settlement and Appellate Tribunal) within 60 days.</li>"
-         "<li><strong>Effective date</strong>: DPDP Act enacted August 2023; staggered notification of provisions during 2024-2026. Draft Rules circulated January 2025.</li>"
+         "<li><strong>Effective date</strong>: DPDP Act enacted August 2023; the DPDP Rules, 2025 were notified on 13 November 2025 and apply in phases, with the main duties from about 13 May 2027. Draft Rules were circulated in January 2025 and the final Rules were notified on 13 November 2025.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-15.</em></p>"),
     ],

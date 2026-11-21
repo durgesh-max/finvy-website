@@ -564,14 +564,14 @@ PAGES = [
         "slug": "dpdp-personal-data-breach-72-hour-notification-urgent-india",
         "title": "DPDP Personal Data Breach 72-Hour Notification Urgent India",
         "hero_em": "DPDP Act breach response + Data Protection Board notification.",
-        "lead": "Personal data breach discovered. DPDP Act 2023 Section 8(6) requires notification to Data Protection Board of India + each affected data principal 'without delay' - industry expects 72 hour window (similar to GDPR). Penalty up to INR 250 crore for failure. Specific breach response + legal + technical workflow. BQP urgent engagement with foreign counsel coordination. Here's the complete playbook.",
+        "lead": "Personal data breach discovered. DPDP Act 2023 Section 8(6) requires notification to Data Protection Board of India + each affected data principal 'without delay' - the DPDP Rules, 2025 require a first intimation to the Board without delay and detailed information within 72 hours. Penalty up to INR 250 crore for failure. Specific breach response + legal + technical workflow. BQP urgent engagement with foreign counsel coordination. Here's the complete playbook.",
         "kicker": "/ DPDP Breach Urgent Response &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ DPDP breach notification framework", "The 72-hour window.",
              "<ul>"
              "<li><strong>Section 8(6) DPDP Act 2023</strong>: Data Fiduciary must notify Data Protection Board (DPB) AND each affected data principal in the event of personal data breach.</li>"
              "<li>Timing: 'without delay' - industry interpretation + GDPR analogy = 72 hours typically.</li>"
-             "<li>Specific Rules under finalisation (expected Budget 2026 notification) - exact format + timeline + specific content requirements.</li>"
+             "<li>The DPDP Rules, 2025 (notified 13 November 2025) set the format and timeline: intimation without delay, detailed information to the Board within 72 hours; these duties apply from about 13 May 2027.</li>"
              "<li>Penalty: up to <strong>INR 200 crore</strong> for failure to notify. Up to <strong>INR 250 crore</strong> for inadequate security safeguards leading to breach.</li>"
              "<li>Appeal: TDSAT within 60 days of DPB order.</li>"
              "</ul>"),
@@ -622,7 +622,7 @@ PAGES = [
         ],
         "faqs": [
             ("Is DPDP 72-hour breach notification already mandatory?",
-             "DPDP Act 2023 Section 8(6) requires notification 'without delay'. Specific 72-hour window interpretation based on GDPR analogy + industry best practice. Specific Rules under finalisation (expected Budget 2026 notification) - exact timeline formally specified then. Prudent approach: 72-hour window regardless of final Rules."),
+             "DPDP Act 2023 Section 8(6) requires notification 'without delay'. Specific 72-hour window interpretation based on GDPR analogy + industry best practice. The DPDP Rules, 2025 (notified 13 November 2025) require intimation without delay and detailed information to the Board within 72 hours; the duty applies from about 13 May 2027. Prudent approach: follow the 72-hour window now."),
             ("What's the DPDP breach penalty exposure?",
              "Up to INR 250 crore for failure to take reasonable security safeguards (Section 33 + Schedule). Up to INR 200 crore for failure to notify Data Protection Board. Separate penalties for children's data violations, SDF obligation failures. Appeal: TDSAT within 60 days."),
             ("Does CERT-In 6-hour reporting apply alongside DPDP 72-hour?",

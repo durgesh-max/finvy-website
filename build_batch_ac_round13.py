@@ -350,7 +350,7 @@ PAGES = [
              "<li>0% CT on first AED 375K (small business relief).</li>"
              "<li>Specific free zones (Qualifying Free Zone Person) continue to enjoy 0% CT on 'Qualifying Income' subject to conditions.</li>"
              "<li>Non-qualifying income (specific mainland dealings, specific thresholds) at 9%.</li>"
-             "<li>BEPS Pillar 2 QDMTT in UAE from FY 2024: 15% minimum effective rate for MNEs with EUR 750M+ consolidated revenue.</li>"
+             "<li>UAE Domestic Minimum Top-up Tax (DMTT) for financial years starting on or after 1 January 2025: 15% minimum effective rate for MNEs with EUR 750M+ consolidated revenue.</li>"
              "</ul>"),
             ("/ Indian branch of Dubai entity", "PE + tax exposure.",
              "<ul>"
@@ -409,7 +409,7 @@ PAGES = [
             ("What's the repatriation process from Indian branch to Dubai?",
              "Audit financial statements + file ITR + pay Indian corporate tax 35%+ + prepare Form 15CB CA certificate + file Form 15CA e-filing + AD bank processes remittance. BQP standard turnaround 2-4 weeks post ITR + Form 15CB execution."),
             ("Does BEPS Pillar 2 affect UAE free zone + Indian branch?",
-             "Yes if MNE consolidated revenue EUR 750M+. UAE QDMTT from FY 2024: 15% minimum effective rate. India has not yet enacted Pillar 2 rules (no QDMTT or IIR as of November 2026). QFZP 0% UAE CT may trigger specific top-up calculation. BQP + UAE partner Pillar 2 assessment + specific jurisdictional analysis."),
+             "Yes if MNE consolidated revenue EUR 750M+. UAE DMTT for financial years starting on or after 1 January 2025: 15% minimum effective rate. India has not yet enacted Pillar 2 rules (no QDMTT or IIR as of November 2026). QFZP 0% UAE CT may trigger specific top-up calculation. BQP + UAE partner Pillar 2 assessment + specific jurisdictional analysis."),
             ("Does BQP handle Dubai + Indian branch integrated engagement?",
              "Yes - specialist UAE-India desk + Dubai partner network. UAE CT + QFZP + Pillar 2 + Indian branch (LO/PO/BO) setup + annual compliance + Form 15CA/15CB repatriation + transfer pricing + specific DTAA + FTC + CEPA. For UAE-origin companies + Indian branches. WhatsApp +91 78018 87130."),
         ],

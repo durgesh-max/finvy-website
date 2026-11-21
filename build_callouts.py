@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "dpdpstatus": ("DPDP Rules: where things stand", 'The DPDP Rules, 2025 were notified on 13 November 2025. Consent manager registration starts around 13 November 2026 and the main duties on businesses apply from about 13 May 2027: <a href="dpdp-rules-january-2025-operational-status-october-2026.html">DPDP Rules timeline</a>.'),
     "bab115": ("Section 115BAB is closed to new companies", 'The 15% rate under section 115BAB applies only to companies that began manufacturing by 31 March 2024. A new manufacturer uses section 115BAA (25.17% effective). Where this page mentions 115BAB, read it that way: <a href="how-to-pick-section-115baa-vs-115bab-vs-standard-decision-tree.html">115BAA vs 115BAB</a>.'),
     "fcomp": ("FEMA compounding: new filing point", 'Since 23 October 2026, ODI, overseas loan and guarantee compounding goes to an RBI Regional Office chosen by your UIN prefix (no UIN stays in Mumbai): <a href="fema-compounding-odi-rbi-regional-office-uin-circular-28-october-2026.html">which office handles your case</a>.'),
     "sep": ("No Indian office, but Indian revenue?", 'Foreign SaaS and app companies can have a taxable presence through significant economic presence (INR 2 crore payments or 3 lakh users); how the treaty protects you: <a href="significant-economic-presence-foreign-saas-app-company-india-2-crore-3-lakh-users-2026.html">SEP for foreign digital companies</a>.'),
@@ -137,6 +138,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "best-ca-dpdp-act-compliance-foreign-company-india.html": ["dpdpstatus"],
+    "dpdp-personal-data-breach-72-hour-notification-urgent-india.html": ["dpdpstatus"],
     "best-ca-cleantech-climate-tech-india-2026.html": ["bab115"],
     "best-ca-deeptech-rd-india-2026.html": ["bab115"],
     "best-ca-edtech-india-2026.html": ["bab115"],
@@ -157,9 +160,9 @@ TARGETS = {
     "best-ca-saas-startup-india-2026.html": ["bab115"],
     "best-ca-space-aerospace-startup-india-2026.html": ["bab115"],
     "best-ca-tamil-nadu-state-registration-chennai-hosur.html": ["bab115"],
-    "ca-for-ai-saas-dpdp-compliance-india.html": ["bab115"],
+    "ca-for-ai-saas-dpdp-compliance-india.html": ["bab115", "dpdpstatus"],
     "ca-for-ev-startup-section-115bab-pli-combined-india.html": ["bab115"],
-    "ca-for-healthtech-dpdp-cdsco-combined-india.html": ["bab115"],
+    "ca-for-healthtech-dpdp-cdsco-combined-india.html": ["bab115", "dpdpstatus"],
     "ca-in-hinjewadi-pune-for-it-automotive.html": ["bab115"],
     "ca-in-omr-chennai-for-automotive-it.html": ["bab115"],
     "diwali-2026-festive-season-year-end-tax-planning-india.html": ["bab115"],
@@ -178,8 +181,8 @@ TARGETS = {
     "best-ca-oidar-gst-foreign-saas-india-2026.html": ["sep", "rcmimp", "intgst"],
     "saas-enterprise-tech.html": ["sep"],
     "best-ca-saas-cfo-services-india-foreign-startup.html": ["sep"],
-    "india-data-localisation-rbi-dpdp-foreign-saas.html": ["sep"],
-    "dpdp-act-india-foreign-company-compliance-2026.html": ["sep"],
+    "india-data-localisation-rbi-dpdp-foreign-saas.html": ["sep", "dpdpstatus"],
+    "dpdp-act-india-foreign-company-compliance-2026.html": ["sep", "dpdpstatus"],
     "nri-inheritance-indian-property-tax-fema-2026.html": ["agri", "inhp", "cgcalc", "fwill", "frentcalc"],
     "inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html": ["agri", "inhp", "fwill"],
     "best-ca-for-nri-tax-return-filing-india-2026.html": ["rent", "epf", "nrisal", "whichitr"],

@@ -584,7 +584,7 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
     keywords="Pillar 2 Global Minimum Tax 2026, 15% minimum tax MNE, Pillar 2 India, Pillar 2 UAE DMTT, Pillar 2 Indian startup, OECD BEPS 2.0 India",
     hero_kicker="/ Blog &middot; Pillar 2 Global Minimum Tax &middot; Updated 2026-10-09",
     hero_title_html="Pillar 2 Global Minimum Tax, <em>what Indian startups need to know in 2026.</em>",
-    hero_lead="OECD/G20 BEPS 2.0 Pillar 2 introduces a 15% global minimum effective tax rate for Multinational Enterprise (MNE) groups with consolidated annual revenue above EUR 750 million. UK, Germany, Netherlands, Japan, South Korea, Australia, Canada have implemented through 2024-2025. UAE has signalled its Domestic Minimum Top-up Tax (DMTT). India is monitoring. For most Indian startups (below EUR 750M), direct Pillar 2 scope does not yet apply &mdash; but understanding the framework matters for high-growth cross-border structures.",
+    hero_lead="OECD/G20 BEPS 2.0 Pillar 2 introduces a 15% global minimum effective tax rate for Multinational Enterprise (MNE) groups with consolidated annual revenue above EUR 750 million. UK, Germany, Netherlands, Japan, South Korea, Australia, Canada have implemented through 2024-2025. The UAE applies a Domestic Minimum Top-up Tax (DMTT) for financial years starting on or after 1 January 2025. India is monitoring. For most Indian startups (below EUR 750M), direct Pillar 2 scope does not yet apply &mdash; but understanding the framework matters for high-growth cross-border structures.",
     sections=[
         ("/ What Pillar 2 does", "The three-rule framework.",
          "<p>Pillar 2 Global Anti-Base Erosion (GloBE) rules impose a <strong>15% global minimum effective tax rate</strong> on in-scope MNE groups. Three operating rules:</p>"
@@ -600,8 +600,8 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
          "<li><strong>UK</strong>: Pillar 2 enacted via Finance Act 2023; IIR and UTPR effective for accounting periods beginning on/after 31 December 2023; DMTT also enacted.</li>"
          "<li><strong>Germany, Netherlands, France, Spain, Italy</strong>: all EU member states have implemented Pillar 2 via EU Directive 2022/2523 and national legislation. In force for accounting periods beginning on/after 31 December 2023.</li>"
          "<li><strong>Japan, South Korea, Australia, Canada</strong>: implemented or implementing through 2024-2025.</li>"
-         "<li><strong>UAE</strong>: has signalled intent to implement Domestic Minimum Top-up Tax (DMTT) alongside UAE Corporate Tax. Effective status subject to FTA guidance; expected to crystallise through late 2026 or 2027.</li>"
-         "<li><strong>India</strong>: monitoring; no formal Pillar 2 legislation yet as of October 2026. Finance Act amendments may introduce in future Budget.</li>"
+         "<li><strong>UAE</strong>: a 15% Domestic Minimum Top-up Tax (DMTT) applies for financial years starting on or after 1 January 2025 (Cabinet Decision No. 142 of 2024) to groups with consolidated revenue of EUR 750 million or more; in-scope entities register with the Federal Tax Authority.</li>"
+         "<li><strong>India</strong>: monitoring; no Pillar 2 legislation as of November 2026. Finance Act amendments may introduce in future Budget.</li>"
          "<li><strong>Singapore</strong>: enacted Pillar 2 framework; QDMTT effective for in-scope MNE groups.</li>"
          "<li><strong>Mauritius</strong>: QDMTT framework enacted.</li>"
          "<li><strong>Switzerland, Ireland, Luxembourg</strong>: implemented via EU/global framework.</li>"
@@ -639,7 +639,7 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
         ("Has India implemented Pillar 2?",
          "Not yet as of October 2026. India is monitoring the global rollout. Likely future implementation via Budget 2027 or 2028 as a Qualified Domestic Minimum Top-up Tax (QDMTT) to retain Indian top-up tax within India rather than cede to foreign IIR/UTPR. Monitor Finance Act announcements."),
         ("Does UAE 9% Corporate Tax interact with Pillar 2?",
-         "Yes for in-scope MNE groups. UAE QFZP 0% rate on Qualifying Income puts UAE jurisdiction below 15% ETR. UAE is implementing DMTT (Domestic Minimum Top-up Tax) to add top-up to reach 15% for in-scope MNE groups. For sub-threshold groups (most Dubai holdcos of Indian founders), UAE DMTT does not apply."),
+         "Yes for in-scope MNE groups. UAE QFZP 0% rate on Qualifying Income puts UAE jurisdiction below 15% ETR. The UAE DMTT (Domestic Minimum Top-up Tax), in force for financial years starting on or after 1 January 2025, adds a top-up to reach 15% for in-scope MNE groups. For sub-threshold groups (most Dubai holdcos of Indian founders), UAE DMTT does not apply."),
         ("Does GIFT City Section 10(4D) exemption survive Pillar 2?",
          "For in-scope MNE groups above EUR 750M: Pillar 2 may require top-up tax to reach 15% at group ETR level, effectively neutralising fund-level exemption at the group level. For sub-threshold investors (most GIFT City fund LPs), Section 10(4D) exemption continues to apply without Pillar 2 overlay."),
         ("Does BQP handle Pillar 2 scoping for growth-stage Indian startups?",

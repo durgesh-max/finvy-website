@@ -58,8 +58,8 @@ PAGES = [dict(
              ["Foreign institutional investors and the BIS", "Nil tax on interest and capital gains from Indian government securities", "Income from 1 April 2026"],
              ["Offshore funds with an Indian fund manager", "Safe harbour simplified: no minimum of 25 investors, no 10% single-investor cap, no INR 100 crore minimum corpus, no 25% single-entity cap; resident Indians limited to 5% of the corpus", "From 1 April 2026"],
              ["Foreign rough-diamond sellers", "Income from sales in notified special zones exempt", "1 October 2026 to 31 March 2041"],
-             ["Foreign companies using Indian data centres", "A specified data centre must be operated by an Indian company that owns or leases it; further conditions to be prescribed", "From 1 April 2026"],
-             ["REIT and InvIT structures", "Higher surcharge on special purpose vehicles of business trusts, with relief for unit holders", "From 1 April 2026"]])
+             ["Foreign companies using Indian data centres", "The foreign company no longer needs to be individually notified; the data centre can be owned or leased by the Indian company operating it; further conditions to be prescribed", "From 1 April 2026"],
+             ["REIT and InvIT structures", "Surcharge on a business trust&rsquo;s special purpose vehicle raised from 10% to 25%; unit holders exempt on the related dividend income", "From 1 April 2026"]])
          + "<p><strong>Specified electronic goods</strong> are mobile phones, laptops, all-in-one PCs, tablets, servers and ultra-small form factor devices, their sub-assemblies, and hearables, wearables and accessories. The contract manufacturer must be an Indian company producing them for the foreign company in a customs-bonded area.</p>"
          + call_box("Using the 2026 exemptions for our India manufacturing or investment", ["Whether your goods and structure fit the electronics exemptions",
                                                                                         "Bonded warehouse and in-bond manufacturing set-up with the contract manufacturer",

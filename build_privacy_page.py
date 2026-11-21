@@ -44,7 +44,7 @@ PAGES = [dict(
     sections=[
         ("/ What we collect", "And where it goes.",
          table(["What", "When", "Who receives it"], [
-             ["Your enquiry: name, contact details and what you tell us", "When you message us on WhatsApp, email us, call, or use the quote or contact form. These forms open your own WhatsApp or email app with the message filled in; nothing is sent until you send it.", "Bharat Quantum Prospera, through WhatsApp (Meta) or your email provider"],
+             ["Your enquiry: name, contact details and what you tell us", "When you message us on WhatsApp, email us, call, or use the quote, call-request or contact form. These forms open your own WhatsApp or email app with the message filled in; nothing is sent until you send it.", "Bharat Quantum Prospera, through WhatsApp (Meta) or your email provider"],
              ["US incorporation intake form answers", "When you submit that form", "Sent to our email through FormSubmit (formsubmit.co), a form-to-email service"],
              ["A reference line such as &ldquo;Ref: page | via google&rdquo;", "Added to the pre-filled WhatsApp or email text so we know which page you were on and how you reached the site. You can see and delete it before sending.", "Us, as part of your message"],
              ["How the site is used: pages viewed, clicks, scrolling, device and browser type, approximate location from your IP address", "On each visit where Microsoft Clarity is active", "Microsoft Clarity, on our behalf. Text typed into forms is masked by Clarity by default."],
@@ -83,7 +83,7 @@ PAGES = [dict(
     ],
     faqs=[("Does this website use cookies?", "Yes, only for Microsoft Clarity, which shows us how visitors use the site. Visitors in the UK, EEA and Switzerland are asked first; elsewhere Clarity runs unless you decline. There are no advertising cookies."),
           ("Can I decline cookies and still use the site?", "Yes. Everything on the site works if you decline. Clarity's cookies are deleted and Clarity is not loaded on later pages."),
-          ("Does the website store what I type into its forms?", "No. The quote and contact forms open your own WhatsApp or email app with the message filled in. The US incorporation intake form is sent to our email through FormSubmit. Clarity masks text typed into forms by default."),
+          ("Does the website store what I type into its forms?", "No. The quote, call-request and contact forms open your own WhatsApp or email app with the message filled in. The US incorporation intake form is sent to our email through FormSubmit. Clarity masks text typed into forms by default."),
           ("How do I ask for my information to be deleted?", CONTACT)],
     related=[("contact.html", "Contact"), ("about.html", "About the firm"), ("book-a-call.html", "Book a call")],
     cta_h="A question about your information?", cta_b=CONTACT,

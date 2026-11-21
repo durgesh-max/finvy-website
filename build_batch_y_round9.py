@@ -620,7 +620,7 @@ PAGES = [
             ("How often does BQP publish regulatory update tracker?",
              "Monthly update digest + ad-hoc for material changes. Covers RBI + GST Council + SEBI + MeitY + CBDT + MCA + Supreme Court / High Court rulings. For CFOs + finance teams + Indian subsidiary CFOs of foreign parents. Subscribe via newsletter or follow bharatquantumprospera.com/insights.html for ongoing updates."),
             ("What's the biggest October 2026 regulatory watch?",
-             "DPDP Rules notification (expected around Budget 2026 timeframe), BEPS Pillar 2 India operational implementation (FY 2025-26 live), GST Council sector-specific rate clarifications, SEBI SME IPO framework refinements, CBDT Form 10F + Section 194R + Section 115BBH clarifications."),
+             "DPDP Rules notification (expected around Budget 2026 timeframe), any move by India to legislate BEPS Pillar 2 (not enacted as of November 2026), GST Council sector-specific rate clarifications, SEBI SME IPO framework refinements, CBDT Form 10F + Section 194R + Section 115BBH clarifications."),
             ("Does BQP help interpret specific regulatory changes for client companies?",
              "Yes - standard advisory. When RBI MPC / GST Council / SEBI / MeitY / CBDT issues material update, BQP analyses impact on client's business + provides specific action memo. Standard annual engagement includes regulatory tracking + impact assessment for client portfolio. WhatsApp +91 78018 87130."),
             ("What should pre-IPO companies track specifically?",

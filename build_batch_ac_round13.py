@@ -662,7 +662,7 @@ PAGES = [
             ("What's the LUT (Letter of Undertaking)?",
              "LUT: filed on GST portal by exporter annually. Allows export of services without payment of IGST + refund-later route. Alternative: pay IGST + claim refund on export (slower). LUT is strongly preferred for IT/services exporters including Indian branches of foreign entities."),
             ("Does BEPS Pillar 2 affect German GmbH + Indian branch?",
-             "Yes if MNE consolidated revenue EUR 750M+. Germany implemented Pillar 2 from FY 2024 (Mindestbesteuerungsgesetz). India from FY 2025-26. Specific QDMTT + IIR + UTPR. German + Indian effective rate calculations + specific top-up tax exposures. BQP + German partner Pillar 2 assessment."),
+             "Yes if MNE consolidated revenue EUR 750M+. Germany implemented Pillar 2 from FY 2024 (Mindestbesteuerungsgesetz), with a domestic top-up tax, income inclusion rule and undertaxed profits rule. India has not enacted Pillar 2 as of November 2026, so any top-up tax on low-taxed Indian profits would be collected in Germany. The work is the effective tax rate calculation for the Indian operations. BQP + German partner Pillar 2 assessment."),
             ("Does BQP handle German GmbH + Indian branch VAT-GST + TP integrated engagement?",
              "Yes - specialist Germany-India desk + German Steuerberater partner network. Indian GST (export + ITC + refund + 3CEB) + German VAT (reverse charge + specific recovery) + transfer pricing + specific DTAA + BEPS Pillar 2. For German GmbHs with Indian branches / subsidiaries. WhatsApp +91 78018 87130."),
         ],

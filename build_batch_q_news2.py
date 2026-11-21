@@ -188,7 +188,7 @@ write_page("gift-city-expansion-2026-new-tenants-ifsca-reforms", page(
          "<li><strong>Dividend from Indian company</strong>: specific carve-outs for IFSC fund.</li>"
          "<li><strong>GST</strong>: specific exemptions for IFSC services; co-ordinated with CGST Act.</li>"
          "<li><strong>Stamp duty</strong>: Gujarat state exemption for IFSC entities on specific instruments.</li>"
-         "<li><strong>BEPS Pillar 2 interaction</strong>: Section 10(4D) exemption creates low Pillar 2 ETR risk for in-scope groups; QDMTT top-up may apply. See <a href='beps-pillar-2-india-implementation-october-2026-update.html'>Pillar 2 guide</a>.</li>"
+         "<li><strong>BEPS Pillar 2 interaction</strong>: Section 10(4D) exemption creates low Pillar 2 ETR risk for in-scope groups; India has no top-up tax of its own, so any top-up would be collected in the parent&rsquo;s country. See <a href='beps-pillar-2-india-implementation-october-2026-update.html'>Pillar 2 guide</a>.</li>"
          "</ul>"),
         ("/ For foreign + Indian entrants", "Decision factors.",
          "<ul>"
@@ -208,13 +208,13 @@ write_page("gift-city-expansion-2026-new-tenants-ifsca-reforms", page(
         ("What recent IFSCA reforms affect foreign entrants?",
          "Expanded AIF framework (new fund categories + INR denomination), family office framework, IBU (IFSC Banking Unit) expansion for Indian + foreign banks, insurance + reinsurance expansion, fintech sandbox for cross-border experimentation, aircraft + ship leasing frameworks, Bullion Exchange (IIBX) operational, ancillary services (law + consulting) expanded scope."),
         ("How does Section 10(4D) interact with BEPS Pillar 2?",
-         "Section 10(4D) provides tax exemption for specified income of IFSC fund - resulting in low Pillar 2 ETR for groups using IFSC. For in-scope MNC groups (consolidated revenue EUR 750M+), QDMTT (Qualified Domestic Minimum Top-up Tax) may apply to raise Indian ETR to 15% minimum. Impact: GIFT City tax advantage preserved for small/mid groups; large groups face Pillar 2 top-up."),
+         "Section 10(4D) provides tax exemption for specified income of IFSC fund - resulting in low Pillar 2 ETR for groups using IFSC. India has not enacted Pillar 2 as of November 2026, so there is no Indian top-up tax. For in-scope MNC groups (consolidated revenue EUR 750M+), the parent&rsquo;s country may collect top-up tax on low-taxed IFSC income under its own rules. Impact: GIFT City tax advantage preserved for small/mid groups; large groups should model the top-up abroad."),
         ("Can a foreign asset manager run an IFSC AIF without Indian presence?",
          "No - IFSC AIF must have Indian-incorporated AMC / Investment Manager + Indian trustee + Indian fund as the SPV. Foreign asset manager typically owns 100% of Indian AMC (which is IFSC-registered). Combined with offshore feeder fund (Mauritius / Singapore) for international LPs, full cross-border structure operational."),
         ("What's the fastest way to enter GIFT City for a foreign entity?",
          "Depends on activity: Fintech sandbox (6-12 months to first product launch); IFSC AIF (3-6 months for fund formation + SEBI AIF + IFSCA approvals); Aircraft lessor (3-6 months); Family office (2-4 months); IBU (bank branch - 6-12 months). BQP coordinates incorporation + licensing + ongoing compliance."),
         ("Does BQP handle GIFT City IFSC entity setup?",
-         "Yes - specialist IFSC practice. Entity structure selection + incorporation (SPICe+ + IFSCA registration) + sector-specific licence application + Section 10(4D) optimisation + Pillar 2 QDMTT impact analysis + ongoing fund accounting + regulatory reporting. Co-ordinated with Indian regulatory counsel + Gujarat state liaison. WhatsApp +91 78018 87130."),
+         "Yes - specialist IFSC practice. Entity structure selection + incorporation (SPICe+ + IFSCA registration) + sector-specific licence application + Section 10(4D) optimisation + Pillar 2 impact analysis for in-scope groups + ongoing fund accounting + regulatory reporting. Co-ordinated with Indian regulatory counsel + Gujarat state liaison. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("gift-city.html", "Service", "GIFT City Service"),

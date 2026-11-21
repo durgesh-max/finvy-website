@@ -186,6 +186,13 @@ BYLINE = """<section class="section">
 </section>"""
 
 
+def _h1_class(html):
+    """Smaller hero heading for long titles (rules in bqp.css) so the lead and call button stay on the first screen."""
+    import re as _re
+    n = len(_re.sub(r'&[a-zA-Z#0-9]+;', 'x', _re.sub(r'<[^>]+>', '', html)))
+    return ' class="h1-xlong"' if n > 150 else ' class="h1-long"' if n > 90 else ''
+
+
 def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_lead,
          sections, faqs, related, cta_headline, cta_body, howto=None):
     schemas = [breadcrumb(slug, title.split(' | ')[0]), faq_schema(faqs), article_schema(slug, title, description)]
@@ -259,11 +266,12 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
 <section class="svc-hero">
   <a href="insights.html" class="back">&larr; All guides</a>
   <p class="kicker">{hero_kicker}</p>
-  <h1>{hero_title_html}</h1>
+  <h1{_h1_class(hero_title_html)}>{hero_title_html}</h1>
   <p class="lead">{hero_lead}</p>
   <div class="cta-row">
-    <a href="get-a-quote.html" class="primary">Get a firm quote &rarr;</a>
-    <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp instead</a>
+    <a href="book-a-call.html" class="primary">Book a call &rarr;</a>
+    <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp</a>
+    <a href="get-a-quote.html" class="ghost">Get a firm quote</a>
   </div>
 </section>
 {BYLINE}

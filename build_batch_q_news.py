@@ -502,7 +502,8 @@ def quick_news_page(slug, title, hero_em, lead, kicker, section_pairs, faq_pairs
 ))
 
 # 7. India-UK CETA
-write_page("india-uk-ceta-implementation-operational-2026", quick_news_page(
+# Superseded on 21 Nov 2026 by build_batch_ex_ceta_dpdp_corrected.py; call disabled so the old text is not restored.
+(lambda *a, **k: None)("india-uk-ceta-implementation-operational-2026", quick_news_page(
     slug="india-uk-ceta-implementation-operational-2026",
     title="India-UK CETA Implementation 2026 | Preferential Tariff Operational - BQP",
     hero_em="95%+ trade lines now at preferential rates.",
@@ -570,7 +571,8 @@ write_page("india-uk-ceta-implementation-operational-2026", quick_news_page(
 ))
 
 # 8. DPDP Rules status
-write_page("dpdp-rules-january-2025-operational-status-october-2026", quick_news_page(
+# Superseded on 21 Nov 2026 by build_batch_ex_ceta_dpdp_corrected.py; call disabled so the old text is not restored.
+(lambda *a, **k: None)("dpdp-rules-january-2025-operational-status-october-2026", quick_news_page(
     slug="dpdp-rules-january-2025-operational-status-october-2026",
     title="DPDP Rules Operational Status October 2026 | Final Notification Watch - BQP",
     hero_em="draft Rules circulated Jan 2025, operational notification imminent.",

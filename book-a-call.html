@@ -60,11 +60,69 @@
 <section class="svc-hero">
   
   <div class="svc-hero-inner">
-    <p class="svc-hero-kicker">Free 20 min</p>
+    <p class="svc-hero-kicker">Free 20-minute call</p>
     <h1 class="svc-hero-title">Talk to a CA. No cost. No commitment.</h1>
-    <p class="svc-hero-lead">Founders bring us their hardest questions — IPO timing, US incorporation, M&amp;A structuring, ESOP design, GIFT City setup, cross-border tax. The first 20 minutes are on us.</p>
+    <p class="svc-hero-lead">NRIs, foreign companies and founders bring us their India questions: tax returns and notices, foreign assets and FAST-DS, selling property, moving money, setting up or buying a company in India, IPO and fundraising. The first 20 minutes are on us. Calls are arranged across time zones. <a href="#request" style="color:inherit;text-decoration:underline">Request a time below</a>.</p>
   </div>
-</section><section class="section">
+</section><!-- callreq --><section class="section" id="request">
+  <div class="card">
+    <p class="card-label">Request a call</p>
+    <h2 class="card-h2">Tell us three things. We confirm a time.</h2>
+    <style>
+      .callreq{max-width:720px;display:grid;gap:16px;margin-top:8px}
+      .callreq .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+      .callreq label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ink)}
+      .callreq input,.callreq select,.callreq textarea{width:100%;padding:12px 14px;font:inherit;font-size:16px;border:1px solid #cfc8bb;border-radius:8px;background:#fff;color:#1a1613;box-sizing:border-box}
+      .callreq textarea{min-height:76px;resize:vertical}
+      .callreq .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:4px}
+      .callreq button{padding:14px 22px;font:inherit;font-size:15px;font-weight:700;border-radius:10px;cursor:pointer;border:1px solid #1a1613;background:transparent;color:#1a1613}
+      .callreq button.wa{background:#1EA855;border-color:#1EA855;color:#fff}
+      .callreq .note{font-size:13px;line-height:1.55;color:#5c5346;margin:0}
+      @media (max-width:640px){.callreq .row2{grid-template-columns:1fr}}
+    </style>
+    <form class="callreq" id="callReq" onsubmit="event.preventDefault();requestCall('wa')">
+      <div class="row2">
+        <div><label for="c_name">Your name *</label><input id="c_name" type="text" required autocomplete="name"/></div>
+        <div><label for="c_country">Where you live (country and city) *</label><input id="c_country" type="text" required autocomplete="country-name" placeholder="e.g. Dubai, UAE"/></div>
+      </div>
+      <div><label for="c_topic">What is the call about? *</label>
+        <select id="c_topic" required>
+          <option value="">Choose one</option>
+          <option>NRI tax return, refund or notice</option>
+          <option>Foreign assets not reported in India (FAST-DS)</option>
+          <option>Selling or buying property in India</option>
+          <option>Sending money to or from India</option>
+          <option>Foreign company: entering or operating in India</option>
+          <option>Due diligence, acquisition or joint venture in India</option>
+          <option>Company compliance in India: tax, GST, company law, FEMA</option>
+          <option>US, UK or UAE company for an Indian founder</option>
+          <option>Something else</option>
+        </select></div>
+      <div><label for="c_slots">Two or three times that suit you, with your time zone *</label><input id="c_slots" type="text" required placeholder="e.g. Mon or Tue after 6 pm, Gulf time"/></div>
+      <div><label for="c_note">Your situation in a line or two (optional)</label><textarea id="c_note"></textarea></div>
+      <div class="btns">
+        <button type="submit" class="wa">Request on WhatsApp &rarr;</button>
+        <button type="button" onclick="requestCall('email')">Request by email</button>
+      </div>
+      <p class="note">This opens your own WhatsApp or email with the details filled in; nothing is sent until you press send there. We reply within one working day to confirm a time. Please do not include passwords or card numbers. <a href="privacy.html">Privacy</a>.</p>
+    </form>
+  </div>
+</section>
+<script>
+function requestCall(channel){
+  var get=function(id){var el=document.getElementById(id);return el?(el.value||'').trim():'';};
+  var name=get('c_name'),country=get('c_country'),topic=get('c_topic'),slots=get('c_slots'),note=get('c_note');
+  if(!name||!country||!topic||!slots){alert('Please fill your name, where you live, what the call is about and the times that suit you.');return false;}
+  var lines=['Hi Durgesh,','','I would like to book a free 20-minute call.','','About: '+topic,'Name: '+name,'Lives in: '+country,'Times that suit me: '+slots,
+    (note?'Situation: '+note:null),(window.bqpRef?'['+window.bqpRef()+']':null),'','Thanks'].filter(function(l){return l!==null;});
+  var body=lines.join('\n');
+  if(window.clarity){try{clarity('event','call_request_'+channel);clarity('set','call_topic',topic);}catch(e){}}
+  if(channel==='wa'){window.open('https://wa.me/917801887130?text='+encodeURIComponent(body),'_blank','noopener');return false;}
+  window.location.href='mailto:info@bharatquantumprospera.com?subject='+encodeURIComponent('Call request: '+topic+' - '+name+' ('+country+')')+'&body='+encodeURIComponent(body);
+  return false;
+}
+</script>
+<section class="section">
   <div class="card">
     <p class="card-label">What you get</p>
     <h2 class="card-h2">On the call</h2>

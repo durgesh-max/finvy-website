@@ -159,6 +159,10 @@
         '#bqp-consent .bqp-consent-row{display:flex;gap:8px}' +
         '#bqp-consent button{flex:1;min-height:38px;padding:8px 14px;border-radius:6px;border:1px solid #fff;background:#fff;color:#0E1116;font:600 13px/1 Inter,system-ui,sans-serif;cursor:pointer}' +
         '#bqp-consent button:focus-visible{outline:2px solid #fff;outline-offset:2px}' +
+        '#bqp-consent.bqp-compact{display:flex;align-items:center;gap:10px;padding:10px 12px}' +
+        '#bqp-consent.bqp-compact p{margin:0;flex:1;font-size:12.5px;line-height:1.4}' +
+        '#bqp-consent.bqp-compact .bqp-consent-row{flex:none;gap:6px}' +
+        '#bqp-consent.bqp-compact button{flex:none;min-height:34px;padding:7px 11px}' +
         '@media (max-width:640px){#bqp-consent{left:10px;right:10px;bottom:122px;max-width:none}}' +
         '@media print{#bqp-consent{display:none}}';
       d.head.appendChild(st);
@@ -167,9 +171,12 @@
     el.id = 'bqp-consent'; el.setAttribute('role', 'region'); el.setAttribute('aria-label', 'Cookie choice');
     var lead = optIn
       ? 'With your permission, we use Microsoft Clarity to see how visitors use this site (clicks, scrolling, pages viewed). It sets cookies. No advertising.'
-      : 'We use Microsoft Clarity to see how visitors use this site (clicks, scrolling, pages viewed). It sets cookies. No advertising. You can decline.';
-    el.innerHTML = '<p>' + lead + ' <a href="privacy.html">Privacy and cookies</a></p>' +
-      '<div class="bqp-consent-row"><button type="button" data-bqp-consent="granted">Accept</button><button type="button" data-bqp-consent="denied">Decline</button></div>';
+      : 'This site uses Microsoft Clarity analytics cookies. No advertising.';
+    // Outside the opt-in zones this is a notice with a decline button, so it is kept to one compact row:
+    // on phones the full-size version covered the answer and the call buttons.
+    if (!optIn) el.className = 'bqp-compact';
+    el.innerHTML = '<p>' + lead + ' <a href="privacy.html">' + (optIn ? 'Privacy and cookies' : 'Privacy') + '</a></p>' +
+      '<div class="bqp-consent-row"><button type="button" data-bqp-consent="granted">' + (optIn ? 'Accept' : 'OK') + '</button><button type="button" data-bqp-consent="denied">Decline</button></div>';
     el.addEventListener('click', function (e) {
       var v = e.target && e.target.getAttribute ? e.target.getAttribute('data-bqp-consent') : null;
       if (v) setChoice(v);

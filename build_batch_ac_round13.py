@@ -740,7 +740,7 @@ PAGES = [
             ("What's the CbCR threshold for Hong Kong + Indian subsidiary?",
              "MNE group consolidated revenue EUR 750M+ (approx HKD 6.8B+ / INR 7,000 crore+) in prior year. CbCR filed by UPE (HK parent) with HK IRD + exchanged with Indian CBDT via EOI. Indian subsidiary files Form 3CEAC intimation + specific Form 3CEAD if specific scenarios."),
             ("What's the Form 3CEAC filing deadline?",
-             "2 months before CbCR due date = typically 30 November following FY. For FY 2025-26 (ending 31 March 2026): Form 3CEAC due by 30 November 2026. Form 3CEAD (if applicable): 12 months from end of FY = 31 March 2027."),
+             "At least two months before the country-by-country report is due, and the report is due 12 months after the end of the group's reporting year. For a group year ending 31 March 2026: Form 3CEAC by 31 January 2027 and Form 3CEAD (if applicable) by 31 March 2027. For a group year ending 31 December 2025: 31 October 2026 and 31 December 2026."),
             ("Does India-Hong Kong DTAA offer specific benefits?",
              "Yes - operational since 2017. Dividend 5% treaty rate for 10%+ holdings (10% for others). Interest 10%. Royalty 10%. Capital gain: taxable in state of residence subject to specific real-estate / substantial-holding carve-outs. MLI covered agreement + PPT applies - substance file for HK structure essential."),
             ("Does Hong Kong implement BEPS Pillar 2?",

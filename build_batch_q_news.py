@@ -9,7 +9,8 @@ Section 148 season, tax audit follow-ups.
 from build_lib import page, write_page
 
 # 1. Budget 2026 Expectations
-write_page("budget-2026-expectations-startups-nri-foreign-companies", page(
+# Superseded on 21 Nov 2026 by build_batch_ey_budget_2027_prep.py; disabled so the old text is not restored.
+(lambda *a, **k: None)("budget-2026-expectations-startups-nri-foreign-companies", page(
     slug="budget-2026-expectations-startups-nri-foreign-companies",
     title="Union Budget 2026 Expectations | Startups + NRI + Foreign Company - BQP",
     description="Union Budget 2026 (February 2027) expectations for startups, NRIs, and foreign companies in India: likely changes to Section 115BAA/BAB, LTCG 12.5% framework fine-tuning, NRI residence rules, FDI reform expansion, PLI scheme additions, DPDP operational rules, direct tax code progress. Pre-Budget planning memo. CA Durgesh Chavda.",

@@ -100,7 +100,8 @@ YN = [("no", "No"), ("yes", "Yes")]
 INPUTS = (fld("fKind", "What are you checking?", "Check one asset or income item at a time; for Category 2 the INR 5 crore limit applies to the total of all your undisclosed foreign assets.", [("asset", "A foreign asset (bank account, shares, RSUs, 401(k), property, crypto)"), ("income", "Foreign income (interest, dividends, rent, salary) not shown in my return")])
           + fld("fResThen", "Were you resident in India when you acquired it / earned it?", "Resident under section 6 in that year.", [("yes", "Yes, resident"), ("no", "No, I was a non-resident (or RNOR)")])
           + fld("fResSince", "Have you been resident and ordinarily resident in India in any later year up to 2025-26?", "Only asked if you were non-resident at the time.", YN)
-          + fld("fSource", "Where did the money to buy it come from?", "", [("taxedIndia", "Income already taxed in India (salary, RSU/ESPP taxed via payroll, savings)"), ("foreignWhileNR", "Foreign income earned while I was a non-resident"), ("untaxed", "Income never taxed in India / I cannot explain the source")])
+          + fld("fSource", "Where did the money to buy it come from?", "", [("taxedIndia", "Income already taxed in India (salary, RSU/ESPP taxed via payroll, savings)"), ("foreignWhileNR", "Foreign income earned while I was a non-resident"), ("mixed", "Partly taxed income and partly income never taxed in India"), ("untaxed", "Income never taxed in India / I cannot explain the source")])
+          + fld("fSmall", "Is it a bank account, and did all your foreign bank accounts together stay at or below INR 20 lakh at all times in every year?", "New in the November 2026 FAQs: such accounts, if funded from taxed money, need no declaration.", YN)
           + fld("fFA", "Was it shown in the foreign-assets schedule (Schedule FA) of every return where required?", "Required in years you were resident and ordinarily resident.", YN)
           + fld("fInc", "Was all income from it (interest, dividends, gains) offered to tax in India in resident years?", "", [("yes", "Yes"), ("no", "No")])
           + fld("fVal", "Value in INR", "Asset: value as on 31 March 2026. Income: amount of the income.", num=2000000)
@@ -113,15 +114,15 @@ CHECK_JS = LOGIC + r'''
   var LABEL={CAT1:"Category 1 (60%)",CAT2:"Category 2 (INR 1 lakh fee)",NOT_NEEDED:"No FAST-DS needed",INCOME_ONLY:"Declare the income only",NOT_ELIGIBLE:"Not eligible for FAST-DS",EXCLUDED:"Excluded from FAST-DS"};
   function show(){
     var kind=$("fKind").value, resThen=$("fResThen").value==="yes";
-    $("w_fResSince").style.display=resThen?"none":""; ["w_fSource","w_fFA"].forEach(function(w){$(w).style.display=kind==="asset"?"":"none";});
-    var r=fastds({kind:kind,residentThen:resThen,residentSince:resThen||$("fResSince").value==="yes",source:$("fSource").value,reportedFA:$("fFA").value==="yes",incomeReported:$("fInc").value==="yes",
+    $("w_fResSince").style.display=resThen?"none":""; ["w_fSource","w_fSmall","w_fFA"].forEach(function(w){$(w).style.display=kind==="asset"?"":"none";});
+    var r=fastds({kind:kind,residentThen:resThen,residentSince:resThen||$("fResSince").value==="yes",source:$("fSource").value,smallBank:$("fSmall").value==="yes",reportedFA:$("fFA").value==="yes",incomeReported:$("fInc").value==="yes",
       value:Number($("fVal").value),otherCat1:Number($("fOther").value||0),pmla:$("fPmla").value==="yes",bmaDone:$("fBma").value==="yes"});
     if(!r.ok){$("fOut").textContent="Check inputs";$("fAmt").textContent="";$("fWhy").innerHTML=r.errors.map(function(e){return "<li>"+e+"</li>";}).join("");return;}
     $("fOut").textContent=LABEL[r.result];
     $("fAmt").textContent=r.amount?("Amount payable on this item: INR "+r.amount.toLocaleString("en-IN")):"";
     $("fWhy").innerHTML=r.why.map(function(t){return "<li>"+t+"</li>";}).join("");
   }
-  ["fKind","fResThen","fResSince","fSource","fFA","fInc","fVal","fOther","fPmla","fBma"].forEach(function(id){$(id).addEventListener("input",show);$(id).addEventListener("change",show);});
+  ["fKind","fResThen","fResSince","fSource","fSmall","fFA","fInc","fVal","fOther","fPmla","fBma"].forEach(function(id){$(id).addEventListener("input",show);$(id).addEventListener("change",show);});
   // Prefill from a link (used by the FAST-DS self-check newsletter): ?kind=&then=&since=&src=&fa=&inc=&val=
   try {
     var q=new URLSearchParams(location.search), MAP={kind:"fKind",then:"fResThen",since:"fResSince",src:"fSource",fa:"fFA",inc:"fInc",val:"fVal"}, hit=false;

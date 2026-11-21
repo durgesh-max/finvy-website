@@ -121,20 +121,20 @@ PAGES = [
     dict(
         slug="foreign-cloud-companies-tax-holiday-indian-data-centres-2047",
         title="Tax Holiday Until 2047 for Foreign Cloud Companies Using Indian Data Centres",
-        em="what Budget 2026 offers and the conditions.",
+        em="what the law offers and the conditions.",
         kicker="/ Foreign Companies &middot; Updated 2026-10-30",
-        lead="Budget 2026-27 (1 February 2026) proposed a tax holiday until 2047 for foreign companies that provide cloud services to customers worldwide using data centre services from India. The conditions: the data centre is operated by an Indian company, the foreign company is notified, and services to Indian customers go through an Indian reseller, which remains taxable in India. Where the Indian data centre is a related party working on cost-plus, a 15% safe harbour margin on cost was proposed.",
+        lead="India gives a tax holiday until 2047 to foreign companies that provide cloud services to customers worldwide using data centre services from India. It was announced in Budget 2026-27 (1 February 2026), is now law, and was relaxed by the Taxation and Other Laws (Amendment) Act, 2026 (17 August 2026). The conditions: the data centre is operated by an Indian company that owns or leases it, and services to Indian customers go through an Indian reseller, which remains taxable in India. Where the Indian data centre is a related party working on cost-plus, a 15% safe harbour margin on cost was announced in the Budget; check the notified safe harbour rules before relying on it.",
         sections=[
             ("/ The conditions", "As announced.",
              ul("The foreign company provides cloud services to customers globally using data centre services procured from India.",
                 "The data centre services come from an Indian company operating a data centre in India.",
                 "Sales to Indian customers are made through an Indian reseller entity, which is taxed in India normally.",
-                "The foreign company is notified under the relevant provisions.",
+                "Since the <a href='taxation-and-other-laws-amendment-act-2026-foreign-companies-electronics-contract-manufacturing-funds-fii.html'>Taxation and Other Laws (Amendment) Act, 2026</a> (17 August 2026), the foreign company no longer needs to be individually notified, and the data centre may be owned or leased by the Indian company that operates it; further conditions are to be prescribed.",
                 "Related-party Indian data centres operating on cost-plus can use a 15% margin on cost as a safe harbour.")),
             ("/ Why it matters", "The permanent establishment question.",
              "<p>Foreign cloud providers have been cautious about putting large infrastructure in India because of the risk that it creates a permanent establishment and exposes global cloud income to Indian tax. The holiday removes that cost for the specified income, while keeping the Indian data centre operator and the Indian reseller fully taxable.</p>"),
             ("/ What foreign cloud and SaaS companies should check", "Practical points.",
-             ul("Whether your Indian data centre arrangement meets the conditions and notification requirements.",
+             ul("Whether your Indian data centre arrangement meets the conditions, including those still to be prescribed.",
                 "Reseller structure for Indian customers: contracts, pricing, GST on supplies to Indian customers and transfer pricing.",
                 "Transfer pricing for a related Indian data centre: whether to use the 15% safe harbour.",
                 "Permanent establishment exposure for other activities in India not covered by the holiday.",
@@ -142,7 +142,7 @@ PAGES = [
              src(("Business Today", "https://www.businesstoday.in/amp/union-budget/news/story/budget-2026-nirmala-sitharaman-announces-tax-holiday-to-lure-foreign-data-centre-firms-as-ai-demand-surges-513930-2026-02-01"),
                  ("Outlook Business", "https://www.outlookbusiness.com/budget/budget-govt-proposes-tax-holiday-till-2047-to-boost-data-centre-investments"),
                  ("Takshashila Institution", "https://takshashila.org.in/content/blogs/20260201-union-budget-proposes-tax-holiday-for-global-cloud-services.html")) +
-             "<p><em>Last updated: 30 October 2026. Based on Budget announcements; check the enacted Finance Act 2026 provisions and notifications for the final conditions.</em></p>"),
+             "<p><em>Last updated: 21 November 2026. The exemption sits in Schedule IV of the Income-tax Act, 2025, as amended by the Taxation and Other Laws (Amendment) Act, 2026; check the rules and notifications for the final conditions.</em></p>"),
         ],
         howto=None,
         faqs=[
@@ -154,7 +154,7 @@ PAGES = [
         related=[("transfer-pricing-india-foreign-mnc.html", "Transfer pricing for foreign MNCs"), ("best-ca-oidar-gst-foreign-saas-india-2026.html", "GST for foreign SaaS")],
         cta_h="Foreign cloud or SaaS company using India?", cta_b=CONTACT,
         keywords="tax holiday 2047 foreign cloud companies India, Budget 2026 data centre tax holiday, foreign cloud provider Indian data centre tax, data centre safe harbour 15%, permanent establishment cloud India",
-        desc="Budget 2026-27 proposed a tax holiday until 2047 for foreign cloud companies using Indian data centres, with an Indian reseller for Indian customers and a 15% cost-plus safe harbour for related data centres. Conditions and what to check.",
+        desc="India exempts foreign cloud companies using Indian data centres from tax until 2047, with an Indian reseller for Indian customers. Announced in Budget 2026-27, now law and relaxed in August 2026: no individual notification, leased data centres covered. Conditions and what to check.",
     ),
 ]
 

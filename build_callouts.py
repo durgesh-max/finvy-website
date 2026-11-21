@@ -12,6 +12,7 @@ F40 = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-t
 TCS = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html"
 INS = "foreign-life-insurance-policy-returning-nri-schedule-fa-fast-ds-tax-on-maturity.html"
 BOXES = {
+    "fiigsec": ("Foreign funds and Indian government bonds: 2026 change", 'From 1 April 2026 foreign institutional investors pay no tax on interest and gains from Indian government securities, and the safe harbour for offshore funds with an Indian fund manager has fewer conditions: <a href="taxation-and-other-laws-amendment-act-2026-foreign-companies-electronics-contract-manufacturing-funds-fii.html">what the 2026 Act changes</a>.'),
     "dpdpstatus": ("DPDP Rules: where things stand", 'The DPDP Rules, 2025 were notified on 13 November 2025. Consent manager registration starts around 13 November 2026 and the main duties on businesses apply from about 13 May 2027: <a href="dpdp-rules-january-2025-operational-status-october-2026.html">DPDP Rules timeline</a>.'),
     "bab115": ("Section 115BAB is closed to new companies", 'The 15% rate under section 115BAB applies only to companies that began manufacturing by 31 March 2024. A new manufacturer uses section 115BAA (25.17% effective). Where this page mentions 115BAB, read it that way: <a href="how-to-pick-section-115baa-vs-115bab-vs-standard-decision-tree.html">115BAA vs 115BAB</a>.'),
     "fcomp": ("FEMA compounding: new filing point", 'Since 23 October 2026, ODI, overseas loan and guarantee compounding goes to an RBI Regional Office chosen by your UIN prefix (no UIN stays in Mumbai): <a href="fema-compounding-odi-rbi-regional-office-uin-circular-28-october-2026.html">which office handles your case</a>.'),
@@ -140,6 +141,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "aif-vs-pms-vs-fpi.html": ["fiigsec"],
+    "gift-city-vs-mauritius-vs-singapore-fund.html": ["fiigsec"],
     "best-ca-dpdp-act-compliance-foreign-company-india.html": ["dpdpstatus"],
     "dpdp-personal-data-breach-72-hour-notification-urgent-india.html": ["dpdpstatus"],
     "best-ca-cleantech-climate-tech-india-2026.html": ["bab115"],
@@ -228,7 +231,7 @@ TARGETS = {
     "form-fc-gpr-filing-checklist-india-2026.html": ["fdirules", "ffn", "fval", "ffema"],
     "form-fc-trs-filing-checklist-india-2026.html": ["fdirules", "facq", "fval", "ffema"],
     "fla-return-foreign-liabilities-assets-rbi-india.html": ["fdirules", "fcal", "ffema"],
-    "fdi-vs-fpi-india-startup-investment.html": ["fdirules"],
+    "fdi-vs-fpi-india-startup-investment.html": ["fdirules", "fiigsec"],
     "uae-investor-investing-in-india-fdi-india-uae-bit-2024-dtaa-compliance.html": ["fdirules", "uaenri", "fqa", "ffta"],
     "india-telecom-fdi-100-automatic-2024.html": ["fdirules"],
     "india-space-fdi-100-automatic-route-2024-reform-2026.html": ["fdirules", "bab115"],

@@ -426,7 +426,7 @@ PAGES = [
             "Master File (Form 3CEAA) for groups above INR 500 crore + INR 50 crore IT thresholds",
             "CbCR (Form 3CEAD) for ultimate parent / Form 3CEAC secondary filing for Indian subsidiary",
             "APA application + bilateral / multilateral competent authority coordination",
-            "BEPS Pillar 2 (Global Minimum Tax) India implementation compliance from FY 2025-26",
+            "BEPS Pillar 2 (Global Minimum Tax) readiness for groups above EUR 750 million (India has not yet enacted its own rules)",
             "TP assessment + DRP + ITAT representation if disputed",
         ],
         "keywords": "best CA transfer pricing India, Form 3CEB CA India, India TP consultant foreign MNC, APA India CA, BEPS Pillar 2 CA India",

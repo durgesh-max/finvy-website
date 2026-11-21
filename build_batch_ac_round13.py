@@ -234,7 +234,7 @@ PAGES = [
             ("What's MLI PPT and how does it affect Singapore structures?",
              "Multilateral Instrument Principal Purpose Test: applies to India-Singapore DTAA. Denies treaty benefit if 'reasonable to conclude' obtaining benefit was one of principal purposes of transaction. Lower threshold than GAAR 'main purpose'. Both can be invoked parallel. Substance file + commercial rationale critical for defence."),
             ("Does BEPS Pillar 2 affect Singapore holdings?",
-             "Yes if MNE group consolidated revenue EUR 750M+. India implemented Pillar 2 from FY 2025-26: QDMTT (Qualified Domestic Minimum Top-up Tax) + IIR (Income Inclusion Rule). Singapore corporate tax effective rate 17% should satisfy 15% minimum. Specific QDMTT top-up if specific calculations. BQP + Singapore partner Pillar 2 assessment."),
+             "Yes if MNE group consolidated revenue EUR 750M+. India has not yet enacted Pillar 2 rules (no QDMTT or IIR as of November 2026). Singapore corporate tax effective rate 17% should satisfy 15% minimum. Specific QDMTT top-up if specific calculations. BQP + Singapore partner Pillar 2 assessment."),
             ("Does BQP handle Singapore holding + Indian stepdown integrated engagement?",
              "Yes - specialist Singapore-India desk. Singapore substance + Indian compliance + GAAR/PPT defence + specific transfer pricing + BEPS Pillar 2 + repatriation + exit planning. Co-ordinated with Singapore CPA + legal partners. For foreign-invested Indian ventures via Singapore. WhatsApp +91 78018 87130."),
         ],
@@ -409,7 +409,7 @@ PAGES = [
             ("What's the repatriation process from Indian branch to Dubai?",
              "Audit financial statements + file ITR + pay Indian corporate tax 35%+ + prepare Form 15CB CA certificate + file Form 15CA e-filing + AD bank processes remittance. BQP standard turnaround 2-4 weeks post ITR + Form 15CB execution."),
             ("Does BEPS Pillar 2 affect UAE free zone + Indian branch?",
-             "Yes if MNE consolidated revenue EUR 750M+. UAE QDMTT from FY 2024: 15% minimum effective rate. India QDMTT + IIR from FY 2025-26. QFZP 0% UAE CT may trigger specific top-up calculation. BQP + UAE partner Pillar 2 assessment + specific jurisdictional analysis."),
+             "Yes if MNE consolidated revenue EUR 750M+. UAE QDMTT from FY 2024: 15% minimum effective rate. India has not yet enacted Pillar 2 rules (no QDMTT or IIR as of November 2026). QFZP 0% UAE CT may trigger specific top-up calculation. BQP + UAE partner Pillar 2 assessment + specific jurisdictional analysis."),
             ("Does BQP handle Dubai + Indian branch integrated engagement?",
              "Yes - specialist UAE-India desk + Dubai partner network. UAE CT + QFZP + Pillar 2 + Indian branch (LO/PO/BO) setup + annual compliance + Form 15CA/15CB repatriation + transfer pricing + specific DTAA + FTC + CEPA. For UAE-origin companies + Indian branches. WhatsApp +91 78018 87130."),
         ],
@@ -495,7 +495,7 @@ PAGES = [
             ("Can Indian software captive opt for Safe Harbour Rules?",
              "Yes. From tax year 2026-27, a single IT services safe harbour (software development, ITeS, KPO and software contract R&amp;D) applies at 15.5% of operating expenses where the eligible international transactions do not exceed INR 2,000 crore; one Form 49 covers five years (the old Rule 10TD/10TE regime had 17-24% margins and a INR 300 crore limit). Opting in avoids a TP adjustment on the covered transaction but gives up MAP for it. Alternative: TNMM benchmarking study + specific comparability analysis. BQP evaluates optimal choice."),
             ("What's BEPS Pillar 2 impact on ULC chain?",
-             "If MNE consolidated revenue EUR 750M+: GloBE rules apply. QDMTT in Canada (effective FY 2024) + India QDMTT (FY 2025-26). IIR (Income Inclusion Rule) + UTPR (Undertaxed Payments Rule). ULC hybrid tax planning may trigger specific minimum tax top-ups. BQP + Canadian partner Pillar 2 assessment."),
+             "If MNE consolidated revenue EUR 750M+: GloBE rules apply. QDMTT in Canada (effective FY 2024); India has not yet enacted a QDMTT. IIR (Income Inclusion Rule) + UTPR (Undertaxed Payments Rule). ULC hybrid tax planning may trigger specific minimum tax top-ups. BQP + Canadian partner Pillar 2 assessment."),
             ("Does BQP handle Canadian ULC + Indian captive integrated engagement?",
              "Yes - specialist Canada-India desk + Canadian partner CPA firms. Indian captive compliance (TP + FEMA + GST + MCA) + Canadian ULC coordination (via partner) + specific DTAA + FTC + BEPS Pillar 2 + GAAR/PPT defence. For US multinationals with Canadian ULC + Indian captive. WhatsApp +91 78018 87130."),
         ],
@@ -815,7 +815,7 @@ PAGES = [
              "<li>QDMTT + IIR + UTPR per OECD GloBE rules.</li>"
              "<li>15% minimum effective rate for MNEs with EUR 750M+ consolidated revenue.</li>"
              "<li>Netherlands 25.8% CT typically satisfies - but specific low-tax income + specific tax incentives may trigger top-up.</li>"
-             "<li>India QDMTT from FY 2025-26 - parallel compliance both sides.</li>"
+             "<li>India has not yet enacted a QDMTT, so top-up tax on low-taxed Indian profits would be collected in the Netherlands.</li>"
              "</ul>"),
             ("/ BQP + Dutch partner engagement", "What we deliver.",
              "<ul>"

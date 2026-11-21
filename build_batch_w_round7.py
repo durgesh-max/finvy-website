@@ -485,7 +485,7 @@ PAGES.append({
          "<li><strong>Insurance</strong>: IRDAI quarterly + annual returns.</li>"
          "<li><strong>Startups</strong>: DPIIT annual self-declaration.</li>"
          "<li><strong>Foreign-shareholder companies</strong>: FC-GPR within 30 days of allotment; FLA Return annually; Form ODI APR annually.</li>"
-         "<li><strong>In BEPS Pillar 2 scope</strong>: Form 3CEAE / 3CEAF / 3CEAG (12-15 months post FY).</li>"
+         "<li><strong>In BEPS Pillar 2 scope</strong>: no Indian filing yet (India has not enacted Pillar 2 rules); supply data for the group&rsquo;s return filed abroad.</li>"
          "<li><strong>In CSR scope (Section 135)</strong>: Form CSR-2 90 days post FY.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),

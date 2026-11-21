@@ -437,7 +437,9 @@ def quick_news_page(slug, title, hero_em, lead, kicker, section_pairs, faq_pairs
     )
 
 # 6. BEPS Pillar 2 India live
-write_page("beps-pillar-2-india-implementation-october-2026-update", quick_news_page(
+# Superseded on 21 Nov 2026 by build_batch_ew_pillar_two_india_status.py (the text below wrongly said India had
+# enacted Pillar Two). The call is disabled so re-running this builder does not restore it.
+(lambda *a, **k: None)("beps-pillar-2-india-implementation-october-2026-update", quick_news_page(
     slug="beps-pillar-2-india-implementation-october-2026-update",
     title="BEPS Pillar 2 India Implementation October 2026 Update | GloBE Live - BQP",
     hero_em="15% global minimum tax now live for in-scope groups.",
@@ -648,7 +650,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
          "<li><strong>Schedule FA (Foreign Assets)</strong>: enhanced for CRS / FATCA integration. Specific line items for foreign bank accounts, foreign securities, foreign life insurance, foreign private trusts, foreign company shareholding above 10%.</li>"
          "<li><strong>Section 56(2)(viib) legacy</strong>: historical disclosure retained even though provision abolished for new transactions. Pre-abolition cases still require reporting.</li>"
          "<li><strong>Section 43B(h) MSE disclosure</strong>: specific line item for amounts disallowed and amounts paid in subsequent FY (reversal). Year 2 (FY 2025-26) first full-year reporting.</li>"
-         "<li><strong>BEPS Pillar 2 disclosure</strong>: for in-scope groups (consolidated revenue EUR 750M+), new Pillar 2 disclosure lines reflecting QDMTT + Form 3CEAE / 3CEAF / 3CEAG integration.</li>"
+         "<li><strong>BEPS Pillar 2</strong>: India has not enacted Pillar 2 rules, so Indian returns have no Pillar 2 schedule or form; in-scope groups (consolidated revenue of EUR 750 million or more) supply data for returns filed abroad.</li>"
          "<li><strong>Schedule Startup</strong>: enhanced DPIIT Startup India + Section 80-IAC claim disclosure.</li>"
          "</ul>"),
         ("/ Deadlines for AY 2026-27", "Key dates.",
@@ -684,7 +686,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
     ],
     faq_pairs=[
         ("What's new in AY 2026-27 ITR forms?",
-         "Separate Schedule VDA (crypto / NFT with Section 115BBH 30% + Section 194S TDS reconciliation), updated Schedule 112A for LTCG 12.5% framework (Finance Act 2024), enhanced Schedule FA foreign assets with CRS / FATCA integration, Section 43B(h) MSE disclosure, BEPS Pillar 2 disclosure for in-scope groups, enhanced Startup India + 80-IAC claim disclosure."),
+         "Separate Schedule VDA (crypto / NFT with Section 115BBH 30% + Section 194S TDS reconciliation), updated Schedule 112A for LTCG 12.5% framework (Finance Act 2024), enhanced Schedule FA foreign assets with CRS / FATCA integration, Section 43B(h) MSE disclosure, enhanced Startup India + 80-IAC claim disclosure."),
         ("When is AY 2026-27 ITR due?",
          "31 July 2026 for individuals/HUFs without tax audit. 31 October 2026 for tax audit cases (Section 44AB). 30 November 2026 for TP audit cases (Form 3CEB). 31 December 2026 belated. 31 March 2027 updated return (Section 139(8A) with 24-month window + additional tax)."),
         ("How do I claim LTCG indexation under Finance Act 2024?",
@@ -694,16 +696,16 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
         ("Does Section 43B(h) MSE disallowance need to be in ITR?",
          "Yes - Form 3CD Clause 22 (tax audit) requires specific disclosure. Corresponding ITR line item reflects: (a) MSE amounts disallowed in current FY under 43B(h), (b) MSE amounts paid in current FY where disallowance was reversed from prior year. For AY 2026-27, this is year 2 of 43B(h) impact."),
         ("Does BQP handle AY 2026-27 ITR filing?",
-         "Yes - standard annual tax engagement. Residence status determination + ITR-1/2/3/5/6/7 as applicable + all new schedules (VDA, 112A, FA, 43B(h), Pillar 2) + Form 10F electronic filing + Form 3CEB TP + Form 3CD tax audit + Section 195 TDS refund claims + capital gain Section 54 reinvestment. Fast turnaround through July-November 2026 ITR window. WhatsApp +91 78018 87130."),
+         "Yes - standard annual tax engagement. Residence status determination + ITR-1/2/3/5/6/7 as applicable + all new schedules (VDA, 112A, FA, 43B(h)) + Form 10F electronic filing + Form 3CEB TP + Form 3CD tax audit + Section 195 TDS refund claims + capital gain Section 54 reinvestment. Fast turnaround through July-November 2026 ITR window. WhatsApp +91 78018 87130."),
     ],
     related_pairs=[
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Guide", "ITR AY 2026-27 Full Guide"),
         ("ltcg-12-5-percent-new-capital-gains-india-2026.html", "Guide", "LTCG 12.5% Rules"),
     ],
     cta_h="AY 2026-27 ITR filing window: July-November 2026.",
-    cta_b="Schedule VDA + 112A + FA + 43B(h) + Pillar 2 + Form 10F + Form 3CEB + Form 3CD. BQP standard annual engagement + fast turnaround. Scope-based.",
+    cta_b="Schedule VDA + 112A + FA + 43B(h) + Form 10F + Form 3CEB + Form 3CD. BQP standard annual engagement + fast turnaround. Scope-based.",
     keywords="AY 2026-27 ITR forms India, Schedule VDA ITR 2026, LTCG 12.5 Schedule 112A, foreign asset Schedule FA 2026, Section 43B(h) ITR disclosure",
-    desc="AY 2026-27 ITR forms India new disclosures: Schedule VDA (crypto Section 115BBH), updated Schedule 112A (LTCG 12.5%), enhanced Schedule FA (foreign assets CRS/FATCA), Section 43B(h) MSE, BEPS Pillar 2. Deadlines July-November 2026. CA Durgesh Chavda complete guide.",
+    desc="AY 2026-27 ITR forms India new disclosures: Schedule VDA (crypto Section 115BBH), updated Schedule 112A (LTCG 12.5%), enhanced Schedule FA (foreign assets CRS/FATCA), Section 43B(h) MSE. Deadlines July-November 2026. CA Durgesh Chavda complete guide.",
 ))
 
 # 10. Year-end LRS

@@ -348,7 +348,7 @@ PAGES = [
              "<li>Common structure for foreign-parent Indian subsidiary: Big-4 as group auditor (US / UK HQ parent) + BQP as Indian specialist (TP + FEMA + ESOP + specific advisory).</li>"
              "<li>Pre-IPO (Main Board): Big-4 as auditor + BQP as pre-IPO specialist advisor (SEBI ICDR + Ind AS restatement + DRHP input).</li>"
              "<li>Cross-border M&A: Big-4 as global DD lead + BQP as India specialist DD (tax + FEMA + Rule 9B + 56(2)(viib) legacy).</li>"
-             "<li>BEPS Pillar 2: Big-4 as group Pillar 2 advisor + BQP as India QDMTT + Form 3CEAE/F/G specialist.</li>"
+             "<li>BEPS Pillar 2: Big-4 as group Pillar 2 advisor + BQP for the Indian entity&rsquo;s Pillar 2 data and effective-rate work (India has no domestic top-up tax yet).</li>"
              "<li>Portfolio PE / VC: Big-4 at specific larger portfolio companies + BQP at smaller mid-market portfolio.</li>"
              "</ul>"
              "<p>No conflict - complementary. BQP regularly works alongside Big-4 teams on cross-border mandates.</p>"
@@ -360,7 +360,7 @@ PAGES = [
             ("Is BQP's fee materially different from Big-4?",
              "Yes - typically 50-70% lower for comparable scope due to lower overhead + partner-direct delivery model. Scoped engagement letter means fixed fee + no hourly surprises. For mid-market mandates, this adds up to significant savings while maintaining ICAI-qualified CA competence."),
             ("Does BQP coordinate with Big-4 on cross-border matters?",
-             "Yes - standard. BQP's work-product feeds into Big-4 group audit + global tax structuring + Pillar 2 compliance. Co-ordinated with Big-4 teams on specific mandates: Indian subsidiary audit + global group audit; India DD + global DD; India Pillar 2 QDMTT + group Pillar 2 compliance. No conflict - complementary."),
+             "Yes - standard. BQP's work-product feeds into Big-4 group audit + global tax structuring + Pillar 2 compliance. Co-ordinated with Big-4 teams on specific mandates: Indian subsidiary audit + global group audit; India DD + global DD; Indian-entity Pillar 2 data + group Pillar 2 compliance. No conflict - complementary."),
             ("What if my Indian subsidiary needs Big-4 brand for lender comfort?",
              "Common. Structure: Big-4 as statutory auditor for lender comfort + BQP as advisor for TP + FEMA + specialist matters. Both firms co-ordinate on information flows. BQP's work-product goes into Big-4 statutory audit workpapers."),
             ("For urgent matters (Form 15CB, Section 148 response), BQP is better?",

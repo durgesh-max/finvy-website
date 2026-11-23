@@ -193,7 +193,7 @@ PAGES = [
              "<ul>"
              "<li>Gain > INR 50 lakh → 54EC bonds alone insufficient; need 54 or 54F in combination.</li>"
              "<li>Gain = INR 50 lakh or less → 54EC alone works (simpler).</li>"
-             "<li>Section 54F requires FULL net consideration investment (not just gain) - evaluate feasibility.</li>"
+             "<li>Section 54F requires FULL net consideration investment (not just gain) - evaluate feasibility.</li><li>Cap: since 1 April 2023, the cost of the new house counted under Section 54 or Section 54F is limited to INR 10 crore; any amount above that gives no exemption.</li>"
              "</ul>"
              "<p><strong>Q4: Timing window?</strong></p>"
              "<ul>"

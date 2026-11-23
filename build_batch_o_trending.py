@@ -95,7 +95,7 @@ write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
 write_page("nri-inheritance-indian-property-tax-fema-2026", page(
     slug="nri-inheritance-indian-property-tax-fema-2026",
     title="NRI Inheritance of Indian Property 2026 | Tax, FEMA, Mutation Guide - BQP",
-    description="NRI inheriting Indian property / assets from Indian parents or relatives: no inheritance tax, Section 56(2)(x) exemption, FEMA repatriation route (USD 1M/year limit), mutation + probate / succession certificate, capital gains on later sale (indexation + Section 54 reinvestment). Complete 2026 guide. CA Durgesh Chavda.",
+    description="NRI inheriting Indian property / assets from Indian parents or relatives: no inheritance tax, Section 56(2)(x) exemption, FEMA repatriation route (USD 1M/year limit), mutation + probate / succession certificate, capital gains on later sale (12.5% without indexation for NRIs, Section 54 reinvestment). Complete 2026 guide. CA Durgesh Chavda.",
     keywords="NRI inheritance Indian property tax, NRI inherited property India sale, FEMA repatriation inherited property, succession certificate NRI India, probate for NRI inherited property",
     hero_kicker="/ NRI Guide &middot; Inheritance &middot; Updated 2026-10-15",
     hero_title_html="NRI inheriting Indian property, <em>tax + FEMA + mutation in one guide.</em>",
@@ -138,7 +138,7 @@ write_page("nri-inheritance-indian-property-tax-fema-2026", page(
          "</ul>"),
         ("/ Sale of inherited property + capital gains", "Later disposal.",
          "<ul>"
-         "<li><strong>Capital gain calculation</strong>: sale price - indexed cost (indexation from original acquisition date by previous owner per Section 49(1) + Section 48).</li>"
+         "<li><strong>Capital gain calculation</strong>: sale price minus the previous owner&rsquo;s cost (or fair market value on 1 April 2001 for older property), with the previous owner&rsquo;s holding period counted (Section 49(1) of the 1961 Act). An NRI pays 12.5% without indexation; a resident heir can choose 20% with indexation where the property was acquired before 23 July 2024.</li>"
          "<li><strong>Holding period</strong>: period held by previous owner + period held by NRI (combined). If combined &gt; 24 months (property), gain is Long-Term Capital Gain (LTCG).</li>"
          "<li><strong>LTCG tax rate</strong>: Finance Act 2024 changed - 12.5% without indexation OR 20% with indexation (whichever lower) for property acquired before 23 July 2024; 12.5% without indexation for property acquired after 23 July 2024.</li>"
          "<li><strong>STCG</strong>: at slab rate.</li>"

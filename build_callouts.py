@@ -135,6 +135,7 @@ BOXES = {
     "shapa": ("Pricing your Indian subsidiary?", 'From tax year 2026-27, the IT services safe harbour accepts 15.5% on operating expenses (up to INR 2,000 crore, Form 49 for five years); APAs give two-country certainty: <a href="transfer-pricing-safe-harbour-vs-apa-india-2026-15-5-percent-it-services-form-49-advance-pricing-agreement.html">safe harbour vs APA</a>.'),
     "gstexp": ("Billing clients abroad?", 'No GST is payable on a valid export of services: file an LUT (RFD-11) and invoice without IGST, or pay 18% IGST and claim it back. Conditions, invoice wording and refunds: <a href="gst-on-export-of-services-lut-without-lut-invoice-format-refund-freelancer-startup-2026.html">GST on export of services</a>.'),
     "nrisen": ("A senior NRI in the family?", 'An NRI aged 60 or 80 does not get India&rsquo;s senior tax benefits (higher exemption, INR 50,000 interest deduction, advance tax exemption, Form 15H). What still works, and what changes on retiring to India: <a href="nri-senior-citizen-tax-india-2026-exemption-limit-80ttb-advance-tax-15h-pension-retire-to-india.html">NRI senior citizen tax</a>.'),
+    "giftpar": ("Parents sending you money?", 'Gift money from parents in India is not taxed as income here or in the US, UK, Canada or Australia, but US persons file Form 3520 above USD 100,000 and the bank collects 20% TCS above INR 10 lakh: <a href="gift-money-from-parents-in-india-tax-usa-uk-canada-australia-form-3520-lrs-tcs-2026.html">gifts from parents while living abroad</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -163,6 +164,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "section-56-2-x-gift-tax-india-2026.html": ["giftpar"],
+    "how-to-file-fbar.html": ["giftpar"],
     "nps-for-nri-oci-account-opening-nre-nro-tax-deduction-80-percent-lump-sum-exit-2026.html": ["nrisen"],
     "fema-services-export-edf-relief-freelancers-10-lakh-rbi-amendment-2-november-2026.html": ["gstexp"],
     "gst-intermediary-services-export-section-13-8-b-omitted-30-march-2026.html": ["gstexp"],
@@ -276,7 +279,7 @@ TARGETS = {
     "india-data-localisation-rbi-dpdp-foreign-saas.html": ["sep", "dpdpstatus"],
     "dpdp-act-india-foreign-company-compliance-2026.html": ["sep", "dpdpstatus"],
     "nri-inheritance-indian-property-tax-fema-2026.html": ["agri", "inhp", "cgcalc", "fwill", "frentcalc"],
-    "inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html": ["agri", "inhp", "fwill", "nro2nre"],
+    "inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html": ["agri", "inhp", "fwill", "nro2nre", "giftpar"],
     "best-ca-for-nri-tax-return-filing-india-2026.html": ["rent", "epf", "nrisal", "whichitr"],
     "nri-taxation-india-complete-guide.html": ["rent", "epf", "nrisal", "nrippf", "nrigold", "movingabroad", "nribonds", "nrielig"],
     "nri-tax-services-worldwide-by-country.html": ["rent", "movingabroad", "nristatus", "nripension", "nrigold"],
@@ -440,7 +443,7 @@ TARGETS = {
     "moving-abroad-from-india-becoming-nri-checklist-savings-account-to-nro-demat-mutual-funds-tax-2026.html": ["nristatus", "nro2nre", "nrinps"],
     "india-entry-structure-chooser-subsidiary-llp-branch-liaison-eor-foreign-company-2026.html": ["bvscalc", "fcoprop", "tola26", "doingbiz", "pn2"],
     "get-capital-back-from-indian-subsidiary-dividend-buyback-capital-reduction-tax-2026.html": ["bvscalc", "fcoitr"],
-    "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html": ["lrs50"],
+    "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026.html": ["lrs50", "giftpar"],
     "gift-city-for-nri-investment-fd-funds-insurance-tax-2026.html": ["nribonds"],
     "can-nri-buy-gold-in-india-physical-digital-gold-etf-sgb-tax-repatriation-2026.html": ["nribonds"],
     "what-is-pfic.html": ["ukmf", "investabroad"],
@@ -510,7 +513,7 @@ TARGETS = {
     "ca-for-nri-tax-return-filing.html": ["uaep", "rent", "nrisal", "nreabroad", "whichitr", "fnye", "fnshares", "fnrocalc", "frentcalc"],
     "house-flat-property-abroad-not-in-schedule-fa-fast-ds-returning-nri.html": ["uaep", "fastdssupp"],
     "nri-money-transfer-questions-answered-uk-usa-canada-australia-2026.html": ["jacct", "nro2nre"],
-    "nri-gift-indian-relatives-section-56-fema-2026.html": ["jacct", "agri", "ftrip"],
+    "nri-gift-indian-relatives-section-56-fema-2026.html": ["jacct", "agri", "ftrip", "giftpar"],
     "best-ca-section-44ad-44ada-presumptive-scheme-india.html": ["fwal"],
     "fast-ds-vs-revised-return-vs-updated-return-itr-u.html": ["fdlim", "fwal", "fastdsfaq", "fastdsftc", "fastdssupp"],
     "fema-export-rules-1-october-2026-nine-month-realisation-edf-services.html": ["fwal", "fedf"],
@@ -531,10 +534,10 @@ TARGETS = {
     "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["retguides", "canret", "uaeret", "jacct", "fprop", "fdpay", "f40", "fins", "fastdssupp"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins", "fastdssupp", "nrisen"],
     "residential-status-calculator-india-nri-rnor-section-6.html": ["uaedr", "retguides", "uaeret", "ussec", "f40", "fnye", "ftrip", "movingabroad"],
-    "lrs-tcs-calculator.html": ["usstk", "tcsref", "lrs50"],
-    "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref", "lrs50"],
+    "lrs-tcs-calculator.html": ["usstk", "tcsref", "lrs50", "giftpar"],
+    "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref", "lrs50", "giftpar"],
     "year-end-lrs-tcs-20-planning-october-march-2026-27.html": ["tcsref", "lrs50"],
-    "parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html": ["tcsref", "lrs50"],
+    "parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html": ["tcsref", "lrs50", "giftpar"],
 }
 n = 0
 for f, marks in TARGETS.items():

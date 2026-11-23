@@ -665,3 +665,6 @@ section.svc-hero h1.h1-xlong{font-size:clamp(21px,2.1vw,29px);line-height:1.16;l
   section.svc-hero h1.h1-long{font-size:22px}
   section.svc-hero h1.h1-xlong{font-size:20px}
 }
+/* The "Talk to a CA" hint is a link to book-a-call (Clarity showed dead clicks on it) */
+a.bqp-cta-fab__hint{text-decoration:none;cursor:pointer}
+a.bqp-cta-fab__hint:hover{color:var(--red);border-color:var(--red)}

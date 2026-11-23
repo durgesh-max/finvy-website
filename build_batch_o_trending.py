@@ -351,7 +351,7 @@ write_page("us-green-card-holder-india-tax-complete-2026", page(
          "</ul>"
          "<p><strong>Indian tax residence for green card holder</strong>:</p>"
          "<ul>"
-         "<li>Section 6: physically in India 182+ days in FY, OR 60+ days plus 365+ days in preceding 4 FYs.</li>"
+         "<li>Section 6: physically in India 182+ days in FY, OR 60+ days plus 365+ days in preceding 4 FYs. For an Indian citizen or person of Indian origin <strong>visiting</strong> India, the 60 days becomes 182 days, or 120 days if Indian income (other than from foreign sources) exceeds INR 15 lakh; in that 120-day case the person is resident but not ordinarily resident.</li>"
          "<li>If resident: global income taxable in India (subject to FTC and DTAA).</li>"
          "<li>If RNOR: India-source + foreign business controlled from India + professional set up in India.</li>"
          "<li>If NRI: India-source only.</li>"
@@ -403,7 +403,7 @@ write_page("us-green-card-holder-india-tax-complete-2026", page(
     ],
     faqs=[
         ("Does a US green card holder need to file Indian ITR?",
-         "Only if (a) physically Indian tax resident (182+ days in FY, or 60+/365+ test), OR (b) India-source income exceeds basic exemption limit (currently INR 3 lakh for NRIs). Most green card holders residing in US are Indian NRIs - file Indian ITR only if India rental / Indian capital gains / Indian bank interest triggers filing threshold. Green card holders physically in India for extended periods become Indian residents - full worldwide income disclosure in Indian ITR."),
+         "Only if (a) physically Indian tax resident (182+ days in FY; for a visiting green card holder of Indian origin the 60-day test becomes 182 days, or 120 days where Indian income exceeds INR 15 lakh), OR (b) India-source income exceeds basic exemption limit (INR 4 lakh under the new regime, INR 2.5 lakh under the old; non-residents get no rebate). Most green card holders residing in US are Indian NRIs - file Indian ITR only if India rental / Indian capital gains / Indian bank interest triggers filing threshold. Green card holders physically in India for extended periods become Indian residents - full worldwide income disclosure in Indian ITR."),
         ("How does the India-US DTAA help a green card holder?",
          "Prevents double taxation via Foreign Tax Credit (FTC) + reduced treaty rates on specific income types. Article 4 tie-breaker determines treaty residence if dual resident. Treaty rates: dividend 15% (25% ownership) / 25% (otherwise); royalty 10-15%; FTS 10-15%. Both India and US must honour treaty rates per their domestic law. TRC + Form 10F required for Indian treaty claim."),
         ("Is Indian PF (Provident Fund) taxable to a US green card holder?",

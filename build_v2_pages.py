@@ -65,7 +65,7 @@ FOOTER = """<footer class="footer">
       <div class="footer-bottom">
         <span>&copy; 2026 Bharat Quantum Prospera. All rights reserved.</span>
         <span>Ahmedabad &middot; Est. in Practice</span>
-      <span><a href="privacy.html" style="color:inherit;text-decoration:underline">Privacy and cookies</a></span></div>
+      <span><a href="all-guides.html" style="color:inherit;text-decoration:underline">All guides</a> &middot; <a href="privacy.html" style="color:inherit;text-decoration:underline">Privacy and cookies</a></span></div>
     </div>
   </div>
 </footer>"""

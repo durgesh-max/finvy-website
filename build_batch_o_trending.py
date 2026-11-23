@@ -275,7 +275,7 @@ write_page("oci-cardholder-tax-india-complete-2026", page(
          "</ul>"
          "<p><strong>Indian tax residence is determined by Section 6 Income Tax Act</strong>:</p>"
          "<ul>"
-         "<li>Resident: physically in India for 182+ days in FY, OR 60+ days in FY plus 365+ days in preceding 4 FYs.</li>"
+         "<li>Resident: in India for 182 days or more in the year, or 60 days or more plus 365 days in the previous four years. For an OCI holder or Indian citizen <strong>visiting</strong> India, the 60 days becomes 182 days, or 120 days if Indian income (other than from foreign sources) exceeds INR 15 lakh; in that 120-day case the person is resident but not ordinarily resident.</li>"
          "<li>Non-Resident (NRI): neither test satisfied.</li>"
          "<li>RNOR (Resident but Not Ordinarily Resident): resident this FY but non-resident for 9+ of 10 preceding FYs, OR physically in India &lt;= 729 days in 7 preceding FYs. See our <a href='nri-residential-status-rnor-india.html'>RNOR guide</a>.</li>"
          "</ul>"
@@ -292,41 +292,41 @@ write_page("oci-cardholder-tax-india-complete-2026", page(
          "<li><strong>Indian bank account</strong>: NRO (for Indian income - rent, dividend, interest), NRE (for foreign source - repatriable), FCNR (foreign currency fixed deposit, repatriable). Not regular savings (that's for residents).</li>"
          "<li><strong>Indian property</strong>: OCI can purchase residential / commercial property (not agricultural). Rental income taxable in India (standard deduction 30% + municipal tax + interest on home loan deduction).</li>"
          "<li><strong>Indian mutual fund / shares</strong>: via NRO or NRE demat. Capital gain on sale: LTCG 12.5% (post Finance Act 2024) or STCG 20% for listed equity. Interest / dividend taxable.</li>"
-         "<li><strong>Indian ITR filing</strong>: mandatory if India-source income exceeds basic exemption (currently INR 3 lakh for NRIs). ITR-2 or ITR-3 depending on nature.</li>"
+         "<li><strong>Indian ITR filing</strong>: mandatory if India-source income exceeds basic exemption (INR 4 lakh under the new regime, INR 2.5 lakh under the old; non-residents cannot use the rebate that makes resident income up to INR 12 lakh tax-free). ITR-2 or ITR-3 depending on nature.</li>"
          "<li><strong>Form 10F + TRC</strong>: for DTAA treaty rate claim. See <a href='nri-form-10f-e-filing-mandatory-india-2026.html'>Form 10F guide</a>.</li>"
          "<li><strong>Section 54 reinvestment</strong>: available on sale of Indian property (same rules as resident).</li>"
          "<li><strong>Repatriation</strong>: up to USD 1M/year from NRO under FEMA; unlimited from NRE / FCNR.</li>"
          "</ul>"),
         ("/ Specific OCI complications in 2026", "Current traps.",
          "<ul>"
-         "<li><strong>PAN requirement</strong>: OCI typically needs Indian PAN for ITR filing, property purchase, financial transactions above INR 2.5 lakh. Apply via Form 49AA (NRI PAN).</li>"
+         "<li><strong>PAN requirement</strong>: OCI typically needs Indian PAN for ITR filing, property purchase, financial transactions above INR 2.5 lakh. Apply in Form 95 (formerly Form 49AA), the PAN form for foreign citizens including OCI cardholders.</li>"
          "<li><strong>PAN-Aadhaar linking</strong>: NRIs are EXEMPT from mandatory PAN-Aadhaar linking (Notification 37/2017). OCI should ensure PAN is marked NRI in database. See our <a href='nri-pan-aadhaar-linking-exemption-rules.html'>PAN-Aadhaar guide</a>.</li>"
-         "<li><strong>Deemed resident under Section 6(1A)</strong>: Indian citizen or OCI stay in India &gt; 120 days (if India income &gt; INR 15 lakh) treated as deemed resident but RNOR &mdash; narrow trap for high-income OCIs with substantial Indian income.</li>"
+         "<li><strong>The 120-day rule</strong>: an OCI holder visiting India with Indian income above INR 15 lakh becomes resident, but not ordinarily resident, after 120 days in India in the year if they also spent 365 days in India in the previous four years. The separate &lsquo;deemed resident&rsquo; rule in section 6(1A) applies only to Indian citizens not taxed in any other country, so it does not apply to OCI holders, who are foreign citizens.</li>"
          "<li><strong>US estate tax</strong>: if OCI is US tax person, worldwide assets (including Indian) in US estate. See <a href='nri-us-estate-tax-indian-assets.html'>US estate tax guide</a>.</li>"
          "<li><strong>FBAR + Form 8938</strong>: US tax person with foreign financial accounts must report. India NRO / NRE / MF holdings disclosable.</li>"
          "<li><strong>LRS on Indian income</strong>: cannot use LRS as OCI (LRS is for Indian residents only). Repatriation of Indian income via NRO - USD 1M/year route instead.</li>"
          "</ul>"
-         "<p><em>Last updated: 2026-10-15.</em></p>"),
+         "<p><em>Last updated: 2026-11-23.</em></p>"),
     ],
     faqs=[
         ("Does OCI card make me an Indian tax resident?",
-         "No - OCI is an immigration document, not a tax status. Indian tax residence is determined solely by Section 6 Income Tax Act physical presence tests (182+ days in FY, or 60+ days + 365+ days in preceding 4 FYs). Most OCI holders residing abroad maintain NRI status; only short visitors to India stay NRI by default."),
-        ("What is deemed resident under Section 6(1A) for OCI holder?",
-         "Finance Act 2020 inserted Section 6(1A): Indian citizen or OCI who stays in India for more than 120 days (if India-source income > INR 15 lakh) is treated as deemed resident but with Not Ordinarily Resident (RNOR) status. Applies only to high-India-income OCIs - most ordinary OCI holders unaffected. Benefit: can be in India longer without triggering full Resident status, but with RNOR tax treatment."),
+         "No - OCI is an immigration document, not a tax status. Indian tax residence is determined solely by Section 6 Income Tax Act physical presence tests (182 days or more in the year; for a visiting OCI holder the 60-day test becomes 182 days, or 120 days where Indian income exceeds INR 15 lakh). Most OCI holders residing abroad maintain NRI status; only short visitors to India stay NRI by default."),
+        ("Does the 120-day rule or deemed residency apply to an OCI holder?",
+         "The 120-day rule can. Since the Finance Act 2020, an OCI holder or Indian citizen visiting India with Indian income above INR 15 lakh is resident, but not ordinarily resident, after 120 days in India in the year, if they also spent 365 days in India in the previous four years. Deemed residency under section 6(1A) applies only to Indian citizens who are not taxed in any other country, so it does not apply to OCI holders."),
         ("Can OCI holder buy agricultural land in India?",
          "No - OCI cannot buy agricultural / plantation / farmhouse. Can inherit (same as any NRI). Can purchase residential / commercial property freely. For agricultural land purchase, OCI must have RBI prior approval (rarely granted)."),
         ("Does OCI holder need to link PAN with Aadhaar?",
          "No - NRIs including OCI holders are EXEMPT from mandatory PAN-Aadhaar linking under CBDT Notification 37/2017. However, PAN database must correctly reflect NRI status; if PAN was issued when holder was resident and status changed to NRI, update required. Common issue - PAN marked as resident but holder is actually OCI/NRI results in PAN inoperative notice."),
         ("Does OCI holder need to file Indian ITR?",
-         "Only if India-source income exceeds basic exemption limit (currently INR 3 lakh for NRIs under old regime; INR 7 lakh income under new regime with Section 87A rebate). Income types that typically trigger ITR: Indian property rent, Indian capital gains, Indian bank interest above INR 10K, India salary. Even where ITR not mandatory, filing often beneficial to claim Section 195 TDS refund."),
+         "Only if India-source income exceeds basic exemption limit (INR 4 lakh under the new regime or INR 2.5 lakh under the old; the rebate that makes resident income up to INR 12 lakh tax-free is not available to non-residents). Income types that typically trigger ITR: Indian property rent, Indian capital gains, Indian bank interest above INR 10K, India salary. Even where ITR not mandatory, filing often beneficial to claim Section 195 TDS refund."),
         ("Does BQP handle OCI cardholder tax matters?",
-         "Yes - standard NRI advisory. Residential status determination, Section 6(1A) deemed resident analysis, Indian ITR filing, Section 195 TDS structuring, Form 10F + TRC, DTAA treaty rate, property purchase/sale coordination, FEMA repatriation, India-US estate tax integration. WhatsApp +91 78018 87130."),
+         "Yes - standard NRI advisory. Residential status determination including the 120-day rule, Indian ITR filing, Section 195 TDS structuring, Form 10F + TRC, DTAA treaty rate, property purchase/sale coordination, FEMA repatriation, India-US estate tax integration. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("nri-residential-status-rnor-india.html", "Guide", "NRI Residential Status"),
         ("nri-pan-aadhaar-linking-exemption-rules.html", "Guide", "PAN-Aadhaar Rules"),
     ],
-    cta_headline="OCI card doesn't change tax residence &mdash; but Section 6(1A) can.",
+    cta_headline="OCI card doesn't change tax residence &mdash; days in India and Indian income do.",
     cta_body="Residential status + ITR filing + property / investment tax + FEMA repatriation. BQP: scope-based engagement for OCI holders in US / UK / UAE / Singapore / EU / Australia / Canada.",
 ))
 

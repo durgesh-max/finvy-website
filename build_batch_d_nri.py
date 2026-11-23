@@ -151,7 +151,7 @@ write_page("nri-residential-status-rnor-india", page(
          "<li>182-day test: not met (135 &lt; 182).</li>"
          "<li>60/365-day test: 135 days &gt; 60. Preceding 4 years cumulative: minimal visits, say 100 days. 100 &lt; 365 &mdash; test not met.</li>"
          "<li>Status: still NRI for this year.</li>"
-         "<li>Next year: full 365 days in India &mdash; Resident. 10-year lookback: non-resident in 8+ of past 10 years &mdash; passes RNOR carve-out. Status: <strong>RNOR</strong> for 2-3 years before transitioning to ROR.</li>"
+         "<li>Next year: full 365 days in India &mdash; Resident. Lookback: non-resident in 9 of the 10 preceding years (or in India 729 days or less in the 7 preceding years) &mdash; RNOR. Status: <strong>RNOR</strong> for 2-3 years before transitioning to ROR.</li>"
          "</ul>"),
         ("/ Common mistakes", "Where NRIs trip up on their own residency.",
          "<ul>"
@@ -166,7 +166,7 @@ write_page("nri-residential-status-rnor-india", page(
         ("Is Day 1 of arrival in India counted as 'present in India'?",
          "Yes. Both the arrival day and the departure day are counted as days present in India under CBDT guidance. A single-day round trip (arrive at 2am, leave at 11pm the same day) still counts as 1 day."),
         ("What if I accidentally stay over 182 days in a year as an NRI?",
-         "You become Resident for that year. If your 10-year lookback still shows non-residence in 9 of 10 years, you are RNOR &mdash; still taxed on India-source only. If the 10-year lookback has flipped (you've been Resident 2+ times in the past 10 years), you become ROR &mdash; worldwide income taxable."),
+         "You become Resident for that year. If your 10-year lookback still shows non-residence in 9 of 10 years, you are RNOR &mdash; still taxed on India-source only. You become ROR (worldwide income taxable) only if you were also resident in at least 2 of the 10 preceding years AND in India for 730 days or more in the 7 preceding years; if either test fails, you are RNOR."),
         ("Can I claim NRI status after returning to India permanently?",
          "No, not for the year of return and onward, if your day-count makes you Resident. However, RNOR status (preserving India-source-only taxation) typically applies for 2-3 years post-return. Plan the transition carefully &mdash; sell appreciated foreign assets, convert foreign retirement accounts during RNOR."),
         ("Is Section 6(1A) still relevant after UAE Corporate Tax?",

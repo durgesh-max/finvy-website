@@ -71,7 +71,7 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
         ("What is the new LTCG rate in India from October 2026?",
          "12.5% without indexation across most asset classes (listed equity, unlisted equity, property, bonds, debentures) for transfers on or after 23 July 2024. Pre-July-2024 acquisitions retain the choice of 20% with indexation for grandfathered holdings. STCG on listed equity is 20% (up from 15%)."),
         ("Did Finance Act 2024 remove indexation entirely?",
-         "For new acquisitions (on or after 23 July 2024), yes - no indexation available. For pre-July-2024 acquisitions sold after that date, the taxpayer can choose between 20% with indexation and 12.5% without indexation on a per-transaction basis. The lower option wins."),
+         "For new acquisitions (on or after 23 July 2024), yes - no indexation available. For assets acquired before 23 July 2024 and sold after it, only land or buildings held by a resident individual or HUF keep a choice between 20% with indexation and 12.5% without, per transaction (the lower tax applies). Shares, bonds, gold and all assets of non-residents pay 12.5% without indexation."),
         ("Is the LTCG exemption on listed equity still INR 1 lakh?",
          "No - raised to INR 1.25 lakh per year per taxpayer effective 23 July 2024. Gains up to INR 1.25 lakh on listed equity (NSE/BSE direct or via equity mutual funds) are exempt."),
         ("What is the buyback tax change effective October 2024?",

@@ -71,6 +71,7 @@ PAGES.append(dict(
     faqs=[
         ("Can a chartered accountant file FAST-DS for me?", "Yes. We review your residential status and records, determine the category, value the assets, file Form 1, and manage payment and the final certificate. " + CONTACT),
         ("What is the last date for FAST-DS 2026?", "31 December 2026 for filing the declaration. Payment follows the order issued after the declaration."),
+        ("Will the FAST-DS deadline be extended beyond 31 December 2026?", "No extension has been announced (checked 24 November 2026). The rules allow Form 1 to be filed only up to 31 December 2026, and the department's FAQs say no declaration can be filed after that date. Plan to file well before it: valuation and residence checks take time."),
         ("How much does FAST-DS cost in tax?", "Category 1: 60% of the value of undisclosed foreign assets (as on 31 March 2026) and undisclosed foreign income, if the total is INR 1 crore or less. Category 2: a fee of INR 1 lakh for assets bought from explained income but not reported in the foreign-assets schedule, if the asset value is INR 5 crore or less."),
         ("Is the amount paid under FAST-DS refundable?", "No. Section 138 of the scheme says no amount paid is refundable, so check the category before filing."),
         ("What immunity does FAST-DS give?", "A valid declaration with payment gives immunity from further tax, penalty and prosecution under the Black Money Act for the declared income or asset, for years up to 2025-26 (section 139)."),

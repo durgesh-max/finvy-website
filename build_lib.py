@@ -153,6 +153,7 @@ def article_schema(slug, title, desc):
         "dateModified": "2026-10-06",
         "author": {
             "@type": "Person",
+            "@id": f"{DOMAIN}/#durgesh",
             "name": "CA Durgesh Chavda",
             "url": f"{DOMAIN}/durgesh.html",
             "jobTitle": "Founder & Managing Partner, Bharat Quantum Prospera",
@@ -162,11 +163,12 @@ def article_schema(slug, title, desc):
                 "name": "Chartered Accountant (ICAI, India)"
             }],
             "worksFor": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN},
-            "sameAs": ["https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/"],
+            "sameAs": ["https://www.linkedin.com/in/ca-durgesh-chavda-bb08a6b0/", "https://www.durgeshchavda.com/", "https://topmate.io/cadurgesh_chavda"],
             "knowsAbout": ["NRI taxation", "US incorporation", "Delaware C-Corp", "Transaction due diligence", "Forensic audit", "Answer engine optimization (AEO)", "India-US DTAA", "FEMA ODI", "Cross-border tax", "Transfer pricing", "SME IPO"]
         },
         "publisher": {
             "@type": "AccountingService",
+            "@id": f"{DOMAIN}/#organization",
             "name": "Bharat Quantum Prospera",
             "url": DOMAIN,
             "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/og-cover.png"}

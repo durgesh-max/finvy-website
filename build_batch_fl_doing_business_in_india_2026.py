@@ -27,7 +27,7 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
-A.UPDATED = "Last updated: 22 November 2026."
+A.UPDATED = "Last updated: 23 November 2026."
 SLUG = "doing-business-in-india-2026-guide-for-foreign-companies-entity-tax-fdi-compliance-repatriation"
 
 C = contact("your company, its country, what you want to do in India (sell, hire, manufacture, buy a company, set up a capability centre), your timeline and two or three time slots with your time zone")
@@ -38,7 +38,7 @@ PAGES = [dict(
     em="the facts in one place, and who to call.",
     kicker="/ Foreign companies &middot; India entry &middot; Updated 2026-11-22",
     lead=("<strong>Most foreign companies do business in India through a wholly owned Indian private limited company.</strong> "
-          "Foreign ownership of 100% is allowed without approval in most sectors. Investors from countries that share a land border with India, and a few capped sectors, need government approval first. "
+          "Foreign ownership of 100% is allowed without approval in most sectors. Investors from countries that share a land border with India, and a few capped sectors, need government approval first; since Press Note 2 of 2026, land-border ownership within 10% and non-controlling no longer triggers it. "
           "The company pays <strong>about 25% tax</strong> under the 22% regime; a foreign company&rsquo;s branch pays <strong>35% plus surcharge and cess</strong>. "
           "Dividends, royalties and service fees paid abroad carry Indian withholding tax of 20% plus surcharge and cess, usually cut to <strong>5% to 15%</strong> by a tax treaty. "
           "Every company needs <strong>a director resident in India</strong>, a statutory audit, an annual tax return and RBI reporting of foreign investment. "
@@ -48,7 +48,7 @@ PAGES = [dict(
         ("/ India at a glance for a foreign company", "Key facts, 2026.",
          table(["Topic", "The position in 2026", "Detail"], [
              ["Usual vehicle", "Wholly owned private limited company (subsidiary)", L("india-entry-structure-chooser-subsidiary-llp-branch-liaison-eor-foreign-company-2026.html", "Entry structure chooser")],
-             ["Foreign ownership", "100% under the automatic route in most sectors; government approval for land-border countries and capped sectors", L("fdi-rules-india-2026-automatic-government-route-reporting-draft-foreign-investment-rules.html", "FDI rules 2026")],
+             ["Foreign ownership", "100% under the automatic route in most sectors; government approval for capped sectors and for investors from countries sharing a land border (since Press Note 2 of 2026, not where that ownership is within 10% and non-controlling)", L("fdi-rules-india-2026-automatic-government-route-reporting-draft-foreign-investment-rules.html", "FDI rules 2026") + " &middot; " + L("press-note-2-2026-fdi-land-border-countries-china-10-percent-60-day-approval.html", "Press Note 2")],
              ["Directors", "At least two for a private company, one resident in India (182 days or more in the previous calendar year)", L("can-foreign-national-register-company-in-india-how-long-documents-resident-director-2026.html", "Registering as a foreigner")],
              ["Corporate tax", "22% regime: about 25.17% effective. Branch of a foreign company: 35% plus surcharge and cess", L("branch-vs-subsidiary-india-tax-calculator-foreign-company-35-percent-vs-25-percent-dividend-treaty-2026.html", "Branch vs subsidiary calculator")],
              ["Withholding on payments abroad", "20% plus surcharge and cess on royalty, technical fees, interest and dividends; treaty rate usually 5% to 15% with a tax residency certificate and Form 41", L("tds-on-payment-to-foreign-company-calculator-royalty-fts-interest-dividend-treaty-rates-2026.html", "TDS calculator")],
@@ -85,7 +85,7 @@ PAGES = [dict(
          + '<p>Related: ' + L("india-market-entry-foreign-company-guide.html", "India market entry playbook") + ' &middot; ' + L("foreign-company-india-advisor-market-research-entity-due-diligence-m-and-a-joint-venture-2026.html", "advisor for foreign companies") + ' &middot; ' + L("gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html", "capability centres") + ' &middot; ' + L("india-free-trade-agreements-2026-uk-eu-efta-uae-oman-australia-new-zealand-foreign-companies.html", "trade agreements") + ' &middot; ' + L("does-foreign-company-need-to-file-income-tax-return-in-india-royalty-fees-dividend-capital-gains-itr-6-2026.html", "does the parent file an Indian return?") + ' &middot; ' + L("close-company-in-india-strike-off-stk-2-procedure-restore-foreign-subsidiary-2026.html", "closing a subsidiary") + '.</p>'
          + sources("Companies Act, 2013 (section 149(3) on resident directors); Foreign Exchange Management (Non-debt Instruments) Rules, 2019 and the consolidated FDI policy including Press Note 3 (2020); RBI directions on reporting (FC-GPR, FLA) and on offices of foreign entities; Income-tax Act, 2025 and the Income Tax Department withholding-rate table; Finance Act, 2025 (equalisation levy); DPDP Rules, 2025; Taxation and Other Laws (Amendment) Act, 2026. Each figure is sourced in detail on the linked page. Checked 22 November 2026.")),
     ],
-    faqs=[("Can a foreign company own 100% of an Indian company?", "Yes, in most sectors under the automatic route without prior approval. Investors from countries sharing a land border with India, and some capped or regulated sectors, need government approval first."),
+    faqs=[("Can a foreign company own 100% of an Indian company?", "Yes, in most sectors under the automatic route without prior approval. Investors from countries sharing a land border with India, and some capped or regulated sectors, need government approval first; under Press Note 2 of 2026, an investor whose land-border beneficial ownership is within 10% and non-controlling can use the automatic route."),
           ("What is the best way for a foreign company to start doing business in India?", "For selling, hiring or building a team, usually a wholly owned private limited company. An employer of record suits a few early hires, and a liaison office suits representation without income."),
           ("What is the corporate tax rate in India for a foreign company?", "An Indian subsidiary under the 22% regime pays about 25.17% including surcharge and cess. A branch of a foreign company pays 35% plus surcharge and cess."),
           ("Does an Indian subsidiary need an Indian director?", "It needs at least one director who stayed in India for 182 days or more in the previous calendar year. A private company needs at least two directors in total."),

@@ -561,7 +561,7 @@ PAGES = [
             ("/ Direct Tax (Income Tax Act 1961)", "Core sections every finance team should know.",
              "<ul>"
              "<li><strong>Section 6</strong>: residence determination (182 days / 60+365 test).</li>"
-             "<li><strong>Section 6(1A)</strong>: deemed resident for Indian citizen/OCI (120 days + INR 15L India income).</li>"
+             "<li><strong>Section 6(1A)</strong>: deemed resident for an Indian citizen with Indian income above INR 15 lakh who is not taxed in any other country (citizens only, not OCI holders). Separately, an Indian citizen or OCI holder visiting India with Indian income above INR 15 lakh is resident, but not ordinarily resident, after 120 days plus 365 days in the previous four years.</li>"
              "<li><strong>Section 10(1)</strong>: agricultural income exemption.</li>"
              "<li><strong>Section 10(4D)</strong>: GIFT City IFSC specified income exemption.</li>"
              "<li><strong>Section 10(13A)</strong>: HRA exemption for salaried.</li>"

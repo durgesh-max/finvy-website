@@ -371,13 +371,13 @@ PAGES = [
              "<li>CGAS deposit must be utilised for actual property purchase/construction within 2/3 year window from original sale date.</li>"
              "<li>If unused: exemption clawed back + deemed capital gain in year of lapse of window.</li>"
              "</ul>"),
-            ("/ Section 54F + Section 54EC combination", "For large exits.",
+            ("/ Large exits", "Why 54EC bonds do not help.",
              "<ul>"
-             "<li>Large ESOP exit (INR 1 crore+ LTCG): combination optimises.</li>"
-             "<li>Section 54EC INR 50 lakh in bonds (REC/NHAI/PFC/IRFC) within 6 months - specific portion in bonds.</li>"
-             "<li>Section 54F balance consideration in residential property.</li>"
-             "<li>Both exemptions claimed simultaneously.</li>"
-             "<li>Example: INR 2 crore LTCG → INR 50 lakh in 54EC + INR 1.5 crore in 54F residential property = full exemption possible.</li>"
+             "<li>Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings.</li>"
+             "<li>Gains on ESOP shares therefore cannot go into 54EC bonds.</li>"
+             "<li>Section 54F: invest the net sale consideration in one residential house in India (proportionate exemption if less is invested).</li>"
+             "<li>If no house is bought, the gain is taxed: 12.5% on listed shares above the INR 1.25 lakh exemption.</li>"
+             ""
              "</ul>"),
             ("/ BQP urgent ESOP exit engagement", "What we deliver.",
              "<ul>"
@@ -385,7 +385,7 @@ PAGES = [
              "<li>Section 48 capital gain + Section 17(2) perquisite basis reconciliation.</li>"
              "<li>Section 54F eligibility verification + property identification.</li>"
              "<li>CGAS deposit coordination if investment delayed.</li>"
-             "<li>Section 54F + 54EC combination strategy.</li>"
+             "<li>Section 54F investment planning.</li>"
              "<li>Property purchase coordination (specific real estate agent + legal counsel partners).</li>"
              "<li>Form 10E salary arrears relief if ESOP perquisite spans multiple AYs.</li>"
              "<li>ITR filing with Section 54F exemption claim + specific documentation.</li>"
@@ -401,17 +401,17 @@ PAGES = [
              "54F requires FULL net consideration investment, not just gain. Example: ESOP sold for INR 5 crore, LTCG INR 4 crore. For 54F full exemption: must invest INR 5 crore (not INR 4 crore) in residential property. If invest only INR 4 crore: proportional exemption on INR 4 crore gain = 4/5 × 4 crore = INR 3.2 crore exempt. Specific proportion matters."),
             ("What if I can't invest within 2/3 year window?",
              "Deposit net consideration in Capital Gain Account Scheme (CGAS) by 31 July of ITR year. CGAS deposit counts as 'invested' for exemption. Must use CGAS deposit for actual property within 2/3 year window from original sale date. Unused CGAS lapses + taxed as deemed capital gain. 31 July ITR filing deadline is critical."),
-            ("Can I combine 54F + 54EC for large ESOP exit?",
-             "Yes - standard strategy. INR 50 lakh in Section 54EC bonds (max limit) + balance in residential property under Section 54F. Both exemptions claimed simultaneously. For INR 1 crore+ LTCG: combination maximises exemption + diversifies risk vs single-property dependency."),
+            ("Can I use 54EC bonds for an ESOP exit?",
+             "No. Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings. For ESOP share gains the only reinvestment exemption is Section 54F (one residential house in India)."),
             ("Does BQP handle ESOP exit + 54F end-to-end?",
-             "Yes - specialist practice. ESOP exit tax computation + Section 54F eligibility + property identification + CGAS deposit + Section 54F + 54EC combination + Form 10E + ITR with exemption claim + NRI LDC coordination + 3-year lock-in monitoring. Co-ordinated with real estate + legal partners. WhatsApp +91 78018 87130."),
+             "Yes - specialist practice. ESOP exit tax computation + Section 54F eligibility + property identification + CGAS deposit + Form 10E + ITR with exemption claim + NRI LDC coordination + 3-year lock-in monitoring. Co-ordinated with real estate + legal partners. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("ca-for-section-54f-esop-exercise-sale-reinvestment-india.html", "Related", "ESOP + 54F Full Guide"),
                           ("best-ca-section-54f-capital-gain-reinvestment-india.html", "Related", "Best CA for 54F")],
         "cta_h": "Large ESOP exit + Section 54F reinvestment planning?",
-        "cta_b": "LTCG computation + 54F reinvestment + CGAS deposit + 54EC combination + ITR filing. BQP urgent engagement. WhatsApp +91 78018 87130.",
+        "cta_b": "LTCG computation + 54F reinvestment + CGAS deposit + ITR filing. BQP urgent engagement. WhatsApp +91 78018 87130.",
         "keywords": "ESOP exit tax surprise Section 54F reinvestment urgent India, ESOP sale LTCG 54F urgent CA, ESOP IPO exit CGAS CA India",
-        "desc": "ESOP exit tax surprise Section 54F reinvestment urgent India: LTCG on ESOP sale (Section 112A 12.5% listed), Section 54F reinvestment conditions (full net consideration in ONE Indian residential property, 2/3 year window, no multiple properties, 3-year lock-in), CGAS deposit if delayed, Section 54F + 54EC combination for large exits. CA Durgesh Chavda specialist ESOP exit practice.",
+        "desc": "ESOP exit tax surprise Section 54F reinvestment urgent India: LTCG on ESOP sale (Section 112A 12.5% listed), Section 54F reinvestment conditions (full net consideration in ONE Indian residential property, 2/3 year window, no multiple properties, 3-year lock-in), CGAS deposit if delayed; 54EC bonds do not apply to share gains. CA Durgesh Chavda specialist ESOP exit practice.",
     },
     {
         "slug": "foreign-client-form-15cb-urgent-same-day-india",

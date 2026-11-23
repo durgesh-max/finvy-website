@@ -538,7 +538,7 @@ PAGES = [
              "<li><strong>Series A startup employee</strong>: ESOP granted at low FMV, exercised at vesting (perquisite tax at exercise price - FMV at exercise), later sale at IPO / M&A / secondary (LTCG + Section 54F reinvestment).</li>"
              "<li><strong>US-HQ Indian subsidiary employee</strong>: ESOP in US parent (Delaware C-Corp) - specific tax treatment under Section 17(2) at exercise + Section 48 at sale + Section 54F applicability.</li>"
              "<li><strong>Vest + exercise + sale over 2-3 years</strong>: multiple sale events, each potentially 54F-eligible if separate residential property reinvestment feasible.</li>"
-             "<li><strong>Combined with Section 54EC bonds</strong>: specific portion in bonds (INR 50 lakh limit) + balance in residential under 54F. Common strategy for large exits.</li>"
+             "<li><strong>Section 54EC bonds do not apply</strong>: Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings, so gains on ESOP shares need Section 54F (or the tax is paid).</li>"
              "</ul>"),
             ("/ Our scope + process", "Integrated engagement.",
              "<ul>"
@@ -547,7 +547,7 @@ PAGES = [
              "<li>Capital gain computation on sale: Section 48 + Section 55 cost basis including perquisite value.</li>"
              "<li>Section 54F eligibility verification + reinvestment property identification.</li>"
              "<li>Capital Gain Account Scheme (CGAS) deposit if reinvestment delayed - 31 July next year deadline.</li>"
-             "<li>Section 54F + Section 54EC combination for large exits.</li>"
+             "<li>Section 54F planning for large exits (54EC bonds are not available for share gains).</li>"
              "<li>ITR filing with Section 54F exemption claim + specific documentation.</li>"
              "<li>For NRI employees: LDC under Section 197 to reduce Section 195 TDS on sale.</li>"
              "</ul>"
@@ -558,17 +558,17 @@ PAGES = [
              "Yes - ESOP (listed or unlisted shares) is 'long-term capital asset other than residential property'. If held > 12 months (listed) or 24 months (unlisted) + sold: LTCG qualifies for Section 54F reinvestment exemption. Net consideration (not just gain) must be invested in ONE residential property in India within 2/3 year window."),
             ("What's taxed at ESOP exercise vs sale?",
              "Exercise: Section 17(2) perquisite - FMV at exercise minus exercise price = perquisite value, taxed at slab rate as salary. Employer deducts Section 192 TDS. Sale: Section 48 capital gain - sale price minus (exercise price + perquisite value) = capital gain. LTCG 12.5% (listed) or specific rate (unlisted). Section 54F reinvestment can exempt the capital gain portion."),
-            ("Can Section 54F + Section 54EC be combined for large ESOP exit?",
-             "Yes - common strategy. Example: INR 2 crore LTCG from ESOP sale → INR 50 lakh in Section 54EC bonds (max limit) + balance INR 1.5 crore invested in residential property under Section 54F. Both exemptions can be claimed simultaneously. Significantly reduces tax on large ESOP exit."),
+            ("Can Section 54EC bonds be used for an ESOP exit?",
+             "No. Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings. Gains on ESOP shares can be exempted only under Section 54F, by investing the net sale consideration in one residential house in India within the time limits; otherwise the gain is taxed (12.5% on listed shares above the INR 1.25 lakh exemption)."),
             ("Does ESOP in US parent qualify for Section 54F?",
              "Specific analysis needed. If employee is Indian tax resident + sells US parent shares: Section 48 capital gain + treaty relief under India-US DTAA. Section 54F requires reinvestment in INDIAN residential property - foreign residential property doesn't qualify. For dual-tax situation (US tax person): coordinated with US capital gain + Form 1116 FTC."),
             ("Does BQP handle ESOP + Section 54F end-to-end?",
-             "Yes - specialist practice. Pre-exercise planning + Section 17(2) perquisite computation + Section 192 TDS structuring + Section 48 capital gain computation + Section 54F eligibility + reinvestment property identification + CGAS deposit coordination + Section 54F + 54EC combination + ITR filing + Form 10E salary arrears relief + NRI LDC coordination. Standard engagement for ESOP exercise + sale events. WhatsApp +91 78018 87130."),
+             "Yes - specialist practice. Pre-exercise planning + Section 17(2) perquisite computation + Section 192 TDS structuring + Section 48 capital gain computation + Section 54F eligibility + reinvestment property identification + CGAS deposit coordination + ITR filing + Form 10E salary arrears relief + NRI LDC coordination. Standard engagement for ESOP exercise + sale events. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("best-ca-section-54f-capital-gain-reinvestment-india.html", "Related", "Section 54F Full Guide"),
                           ("best-ca-esop-valuation-409a-rule-11ua-india.html", "Related", "ESOP Valuation CA")],
         "cta_h": "ESOP exercise + sale with Section 54F reinvestment planning?",
-        "cta_b": "Section 17(2) perquisite + Section 48 capital gain + Section 54F reinvestment + Section 54EC combination + ITR. BQP integrated engagement.",
+        "cta_b": "Section 17(2) perquisite + Section 48 capital gain + Section 54F reinvestment + ITR. BQP integrated engagement.",
         "keywords": "CA Section 54F ESOP exercise sale reinvestment India, ESOP capital gain reinvestment CA, Section 17 2 perquisite ESOP CA, Section 54F ESOP CA India",
         "desc": "CA for Section 54F ESOP exercise + sale + reinvestment India: two-stage ESOP taxation (Section 17(2) perquisite at exercise + Section 48 capital gain at sale), Section 54F applicability for ESOP sale LTCG, specific combinations (Section 54F + 54EC bonds for large exits), common scenarios (Series A employee + US-HQ Indian employee + multi-year vest). CA Durgesh Chavda ESOP + capital gain specialist.",
     },

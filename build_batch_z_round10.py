@@ -174,19 +174,19 @@ PAGES = [
         "slug": "which-section-54-vs-54f-vs-54ec-decision-tree-india",
         "title": "Which Section 54 vs 54F vs 54EC Decision Tree India",
         "hero_em": "capital gain reinvestment framework.",
-        "lead": "Capital gain reinvestment: Section 54 (residential-to-residential) vs Section 54F (any long-term-to-residential) vs Section 54EC (bonds). Different conditions + different exemption calculations + different windows. Post Finance Act 2024 LTCG 12.5% framework integration. Here's the BQP decision-tree framework for optimal capital gain exemption claim.",
+        "lead": "Capital gain reinvestment: Section 54 (residential-to-residential) vs Section 54F (any long-term-to-residential) vs Section 54EC (bonds, only for gains on land or buildings). Different conditions + different exemption calculations + different windows. Post Finance Act 2024 LTCG 12.5% framework integration. Here's the BQP decision-tree framework for optimal capital gain exemption claim.",
         "kicker": "/ Capital Gain Decision Tree &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ The 4-question decision tree", "Pick based on asset + goal.",
              "<p><strong>Q1: What's the asset being sold?</strong></p>"
              "<ul>"
              "<li>Residential property → Section 54 (if reinvesting in residential property) OR Section 54EC (if bonds OK) OR mix.</li>"
-             "<li>Non-residential asset (shares, MF, gold, commercial, land) → Section 54F (if reinvesting in residential property) OR Section 54EC (if bonds OK).</li>"
+             "<li>Land, plot or commercial property → Section 54F (if reinvesting in residential property) OR Section 54EC (if bonds OK). Shares, mutual funds, gold or crypto → Section 54F only: Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings.</li>"
              "</ul>"
              "<p><strong>Q2: Where do you want to reinvest?</strong></p>"
              "<ul>"
              "<li>Residential property in India + want full exemption → Section 54 (from residential) or Section 54F (from non-residential).</li>"
-             "<li>Bonds + want simpler + no property hassle → Section 54EC (any long-term asset to specific bonds).</li>"
+             "<li>Bonds + want simpler + no property hassle → Section 54EC (long-term gain on land or building only, invested in specified bonds).</li>"
              "<li>Multiple residential properties → only Section 54 permits two (with specific conditions); Section 54F allows only ONE.</li>"
              "</ul>"
              "<p><strong>Q3: What's the gain amount vs net consideration?</strong></p>"
@@ -210,7 +210,7 @@ PAGES = [
              "</ul>"),
             ("/ Section 54EC bonds specific", "The simpler option.",
              "<ul>"
-             "<li>Investment in specific bonds: REC (Rural Electrification Corporation), NHAI (National Highways Authority), PFC (Power Finance Corporation), IRFC (Indian Railway Finance Corporation).</li>"
+             "<li>Investment in bonds notified for Section 54EC, issued by public sector companies such as REC, PFC and IRFC (check which issues are open; the coupon has been about 5.25% a year and is taxable). Only long-term capital gains on land or buildings qualify.</li>"
              "<li>Investment within 6 months of asset transfer.</li>"
              "<li>Maximum INR 50 lakh per taxpayer per FY (cross-year ceiling).</li>"
              "<li>Lock-in 5 years.</li>"
@@ -234,11 +234,11 @@ PAGES = [
             ("What's the main difference between Section 54 and 54F?",
              "Section 54: residential property sold reinvested in residential property. Exempt amount = GAIN only. Section 54F: any long-term asset (NOT residential property) - shares, MF, gold, commercial, land - sold reinvested in residential property. Exempt amount proportional to NET CONSIDERATION invested (not just gain). 54F requires FULL consideration, not just gain."),
             ("Can I combine Section 54F + 54EC?",
-             "Yes - standard strategy for large gains. Example: INR 2 crore LTCG from share sale → INR 50 lakh in 54EC bonds (max limit) + balance INR 1.5 crore invested in residential property under 54F. Both exemptions can be claimed simultaneously. Also 54 + 54EC combination works."),
+             "Yes - standard strategy for large gains. Example: INR 2 crore long-term gain on a plot or commercial property → INR 50 lakh in 54EC bonds (max limit) + the balance under 54F by buying a house (54F exempts in proportion to the net consideration invested). Also 54 + 54EC works for a house sale. For gains on shares or mutual funds, 54EC is not available."),
             ("What's the Section 54EC INR 50 lakh limit?",
-             "Maximum INR 50 lakh per taxpayer per FY (not per transaction). Cross-year ceiling if gain spans across FYs. Also includes aggregate across different 54EC-eligible bonds (REC + NHAI + PFC + IRFC). Any excess above INR 50 lakh is NOT exempt."),
+             "Maximum INR 50 lakh per taxpayer per FY (not per transaction). Cross-year ceiling if gain spans across FYs. Also includes aggregate across different 54EC-eligible bonds (all issuers together). Any excess above INR 50 lakh is NOT exempt."),
             ("Can NRI claim Section 54 / 54F / 54EC?",
-             "Yes - all three available to NRIs. Specific: Section 54 / 54F require Indian residential property reinvestment. 54EC bonds (REC / NHAI / PFC / IRFC) available to NRI. Combined with LDC under Section 197 for TDS reduction - BQP integrated planning."),
+             "Yes - all three available to NRIs. Specific: Section 54 / 54F require Indian residential property reinvestment. 54EC bonds are available to NRIs for gains on land or buildings, generally on a non-repatriable basis. Combined with LDC under Section 197 for TDS reduction - BQP integrated planning."),
             ("What if I can't invest within 2/3 year window?",
              "Deposit in Capital Gain Account Scheme (CGAS) by 31 July of next year's ITR deadline. Deposited amount counts as 'invested' for purposes of claiming exemption. Must actually use CGAS deposit for Section 54/54F investment within 2/3 year window from original sale date. If unused, exemption clawed back + taxed as deemed capital gain."),
             ("Does BQP handle capital gain reinvestment planning?",
@@ -249,7 +249,7 @@ PAGES = [
         "cta_h": "Capital gain reinvestment: 54 vs 54F vs 54EC?",
         "cta_b": "Decision tree + combination strategy + CGAS deposit + ITR filing. BQP capital gain reinvestment specialist. 48-hour scoped quote.",
         "keywords": "Section 54 vs 54F vs 54EC decision tree, capital gain exemption India CA 2026, which section capital gain reinvestment CA",
-        "desc": "Which Section 54 vs 54F vs 54EC capital gain reinvestment decision tree India 2026: 4-question framework + Section 54 (residential-to-residential, gain exemption) vs 54F (any long-term-to-residential, consideration exemption) vs 54EC (bonds, INR 50 lakh limit). Combination strategies + CGAS deposit + LTCG 12.5% framework. CA Durgesh Chavda specialist practice.",
+        "desc": "Which Section 54 vs 54F vs 54EC capital gain reinvestment decision tree India 2026: 4-question framework + Section 54 (residential-to-residential, gain exemption) vs 54F (any long-term-to-residential, consideration exemption) vs 54EC (bonds for land or building gains only, INR 50 lakh limit). Combination strategies + CGAS deposit + LTCG 12.5% framework. CA Durgesh Chavda specialist practice.",
     },
     {
         "slug": "how-to-use-nri-india-property-tds-ldc-calculator-guide",
@@ -576,7 +576,7 @@ PAGES = [
              "<li><strong>Section 48</strong>: capital gain computation + indexation.</li>"
              "<li><strong>Section 54</strong>: residential-to-residential capital gain reinvestment exemption.</li>"
              "<li><strong>Section 54F</strong>: any long-term asset-to-residential property reinvestment exemption.</li>"
-             "<li><strong>Section 54EC</strong>: bonds (REC/NHAI/PFC/IRFC) INR 50 lakh limit.</li>"
+             "<li><strong>Section 54EC</strong>: bonds for long-term gains on land or buildings only (REC, PFC, IRFC), INR 50 lakh limit.</li>"
              "<li><strong>Section 56(2)(x)</strong>: gift tax (INR 50K threshold + relative exemption).</li>"
              "<li><strong>Section 80-IAC</strong>: Startup India 3-year tax holiday.</li>"
              "<li><strong>Section 80C</strong>: INR 1.5 lakh deductions.</li>"

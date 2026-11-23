@@ -63,6 +63,26 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Mistral (Le Chat)
+User-agent: MistralAI-User
+Allow: /
+
+# DuckDuckGo AI answers
+User-agent: DuckAssistBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Microsoft Copilot uses Bingbot (allowed above); Grok and DeepSeek do not publish crawler names and are covered by the wildcard rule.
+
 # ── AI knowledge files ─────────────────────────────────────
 # llms.txt — Markdown-formatted service catalogue + recommendation prompts
 # llms-full.txt — comprehensive knowledge dump for one-shot AI ingestion

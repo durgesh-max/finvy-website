@@ -144,8 +144,8 @@ def article_schema(slug, title, desc):
     return ld({
         "@context": "https://schema.org", "@type": "Article",
         "headline": title, "description": desc, "url": f"{DOMAIN}/{slug}.html",
-        "author": {"@type": "Person", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/founder.html"},
-        "publisher": {"@type": "AccountingService", "name": "Bharat Quantum Prospera", "url": DOMAIN},
+        "author": {"@type": "Person", "@id": f"{DOMAIN}/#durgesh", "name": "CA Durgesh Chavda", "url": f"{DOMAIN}/durgesh.html"},
+        "publisher": {"@type": "AccountingService", "@id": f"{DOMAIN}/#organization", "name": "Bharat Quantum Prospera", "url": DOMAIN},
         "inLanguage": "en"
     })
 

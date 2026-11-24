@@ -146,6 +146,8 @@ PAGES = [
         faqs=[
             ("What is the last date for a belated ITR for FY 2025-26?", "31 December 2026, or before assessment is completed, whichever is earlier."),
             ("What is the penalty for filing ITR late?", "A late fee of INR 5,000 under Section 234F (INR 1,000 if income does not exceed INR 5 lakh), plus 1% per month interest under Section 234A on any unpaid tax."),
+        ("What is the time limit for a revised return for AY 2026-27?", "Budget 2026 extended it: a return for FY 2025-26 (AY 2026-27) can now be revised until 31 March 2027, instead of 31 December 2026, as long as the assessment is not complete. Revising after 31 December may attract a fee, so correct mistakes early. A belated return filed by 31 December 2026 can also be revised."),
+        ("What is the time limit for an updated return (ITR-U)?", "An updated return can be filed up to 48 months from the end of the assessment year, so until 31 March 2031 for AY 2026-27, but only to report extra income, not to claim a refund or a bigger loss. It carries additional tax of 25%, 50%, 60% or 70% of the tax and interest due, depending on whether it is filed within the first, second, third or fourth year."),
             ("Can I carry forward losses in a belated return?", "No for business, speculation and capital losses. Loss from house property can still be carried forward."),
             ("Can an NRI claim a TDS refund through a belated return?", "Yes. NRIs often have excess TDS on rent, interest or property sale and can claim it through a belated return filed by 31 December 2026."),
             ("Can BQP file my belated return?", "Yes, for residents and NRIs, including Schedule FA and foreign tax credit. " + CONTACT),

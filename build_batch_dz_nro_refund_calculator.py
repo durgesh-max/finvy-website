@@ -100,7 +100,7 @@ PAGES = [dict(
          f'<p><strong>Sources:</strong> Income-tax Act provisions on TDS on payments to non-residents and slab rates for FY 2025-26; India&rsquo;s tax treaties (interest articles) as summarised on our treaty pages. <em>{UPDATED}</em> Estimates only, not advice for your situation.</p>'),
     ],
     faqs=[("How much TDS do banks deduct on NRO interest?", "30% plus surcharge and cess, which is 31.2% for most NRIs, unless you provide a tax residency certificate and Form 10F for the treaty rate."),
-          ("Can NRIs get a refund of TDS on NRO interest?", "Yes, if the actual tax (the lower of treaty tax and slab tax) is less than the TDS; claim it by filing an Indian return. For FY 2025-26, a belated or revised return is possible until 31 December 2026."),
+          ("Can NRIs get a refund of TDS on NRO interest?", "Yes, if the actual tax (the lower of treaty tax and slab tax) is less than the TDS; claim it by filing an Indian return. For FY 2025-26, a belated return is possible until 31 December 2026 and a revised return until 31 March 2027 (fee after 31 December)."),
           ("What is the treaty rate on NRO interest for the UAE, US and UK?", "12.5% for UAE residents and 15% for US and UK residents (non-bank recipients), with a TRC and Form 10F."),
           ("Do NRIs get the INR 12 lakh tax-free limit?", "No. The section 87A rebate that makes income up to INR 12 lakh tax-free under the new regime is only for residents; NRIs still get the nil band up to INR 4 lakh."),
           ("Is NRE interest included?", "No. NRE and FCNR interest is exempt for non-residents and should not be entered."),

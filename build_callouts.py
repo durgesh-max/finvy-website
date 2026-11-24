@@ -172,6 +172,7 @@ BOXES = {
     "hkdtaa": ("Paying or receiving income between India and Hong Kong?", 'Hong Kong company or holding structure? The India-Hong Kong DTAA caps Indian tax at 5% on dividends and 10% on interest, royalties and technical fees, with an anti-abuse article and FDI approval still required: <a href="india-hong-kong-dtaa-tax-treaty-rates-dividend-5-interest-royalty-fts-10-press-note-2026.html">India-Hong Kong DTAA</a>.'),
     "thdtaa": ("Paying or receiving income between India and Thailand?", 'Thai company or NRI in Thailand? The revised India-Thailand DTAA caps Indian tax on dividends at 10% and reports 10% on interest and royalties; service fees need a treaty check: <a href="india-thailand-dtaa-tax-treaty-rates-dividend-interest-royalty-10-percent-fts-2026.html">India-Thailand DTAA</a>.'),
     "dec26news": ("Deadlines coming up in December?", 'December deadlines: advance tax 15 December, belated and fee-free revised ITRs, GSTR-9, AOC-4 waiver and FAST-DS by 31 December, and digital KYC for NRIs from 3 December: <a href="india-tax-nri-cross-border-news-december-2026.html">December 2026 roundup</a>.'),
+    "b54ec": ("Selling property and want to keep more of the gain?", 'Selling land or a building? Put the long-term gain into 54EC bonds (now section 85) within six months, up to &#8377;50 lakh, and hold five years: <a href="54ec-bonds-section-85-capital-gains-bonds-lock-in-interest-rate-limit-nri-2026.html">54EC bonds guide</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -200,6 +201,9 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "best-ca-section-54f-capital-gain-reinvestment-india.html": ["b54ec"],
+    "property-capital-gains-tax-calculator-india-indexation-12-5-vs-20-inherited-nri-2026.html": ["b54ec"],
+    "which-section-54-vs-54f-vs-54ec-decision-tree-india.html": ["b54ec"],
     "india-tax-nri-cross-border-news-november-2026.html": ["dec26news"],
     "india-malaysia-dtaa-tax-treaty-rates-dividend-5-interest-royalty-fts-10-nri-2026.html": ["thdtaa"],
     "hong-kong-incorporation-indian-founder.html": ["hkdtaa"],
@@ -570,7 +574,7 @@ TARGETS = {
     "transfer-pricing-india-foreign-mnc.html": ["gcc", "remote", "subben", "fcal", "tola26", "masterfile", "doingbiz", "shapa"],
     "employer-of-record-india-hire-from-abroad.html": ["remote", "subben", "expat", "fusc", "fpecheck", "fentry", "ssa", "epf2026", "vishwas", "doingbiz", "iwpf"],
     "oci-cardholder-tax-india-complete-2026.html": ["uaedr", "agri", "rent", "ociacc", "usp", "dkyc", "fpan", "cansell", "ussell", "uksell", "renounce"],
-    "nri-selling-indian-property-capital-gains.html": ["tdscalc", "poa", "uaedr", "agri", "inhp", "cgcalc", "cansell", "ussell", "uksell", "ausell", "nrihuf", "nripm"],
+    "nri-selling-indian-property-capital-gains.html": ["tdscalc", "poa", "uaedr", "agri", "inhp", "cgcalc", "cansell", "ussell", "uksell", "ausell", "nrihuf", "nripm", "b54ec"],
     "returning-from-uae-dubai-to-india-gratuity-uae-bank-account-tax-2026.html": ["uaedr", "uaenri"],
     "nri-residential-status-rnor-india.html": ["uaedr", "movingabroad", "nrihuf"],
     "indian-ca-for-clients-in-singapore.html": ["retguides"],

@@ -92,7 +92,7 @@ PAGES = [dict(
     ],
     faqs=[("How much TDS does a tenant deduct on rent paid to an NRI?", "30% plus surcharge and cess on the gross rent, which is 31.2% for most NRIs, unless the NRI has a lower deduction certificate."),
           ("How is an NRI's rental income taxed?", "Rent less municipal taxes, less a 30% standard deduction and home-loan interest, taxed at slab rates; NRIs do not get the section 87A rebate."),
-          ("Can an NRI get a refund of TDS on rent?", "Yes, by filing an Indian return. For FY 2025-26 a belated or revised return can be filed until 31 December 2026; after that an updated return cannot claim refunds."),
+          ("Can an NRI get a refund of TDS on rent?", "Yes, by filing an Indian return. For FY 2025-26 a belated return can be filed until 31 December 2026 and a filed return revised until 31 March 2027 (fee after 31 December); an updated return cannot claim refunds."),
           ("How can an NRI landlord reduce TDS on rent?", "Apply for a lower deduction certificate so the tenant deducts at the rate the Income Tax Department certifies."),
           ("Does the tax treaty reduce tax on Indian rent?", "No. Rental income from Indian property is taxable in India; the country of residence may tax it too and give credit for Indian tax."),
           ("Can BQP claim my refund and certificate?", "Yes. " + CONTACT)],

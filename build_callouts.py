@@ -181,6 +181,7 @@ BOXES = {
     "ocirules": ("OCI cardholder with money or property in India?", 'OCI rules tightened in 2025: a two-year sentence or a chargesheet for a seven-year offence can cost the card; reissue is needed only once after 20: <a href="oci-card-rules-2026-eligibility-reissue-passport-age-20-50-children-cancellation-tightened.html">OCI card rules 2026</a>.'),
     "pfreg": ("Starting a partnership business?", 'Registering a partnership firm? It is optional, but an unregistered firm cannot sue to enforce its contracts; see the documents, Form 1 and online process: <a href="partnership-firm-registration-india-online-documents-certificate-form-1-registrar-of-firms-2026.html">partnership firm registration</a>.'),
     "propreg": ("Starting a business in your own name?", 'Starting as a sole proprietor? There is no single registration: Udyam, GST above the threshold and a shop or trade licence identify the business: <a href="sole-proprietorship-registration-india-documents-gst-udyam-shop-licence-online-2026.html">proprietorship registration</a>.'),
+    "sec8": ("Setting up a non-profit company?", 'Setting up a non-profit? A Section 8 company needs no minimum capital and pays no dividend; 12A, 80G and CSR-1 unlock tax exemption and CSR funds: <a href="section-8-company-registration-india-non-profit-licence-12a-80g-csr-1-compliance-2026.html">Section 8 company guide</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -209,7 +210,9 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
-    "partnership-firm-registration-india-online-documents-certificate-form-1-registrar-of-firms-2026.html": ["propreg"],
+    "sole-proprietorship-registration-india-documents-gst-udyam-shop-licence-online-2026.html": ["sec8"],
+    "best-ca-csr-section-135-companies-act-india-2026.html": ["sec8"],
+    "partnership-firm-registration-india-online-documents-certificate-form-1-registrar-of-firms-2026.html": ["propreg", "sec8"],
     "udyam-msme-registration-benefits-india-2026.html": ["propreg"],
     "section-194t-tds-partnership-firm-partners-india.html": ["pfreg"],
     "renounce-indian-citizenship-surrender-certificate-bank-accounts-pan-property-tax-oci-2026.html": ["ocirules"],
@@ -302,7 +305,7 @@ TARGETS = {
     "best-ca-b2b-saas-startup-india-2026.html": ["taxholiday", "founderpay", "gstexp", "gstreg"],
     "how-to-pick-section-115baa-vs-115bab-vs-standard-decision-tree.html": ["taxholiday", "founderpay"],
     "how-to-start-a-startup-in-india.html": ["taxholiday", "founderpay", "llpconv", "sweatequity", "raiseforeign"],
-    "startup-registration.html": ["taxholiday"],
+    "startup-registration.html": ["taxholiday", "sec8"],
     "what-is-dpiit-recognition.html": ["taxholiday"],
     "startup-india-complete-guide.html": ["taxholiday", "founderpay", "llpconv", "sweatequity", "raiseforeign"],
     "how-to-register-startup-india-dpiit.html": ["taxholiday"],

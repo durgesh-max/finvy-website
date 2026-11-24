@@ -270,25 +270,25 @@ write_page("how-to-get-ein-without-ssn", page(
          "<p>For foreign founders &mdash; Indian, Brazilian, Mexican, UK, UAE, SG, anywhere &mdash; the EIN is accessible without an SSN or ITIN. The IRS has an International EIN unit specifically for this. Most founders don't know this exists and either (a) delay their formation while trying to get an ITIN first (unnecessary; adds 8-14 weeks), or (b) hire expensive agents to do it when they could have done it themselves in a week.</p>"),
         ("/ The four application channels", "Fax wins for foreign founders.",
          "<p><strong>1. Online.</strong> At <code>irs.gov/ein</code>. Instant EIN &mdash; but requires an SSN or ITIN of the Responsible Party. Not available to foreign founders.</p>"
-         "<p><strong>2. Fax.</strong> Form SS-4 faxed to the IRS International EIN unit at <code>+1-855-215-1627</code>. Response by fax within 4-11 business days typically. <strong>This is the standard channel for foreign founders.</strong></p>"
+         "<p><strong>2. Fax.</strong> Form SS-4 faxed to the IRS at <code>+1-304-707-9471</code> when sending from outside the US (<code>+1-855-215-1627</code> if sending from within the US). The IRS says replies generally come within 4 business days; allow longer. <strong>This is the standard channel for foreign founders.</strong></p>"
          "<p><strong>3. Phone.</strong> Call <code>+1-267-941-1099</code> (not toll-free from India). Monday-Friday, 06:00-23:00 ET (that's 15:30-08:30 IST). IRS agent asks the SS-4 questions on the call and issues the EIN before you hang up. Expect a 20-40 min wait to get through. Faster than fax when you can get through.</p>"
          "<p><strong>4. Mail.</strong> Last resort &mdash; 6-8 weeks. Only use if fax and phone both fail.</p>"),
         ("/ Form SS-4 &mdash; Line 7b is the trap", "What to write when you have no SSN.",
          "<p>Most foreign founders get Form SS-4 right except Line 7b. The field asks for \"SSN, ITIN, or EIN\" of the Responsible Party (that's you, the founder). You have none of those.</p>"
          "<p><strong>Do NOT leave Line 7b blank.</strong> The IRS will reject the application.</p>"
          "<p><strong>Do NOT invent a number.</strong> That's fraud and the application will come back rejected or worse.</p>"
-         "<p><strong>Write exactly:</strong> <code>Foreign / Non-US Applicant</code></p>"
-         "<p>This specific wording is recognised by the IRS International EIN unit and processed cleanly. Every bank that later asks to see your CP 575 EIN letter also recognises this.</p>"),
+         "<p><strong>Write:</strong> <code>Foreign</code> (or N/A), as the Form SS-4 instructions allow</p>"
+         "<p>The IRS instructions say an entry is required, so do not leave the line blank. Every bank that later asks to see your CP 575 EIN letter also recognises this.</p>"),
         ("/ Timeline", "What actually happens, when.",
          "<p><strong>Day 0:</strong> Form your entity (Delaware C-Corp, Wyoming LLC, etc.). You need the Certificate of Incorporation or Articles of Organization first &mdash; the IRS asks for the entity to exist before issuing the EIN.</p>"
-         "<p><strong>Day 1:</strong> Prepare Form SS-4 with Line 7b correctly worded, sign it, fax to +1-855-215-1627. Save the fax confirmation.</p>"
+         "<p><strong>Day 1:</strong> Prepare Form SS-4 with Line 7b correctly worded, sign it, fax to +1-304-707-9471 (from outside the US). Save the fax confirmation.</p>"
          "<p><strong>Day 4-11:</strong> IRS faxes back the EIN assignment. Save this &mdash; it's your proof until the CP 575 letter arrives.</p>"
          "<p><strong>Day 14-28:</strong> IRS mails the CP 575 letter (physical) to the address on your SS-4. For foreign founders using a Delaware/Wyoming registered agent, this arrives at the agent's address and gets forwarded to you. Verify arrival with your agent.</p>"
          "<p><strong>Day 15+:</strong> With the EIN in hand, open your US business bank account (Mercury, Brex, Relay). Start Stripe setup. The EIN unlocks everything.</p>"),
     ],
     faqs=[
         ("Can I use my passport number instead of SSN?",
-         "No. The IRS does not accept passport numbers in Line 7b. The accepted wording for foreign founders without SSN or ITIN is exactly: Foreign / Non-US Applicant. This has been the standard since the IRS International EIN unit started processing SS-4s for non-US applicants."),
+         "No. The IRS does not accept passport numbers in Line 7b. The Form SS-4 instructions say to enter Foreign or N/A on line 7b when the responsible party has no SSN or ITIN and is not eligible for one. This has been the standard since the IRS International EIN unit started processing SS-4s for non-US applicants."),
         ("How long does the fax method take?",
          "4 to 11 business days is typical. Some foreign founders have received the EIN by fax in 2-3 days. Factors that slow it down: fax queue load at IRS, errors on Form SS-4, missing supporting documents, Responsible Party identification concerns."),
         ("Do I need an ITIN before applying for the EIN?",
@@ -312,8 +312,8 @@ write_page("how-to-get-ein-without-ssn", page(
         "description": "Step-by-step process for foreign founders to obtain an IRS Employer Identification Number without a US Social Security Number or ITIN.",
         "steps": [
             {"name": "Form your US entity first", "text": "File Certificate of Incorporation (C-Corp) or Articles of Organization (LLC) with the state. The EIN cannot be issued before the entity legally exists."},
-            {"name": "Prepare Form SS-4", "text": "Download Form SS-4 from irs.gov. Fill it in with your entity name, address, Responsible Party details, and nature of business. On Line 7b, write exactly: Foreign / Non-US Applicant."},
-            {"name": "Fax SS-4 to IRS International", "text": "Fax the signed Form SS-4 to +1-855-215-1627. Include a cover sheet with your return fax number. Save the sender confirmation page."},
+            {"name": "Prepare Form SS-4", "text": "Download Form SS-4 from irs.gov. Fill it in with your entity name, address, Responsible Party details, and nature of business. On Line 7b, write Foreign (or N/A) if the responsible party has no SSN or ITIN."},
+            {"name": "Fax SS-4 to IRS International", "text": "Fax the signed Form SS-4 to +1-304-707-9471 from outside the US (+1-855-215-1627 from within the US). Include a cover sheet with your return fax number. Save the sender confirmation page."},
             {"name": "Wait 4-11 business days", "text": "The IRS International EIN unit will fax back the EIN assignment. If no response in 10 business days, call +1-267-941-1099 to follow up."},
             {"name": "Receive CP 575 by mail", "text": "The IRS mails the official CP 575 letter to the address on your SS-4 within 2-4 weeks. Keep this document permanently as your proof of EIN."},
             {"name": "Open US bank account", "text": "With the EIN confirmation in hand, apply at Mercury, Brex, or Relay. Approval typically 1-3 weeks after application with EIN and formation documents."},

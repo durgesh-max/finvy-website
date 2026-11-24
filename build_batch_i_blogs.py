@@ -160,6 +160,8 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
     faqs=[
         ("What is TCS on LRS in India in 2026?",
          "Tax Collected at Source under Section 206C(1G). AD bank collects 20% on outward remittances above INR 10 lakh per financial year for investment, maintenance and most other LRS purposes. Education-loan-funded 0.5%, education-self-funded or medical 5% above INR 7 lakh. Overseas tour package: 5% up to INR 7 lakh, 20% above."),
+        ("Is the LRS limit INR 10 lakh?", "No. The LRS limit is USD 250,000 per person per financial year. INR 10 lakh is the TCS threshold: remittances up to INR 10 lakh in a year carry no TCS for most purposes, and TCS applies only to the amount above it. A reported RBI proposal for an INR 50 lakh sub-limit for some purposes inside the USD 250,000 limit had no circular as of November 2026."),
+        ("What are LRS purpose codes?", "Each outward remittance is tagged with an RBI purpose code that the bank reports, for example codes for maintenance of close relatives, education, medical treatment, gifts, overseas investment in shares or property, and travel. The purpose decides which TCS rate applies and whether documents such as an admission letter or invoice are needed, so choose it carefully on the bank form."),
         ("Is TCS on LRS a tax or a deposit?",
          "A deposit, not a tax. It is advance tax collection credited against the remitter's final income tax liability for the year. If TCS collected exceeds final tax, excess is refunded. The problem is the 12-18 month working-capital lock-up."),
         ("Does TCS on LRS apply to credit-card spend abroad?",

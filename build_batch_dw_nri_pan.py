@@ -59,6 +59,8 @@ PAGES = [dict(
           ("Do NRIs need Aadhaar to get a PAN?", "No. NRIs and OCIs can apply with a passport and overseas address proof; Aadhaar is not required."),
           ("What happens if a PAN becomes inoperative?", "Refunds and interest on them are withheld and TDS or TCS is charged at higher rates until the PAN becomes operative again."),
           ("Why is my NRI PAN showing inoperative?", "NRIs are exempt from PAN-Aadhaar linking, but if the department's records still show you as resident, the PAN can be marked inoperative; update your residential status to fix it."),
+        ("How can an NRI check PAN card status online?", "For a new application, track it on the site you applied through: Protean (NSDL) with the 15-digit acknowledgement number, or UTIITSL with the application or coupon number. For an existing PAN, use Verify Your PAN on the income tax e-filing portal (PAN, name, date of birth and a one-time password) to see whether it is active and operative."),
+        ("How long does a PAN take for an NRI applying from abroad?", "The e-PAN is usually emailed once the application and documents are accepted, and the physical card is then posted to the overseas address, which takes longer. Mismatched names or unclear address proof are the usual causes of delay."),
           ("Can I apply for a new PAN if I lost mine?", "No. Request a reprint or download the e-PAN; holding two PANs is not allowed."),
           ("Can BQP fix my PAN status and claim my refund?", "Yes. " + C_PAN)],
     related=[("how-to-fix-pan-aadhaar-link-nri-oci-status-update-india.html", "Fix PAN status for NRIs and OCIs"), (NYE + ".html", "NRI year-end checklist"),

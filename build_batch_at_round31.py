@@ -71,6 +71,8 @@ faqs = [
     ("What replaced Section 195 TDS?", "Section 393(2) of the Income-tax Act, 2025."),
     ("Is residential status still Section 6?", "Yes, residential status remains in section 6."),
     ("Which Act applies to FY 2025-26 income?", "The Income-tax Act, 1961. The 2025 Act applies from tax year 2026-27 (from 1 April 2026)."),
+        ("Where can I download the Income-tax Act, 2025 PDF?", "From the Income Tax Department website (incometaxindia.gov.in, under Acts: Income-tax Act, 2025), which also carries the version as amended by later Finance Acts, or from India Code and the e-Gazette. It is Act No. 30 of 2025, received assent on 21 August 2025 and came into force on 1 April 2026; the Income-tax Rules, 2026 sit alongside it. Avoid unofficial PDF sites, which may carry the earlier Bill text."),
+        ("How many sections does the Income-tax Act, 2025 have?", "536 sections in 23 chapters, with the tax year replacing the previous year and assessment year. Many familiar provisions keep their substance under new numbers, as the table on this page shows."),
     ("Can BQP advise under both Acts?", "Yes, including transition issues for NRIs and foreign companies. " + CONTACT),
 ]
 

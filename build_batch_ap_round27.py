@@ -72,7 +72,7 @@ PAGES = [
     ),
     dict(
         slug="itr-refund-delayed-2026-why-and-what-to-do",
-        title="ITR Refund Delayed in 2026? Why It Happens and What You Can Do",
+        title="ITR Refund Status 2026: How to Check by PAN or Acknowledgement, Why Refunds Are Delayed and What to Do",
         em="and the interest you are owed.",
         kicker="/ Income Tax &middot; Updated 2026-10-30",
         lead="Many taxpayers who filed on time are still waiting for refunds. The Department can process a return up to nine months after the end of the financial year in which it was filed, so a return filed in 2026 can lawfully be processed as late as December 2026. Refunds are often held up by mismatches the taxpayer can fix, and a delayed refund earns interest of 0.5% a month under Section 244A.",
@@ -109,6 +109,7 @@ PAGES = [
         faqs=[
             ("Why is my ITR refund delayed in 2026?", "Common reasons are a return that was not e-verified, a bank account that is not pre-validated, TDS mismatches with Form 26AS or AIS, pending notices, or adjustment against an old demand. The Department can also take up to nine months after the end of the year of filing to process the return."),
         ("How do I check my income tax or TDS refund status?", "Log in to the income tax e-filing portal and open View Filed Returns: it shows whether the return is verified, processed and whether the refund has been issued, with any adjustment against old demands. You can also check by PAN and assessment year on the refund status page run by Protean (NSDL) for the refund banker. TDS deducted on your income is refunded only through your income tax return, so there is no separate TDS refund to track."),
+        ("What does each ITR refund status update mean?", "Typical stages are: return submitted and verified; processed with refund due (the refund is then sent to the bank); refund issued (credited or sent to the pre-validated account); refund failed (usually a bank account that is not pre-validated or a name mismatch, so re-validate it and raise a refund reissue request on the portal); and adjusted against an earlier demand (you can respond on the portal if you disagree). If the status stays at processing for long, check for a pending defective-return notice or adjustment."),
         ("How many days does a TDS refund take?", "Once the return is e-verified and processed, the refund is usually credited directly to the pre-validated bank account within a few weeks. Processing itself can legally take up to nine months from the end of the financial year in which the return was filed, and delays usually come from a bank account that is not validated, a TDS mismatch or a pending notice."),
             ("How long can the Income Tax Department take to process my return?", "Up to nine months from the end of the financial year in which the return was filed."),
             ("Do I get interest on a delayed refund?", "Yes, generally 0.5% per month under Section 244A, from 1 April of the assessment year if you filed on time. It can be reduced for delays caused by the taxpayer."),

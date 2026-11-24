@@ -50,7 +50,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
          "<li><strong>Paying the demand without checking</strong> &mdash; many 143(1) demands are reversible via Section 154. Pay only after verifying the Department's computation is correct.</li>"
          "<li><strong>Not updating bank account</strong> &mdash; refund fails if the bank account on the e-filing portal is not pre-validated. Check Profile &rarr; My Bank Account before filing ITR each year.</li>"
          "<li><strong>Missing Form 26AS reconciliation</strong> &mdash; if TDS deductors have not reported, the TDS does not appear in Form 26AS even if you have Form 16A. Reconcile before filing to avoid 143(1) mismatch.</li>"
-         "<li><strong>Mistaking 143(1) for scrutiny</strong> &mdash; 143(1) is automated. 143(2) is scrutiny with 6-month response window and specific document calls.</li>"
+         "<li><strong>Mistaking 143(1) for scrutiny</strong> &mdash; 143(1) is automated. 143(2) is scrutiny, served within three months from the end of the financial year of filing, with specific document calls.</li>"
          "</ul>"
          "<p>Full ITR context: <a href=\"itr-filing-ay-2026-27-deadlines-changes-india.html\">ITR Filing AY 2026-27</a>. <em>Last updated: 2026-10-10.</em></p>"),
     ],
@@ -63,8 +63,9 @@ write_page("section-143-1-intimation-response-india-2026", page(
          "No. Interest under Section 220(2) at 1% per month accrues from the 31st day post-intimation. Even if you plan to rectify, respond or pay within 30 days. Ignoring compounds the penalty."),
         ("How long after ITR filing does 143(1) come?",
          "Typically 60-90 days after filing. Legally, CPC can issue within 9 months from the end of the FY in which the return is filed. If more than 9 months pass without a 143(1), the return is deemed accepted (no demand or refund action)."),
+        ("When does an income tax notice come?", "It depends on the notice. A processing intimation under section 143(1) can come up to nine months after the end of the financial year in which you filed the return, and usually comes within weeks. A scrutiny notice under section 143(2) must be served within three months from the end of the financial year of filing; for a return filed in July 2026 that means by 30 June 2027. Reassessment notices for escaped income can come later, within longer limits set by law, and mismatch or e-verification messages based on your AIS can arrive at any time. From tax year 2026-27 the same rules sit in section 270 of the Income-tax Act, 2025."),
         ("What is the difference between Section 143(1) and 143(2)?",
-         "143(1) is automated return-processing intimation - just reconciliation. 143(2) is scrutiny notice - the Department wants to examine your return in detail, request documents, and may add income or disallow deductions. 143(2) has specific 6-month response window and is much more serious."),
+         "143(1) is automated return-processing intimation - just reconciliation. 143(2) is scrutiny notice - the Department wants to examine your return in detail, request documents, and may add income or disallow deductions. 143(2) must be served within three months from the end of the financial year in which the return was filed, each notice sets its own reply date, and it is much more serious."),
         ("Does BQP help with Section 143(1) rectification?",
          "Yes - common one-off engagement. We reconcile the Department computation vs your ITR, identify the mismatch line item, prepare the Section 154 filing with supporting documents, submit via portal, and track CPC response. WhatsApp +91 78018 87130."),
     ],
@@ -80,7 +81,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
 write_page("section-143-2-scrutiny-notice-response-india", page(
     slug="section-143-2-scrutiny-notice-response-india",
     title="Section 143(2) Scrutiny Notice Response 2026 | Documents, Timeline, CA Help - BQP",
-    description="Section 143(2) scrutiny notice received: understand limited vs complete scrutiny, 6-month response window, documents to prepare, personal appearance protocol, Section 143(3) assessment order. Working CA guide by Durgesh Chavda.",
+    description="Section 143(2) scrutiny notice received: understand limited vs complete scrutiny, the three-month time limit for the notice, documents to prepare, personal appearance protocol, Section 143(3) assessment order. Working CA guide by Durgesh Chavda.",
     keywords="Section 143(2) scrutiny notice, 143(2) response India, income tax scrutiny notice reply, Section 143(3) assessment, limited scrutiny vs complete scrutiny",
     hero_kicker="/ Blog &middot; Section 143(2) Scrutiny &middot; Updated 2026-10-10",
     hero_title_html="Section 143(2) scrutiny notice, <em>what to do in the first 48 hours.</em>",

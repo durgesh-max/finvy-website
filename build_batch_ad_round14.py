@@ -1030,7 +1030,7 @@ PAGES = [
              "<ul>"
              "<li>Section 195 Income Tax Act: buyer must deduct TDS on sum paid to NRI seller if chargeable to Indian tax.</li>"
              "<li>Chargeability: Section 9 - capital gain on sale of Indian property is deemed to accrue in India.</li>"
-             "<li>Section 195(2) procedure: NRI can seek lower rate via Form 13 + specific LDC under Section 197.</li>"
+             "<li>Section 195(2) procedure: NRI can seek lower rate via Form 128 (formerly Form 13) + specific LDC under Section 197.</li>"
              "<li>Buyer's responsibility: compute TDS at specified rate + deposit by 7th of following month + Form 27Q quarterly + Form 16A to NRI.</li>"
              "<li>Buyer's default: Section 201 'assessee in default' + specific interest + specific penalty.</li>"
              "<li>NRI's recovery: Section 195 TDS reflected in Form 26AS + claimed as credit against actual tax liability via Indian ITR.</li>"
@@ -1048,7 +1048,7 @@ PAGES = [
              "</ul>"),
             ("/ The LDC under Section 197 solution", "Lower rate option.",
              "<ul>"
-             "<li>NRI applies for Lower Deduction Certificate (LDC) via Form 13 on Income Tax e-filing portal.</li>"
+             "<li>NRI applies for Lower Deduction Certificate (LDC) via Form 128 (formerly Form 13) on Income Tax e-filing portal.</li>"
              "<li>Discloses: expected sale price + expected gain + expected tax liability + specific DTAA treaty rate if applicable.</li>"
              "<li>AO issues LDC with specific lower rate (typically 10-15% on sale consideration = equivalent to actual tax on gain).</li>"
              "<li>Timeline: 30-60 days typical for LDC issuance.</li>"
@@ -1069,7 +1069,7 @@ PAGES = [
             ("/ Workflow for NRI selling Indian property", "Step-by-step.",
              "<ol>"
              "<li><strong>Pre-sale planning (3-6 months before closing)</strong>: valuation + cost base + indexation + specific DTAA + specific reinvestment analysis.</li>"
-             "<li><strong>LDC application (Form 13)</strong>: 30-60 days to AO; file 90+ days before expected closing.</li>"
+             "<li><strong>LDC application (Form 128, formerly Form 13)</strong>: 30-60 days to AO; file 90+ days before expected closing.</li>"
              "<li><strong>Receive LDC</strong>: specific rate + specific supporting documentation.</li>"
              "<li><strong>Share LDC with buyer</strong>: BEFORE sale deed execution.</li>"
              "<li><strong>Sale deed execution</strong>: buyer deducts TDS at LDC rate (or default if no LDC).</li>"
@@ -1091,7 +1091,7 @@ PAGES = [
             ("/ BQP end-to-end NRI property sale engagement", "What we deliver.",
              "<ul>"
              "<li>Pre-sale planning + capital gain projection + specific DTAA + specific reinvestment analysis.</li>"
-             "<li>LDC application via Form 13 + AO liaison + 30-60 day timeline management.</li>"
+             "<li>LDC application via Form 128 (formerly Form 13) + AO liaison + 30-60 day timeline management.</li>"
              "<li>Section 54 / 54F reinvestment planning + CGAS deposit coordination.</li>"
              "<li>Sale deed advisory + specific TDS reflection + specific buyer coordination.</li>"
              "<li>Post-sale ITR filing + capital gain + TDS claim + specific exemption claim + refund tracking.</li>"
@@ -1106,7 +1106,7 @@ PAGES = [
             ("Is TDS applicable when NRI sells Indian property?",
              "Yes. The buyer must deduct TDS on the amount paid to an NRI seller (Section 393(2) of the Income-tax Act, 2025 for payments from 1 April 2026; earlier Section 195). Rates: 12.5% + surcharge + cess on long-term gains (held more than 24 months) or 30% + surcharge + cess on short-term gains. Resident individual and HUF buyers can use their PAN through Form 141 from 1 October 2026. NRI can obtain Lower Deduction Certificate (LDC) under Section 197 for reduced rate matching actual tax liability. LDC strongly recommended."),
             ("What's the LDC under Section 197?",
-             "Lower Deduction Certificate: NRI applies via Form 13 on Income Tax portal disclosing expected sale + gain + tax liability. AO issues LDC with specific lower rate (set to match the actual tax on the gain, instead of the 12.5%/30% default on the price). Timeline: 30-60 days. NRI shares with buyer BEFORE sale deed. Materially better than default + specific liquidity benefit."),
+             "Lower Deduction Certificate: NRI applies via Form 128 (formerly Form 13) on Income Tax portal disclosing expected sale + gain + tax liability. AO issues LDC with specific lower rate (set to match the actual tax on the gain, instead of the 12.5%/30% default on the price). Timeline: 30-60 days. NRI shares with buyer BEFORE sale deed. Materially better than default + specific liquidity benefit."),
             ("Can NRI avoid LTCG via Section 54 reinvestment?",
              "Yes - Section 54 (for residential sale) / 54F (for other-asset sale) reinvestment in another Indian residential property. 1 year back / 2 years forward purchase / 3 years forward construction. If investment delayed: CGAS deposit by 31 July ITR year. Full LTCG exempt if conditions met. Property must be in India + 3-year lock-in."),
             ("How does FEMA repatriation work after NRI property sale?",
@@ -1119,7 +1119,7 @@ PAGES = [
         "cta_h": "NRI selling Indian property?",
         "cta_b": "Pre-sale planning + LDC + Section 54/54F + ITR + FEMA repatriation + Form 15CA/CB. BQP end-to-end engagement. WhatsApp +91 78018 87130.",
         "keywords": "when is TDS applicable NRI sale property India CA, NRI property sale TDS 12.5% CA, buying property from NRI no TAN Form 141, NRI LDC Section 197 property sale CA India",
-        "desc": "When is TDS applicable on NRI sale of property India (direct answer): buyer deducts TDS (Section 393(2), earlier Section 195) at 12.5% LTCG (property > 24 months) or 30% STCG plus surcharge and cess, no TAN needed for individual/HUF buyers from 1 October 2026 (Form 141), lower deduction certificate via Form 13, Section 54/54F reinvestment exemption, workflow (pre-sale + LDC + sale deed + ITR + FEMA repatriation), BQP NRI property-sale practice. CA Durgesh Chavda ICAI.",
+        "desc": "When is TDS applicable on NRI sale of property India (direct answer): buyer deducts TDS (Section 393(2), earlier Section 195) at 12.5% LTCG (property > 24 months) or 30% STCG plus surcharge and cess, no TAN needed for individual/HUF buyers from 1 October 2026 (Form 141), lower deduction certificate via Form 128 (formerly Form 13), sections 82/86 (formerly 54/54F) reinvestment exemption, workflow (pre-sale + LDC + sale deed + ITR + FEMA repatriation), BQP NRI property-sale practice. CA Durgesh Chavda ICAI.",
     },
 ]
 

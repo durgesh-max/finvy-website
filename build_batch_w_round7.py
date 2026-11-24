@@ -448,8 +448,8 @@ PAGES.append({
         ("/ Quarterly compliance", "Four times per year.",
          "<ul>"
          "<li><strong>15 June, 15 September, 15 December, 15 March</strong>: Advance tax instalments (15% / 45% / 75% / 100% cumulative).</li>"
-         "<li><strong>31 July, 31 October, 31 January, 31 May</strong>: Quarterly TDS returns (Form 24Q salary, 26Q non-salary, 27Q non-resident, 27EQ TCS).</li>"
-         "<li><strong>15 July, 15 October, 15 January, 15 May</strong>: Form 16A to recipients (within 15 days after quarterly 24Q/26Q filing).</li>"
+         "<li><strong>31 July, 31 October, 31 January, 31 May</strong>: Quarterly TDS returns (Form 138 salary, 140 non-salary, 144 non-resident and 143 TCS from tax year 2026-27, replacing 24Q, 26Q, 27Q and 27EQ).</li>"
+         "<li><strong>15 July, 15 October, 15 January, 15 May</strong>: Form 16A (Form 131 from tax year 2026-27) to recipients (within 15 days after the quarterly TDS statement).</li>"
          "<li><strong>End of each quarter</strong>: ESIC return (if applicable), listed company LODR Reg 33 / 29 quarterly filings.</li>"
          "</ul>"),
         ("/ Half-yearly compliance", "September + March.",
@@ -497,6 +497,7 @@ PAGES.append({
          "DIR-3 KYC (30 June, once every three financial years from 31 March 2026) - missing it deactivates the DIN. Form MSME-1 (29 Nov) - specific MSE compliance. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
         ("What are the GST filing deadlines?",
          "Monthly: GSTR-1 by 11th + GSTR-3B by 20th + GSTR-7 (TDS) by 10th + GSTR-8 (TCS) by 10th. Small taxpayers under QRMP: GSTR-3B / 1 by 22nd / 24th. Annual: GSTR-9 (annual return) + GSTR-9C (reconciliation) by 31 December."),
+        ("What are the TDS return due dates for FY 2026-27?", "For tax year 2026-27 the quarterly TDS statements are due on 31 July 2026 (April-June), 31 October 2026 (July-September), 31 January 2027 (October-December) and 31 May 2027 (January-March). They are filed in the new forms under the Income-tax Act, 2025: Form 138 for salary, Form 140 for other payments to residents and Form 144 for payments to non-residents, with TCS in Form 143; the January-March 2026 quarter was the last filed in the old 24Q, 26Q and 27Q. Late filing attracts a fee of INR 200 a day up to the TDS amount, and a penalty can follow if the delay runs beyond a year."),
         ("Can I file ITR after 31 October tax audit deadline?",
          "Yes, but with Section 234F late fee (INR 5,000; INR 1,000 for small income) + Section 234A interest 1% per month. Belated ITR by 31 December 2026 for AY 2026-27. Updated return under Section 139(8A) up to 31 March 2029 (24-month window) with specific additional tax."),
         ("Does BQP maintain compliance calendar for client companies?",

@@ -128,7 +128,7 @@ AUSTRALIA = treaty_page(
 
 UAE = dict(
     slug="set-up-company-in-dubai-uae-from-india-odi-lrs-poem-corporate-tax-2026",
-    title="Setting Up a Company in Dubai or the UAE From India (2026): FEMA ODI Route, LRS Limit, POEM Risk and UAE Corporate Tax",
+    title="Dubai Company Registration for Indians (2026): Free Zone or Mainland, FEMA ODI Route, LRS Limit, POEM Risk and UAE Corporate Tax",
     em="legal on both sides, if you do it in the right order.",
     kicker=f"/ Indians going global &middot; UAE &middot; FEMA ODI &middot; Updated {DATE}",
     lead=("An Indian resident can own a Dubai or UAE company, but it is <strong>overseas direct investment (ODI)</strong> under FEMA, not a simple LRS remittance: "
@@ -160,6 +160,7 @@ UAE = dict(
          + src("Foreign Exchange Management (Overseas Investment) Rules, 2022 (Schedules I and III) and Regulations, 2022; RBI Overseas Investment Directions; Liberalised Remittance Scheme; Income-tax Act, 2025, section 6 (place of effective management); UAE Federal Decree-Law No. 47 of 2022 on corporate tax. Secondary summaries checked 14 November 2026: TaxGuru, VJM Global.")),
     ],
     faqs=[("Can an Indian resident open a company in Dubai?", "Yes, as overseas direct investment under FEMA: within the LRS limit of USD 250,000 per financial year, in an operating company with a genuine business, reported through your bank with Form ODI."),
+        ("Should an Indian register a Dubai company in a free zone or on the mainland?", "A free zone company is licensed by the free zone authority, suits services, holding, e-commerce and export businesses, and can have qualifying income taxed at 0% if it meets the qualifying free zone conditions; selling into the UAE mainland usually needs a distributor or a separate licence. A mainland company is licensed by the Dubai Department of Economy and Tourism and can trade anywhere in the UAE, with 100% foreign ownership now allowed for most activities, and pays the standard 0% / 9% corporate tax. Either way, an Indian resident owner must follow the FEMA ODI route and the Indian tax rules."),
           ("Is setting up a Dubai company ODI or LRS?", "ODI. LRS is the remittance limit that an individual's ODI must fit within; the investment itself must follow the Overseas Investment Rules and be reported."),
           ("Can my Indian company own a UAE subsidiary?", "Yes, under Schedule I of the Overseas Investment Rules, with total financial commitment up to 400% of net worth and within the two-layer limit."),
           ("Will the UAE company be taxed in India?", "Only if its place of effective management is in India, meaning the key decisions are in substance made from India. Then it is Indian-resident and taxed in India on its global income."),

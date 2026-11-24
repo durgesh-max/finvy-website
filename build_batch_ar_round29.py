@@ -68,6 +68,7 @@ faqs = [
     ("What is the new number for Form 15CA and 15CB?", "From 1 April 2026, Form 15CA is Form 145 and Form 15CB is Form 146 under the Income-tax Rules, 2026."),
     ("What is the new number for Form 10F?", "Form 41. Non-residents use it to give the information needed to claim tax treaty (DTAA) benefits."),
     ("What replaced Form 27Q?", "Form 144, the quarterly TDS return for payments to non-residents."),
+        ("What are Form 16 and Form 16A called now?", "From tax year 2026-27, the salary TDS certificate (Form 16) is Form 130 and the non-salary TDS certificate (Form 16A) is Form 131 under the Income-tax Rules, 2026. Certificates for FY 2025-26 and earlier are still issued as Form 16 and Form 16A. The matching quarterly returns are Form 138 for salary and Form 140 for other resident payments."),
     ("What is Form 128?", "The application for a lower or nil TDS certificate, which replaced Form 13. NRIs selling property commonly use it."),
     ("Is Form 3CEB still used?", "Yes, for FY 2025-26 (AY 2026-27). From tax year 2026-27 the transfer pricing report is Form 48."),
     ("What is the new number for Form 26AS?", "Form 168, the annual tax statement."),

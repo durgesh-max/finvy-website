@@ -733,8 +733,8 @@ write_page("fla-return-foreign-liabilities-assets-rbi-india", page(
          "</ul>"),
         ("/ Non-compliance consequences", "What breaks.",
          "<ul>"
-         "<li><strong>FEMA compounding</strong>: non-filing is a FEMA breach under Section 13. A compounding application can be filed voluntarily; the RBI computes the compounding amount under its guidelines based on the period of delay.</li>"
-         "<li><strong>Compounding + penalty</strong>: for persistent non-filing, RBI can impose compounding fee + penalty up to 3 times the amount involved.</li>"
+         "<li><strong>Late submission fee</strong>: a late FLA return filed within three years of the due date is regularised by paying the RBI late submission fee, a flat INR 7,500 for this no-flow return.</li>"
+         "<li><strong>Compounding</strong>: after three years the delay must be compounded through an application to the RBI; unregularised breaches can attract penalties under Section 13 of FEMA.</li>"
          "<li><strong>Operational</strong>: AD banks may hesitate to process future foreign remittances (inward FDI or outward ODI dividend repatriation) if FLA Return history is non-compliant.</li>"
          "<li><strong>Diligence red flag</strong>: in M&amp;A diligence, future FDI, future ODI, auditor review &mdash; FLA Return non-compliance surfaces and must be fixed.</li>"
          "</ul>"

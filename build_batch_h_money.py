@@ -239,7 +239,7 @@ write_page("ca-for-fema-odi-compliance", page(
          "</ol>"),
         ("/ Common FEMA ODI mistakes", "What we clean up.",
          "<ul>"
-         "<li><strong>Form ODI not filed within 30 days of remittance.</strong> Even one day late is non-compliance. Compounding penalty exposure under FEMA Section 13 (up to 3 times the amount involved).</li>"
+         "<li><strong>Form ODI not filed within 30 days of remittance.</strong> Even one day late is non-compliance. Regularise within three years by paying the RBI late submission fee; beyond that, compounding under FEMA is needed.</li>"
          "<li><strong>UIN never obtained.</strong> Investor remitted the money but Form ODI was never actually filed. Years later, the structure is quietly non-compliant.</li>"
          "<li><strong>APR not filed annually.</strong> Even if the overseas entity is dormant, APR filing is still required. Missing APRs compound.</li>"
          "<li><strong>Press Note 3 missed.</strong> Beneficial owner from China/Pakistan/Nepal/Bhutan/Bangladesh/Myanmar/Afghanistan? Approval Route applies regardless of sector; Automatic Route filing is void.</li>"
@@ -259,7 +259,7 @@ write_page("ca-for-fema-odi-compliance", page(
         ("What is Annual Performance Report (APR)?",
          "An annual filing under FEMA ODI framework reporting the overseas entity's performance (financial results, operations, dividend/royalty flows back to India). Filed within 60 days of the overseas entity's financial year-end. Mandatory even if the entity is dormant."),
         ("What happens if I miss FEMA ODI filings?",
-         "Non-compliance under FEMA Section 13 can attract penalty up to 3 times the amount involved. Voluntary compounding under Section 15 is the standard remediation path &mdash; compounding application to RBI acknowledging the breach and paying a reduced penalty. BQP handles the full compounding workflow."),
+         "Late ODI reporting (Form ODI, the Annual Performance Report and other overseas investment filings) can be regularised within three years of the due date by paying the RBI late submission fee: INR 7,500 plus 0.025% of the amount for each year of delay for filings that report a flow of money, and a flat INR 7,500 for the APR. After three years the breach must be compounded with the RBI; penalties under Section 13 apply to breaches that are not regularised. BQP handles both routes."),
         ("How do I engage BQP for FEMA ODI compliance?",
          "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. Standard engagement scoped for one-time investment or ongoing (multi-year APR + any subsequent investments)."),
     ],

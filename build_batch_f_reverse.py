@@ -349,7 +349,7 @@ write_page("nri-returning-startup-moving-to-india", page(
          "<ul>"
          "<li>Day-count log in year of return.</li>"
          "<li>RNOR eligibility confirmation.</li>"
-         "<li>NRE / FCNR account re-designation within 60-90 days.</li>"
+         "<li>NRE / FCNR account re-designation immediately on return.</li>"
          "<li>Foreign asset planning during RNOR window (sell appreciated US / UAE equity, convert IRA / 401(k) / pension).</li>"
          "<li>Section 6(1A) deemed-residency check if coming from zero-tax jurisdiction.</li>"
          "</ul>"

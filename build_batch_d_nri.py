@@ -224,7 +224,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
          "<li>Convert NRE Fixed Deposit to RFC (Resident Foreign Currency) Account &mdash; maintains foreign-currency denomination, allows continued use of the foreign-currency corpus. Interest on RFC is taxable but can be useful for returning NRIs with pending foreign-currency obligations.</li>"
          "<li>Convert NRE Fixed Deposit to Resident Rupee Deposit &mdash; most common; rupee-denominated; interest fully taxable from conversion.</li>"
          "</ul>"
-         "<p>Failure to re-designate: banks may freeze the account; FEMA penalty possible for continuing to hold NRE after becoming Resident. Act within the first 60-90 days of return.</p>"),
+         "<p>Failure to re-designate: banks may freeze the account; FEMA penalty possible for continuing to hold NRE after becoming Resident. Act as soon as you return.</p>"),
     ],
     faqs=[
         ("How long does RNOR status last for a returning NRI?",
@@ -236,7 +236,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
         ("Can I keep my US investment accounts after returning to India?",
          "Yes, generally &mdash; US brokerage accounts can remain open and continue to hold investments. However: FBAR filing applies if you remain a US person; Schedule FA filing applies when you become ROR in India; some brokerages close accounts of non-US-resident clients (check Fidelity / Schwab / Vanguard terms); and the India-US DTAA + FTC machinery must handle double-counting of US dividends and gains."),
         ("What happens to my NRE Fixed Deposit when I return?",
-         "You re-designate within 60-90 days of returning. Options: convert to Resident Rupee Deposit (interest taxable from conversion), convert to RFC Account (foreign-currency, interest taxable), or withdraw and convert to another instrument. The exemption on NRE interest under Section 10(4)(ii) ends from the conversion date; interest before conversion remains exempt."),
+         "You re-designate immediately on return, as RBI directs. Options: convert to Resident Rupee Deposit (interest taxable from conversion), convert to RFC Account (foreign-currency, interest taxable), or withdraw and convert to another instrument. The exemption on NRE interest under Section 10(4)(ii) ends from the conversion date; interest before conversion remains exempt."),
         ("Does BQP handle NRI return-to-India planning?",
          "Yes. We handle pre-return planning (optimal exit date from host country, RNOR start-year math), RNOR-year asset disposal planning (foreign equity, real estate, retirement accounts), NRE / FCNR re-designation co-ordination, and first-year ROR filing including Schedule FA. Request via get-a-quote.html."),
     ],
@@ -392,7 +392,7 @@ write_page("nri-mutual-funds-india-tax", page(
 write_page("nre-nro-fcnr-account-tax-rules", page(
     slug="nre-nro-fcnr-account-tax-rules",
     title="NRE vs NRO vs FCNR Account Tax Rules 2026 | NRI Banking - BQP",
-    description="NRE, NRO, FCNR account rules for NRIs: Section 10(4)(ii) tax exemption, TDS on NRO interest, repatriation USD 1M, re-designation on return to India, joint-account rules. Working CA guide.",
+    description="NRE, NRO, FCNR account rules for NRIs: NRE interest exemption (section 10(4)(ii), now Schedule IV of the 2025 Act), TDS on NRO interest, repatriation USD 1M, re-designation on return to India, joint-account rules. Working CA guide.",
     keywords="NRE NRO FCNR difference, NRE account tax, NRO account tax, FCNR deposit tax, NRE account interest exemption Section 10(4)(ii), re-designate NRE on return, NRO repatriation USD 1 million",
     hero_kicker="/ NRI tax &middot; Banking accounts",
     hero_title_html="NRE, NRO, FCNR &mdash; <em>the three accounts and their tax.</em>",
@@ -438,7 +438,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("/ On becoming Resident", "The re-designation step.",
          "<p>When the NRI returns to India permanently and becomes Resident:</p>"
          "<ul>"
-         "<li>NRE and NRO accounts must be re-designated as Resident accounts within reasonable time (practically 60-90 days post-return).</li>"
+         "<li>NRE and NRO accounts must be re-designated as Resident accounts immediately on return, as RBI directs; tell your bank as soon as you arrive.</li>"
          "<li>NRE Fixed Deposits can be converted to RFC (Resident Foreign Currency) deposits &mdash; useful if the NRI wants to retain the foreign-currency corpus but is now Resident.</li>"
          "<li>FCNR deposits can continue until maturity after you return; the interest stays exempt while you are RNOR and becomes taxable once you are ordinarily resident. NRE interest is different: it becomes taxable once you are resident.</li>"
          "<li>RFC Account (Resident Foreign Currency): allows Returning NRIs to continue holding foreign currency balances; interest taxable but useful for ongoing foreign-currency obligations.</li>"
@@ -458,7 +458,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("Can I transfer money from NRO to NRE account?",
          "Yes. Transfers from NRO to NRE are permitted within the USD 1 million per financial year repatriation limit (shared with remittances abroad from NRO), after tax is paid on the funds and with a FEMA declaration and Forms 145/146 (formerly 15CA/15CB) to the bank. It is not automatic. Many NRIs mistakenly assume NRO-to-NRE is free &mdash; it is not; the transaction is treated as outward remittance from NRO."),
         ("What happens to my NRE account when I return to India?",
-         "You must re-designate within 60-90 days of return. Savings component converts to Resident Savings Account (interest fully taxable from conversion). Fixed Deposits can be converted to RFC (Resident Foreign Currency) Account to retain foreign-currency denomination, or to Resident Rupee Fixed Deposits. The Section 10(4)(ii) exemption ends on the re-designation date; interest earned before is retained tax-free."),
+         "RBI expects NRE accounts to be re-designated as resident accounts (or moved to an RFC account) immediately on your return; banks ask you to do it as soon as you arrive. Savings component converts to Resident Savings Account (interest fully taxable from conversion). Fixed Deposits can be converted to RFC (Resident Foreign Currency) Account to retain foreign-currency denomination, or to Resident Rupee Fixed Deposits. The Section 10(4)(ii) exemption ends on the re-designation date; interest earned before is retained tax-free."),
         ("Can I claim DTAA treaty rate on NRO interest instead of 30% domestic TDS?",
          "Yes. Submit TRC + Form 10F to the bank before the TDS cycle. Bank then deducts at the treaty rate (typically 10-15% depending on your country of residence). Most NRIs don't file this and pay 30%; refund can be claimed via ITR, but takes 12-18 months to receive."),
         ("Does BQP handle NRE / NRO / FCNR setup and ongoing tax?",

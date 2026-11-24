@@ -241,6 +241,7 @@ write_page("advance-tax-q3-december-15-2026-india", page(
     faqs=[
         ("What's the Q3 advance tax due date for FY 2026-27?",
          "15 December 2026. Taxpayers must have cumulatively paid 75% of estimated full-year tax by this date. Q1 (15 June) covers 15%; Q2 (15 September) covers 45% cumulative; Q3 covers 75% cumulative; Q4 (15 March 2027) covers 100%. Shortfall triggers Section 234C 1% per month interest for 3 months on the shortfall amount."),
+        ("What are the advance tax due dates for tax year 2026-27 (AY 2027-28)?", "Four instalments: at least 15% of the year's estimated tax by 15 June 2026, 45% by 15 September 2026, 75% by 15 December 2026 and 100% by 15 March 2027. Taxpayers under the presumptive schemes for small businesses and professionals can pay the whole amount by 15 March 2027 instead. Advance tax applies when the tax payable after TDS is INR 10,000 or more for the year; resident senior citizens without business income are exempt. A shortfall at any instalment attracts interest of 1% a month on the shortfall."),
         ("Who must pay advance tax in India?",
          "Any taxpayer (individual / HUF / firm / LLP / company) with net tax liability (after TDS/TCS credit) exceeding INR 10,000 in the FY. Senior citizens (60+) without business income are exempt. Presumptive-scheme taxpayers (Section 44AD / 44ADA) can pay in single instalment by 15 March of FY."),
         ("Is advance tax applicable to salaried individuals?", "Yes, if their tax for the year after TDS is INR 10,000 or more. For most salaried people the employer's TDS covers it, but interest, rent, capital gains, freelance income or a second job can leave a shortfall, and that part must be paid in instalments by 15 June, 15 September, 15 December and 15 March to avoid interest. Resident senior citizens (60+) with no business income are exempt."),
@@ -258,7 +259,7 @@ write_page("advance-tax-q3-december-15-2026-india", page(
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Guide", "ITR AY 2026-27"),
         ("new-vs-old-tax-regime-calculator.html", "Tool", "Regime Calculator"),
     ],
-    cta_headline="15 December 2026 is 54 days away. Have you computed Q3 advance tax?",
+    cta_headline="15 December 2026 is the Q3 due date. Have you computed your advance tax?",
     cta_body="Section 234C 1% per month on shortfall for 3 months. BQP: fast computation + Challan + CIN tracking. 24-48 hour turnaround during December window.",
 ))
 

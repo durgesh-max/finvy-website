@@ -174,6 +174,7 @@ BOXES = {
     "dec26news": ("Deadlines coming up in December?", 'December deadlines: advance tax 15 December, belated and fee-free revised ITRs, GSTR-9, AOC-4 waiver and FAST-DS by 31 December, and digital KYC for NRIs from 3 December: <a href="india-tax-nri-cross-border-news-december-2026.html">December 2026 roundup</a>.'),
     "b54ec": ("Selling property and want to keep more of the gain?", 'Selling land or a building? Put the long-term gain into 54EC bonds (now section 85) within six months, up to &#8377;50 lakh, and hold five years: <a href="54ec-bonds-section-85-capital-gains-bonds-lock-in-interest-rate-limit-nri-2026.html">54EC bonds guide</a>.'),
     "aismm": ("Seen a mismatch or got a message from the tax department?", 'AIS showing income your return does not? Give feedback if the entry is wrong, or revise your FY 2025-26 return free until 31 December 2026: <a href="ais-mismatch-itr-what-to-do-feedback-revised-return-31-december-2026-e-campaign-nri.html">AIS mismatch: what to do</a>.'),
+    "tdsrent": ("Paying or receiving rent, or buying property?", 'TDS on rent from 1 April 2026: &#8377;50,000 a month limit, 2% for individual tenants (old 194-IB) and 10% for businesses (old 194-I), now under section 393: <a href="tds-on-rent-limit-fy-2026-27-section-393-194ib-194i-194ia-property-purchase-1-percent-nri-landlord.html">TDS on rent FY 2026-27</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -202,6 +203,9 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "nri-property-management-india-from-abroad-power-of-attorney-rent-tds-itr-repatriation-2026.html": ["tdsrent"],
+    "income-tax-act-2025-section-mapping-old-vs-new-54-is-82-80c-is-123-nri.html": ["tdsrent"],
+    "form-10ba-house-rent-self-certification-section-80gg.html": ["tdsrent"],
     "form-26as-vs-ais-vs-tis-india-2026.html": ["aismm"],
     "best-ca-section-54f-capital-gain-reinvestment-india.html": ["b54ec"],
     "property-capital-gains-tax-calculator-india-indexation-12-5-vs-20-inherited-nri-2026.html": ["b54ec"],
@@ -386,7 +390,7 @@ TARGETS = {
     "india-australia-dtaa-tax-treaty-nri-rates-capital-gains-fito-2026.html": ["ausco", "auout", "ausell"],
     "nre-nro-fcnr-account-tax-rules.html": ["ociacc", "epf", "dkyc", "uaenri", "nrippf", "nriloan", "nribiz", "nribuy", "nreabroad", "fgcnri", "fnye", "fnshares", "fnrocalc", "movingabroad", "nribonds", "nro2nre", "investabroad", "nrinps", "nrisen", "nripm", "nrigstins", "taxrates"],
     "nri-india-property-ldc-lower-deduction-certificate.html": ["f128"],
-    "nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026.html": ["f128", "frentcalc", "nripm"],
+    "nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026.html": ["f128", "frentcalc", "nripm", "tdsrent"],
     "nri-property-sale-tds-calculator-lower-deduction-certificate-savings.html": ["f128", "nrielig"],
     "india-canada-dtaa-tax-treaty-nri-rates-capital-gains-foreign-tax-credit-2026.html": ["canco", "cansell"],
     "register-company-in-australia-from-india-pty-ltd-odi-resident-director-tax-2026.html": ["canco", "ausell"],

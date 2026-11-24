@@ -323,7 +323,7 @@ write_page("gst-notice-response-india-asmt-drc-gstr", page(
 # 5. Freelancer Consultant Tax India
 write_page("freelancer-consultant-tax-india-2026-complete", page(
     slug="freelancer-consultant-tax-india-2026-complete",
-    title="Freelancer / Consultant Tax India 2026 | Upwork, Fiverr, Toptal, Direct Clients - BQP",
+    title="Freelancer and Self-Employed Tax India 2026: 44ADA, GST, ITR for Upwork, Fiverr and Direct Clients - BQP",
     description="Freelancer / consultant tax in India 2026: Section 44ADA presumptive scheme (50% deemed profit), ITR-4 vs ITR-3, GST registration threshold, foreign client income + GST LUT, Section 80C + 80D deductions. Working CA guide by Durgesh Chavda.",
     keywords="freelancer tax India 2026, consultant tax India, Upwork tax India, Fiverr tax India, Section 44ADA presumptive, freelancer GST India, foreign income freelancer tax",
     hero_kicker="/ Blog &middot; Freelancer / Consultant Tax &middot; Updated 2026-10-10",
@@ -409,6 +409,8 @@ write_page("freelancer-consultant-tax-india-2026-complete", page(
     faqs=[
         ("Is Section 44ADA presumptive scheme good for freelancers?",
          "Usually yes if actual expenses are below 50% of gross receipts. Pay tax on 50% of gross receipts regardless of actual expenses, no books of accounts, no audit. Available for specified professions (legal, medical, engineering, accountancy, IT consultancy, etc.) up to INR 75 lakh annual gross receipts. 5-year lock-in once opted out."),
+        ("How is a self-employed professional taxed in India?", "Self-employed professionals and freelancers are taxed on business or professional income at slab rates. Under section 44ADA they can declare 50% of gross receipts as profit (if receipts are under INR 75 lakh, subject to the cash-receipt condition) and skip detailed books, or keep accounts and claim actual expenses. They pay advance tax during the year and file ITR-4 (presumptive) or ITR-3."),
+        ("Do students or beginners doing freelancing in India need to pay tax?", "Income is taxed on the amount earned, not on age or student status. If total income stays within the basic exemption and rebate under the new regime, no tax may be payable, but a return is still worth filing to claim back any TDS and to have proof of income. Foreign-client income should come in through banking channels with the purpose code recorded."),
         ("Do I need GST registration as a freelancer?",
          "Mandatory if aggregate annual turnover exceeds INR 20 lakh for services (INR 10 lakh in special category states), or if you supply inter-state services (regardless of turnover), or if you use an e-commerce platform (Fiverr, Upwork). Below the threshold with intra-state only: voluntary registration available."),
         ("Which ITR form should a freelancer file?",

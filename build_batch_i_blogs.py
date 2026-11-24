@@ -68,8 +68,9 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
          "<p><em>Last updated: 2026-10-07.</em></p>"),
     ],
     faqs=[
-        ("What is the new LTCG rate in India from October 2026?",
+        ("What is the LTCG rate in India in 2026?",
          "12.5% without indexation across most asset classes (listed equity, unlisted equity, property, bonds, debentures) for transfers on or after 23 July 2024. Pre-July-2024 acquisitions retain the choice of 20% with indexation for grandfathered holdings. STCG on listed equity is 20% (up from 15%)."),
+        ("What is the difference between LTCG and STCG in India?", "It depends on how long you held the asset. Listed shares and equity mutual funds are long-term after 12 months; property, unlisted shares, gold and most other assets after 24 months. Long-term gains (LTCG) are taxed at 12.5%, with the first INR 1.25 lakh a year of listed equity gains exempt. Short-term gains (STCG) on listed shares and equity funds are taxed at 20%, and on other assets at your normal slab rate."),
         ("Did Finance Act 2024 remove indexation entirely?",
          "For new acquisitions (on or after 23 July 2024), yes - no indexation available. For assets acquired before 23 July 2024 and sold after it, only land or buildings held by a resident individual or HUF keep a choice between 20% with indexation and 12.5% without, per transaction (the lower tax applies). Shares, bonds, gold and all assets of non-residents pay 12.5% without indexation."),
         ("Is the LTCG exemption on listed equity still INR 1 lakh?",

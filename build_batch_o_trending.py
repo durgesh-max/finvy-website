@@ -691,7 +691,7 @@ write_page("nri-nre-nro-conversion-returning-india-2026", page(
          "<ul>"
          "<li><strong>FEMA residence</strong>: distinct from Income Tax residence. FEMA Section 2(v) defines 'person resident in India' broadly &mdash; stays in India for more than 182 days during preceding FY OR intends to come to India for employment / business / stay for uncertain period.</li>"
          "<li><strong>Trigger of residence</strong>: once NRI's intention to stay in India for uncertain period crystallises (job in India, settlement plan, bringing family), FEMA residence may trigger even before 182 days physical presence.</li>"
-         "<li><strong>Conversion obligation</strong>: 'within reasonable time' of becoming resident, NRE / NRO / FCNR accounts must be converted / designated as resident. 'Reasonable time' interpreted by banks as 60-90 days typical but not strictly defined.</li>"
+         "<li><strong>Conversion obligation</strong>: 'within reasonable time' of becoming resident, NRE / NRO / FCNR accounts must be converted / designated as resident. RBI's wording for NRE accounts is 'immediately upon the return'; do it as soon as you arrive.</li>"
          "<li><strong>Continuing to operate NRE / NRO as resident</strong> = FEMA breach. Prolonged breach can trigger compounding under Section 13.</li>"
          "</ul>"),
         ("/ Account options post-return", "What to convert to.",
@@ -752,7 +752,7 @@ write_page("nri-nre-nro-conversion-returning-india-2026", page(
     ],
     faqs=[
         ("When do I need to convert my NRE/NRO account after returning to India?",
-         "Within reasonable time of becoming FEMA resident - typically 60-90 days post-arrival with settled intention to stay. FEMA residence (Section 2(v)) is distinct from Income Tax residence and can trigger even before 182 days physical presence if intention + employment / business set up suggests settlement. Prolonged operation of NRE/NRO as resident = FEMA breach + potential compounding under Section 13."),
+         "Immediately on return, as RBI directs for NRE accounts once you come back to settle; banks ask you to do it as soon as you arrive. FEMA residence (Section 2(v)) is distinct from Income Tax residence and can trigger even before 182 days physical presence if intention + employment / business set up suggests settlement. Prolonged operation of NRE/NRO as resident = FEMA breach + potential compounding under Section 13."),
         ("What is RFC account and should I open one?",
          "RFC (Resident Foreign Currency) account - foreign currency-denominated account for Indian residents who were NRI for 1+ year. Preserves foreign currency + fully repatriable + no balance limit. Interest taxable in India. Useful if you may re-expatriate, receive foreign pension, hold foreign currency savings. Alternative to converting NRE to Regular Savings (which loses foreign currency + repatriable status)."),
         ("What happens to my FCNR deposit when I return?",

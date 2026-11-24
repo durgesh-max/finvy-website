@@ -270,6 +270,8 @@ write_page("safe-vs-convertible-note-india-founder", page(
     faqs=[
         ("Is SAFE legal in India?",
          "SAFE is a US instrument; its direct use in Indian-company funding is not clearly recognised under FEMA. The Indian equivalents are CCDs (compulsorily convertible debentures) or compulsorily convertible preference shares, which have clear FEMA pricing and FDI treatment. For a Delaware C-Corp subsidiary (post-flip), SAFEs are freely usable."),
+        ("What is a convertible note in India?", "A convertible note is a startup borrowing that converts into shares later. A DPIIT-recognised startup can issue convertible notes of INR 25 lakh or more in a single tranche, including to foreign investors under FEMA, repayable or convertible within ten years; within these limits the money is not treated as a deposit under the Companies Act. Issuing to non-residents needs FEMA reporting, and investors from land-border countries need government approval."),
+        ("Is a term sheet legally binding in India?", "Usually not in its commercial terms: a term sheet records the deal in principle, and the binding contract is the later share subscription and shareholders' agreements. Clauses expressly stated to be binding, such as confidentiality, exclusivity or no-shop, costs and governing law, are enforceable under the Indian Contract Act, so read which clauses the term sheet makes binding before signing."),
         ("Does SAFE have interest?",
          "No. SAFE has no interest, no maturity date. The investor converts the original principal into preferred stock at the discount or cap. Convertible notes have interest, typically 4-8% compounding."),
         ("What is pre-money vs post-money SAFE?",

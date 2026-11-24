@@ -51,7 +51,7 @@ PAGES = [dict(
             "<strong>Valuation method:</strong> sources differ on how vesting value is fixed for foreign-listed shares (merchant banker valuation under the rules, or exchange price converted at the SBI TT buying rate); follow and keep your employer's documented method.",
             "<strong>Moved to or from India:</strong> RSUs earned partly while working abroad may be taxed in India only for the India-service portion, depending on residency and the treaty.")),
         ("/ For foreign employers and Indian subsidiaries", "Payroll and recharge.",
-         ul("The Indian employer deducts TDS on the perquisite at vesting and reports it in Form 16; sell-to-cover or cash collection must fund the TDS on time.",
+         ul("The Indian employer deducts TDS on the perquisite at vesting and reports it in Form 16 (Form 130 from tax year 2026-27); sell-to-cover or cash collection must fund the TDS on time.",
             "If the foreign parent recharges the RSU cost to the Indian subsidiary, the recharge needs an agreement and transfer pricing support, and withholding may apply.",
             "Employees holding foreign employer shares is permitted under India's overseas investment rules; keep plan documents and statements for the bank and tax officer.",
             "From FY 2026-27 the perquisite provision sits in the Income-tax Act, 2025; the principles are unchanged.")
@@ -70,7 +70,7 @@ PAGES = [dict(
     keywords="RSU taxation India, RSU tax India US stocks, RSU taxation in India example, RSU perquisite vesting India, capital gains on US shares India 12.5 percent, RSU Schedule FA, RSU dividend foreign tax credit Form 67, sell to cover TDS India",
     desc="RSU taxation in India for US stocks (2026): perquisite at vesting with employer TDS, capital gains on sale (foreign shares unlisted: 12.5% after 24 months, no INR 1.25 lakh exemption), dividends and Form 67 credit, Schedule FA, common mistakes and employer points, with an illustrative example.",
     howto={"name": "How to handle RSU tax in India", "description": "From vesting to sale.", "steps": [
-        {"name": "Record vesting values", "text": "Keep the vesting date, shares and value taxed as perquisite (Form 16)."},
+        {"name": "Record vesting values", "text": "Keep the vesting date, shares and value taxed as perquisite (Form 16, or Form 130 from tax year 2026-27)."},
         {"name": "Report holdings", "text": "Show shares and broker account in Schedule FA every year if resident and ordinarily resident."},
         {"name": "Claim dividend credit", "text": "File Form 67 for US tax withheld on dividends."},
         {"name": "Compute gains on sale", "text": "Sale price minus vesting value; 12.5% if held over 24 months."},

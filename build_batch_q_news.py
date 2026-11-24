@@ -142,7 +142,7 @@ write_page("diwali-2026-bonus-perquisite-tax-india", page(
          "<li>Calibrate per-employee value: below INR 5,000 for Section 17(2) exemption; below INR 50,000 for GST deemed-supply exemption.</li>"
          "<li>If above INR 5,000: add perquisite to employee's monthly payroll (October / November); increase Section 192 TDS.</li>"
          "<li>Form 24Q Q3 (October-December) will reflect perquisite in employee TDS computation.</li>"
-         "<li>Form 16 (annual) shows perquisite value in Part B.</li>"
+         "<li>Form 16 (renamed Form 130 from tax year 2026-27, so the certificate for a Diwali 2026 bonus will be Form 130) shows perquisite value in Part B.</li>"
          "<li>If above INR 50,000: compute GST on deemed supply; pay in October / November GSTR-3B.</li>"
          "<li>Communication to employees: tax-inclusive vs tax-free framing of gift value.</li>"
          "<li><em>Last updated: 2026-10-22.</em></p>"),
@@ -159,7 +159,7 @@ write_page("diwali-2026-bonus-perquisite-tax-india", page(
         ("What if employer gives Diwali party / dinner instead of gift?",
          "Diwali office party / dinner for all employees is NOT a perquisite under Section 17(2) if provided to all employees as business entertainment. Rule 3(7)(iii) exempts recreational facilities provided uniformly to all employees. GST ITC on business entertainment typically blocked under Section 17(5). Prefer collective party over individual gift above threshold."),
         ("Does BQP help structure Diwali bonus for optimal tax?",
-         "Yes - standard advisory. Bonus structure design (cash / voucher / gift / party mix) + per-employee value calibration + Section 17(2) perquisite computation + Section 192 TDS integration + GST deemed-supply analysis + Form 24Q Q3 preparation + Form 16 reflection. For companies with 50-1000+ employees. WhatsApp +91 78018 87130."),
+         "Yes - standard advisory. Bonus structure design (cash / voucher / gift / party mix) + per-employee value calibration + Section 17(2) perquisite computation + Section 192 TDS integration + GST deemed-supply analysis + Form 24Q Q3 preparation (Form 138 from tax year 2026-27) + Form 16 / Form 130 reflection. For companies with 50-1000+ employees. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Guide", "ITR AY 2026-27"),

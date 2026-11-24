@@ -65,7 +65,7 @@ PAGES = [dict(
          ul("Incorporate the subsidiary (EPFO and ESIC registration numbers are issued through the SPICe+ incorporation form) and get PAN and TAN; see <a href=\"branch-office-vs-liaison-vs-wos-india-foreign.html\">subsidiary vs branch vs liaison office</a>.",
             "Register under the state shops and establishments law and for professional tax in each state where staff sit.",
             "Approve a salary structure, leave policy and appointment letter template compliant with the labour codes.",
-            "Run monthly payroll: salary TDS, provident fund and ESI deposits and returns, professional tax; quarterly TDS returns; Form 16 every June.",
+            "Run monthly payroll: salary TDS, provident fund and ESI deposits and returns, professional tax; quarterly TDS returns; Form 16 every June (renamed Form 130 from tax year 2026-27).",
             "Agree the parent-subsidiary service arrangement (usually cost plus a markup) and keep transfer pricing documentation; see <a href=\"transfer-pricing-india-foreign-mnc.html\">transfer pricing for foreign MNCs</a>.",
             "Hiring only one or two people first? An employer of record can be faster; see <a href=\"employer-of-record-india-hire-from-abroad.html\">EOR in India</a> and <a href=\"foreign-company-remote-employee-india-pe-risk-eor-contractor-subsidiary-2026.html\">remote employees and PE risk</a>.")
          + '<p>Related: <a href="india-services-for-foreign-companies-complete-list.html">services for foreign companies in India</a> &middot; <a href="nominee-resident-director-india-foreign-company.html">resident director for a foreign company</a>.</p>'

@@ -632,8 +632,7 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Buyback: Section 115QA 20% buyback tax on company.</li>"
              "<li><strong>LLP</strong>:</li>"
              "<li>&nbsp;&nbsp;&mdash; Flat tax rate: 30% + surcharge + 4% cess.</li>"
-             "<li>&nbsp;&nbsp;&mdash; No MAT equivalent (but AMT 18.5% applicable if specific thresholds).</li>"
-             "<li>&nbsp;&nbsp;&mdash; Section 115BBD-equivalent for LLP: dividend / specific receipts specific.</li>"
+             "<li>&nbsp;&nbsp;&mdash; No MAT equivalent (but AMT 18.5% applicable if specific thresholds).</li>"
              "<li>&nbsp;&nbsp;&mdash; Partner's share of profit: EXEMPT in partner's hands (Section 10(2A)).</li>"
              "<li>&nbsp;&nbsp;&mdash; Partner's remuneration + interest: taxable in partner's hands + deductible in LLP (per Section 40(b) limits).</li>"
              "</ul>"),

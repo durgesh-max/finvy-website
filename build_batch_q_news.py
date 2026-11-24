@@ -172,7 +172,7 @@ write_page("diwali-2026-bonus-perquisite-tax-india", page(
 # 3. Q3 advance tax
 write_page("advance-tax-q3-december-15-2026-india", page(
     slug="advance-tax-q3-december-15-2026-india",
-    title="Advance Tax Q3 Due 15 December 2026 India | 75% Payment Guide - BQP",
+    title="Advance Tax Due Dates AY 2027-28 (FY 2026-27): Q3 Due 15 December 2026, 75% Payment Guide - BQP",
     description="Advance tax Q3 instalment due 15 December 2026 India: 75% cumulative payment of estimated FY 2026-27 tax, computation, interest under Section 234B / 234C, Section 44AA presumptive scheme exception, Section 44ADA / 44AD specific rules, Section 44BB (NRIs on business). Working CA guide by Durgesh Chavda.",
     keywords="advance tax Q3 December 15 2026 India, 75% advance tax payment, Section 234B 234C interest, advance tax computation India 2026",
     hero_kicker="/ Tax Compliance Alert &middot; Updated 2026-10-22",

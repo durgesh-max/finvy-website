@@ -247,52 +247,54 @@ write_page("india-to-delaware-flip-structure", page(
 write_page("boir-cta-us-llc-indian-owner", page(
     slug="boir-cta-us-llc-indian-owner",
     title="BOIR / CTA for US LLC with Indian Owner 2026 | Current Status - BQP",
-    description="Corporate Transparency Act BOIR filing status for US entities with Indian owners. 2024-2025 litigation and FinCEN enforcement timeline. Who files, what to report, current obligations. CA guide.",
+    description="Corporate Transparency Act BOIR filing status for US entities with Indian owners. FinCEN final rule (August 2026) exempts US-formed companies; who still files, penalties, New York LLC Transparency Act. CA guide.",
     keywords="BOIR CTA India, Corporate Transparency Act Indian owner, BOIR filing US LLC, beneficial ownership US LLC India, FinCEN BOIR 2026, CTA injunction status, BOIR exemption",
     hero_kicker="/ US compliance &middot; BOIR / CTA",
     hero_title_html="BOIR / CTA for Indian owners, <em>current status 2026.</em>",
-    hero_lead="The US Corporate Transparency Act (CTA) requires Beneficial Ownership Information Reports (BOIR) for US entities, naming the ultimate human owners. For Indian founders with US LLCs, the obligation was in force, then enjoined, then narrowed. Here is the current state and the practical filing position as of 2026.",
+    hero_lead="The US Corporate Transparency Act (CTA) requires Beneficial Ownership Information Reports (BOIR) for US entities, naming the ultimate human owners. For Indian founders with US LLCs, the obligation was in force, then enjoined, then narrowed, and since August 2026 US-formed companies are permanently exempt. Here is the current state and the practical filing position as of 2026.",
     sections=[
         ("/ Background", "What CTA requires in principle.",
          "<p>The Corporate Transparency Act (part of the National Defense Authorization Act 2021) requires 'reporting companies' &mdash; broadly, US-formed corporations and LLCs and foreign entities registered to do business in the US &mdash; to file a Beneficial Ownership Information Report with FinCEN naming each beneficial owner (individual with 25%+ ownership or substantial control).</p>"
          "<p>Original penalties: USD 500 per day for ongoing non-compliance, up to USD 10,000 criminal penalty and 2 years imprisonment for wilful violation.</p>"
          "<p>Information reported per beneficial owner: full name, date of birth, residential address, unique identifying number (passport, driver licence), image of the identification document.</p>"),
-        ("/ The 2024-2025 litigation path", "Why it stopped, then changed.",
+        ("/ The 2024-2026 rule changes", "Why it stopped, then changed.",
          "<p>Multiple federal courts enjoined CTA enforcement in 2024 on constitutional grounds (commerce-clause overreach, Fourth Amendment privacy). The Fifth Circuit and other circuits produced conflicting rulings.</p>"
          "<p>In March 2025 FinCEN issued an interim final rule narrowing CTA's scope: domestic US entities and US-citizen beneficial owners of foreign entities registered in the US were exempted from BOIR filing. The remaining obligation applies to <strong>foreign reporting companies</strong> (non-US entities registered to do business in US states) with <strong>non-US-citizen beneficial owners</strong>.</p>"
-         "<p>Status as of 2026: the interim final rule remains in effect. Domestic US LLCs and C-Corps &mdash; the standard Delaware entity used by Indian founders &mdash; are not subject to BOIR filing under the current rule. This may change if the final rule or further litigation shifts position.</p>"),
+         "<p>Status as of 2026: FinCEN made the exemption permanent with a final rule effective August 2026. US-formed LLCs and corporations &mdash; the standard Delaware or Wyoming entity used by Indian founders &mdash; no longer file BOI reports, whoever owns them. Only foreign reporting companies file, and only for their non-US beneficial owners. A future rule or law could change this, but US-formed companies have no BOI filing to make today.</p>"),
         ("/ Current practical position", "Who should file now, who should not.",
-         "<p>Based on the March 2025 interim final rule:</p>"
+         "<p>Under FinCEN's final rule effective August 2026:</p>"
          "<ul>"
-         "<li><strong>Delaware LLC owned by an Indian individual (standard case):</strong> domestic US entity, not currently required to file BOIR. Monitor FinCEN updates for the final rule.</li>"
-         "<li><strong>Delaware C-Corp with Indian founder-shareholders:</strong> same &mdash; domestic entity, not currently filing. Monitor.</li>"
+         "<li><strong>Delaware LLC owned by an Indian individual (standard case):</strong> domestic US entity, not required to file BOIR.</li>"
+         "<li><strong>Delaware C-Corp with Indian founder-shareholders:</strong> same &mdash; domestic entity, no BOIR filing.</li>"
          "<li><strong>Indian company registered to do business in a US state (foreign reporting company):</strong> potentially within scope. Beneficial-owner analysis required; if any non-US-citizen beneficial owner, filing may be required.</li>"
          "<li><strong>Non-US-formed holding entity (e.g. BVI, Cayman, Singapore) registered in a US state:</strong> potentially within scope. Case-by-case analysis.</li>"
          "</ul>"
-         "<p>Important caveat: FinCEN's interim rule is subject to revision. The final rule or a subsequent executive-order change could restore domestic-entity obligations. Entities that previously filed under the pre-2025 rules do not need to withdraw &mdash; filed BOIRs remain on file with FinCEN.</p>"),
+         "<p>State rules can still apply: New York's LLC Transparency Act, in force from 1 January 2026, now reaches only LLCs formed outside the US that are registered to do business in New York, so a US-formed LLC is outside it too. Entities that previously filed under the pre-2025 rules do not need to withdraw &mdash; filed BOIRs remain on file with FinCEN.</p>"),
         ("/ What to do operationally", "The 2026 BOIR workflow.",
          "<p>For an Indian founder with a Delaware LLC or C-Corp (the standard case):</p>"
          "<ol>"
-         "<li>Document the current entity classification (domestic reporting company; exempt from BOIR under the March 2025 interim final rule).</li>"
-         "<li>Retain beneficial-ownership documentation internally &mdash; names, dates of birth, addresses, ID copies &mdash; so that filing can be executed within 30 days if the rule changes.</li>"
-         "<li>Subscribe to FinCEN updates and/or have a US CA/attorney who monitors final rule issuance.</li>"
+         "<li>Document the entity classification (US-formed company; exempt from BOIR under FinCEN's final rule effective August 2026).</li>"
+         "<li>Retain beneficial-ownership documentation internally &mdash; names, dates of birth, addresses, ID copies &mdash; in case a future rule, a bank or an investor asks for them.</li>"
+         "<li>Ignore letters or emails demanding a BOI filing fee: FinCEN does not charge to file, and it has warned about fraudulent BOI correspondence.</li>"
          "<li>If the entity is a foreign reporting company (unusual for Indian founders): engage a specialist to run the beneficial-owner analysis and file BOIR as required.</li>"
          "</ol>"
-         "<p>For entities that filed BOIR under the pre-2025 rule: the filing remains on record with FinCEN. No action required to withdraw. Future updates (change of address, change of ID document) should be reported under the pre-2025 process even if newly-arising obligations are different.</p>"),
+         "<p>For entities that filed BOIR under the pre-2025 rule: the filing remains on record with FinCEN. No action required to withdraw. US-formed companies do not need to file updated reports for later changes.</p>"),
     ],
     faqs=[
         ("Does my Delaware LLC still need to file BOIR in 2026?",
-         "Based on the FinCEN interim final rule effective March 2025, a Delaware LLC that is a domestic reporting company is currently exempt from BOIR filing. The rule is subject to revision; monitor FinCEN for the final rule. This is subject to change."),
+         "No. FinCEN's final rule, effective August 2026, permanently exempts companies formed in the US from BOI reporting, whatever the owners' nationality. A Delaware LLC owned by an Indian resident files no BOIR, initial or updated."),
         ("What is the penalty for not filing BOIR?",
-         "Under the original CTA, USD 500 per day of ongoing non-compliance plus criminal penalties up to USD 10,000 and 2 years imprisonment for wilful violation. Under the current interim final rule the enforcement against domestic reporting companies is deprioritised, but the statutory penalties remain on the books. If the rule reverts, back-filing with a reasonable-cause explanation is the standard path."),
+         "The statute allows civil penalties of USD 500 a day (adjusted for inflation) and criminal penalties of up to USD 10,000 and 2 years imprisonment for wilful violations. Because US-formed companies are now exempt, these matter only for foreign reporting companies that must file and do not."),
+        ("Is there a fee to file a BOIR, and are the $349 BOIR letters real?", "FinCEN does not charge to file a beneficial ownership report; filing service companies set their own fees. FinCEN has warned about fraudulent letters and emails about BOI reporting, and since August 2026 companies formed in the US have nothing to file at all, so treat any letter demanding a BOIR fee from a US LLC with suspicion and do not pay or share ID documents."),
+        ("Does the New York LLC Transparency Act apply to my US LLC?", "Usually not. The New York LLC Transparency Act took effect on 1 January 2026, but after the Governor’s veto of the amending bill it reaches only LLCs formed outside the US that are registered to do business in New York, and US persons need not be named as beneficial owners. A Delaware, Wyoming or New York LLC owned by an Indian resident is formed in the US, so it falls outside both the New York Act and federal BOI reporting."),
         ("I filed BOIR in 2024 before the rules changed. Do I need to withdraw?",
          "No. The 2024 BOIR filing remains on record with FinCEN. No withdrawal mechanism is required. Keep internal records of what was filed."),
         ("Should I file BOIR anyway as a precaution?",
-         "FinCEN is not currently accepting voluntary BOIRs from domestic reporting companies under the interim rule. If the rule reverts and filing becomes mandatory again, there will be a filing window announced. Monitor and be ready."),
+         "No. US-formed companies are exempt under FinCEN's final rule, so there is nothing to file. Keep the ownership records with your company documents instead."),
         ("Does CTA / BOIR apply to Indian company that is NOT registered in a US state?",
          "No. CTA applies to entities formed in the US and foreign entities <em>registered to do business</em> in a US state. A pure Indian company with no US registration is outside CTA's scope entirely &mdash; CTA has nothing to do with Indian entities not operating formally in the US."),
         ("Does BQP monitor BOIR status for clients?",
-         "Yes. For all clients with US entities we track the BOIR / CTA regulatory status and notify when a filing obligation activates. For entities currently exempt we retain the beneficial-ownership documentation pack internally so we can file within 30 days of a rule change. Request via get-a-quote.html."),
+         "Yes. We check whether any of your US or foreign entities has a BOI or New York filing, and keep it on one US compliance calendar with Form 5472 and state annual reports. Book a call via book-a-call.html."),
     ],
     related=[
         ("file-form-5472-foreign-owned-us-llc.html", "Guide", "Form 5472"),
@@ -300,13 +302,13 @@ write_page("boir-cta-us-llc-indian-owner", page(
         ("get-a-quote.html", "Mandate", "Get a firm quote"),
     ],
     cta_headline="BOIR / CTA still unclear? We monitor the rule, you keep operating.",
-    cta_body="FinCEN's position on BOIR has shifted twice in 18 months. For Indian founders with Delaware entities, the current position is exempt &mdash; but regulations may revert. We maintain the beneficial-ownership documentation pack for every client entity so that filing can execute within 30 days of any rule change.",
+    cta_body="FinCEN's final rule of August 2026 exempts US-formed companies from BOIR. Indian founders with Delaware or Wyoming entities still have Form 5472, state annual reports and Indian ODI filings to keep up; talk to us about the full compliance calendar.",
     howto={"name": "Steps", "description": "Step-by-step working-CA procedure.", "steps": [
         {"name": "Classify entity type", "text": "Domestic (US-formed) or foreign reporting company (non-US formed, registered in a US state)?"},
-        {"name": "Check current rule applicability", "text": "March 2025 interim final rule: domestic entities exempt; foreign reporting companies with non-US beneficial owners within scope."},
-        {"name": "If exempt, retain BO documentation internally", "text": "Names, dates of birth, addresses, ID copies, ownership percentages &mdash; ready to file if the rule reverts."},
+        {"name": "Check current rule applicability", "text": "Final rule effective August 2026: US-formed entities exempt; foreign reporting companies report their non-US beneficial owners."},
+        {"name": "If exempt, retain BO documentation internally", "text": "Names, dates of birth, addresses, ID copies, ownership percentages &mdash; kept with company records."},
         {"name": "If within scope, prepare BOIR", "text": "File via FinCEN's BOI E-Filing System: boiefiling.fincen.gov. Information per each beneficial owner (25%+ or substantial control)."},
-        {"name": "Monitor FinCEN final rule issuance", "text": "Subscribe to FinCEN updates or use a service that monitors regulatory status."},
+        {"name": "Check state rules", "text": "New York's LLC Transparency Act covers only LLCs formed outside the US and registered in New York."},
         {"name": "Report material changes within 30 days", "text": "If a BOIR has been filed, changes to beneficial ownership, address, or ID documents must be reported within 30 days."}
     ]},
 ))

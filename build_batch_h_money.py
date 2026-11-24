@@ -513,8 +513,8 @@ write_page("us-company-registration-from-india-2026", page(
         ("/ EIN without SSN", "The non-US-resident founder route.",
          "<p>Non-SSN founders cannot obtain an EIN via the IRS online EIN system (which requires an SSN or ITIN of a responsible party). The alternatives:</p>"
          "<ol>"
-         "<li><strong>Form SS-4 via fax</strong> (+1-855-215-1627 for international applicants). 4-8 weeks typical processing. Reliable but slow.</li>"
-         "<li><strong>Form SS-4 via international phone</strong> (+1-267-941-1099, Mon-Fri 7am-7pm Eastern). Same-day EIN possible if the call is scripted correctly. Faster but requires live call with specific wording.</li>"
+         "<li><strong>Form SS-4 via fax</strong> (+1-304-707-9471 for international applicants sending from outside the US; +1-855-215-1627 if sending from within the US). The IRS says fax replies generally come within 4 business days; allow longer.</li>"
+         "<li><strong>Form SS-4 via international phone</strong> (+1-267-941-1099, Mon-Fri 6am-11pm Eastern). Same-day EIN possible if the call is scripted correctly. Faster but requires live call with specific wording.</li>"
          "<li><strong>Via a CA / preparer</strong> with existing third-party designee authorisation. BQP uses the phone route primarily.</li>"
          "</ol>"
          "<p>EIN assignment letter (CP-575) is retained &mdash; required for US bank account, Stripe, future tax filings.</p>"),

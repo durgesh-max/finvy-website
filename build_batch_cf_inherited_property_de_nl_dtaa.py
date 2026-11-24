@@ -61,7 +61,7 @@ INH = dict(
     sections=[
         ("/ Who inherits", "Will first, then personal law.",
          table(["Situation", "Who inherits"], [
-             ["There is a valid will", "The beneficiaries named in it; probate is compulsory for certain wills in Mumbai, Kolkata and Chennai and useful elsewhere when property is disputed"],
+             ["There is a valid will", "The beneficiaries named in it; probate is no longer compulsory anywhere (section 213 of the Indian Succession Act was omitted from 21 December 2025) but is still useful when the estate is large or disputed"],
              ["No will: Hindu, Sikh, Jain or Buddhist", "Hindu Succession Act, 1956: Class I heirs (widow, sons, daughters, mother and others) share equally; daughters are coparceners by birth with equal rights (2005 amendment, confirmed by the Supreme Court in Vineeta Sharma, 11 August 2020)"],
              ["No will: Christian or Parsi", "Indian Succession Act, 1925"],
              ["No will: Muslim", "Muslim personal law"],

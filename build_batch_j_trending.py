@@ -475,6 +475,7 @@ write_page("crypto-vda-tax-india-2026-complete", page(
     faqs=[
         ("What is the crypto / VDA tax rate in India in 2026?",
          "30% flat under Section 115BBH on gains from transfer of any Virtual Digital Asset. Plus surcharge + 4% cess based on total income. No indexation, no long-term preferential rate, no deductions beyond cost of acquisition, no set-off of VDA losses against other heads."),
+        ("Is there a minimum amount below which crypto gains are not taxed in India?", "No. Gains on crypto and other virtual digital assets are taxed at a flat 30% plus surcharge and cess from the first rupee, with no basic exemption adjustment, no deduction other than the cost of acquisition, and no set-off of crypto losses against other income. The only thresholds are for the 1% TDS on transfers: INR 50,000 a year for specified persons such as individuals and HUFs without audited business income, and INR 10,000 for others. Even if no TDS was deducted, report the gain in your return."),
         ("Is Section 194S 1% TDS deducted on every crypto transaction?",
          "Yes above thresholds. Threshold: INR 50,000 per FY aggregate for small transactors, INR 10,000 for others. Indian exchanges deduct automatically on each VDA sale by Indian-resident customer. For P2P transfers, buyer must deduct. For foreign-exchange transactions, TDS is not withheld at source but tax liability remains with the Indian resident."),
         ("Can I claim transaction fees or exchange commissions as deductions?",

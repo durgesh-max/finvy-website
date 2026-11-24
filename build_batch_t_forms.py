@@ -480,7 +480,7 @@ PAGES.append({
 # 8. Form 3CEB TP audit
 PAGES.append({
     "slug": "form-3ceb-tp-audit-india-2026-30-november-checklist",
-    "title": "Form 3CEB TP Audit India 2026 Due 30 November Checklist",
+    "title": "Form 3CEB (Now Form 48) TP Audit India 2026: Due 31 October, ITR 30 November",
     "hero_em": "transfer pricing audit specific.",
     "lead": "Form 3CEB transfer pricing audit certificate: due 30 November 2026 for AY 2026-27. Mandatory for any Indian entity with international transactions above INR 1 crore (effectively every foreign-subsidiary subsidiary). Benchmarking study + Section 92D documentation underlying. Here's the complete 2026 Form 3CEB checklist.",
     "kicker": "/ TP Audit Form Checklist &middot; Updated 2026-10-22",
@@ -524,6 +524,7 @@ PAGES.append({
     "faqs": [
         ("When is Form 3CEB due for AY 2026-27?",
          "30 November 2026. One month after standard tax audit deadline (31 October). Specific extended deadline for TP audit cases."),
+        ("What is the new name of Form 3CEB?", "Under the Income-tax Rules, 2026, the transfer pricing accountant's report becomes Form 48 from tax year 2026-27. Reports for FY 2025-26 (AY 2026-27), due in 2026, are still filed in Form 3CEB under the 1961 Act."),
         ("What's the INR 1 crore threshold for Form 3CEB?",
          "Aggregate international transactions (goods + services + intangibles + financing + cost allocation + business restructuring with Associated Enterprises) above INR 1 crore in the FY. Effectively every foreign-subsidiary Indian company triggers."),
         ("What's the penalty for missing Form 3CEB?",

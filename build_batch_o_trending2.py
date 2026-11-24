@@ -700,7 +700,7 @@ write_page("india-upi-integration-foreign-fintech", page(
 # 19. IEC + GST + customs
 write_page("india-iec-gst-customs-foreign-exporter-importer-2026", page(
     slug="india-iec-gst-customs-foreign-exporter-importer-2026",
-    title="India IEC + GST + Customs Guide for Foreign Exporter / Importer 2026 - BQP",
+    title="Import Export Code (IEC) Registration India 2026: Fees, Annual Renewal, Verification, GST and Customs - BQP",
     description="India IEC (Importer Exporter Code) + GST + customs duty for foreign companies exporting to India or importing Indian goods 2026: IEC application via DGFT (free online), GST registration non-resident + OIDAR, Customs duty (BCD + SWS + IGST), FTA preferential rates (India-UAE CEPA, India-UK CETA, India-Australia ECTA), BIS certification. Complete guide. CA Durgesh Chavda.",
     keywords="India IEC foreign company, DGFT IEC online, India GST non-resident importer, India customs duty foreign exporter, India FTA preferential rate 2026, BIS certification foreign",
     hero_kicker="/ Foreign Clients &middot; IEC + GST + Customs &middot; Updated 2026-10-15",
@@ -766,6 +766,7 @@ write_page("india-iec-gst-customs-foreign-exporter-importer-2026", page(
         ("Does a foreign company need an Indian IEC to export to India?",
          "No - foreign exporter doesn't need Indian IEC. The Indian importer (consignee) has an IEC. Foreign company sells FOB / CIF to Indian importer; Indian importer clears customs using their IEC + pays BCD + SWS + IGST. If foreign company sets up Indian subsidiary / branch as the buyer, that Indian entity needs IEC for the customs clearance."),
         ("How do I apply for an IEC code, and what does it cost?", "Apply online on the DGFT portal with the business PAN (one IEC per PAN), bank details and address proof, verified by Aadhaar-linked OTP or a Class 3 digital signature. The government fee for a new IEC is INR 500, paid online, and the IEC is usually issued quickly once the details match. The IEC does not expire, but it must be updated or confirmed on the DGFT portal every year between 1 April and 30 June, even if nothing changed; the annual update is free, and an IEC not updated by 30 June is deactivated until the update is completed."),
+        ("Does an IEC need renewal, and how do I verify one?", "An IEC does not expire, but it must be updated or confirmed on the DGFT portal every year between 1 April and 30 June, even if nothing changed; the update is free, and an IEC not updated by 30 June is deactivated until it is. To check an IEC, use the IEC lookup on the DGFT portal and match the name and status with the business's GST and company records."),
         ("What's the typical duty stack on goods imported to India?",
          "Basic Customs Duty (BCD, 0-20%+ based on HSN) + Social Welfare Surcharge (10% on BCD) + IGST on imports (0-40% based on HSN since 22 September 2025, mostly 5% or 18%; calculated on CIF value + BCD + SWS) + Compensation Cess only for the few goods still subject to it, such as tobacco + Anti-dumping / Countervailing Duty if notified. IGST portion is creditable for GST-registered business recipient. FTA preferential rate reduces BCD for signatory-country-origin goods."),
         ("How does the India-UAE CEPA affect imports from UAE?",

@@ -74,6 +74,8 @@ PAGES = [dict(
           ("What is the corporate tax rate in India?", "About 25.17% for domestic companies under the concessional regime (22% plus surcharge and cess), 25% or 30% under the regular regime, and 35% plus surcharge and cess for a foreign company's branch."),
           ("What are the GST rates in India?", "Since 22 September 2025, most goods and services are taxed at 5% or 18%, with 40% on luxury and sin goods and some items exempt or at 0%."),
           ("Do NRIs pay the same tax rates as residents?", "The slabs are the same, but NRIs do not get the rebate up to INR 12 lakh, banks and tenants deduct about 31.2% on NRO interest and rent, and NRE and FCNR interest is tax-free."),
+        ("Is there a separate tax slab for senior citizens under the new regime?", "No. The new regime uses the same slabs for every age: nil up to INR 4 lakh and the INR 12 lakh rebate for residents. Only the old regime gives resident senior citizens a higher tax-free limit: INR 3 lakh from age 60 and INR 5 lakh from age 80, plus deductions such as up to INR 50,000 on deposit interest. Non-resident seniors get neither the higher limits nor the rebate."),
+        ("Do senior citizens aged 75 or more need to file a tax return?", "Not if they are resident, aged 75 or more, and their only income is pension and interest from the same specified bank, which deducts the tax after they submit a declaration. Anyone with other income, or an NRI, still files."),
           ("Can BQP work out my Indian tax?", "Yes. " + C)],
     related=[("new-vs-old-tax-regime-calculator.html", "New vs old regime calculator"),
              ("which-regime-new-vs-old-tax-regime-decision-india-2026-27.html", "Which regime to choose"),

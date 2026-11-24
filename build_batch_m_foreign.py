@@ -10,7 +10,7 @@ from build_lib import page, write_page
 # 1. Foreign company setting up Indian WOS
 write_page("foreign-company-setup-indian-subsidiary-wos", page(
     slug="foreign-company-setup-indian-subsidiary-wos",
-    title="Set Up Indian Subsidiary (WOS) from USA / UK / Singapore 2026 - BQP",
+    title="Wholly Owned Subsidiary Setup in India 2026: Set Up an Indian Subsidiary (WOS) from USA / UK / Singapore - BQP",
     description="Complete guide for foreign companies setting up a Wholly-Owned Subsidiary in India: FDI automatic route, Pvt Ltd incorporation, resident director, FEMA FC-GPR, PAN TAN, FDI sector caps. Done remotely by Indian CA from India for USA / UK / EU / Singapore / UAE parent companies. Working CA guide by Durgesh Chavda.",
     keywords="Indian subsidiary from USA, WOS India foreign parent, set up Pvt Ltd India remotely, India company incorporation foreign company, FDI automatic route India, foreign-owned Indian subsidiary setup",
     hero_kicker="/ Foreign Clients &middot; India WOS Setup &middot; Updated 2026-10-13",
@@ -347,7 +347,7 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
 # 5. Transfer pricing India for foreign MNC
 write_page("transfer-pricing-india-foreign-mnc", page(
     slug="transfer-pricing-india-foreign-mnc",
-    title="Transfer Pricing India for Foreign MNC 2026 | Form 3CEB, APA, Master File - BQP",
+    title="Transfer Pricing India 2026: Documentation Requirements for Foreign MNCs, Form 3CEB (Form 48), APA, Master File - BQP",
     description="Transfer pricing compliance for Indian subsidiary of foreign MNC: Form 3CEB mandatory, benchmarking study, Master File + CbCR for groups above threshold, APA (Advance Pricing Agreement), BEPS Pillar 2 India implementation. Delivered remotely from India for US / UK / EU / Singapore / UAE MNC groups. Working CA guide by Durgesh Chavda.",
     keywords="transfer pricing India foreign MNC, Form 3CEB India foreign company, APA India advance pricing agreement, Master File CbCR India, BEPS Pillar 2 India MNC",
     hero_kicker="/ Foreign Clients &middot; Transfer Pricing &middot; Updated 2026-10-13",

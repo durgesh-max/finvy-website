@@ -316,7 +316,7 @@ write_page("nri-selling-indian-property-capital-gains", page(
 # 5. NRI Mutual Funds Tax
 write_page("nri-mutual-funds-india-tax", page(
     slug="nri-mutual-funds-india-tax",
-    title="NRI Mutual Funds India Tax 2026 | KYC, TDS, Repatriation - BQP",
+    title="NRI Mutual Funds and SIP in India 2026: How to Invest, KYC, TDS, Tax and Repatriation - BQP",
     description="NRI investing in Indian mutual funds: KYC under FEMA, equity vs debt MF taxation, TDS by AMC, repatriable vs non-repatriable schemes, FATCA-CRS filing, ITR reporting. Working CA guide.",
     keywords="NRI mutual fund India, NRI MF taxation, NRI equity mutual fund tax, NRI debt mutual fund TDS, NRI MF repatriation, FATCA mutual fund NRI, US NRI mutual fund ban",
     hero_kicker="/ NRI tax &middot; Mutual funds",
@@ -366,6 +366,7 @@ write_page("nri-mutual-funds-india-tax", page(
     faqs=[
         ("Can a US NRI invest in Indian mutual funds?",
          "Technically yes, but practically restricted. Most Indian AMCs (ICICI Prudential, SBI MF, Nippon India etc.) do not accept US-NRI subscriptions due to US SEC registration costs. Some AMCs accept with additional documentation. Even where accepted, US-NRIs face PFIC treatment under US tax law &mdash; typically making Indian MFs tax-inefficient from the US side."),
+        ("How can an NRI start a SIP in India?", "Complete NRI KYC (passport, overseas address, PAN and the FATCA / CRS self-declaration), then register a SIP with the fund house or a platform using an NRE or NRO account for the auto-debit mandate. Investing from an NRE account keeps the investment repatriable; an NRO account is used for Indian income such as rent. Each SIP instalment is a separate purchase for capital gains, matched first in, first out, and the fund deducts TDS on redemption. NRIs in the US and Canada can invest only with fund houses that accept them."),
         ("Is TDS deducted on NRI mutual fund redemption?",
          "Yes. Unlike for Indian residents (where TDS is not deducted on MF redemption), the AMC deducts TDS at source for NRIs on redemption, at the applicable LTCG / STCG rate. Any excess over actual tax liability is refunded via ITR filing."),
         ("Are mutual fund redemptions taxable in India?", "Yes, the gain is taxable when you redeem, not the whole amount. Equity funds held over 12 months: 12.5% on gains above INR 1.25 lakh a year; held 12 months or less: 20%. Debt funds bought on or after 1 April 2023: gains taxed at slab rates whatever the holding period. For NRIs, the fund house deducts TDS on the gain at redemption."),

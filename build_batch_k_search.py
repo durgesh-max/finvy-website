@@ -665,7 +665,7 @@ write_page("how-to-buy-us-stocks-from-india-2026", page(
 # 8. Form 26AS vs AIS vs TIS
 write_page("form-26as-vs-ais-vs-tis-india-2026", page(
     slug="form-26as-vs-ais-vs-tis-india-2026",
-    title="Form 26AS vs AIS vs TIS 2026 | Which to Use for ITR Filing - BQP",
+    title="Form 26AS (Now Form 168) vs AIS vs TIS 2026: Meaning, Login, Download PDF, Password and Which to Use for ITR - BQP",
     description="Form 26AS vs AIS (Annual Information Statement) vs TIS (Taxpayer Information Summary) 2026: differences, which to download for ITR filing, reconciliation workflow, feedback mechanism, SFT (Specified Financial Transactions) reporting. CA Durgesh Chavda guide.",
     keywords="Form 26AS vs AIS 2026, AIS vs TIS difference, Annual Information Statement India, Taxpayer Information Summary, Form 26AS AIS reconciliation",
     hero_kicker="/ Blog &middot; Form 26AS vs AIS vs TIS &middot; Updated 2026-10-10",
@@ -748,6 +748,9 @@ write_page("form-26as-vs-ais-vs-tis-india-2026", page(
          "Yes - AIS has feedback mechanism. For each entry you can mark 'incorrect', 'partially correct', 'relates to other PAN'. Submit feedback via e-filing portal BEFORE ITR filing. Processed feedback updates TIS. Common scenarios: joint account interest misattributed, co-owner property purchase, wrong cost basis for MF redemption."),
         ("How do I download AIS?",
          "Login to incometax.gov.in → Services → Annual Information Statement → select the FY. Download the AIS PDF and TIS PDF. Form 26AS is downloaded from TRACES (traces.gov.in) or via the AIS portal link."),
+        ("What is the password for the AIS PDF?", "The AIS and TIS PDFs open with your PAN in lower case followed by your date of birth in DDMMYYYY format (for example abcde1234f15081990); for companies and firms, the date of incorporation is used. The Form 26AS PDF downloaded from TRACES opens with the date of birth or incorporation alone, in DDMMYYYY format."),
+        ("What is the new name of Form 26AS?", "From tax year 2026-27, under the Income-tax Rules, 2026, the annual tax credit statement earlier called Form 26AS is Form 168. It continues to show TDS, TCS, advance tax and self-assessment tax credited against your PAN, alongside the wider AIS."),
+        ("What is the full form of AIS in income tax?", "AIS stands for Annual Information Statement. It shows financial transactions reported to the tax department, such as salary, interest, dividends, securities trades, property deals and foreign remittances, and lets you give feedback on wrong entries. TIS (Taxpayer Information Summary) is the category-wise summary of AIS used to pre-fill the return."),
         ("Does BQP help with Form 26AS / AIS reconciliation for ITR?",
          "Yes - standard pre-ITR reconciliation engagement. Download your Form 26AS + AIS + TIS, line-by-line reconciliation with your bank / broker / employer records, submit AIS feedback for incorrect entries, align ITR with reconciled AIS to avoid 139(9) or 143(1) mismatch. WhatsApp +91 78018 87130."),
     ],

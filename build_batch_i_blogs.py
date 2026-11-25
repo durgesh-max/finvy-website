@@ -95,7 +95,7 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
 # 2. TCS 20% on LRS
 write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
     slug="tcs-20-foreign-remittance-lrs-india-2026",
-    title="TCS 20% on Foreign Remittance LRS 2026 | Full Guide + Avoidance - BQP",
+    title="LRS Limit Per Year (USD 250,000) and TCS on Foreign Remittance Above Rs 10 Lakh (2026): 20% Rate, Exceptions, Recovery - BQP",
     description="TCS 20% on foreign remittance under LRS above INR 10 lakh per year. Section 206C(1G) full impact: how it works, when it applies, who's exempt, how founders avoid or recover it, education/medical carve-outs. Working CA guide.",
     keywords="TCS 20% foreign remittance 2026, LRS TCS calculator, Section 206C(1G), TCS on foreign remittance India, TCS LRS exemption, TCS refund LRS, 20% TCS on dollar remittance",
     hero_kicker="/ Blog &middot; TCS on LRS &middot; Updated October 2026",

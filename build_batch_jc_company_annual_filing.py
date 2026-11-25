@@ -22,7 +22,7 @@ C = contact("your company's CIN, the date of the last AGM, which of AOC-4, MGT-7
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Company Annual Filing in India 2026: AOC-4 and MGT-7 Due Dates, Additional Fee Waiver Till 31 December / 31 January (Circular 05/2026), CCFS-2026 and Status Check",
+    title="MCA Filing Due Date 2026 (Company Annual Filing): AOC-4 and MGT-7 Last Dates, Fee Waiver Till 31 December / 31 January (Circular 05/2026), Extension, CCFS-2026 and Status Check",
     em="file FY 2025-26 forms inside the waiver window.",
     kicker="/ Private limited companies, OPCs and foreign subsidiaries &middot; ROC compliance &middot; Updated 2026-11-25",
     lead=("<strong>Every company files its financial statements in AOC-4 within 30 days of the AGM and its annual return in MGT-7 (MGT-7A for small companies and OPCs) within 60 days, which for a 30 September AGM means 30 October and 29 November 2026.</strong> "
@@ -60,6 +60,7 @@ PAGES = [dict(
     ],
     faqs=[("What is the due date for company annual filing in India?", "AOC-4 within 30 days of the AGM and MGT-7 / MGT-7A within 60 days; with the AGM on 30 September, that is 30 October and 29 November 2026 for FY 2025-26."),
           ("Is there a fee waiver for late AOC-4 and MGT-7 in 2026?", "Yes. General Circular 05/2026 waives the additional fee for FY 2025-26 AOC-4 filed by 31 December 2026 and MGT-7 / MGT-7A by 31 January 2027. It does not extend the AGM date."),
+        ("Has the MCA extended the filing due date in 2026?", "No. The due dates (AOC-4 within 30 days and MGT-7 / MGT-7A within 60 days of the AGM) and the AGM deadline have not been extended. General Circular 05/2026 only waives the additional fee for FY 2025-26 AOC-4 filed by 31 December 2026 and MGT-7 / MGT-7A filed by 31 January 2027; after those dates the additional fee runs from the original due date."),
           ("What is the late fee for company annual filing?", "An additional fee of Rs 100 a day of delay on top of the normal filing fee, with no cap, unless a waiver applies."),
           ("What is the company annual filing scheme (CCFS-2026)?", "The Companies Compliance Facilitation Scheme 2026 waived 90% of additional fees on older delayed filings such as MGT-7, AOC-4 and ADT-1. It closed on 15 September 2026."),
           ("How do I check a company's annual filing status?", "Search the company on the MCA master data page with its name or CIN to see its status and last AGM and balance sheet dates, and view filed documents on the MCA portal."),

@@ -770,7 +770,7 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
     keywords="PAN Aadhaar linking status 2026, PAN Aadhaar link check, deactivated PAN fix, Section 234H fee, PAN not linked with Aadhaar, how to link PAN Aadhaar",
     hero_kicker="/ Blog &middot; PAN-Aadhaar Linking &middot; Updated 2026-10-10",
     hero_title_html="PAN-Aadhaar linking, <em>status, consequences, fix.</em>",
-    hero_lead="PAN that is not linked with Aadhaar becomes INOPERATIVE under Section 139AA(2) from the deadline date. Consequences: higher TDS rate (20% under Section 206AA / 206CC), ITR cannot be processed, refund cannot be issued, GST registration linked to PAN affected, bank KYC frozen. The link can be restored by paying INR 1,000 Section 234H fee. NRIs and some categories are exempt. Here is the current state and the fix.",
+    hero_lead="PAN that is not linked with Aadhaar becomes INOPERATIVE under Section 139AA(2) from the deadline date. Consequences (rule 114AAA): higher TDS / TCS under sections 206AA / 206CC, and no refund or interest on refunds while the PAN is inoperative; banks and other institutions may also insist on an operative PAN. The link can be restored by paying INR 1,000 Section 234H fee. NRIs and some categories are exempt. Here is the current state and the fix.",
     sections=[
         ("/ Current linking status requirement", "Where things stand.",
          "<p>Section 139AA of the Income Tax Act requires every PAN holder (except specified categories) to link PAN with Aadhaar. The latest linking deadline is specified by CBDT notification. For PANs that remain unlinked past the deadline:</p>"
@@ -790,7 +790,7 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
          "<ul>"
          "<li><strong>Higher TDS rate under Section 206AA</strong>: deductor must deduct at 20% (or applicable rate if higher) instead of the normal rate. For salary / interest / rent / professional fees, this is punitive.</li>"
          "<li><strong>Higher TCS rate under Section 206CC</strong>: 5% or applicable rate on sale of goods / LRS remittances / overseas tour packages.</li>"
-         "<li><strong>ITR filing allowed but not processed</strong>: Centralised Processing Centre (CPC) will not process your return, no 143(1) intimation, no refund issued.</li>"
+         "<li><strong>ITR can be filed, but refunds are withheld</strong>: Centralised Processing Centre (CPC) will not process your return, no 143(1) intimation, no refund issued.</li>"
          "<li><strong>Refund of past years frozen</strong>: pending refunds not credited while PAN is inoperative.</li>"
          "<li><strong>Specified transactions blocked</strong>: Section 139AA(2) proviso disables PAN for specified transactions (bank account opening, FD above threshold, property purchase, mutual fund investment, share purchase above threshold).</li>"
          "<li><strong>GST registration linked to PAN</strong>: GST portal access may be affected depending on registration state.</li>"
@@ -798,9 +798,9 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
          "</ul>"),
         ("/ Step-by-step linking process", "How to link and reactivate.",
          "<ol>"
-         "<li><strong>Check status first</strong>: login to incometax.gov.in &rarr; Services &rarr; Link Aadhaar &rarr; Link Aadhaar Status. Shows 'Linked', 'Not Linked', or 'Linked but Inoperative'.</li>"
+         "<li><strong>Check status first</strong>: login to incometax.gov.in &rarr; Services &rarr; Link Aadhaar &rarr; Link Aadhaar Status. Shows whether the PAN is linked; an unlinked PAN is inoperative.</li>"
          "<li><strong>If 'Not Linked' and before deadline</strong>: simply link via Link Aadhaar section. Enter Aadhaar number and name as per Aadhaar. If names match (even partially), link completes immediately.</li>"
-         "<li><strong>If 'Linked but Inoperative' (post-deadline)</strong>:</li>"
+         "<li><strong>If the PAN is inoperative (post-deadline)</strong>:</li>"
          "<li>&nbsp;&nbsp;a. Pay <strong>INR 1,000 Section 234H fee</strong> via Challan 280 on tds.tin.nsdl.com. Select 'Fee for Linking Aadhaar with PAN' as the type.</li>"
          "<li>&nbsp;&nbsp;b. Wait 24-48 hours for payment to reflect in the e-filing portal.</li>"
          "<li>&nbsp;&nbsp;c. Submit the Link Aadhaar request on the portal with the Challan reference.</li>"
@@ -821,7 +821,7 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
     ],
     faqs=[
         ("How do I check my PAN-Aadhaar linking status?",
-         "Login to incometax.gov.in → Services → Link Aadhaar → Link Aadhaar Status. Enter PAN. Status shows: 'Linked', 'Not Linked', or 'Linked but Inoperative' (post-deadline unlinked PANs that have been formally linked but marked inoperative pending Section 234H fee)."),
+         "Login to incometax.gov.in → Services → Link Aadhaar → Link Aadhaar Status. Enter PAN. The result shows whether your PAN is linked to Aadhaar; if it is not, the PAN is inoperative until you pay the Rs 1,000 fee and complete the link."),
         ("How do I check PAN Aadhaar link status by mobile SMS?", "Send an SMS in the format UIDPAN <12-digit Aadhaar number> <10-digit PAN> to 567678 or 56161 from your registered mobile number, for example UIDPAN 111122223333 AAAPA9999Q. The reply tells you whether the two are linked. You can also use the Link Aadhaar Status option on the income tax e-filing portal without logging in."),
         ("What was the last date for PAN Aadhaar linking?", "The general deadline was 30 June 2023; PANs not linked by then became inoperative and can be made operative again by paying the Rs 1,000 fee and completing the link. PANs allotted on the basis of an Aadhaar enrolment ID up to 1 October 2024 had until 31 December 2025 to link. If your PAN is still unlinked, link it now on the e-filing portal."),
         ("What is the fee to reactivate inoperative PAN?",
@@ -829,9 +829,9 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
         ("Who is exempt from PAN-Aadhaar linking?",
          "Non-Resident Indians (NRI), non-citizens of India, residents of Assam / Jammu and Kashmir / Meghalaya, and super senior citizens (above 80 years of age). If you fall in any of these categories, update your e-filing portal profile to reflect exemption - no linking required."),
         ("What are the consequences of inoperative PAN?",
-         "Higher TDS rate under Section 206AA (20% or applicable, whichever higher), higher TCS under Section 206CC, ITR filed but not processed (no 143(1), no refund), specified transactions blocked (bank account opening, large FDs, property purchase, share purchases), GST registration affected, DIN / MCA filings affected."),
+         "Higher TDS rate under Section 206AA (20% or applicable, whichever higher), higher TCS under Section 206CC, no refund (and no interest on it) while the PAN is inoperative; banks, brokers and other institutions may also insist on an operative PAN."),
         ("Can I file ITR with inoperative PAN?",
-         "You can file ITR but it will not be processed by CPC. No 143(1) intimation, no refund issued, no closure of return. Essentially useless until PAN is made operative. Reactivate PAN first (INR 1,000 Section 234H fee + link completion), then file ITR."),
+         "Yes. The Income Tax Department has clarified that a return can be filed even if the PAN is inoperative, but refunds (and interest on them) are withheld until the PAN is made operative. Reactivate PAN first (INR 1,000 Section 234H fee + link completion), then file ITR."),
         ("What if name on PAN and Aadhaar don't match?",
          "Minor spelling mismatches often auto-resolve during linking. Material mismatches require correction. Updating PAN name (via NSDL / UTI PAN application) takes 15-30 days. Updating Aadhaar name (UIDAI online or Aadhaar Seva Kendra) is typically faster. Easier to correct Aadhaar in most cases."),
     ],

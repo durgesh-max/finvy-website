@@ -253,7 +253,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
 # 4. NRI Selling Indian Property
 write_page("nri-selling-indian-property-capital-gains", page(
     slug="nri-selling-indian-property-capital-gains",
-    title="NRI Selling Indian Property 2026 | Capital Gains, TDS, Repatriation - BQP",
+    title="NRI Capital Gains Tax on Property in India 2026: 12.5% Rate, No Indexation, Section 54 Exemption, TDS and Repatriation - BQP",
     description="NRI selling Indian property: capital gains calculation, Section 195 TDS 12.5% + surcharge, Section 54 / 54F / 54EC reinvestment, repatriation USD 1M, Form 15CA/CB. Working CA guide.",
     keywords="NRI sell Indian property, NRI capital gains property, Section 195 TDS NRI, Section 54 NRI, NRI property repatriation, Form 15CA 15CB NRI, Lower Deduction Certificate NRI",
     hero_kicker="/ NRI tax &middot; Property sale",
@@ -292,6 +292,7 @@ write_page("nri-selling-indian-property-capital-gains", page(
          "Post-July 2024, 12.5% + surcharge + cess of the sale consideration (not the gain) under Section 195. Effective rate 14-16% depending on sale value. The LDC route reduces this to 2-5% if the NRI applies via Form 13 before the sale."),
         ("Can an NRI claim Section 54 exemption on an Indian property sale?",
          "Yes. Section 54 applies to any residential house capital gain, including NRI's. Reinvestment must be in Indian residential property within 2 years (purchase) or 3 years (construction). The reinvestment property can be held jointly with Indian relatives. INR 10 crore cap applies."),
+        ("What is the capital gains tax rate for NRIs on property, and can they use indexation?", "Property held for more than 24 months is long-term: the gain is taxed at 12.5% plus surcharge and cess, without indexation. The option to pay 20% with indexation on land or buildings bought before 23 July 2024 is available only to resident individuals and HUFs, not to NRIs. Property held for 24 months or less is short-term and taxed at slab rates. The buyer deducts TDS on the sale price unless a lower deduction certificate is obtained."),
         ("How do I avoid locking up large TDS on an NRI property sale?",
          "File Form 13 (LDC application) with the Indian tax authority 45-60 days before the sale. The LDC specifies a lower TDS rate (typically 2-5% of consideration based on your expected actual capital gains tax). The buyer then withholds at the LDC rate instead of 12.5-16%. Essential for sales above INR 5 crore."),
         ("Can I repatriate more than USD 1M from an Indian property sale?",

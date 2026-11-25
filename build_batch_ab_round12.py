@@ -183,7 +183,7 @@ PAGES = [
              "<li>FC-GPR missed - foreign shareholder received shares without timely FEMA reporting (30-day window from allotment).</li>"
              "<li>FC-TRS missed - share transfer involving non-resident without 60-day FEMA filing.</li>"
              "<li>FLA Return missed - annual FEMA reporting of foreign liabilities / assets missed for multi-year window.</li>"
-             "<li>Form ODI APR missed - Indian parent's overseas subsidiary annual reporting missed.</li>"
+             "<li>Form APR missed - Indian parent's overseas subsidiary annual reporting missed.</li>"
              "<li>Rule 21 pricing guideline breach - share issue below fair value to non-resident.</li>"
              "<li>Press Note 3 beneficial ownership issue - land-bordering country investment without prior approval.</li>"
              "<li>Sector-cap breach - foreign investment exceeded sector FDI cap.</li>"

@@ -421,7 +421,7 @@ PAGES = [
             ("/ The 5-month planning window", "November to March.",
              "<ul>"
              "<li><strong>November 2026</strong>: Diwali 10 Nov. Form 29B MAT verification. Form 3CEB TP audit (30 November). MGT-7 (29 November). PAS-6 (29 November). MSME Form I (31 October). AOC-4 (if not already Oct 30).</li>"
-             "<li><strong>December 2026</strong>: Q3 advance tax (15 Dec, 75% cumulative). Form ODI APR (31 Dec). GSTR-9 FY 2025-26 (31 Dec). Belated / revised ITR (31 Dec).</li>"
+             "<li><strong>December 2026</strong>: Q3 advance tax (15 Dec, 75% cumulative). Form APR (31 Dec). GSTR-9 FY 2025-26 (31 Dec). Belated / revised ITR (31 Dec).</li>"
              "<li><strong>January 2027</strong>: Q3 TDS returns (31 Jan). Specific sector returns.</li>"
              "<li><strong>February 2027</strong>: Union Budget 2026-27 (expected 1 Feb). Pre-Budget investment / capital gain timing decisions.</li>"
              "<li><strong>March 2027</strong>: Q4 advance tax (15 Mar, 100% cumulative). Section 80C/80D/80G last-minute investment. Section 54 reinvestment completion. 31 Mar FY end.</li>"
@@ -464,7 +464,7 @@ PAGES = [
         ],
         "faqs": [
             ("What's the Diwali to March 31 tax planning window?",
-             "5 months of intensive year-end planning. November-December: compliance deadlines (TP audit, MGT-7, PAS-6, MSME-1, Q3 advance tax, GSTR-9, Form ODI APR). February: pre-Budget. March: last-mile Section 80C/80D/80G + Section 54 reinvestment + Q4 advance tax. Final decisions before FY ends 31 March 2027."),
+             "5 months of intensive year-end planning. November-December: compliance deadlines (TP audit, MGT-7, PAS-6, MSME-1, Q3 advance tax, GSTR-9, Form APR). February: pre-Budget. March: last-mile Section 80C/80D/80G + Section 54 reinvestment + Q4 advance tax. Final decisions before FY ends 31 March 2027."),
             ("Should I buy ELSS before Diwali or in March?",
              "Both work. Diwali-based ELSS SIP spreads cost. March-based lump-sum optimises timing based on actual annual tax position. For most individuals: SIP throughout year + top-up in March to hit INR 1.5 lakh Section 80C limit."),
             ("How to time Section 54 reinvestment?",
@@ -474,14 +474,14 @@ PAGES = [
             ("What's the biggest Diwali-season compliance miss BQP sees?",
              "Director DIR-3 KYC catch-up (missed 30 September deadline, deactivated DIN blocking all MCA filings). Fix urgently with INR 5,000 late fee + 24-72 hour reactivation. Also: PAS-6 half-year (29 November) + MSME Form I (31 October) often missed."),
             ("Does BQP offer year-end tax planning engagement?",
-             "Yes - November-March intensive engagement: Q3 advance tax + GSTR-9 + Form ODI APR + Form 3CEB + managerial compliance + Section 54 reinvestment + Section 80C/D/G optimisation + regime decision + ESOP/bonus timing + Section 148 response + 2027 Budget planning. For individuals + startups + mid-market companies. WhatsApp +91 78018 87130."),
+             "Yes - November-March intensive engagement: Q3 advance tax + GSTR-9 + Form APR + Form 3CEB + managerial compliance + Section 54 reinvestment + Section 80C/D/G optimisation + regime decision + ESOP/bonus timing + Section 148 response + 2027 Budget planning. For individuals + startups + mid-market companies. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("advance-tax-q3-december-15-2026-india.html", "Related", "Q3 Advance Tax Dec 15"),
                           ("india-tax-compliance-calendar-fy-2026-27-complete.html", "Related", "FY 2026-27 Calendar")],
         "cta_h": "Diwali to March 31 = 5 months of year-end tax planning window.",
         "cta_b": "Capital gain reinvestment + Section 80C/D/G exhaustion + regime decision + ESOP timing + compliance deadlines. BQP year-end intensive engagement.",
         "keywords": "Diwali 2026 tax planning, year-end tax planning India 2026-27, 31 March 2027 FY end tax planning CA, festive season tax CA",
-        "desc": "Diwali 2026 festive season to 31 March 2027 year-end tax planning India: 5-month intensive window covering capital gain reinvestment (Section 54 / 54F / 54EC), Section 80C/80D/80G exhaustion, Q3 advance tax, GSTR-9, Form ODI APR, new vs old regime decision, Section 115BAA opt-in, pre-Budget planning. Working CA guide by Durgesh Chavda.",
+        "desc": "Diwali 2026 festive season to 31 March 2027 year-end tax planning India: 5-month intensive window covering capital gain reinvestment (Section 54 / 54F / 54EC), Section 80C/80D/80G exhaustion, Q3 advance tax, GSTR-9, Form APR, new vs old regime decision, Section 115BAA opt-in, pre-Budget planning. Working CA guide by Durgesh Chavda.",
     },
     {
         "slug": "pre-budget-2026-startup-foreign-company-actions-window",

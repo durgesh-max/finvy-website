@@ -20,7 +20,7 @@ C = contact("whether the property is self-occupied or let out, the rent, municip
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Income From House Property (2026): Calculation, 30% Deduction, Home Loan Interest, New vs Old Regime and Loss Set-Off",
+    title="Tax on Rental Income in India 2026 (Income From House Property): Calculation, 30% Deduction, Home Loan Interest, New vs Old Regime and Loss Set-Off",
     em="rent, minus taxes, minus 30%, minus interest.",
     kicker="/ Property owners, landlords and NRIs &middot; Income tax &middot; Updated 2026-11-25",
     lead=("<strong>Income from house property is worked out as annual value (broadly the rent, or expected rent) minus municipal taxes paid, minus a flat 30% standard deduction, minus interest on a home loan.</strong> "
@@ -63,6 +63,7 @@ PAGES = [dict(
          + sources("Income-tax Act, 1961, sections 22 to 27 and 71(3A); Income-tax Act, 2025, section 22 (Income Tax Department section pages); CAclubindia, changes in income from house property from April 2026; Business Today (July and August 2025); ClearTax and Motilal Oswal section 24 guides. Checked 25 November 2026.")),
     ],
     faqs=[("How is income from house property calculated?", "Take the gross annual value (actual or expected rent), deduct municipal taxes paid to get the net annual value, then deduct a flat 30% of the net annual value and the interest on any home loan. The result can be income or a loss."),
+        ("How much tax do I pay on rental income in India?", "Rental income is added to your other income and taxed at your slab rate after deductions: municipal taxes paid, a flat 30% of the net annual value, and home loan interest. For example, annual rent of Rs 3 lakh with Rs 10,000 municipal tax gives a net annual value of Rs 2.9 lakh; after the 30% deduction (Rs 87,000) Rs 2.03 lakh is taxable before any loan interest. Tenants paying rent above Rs 50,000 a month deduct TDS, and you claim it in your return."),
           ("Is home loan interest deductible in the new tax regime?", "For a let-out property, yes, in full, but a resulting loss cannot be set off against salary or other income. For a self-occupied home, interest is not deductible in the new regime; up to Rs 2 lakh is allowed only in the old regime."),
           ("What is the 30% standard deduction on house property?", "A flat deduction of 30% of the net annual value of a let-out or deemed let-out property, allowed regardless of actual repair costs. It does not apply to a self-occupied house with nil annual value."),
           ("How much house property loss can be set off?", "Under the old regime, up to Rs 2 lakh a year against other income, with the balance carried forward for eight years against house property income. Under the new regime, a house property loss cannot be set off against other income."),

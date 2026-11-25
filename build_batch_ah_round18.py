@@ -216,7 +216,7 @@ PAGES = [
              ul("If you have transactions with a foreign parent, subsidiary or other associated enterprise, Form 3CEB must be filed by 31 October 2026 even though audit-case ITRs moved.",
                 "Pay self-assessment tax early: an extended filing date does not stop interest on unpaid tax.",
                 "Companies opting into Section 115BAA should file Form 10-IC by the ITR due date.",
-                "Foreign tax credit claims need Form 67 filed on or before the ITR due date.") + src(*S_CIRC) + updated()),
+                "Foreign tax credit claims need Form 67; filing it with the return is safest, though rule 128(9) allows it up to the end of the assessment year if the return is filed on time or belated.") + src(*S_CIRC) + updated()),
         ],
         howto=None,
         faqs=[

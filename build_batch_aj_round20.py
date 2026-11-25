@@ -147,7 +147,7 @@ FAST_INPUTS = (field("fCat", "Category", "Category 1: never taxed in India. Cate
 
 CALCS = [
     dict(slug="gratuity-calculator-new-labour-codes-2026",
-         title="Gratuity Calculator 2026 Under the New Labour Codes (50% Wage Rule, 1-Year Fixed-Term)",
+         title="Gratuity Calculator 2026: New Labour Codes (50% Wage Rule, 1-Year Fixed-Term), Rs 20 Lakh Tax-Free Limit and When Gratuity Is Taxable",
          em="what you are owed, and how much is tax-free.",
          kicker="/ Free Tool &middot; Gratuity &middot; Updated 2026-10-29",
          lead="Calculate gratuity under the Code on Social Security, 2020: 15 days' wages for each year of service, with wages now at least 50% of total pay and fixed-term employees eligible after one year instead of five. Shows the tax-exempt and taxable parts.",
@@ -173,6 +173,8 @@ CALCS = [
                ("What is the 50% wage rule for gratuity?", "Basic pay plus DA must be at least half of total pay. If allowances are more than 50%, the excess is treated as wages for gratuity and PF, which raises the gratuity amount."),
                ("Do fixed-term employees get gratuity after one year?", "Yes. Under the Code on Social Security, a fixed-term employee becomes eligible after one year of service, paid pro rata."),
                ("How much gratuity is tax-free?", "All of it for government employees. For others, up to INR 20 lakh over the employee's lifetime."),
+        ("Is gratuity taxable?", "Gratuity received on retirement, resignation or termination is fully exempt for government employees. For other employees the exempt amount is the least of the gratuity received, Rs 20 lakh over the lifetime, and the formula amount (for employees covered by the gratuity law, 15 days of last-drawn salary for each completed year of service); anything above that is taxed as salary. Gratuity paid while you are still in service is fully taxable."),
+        ("Is gratuity exempt under the new tax regime?", "Yes. The exemption for gratuity on retirement or leaving a job is available under both the old and the new tax regime; the new regime removes deductions such as 80C and HRA but not this exemption."),
                ("Can BQP review our payroll for the labour codes?", "Yes: salary restructuring, gratuity and PF exposure, and Ind AS 19 provisions for Indian companies and foreign-owned subsidiaries. " + CONTACT)],
          related=[("employer-of-record-india-hire-from-abroad.html", "Hiring in India from abroad"), ("foreign-company-setup-indian-subsidiary-wos.html", "Setting up an Indian subsidiary")],
          keywords="gratuity calculator 2026, gratuity calculator new labour code, gratuity 50% wage rule calculator, fixed term employee gratuity 1 year, gratuity tax exemption 20 lakh",

@@ -487,7 +487,7 @@ write_page("ca-firm-for-indian-startup-going-us", page(
 # 8. US Company Registration from India 2026
 write_page("us-company-registration-from-india-2026", page(
     slug="us-company-registration-from-india-2026",
-    title="US Company Registration from India (2026): Delaware vs Wyoming, EIN Without SSN, US Bank Account and FEMA ODI - BQP",
+    title="US Company Registration and Incorporation from India (2026): LLC or C-Corp Formation, Delaware vs Wyoming, EIN Without SSN, US Bank Account and FEMA ODI - BQP",
     description="Complete 2026 guide to US company registration from India: Delaware C-Corp vs Wyoming LLC, EIN without SSN, Mercury bank, FEMA ODI, Form 5472, Delaware franchise tax. Bharat Quantum Prospera handles end-to-end. ICAI-qualified CA.",
     keywords="US company registration from India 2026, register US company from India, how to register US company India, Delaware company from India 2026, US LLC registration India 2026",
     hero_kicker="/ US Company Registration from India &middot; 2026",

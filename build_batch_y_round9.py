@@ -304,9 +304,9 @@ PAGES = [
              "<li>Form SH-4: statutory share transfer deed under Section 56 Companies Act 2013.</li>"
              "<li>Mandatory for every share transfer between members (physical shares; demat transfer is depository-based without SH-4).</li>"
              "<li>Signed by: transferor + transferee + witness.</li>"
-             "<li>Stamp duty payable per Indian Stamp Act (central / state-specific).</li>"
-             "<li>Standard stamp duty: 0.015% of consideration (or face value if higher) in most states.</li>"
-             "<li>Specific state variations (Maharashtra, Karnataka, Tamil Nadu, etc.).</li>"
+             "<li>Stamp duty payable under the Indian Stamp Act, 1899 as amended by the Finance Act, 2019.</li>"
+             "<li>Rate: 0.015% of the consideration, the same in every state since 1 July 2020.</li>"
+             "<li>Before 1 July 2020 rates were set state by state (commonly 0.25% for physical transfers); do not use those older rates for current transfers.</li>"
              "</ul>"),
             ("/ Post Rule 9B demat regime", "Reduced SH-4 use.",
              "<ul>"
@@ -324,7 +324,7 @@ PAGES = [
              "</ul>"),
             ("/ Common SH-4 execution issues", "Where companies trip.",
              "<ul>"
-             "<li>Stamp duty under-paid (wrong state rate applied, wrong consideration basis).</li>"
+             "<li>Stamp duty under-paid (pre-2020 state rate applied, wrong consideration basis).</li>"
              "<li>Missing witness signature.</li>"
              "<li>SH-4 lodged with the company more than 60 days after execution (section 56(1) time limit).</li>"
              "<li>Company's refusal to register transfer (specific grounds under Section 58).</li>"
@@ -339,6 +339,7 @@ PAGES = [
              "For every share transfer between members in physical form. Post Rule 9B mandatory demat (30 June 2025 for private companies that were not small companies on 31 March 2023, extended from 30 September 2024), most transfers are depository-based without SH-4. SH-4 still relevant for Rule 9B-exempt entities + legacy physical shares + specific restructuring."),
             ("What's the stamp duty on SH-4?",
              "Under the Indian Stamp Act as amended by the Finance Act, 2019: 0.015% of the consideration, uniform across India since 1 July 2020 (earlier 0.25% with state-level variations). Payable via physical stamp paper or e-stamping (preferred)."),
+        ("Is stamp duty on share transfer the same in every state?", "Yes. Since 1 July 2020 the Indian Stamp Act, as amended by the Finance Act, 2019, fixes stamp duty on transfer of shares at 0.015% of the consideration across India; the duty is collected centrally and shared with the states. For demat transfers it is collected through the depository or exchange; for physical transfers on Form SH-4 it is paid by e-stamping or stamp paper before lodging the form with the company."),
             ("Can share transfer be rejected by company?",
              "Section 58 Companies Act: company can refuse to register transfer only on specific grounds (not frivolous). Refusal: within 30 days + reasoned order + specific appeal mechanism to NCLT. Rare in practice for standard transfers."),
             ("Does BQP handle SH-4 + FC-TRS integrated for foreign-shareholder transfers?",

@@ -262,7 +262,7 @@ write_page("section-115baa-115bab-corporate-tax-regime-india", page(
 # 4. Section 56(2)(x) Gift Tax
 write_page("section-56-2-x-gift-tax-india-2026", page(
     slug="section-56-2-x-gift-tax-india-2026",
-    title="Section 56(2)(x) Gift Tax India 2026 | Threshold, Relatives, Exemptions - BQP",
+    title="Gift Tax in India 2026: Rules, Rate, Blood Relative List, Rs 50,000 Limit and Exempt Gifts (Section 56(2)(x)) - BQP",
     description="Section 56(2)(x) gift tax India 2026: INR 50,000 threshold, relative exemption, marriage gift exemption, inheritance exemption, property gift stamp duty value, immovable property vs movable property treatment. Working CA guide by Durgesh Chavda.",
     keywords="Section 56(2)(x) gift tax India 2026, gift from relative tax, INR 50000 gift limit, marriage gift tax, inheritance tax India, property gift stamp duty value tax",
     hero_kicker="/ Blog &middot; Section 56(2)(x) Gift Tax &middot; Updated 2026-10-12",
@@ -335,6 +335,8 @@ write_page("section-56-2-x-gift-tax-india-2026", page(
          "Not as a standalone tax. Section 56(2)(x) of the Income Tax Act treats certain gifts above INR 50,000 as 'Income from Other Sources' in the recipient's hands, taxed at slab rate. Gifts from relatives, inheritance, marriage gifts to the individual getting married, and specific other categories are exempt."),
         ("Is a gift from parents taxable in India?",
          "No. Parents are 'relatives' under Explanation to Section 56(2)(x). Gift from parent to child (and vice versa) is fully exempt, any amount. Same for gifts from siblings, spouse, grandparents, lineal ascendants/descendants, and spouse's relatives in the specified list."),
+        ("Who counts as a relative for gift tax (blood relative list)?", "For an individual, relatives are: spouse; brother or sister; brother or sister of the spouse; brother or sister of either parent; any lineal ascendant or descendant (parents, grandparents, children, grandchildren); any lineal ascendant or descendant of the spouse; and the spouse of any of these. Gifts from them are fully exempt with no limit. For an HUF, any member is a relative. Friends, cousins and nephews or nieces are not on the list, so their gifts are taxable once the total exceeds Rs 50,000 in a year."),
+        ("What is the gift tax rate in India?", "There is no separate gift tax rate. A taxable gift is added to the recipient's income as income from other sources and taxed at the recipient's slab rate in the year it is received; the giver pays no tax."),
         ("Is cash gift above INR 50,000 from a friend taxable?",
          "Yes - friend is NOT a 'relative' under Section 56(2)(x). Cash gift from friend above INR 50,000 aggregate in a FY is fully taxable in recipient's hands at slab rate as 'Income from Other Sources'. Even multiple small gifts totaling above INR 50,000 in a FY become taxable."),
         ("Are marriage gifts taxable?",

@@ -151,7 +151,7 @@ PAGES.append(dict(
 F40_SLUG = "form-40-foreign-retirement-account-401k-ira-uk-pension-rrsp-super-defer-tax-india"
 PAGES.append(dict(
     slug=F40_SLUG,
-    title="Form 40 (Formerly Form 10-EE): Defer Indian Tax on Your 401(k), IRA, UK Pension, RRSP or Australian Super After Moving Back",
+    title="Is a 401(k) Taxable in India? Form 40 (Formerly 10-EE) to Defer Tax on 401(k), IRA, UK Pension, RRSP or Super After Moving Back",
     em="section 158 of the Income-tax Act, 2025.",
     kicker="/ Returning NRIs &middot; Foreign retirement accounts &middot; Updated 2026-11-10",
     lead=("When you become resident in India, growth inside a foreign retirement account can be taxable in India every year, even though the US, UK, Canada or Australia taxes it only when you withdraw. "

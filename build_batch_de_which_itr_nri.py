@@ -42,7 +42,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="Which ITR Should an NRI File? (AY 2026-27) ITR-2 or ITR-3, Who Must File, Refunds, 80C and Other Deductions",
+    title="NRI ITR Filing (AY 2026-27): Which ITR to File (ITR-2 or ITR-3, Not ITR-1), Last Date, Who Must File, Refunds and 80C",
     em="for NRIs in the UAE, US, UK, Singapore, Canada and Australia.",
     kicker="/ NRIs &middot; Income-tax return &middot; Updated 2026-11-19",
     lead=("An NRI files <strong>ITR-2</strong> for salary, rent, interest, dividends and capital gains from India, and <strong>ITR-3</strong> if there is business or professional income. <strong>ITR-1 (Sahaj) and ITR-4 (Sugam) are only for residents</strong>, so an NRI cannot use them. "
@@ -74,6 +74,8 @@ PAGES = [dict(
          + f'<p><strong>Sources:</strong> Income-tax Act, 1961 (sections 80C, 80D, 80TTA, 80TTB, 87A, 111A, 112A, 139) for FY 2025-26; ITR-2 and ITR-3 instructions for AY 2026-27; Income-tax Act, 2025 from FY 2026-27. Secondary guides checked 19 November 2026: ClearTax, CalcGuru, Patron Accounting, 1 Finance. <em>{UPDATED}</em> General information; your treaty and residential status can change the answer.</p>'),
     ],
     faqs=[("Which ITR should an NRI file?", "ITR-2 for salary, rent, interest, dividends and capital gains from India; ITR-3 if there is any business or professional income. ITR-1 and ITR-4 are only for residents."),
+        ("What is the last date for NRI ITR filing for AY 2026-27?", "For NRIs filing ITR-2 (salary, rent, interest, capital gains), the due date was 31 July 2026 and it was not extended. Non-audit business or professional income (ITR-3) had a later date, and audit cases were extended to 21 November 2026. If you missed your date, a belated return can still be filed by 31 December 2026 with a late fee, and refunds can still be claimed."),
+        ("Can an NRI file ITR-1?", "No. ITR-1 (Sahaj) and ITR-4 (Sugam) are only for resident individuals, so NRIs use ITR-2, or ITR-3 if they have business or professional income in India."),
           ("Does an NRI need to file an ITR in India?", "Yes if Indian income (excluding exempt NRE/FCNR interest) is above the basic exemption limit, or to claim a refund of excess TDS or carry forward losses. With only NRE or FCNR interest, no return is needed."),
           ("Which ITR for an NRI with no income?", "None is required, but if TDS was deducted (for example on NRO interest) file ITR-2 to claim the refund."),
           ("Can an NRI claim 80C deduction?", "Yes, under the old regime: life insurance, an existing PPF account, ELSS, children's tuition fees and home-loan principal. NRIs cannot open new PPF accounts, buy new NSCs or invest in the Senior Citizens Savings Scheme."),

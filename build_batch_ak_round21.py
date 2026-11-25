@@ -45,6 +45,8 @@ PAGES = [
             ("Is there a DIR-3 KYC deadline on 30 September 2026?", "No. The 30 September annual deadline no longer applies. Directors who filed for FY 2025-26 need not file for FY 2026-27 or FY 2027-28 unless their details change."),
             ("What if my mobile number or email changes?", "Update your KYC within 30 days of the change on the MCA portal. This does not reset your three-year cycle."),
             ("What happens if I miss my DIR-3 KYC?", "Your DIN is deactivated and you cannot sign MCA filings. Reactivation needs the pending KYC and a fee of INR 5,000."),
+        ("How do I search a director's DIN or check DIN status?", "On the MCA portal, use the Master Data services: View Director Master Data shows a director's details, DIN status (including whether it is deactivated for non-filing of KYC) and the companies linked to the DIN. If you only know the name, a company's signatory details list the DINs of its current directors. A DIN cannot be looked up from a PAN alone; the portal only verifies a known DIN against PAN, name and date of birth."),
+        ("What is the DIR-3 KYC last date?", "Under the three-year cycle, DIR-3 KYC is due by 30 June of the financial year in which it falls due, not every year. Missing it deactivates the DIN until KYC is filed with the Rs 5,000 fee, which blocks the director from signing company filings."),
             ("Can BQP track DIR-3 KYC for our directors?", "Yes, including foreign directors: due-year tracking, change updates and reactivation. " + CONTACT),
         ],
         related=[("dir-3-kyc-deactivated-mca-filings-blocked-urgent-india.html", "DIN deactivated? Reactivation"), ("aoc-4-filing-deadline-30-october-2026-late-fee-india.html", "AOC-4 deadline")],

@@ -141,7 +141,7 @@ write_page("ca-for-delaware-c-corp-india", page(
 # 3. CA for NRI Tax Return Filing
 write_page("ca-for-nri-tax-return-filing", page(
     slug="ca-for-nri-tax-return-filing",
-    title="CA for NRI Tax Return Filing 2026 | ITR-2 + DTAA + Form 10F - BQP",
+    title="NRI Tax Filing in India Online (2026): CA for NRI Income Tax Returns, ITR-2 / ITR-3, DTAA Relief, Form 10F and TDS Refunds - BQP",
     description="CA for NRI tax return filing in India 2026: annual ITR-2 or ITR-3, DTAA relief with Form 10F + TRC, Form 15CA/15CB for repatriation, Section 115A positioning, residential-status planning. Bharat Quantum Prospera, ICAI-qualified.",
     keywords="CA for NRI tax return filing, NRI ITR filing India, NRI tax CA India, best CA for NRI tax 2026, NRI tax return CA, DTAA CA India, Form 10F CA, NRI tax filing service India",
     hero_kicker="/ CA for NRI Tax Return &middot; 2026",

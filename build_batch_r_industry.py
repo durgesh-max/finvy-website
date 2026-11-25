@@ -69,7 +69,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
             (f"How quickly can BQP respond to {industry.lower()} enquiries?",
              "Scoped quote within 48 hours of email. Urgent matters (Form 15CB, Section 148 response, FEMA deadline, tax notice): same-day on WhatsApp +91 78018 87130. Standard delivery timelines in engagement letter."),
             (f"What's BQP's engagement model + fee structure for {industry.lower()}?",
-             "Scoped engagement letter with fixed scope + fixed fee (or defined retainer for ongoing work). No hourly billing surprises. Fee set at scoping call stage based on actual work involved. Transparent + published scope. Typically materially lower than Big-4 Indian offices for comparable scope."),
+             "Scoped engagement letter with fixed scope + fixed fee (or defined retainer for ongoing work). No hourly billing surprises. Fee set at scoping call stage based on actual work involved. Transparent + published scope."),
             ("Does BQP coordinate with foreign counsel + Big-4 group auditors?",
              f"Yes - standard. BQP's work-product feeds into foreign counsel's SPA / term sheet / closing documentation. Co-ordinates with Big-4 group auditors on consolidation, IFRS reconciliation, Pillar 2, cross-firm M&A workstreams. Prior work with top US / UK / Singapore / UAE counsel + Big-4 on cross-border {industry.lower()} mandates."),
             (f"How is BQP different from a general-purpose CA for {industry.lower()}?",

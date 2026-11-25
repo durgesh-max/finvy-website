@@ -411,7 +411,7 @@ PAGES.append({
 # 7. Form 3CA/3CB/3CD specific
 PAGES.append({
     "slug": "form-3ca-3cb-3cd-tax-audit-india-2026-checklist",
-    "title": "Form 3CA/3CB/3CD Tax Audit India 2026 Complete Checklist",
+    "title": "Tax Audit Limit AY 2026-27 (Rs 1 Crore / Rs 10 Crore / Rs 50 Lakh for Professionals) and Form 3CA / 3CB / 3CD Checklist",
     "hero_em": "Section 44AB specific + Clause 44 reconciliation.",
     "lead": "Form 3CA/3CB (auditor's audit report) + Form 3CD (particulars for 44 clauses) under Section 44AB Income Tax: due 31 October each year. Specific attention 2026: Clause 22 Section 43B(h) Year 2 (MSE payment), Clause 44 GST reconciliation. ICAI UDIN mandatory. Here's the complete 2026 tax audit checklist.",
     "kicker": "/ Tax Audit Form Checklist &middot; Updated 2026-10-22",
@@ -458,6 +458,8 @@ PAGES.append({
     "faqs": [
         ("What's the tax audit turnover threshold for AY 2026-27?",
          "INR 1 crore (goods) / INR 50 lakh (profession) standard. INR 10 crore for businesses whose cash receipts and payments are each within 5%; professionals stay at INR 50 lakh. Section 44AD / 44ADA presumptive scheme + turnover below threshold = exempt."),
+        ("What is the tax audit limit for professionals?", "Gross receipts above Rs 50 lakh in the year require a tax audit. A professional eligible for presumptive taxation under section 44ADA (receipts up to Rs 75 lakh where cash receipts are within 5%) who declares at least 50% of receipts as income does not need an audit; declaring a lower income above the basic exemption limit brings in the audit requirement."),
+        ("Does a business under section 44AD need a tax audit?", "Not if it declares at least 6% or 8% of turnover under the presumptive scheme within the Rs 2 crore or Rs 3 crore limit. If it declares a lower profit, the normal audit thresholds (Rs 1 crore, or Rs 10 crore where cash is within 5%) apply; and if it opts out of 44AD within the five-year lock-out after using it, a tax audit is needed once total income exceeds the basic exemption limit."),
         ("What's Clause 22 of Form 3CD?",
          "Post Finance Act 2023 expansion: specific disclosure of Section 43B(h) MSE expense disallowance in current year + prior year reversal when paid during current year. Udyam certificate collection + 45-day aging + Section 15 MSMED interest. Cross-references MSME Form I half-yearly ROC filing."),
         ("What's Clause 44 Form 3CD GST reconciliation?",

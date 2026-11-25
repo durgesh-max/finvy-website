@@ -120,9 +120,9 @@ PAGES.append({
         ("/ Common FTC mistakes", "Where returns trip.",
          "<ul>"
          "<li><strong>Form 67 not filed</strong>: AO denies FTC entirely even if actually paid. Mandatory procedural requirement.</li>"
-         "<li><strong>Filed after ITR due date</strong>: FTC denied for that AY. Updated return later with Form 67 may be partial fix.</li>"
+         "<li><strong>Filed after the end of the assessment year</strong>: FTC can be denied. Up to that date Form 67 is accepted if the return was filed under section 139(1) or 139(4) (rule 128(9)); with an updated return it must be filed by the date of that return.</li>"
          "<li><strong>Over-claim</strong>: credit cannot exceed Indian tax on same income. If foreign tax > Indian tax, excess cannot be refunded.</li>"
-         "<li><strong>Wrong currency conversion</strong>: must convert foreign tax at RBI reference rate for the date of tax payment.</li>"
+         "<li><strong>Wrong currency conversion</strong>: must convert foreign tax at the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)).</li>"
          "<li><strong>Non-DTAA country mistake</strong>: Section 91 (unilateral) applies for non-DTAA; Section 90 for DTAA. Different credit mechanics.</li>"
          "<li><strong>Specific income DTAA treatment</strong>: some income types (salary via Article 15, dividend via Article 10) have specific allocation rules. FTC under Section 90(1).</li>"
          "</ul>"
@@ -130,15 +130,15 @@ PAGES.append({
     ],
     "faqs": [
         ("When is Form 67 due?",
-         "Before due date of Indian ITR (same deadline as ITR). For AY 2026-27 (individual non-audit): 31 July 2026. Tax audit cases: 31 October 2026. Form 67 must be filed BEFORE ITR filing - cannot claim FTC in ITR without prior Form 67 submission."),
+         "For assessment years up to 2026-27, rule 128(9) (substituted by Notification 100/2022, effective 1 April 2022) allows Form 67 to be filed on or before the end of the assessment year, provided the return is filed within the time under section 139(1) or 139(4); with an updated return under section 139(8A), by the date that return is filed. For AY 2026-27 that means by 31 March 2027, but filing Form 67 before or with the ITR avoids processing mismatches. From tax year 2026-27 the form is Form 44 under the Income-tax Rules, 2026; check its time limit."),
         ("What's the difference between Section 90 and 91 FTC?",
          "Section 90: FTC under DTAA (bilateral treaty with specific country - US, UK, Singapore, UAE, Mauritius, Canada, Australia, Germany etc.). Section 91: unilateral FTC for non-DTAA countries where India has no treaty. Different mechanics - Section 90 relies on treaty article; Section 91 relies on domestic Indian provision."),
         ("Can I claim FTC in Indian ITR without filing Form 67?",
-         "No - CBDT Notification 100/2022 made Form 67 mandatory. FTC claim in ITR denied without prior Form 67 submission. File Form 67 first, then ITR. Updated return (Section 139(8A)) with late Form 67 may partially address but no guarantee."),
+         "No - rule 128(8) requires Form 67 for a foreign tax credit claim. Notification 100/2022 lets it be filed up to the end of the assessment year if the return is filed under section 139(1) or 139(4), and with an updated return by the date that return is filed. Filing Form 67 first, then the ITR, avoids mismatches."),
         ("Is FTC limited to Indian tax on foreign income?",
          "Yes - FTC = LOWER of (a) foreign tax paid, OR (b) Indian tax attributable to foreign income. Excess foreign tax above Indian tax cannot be refunded. Material in high-tax foreign jurisdictions (US / UK) where foreign tax exceeds Indian equivalent."),
         ("How do I convert foreign tax to INR for Form 67?",
-         "RBI reference rate on the date of foreign tax payment (not FY-average or ITR filing date). Document the exact date + exchange rate. For multiple foreign tax payments across year, convert each at respective date rate."),
+         "Use the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)), not an FY average or the ITR filing date. Keep a record of each payment date and rate; convert each foreign tax payment separately."),
         ("Does BQP handle Form 67 FTC claims?",
          "Yes - standard advisory for cross-border tax clients. Form 67 drafting + supporting document assembly + e-filing before ITR + FTC optimization under DTAA / Section 91 + co-ordination with foreign tax authority receipts + Indian ITR integration. For returning NRIs / US green card holders / Indian expats / cross-border investors. WhatsApp +91 78018 87130."),
     ],

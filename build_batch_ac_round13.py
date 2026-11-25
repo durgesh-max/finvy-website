@@ -40,7 +40,7 @@ PAGES = [
              "<li>NR: foreign-source income NOT taxable in India.</li>"
              "<li>K-1 income characterised in India under Section 5 + 9: specific head-wise (business income, interest, dividend, capital gain).</li>"
              "<li>FTC under Section 90 claimed against Indian tax: lower of (a) US tax on K-1 share, (b) Indian tax on same income.</li>"
-             "<li>Form 67 filed before due date of ITR for FTC claim.</li>"
+             "<li>Form 67 filed with the ITR (rule 128(9) allows up to the end of the assessment year) for FTC claim.</li>"
              "</ul>"),
             ("/ Specific scenarios", "Common cases.",
              "<ul>"
@@ -76,7 +76,7 @@ PAGES = [
             ("Does K-1 income from US LLC make me taxable in India?",
              "Depends on your Indian residential status. ROR (Resident + Ordinary Resident): yes, worldwide income including K-1 share taxable in India. RNOR / NR: foreign-source K-1 share typically not taxable in India. ROR status: your Indian ITR must include K-1 income + claim FTC against US tax paid via Section 90."),
             ("Can I claim US 1446 withholding as credit in India?",
-             "Yes - Section 90 FTC with Form 67. Credit limited to lower of (a) US tax on K-1 share, (b) Indian tax on same income head. Rule 128 governs computation. Form 67 must be filed BEFORE Indian ITR due date (31 July or 31 October depending on applicability)."),
+             "Yes - Section 90 FTC with Form 67. Credit limited to lower of (a) US tax on K-1 share, (b) Indian tax on same income head. Rule 128 governs computation. Form 67 should be filed before or with the ITR, and in any case by the end of the assessment year (rule 128(9))."),
             ("What's the FEMA LRS limit for investing in US LLC?",
              "USD 250K per Indian resident per FY. All eligible overseas remittances counted. Section 206C(1G) 20% TCS applies for amounts above INR 10 lakh for specific purposes. If investment makes you controlling partner: FEMA ODI framework applies + Form ODI APR annual filing + specific prior-approval scenarios."),
             ("Can my Indian income tax situation be optimized with proper US LLC structure?",
@@ -581,7 +581,7 @@ PAGES = [
             ("What's Section 56(2)(x) impact on trust distribution?",
              "Section 56(2)(x): gift received from non-relative above INR 50K/year taxable as 'Income from Other Sources'. Trustee / trust is typically not 'relative' under Section 56. Specific trust distribution analysis: if characterised as gift from non-relative + aggregate > INR 50K = taxable under Section 56. Analysis case-by-case."),
             ("Can FTC be claimed for Australian tax paid?",
-             "Yes - Section 90 FTC with Form 67. Credit limited to lower of (a) Australian tax on same income, (b) Indian tax on same income. Rule 128 governs computation. Form 67 filed before Indian ITR due date. India-Australia DTAA Article 24 governs."),
+             "Yes - Section 90 FTC with Form 67. Credit limited to lower of (a) Australian tax on same income, (b) Indian tax on same income. Rule 128 governs computation. Form 67 filed before or with the ITR (by the end of the assessment year at the latest). India-Australia DTAA Article 24 governs."),
             ("Does BQP handle Australian trust + Indian beneficiary engagement?",
              "Yes - specialist Australia-India desk + Australian partner accountants. Trust distribution characterisation + Indian tax + Schedule FA + Section 56 + FTC + FEMA + specific LRS + Black Money Act compliance + co-ordination with Australian side. For Indian beneficiaries of Australian trusts. WhatsApp +91 78018 87130."),
         ],

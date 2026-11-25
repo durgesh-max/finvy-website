@@ -487,7 +487,7 @@ PAGES = [
         "slug": "how-to-file-form-67-ftc-claim-india-step-by-step",
         "title": "How to File Form 67 FTC Claim India Step-by-Step",
         "hero_em": "Section 90 Foreign Tax Credit + ITR integration.",
-        "lead": "Direct answer: File Form 67 on India e-filing portal BEFORE Indian ITR due date (31 July / 31 October) to claim Foreign Tax Credit (FTC) under Section 90. Form 67 reports foreign-source income + foreign tax paid + specific DTAA / Section 91 relief claimed. Credit limited to lower of (a) foreign tax paid on same income, (b) Indian tax on same income. Here's the step-by-step filing + Rule 128 computation.",
+        "lead": "Direct answer: File Form 67 on India e-filing portal, ideally before or with the ITR and in any case by the end of the assessment year (rule 128(9)), to claim Foreign Tax Credit (FTC) under Section 90. Form 67 reports foreign-source income + foreign tax paid + specific DTAA / Section 91 relief claimed. Credit limited to lower of (a) foreign tax paid on same income, (b) Indian tax on same income. Here's the step-by-step filing + Rule 128 computation.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Form 67 purpose + framework", "What it does.",
@@ -495,7 +495,7 @@ PAGES = [
              "<li>Form 67 = statement of foreign income + foreign tax paid - filed to claim FTC in Indian ITR.</li>"
              "<li>Legal basis: Section 90 + Section 90A + Section 91 + Rule 128 Income Tax Rules.</li>"
              "<li>Mandatory to claim FTC: no Form 67 = no FTC claim allowed (specific case-law + CBDT clarifications).</li>"
-             "<li>Must be filed BEFORE Indian ITR due date (31 July for individuals + 31 October for business / specific audit cases).</li>"
+             "<li>Must be filed by the end of the assessment year if the return is filed under section 139(1) or 139(4); filing before or with the ITR is safest.</li>"
              "<li>Separate Form 67 for each FY where FTC claimed.</li>"
              "<li>Multiple foreign jurisdictions + income sources aggregated in single Form 67 per FY.</li>"
              "</ul>"),
@@ -546,9 +546,9 @@ PAGES = [
              "</ol>"),
             ("/ Common errors + how to avoid", "What to watch.",
              "<ul>"
-             "<li>Filing Form 67 AFTER ITR due date (31 July / 31 October): FTC may be denied; specific condonation requests under Section 119(2)(b) in exceptional cases.</li>"
+             "<li>Filing Form 67 after the end of the assessment year, or with a return filed outside sections 139(1) / 139(4): FTC may be denied (some Tribunal rulings treat the time limit as directory, but do not rely on it). File before or with the ITR.</li>"
              "<li>Not filing Form 67 at all (just claiming FTC in ITR): generally denied.</li>"
-             "<li>Wrong currency conversion: must use SBI reference rate on specific dates (date of tax payment / credit).</li>"
+             "<li>Wrong currency conversion: must use the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)).</li>"
              "<li>Not head-wise matching: FTC claimed for salary while foreign tax was on dividend - mismatch denies credit.</li>"
              "<li>Not considering DTAA treaty rate: can affect specific tax base + specific credit.</li>"
              "<li>Specific unused FTC claim as carry-forward (not allowed in India).</li>"
@@ -571,11 +571,11 @@ PAGES = [
         ],
         "faqs": [
             ("What is Form 67?",
-             "Form 67 is statement of foreign income + foreign tax paid filed on India e-filing portal to claim Foreign Tax Credit (FTC) under Section 90/91. Mandatory - no Form 67 = no FTC. Must be filed BEFORE Indian ITR due date (31 July / 31 October). Separate per FY. Multiple foreign jurisdictions + income types aggregated in single form."),
+             "Form 67 is statement of foreign income + foreign tax paid filed on India e-filing portal to claim Foreign Tax Credit (FTC) under Section 90/91. Mandatory - no Form 67 = no FTC. Due by the end of the assessment year if the return is filed under section 139(1) or 139(4) (rule 128(9)); filing before or with the ITR is safest. Separate per FY. Multiple foreign jurisdictions + income types aggregated in single form."),
             ("When is Form 67 due?",
-             "BEFORE Indian ITR due date for that FY. For individual non-audit: 31 July. For business / specific audit: 31 October. If specifically delayed under Section 119(2)(b): CBDT condonation may be sought (exceptional cases only). Default: late Form 67 = FTC denied."),
+             "On or before the end of the assessment year (31 March after the ITR due date), provided the return is filed within section 139(1) or 139(4) (rule 128(9), as substituted by Notification 100/2022); with an updated return, by the date it is filed. Filing before or with the ITR is safest."),
             ("How is FTC calculated under Rule 128?",
-             "Credit = lower of (a) foreign tax paid on specific income, (b) Indian tax on same income at specific rate. Head-wise + country-wise computation. Currency conversion at SBI reference rate on specific dates. Specific DTAA Article 24 (relief from double taxation) + Section 91 (non-DTAA countries) governing framework. Unused FTC: generally NOT carried forward in India."),
+             "Credit = lower of (a) foreign tax paid on specific income, (b) Indian tax on same income at specific rate. Head-wise + country-wise computation. Currency conversion at the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)). Specific DTAA Article 24 (relief from double taxation) + Section 91 (non-DTAA countries) governing framework. Unused FTC: generally NOT carried forward in India."),
             ("Do I need foreign tax certificate for Form 67?",
              "Form 67 itself doesn't require document upload. Supporting documents (foreign tax return / withholding certificates / income statements / bank statements / currency conversion) must be retained for 6-year audit lookback. If scrutiny: BQP + client produce documents in defence."),
             ("Does BQP handle Form 67 + FTC optimisation?",

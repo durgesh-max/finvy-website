@@ -769,7 +769,7 @@ write_page("fla-return-foreign-liabilities-assets-rbi-india", page(
 # 10. Udyam MSME Registration
 write_page("udyam-msme-registration-benefits-india-2026", page(
     slug="udyam-msme-registration-benefits-india-2026",
-    title="Udyam (MSME) Registration 2026: Apply Online, Certificate Download, Benefits and Micro, Small, Medium Limits - BQP",
+    title="Udyam (MSME) Registration 2026: Free Online Process (No Fees), Certificate Download, Benefits and Micro, Small, Medium Limits - BQP",
     description="Udyam Registration 2026: MSME classification by investment + turnover, Micro / Small / Medium thresholds, benefits (collateral-free loan, interest subvention, GEM procurement, delayed-payment protection Section 15 MSMED Act), online registration process, Udyam Assist Platform. Working CA guide by Durgesh Chavda.",
     keywords="Udyam Registration 2026, MSME registration India, Udyam portal registration process, MSME classification investment turnover, MSME benefits India, Section 15 MSMED Act delayed payment",
     hero_kicker="/ Blog &middot; Udyam MSME Registration &middot; Updated 2026-10-12",
@@ -854,6 +854,7 @@ write_page("udyam-msme-registration-benefits-india-2026", page(
          "Not mandatory - voluntary. But practically essential if you want to claim MSME benefits (collateral-free loan, GEM procurement, delayed-payment Section 15 protection). Without Udyam Registration, you cannot invoke MSE status or claim MSE-specific benefits. Takes 10 minutes; no fee. No reason not to register if eligible."),
         ("How do I apply for MSME (Udyam) registration online?", "On the government Udyam Registration portal, free of charge, using the Aadhaar of the proprietor, managing partner or authorised director and the PAN of the business (plus GSTIN where the business has one). Investment and turnover are taken from the PAN and GST records on a self-declaration basis, and no documents are uploaded."),
         ("How do I download the MSME (Udyam) registration certificate?", "Use the print certificate option on the Udyam Registration portal: enter the Udyam registration number and the mobile number used at registration, verify with the OTP, and download the certificate as a PDF. It does not need renewal; keep the details updated on the portal."),
+        ("Is there any fee for MSME (Udyam) registration?", "No. Udyam registration is free on the official portal, udyamregistration.gov.in, using the owner or authorised signatory's Aadhaar and the business PAN; there is no government fee and no renewal. Private websites that look official often charge for the same filing, so use the government portal or a professional you have engaged knowingly."),
         ("Does BQP handle Udyam Registration?",
          "Yes - standard one-time engagement. We handle Udyam Registration for new entities, migration from legacy Udyog Aadhaar, classification queries (whether enterprise qualifies as Micro / Small / Medium), Section 43B(h) buyer compliance analysis, Section 15 MSMED Act recovery against delayed-paying customers via MSME Samadhaan portal. WhatsApp +91 78018 87130."),
     ],

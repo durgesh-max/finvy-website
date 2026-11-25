@@ -206,6 +206,7 @@ BOXES = {
     "mftax": ("Redeeming mutual funds?", 'Redeeming mutual funds? Equity funds: 12.5% LTCG above Rs 1.25 lakh or 20% STCG; debt funds bought from April 2023: slab rate; hybrids: 12.5% after 24 months: <a href="mutual-fund-taxation-india-2026-equity-debt-hybrid-ltcg-12-5-stcg-20-examples.html">mutual fund taxation with examples</a>.'),
     "homeloan": ("Paying a home loan?", 'Paying a home loan? Old regime: interest up to Rs 2 lakh (24(b), now section 22) plus principal under 80C; new regime: only let-out property interest: <a href="home-loan-tax-benefit-india-2026-section-24b-2-lakh-80c-principal-new-regime-joint-loan-calculation.html">home loan tax benefit 2026</a>.'),
     "hi80d": ("Paying health insurance premiums?", 'Paying health insurance? Section 80D (now section 126) allows Rs 25,000 for your family and up to Rs 50,000 for senior citizen parents in the old regime: <a href="section-80d-health-insurance-tax-benefit-2026-25000-50000-parents-senior-citizens-section-126.html">health insurance tax benefit 2026</a>.'),
+    "edu80e": ("Repaying an education loan?", 'Repaying an education loan? The full interest is deductible under section 80E (now section 129) for eight years, with no limit, in the old regime: <a href="education-loan-tax-benefit-section-80e-now-section-129-interest-deduction-8-years-no-limit-2026.html">education loan tax benefit</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -234,6 +235,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "section-80d-health-insurance-tax-benefit-2026-25000-50000-parents-senior-citizens-section-126.html": ["edu80e"],
     "home-loan-tax-benefit-india-2026-section-24b-2-lakh-80c-principal-new-regime-joint-loan-calculation.html": ["hi80d"],
     "income-from-house-property-calculation-deductions-30-percent-home-loan-interest-new-regime-2026.html": ["homeloan"],
     "section-54-exemption-house-property-capital-gains-conditions-10-crore-limit-cgas-section-82-2026.html": ["agriinc"],
@@ -498,7 +500,7 @@ TARGETS = {
     "fees-for-technical-services-fts-taxability-india-make-available-treaty-withholding-2026.html": ["bbd", "fptcalc", "eqlevy", "nopedecl", "fcoitr", "jpdtaa"],
     "best-ca-pli-scheme-application-foreign-manufacturer.html": ["bbd", "fcp1", "bab115", "pn2"],
     "nri-epf-pf-withdrawal-process-online-tax-form-19-15g-2026.html": ["nrippf", "movingabroad", "epf2026", "pfwtax"],
-    "section-80c-complete-list-india-2026.html": ["nrippf", "hra26", "hpinc", "homeloan", "hi80d"],
+    "section-80c-complete-list-india-2026.html": ["nrippf", "hra26", "hpinc", "homeloan", "hi80d", "edu80e"],
     "india-counterparty-background-check-compliance-dd.html": ["verifyco", "fddt"],
     "due-diligence-indian-company-foreign-buyer.html": ["verifyco", "facq", "fddt", "sharetds", "indtransfer", "pn2"],
     "best-ca-india-due-diligence-foreign-m-and-a-buyer.html": ["verifyco", "facq", "fddt"],
@@ -684,10 +686,10 @@ TARGETS = {
     "fast-ds-returning-nri-foreign-accounts-not-reported.html": ["retguides", "canret", "uaeret", "jacct", "fprop", "fdpay", "f40", "fins", "fastdssupp"],
     "h1b-holders-returning-to-india-tax-rnor-401k-2026.html": ["ussec", "f40", "fins", "fastdssupp", "nrisen", "f1tax", "rnor"],
     "residential-status-calculator-india-nri-rnor-section-6.html": ["uaedr", "retguides", "uaeret", "ussec", "f40", "fnye", "ftrip", "movingabroad"],
-    "lrs-tcs-calculator.html": ["usstk", "tcsref", "lrs50", "giftpar"],
+    "lrs-tcs-calculator.html": ["usstk", "tcsref", "lrs50", "giftpar", "edu80e"],
     "tcs-20-foreign-remittance-lrs-india-2026.html": ["tcsref", "lrs50", "giftpar", "f1tax"],
     "year-end-lrs-tcs-20-planning-october-march-2026-27.html": ["tcsref", "lrs50"],
-    "parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html": ["tcsref", "lrs50", "giftpar", "f1tax"],
+    "parents-send-money-child-studying-abroad-uk-usa-canada-australia-lrs-tcs-2026.html": ["tcsref", "lrs50", "giftpar", "f1tax", "edu80e"],
 }
 n = 0
 for f, marks in TARGETS.items():

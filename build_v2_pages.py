@@ -449,7 +449,7 @@ write_page("india-us-dtaa-withholding-rates", page(
 write_page("fema-odi-us-entity-indian-founder", page(
     slug="fema-odi-us-entity-indian-founder",
     title="FEMA ODI for US Entity (2026) | Indian Founder Compliance Guide - BQP",
-    description="Complete guide to FEMA Overseas Direct Investment compliance for Indian founders funding US LLCs or C-Corps. Form ODI, 30-day deadline, Annual Performance Report, LRS vs ODI route, penalty for non-compliance.",
+    description="Complete guide to FEMA Overseas Direct Investment compliance for Indian founders funding US LLCs or C-Corps. Form FC (old Form ODI) reporting, Annual Performance Report, LRS vs ODI route, penalty for non-compliance.",
     keywords="FEMA ODI US, Form ODI India, Overseas Direct Investment US entity, LRS vs ODI, Indian founder US LLC FEMA, Annual Performance Report APR, FEMA violation penalty, OPI vs ODI",
     hero_kicker="/ FEMA &middot; India-side compliance",
     hero_title_html="FEMA ODI for your US entity. <em>The one filing Atlas can't do.</em>",
@@ -463,9 +463,9 @@ write_page("fema-odi-us-entity-indian-founder", page(
          "</ul>"
          "<p>So if you (Indian resident) wire USD from your Indian bank account to your Wyoming LLC's Mercury account as a founder capital contribution &mdash; ODI applies. If your Indian Pvt Ltd invests in a Delaware C-Corp subsidiary &mdash; ODI applies.</p>"
          "<p>If you fund the US entity entirely from USD you earned outside India (held in a US bank account you own as a non-resident, or held abroad under LRS limits already used) &mdash; FEMA may not apply directly. Facts-specific; needs a review.</p>"),
-        ("/ Form ODI &mdash; the 30-day deadline", "File through your AD bank, not with RBI directly.",
-         "<p>Within 30 days of the first remittance to the US entity, you must file Form ODI through your Authorised Dealer (AD) Category-I bank &mdash; your Indian bank handling the outbound forex. The AD bank forwards the submission to RBI.</p>"
-         "<p>Form ODI collects: Indian Party details (your Indian company or your personal residency status), foreign entity details (US entity name, address, EIN, nature of business), investment amount, structure (equity, loan, convertible), source of funds (Indian company retained earnings, LRS, external commercial borrowings), and intended use.</p>"
+        ("/ Form FC &mdash; reported when the money goes out", "File through your AD bank, not with RBI directly.",
+         "<p>When you make the first remittance to the US entity, the investment is reported in Form FC (which replaced Form ODI in August 2022) through your Authorised Dealer (AD) Category-I bank &mdash; your Indian bank handling the outbound forex. The AD bank reports it to RBI and a UIN is allotted.</p>"
+         "<p>Form FC collects: Indian Party details (your Indian company or your personal residency status), foreign entity details (US entity name, address, EIN, nature of business), investment amount, structure (equity, loan, convertible), source of funds (Indian company retained earnings, LRS, external commercial borrowings), and intended use.</p>"
          "<p>Standard automatic route applies for most structures:</p>"
          "<ul>"
          "<li>Indian company investments up to 400% of net worth (sum of paid-up capital and free reserves) under automatic route.</li>"
@@ -473,13 +473,13 @@ write_page("fema-odi-us-entity-indian-founder", page(
          "<li>Investments above these limits need prior RBI approval through the approval route.</li>"
          "</ul>"),
         ("/ Annual Performance Report (APR)", "Every year, forever (or until you divest).",
-         "<p>After the initial Form ODI filing, you must submit the APR through your AD bank by 31 December each year, based on the foreign entity's latest audited (or certified) financial statements.</p>"
+         "<p>After the first Form FC, you must submit the APR through your AD bank by 31 December each year, based on the foreign entity's latest audited (or certified) financial statements.</p>"
          "<p>APR reports: foreign entity's audited financial statements, business update, investment valuation, any changes in capital structure, any additional investments made during the year. The APR is NOT optional and NOT dependent on whether the foreign entity made any transactions &mdash; even a dormant US entity needs an APR each year.</p>"
-         "<p>Common failure: founders file Form ODI at inception, launch the US entity, then forget about APR. First APR deadline passes. Second APR deadline passes. By the third year the back-reporting plus late-filing penalties start adding up materially.</p>"),
+         "<p>Common failure: founders report the investment at inception, launch the US entity, then forget about APR. First APR deadline passes. Second APR deadline passes. By the third year the back-reporting plus late-filing penalties start adding up materially.</p>"),
         ("/ Penalties and clean-up", "What the FEMA regulator actually does.",
-         "<p>Non-filing of Form ODI: compoundable offence under FEMA. Compounding fee typically ranges from 1% of the investment per year of non-filing to significantly higher for repeat defaults, with caps.</p>"
-         "<p>Non-filing of APR: separately compoundable, around INR 5,000 to INR 50,000 per missed APR depending on duration and amount.</p>"
-         "<p>More painful than the regulator: fundraise diligence. Every VC and every acquirer in India will have their lawyers audit your FEMA compliance. Discovering back-missed Form ODI or APRs during diligence delays the round by 2-4 months while you compound and clean up. Costs: INR 1-3 lakh for a mid-sized back-clean-up plus the time cost of a stalled fundraise.</p>"),
+         "<p>Late Form FC or other ODI reporting within three years of the due date: pay the RBI late submission fee (INR 7,500 plus 0.025% of the amount for each year of delay). Beyond three years, the breach has to be compounded with the RBI under FEMA.</p>"
+         "<p>Late APR: a flat INR 7,500 late submission fee per APR within three years, compounding after that. Until pending APRs are filed, further overseas investment is restricted.</p>"
+         "<p>More painful than the regulator: fundraise diligence. Every VC and every acquirer in India will have their lawyers audit your FEMA compliance. Missed ODI reporting or APRs found during diligence can hold up the round while they are regularised or compounded.</p>"),
     ],
     faqs=[
         ("Can I use LRS to fund my US LLC?",
@@ -493,15 +493,15 @@ write_page("fema-odi-us-entity-indian-founder", page(
         ("Does FEMA apply if I'm an NRI founder?",
          "FEMA ODI applies to Indian residents under the Foreign Exchange Management Act. If you are a Non-Resident Indian (NRI) under FEMA, you are not an Indian resident for FEMA purposes and ODI does not apply to your outbound investment into a US entity (because the capital is not crossing India's border from an Indian resident's hands). However, Indian income tax residency can still apply even for NRIs on certain income &mdash; separate analysis."),
         ("Can BQP file the Form ODI and APR for me?",
-         "Yes &mdash; it is a standard inclusion in our US incorporation mandate for Indian clients. We handle the initial Form ODI filing within the 30-day window, prepare the APR each year, and liaise with your AD bank. If you did your US formation elsewhere (Stripe Atlas, Doola) and need just the FEMA side handled, we also take on compliance-only engagements, with a fixed-scope quote on request."),
+         "Yes &mdash; it is a standard inclusion in our US incorporation mandate for Indian clients. We handle the initial Form FC reporting through your AD bank, prepare the APR each year, and liaise with your AD bank. If you did your US formation elsewhere (Stripe Atlas, Doola) and need just the FEMA side handled, we also take on compliance-only engagements, with a fixed-scope quote on request."),
     ],
     related=[
         ("us-incorporation.html", "Service", "US Incorporation (overview)"),
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA Rates"),
         ("stripe-atlas-alternative-india.html", "Compare", "Stripe Atlas vs CA-led"),
     ],
-    cta_headline="Funded a US entity from India &mdash; and skipped Form ODI?",
-    cta_body="If your initial Form ODI was missed or your APRs are overdue, the clean-up is straightforward but time-sensitive before your next fundraise. We assess the back-exposure, prepare the compounding application, file the overdue APRs, and get you to clean FEMA status within 60-90 days.",
+    cta_headline="Funded a US entity from India &mdash; and skipped the ODI reporting?",
+    cta_body="If your initial Form FC was missed or your APRs are overdue, the clean-up is straightforward but time-sensitive before your next fundraise. We assess the back-exposure, prepare the compounding application, file the overdue APRs, and get you to clean FEMA status within 60-90 days.",
 ))
 
 print("v2 pages built")

@@ -307,9 +307,9 @@ PAGES.append({
 # 5. APR Form ODI Part II
 PAGES.append({
     "slug": "form-odi-apr-annual-performance-report-india-2026",
-    "title": "Form ODI Part II (APR) Annual Report India 2026 Due 31 Dec",
+    "title": "Form APR (old Form ODI Part II) Annual Report India 2026 Due 31 Dec",
     "hero_em": "overseas investment annual filing.",
-    "lead": "Form ODI Part II (APR - Annual Performance Report) is annual FEMA filing by Indian company for its overseas direct investment (ODI): due 31 December each year for FY ended March. Covers overseas subsidiary performance, dividend repatriation, change in investment. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 compliance alert.",
+    "lead": "Form APR (Annual Performance Report, the old Form ODI Part II) is annual FEMA filing by Indian company for its overseas direct investment (ODI): due 31 December each year for FY ended March. Covers overseas subsidiary performance, dividend repatriation, change in investment. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 compliance alert.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Who files + when", "The core rule.",
@@ -341,21 +341,21 @@ PAGES.append({
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     "faqs": [
-        ("When is Form ODI Part II (APR) due?",
+        ("When is Form APR (old Form ODI Part II) due?",
          "31 December each year for FY ended previous March. So APR for FY 2025-26 due by 31 December 2026."),
         ("What if foreign subsidiary audit not complete?",
          "The APR is based on the foreign entity's audited financial statements; where the host country does not require an audit, unaudited statements certified by a chartered accountant (or the statutory auditor) can be used. Plan the foreign audit timetable so the 31 December date is met."),
         ("What's the penalty for missed APR?",
-         "A late APR can be regularised by paying a Late Submission Fee (INR 7,500 plus 0.025% of the amount for each year of delay) within three years of the due date; beyond that, compounding under the FEMA rules applies. Until pending APRs are filed, further overseas investment by the Indian entity is restricted."),
+         "A late APR can be regularised by paying a flat Late Submission Fee of INR 7,500 within three years of the due date; beyond that, compounding under the FEMA rules applies. Until pending APRs are filed, further overseas investment by the Indian entity is restricted."),
         ("Does BQP file APR for Indian parent of foreign subsidiary?",
          "Yes - standard annual service. Foreign subsidiary financial data collection + APR drafting + FIRMS portal filing + Form 15CA/15CB coordination for dividend repatriation. Also compounding of past missed APRs. WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("fema-odi-us-entity-indian-founder.html", "Related", "FEMA ODI"),
                       ("fema-compounding-foreign-subsidiary-india.html", "Related", "FEMA Compounding")],
-    "cta_h": "Form ODI Part II (APR) due 31 December 2026.",
+    "cta_h": "Form APR (old Form ODI Part II) due 31 December 2026.",
     "cta_b": "Annual filing for Indian parent of foreign subsidiary. BQP: foreign subsidiary data + APR drafting + FIRMS filing + past missed APR compounding.",
     "keywords": "Form ODI APR India 2026, Annual Performance Report overseas investment, Form ODI Part II due December",
-    "desc": "Form ODI Part II (APR - Annual Performance Report) India 2026: annual FEMA filing by Indian parent for overseas subsidiary, due 31 December, foreign subsidiary data + dividend repatriation + change in investment, FEMA Section 13 compounding for missed. Working CA guide by Durgesh Chavda.",
+    "desc": "Form APR (Annual Performance Report, the old Form ODI Part II) India 2026: annual FEMA filing by Indian parent for overseas subsidiary, due 31 December, foreign subsidiary data + dividend repatriation + change in investment, FEMA Section 13 compounding for missed. Working CA guide by Durgesh Chavda.",
 })
 
 # 6. DPT-3 return

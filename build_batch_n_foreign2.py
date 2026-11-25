@@ -395,7 +395,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
          "<li><strong>FC-GPR not filed / late filed</strong>: 30-day window from receipt of inward FDI remittance. Common breach when funds come in but filing is forgotten / delayed.</li>"
          "<li><strong>FC-TRS not filed / late filed</strong>: transfer of shares between resident and non-resident within 60 days. Missed when secondary share transfers happen.</li>"
          "<li><strong>FLA Return not filed</strong>: annual filing by 15 July (see our <a href='fla-return-foreign-liabilities-assets-rbi-india.html'>FLA guide</a>). Multi-year non-filing common.</li>"
-         "<li><strong>Form ODI Part II (APR - Annual Performance Report) not filed</strong>: for Indian company's overseas investment. Annual by 31 December.</li>"
+         "<li><strong>Form APR (Annual Performance Report, the old Form ODI Part II) not filed</strong>: for Indian company's overseas investment. Annual by 31 December.</li>"
          "<li><strong>Pricing guideline breach</strong>: FDI issue / FC-TRS done at price below RBI pricing guidelines (DCF for unlisted) or above (for FC-TRS to non-resident).</li>"
          "<li><strong>Sector-cap breach</strong>: foreign investment exceeded sector FDI cap (approval route sector but handled as automatic).</li>"
          "<li><strong>Delay in share allotment post inward remittance</strong>: shares must be allotted within 60 days (previously 180 days). Delays trigger compounding.</li>"
@@ -455,7 +455,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("How much does FEMA compounding cost?",
          "Discretionary - set by Compounding Authority based on guidelines + amount + nature + delay. Reporting delays (FC-GPR, FC-TRS, APR) within three years are usually regularised by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); other contraventions and older delays are compounded at amounts computed under the RBI's guidelines, rising with the amount and period involved. BQP engagement fee separate."),
         ("What breaches are typically compounded for foreign-subsidiary companies?",
-         "Most common: missed/late FC-GPR filing after inward FDI remittance; late FC-TRS on share transfer; non-filing of FLA Return (annual); non-filing of Form ODI Part II/APR for Indian company's overseas investment; pricing guideline breach on share issue to non-resident; delays in share allotment post remittance; Press Note 3 breach (investment from land-bordering country without approval)."),
+         "Most common: missed/late FC-GPR filing after inward FDI remittance; late FC-TRS on share transfer; non-filing of FLA Return (annual); non-filing of Form APR for Indian company's overseas investment; pricing guideline breach on share issue to non-resident; delays in share allotment post remittance; Press Note 3 breach (investment from land-bordering country without approval)."),
         ("How long does FEMA compounding take?",
          "90-180 days from application submission to compounding order. Includes application review (30-60 days), hearing scheduling (another 30-60 days), hearing + order drafting (30-60 days). Fee payment within 15 days of order. Timing varies by Compounding Authority's docket + complexity of breach."),
         ("Does BQP handle FEMA compounding for foreign-subsidiary companies?",

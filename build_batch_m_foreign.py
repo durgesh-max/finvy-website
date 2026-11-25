@@ -180,7 +180,7 @@ write_page("due-diligence-indian-company-foreign-buyer", page(
 # 3. Form 15CA / 15CB
 write_page("form-15ca-15cb-foreign-remittance-india", page(
     slug="form-15ca-15cb-foreign-remittance-india",
-    title="Form 15CA / 15CB for Foreign Remittance from India 2026 - BQP",
+    title="Form 15CA and 15CB (Now Form 145 and Form 146) for Foreign Remittance from India 2026: When Required, Process and Download - BQP",
     description="Form 15CA (self-declaration) + 15CB (CA certificate) mandatory for foreign remittance from India under Section 195 + Rule 37BB. Thresholds (INR 5 lakh), DTAA relief, Tax Residency Certificate (TRC) + Form 10F, PE analysis. CA certificate issued remotely from India for any foreign payee globally. Working CA guide by Durgesh Chavda.",
     keywords="Form 15CA 15CB CA certificate India, foreign remittance 15CB CA, Section 195 TDS 15CA 15CB, Rule 37BB 15CA 15CB, 15CB CA India remote",
     hero_kicker="/ Foreign Clients &middot; 15CA / 15CB &middot; Updated 2026-10-13",
@@ -245,6 +245,8 @@ write_page("form-15ca-15cb-foreign-remittance-india", page(
     faqs=[
         ("When is Form 15CB mandatory?",
          "When remittance exceeds INR 5 lakh aggregate per payee per FY AND the remittance is chargeable to tax in India AND no Section 195(2)/(3)/197 order has been obtained. For smaller amounts (up to INR 5 lakh in FY), only Form 15CA Part A (self-declaration) is required; no CA certificate."),
+        ("What is the new name or number of Form 15CA and 15CB?", "Under the Income-tax Rules, 2026, which apply from 1 April 2026, Form 15CA (the remitter's declaration) is Form 145 and Form 15CB (the chartered accountant's certificate) is Form 146. They are still filed on the income tax e-filing portal: where a certificate is needed, the CA files Form 146 first and the remitter then files Form 145 using its acknowledgement, and the bank needs the Form 145 acknowledgement before sending the money."),
+        ("Where can I download Form 15CA and 15CB?", "There is no form to download and fill offline for submission: both are filed online on the income tax e-filing portal under e-File, Income Tax Forms. After filing, the acknowledgement PDF can be downloaded from the portal's filed forms section and given to the bank."),
         ("What is Form 10F and is it still required?",
          "Yes - Form 10F is a declaration by the non-resident payee confirming details (name, country of residence, PAN or substitute, treaty eligibility, no PE). Post October 2023, electronic Form 10F is mandatory via Indian e-filing portal. Even non-residents without Indian PAN must obtain temporary India e-filing registration to file Form 10F. Required alongside TRC for DTAA benefit."),
         ("What is TRC and why is it needed?",

@@ -10,12 +10,12 @@ from build_lib import page, write_page
 # 1. Virtual CFO India for foreign company
 write_page("virtual-cfo-india-foreign-company", page(
     slug="virtual-cfo-india-foreign-company",
-    title="Virtual CFO India for Foreign Company 2026 | Remote CFO Services - BQP",
+    title="Virtual CFO Services in India (2026): Meaning, Scope and Remote CFO Support for Foreign Companies - BQP",
     description="Virtual CFO (vCFO) services from India for foreign SMBs, startups, PE portfolio companies: monthly reporting, financial modelling, cash-flow management, FP&A, fundraising prep, board decks, audit coordination. Fully remote from India for US / UK / EU / Singapore / UAE companies. Working CA vCFO services by Durgesh Chavda.",
     keywords="virtual CFO India, remote CFO services India, fractional CFO foreign company, vCFO India from USA UK, outsourced CFO India for SMB startup",
     hero_kicker="/ Foreign Clients &middot; vCFO India &middot; Updated 2026-10-14",
     hero_title_html="Virtual CFO India, <em>finance leadership delivered remotely.</em>",
-    hero_lead="Foreign SMB / startup / PE portfolio company that needs CFO-level finance leadership but doesn't need (or can't afford) a full-time CFO. BQP delivers fractional / virtual CFO services from India &mdash; monthly MIS, financial modelling, cash-flow, FP&amp;A, fundraising prep, audit coordination, treasury. 20-40 hours/month typical. Here's the complete scope and how it works remotely.",
+    hero_lead="Foreign SMB / startup / PE portfolio company that needs CFO-level finance leadership but doesn't need (or can't afford) a full-time CFO. BQP delivers fractional / virtual CFO services from India &mdash; monthly MIS, financial modelling, cash-flow, FP&amp;A, fundraising prep, audit coordination, treasury. Here's the complete scope and how it works remotely.",
     sections=[
         ("/ Core vCFO scope", "What a fractional CFO delivers.",
          "<ul>"
@@ -45,7 +45,7 @@ write_page("virtual-cfo-india-foreign-company", page(
          "<li>Daily operational finance decisions needed.</li>"
          "<li>Significant M&amp;A pipeline / capital markets activity.</li>"
          "</ul>"),
-        ("/ Remote delivery", "How 20-40 hours/month plays out.",
+        ("/ Remote delivery", "How a remote vCFO engagement works.",
          "<ul>"
          "<li>Weekly 1-hour review call with CEO/founders (Zoom).</li>"
          "<li>Monthly 2-hour deep dive on P&amp;L, cash flow, KPIs.</li>"
@@ -68,11 +68,11 @@ write_page("virtual-cfo-india-foreign-company", page(
     ],
     faqs=[
         ("What is a Virtual CFO?",
-         "Fractional CFO service - CFO-level finance leadership delivered on a part-time / monthly retainer basis instead of a full-time hire. Typical engagement 20-40 hours/month covering monthly MIS, financial modelling, cash-flow management, FP&A, fundraising prep, board reporting, audit coordination, treasury."),
+         "Fractional CFO service - CFO-level finance leadership delivered on a part-time / monthly retainer basis instead of a full-time hire. The scope usually covers monthly MIS, financial modelling, cash-flow management, FP&A, fundraising prep, board reporting, audit coordination, treasury."),
         ("Can a Virtual CFO work remotely for a foreign company?",
          "Yes - this is the standard delivery model. Weekly video calls, async communication via email/Slack, read-only access to the client's accounting system, shared workspace for deliverables. BQP delivers vCFO from India for US / UK / EU / Singapore / UAE SMBs and startups."),
         ("What's the typical commitment?",
-         "6-24 months engagement typical. Monthly retainer scope-based: fewer hours for stable businesses needing reporting only, more hours for growing businesses needing modelling + fundraising + strategic finance work. Can scale up to full-time CFO transition when the business reaches that stage."),
+         "Scope is agreed upfront: fewer hours for stable businesses needing reporting only, more hours for growing businesses needing modelling + fundraising + strategic finance work. Can scale up to full-time CFO transition when the business reaches that stage."),
         ("How does vCFO differ from an outsourced accountant?",
          "Accountant handles transaction recording, bookkeeping, tax filing - operational. vCFO handles strategic finance - business partnering, decision support, investor communication, financial strategy, treasury, M&A support. vCFO sits above accountant in the finance hierarchy."),
         ("Can BQP provide both vCFO and accounting services together?",
@@ -85,7 +85,7 @@ write_page("virtual-cfo-india-foreign-company", page(
         ("india-accounting-bookkeeping-outsourcing-foreign-smb.html", "Guide", "Accounting Outsourcing"),
     ],
     cta_headline="Need CFO-level finance leadership without a full-time hire?",
-    cta_body="BQP vCFO: 20-40 hours/month. Monthly MIS + financial model + board pack + fundraising prep + audit coordination. Remote delivery for US / UK / EU / Singapore / UAE clients.",
+    cta_body="BQP vCFO scope is agreed upfront: Monthly MIS + financial model + board pack + fundraising prep + audit coordination. Remote delivery for US / UK / EU / Singapore / UAE clients.",
 ))
 
 # 2. India market research

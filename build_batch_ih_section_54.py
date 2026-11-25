@@ -23,7 +23,7 @@ C = contact("sale date and price of the house, purchase date and cost, the new h
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Section 54 Exemption (Now Section 82): Conditions, Rs 10 Crore Limit, Two Houses, CGAS, New Regime and Calculation",
+    title="Section 54 of Income Tax Act (Now Section 82): Exemption on Sale of House Property - Conditions, Rs 10 Crore Limit, Two Houses, CGAS, New Regime (2026)",
     em="reinvest in a house, on time, and keep it for three years.",
     kicker="/ Individuals and HUFs selling a house &middot; Capital gains &middot; Updated 2026-11-25",
     lead=("<strong>Section 54 exempts the long-term capital gain on selling a residential house if the gain is invested in another residential house in India: bought within one year before or two years after the sale, or constructed within three years.</strong> "

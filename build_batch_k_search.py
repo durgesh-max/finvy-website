@@ -844,7 +844,7 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
 # 10. Section 80C Full Guide
 write_page("section-80c-complete-list-india-2026", page(
     slug="section-80c-complete-list-india-2026",
-    title="Section 80C Complete Deduction List 2026 | INR 1.5 Lakh + All Eligible Investments - BQP",
+    title="Section 80C Deduction List 2026: Rs 1.5 Lakh Limit, All Eligible Investments, 80CCD(1B) Extra Rs 50,000 and New Regime Rules - BQP",
     description="Section 80C full list of eligible deductions FY 2025-26: EPF, PPF, ELSS, NSC, LIC, ULIP, Sukanya Samriddhi, NPS Tier 1, home loan principal, children education fees, 5-year tax-saver FD. Working CA guide by Durgesh Chavda.",
     keywords="Section 80C complete list 2026, Section 80C deduction eligible investments, 80C 1.5 lakh limit, ELSS vs PPF vs NSC 80C, home loan principal 80C",
     hero_kicker="/ Blog &middot; Section 80C Complete List &middot; Updated 2026-10-10",
@@ -996,6 +996,8 @@ write_page("section-80c-complete-list-india-2026", page(
          "Yes - principal portion of home loan EMI for residential property (self-occupied or let-out). Also stamp duty + registration charges in the year of purchase. Lock-in: 5 years - if property sold before 5 years, principal claimed in prior years is reversed. Section 24(b) separately covers interest up to INR 2 lakh (not in 80C)."),
         ("Can I claim 80C under New Tax Regime?",
          "No. Section 80C is available only under OLD regime. New regime (default from AY 2024-25) has lower slabs but no 80C / 80D / HRA / home loan interest deductions. Only standard deduction (INR 75K salaried) and employer NPS contribution. If your 80C + 80D + HRA + home loan interest total above INR 4-5 lakh at income above INR 10 lakh, Old regime typically wins."),
+        ("What is section 80CCD(1B)?", "An additional deduction of up to Rs 50,000 for your own contributions to NPS Tier I, over and above the Rs 1.5 lakh limit shared by 80C, 80CCC and 80CCD(1). Together they allow up to Rs 2 lakh of deductions. It is available only under the old tax regime."),
+        ("Is employer NPS contribution under section 80CCD(2) allowed in the new regime?", "Yes. Under the new regime a salaried employee can deduct the employer's NPS contribution up to 14% of basic pay plus dearness allowance; under the old regime the limit is 14% for government employees and 10% for others. Employer contributions to NPS, PF and superannuation together above Rs 7.5 lakh a year are taxable. Commentary places this deduction in section 124 of the Income-tax Act, 2025 from tax year 2026-27."),
         ("Do children's hostel and transport fees qualify under 80C?",
          "No. Only tuition fees for full-time education of maximum 2 children qualify. Hostel fees, transport fees, uniform, books, extracurricular activity fees, private tuition / coaching fees are NOT eligible under 80C."),
         ("Does BQP help with tax planning under Section 80C?",

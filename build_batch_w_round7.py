@@ -441,7 +441,7 @@ PAGES.append({
          "<li><strong>11th</strong>: GSTR-1 (regular). Monthly return of outward supplies.</li>"
          "<li><strong>13th</strong>: GSTR-6 ISD (Input Service Distributor).</li>"
          "<li><strong>20th</strong>: GSTR-3B (monthly). Summary return + tax payment.</li>"
-         "<li><strong>22nd / 24th</strong>: GSTR-3B / 1 for small taxpayers under QRMP.</li>"
+         "<li><strong>13th</strong>: GSTR-1 for small taxpayers under QRMP (quarterly; optional IFF monthly).</li><li><strong>22nd / 24th</strong>: GSTR-3B for small taxpayers under QRMP (by state), after each quarter.</li>"
          "<li><strong>28th</strong>: GSTR-5A (OIDAR).</li>"
          "<li><strong>Varies</strong>: PF (15th), ESI (15th), Professional Tax (state-specific).</li>"
          "</ul>"),

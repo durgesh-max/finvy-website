@@ -921,7 +921,7 @@ PAGES = [
     },
     {
         "slug": "what-is-input-tax-credit-and-how-to-claim-india-gst",
-        "title": "What Is Input Tax Credit and How to Claim India GST",
+        "title": "Input Tax Credit (ITC) Under GST 2026: Meaning, Conditions (Section 16 and GSTR-2B), Time Limit, Blocked Credits 17(5) and How to Claim",
         "hero_em": "ITC framework + conditions + reconciliation.",
         "lead": "Direct answer: Input Tax Credit (ITC) under Indian GST allows a registered taxpayer to claim credit of GST paid on business inputs (goods/services) against GST payable on outward supplies. Key conditions (Section 16 CGST Act): valid invoice + goods/services received + supplier has filed GSTR-1 + GSTR-3B / payment made + specific restrictions under Section 17(5) blocked credits. Claim via GSTR-3B + reconcile with GSTR-2B monthly. Here's the complete framework.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
@@ -962,7 +962,7 @@ PAGES = [
              "<ul>"
              "<li>GSTR-2B: auto-populated statement showing ITC available based on supplier's GSTR-1 + GSTR-3B.</li>"
              "<li>Generated monthly for recipient based on supplier filings.</li>"
-             "<li>Rule 36(4) imposes 2A/2B rule: ITC claim restricted to invoices appearing in 2B + specific cap.</li>"
+             "<li>Section 16(2)(aa) and Rule 36(4) (since 1 January 2022): ITC can be claimed only for invoices that appear in GSTR-2B; no provisional cap.</li>"
              "<li>Monthly reconciliation: recipient's books vs GSTR-2B.</li>"
              "<li>Discrepancies: (a) supplier not filed GSTR-1 → ITC not in 2B → follow up with supplier, (b) supplier not paid tax → ITC may be challenged, (c) wrong invoice details → correction / amendment.</li>"
              "<li>Monthly discipline critical for timely ITC claim + specific defence in GST audit.</li>"
@@ -971,7 +971,7 @@ PAGES = [
              "<ol>"
              "<li>Download GSTR-2B from GST portal (auto-populated).</li>"
              "<li>Reconcile against books of accounts.</li>"
-             "<li>Identify ITC available: 2B + specific Rule 36(4) cap.</li>"
+             "<li>Identify ITC available: invoices appearing in GSTR-2B (Rule 36(4)).</li>"
              "<li>Classify: eligible ITC + ineligible ITC (Section 17(5) blocked) + proportionate reversal (specific business + specific exempt supply).</li>"
              "<li>Enter ITC in GSTR-3B Table 4 (ITC claim section).</li>"
              "<li>Compute output tax liability + ITC + net payable.</li>"
@@ -985,7 +985,7 @@ PAGES = [
              "<li>Section 16(4) time-barred ITC claim (beyond 30 November following FY).</li>"
              "<li>ITC on exempt supply inputs (requires proportionate reversal under Rule 42/43).</li>"
              "<li>Not reversing ITC on supplier non-payment within 180 days.</li>"
-             "<li>Rule 36(4) cap breach (ITC claim exceeding 2B + specific cap).</li>"
+             "<li>Rule 36(4) breach (ITC claimed on invoices not in GSTR-2B).</li>"
              "<li>Not reconciling monthly 2B vs books.</li>"
              "<li>Not following up with supplier for GSTR-1 filing delay (ITC appears in subsequent 2B).</li>"
              "<li>Not maintaining proper tax invoice as per Section 31 / Rule 46.</li>"
@@ -1010,12 +1010,12 @@ PAGES = [
             ("What is Input Tax Credit (ITC) under GST?",
              "ITC = GST paid on business inputs (goods / services) that becomes credit against GST payable on outward supplies. Section 16 CGST Act. Net GST payable = Output GST - ITC claimed. Essential for competitive pricing. Conditions: valid invoice + goods/services received + supplier filed GSTR-1 + payment made within 180 days + no Section 17(5) blocked + Section 16(4) time limit."),
             ("What's the time limit for claiming ITC?",
-             "Section 16(4) time limit: ITC must be claimed by earlier of (a) specified date following FY (currently 30 November following FY), (b) date of filing annual return. Beyond this: ITC lapses + cannot be claimed. Monthly reconciliation + specific Rule 36(4) cap discipline critical for complete claim."),
+             "Section 16(4) time limit: ITC must be claimed by earlier of (a) specified date following FY (currently 30 November following FY), (b) date of filing annual return. Beyond this: ITC lapses + cannot be claimed. For FY 2025-26 invoices the outer date is 30 November 2026 (or the annual return date if earlier). Monthly reconciliation with GSTR-2B is critical for a complete claim."),
             ("What's Section 17(5) blocked credit?",
              "Specific categories where ITC NOT available: motor vehicles for personal transportation + food/beverages/outdoor catering + club memberships + travel benefits (specific) + works contract for immovable property + personal consumption + CSR activities + Section 74 tax (fraud). Specific exceptions for business-use scenarios."),
         ("When must ITC be reversed under rules 37, 37A, 42 and 43?", "Rule 37: if you do not pay the supplier (value plus tax) within 180 days of the invoice, reverse the credit on the unpaid part in GSTR-3B, with interest, and re-avail it once you pay. Rule 37A: if your supplier has not filed GSTR-3B for the period by 30 September of the following year, reverse that credit by 30 November, and re-avail it when the supplier files. Rules 42 and 43: where inputs, services or capital goods are used for both taxable and exempt or non-business purposes, reverse the share of common credit attributable to exempt or non-business use, worked out each period and trued up for the year. Section 17(5) credits are blocked outright and never claimed."),
             ("How does GSTR-2B work?",
-             "GSTR-2B: monthly auto-populated statement showing ITC available based on supplier's GSTR-1 + GSTR-3B filings. Generated for recipient. Rule 36(4) imposes 2B rule: ITC claim restricted to invoices appearing in 2B + specific cap. Monthly reconciliation (recipient's books vs 2B) essential for complete claim + specific defence in audit."),
+             "GSTR-2B: monthly auto-populated statement showing ITC available based on supplier's GSTR-1 + GSTR-3B filings. Generated for recipient. Section 16(2)(aa) and Rule 36(4) (since 1 January 2022): ITC can be claimed only for invoices that appear in your GSTR-2B; the earlier provisional cushion no longer applies. Monthly reconciliation (recipient's books vs 2B) essential for complete claim + specific defence in audit."),
             ("Does BQP handle GST ITC optimisation + compliance?",
              "Yes - specialist practice. Monthly 2B reconciliation setup + Section 17(5) blocked credit identification + Rule 42/43 reversal + 180-day supplier payment tracking + GSTR-3B / GSTR-9 / GSTR-9C filing + DRC-03 voluntary disclosure + GST audit response + specific refund claims. For mid-market + SMEs + specific sector. WhatsApp +91 78018 87130."),
         ],
@@ -1024,7 +1024,7 @@ PAGES = [
         "cta_h": "GST ITC compliance + optimisation?",
         "cta_b": "2B reconciliation + 17(5) + 42/43 reversal + 180-day tracking + GSTR-3B/9/9C + DRC-03. BQP integrated engagement. WhatsApp +91 78018 87130.",
         "keywords": "what is Input Tax Credit how to claim India GST, ITC Section 16 CGST Act CA India, GSTR-2B reconciliation ITC CA India",
-        "desc": "What is Input Tax Credit and how to claim India GST (direct answer): Section 16 CGST Act framework + conditions (invoice + receipt + supplier GSTR-1/3B + payment 180 days + no 17(5) blocked + 16(4) time limit), Section 17(5) blocked credits list, GSTR-2B reconciliation + Rule 36(4) cap, claim via GSTR-3B monthly, common compliance errors + BQP ITC optimisation engagement. CA Durgesh Chavda ICAI.",
+        "desc": "What is Input Tax Credit and how to claim India GST (direct answer): Section 16 CGST Act framework + conditions (invoice + receipt + supplier GSTR-1/3B + payment 180 days + no 17(5) blocked + 16(4) time limit), Section 17(5) blocked credits list, GSTR-2B reconciliation (section 16(2)(aa), Rule 36(4)), claim via GSTR-3B monthly, common compliance errors + BQP ITC optimisation engagement. CA Durgesh Chavda ICAI.",
     },
     {
         "slug": "when-is-tds-applicable-on-nri-sale-of-property-india",

@@ -41,7 +41,7 @@ write_page("overseas-incorporation-guide-indian-founder", page(
          "<p>Automatic Route key features:</p>"
          "<ul>"
          "<li>Investment via authorised dealer bank, no RBI approval needed.</li>"
-         "<li>Investor must file Form ODI within 30 days of remittance.</li>"
+         "<li>The investment is reported in Form FC through the AD bank when the money is sent (Form FC replaced Form ODI Part I in August 2022).</li>"
          "<li>Investment capped at 400% of Indian net worth (for Indian company investors); unlimited for LRS individual up to USD 250K per financial year.</li>"
          "<li>Specific sector carve-outs apply (real estate, financial services, pharmaceuticals etc.).</li>"
          "</ul>"
@@ -61,7 +61,7 @@ write_page("overseas-incorporation-guide-indian-founder", page(
         ("Do I need to go to the US to incorporate in Delaware?",
          "No. Fully remote. Delaware incorporation + EIN (via Form SS-4 fax or international phone) + Mercury or Brex business bank account can all be done from India. Full setup typically 3-6 weeks. Even post-formation operations rarely require physical visit."),
         ("Does FEMA ODI apply to US / UAE / Singapore incorporation by Indian individuals?",
-         "Yes to all. Indian resident individual: LRS limit of USD 250K per financial year under Automatic Route. Indian resident company: 400% of Indian net worth under Automatic Route. Investor files Form ODI within 30 days of remittance; the Indian authorised dealer bank processes the outward remittance after seeing Form ODI."),
+         "Yes to all. Indian resident individual: LRS limit of USD 250K per financial year under Automatic Route. Indian resident company: 400% of Indian net worth under Automatic Route. The investment is reported in Form FC through your Indian authorised dealer bank when the money is sent (Form FC replaced Form ODI Part I in August 2022), and the bank processes the remittance on that basis."),
         ("Can I pay myself a salary from my Delaware C-Corp while living in India?",
          "Yes. The Delaware C-Corp can pay you a salary, which is a US-source expense from the C-Corp's perspective and an India-taxable salary from your perspective. US withholding: typically none if services are performed in India (Section 864 ECI analysis). Indian tax: full slab-rate taxable in India. India-US DTAA Article 15 applies &mdash; India has primary taxing right for services performed in India."),
         ("Does BQP handle overseas incorporation across jurisdictions?",
@@ -113,7 +113,7 @@ write_page("singapore-incorporation-indian-founder", page(
          "<li><strong>Open bank account</strong> &mdash; DBS Business, OCBC Business, UOB Business, or fintech alternatives (ANEXT, Aspire, Wise Business). Traditional bank accounts increasingly require resident director interview; fintechs are more remote-friendly.</li>"
          "<li><strong>Register for GST</strong> if applicable, Corppass for government-portal access.</li>"
          "<li><strong>Register for CPF</strong> if hiring Singapore-resident employees.</li>"
-         "<li><strong>FEMA ODI compliance</strong> on the India side &mdash; Form ODI within 30 days of outward remittance.</li>"
+         "<li><strong>FEMA ODI compliance</strong> on the India side &mdash; Form FC (which replaced Form ODI Part I in August 2022) reported through your AD bank when the money is sent, then an Annual Performance Report each year.</li>"
          "</ol>"
          "<p>Typical total setup time: 3-8 weeks depending on director approach and bank-account processing.</p>"),
         ("/ Singapore vs Delaware for Indian founders", "The honest comparison.",
@@ -222,7 +222,7 @@ write_page("uae-incorporation-indian-founder", page(
          "<li><strong>Receive licence</strong> + Chamber of Commerce membership (Mainland).</li>"
          "<li><strong>Investor residence visa</strong> processing (medical + Emirates ID + visa stamping) &mdash; 2-4 weeks after licence.</li>"
          "<li><strong>Bank account</strong> &mdash; most banks require resident director interview with Emirates ID. Processing 2-6 weeks (varies dramatically bank-to-bank; UAE banks have been tightening KYC post-2020).</li>"
-         "<li><strong>FEMA ODI</strong> on India side &mdash; Form ODI within 30 days of outward remittance.</li>"
+         "<li><strong>FEMA ODI</strong> on India side &mdash; Form FC (which replaced Form ODI Part I in August 2022) reported through your AD bank when the money is sent, then an Annual Performance Report each year.</li>"
          "<li><strong>Corporate Tax registration</strong> + ESR notification + Transfer Pricing documentation setup.</li>"
          "</ol>"
          "<p>Total setup time: 6-12 weeks from kickoff to funded bank account.</p>"),
@@ -253,11 +253,11 @@ write_page("uae-incorporation-indian-founder", page(
 # 4. UK for Indian founder
 write_page("uk-incorporation-indian-founder", page(
     slug="uk-incorporation-indian-founder",
-    title="UK Incorporation for Indian Founders 2026 | Ltd, PSC, Tax - BQP",
-    description="UK Private Limited (Ltd) incorporation for Indian founders: Companies House, 25% corporation tax, VAT 20%, PSC register, Tier 1 Innovator visa, UK bank account from India. CA guide.",
+    title="UK Company Formation from India (2026): Register a UK Ltd as an Indian Founder - Companies House, Tax, PSC, Bank Account - BQP",
+    description="UK company formation from India: register a UK Private Limited (Ltd) with Companies House (GBP 100 online from February 2026), director identity verification, 25% / 19% corporation tax, VAT, PSC register, UK bank account and India-side ODI reporting. CA guide.",
     keywords="UK Ltd incorporation India, Companies House Indian founder, UK corporation tax 25%, PSC register UK, UK Innovator visa, HSBC Barclays UK business account Indian",
     hero_kicker="/ Overseas incorporation &middot; UK",
-    hero_title_html="UK Ltd for Indian founders, <em>when and why.</em>",
+    hero_title_html="UK company formation from India: <em>when and why.</em>",
     hero_lead="UK Private Limited Company (Ltd) is the European-facing alternative to Delaware C-Corp for Indian founders. UK is weaker than US for VC-fundability but stronger for European enterprise sales, financial services licensing, and consumer-facing operations in the UK and EU post-Brexit.",
     sections=[
         ("/ UK Ltd basics", "Companies House mechanics.",
@@ -267,7 +267,7 @@ write_page("uk-incorporation-indian-founder", page(
          "<li>Minimum 1 shareholder.</li>"
          "<li>Minimum share capital GBP 1.</li>"
          "<li>UK registered office address required.</li>"
-         "<li>Companies House registration GBP 50 (standard) or GBP 78 (same-day).</li>"
+         "<li>Companies House incorporation fee GBP 100 online (GBP 156 same-day through software, GBP 124 on paper) from 1 February 2026. Every director and PSC must verify their identity with Companies House (GOV.UK One Login or an Authorised Corporate Service Provider).</li>"
          "<li>Annual confirmation statement + accounts filing mandatory.</li>"
          "</ul>"
          "<p><strong>PSC Register:</strong> Persons of Significant Control &mdash; individuals holding 25%+ shares, 25%+ voting rights, or significant influence. Must be registered at Companies House and publicly visible.</p>"),
@@ -281,11 +281,11 @@ write_page("uk-incorporation-indian-founder", page(
         ("/ Setup from India", "Mechanics.",
          "<ol>"
          "<li><strong>Name availability check</strong> at Companies House.</li>"
-         "<li><strong>UK registered office</strong> &mdash; London virtual office service (GBP 20-50/month) is standard. Some banks require this.</li>"
-         "<li><strong>Incorporate</strong> via Companies House &mdash; online filing, GBP 50 fee, 24-hour approval typical.</li>"
+         "<li><strong>UK registered office</strong> &mdash; a registered office service is common; since March 2024 it must be an appropriate address (not a PO box) and the company also needs a registered email address.</li>"
+         "<li><strong>Incorporate</strong> via Companies House &mdash; online filing, GBP 100 fee, often approved within 24 hours.</li>"
          "<li><strong>HMRC registration</strong> for Corporation Tax (automatic within 3 months) and PAYE / VAT if applicable.</li>"
          "<li><strong>Bank account</strong> &mdash; HSBC, Barclays, Lloyds, NatWest; traditional banks require UK-resident director for interview or extensive video KYC. Fintech alternatives: Wise Business, Revolut Business, Starling &mdash; more remote-friendly, UK IBAN provided.</li>"
-         "<li><strong>FEMA ODI</strong> on India side &mdash; Form ODI within 30 days.</li>"
+         "<li><strong>FEMA ODI</strong> on India side &mdash; Form FC (which replaced Form ODI Part I in August 2022) reported through your AD bank when the money is sent, then an Annual Performance Report each year.</li>"
          "</ol>"
          "<p>Setup time: 1-4 weeks for formation + HMRC; bank account 2-8 weeks (fintech faster than traditional).</p>"),
         ("/ When UK beats other jurisdictions", "The case for UK Ltd.",
@@ -294,7 +294,7 @@ write_page("uk-incorporation-indian-founder", page(
          "<li>Primary customers are in UK + Europe post-Brexit. UK contracts prefer UK counterparty.</li>"
          "<li>Running financial services needing FCA authorisation (payments, lending, investment management).</li>"
          "<li>Consumer D2C brand targeting UK market.</li>"
-         "<li>Founder planning Tier 1 Innovator or Tier 2 Skilled Worker visa to UK.</li>"
+         "<li>Founder planning a UK visa route such as Innovator Founder or Skilled Worker (check the current UK immigration rules).</li>"
          "<li>Need the EEA-era legacy structuring where UK Ltd was the European holding (reduced relevance post-Brexit).</li>"
          "</ul>"
          "<p>Choose Delaware instead if:</p>"

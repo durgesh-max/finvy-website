@@ -99,7 +99,7 @@ write_page("ca-for-delaware-c-corp-india", page(
          "<li><strong>Founder restricted-stock issuance</strong> with vesting schedule (standard 4-year, 1-year cliff).</li>"
          "<li><strong>83(b) election</strong> &mdash; filed by Certified Mail to IRS within 30 days of restricted-stock issuance. Return Receipt retained. The single most critical founder-equity administrative task.</li>"
          "<li><strong>Mercury or Brex business bank</strong> introduction.</li>"
-         "<li><strong>FEMA ODI</strong> on India side &mdash; Form ODI within 30 days of outward remittance to fund the Delaware C-Corp.</li>"
+         "<li><strong>FEMA ODI</strong> on India side &mdash; Form FC (which replaced Form ODI Part I in August 2022) reported through your AD bank when the money is sent to fund the Delaware C-Corp, then an Annual Performance Report each year.</li>"
          "<li><strong>Delaware franchise tax calculation</strong> &mdash; critical to use Assumed Par Value Method (typically USD 400 minimum) rather than Authorised Shares Method (which can produce bills in the USD 80K+ range for a standard VC-track entity).</li>"
          "<li><strong>Year-1 compliance calendar</strong> &mdash; Form 1120 full return, Form 5472 if 25%+ foreign-owned with reportable transactions, Delaware annual report + franchise tax by 1 March, state registrations.</li>"
          "</ol>"),
@@ -109,7 +109,7 @@ write_page("ca-for-delaware-c-corp-india", page(
          "<li><strong>83(b) missed within 30-day window.</strong> Unrecoverable. At each future vesting tranche, founder recognises ordinary income on then-FMV &mdash; in a successful startup, this can be millions in tax owed with no cash from the stock. We file 83(b) by Certified Mail with Return Receipt and retain acknowledgement in your records.</li>"
          "<li><strong>Delaware franchise tax Authorised Shares Method applied by default.</strong> Delaware bills ~USD 85,000 for a standard 10M-share C-Corp under this method. The Assumed Par Value Method reduces this to ~USD 400 for a pre-revenue startup. Most DIY founders file the wrong method year 1 and overpay by USD 84,000+.</li>"
          "<li><strong>Form 5472 missed.</strong> Required for 25%+ foreign-owned US corporations with reportable transactions. USD 25,000 penalty per form per year under IRC Section 6038A. We handle Form 5472 annually under the ongoing engagement.</li>"
-         "<li><strong>FEMA Form ODI not filed in 30 days.</strong> The outward remittance was done but Form ODI was never filed. Years later, UIN missing, APR not filed, the structure is quietly non-compliant. Scoping call covers this immediately.</li>"
+         "<li><strong>FEMA ODI reporting (Form FC / APR) missed.</strong> The outward remittance was done but the ODI reporting (Form FC) was never filed. Years later, UIN missing, APR not filed, the structure is quietly non-compliant. Scoping call covers this immediately.</li>"
          "<li><strong>QSBS clock not understood.</strong> Founders think the 5-year holding period for QSBS starts at the Indian company incorporation. It does not &mdash; it starts at the Delaware C-Corp stock issuance (flip date for post-flip founders). Flipping early starts the clock earlier.</li>"
          "</ul>"),
     ],

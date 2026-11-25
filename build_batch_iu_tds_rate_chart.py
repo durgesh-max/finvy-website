@@ -24,7 +24,7 @@ C = contact("the payments you make (contractors, professionals, rent, commission
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="TDS Rate Chart FY 2026-27: Rates and Thresholds by Section (Old 194C, 194J, 194I, 194H and More, Now Section 393)",
+    title="TDS Rate Chart FY 2026-27 (Same Rates as 2025-26) with New Section 393: Rates and Thresholds for Old 194C, 194J, 194I, 194H and More",
     em="same rates, new section numbers from 1 April 2026.",
     kicker="/ Businesses, employers and landlords &middot; TDS &middot; Updated 2026-11-25",
     lead=("<strong>From 1 April 2026, TDS on payments to residents is governed by section 393 of the Income-tax Act, 2025 (salary by section 392), but the rates and thresholds largely carry over from the old sections as revised in 2025.</strong> "
@@ -72,6 +72,7 @@ PAGES = [dict(
          + sources("Income-tax Act, 1961 sections 192 to 194T and 206AA as amended by the Finance Act, 2025; Income-tax Act, 2025 sections 392 and 393; Income Tax Department TDS pages; Taxguru TDS rates chart for tax year 2026-27 (4 April 2026); BCAS comparison of TDS provisions. Checked 25 November 2026.")),
     ],
     faqs=[("What are the TDS rates for FY 2026-27?", "Key rates: contractors 1% (individual / HUF) or 2% (others), professional fees 10%, technical fees 2%, rent 10% on land or buildings and 2% on machinery, commission 2%, property purchase 1%, dividends and bank interest 10%, partner payments 10%. Without PAN, generally 20%."),
+        ("Is the TDS rate chart for FY 2025-26 the same as FY 2026-27?", "Largely yes. The rates and thresholds revised from 1 April 2025 (for example rent TDS above Rs 50,000 a month, bank interest above Rs 50,000 or Rs 1 lakh for senior citizens, and 10% on payments to partners under 194T) carried over to tax year 2026-27. What changed from 1 April 2026 is the law and the section numbers: TDS now sits in section 393 of the Income-tax Act, 2025 instead of the old sections 192 to 194T."),
           ("What is the TDS threshold for contractors and professionals?", "Contractors (old 194C): Rs 30,000 for a single payment or Rs 1 lakh in the year. Professional and technical fees (old 194J): Rs 50,000 in the year; director fees have no threshold."),
         ("What is the TDS rate on commission in 2026-27?", "Commission or brokerage (old section 194H, now in the section 393 table) attracts 2% TDS once payments to a person exceed Rs 20,000 in the year. Insurance commission (old 194D) is 2% for individuals and other non-company payees and 10% when paid to a domestic company, also above Rs 20,000. Without a PAN, TDS is 20%."),
           ("What is the TDS limit on rent from 1 April 2025?", "Rs 50,000 a month (or part of a month) for rent under the old 194I and 194-IB; TDS is 10% on land or buildings and 2% on plant and machinery, and 2% where individuals not under audit pay rent."),

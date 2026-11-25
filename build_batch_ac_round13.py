@@ -54,7 +54,7 @@ PAGES = [
              "<li>FEMA LRS (Liberalised Remittance Scheme) limit: USD 250K per Indian resident per FY for all eligible remittances.</li>"
              "<li>Investment in overseas LLC/entities counts toward LRS limit.</li>"
              "<li>TCS under Section 206C(1G): 20% on remittances above INR 10 lakh for specific purposes - LRS covered.</li>"
-             "<li>FEMA ODI (Overseas Direct Investment): if Indian resident holds controlling stake in overseas entity - specific ODI framework + Form ODI APR annual filing.</li>"
+             "<li>FEMA ODI (Overseas Direct Investment): if Indian resident holds controlling stake in overseas entity - specific ODI framework + Form APR annual filing.</li>"
              "<li>Specific prior-approval scenarios: specific restricted sectors + specific exceeding thresholds.</li>"
              "</ul>"),
             ("/ BQP end-to-end engagement", "What we deliver.",
@@ -64,7 +64,7 @@ PAGES = [
              "<li>FTC computation under Section 90 + Rule 128.</li>"
              "<li>Form 67 preparation + filing before ITR due date.</li>"
              "<li>Indian ITR preparation + FTC claim.</li>"
-             "<li>FEMA LRS + ODI compliance (Form ODI APR if applicable).</li>"
+             "<li>FEMA LRS + ODI compliance (Form APR if applicable).</li>"
              "<li>Section 206C(1G) TCS reconciliation + Form 26AS verification.</li>"
              "<li>Co-ordination with US CPA for Form 1040-NR + 1446 withholding + treaty position.</li>"
              "<li>Specific transfer pricing if Indian-service-origin K-1 income.</li>"
@@ -78,11 +78,11 @@ PAGES = [
             ("Can I claim US 1446 withholding as credit in India?",
              "Yes - Section 90 FTC with Form 67. Credit limited to lower of (a) US tax on K-1 share, (b) Indian tax on same income head. Rule 128 governs computation. Form 67 should be filed before or with the ITR, and in any case by the end of the assessment year (rule 128(9))."),
             ("What's the FEMA LRS limit for investing in US LLC?",
-             "USD 250K per Indian resident per FY. All eligible overseas remittances counted. Section 206C(1G) 20% TCS applies for amounts above INR 10 lakh for specific purposes. If investment makes you controlling partner: FEMA ODI framework applies + Form ODI APR annual filing + specific prior-approval scenarios."),
+             "USD 250K per Indian resident per FY. All eligible overseas remittances counted. Section 206C(1G) 20% TCS applies for amounts above INR 10 lakh for specific purposes. If investment makes you controlling partner: FEMA ODI framework applies + Form APR annual filing + specific prior-approval scenarios."),
             ("Can my Indian income tax situation be optimized with proper US LLC structure?",
              "Yes - structuring + residency planning + timing of K-1 distributions + specific FTC optimisation + specific entity classification (Form 8832 election C-Corp vs partnership) can materially impact Indian + US combined tax. BQP + US CPA integrated advisory recommended. Scope-based engagement."),
             ("Does BQP coordinate with US CPAs for US LLC Indian member matters?",
-             "Yes - standard. Specific US CPA partner network for Form 1040-NR + Form 1065 + 1446 withholding + treaty position + specific state tax. BQP covers Indian ITR + FTC + FEMA LRS + ODI + Form ODI APR + specific transfer pricing. Integrated engagement with specific client-approved US CPA. WhatsApp +91 78018 87130."),
+             "Yes - standard. Specific US CPA partner network for Form 1040-NR + Form 1065 + 1446 withholding + treaty position + specific state tax. BQP covers Indian ITR + FTC + FEMA LRS + ODI + Form APR + specific transfer pricing. Integrated engagement with specific client-approved US CPA. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("india-us-tax-treaty-dtaa.html", "Related", "US-India DTAA"),
                           ("ca-for-us-green-card-holder-returning-india-tax-step-by-step.html", "Related", "Green Card Returning")],

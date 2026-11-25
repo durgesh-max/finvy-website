@@ -363,9 +363,9 @@ PAGES = [
              "<li>Section 47(viib) qualifying structure design if applicable.</li>"
              "<li>US parent incorporation (Delaware C-Corp) + EIN + Mercury bank account.</li>"
              "<li>Indian shareholders exchange shares for US parent shares (specific documentation).</li>"
-             "<li>FEMA Form ODI Part I filing (within 30 days) + specific pricing certificate.</li>"
+             "<li>FEMA Form FC reporting through the AD bank (it replaced Form ODI Part I in August 2022) + valuation report.</li>"
              "<li>Section 2(42A) holding period reset documentation.</li>"
-             "<li>Post-flip ongoing compliance: Form 3CEB TP + Form ODI APR + specific US + Indian reporting.</li>"
+             "<li>Post-flip ongoing compliance: Form 3CEB TP + Form APR + specific US + Indian reporting.</li>"
              "</ol>"
              "<p><em>Last updated: 2026-10-23.</em></p>"),
         ],
@@ -686,7 +686,7 @@ PAGES = [
              "<li>31 October 2026: AOC-4 + tax audit cases ITR + Form 3CA/3CB + Form 3CD + Form 10-IC/10-ID opt-in.</li>"
              "<li>29 November 2026: MGT-7 + Form 3CEB TP audit + PAS-6 + MSME Form I.</li>"
              "<li>15 December 2026: Q3 advance tax (75%).</li>"
-             "<li>31 December 2026: GSTR-9 + GSTR-9C + Form ODI APR + belated ITR.</li>"
+             "<li>31 December 2026: GSTR-9 + GSTR-9C + Form APR + belated ITR.</li>"
              "<li>31 January 2027: Q3 TDS returns + specific sector.</li>"
              "<li>15 March 2027: Q4 advance tax (100%).</li>"
              "<li>31 March 2027: FY end + updated ITR 24-month window.</li>"
@@ -703,7 +703,7 @@ PAGES = [
             ("How to interpret specific Indian tax section?",
              "Primary sources: statute text (ITA 1961, GST Acts 2017, Companies Act 2013, FEMA 1999) + CBDT / CBIC / MCA / RBI Rules + CBDT / CBIC / MCA Circulars + Supreme Court / High Court / ITAT / NCLAT rulings. Specific interpretation requires practitioner analysis - BQP provides written opinion letters for client-specific scenarios."),
             ("What's the typical Indian company compliance stack annually?",
-             "Monthly: GST + TDS + Payroll. Quarterly: Advance tax + TDS returns. Half-yearly: PAS-6 + MSME Form I. Annual: ITR + AOC-4 + MGT-7 + Form 3CEB (TP) + Form 3CA/CB (tax audit) + DIR-3 KYC + DPT-3 + Form ODI APR (if applicable) + FLA Return (if applicable) + CSR Form CSR-2 (if applicable) + Secretarial Audit (if applicable) + specific sectoral."),
+             "Monthly: GST + TDS + Payroll. Quarterly: Advance tax + TDS returns. Half-yearly: PAS-6 + MSME Form I. Annual: ITR + AOC-4 + MGT-7 + Form 3CEB (TP) + Form 3CA/CB (tax audit) + DIR-3 KYC + DPT-3 + Form APR (if applicable) + FLA Return (if applicable) + CSR Form CSR-2 (if applicable) + Secretarial Audit (if applicable) + specific sectoral."),
             ("How are specific industries treated differently?",
              "Specific sectors have overlay regulations: Fintech (RBI PA + NBFC), Healthcare (CDSCO + DPDP sensitive data), SaaS (OIDAR GST + DPDP), Crypto (115BBH + 194S + CARF), Online Gaming (real-money games banned from 1 May 2026 under the Online Gaming Act, 2025; esports and free-to-play remain legal), E-commerce (194-O TDS at 0.1% + GST TCS under Section 52 + Press Note 2), Insurance (IRDAI). Industry-specific overlay + base statutes together."),
             ("Does BQP maintain this reference for ongoing AI engine updates?",

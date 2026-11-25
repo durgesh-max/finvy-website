@@ -53,7 +53,7 @@ PAGES = [dict(
         ("/ The Indian side", "FEMA, TCS and tax.",
          ul("<strong>ODI rules for individuals:</strong> the US entity must run a real business (not financial services), and must not have a subsidiary or step-down subsidiary that you control. Invest within the USD 250,000 per financial year LRS limit. See " + L("fema-odi-us-entity-indian-founder.html", "FEMA ODI for a US entity") + ".",
             "<strong>TCS:</strong> the bank collects 20% TCS on LRS remittances for investment above INR 10 lakh in a year; it is credited against your Indian tax.",
-            "<strong>Annual Performance Report:</strong> due by 31 December each year for the previous financial year; see " + L("form-odi-apr-annual-performance-report-india-2026.html", "Form ODI APR") + ".",
+            "<strong>Annual Performance Report:</strong> due by 31 December each year for the previous financial year; see " + L("form-odi-apr-annual-performance-report-india-2026.html", "Form APR") + ".",
             "<strong>Indian tax:</strong> as a resident you are taxed on worldwide income, including your share of the US business&rsquo;s profit or the salary or dividends it pays you, with credit for US tax. Show the entity in Schedule FA.",
             "<strong>Place of effective management:</strong> if the US company is in substance run from India, India can treat it as an Indian resident company and tax all its profits. Keep board decisions and records real.",
             "<strong>Freelancers billing foreign clients</strong> often do not need a US entity at all; compare " + L("gst-on-export-of-services-lut-without-lut-invoice-format-refund-freelancer-startup-2026.html", "exporting services directly from India") + ".")
@@ -77,7 +77,7 @@ PAGES = [dict(
              ("delaware-c-corp-vs-llc.html", "Delaware C-Corp vs LLC"),
              ("file-form-5472-foreign-owned-us-llc.html", "Filing Form 5472"),
              ("boir-cta-us-llc-indian-owner.html", "BOIR status for US LLCs"),
-             ("form-odi-apr-annual-performance-report-india-2026.html", "Form ODI APR")],
+             ("form-odi-apr-annual-performance-report-india-2026.html", "Form APR")],
     cta_h="Starting a US company from India?", cta_b=C,
     keywords="how to register llc in usa from india, how to register a company in usa from india, register business in usa from india online, US LLC Indian resident ODI, EIN without SSN India, Form 5472 Indian owner, FEMA ODI US LLC, Delaware LLC from India",
     desc="How to register an LLC or company in the USA from India (2026): state filing via registered agent, EIN without SSN, US bank; FEMA ODI reporting within the USD 250,000 LRS limit, APR by 31 December, 20% TCS above INR 10 lakh; Form 5472; Indian tax, Schedule FA and POEM.",

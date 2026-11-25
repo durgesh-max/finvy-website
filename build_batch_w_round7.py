@@ -291,7 +291,7 @@ PAGES.append({
 # 5. Best CA Section 44AD/ADA
 PAGES.append({
     "slug": "best-ca-section-44ad-44ada-presumptive-scheme-india",
-    "title": "Best CA for Section 44AD / 44ADA Presumptive Scheme India",
+    "title": "Presumptive Taxation Scheme (Section 44AD / 44ADA, Now Section 58) 2026: Meaning, Limits, 6% / 8% / 50% Rates, ITR-4 and CA Help",
     "hero_em": "small business + professional simplified tax regime.",
     "lead": "Section 44AD (small business) + Section 44ADA (specified professionals) presumptive tax scheme: deemed profit at 6% / 8% (business) or 50% (professional). No tax audit obligation. Single advance tax instalment. Simplified compliance. 2026 enhanced thresholds (INR 3 crore / INR 75 lakh for 95%+ digital receipts). Here's the complete BQP presumptive framework.",
     "kicker": "/ Presumptive Scheme Specialist &middot; Updated 2026-10-22",
@@ -299,7 +299,7 @@ PAGES.append({
         ("/ Section 44AD (small business)", "The core.",
          "<ul>"
          "<li>Available for: resident individual + HUF + Partnership firm (not LLP) + eligible business.</li>"
-         "<li><strong>Turnover threshold</strong>: INR 2 crore standard; INR 3 crore if 95%+ digital receipts (post Finance Act 2024).</li>"
+         "<li><strong>Turnover threshold</strong>: INR 2 crore standard; INR 3 crore if 95%+ digital receipts (Finance Act, 2023).</li>"
          "<li><strong>Deemed profit</strong>: 8% of gross receipts (6% for digital receipts).</li>"
          "<li>Exempt from: tax audit under Section 44AB, books of accounts under Section 44AA.</li>"
          "<li>Advance tax: payable in single instalment by 15 March of FY (vs 4 instalments standard).</li>"
@@ -335,9 +335,11 @@ PAGES.append({
     ],
     "faqs": [
         ("What's the Section 44AD turnover threshold for 2026?",
-         "INR 2 crore standard; INR 3 crore if 95%+ receipts digital (post Finance Act 2024 enhancement). Deemed profit 8% of gross receipts (6% for digital). Available for resident individual + HUF + Partnership firm (not LLP) + eligible business."),
+         "INR 2 crore standard; INR 3 crore if 95%+ receipts digital (raised by the Finance Act, 2023 from AY 2024-25). Deemed profit 8% of gross receipts (6% for digital). Available for resident individual + HUF + Partnership firm (not LLP) + eligible business."),
         ("What's the Section 44ADA turnover threshold for 2026?",
          "INR 50 lakh standard; INR 75 lakh if 95%+ receipts digital. Deemed profit 50% of gross receipts. Available for resident individual + HUF specified professionals (legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration + notified)."),
+        ("What is presumptive taxation?", "A scheme that lets small businesses and professionals declare income at a fixed percentage of turnover or receipts instead of keeping full books and getting a tax audit: 8% of turnover (6% for digital receipts) for eligible businesses under section 44AD, and 50% of gross receipts for specified professionals under section 44ADA. From tax year 2026-27 these are merged into section 58 of the Income-tax Act, 2025, with the same core rates."),
+        ("Which ITR form is used for presumptive taxation?", "ITR-4 (Sugam) for resident individuals, HUFs and firms (other than LLPs) with total income up to Rs 50 lakh who opt for presumptive taxation; others, including those with capital gains beyond the simple cases or foreign assets, use ITR-3 (or ITR-5 for firms)."),
         ("Can I declare profit lower than 8% or 50%?",
          "Yes - but triggers tax audit under Section 44AB + books of accounts under Section 44AA + advance tax in 4 instalments. Essentially exits presumptive scheme. If business genuinely has lower margin, normal regime + audit is appropriate. Just presumptive declaration below deemed % without audit is non-compliant."),
         ("Can my LLP opt into Section 44AD?",
@@ -352,7 +354,7 @@ PAGES.append({
     "cta_h": "Small business / professional - presumptive or normal regime?",
     "cta_b": "Section 44AD / 44ADA eligibility + deemed vs actual profit + 5-year projection + ITR filing. BQP presumptive scheme specialist.",
     "keywords": "best CA Section 44AD India, Section 44ADA presumptive CA, 44AD 44ADA presumptive scheme CA India",
-    "desc": "Best CA for Section 44AD / 44ADA presumptive scheme India 2026: 44AD small business 8%/6% deemed profit INR 2-3 crore threshold, 44ADA professional 50% deemed profit INR 50-75 lakh threshold, Finance Act 2024 enhanced thresholds, 5-year lockout rule, single advance tax instalment. Working CA guide by Durgesh Chavda.",
+    "desc": "Best CA for Section 44AD / 44ADA presumptive scheme India 2026: 44AD small business 8%/6% deemed profit INR 2-3 crore threshold, 44ADA professional 50% deemed profit INR 50-75 lakh threshold, Finance Act 2023 enhanced thresholds, 5-year lockout rule, single advance tax instalment. Working CA guide by Durgesh Chavda.",
 })
 
 # 6. Best CA Section 194R

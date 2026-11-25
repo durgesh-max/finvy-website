@@ -54,7 +54,7 @@ PAGES.append({
          "<li>Press Note 3 beneficial ownership check for land-bordering country investments.</li>"
          "<li>Receive foreign remittance in AD-I bank account. Obtain FIRC.</li>"
          "<li>Allot shares via board resolution within 60 days of receiving the money (FEMA; section 42 of the Companies Act sets the same 60 days for private placements).</li>"
-         "<li>Issue share certificates + file Form PAS-3 within 30 days.</li>"
+         "<li>Issue share certificates + file Form PAS-3 within 15 days of allotment (private placement under section 42; 30 days applies only to other allotments).</li>"
          "<li>Obtain pricing certificate from CA / Merchant Banker.</li>"
          "<li>File Form FC-GPR via FIRMS portal within 30 days of allotment.</li>"
          "<li>AD bank reviews + confirms successful filing.</li>"
@@ -74,6 +74,7 @@ PAGES.append({
     "faqs": [
         ("When is Form FC-GPR due?",
          "Within 30 days of share allotment to foreign subscriber. Allotment itself must be within 60 days of remittance receipt (Rule 2A Companies Act). So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR."),
+        ("When is Form PAS-3 due after allotting shares to a foreign investor?", "Where the shares are issued by private placement under section 42, the return of allotment in Form PAS-3 is due within 15 days of allotment, and the money received cannot be used until PAS-3 is filed. FC-GPR is a separate FEMA filing due within 30 days of allotment."),
         ("What's the penalty for late FC-GPR?",
          "Reporting delays within three years are usually settled by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); otherwise FEMA compounding applies. For prolonged non-filing or sector-cap breach: significantly higher, up to 3x amount involved. Voluntary compounding is cheaper than RBI inspection-driven proceedings."),
         ("What's Rule 21 pricing guidelines?",

@@ -807,7 +807,7 @@ PAGES = [
     },
     {
         "slug": "how-to-respond-to-income-tax-notice-india",
-        "title": "How to Respond to Income Tax Notice India (Direct Answer)",
+        "title": "Income Tax Notice 2026: How to Respond, Time Limit, Where to Check Online, PDF Password and Notice Types (143(1), 143(2), 148, 133(6))",
         "hero_em": "notice type-by-type response playbook.",
         "lead": "Direct answer: First identify the notice type (Section 143(1) intimation, 143(2) scrutiny, 148 reassessment, 148A show-cause, 139(9) defective return, 142(1) info call, 245 demand adjustment, specific). Each has distinct response window + consequences. Acknowledge on Income Tax portal, engage CA within 24-48 hours, respond within specified deadline. Default response window varies 15-30 days. BQP urgent response team.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
@@ -904,6 +904,7 @@ PAGES = [
         ("Where can I check an income tax notice online?", "Log in to the income tax e-filing portal and open Pending Actions, then e-Proceedings (and the Worklist) to see notices, their response dates and the option to reply. Notices are also emailed to your registered email address with an SMS alert; you can confirm a notice is genuine using the portal's authenticate notice service with its DIN."),
         ("What is the password for an income tax notice PDF?", "Usually your PAN in lower case followed by your date of birth in DDMMYYYY format, with no spaces (for example abcde1234f15081990); companies and firms use the date of incorporation. A few notices have been reported to use the PAN in capitals, so try that if the first format fails."),
         ("What is the time limit for income tax notices?", "It depends on the notice: a 143(1) intimation is issued within nine months from the end of the financial year in which the return was filed; a 143(2) scrutiny notice within three months from the end of the financial year in which the return was filed; and reassessment notices under section 148 have their own longer limits linked to the amount of income involved. Each notice states its own reply deadline."),
+        ("What is a section 133(6) notice?", "A section 133(6) notice is a request for information, often sent when the department sees high-value transactions in your AIS, such as large deposits, property deals or share trades, that do not appear to match your return. It is not an assessment or demand. Reply on the e-filing portal under e-proceedings or compliance with the explanation and documents asked for; ignoring it can attract a penalty of Rs 500 a day under section 272A(2)(c) and may lead to scrutiny or reassessment."),
             ("Can Section 148A show-cause be quashed before Section 148 reassessment?",
              "Yes - Section 148A(b) response is quashing opportunity. Well-drafted response can achieve Section 148A(d) order dropping the proceeding (no Section 148 formal notice). For procedurally defective 148A: writ in High Court can quash (several High Court rulings have struck down defective 148A). Specific legal grounds + specific case law critical."),
             ("What happens if I don't respond to Income Tax notice?",

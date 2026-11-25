@@ -671,7 +671,7 @@ PAGES = [
              "<li><strong>Form FC-GPR</strong>: inward FDI reporting (30 days from allotment).</li>"
              "<li><strong>Form FC-TRS</strong>: share transfer resident-non-resident (60 days).</li>"
              "<li><strong>Form ODI Part I</strong>: outward investment initial filing.</li>"
-             "<li><strong>Form ODI Part II (APR)</strong>: annual (31 December).</li>"
+             "<li><strong>Form APR (old Form ODI Part II)</strong>: annual (31 December).</li>"
              "<li><strong>Form ECB</strong>: External Commercial Borrowing reporting.</li>"
              "<li><strong>FLA Return (annual)</strong>: Foreign Liabilities + Assets (15 July).</li>"
              "<li><strong>Rule 21 Pricing Guidelines</strong>: DCF for unlisted; closing price for listed.</li>"

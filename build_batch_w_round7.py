@@ -473,7 +473,7 @@ PAGES.append({
          "<li><strong>30 September</strong>: AGM (last date for most companies). DIR-3 KYC is now due by 30 June, once every three financial years (from 31 March 2026).</li>"
          "<li><strong>31 October</strong>: AOC-4 (financial statements) + ITR (tax audit cases) + Form 3CA/CB + Form 3CD + Form 10-IC (115BAA opt-in) + Form 10-ID (115BAB opt-in).</li>"
          "<li><strong>29 November</strong>: MGT-7 (annual return) + Form 3CEB (TP audit) + PAS-6 (September HY) + MSME Form I (September HY).</li>"
-         "<li><strong>31 December</strong>: GSTR-9 (annual return) + GSTR-9C (reconciliation) + Form ODI Part II (APR) + belated / revised ITR deadline.</li>"
+         "<li><strong>31 December</strong>: GSTR-9 (annual return) + GSTR-9C (reconciliation) + Form APR (old Form ODI Part II) + belated / revised ITR deadline.</li>"
          "<li><strong>15 December</strong>: Q3 advance tax (75% cumulative).</li>"
          "<li><strong>31 January</strong>: specific sector returns.</li>"
          "<li><strong>15 March</strong>: Q4 advance tax (100%).</li>"

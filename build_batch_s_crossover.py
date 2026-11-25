@@ -101,7 +101,7 @@ CROSSOVERS = [
              "<li><strong>Section 115BBH 30% VDA tax</strong>: flat rate on gain from any Virtual Digital Asset. No loss offset (loss cannot be set off against other VDA gain or any other income). Only deduction: cost of acquisition.</li>"
              "<li><strong>Section 194S 1% TDS on crypto transfer</strong>: paid by exchange / crypto service provider on sale consideration above INR 10,000 per transaction. Form 26QE / 26QF reporting.</li>"
              "<li><strong>Offshore structuring</strong>: many Indian Web3 startups structure HQ in Dubai (VARA licensed), Singapore (VCC), Delaware C-Corp. Rationale: regulatory clarity, exchange licence availability, LP-friendly tax, international LP access.</li>"
-             "<li><strong>FEMA ODI compliance</strong>: Indian founder's investment in offshore crypto HQ requires Form ODI Part I filing + annual Form ODI Part II (APR) + specific restrictions on crypto-adjacent businesses under FEMA.</li>"
+             "<li><strong>FEMA ODI compliance</strong>: Indian founder's investment in offshore crypto HQ requires Form FC reporting through the AD bank + annual Form APR + specific restrictions on crypto-adjacent businesses under FEMA.</li>"
              "<li><strong>GST 18% on crypto services</strong>: trading fees, exchange services, staking rewards.</li>"
              "</ul>"),
             ("/ Dubai VARA structuring", "The current favourite.",

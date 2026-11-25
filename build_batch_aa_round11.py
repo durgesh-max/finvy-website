@@ -126,7 +126,7 @@ PAGES = [
              "<li>Form 1120 (C-Corp return) replaces Form 1065 (LLC/partnership return).</li>"
              "<li>Form 5472 continues (foreign-owned C-Corp with 25%+ foreign ownership).</li>"
              "<li>Delaware franchise tax (new C-Corp framework).</li>"
-             "<li>Indian FEMA ODI Form ODI Part II (APR) annual.</li>"
+             "<li>Indian FEMA ODI Form APR (old Form ODI Part II) annual.</li>"
              "<li>Section 115BAA opt-in review for Indian parent (if India-first structure).</li>"
              "<li>Specific VC term sheet due diligence + closing conditions compliance.</li>"
              "</ul>"

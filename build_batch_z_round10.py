@@ -88,7 +88,7 @@ PAGES = [
     },
     {
         "slug": "which-regime-new-vs-old-tax-regime-decision-india-2026-27",
-        "title": "Which Regime New vs Old Tax Decision India AY 2026-27 Complete",
+        "title": "New vs Old Tax Regime 2026-27: Which to Choose, Breakeven and Tax Saving Options for Salaried, Senior Citizens and the New Regime",
         "hero_em": "individual choice framework.",
         "lead": "New vs Old tax regime decision for Indian individuals in AY 2026-27 (FY 2025-26): both can be chosen per year for non-business income (business income has lock-in). New regime default: lower rates + nil tax up to INR 12 lakh with the Section 87A rebate (INR 12.75 lakh for salaried) + standard deduction INR 75K + employer NPS. Old regime: higher rates + full deduction suite. Here's the complete BQP decision framework.",
         "kicker": "/ Regime Decision &middot; Updated 2026-10-23",
@@ -160,6 +160,9 @@ PAGES = [
              "Yes - Section 80CCD(2) deduction for employer NPS contribution allowed in new regime (specific carve-out). This is one of the few deductions preserved in new regime, alongside standard deduction INR 75K + Section 10(10) gratuity + specific exemptions."),
             ("Can I use HRA in new regime?",
              "No - HRA exemption under Section 10(13A) NOT available in new regime. If you receive HRA + pay rent + want HRA exemption: must opt into old regime. For salaried with high rent + no home loan, old regime typically wins."),
+        ("What are the best tax saving options for salaried employees?", "Under the old regime: section 80C up to Rs 1.5 lakh (EPF, PPF, ELSS, life insurance, home loan principal, children's tuition), an extra Rs 50,000 for your own NPS contribution under 80CCD(1B), health insurance under 80D, home loan interest up to Rs 2 lakh, HRA, education loan interest under 80E and the Rs 50,000 standard deduction. Under the new regime the main savings are the Rs 75,000 standard deduction, employer NPS contribution under 80CCD(2) and the section 87A rebate that makes income up to Rs 12 lakh (Rs 12.75 lakh for salaried) tax-free. Compare both before choosing."),
+        ("Which tax saving options are available under the new tax regime?", "The Rs 75,000 standard deduction for salary or pension, employer contribution to NPS under 80CCD(2), the 87A rebate up to Rs 12 lakh of income, interest on a let-out house against its rent, and exempt receipts such as gratuity and leave encashment within their limits. Most other deductions, including 80C, 80D, 80E, HRA and self-occupied home loan interest, are not allowed."),
+        ("What are the tax saving options for senior citizens?", "Under the old regime senior citizens get a higher basic exemption (Rs 3 lakh at 60 to 80, Rs 5 lakh above 80), up to Rs 50,000 of deposit interest deduction under 80TTB, up to Rs 50,000 for health insurance under 80D and Senior Citizens Savings Scheme deposits within 80C. Those without business income need not pay advance tax, and Form 15H stops TDS on interest when no tax is payable. The new regime gives no extra senior citizen limit, so compare both."),
             ("Does BQP help with regime decision + ITR?",
              "Yes - standard tax engagement. Regime decision analysis + 5-year projection + Form 10-IEA for business income + ITR filing in optimal regime + Section 80C/D/G exhaustion planning + capital gain reinvestment. Use BQP calculator at bharatquantumprospera.com/new-vs-old-tax-regime-calculator.html. WhatsApp +91 78018 87130."),
         ],

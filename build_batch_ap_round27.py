@@ -72,7 +72,7 @@ PAGES = [
     ),
     dict(
         slug="itr-refund-delayed-2026-why-and-what-to-do",
-        title="ITR Refund Status 2026: How to Check by PAN or Acknowledgement, Why Refunds Are Delayed and What to Do",
+        title="ITR and TDS Refund Status 2026: Check by PAN, How Many Days It Takes, Why Refunds Are Delayed and 244A Interest",
         em="and the interest you are owed.",
         kicker="/ Income Tax &middot; Updated 2026-10-30",
         lead="Many taxpayers who filed on time are still waiting for refunds. The Department can process a return up to nine months after the end of the financial year in which it was filed, so a return filed in 2026 can lawfully be processed as late as December 2026. Refunds are often held up by mismatches the taxpayer can fix, and a delayed refund earns interest of 0.5% a month under Section 244A.",

@@ -5,11 +5,11 @@ from build_lib import page, write_page
 # 1. LTCG 12.5% new capital gains rule 2026
 write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
     slug="ltcg-12-5-percent-new-capital-gains-india-2026",
-    title="LTCG 12.5% New Capital Gains Rule 2026 | Impact on Founders - BQP",
+    title="Capital Gains Tax in India 2026: LTCG 12.5% and STCG 20% Rates, Holding Periods, Indexation for Property, Shares, Mutual Funds and Buybacks",
     description="The post-July-2024 LTCG 12.5% capital gains rule affects every Indian founder, NRI, and investor. Listed equity, unlisted equity, property, mutual funds, bonds - full impact map. Indexation grandfathering, STCG 20%, buyback tax. Working CA analysis.",
     keywords="LTCG 12.5% new rule, LTCG without indexation 2026, Finance Act 2024 capital gains, STCG 20% listed equity, LTCG property India 2026, buyback tax October 2024, LTCG unlisted equity 12.5",
     hero_kicker="/ Blog &middot; Capital Gains &middot; Updated October 2026",
-    hero_title_html="LTCG 12.5%, <em>the capital-gains regime that rewrote everything.</em>",
+    hero_title_html="Capital gains tax in India 2026: LTCG 12.5% and STCG 20%, <em>the capital-gains regime that rewrote everything.</em>",
     hero_lead="The Finance Act 2024 flipped India's capital-gains framework in July 2024. By October 2026, every Indian founder, NRI and investor is operating under the new regime: 12.5% LTCG without indexation, 20% STCG on listed equity, buyback tax at the shareholder level, debt MF slab-rate taxation. This is the full impact map with the specific numbers.",
     sections=[
         ("/ The headline changes", "What Finance Act 2024 did.",

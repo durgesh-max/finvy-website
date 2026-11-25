@@ -209,12 +209,12 @@ write_page("ca-for-nri-tax-return-filing", page(
 # 4. CA for FEMA ODI Compliance
 write_page("ca-for-fema-odi-compliance", page(
     slug="ca-for-fema-odi-compliance",
-    title="CA for FEMA ODI Compliance 2026 | Form ODI + UIN + APR - BQP",
-    description="CA for FEMA Overseas Direct Investment (ODI) compliance for Indian individuals and companies: Form ODI within 30 days, UIN from RBI, Annual Performance Report (APR), pricing-guideline certificate, Press Note 3 analysis. ICAI-qualified. BQP.",
+    title="CA for FEMA ODI Compliance 2026 | Form FC, UIN, APR, Late Fee and Compounding - BQP",
+    description="CA for FEMA Overseas Direct Investment (ODI) compliance for Indian individuals and companies: Form FC reporting through the AD bank, UIN, Annual Performance Report (APR) by 31 December, arm's length valuation, late submission fee and compounding. ICAI-qualified. BQP.",
     keywords="CA for FEMA ODI compliance, FEMA ODI CA India, Form ODI CA, UIN RBI CA, Annual Performance Report FEMA, Overseas Investment Regulations 2022 CA, FEMA compliance Indian founder",
     hero_kicker="/ CA for FEMA ODI &middot; Overseas Investment",
     hero_title_html="CA for <em>FEMA ODI compliance.</em>",
-    hero_lead="Any Indian resident setting up or investing in an overseas entity triggers Overseas Direct Investment (ODI) under FEMA. Form ODI must be filed within 30 days. UIN must be obtained from RBI. Annual Performance Report (APR) must be filed each year. Bharat Quantum Prospera handles FEMA ODI compliance end-to-end for Indian founders, family offices, and corporates.",
+    hero_lead="Any Indian resident setting up or investing in an overseas entity triggers Overseas Direct Investment (ODI) under FEMA. Each investment is reported in Form FC through your AD bank when it is made, a UIN is allotted, and an Annual Performance Report (APR) is filed by 31 December every year. Bharat Quantum Prospera handles FEMA ODI compliance end-to-end for Indian founders, family offices, and corporates.",
     sections=[
         ("/ What triggers FEMA ODI", "The scope.",
          "<p>Overseas Direct Investment (ODI) under FEMA (Overseas Investment Rules 2022) is triggered by:</p>"
@@ -227,41 +227,41 @@ write_page("ca-for-fema-odi-compliance", page(
          "<li>Flipping an Indian startup to an overseas parent (share-swap).</li>"
          "</ul>"
          "<p>For Indian individuals: Automatic Route up to USD 250,000 per financial year under LRS (Liberalised Remittance Scheme). For Indian companies: Automatic Route up to 400% of Indian net worth.</p>"
-         "<p>Specific sector carve-outs trigger Approval Route: real estate (prohibited), financial services (specific restrictions), chit funds (prohibited). Press Note 3 of 2020 restricts investment from land-border-sharing countries to Approval Route regardless of sector.</p>"),
+         "<p>Specific sector carve-outs trigger Approval Route: real estate (prohibited), financial services (specific restrictions), chit funds (prohibited). Press Note 3 of 2020 governs investment into India, not ODI itself: it matters when the overseas entity has an owner from a land-border country and invests back into India, for example after a flip.</p>"),
         ("/ What a BQP FEMA ODI engagement covers", "The full workflow.",
          "<ol>"
          "<li><strong>Pre-investment scoping</strong> &mdash; eligibility under Automatic Route vs Approval Route, LRS limit check, Press Note 3 analysis if any beneficial owner from land-border country.</li>"
-         "<li><strong>Valuation certificate</strong> &mdash; SEBI-registered Merchant Banker certificate for pricing-guideline compliance on the overseas investment.</li>"
+         "<li><strong>Valuation certificate</strong> &mdash; the price must be on an arm's length basis using an internationally accepted pricing methodology, supported by a valuation report where the rules require one.</li>"
          "<li><strong>Authorised Dealer bank co-ordination</strong> &mdash; outward remittance via your Indian bank's forex desk (HDFC, ICICI, Axis, SBI).</li>"
-         "<li><strong>Form ODI filing</strong> &mdash; reported in Form FC (which replaced Form ODI Part I in August 2022) through the AD bank when the investment is made; RBI allots a UIN; evidence of investment within six months; Form APR every year by 31 December.</li>"
-         "<li><strong>UIN</strong> (Unique Identification Number) &mdash; obtained from RBI; stored; all subsequent reporting references this UIN.</li>"
-         "<li><strong>Annual Performance Report (APR)</strong> &mdash; filed annually within 60 days of financial year-end, reporting the overseas entity's performance.</li>"
-         "<li><strong>Disinvestment reporting</strong> &mdash; if the Indian investor sells or exits the overseas entity, Form ODI Part III within 30 days.</li>"
+         "<li><strong>ODI reporting</strong> &mdash; reported in Form FC (which replaced Form ODI Part I in August 2022) through the AD bank when the investment is made; RBI allots a UIN; evidence of investment within six months; Form APR every year by 31 December.</li>"
+         "<li><strong>UIN</strong> (Unique Identification Number) &mdash; allotted when the first Form FC is reported; all later reporting for that foreign entity uses it.</li>"
+         "<li><strong>Annual Performance Report (APR)</strong> &mdash; filed by 31 December every year for each foreign entity, based on its latest accounts (limited exceptions, such as holdings under 10% without control, or an entity under liquidation).</li>"
+         "<li><strong>Disinvestment reporting</strong> &mdash; if the Indian investor sells or exits the overseas entity, the disinvestment is reported through the AD bank within 30 days (Form ODI Part III no longer exists).</li>"
          "<li><strong>FDI reporting</strong> &mdash; if the overseas entity in turn invests back into India, that is treated as FDI and separate filings apply.</li>"
          "</ol>"),
         ("/ Common FEMA ODI mistakes", "What we clean up.",
          "<ul>"
-         "<li><strong>Form ODI not filed within 30 days of remittance.</strong> Even one day late is non-compliance. Regularise within three years by paying the RBI late submission fee; beyond that, compounding under FEMA is needed.</li>"
-         "<li><strong>UIN never obtained.</strong> Investor remitted the money but Form ODI was never actually filed. Years later, the structure is quietly non-compliant.</li>"
-         "<li><strong>APR not filed annually.</strong> Even if the overseas entity is dormant, APR filing is still required. Missing APRs compound.</li>"
-         "<li><strong>Press Note 3 missed.</strong> Beneficial owner from China/Pakistan/Nepal/Bhutan/Bangladesh/Myanmar/Afghanistan? Approval Route applies regardless of sector; Automatic Route filing is void.</li>"
-         "<li><strong>Below-fair-value investment.</strong> Pricing-guideline compliance requires fair-value or above. Below-fair-value investments can trigger FEMA breach.</li>"
+         "<li><strong>Form FC not reported, or reported late.</strong> Late reporting is a breach. Regularise within three years by paying the RBI late submission fee; beyond that, compounding under FEMA is needed.</li>"
+         "<li><strong>UIN never obtained.</strong> Investor remitted the money but the investment was never reported, so no UIN exists. Years later, the structure is quietly non-compliant.</li>"
+         "<li><strong>APR not filed annually.</strong> A dormant overseas entity still needs an APR unless an exception applies. Missing APRs compound.</li>"
+         "<li><strong>Press Note 3 missed on the way back in.</strong> If the overseas entity has a beneficial owner from China, Pakistan, Nepal, Bhutan, Bangladesh, Myanmar or Afghanistan and invests into India (common after a flip), that investment needs government approval.</li>"
+         "<li><strong>Pricing not at arm's length.</strong> No valuation, or a valuation that does not use an internationally accepted method, is a common gap.</li>"
          "<li><strong>LRS limit breach.</strong> Individuals investing above USD 250,000 per financial year under Automatic Route without additional approval.</li>"
-         "<li><strong>Disinvestment not reported.</strong> Exit happened but Form ODI Part III never filed.</li>"
+         "<li><strong>Disinvestment not reported.</strong> Exit happened but the disinvestment was never reported to the AD bank.</li>"
          "</ul>"
-         "<p>Clean-up: voluntary compounding application under FEMA Section 15 for each breach. We handle the compounding application end-to-end.</p>"),
+         "<p>Clean-up: the RBI late submission fee where the filing is within three years of its due date, otherwise a compounding application under FEMA section 15. We handle both routes end-to-end.</p>"),
     ],
     faqs=[
         ("What is FEMA ODI and when is it required?",
-         "Overseas Direct Investment under FEMA (Overseas Investment Rules 2022). Required whenever an Indian resident individual or Indian company invests in equity or convertible instruments of a foreign company. Form ODI filed within 30 days of outward remittance; UIN obtained from RBI; Annual Performance Report filed each year."),
+         "Overseas Direct Investment under FEMA (Overseas Investment Rules 2022). Required whenever an Indian resident individual or Indian company invests in equity or convertible instruments of a foreign company. Each investment is reported in Form FC through the AD bank when it is made (a UIN is allotted), and an Annual Performance Report is filed by 31 December each year."),
         ("What is the LRS limit for overseas investment?",
          "USD 250,000 per financial year per Indian resident individual under the Liberalised Remittance Scheme (LRS). Covers investment, education, medical, travel, maintenance of relatives abroad. Investment-specific sub-limits apply (e.g., equity investment capped at the LRS limit itself)."),
         ("What is Form ODI Part I vs Part II vs Part III?",
          "Since the Overseas Investment Rules and Directions of August 2022 the old Form ODI parts are replaced: Form FC reports each financial commitment (first investment and later ones under the same UIN), Form APR is the annual performance report due 31 December, Form FLA is the annual return on foreign assets and liabilities, and a sale or exit (disinvestment) is reported through the AD bank within 30 days."),
         ("What is Annual Performance Report (APR)?",
-         "An annual filing under FEMA ODI framework reporting the overseas entity's performance (financial results, operations, dividend/royalty flows back to India). Filed within 60 days of the overseas entity's financial year-end. Mandatory even if the entity is dormant."),
+         "An annual filing under FEMA ODI framework reporting the overseas entity's performance (financial results, operations, dividend/royalty flows back to India). Filed by 31 December every year, based on the foreign entity's latest accounts. Required even if the entity is dormant, with limited exceptions (for example a holding under 10% without control, or an entity under liquidation)."),
         ("What happens if I miss FEMA ODI filings?",
-         "Late ODI reporting (Form ODI, the Annual Performance Report and other overseas investment filings) can be regularised within three years of the due date by paying the RBI late submission fee: INR 7,500 plus 0.025% of the amount for each year of delay for filings that report a flow of money, and a flat INR 7,500 for the APR. After three years the breach must be compounded with the RBI; penalties under Section 13 apply to breaches that are not regularised. BQP handles both routes."),
+         "Late ODI reporting (Form FC, the Annual Performance Report and other overseas investment filings) can be regularised within three years of the due date by paying the RBI late submission fee: INR 7,500 plus 0.025% of the amount for each year of delay for filings that report a flow of money, and a flat INR 7,500 for the APR. After three years the breach must be compounded with the RBI; penalties under Section 13 apply to breaches that are not regularised. BQP handles both routes."),
         ("How do I engage BQP for FEMA ODI compliance?",
          "WhatsApp CA Durgesh Chavda at +91 78018 87130 or email info@bharatquantumprospera.com. Standard engagement scoped for one-time investment or ongoing (multi-year APR + any subsequent investments)."),
     ],
@@ -271,7 +271,7 @@ write_page("ca-for-fema-odi-compliance", page(
         ("us-incorporation.html", "Hub", "US Incorporation"),
     ],
     cta_headline="FEMA ODI non-compliance compounds. Fix it now, prevent later.",
-    cta_body="One-time scoping call: review your current ODI structure (if any), identify missing filings, scope the clean-up via voluntary compounding. New investments: Form ODI within 30 days, UIN tracking, APR cadence set up. WhatsApp Durgesh at +91 78018 87130.",
+    cta_body="One-time scoping call: review your current ODI structure (if any), identify missing filings, scope the clean-up (late submission fee or compounding). New investments: Form FC reporting, UIN tracking, APR cadence set up. WhatsApp Durgesh at +91 78018 87130.",
 ))
 
 # 5. CA for Form 5472 Filing India

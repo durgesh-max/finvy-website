@@ -431,7 +431,7 @@ PAGES.append({
 # 7. India Compliance Calendar FY 2026-27
 PAGES.append({
     "slug": "india-tax-compliance-calendar-fy-2026-27-complete",
-    "title": "India Tax Compliance Calendar FY 2026-27 Complete",
+    "title": "India Tax Compliance Calendar FY 2026-27: ITR, Tax Audit, TDS, GST and Advance Tax Due Dates for Individuals and Companies",
     "hero_em": "every deadline, every form, every month.",
     "lead": "Comprehensive India tax + ROC + FEMA + GST compliance calendar for FY 2026-27 (April 2026 - March 2027). Every form + every deadline + every return. Companies + LLPs + individuals + partnerships + specific industry adds. Printable + sharable. Working CA calendar by Durgesh Chavda. Here's the complete year-at-a-glance.",
     "kicker": "/ Annual Compliance Calendar &middot; Updated 2026-10-22",
@@ -502,6 +502,7 @@ PAGES.append({
         ("What are the TDS return due dates for FY 2026-27?", "For tax year 2026-27 the quarterly TDS statements are due on 31 July 2026 (April-June), 31 October 2026 (July-September), 31 January 2027 (October-December) and 31 May 2027 (January-March). They are filed in the new forms under the Income-tax Act, 2025: Form 138 for salary, Form 140 for other payments to residents and Form 144 for payments to non-residents, with TCS in Form 143; the January-March 2026 quarter was the last filed in the old 24Q, 26Q and 27Q. Late filing attracts a fee of INR 200 a day up to the TDS amount, and a penalty can follow if the delay runs beyond a year."),
         ("Can I file ITR after the tax audit deadline?",
          "First, the deadline itself moved: for AY 2026-27 CBDT Circular 07/2026 extended the tax audit report to 21 October 2026 and the ITR for audit cases to 21 November 2026 (transfer pricing cases stay at 30 November). After the due date you can still file, but with the Section 234F late fee (INR 5,000; INR 1,000 for small income) and Section 234A interest at 1% per month. Belated ITR by 31 December 2026 for AY 2026-27. Updated return under Section 139(8A) up to 31 March 2029 (24-month window) with specific additional tax."),
+        ("What is the ITR due date for a private limited company?", "Companies file ITR-6 (or ITR-7 if claiming charitable exemptions) even with a loss or nil income. Because company accounts are audited, the normal due date is 31 October after the year end, or 30 November where transfer pricing applies. For AY 2026-27, CBDT Circular 07/2026 moved the audit-case ITR date to 21 November 2026 (transfer pricing cases 30 November 2026). A company that has missed it can file a belated return by 31 December 2026 with late fee and interest."),
         ("Does BQP maintain compliance calendar for client companies?",
          "Yes - annual engagement includes maintenance of all compliance deadlines for client companies with automated monthly / quarterly / annual reminder cadence. Daily / weekly / monthly / quarterly / annual cycles tracked. Email + WhatsApp reminders. One-firm point of accountability for complete compliance stack. WhatsApp +91 78018 87130."),
         ("What's the single biggest compliance gap BQP sees?",

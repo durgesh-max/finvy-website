@@ -765,7 +765,7 @@ write_page("form-26as-vs-ais-vs-tis-india-2026", page(
 # 9. PAN-Aadhaar Linking
 write_page("pan-aadhaar-linking-status-fix-india-2026", page(
     slug="pan-aadhaar-linking-status-fix-india-2026",
-    title="PAN-Aadhaar Linking Status Check + Fix 2026 | Deactivated PAN - BQP",
+    title="PAN Aadhaar Link Status Check 2026: Online, by SMS (UIDPAN to 567678), Rs 1,000 Fee and How to Fix an Inoperative PAN - BQP",
     description="PAN-Aadhaar linking status check 2026: deactivated PAN consequences (higher TDS, no ITR, no refund), reactivation via INR 1,000 Section 234H fee, NRI exemption, name mismatch fix, step-by-step linking process. CA Durgesh Chavda guide.",
     keywords="PAN Aadhaar linking status 2026, PAN Aadhaar link check, deactivated PAN fix, Section 234H fee, PAN not linked with Aadhaar, how to link PAN Aadhaar",
     hero_kicker="/ Blog &middot; PAN-Aadhaar Linking &middot; Updated 2026-10-10",
@@ -822,6 +822,8 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
     faqs=[
         ("How do I check my PAN-Aadhaar linking status?",
          "Login to incometax.gov.in → Services → Link Aadhaar → Link Aadhaar Status. Enter PAN. Status shows: 'Linked', 'Not Linked', or 'Linked but Inoperative' (post-deadline unlinked PANs that have been formally linked but marked inoperative pending Section 234H fee)."),
+        ("How do I check PAN Aadhaar link status by mobile SMS?", "Send an SMS in the format UIDPAN <12-digit Aadhaar number> <10-digit PAN> to 567678 or 56161 from your registered mobile number, for example UIDPAN 111122223333 AAAPA9999Q. The reply tells you whether the two are linked. You can also use the Link Aadhaar Status option on the income tax e-filing portal without logging in."),
+        ("What was the last date for PAN Aadhaar linking?", "The general deadline was 30 June 2023; PANs not linked by then became inoperative and can be made operative again by paying the Rs 1,000 fee and completing the link. PANs allotted on the basis of an Aadhaar enrolment ID up to 1 October 2024 had until 31 December 2025 to link. If your PAN is still unlinked, link it now on the e-filing portal."),
         ("What is the fee to reactivate inoperative PAN?",
          "INR 1,000 under Section 234H via Challan 280 (type: 'Fee for Linking Aadhaar with PAN'). Payment reflected in e-filing portal within 24-48 hours. After submission with Challan reference, PAN becomes operative within 7-30 days typically."),
         ("Who is exempt from PAN-Aadhaar linking?",

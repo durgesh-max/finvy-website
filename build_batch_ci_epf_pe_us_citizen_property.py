@@ -68,7 +68,7 @@ EPF = dict(
         ("/ Can you withdraw, and how much", "By situation.",
          table(["Situation", "Position"], [
              ["Moved abroad to settle or for a job abroad", "Full PF withdrawal allowed (exit reason: settlement abroad; the 2026 scheme lists migration for permanent settlement abroad, so check the reason EPFO accepts if you left only for a job); pension withdrawal benefit via Form 10C if service is under 10 years, payable 36 months after the last contribution under the 2026 pension scheme, otherwise a scheme certificate"],
-             ["Still in India, left employment", "Under the EPF Scheme, 2026: full withdrawal 12 months after leaving employment (it was two months under the 1952 scheme); partial withdrawals for specified purposes after 12 months of membership, keeping 25% in the account"],
+             ["Still in India, left employment", "Under the EPF Scheme, 2026: up to 75% can be withdrawn soon after leaving a job and the rest (full settlement) after 12 months of unemployment (it was two months under the 1952 scheme); partial withdrawals for specified purposes after 12 months of membership, keeping 25% in the account"],
              ["Do nothing", "The account can stay; interest is credited under EPFO rules, but interest credited after you stop working is generally taxable each year"]])),
         ("/ Tax on withdrawal", "Five years is the line.",
          table(["Service", "Tax"], [
@@ -87,6 +87,7 @@ EPF = dict(
          + src("Employees' Provident Fund Scheme, 2026 and Employees' Pension Scheme, 2026 (notified 29 June 2026, replacing the 1952 and 1995 schemes; final settlement Form 19, pension withdrawal Form 10C; see <a href=\"epf-scheme-2026-changes-employers-foreign-subsidiaries-nri-withdrawal-12-months-wages-definition.html\">what the 2026 scheme changed</a>); Income-tax Act exemption for withdrawal after five years of continuous service and TDS on premature withdrawal (carried into the Income-tax Act, 2025); Finance Act, 2021 (INR 2.5 lakh limit). Secondary summaries checked 14 November 2026: nriinformation, finright, scopex.")),
     ],
     faqs=[("Can an NRI withdraw EPF after moving abroad?", "Yes. Employees who settle or take up employment abroad can withdraw the full PF balance with Form 19, and the pension portion with Form 10C if service is under 10 years."),
+        ("How soon after leaving my Indian job can I withdraw PF?", "Under the current EPFO rules, up to 75% of the balance can be withdrawn soon after leaving a job and the remaining 25% only after 12 months of unemployment; the pension (EPS) portion after 36 months. Migration abroad for permanent settlement is a separate ground for full withdrawal, so check which exit reason EPFO accepts for you before you claim."),
           ("Can I withdraw EPF online from abroad?", "Yes, through the EPFO member portal with an active UAN and completed KYC, choosing settlement abroad as the reason. Payment goes to your Indian bank account."),
           ("Is EPF withdrawal taxable for NRIs?", "Not after 5 years of continuous service. Before that, the withdrawal is taxable and EPFO deducts TDS."),
           ("Can an NRI submit Form 15G for PF withdrawal?", "No. Forms 15G and 15H are only for residents. NRIs can apply for a lower deduction certificate (Form 128) or claim a refund in their return."),

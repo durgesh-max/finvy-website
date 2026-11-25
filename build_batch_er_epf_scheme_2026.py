@@ -28,7 +28,7 @@ SLUG = "epf-scheme-2026-changes-employers-foreign-subsidiaries-nri-withdrawal-12
 C = contact("whether you are an employer or an employee, your payroll structure (basic pay and allowances), headcount, any foreign nationals on payroll, or your PF withdrawal situation")
 PAGES = [dict(
     slug=SLUG,
-    title="EPF Scheme 2026: What Changed for Employers, Foreign-Owned Subsidiaries and NRIs - New Wage Definition, INR 25,000 Ceiling, 12-Month Withdrawal Rule",
+    title="EPF Withdrawal Rules 2026 Under the New EPF Scheme: 75% After Job Loss, Full PF After 12 Months, Pension After 36 Months, INR 25,000 Ceiling and What Changes for Employers and NRIs",
     em="the new provident fund rules that replaced the 1952 scheme.",
     kicker="/ Payroll &middot; Provident fund &middot; Labour codes &middot; Updated 2026-11-21",
     lead=("On <strong>29 June 2026</strong> the government notified the <strong>Employees&rsquo; Provident Fund Scheme, 2026</strong>, with new pension (EPS 2026) and insurance (EDLI 2026) schemes, under the Code on Social Security. They <strong>replace the 1952, 1995 and 1976 schemes</strong>. Existing members, balances and service carry over. "
@@ -68,7 +68,9 @@ PAGES = [dict(
     ],
     faqs=[("What is the EPF Scheme 2026?", "The Employees' Provident Fund Scheme, 2026 was notified on 29 June 2026 under the Code on Social Security, 2020 and replaces the EPF Scheme, 1952. New pension (EPS 2026) and insurance (EDLI 2026) schemes were notified with it. Existing members, balances and service continue."),
           ("What is the EPF wage ceiling in 2026?", "INR 25,000 a month from 17 September 2026, up from INR 15,000. Employees earning up to the ceiling must be covered; higher earners can join by option."),
-          ("When can I withdraw my full PF after leaving a job?", "Under the 2026 scheme, 12 months after leaving employment (it was two months earlier). Full withdrawal is immediate on retirement after 55, permanent incapacity or migration abroad for permanent settlement."),
+          ("When can I withdraw my full PF after leaving a job?", "Up to 75% of the PF balance can be withdrawn soon after leaving a job; the remaining 25% (full settlement) only after 12 months of continuous unemployment (it was two months earlier), and the pension (EPS) portion after 36 months. Full withdrawal is immediate on retirement after 55, permanent incapacity or migration abroad for permanent settlement."),
+        ("What are the new EPF partial withdrawal rules in 2026?", "EPFO has grouped the earlier 13 partial-withdrawal purposes into three broad categories (essential needs such as illness, education and marriage; housing; and special circumstances), with a minimum balance to be kept in the account. Check the EPFO portal for the current limits before applying online with your UAN."),
+        ("Is EPF withdrawal taxable?", "Withdrawals after five years of continuous service are tax-free. Earlier withdrawals are generally taxable, with 10% TDS if the amount is Rs 50,000 or more and PAN is given; see the PF withdrawal tax rules guide on this site."),
           ("Is PF now calculated on full salary?", "Contributions are 12% of 'wages' as defined in the Code on Social Security, which is wider than basic pay, so some allowances may now count. Mandatory contributions apply up to the wage ceiling."),
           ("Do foreign employees in India still pay PF?", "Yes. International workers remain covered under the 2026 scheme unless they hold a certificate of coverage under a social security agreement."),
           ("Can BQP review our payroll for the new scheme?", "Yes. " + C)],

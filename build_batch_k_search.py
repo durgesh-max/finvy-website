@@ -81,12 +81,12 @@ write_page("section-143-1-intimation-response-india-2026", page(
 # 2. Section 143(2) Scrutiny Notice Response
 write_page("section-143-2-scrutiny-notice-response-india", page(
     slug="section-143-2-scrutiny-notice-response-india",
-    title="Section 143(2) Scrutiny Notice Response 2026 | Documents, Timeline, CA Help - BQP",
+    title="Income Tax Scrutiny Notice u/s 143(2) (2026): Selection Criteria, Time Limit, Documents and How to Respond - BQP",
     description="Section 143(2) scrutiny notice received: understand limited vs complete scrutiny, the three-month time limit for the notice, documents to prepare, personal appearance protocol, Section 143(3) assessment order. Working CA guide by Durgesh Chavda.",
     keywords="Section 143(2) scrutiny notice, 143(2) response India, income tax scrutiny notice reply, Section 143(3) assessment, limited scrutiny vs complete scrutiny",
     hero_kicker="/ Blog &middot; Section 143(2) Scrutiny &middot; Updated 2026-10-10",
     hero_title_html="Section 143(2) scrutiny notice, <em>what to do in the first 48 hours.</em>",
-    hero_lead="Section 143(2) is the Department's formal scrutiny notice. Unlike 143(1) which is automated reconciliation, 143(2) means an Assessing Officer wants to examine your return in detail, request documents, and may add income or disallow deductions. Response window: 6 months. Mistakes in the first 48 hours (ignoring, over-sharing, or responding without a CA) can turn a routine query into a tax demand. Here is the practitioner's playbook.",
+    hero_lead="Section 143(2) is the Department's formal scrutiny notice. Unlike 143(1) which is automated reconciliation, 143(2) means an Assessing Officer wants to examine your return in detail, request documents, and may add income or disallow deductions. The notice must be served within three months from the end of the financial year in which you filed the return, and each notice sets its own reply date. Mistakes in the first 48 hours (ignoring, over-sharing, or responding without a CA) can turn a routine query into a tax demand. Here is the practitioner's playbook.",
     sections=[
         ("/ What triggers 143(2) scrutiny", "Who gets picked.",
          "<p>CPC Bengaluru uses algorithmic selection parameters to flag returns for scrutiny. Common triggers:</p>"
@@ -96,7 +96,7 @@ write_page("section-143-2-scrutiny-notice-response-india", page(
          "<li><strong>High-value transactions</strong> &mdash; cash deposits, property purchases, foreign remittances, mutual fund transactions above thresholds reported via SFT (Specified Financial Transactions).</li>"
          "<li><strong>Business income with low profit margin</strong> &mdash; turnover reported but net profit is suspiciously low.</li>"
          "<li><strong>Foreign assets / income</strong> &mdash; Schedule FA entries, foreign remittances, foreign bank accounts.</li>"
-         "<li><strong>Random statistical selection</strong> &mdash; CBDT publishes annual scrutiny selection parameters; some returns are picked at random.</li>"
+         "<li><strong>Compulsory selection parameters</strong> &mdash; CBDT issues annual guidelines (for returns filed in FY 2025-26, dated 4 June 2026, categories CS 01 to CS 06) covering cases such as surveys, searches, recurring large additions in earlier assessments and specific information from enforcement agencies; other returns are picked by computer-aided risk analysis (CASS), not at random.</li>"
          "</ul>"
          "<p>Two types of scrutiny:</p>"
          "<ul>"
@@ -105,7 +105,7 @@ write_page("section-143-2-scrutiny-notice-response-india", page(
          "</ul>"),
         ("/ Timeline + response window", "What the law says.",
          "<p><strong>Section 143(2) notice must be served</strong> within 3 months from the end of the FY in which the return was furnished.</p>"
-         "<p><strong>Assessment under Section 143(3) completed</strong> within 12 months from the end of the FY in which the return was furnished (longer for complex / cross-border cases).</p>"
+         "<p><strong>Assessment under Section 143(3) completed</strong> within 12 months from the end of the assessment year (assessment year 2022-23 onwards, section 153 of the 1961 Act; a further 12 months if referred to the Transfer Pricing Officer) (longer for complex / cross-border cases).</p>"
          "<p><strong>Response window after 143(2) notice</strong>: specified in the notice, typically 15-30 days for initial response. Additional document calls follow. The Department has discretion to extend the overall assessment timeline.</p>"
          "<p><strong>Faceless Assessment Scheme</strong>: since 2020, most individual scrutiny is conducted via the Faceless Assessment Scheme (National Faceless Assessment Centre, Delhi). All communication via e-filing portal; no physical appearance in most cases. The AO is not disclosed to the taxpayer.</p>"),
         ("/ First 48 hours after receiving 143(2)", "The response checklist.",
@@ -137,6 +137,9 @@ write_page("section-143-2-scrutiny-notice-response-india", page(
     faqs=[
         ("What is Section 143(2) notice?",
          "Formal scrutiny notice from the Assessing Officer under Income Tax Act. Means the Department wants to examine your return in detail - request documents, verify deductions, potentially add income. Different from Section 143(1) (automated reconciliation). Scrutiny response window typically 15-30 days initial; overall assessment completed within 12 months from end of FY of filing."),
+        ("What is the time limit for issuing a 143(2) scrutiny notice?", "The notice must be served within three months from the end of the financial year in which the return was filed; for returns filed in FY 2025-26 that was 30 June 2026. A scrutiny assessment framed without a valid 143(2) notice served in time can be challenged. Once selected, the assessment must be completed within 12 months from the end of the assessment year (assessment year 2022-23 onwards)."),
+        ("What are the criteria for income tax scrutiny selection?", "Returns are selected in two ways. Compulsory selection follows annual CBDT guidelines (categories CS 01 to CS 06 for returns filed in FY 2025-26), covering cases such as surveys, searches, recurring large additions in earlier assessments and specific information from enforcement agencies. Other returns are picked by computer-aided scrutiny selection (CASS) on risk parameters such as mismatches with AIS or Form 26AS, high-value transactions and large deductions. Selection starts an examination; it does not by itself mean additions."),
+        ("Do salaried employees get income tax scrutiny notices?", "Yes, though less often than businesses. Common triggers for salaried taxpayers are large HRA or deduction claims without documents, interest, dividend or capital gains shown in AIS but missing from the return, large cash deposits or property purchases, and foreign assets or income. Keep Form 16, rent receipts, investment proofs and bank statements for each year so a reply can be filed quickly."),
         ("Can I handle Section 143(2) response myself without a CA?",
          "Technically yes. Practically risky. The first response sets the tone of the proceeding, and over-sharing or under-sharing can turn a routine query into a tax demand. Documents must be organised, computations defensible, and the AO's framing addressed precisely. Most taxpayers facing material-amount scrutiny engage a CA."),
         ("What is Faceless Assessment Scheme?",
@@ -144,7 +147,7 @@ write_page("section-143-2-scrutiny-notice-response-india", page(
         ("What happens if I ignore a 143(2) notice?",
          "Non-response is treated as implicit acceptance of the Department's view. Best-judgment assessment under Section 144 follows - typically unfavorable, with maximum additions and penalties. Even if you cannot fully respond in time, filing an interim response acknowledging the notice and requesting extension is far better than silence."),
         ("How long does a Section 143(3) assessment take?",
-         "By law, within 12 months from the end of the FY in which the return was furnished (longer for cross-border or transfer-pricing cases). In practice, limited scrutiny closes faster (3-6 months); complete scrutiny takes 6-12 months with 2-4 rounds of document calls."),
+         "By law, within 12 months from the end of the assessment year (assessment year 2022-23 onwards, section 153 of the 1961 Act; a further 12 months if referred to the Transfer Pricing Officer) (longer for cross-border or transfer-pricing cases). In practice, limited scrutiny closes faster (3-6 months); complete scrutiny takes 6-12 months with 2-4 rounds of document calls."),
         ("Does BQP handle Section 143(2) scrutiny?",
          "Yes - response drafting, document pack preparation, follow-up query responses, appeal to CIT(A) if 143(3) order is adverse. For ITAT and above we co-ordinate with tax counsel. Standard engagement scoped per complexity. WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com."),
     ],

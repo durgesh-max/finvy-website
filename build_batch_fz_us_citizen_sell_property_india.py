@@ -29,7 +29,7 @@ C = contact("the property's city and type, whether you bought or inherited it (a
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="US Citizen Selling Property in India (2026): Inherited Property, TDS, Power of Attorney, Repatriation and US Capital Gains Tax",
+    title="US Citizen or NRI in the US Selling Property in India (2026): Tax Implications in India and the US, Inherited Property, TDS, Power of Attorney and Repatriation",
     em="India taxes first; the US credits it.",
     kicker="/ NRIs &middot; USA &middot; Property sale &middot; Updated 2026-11-24",
     lead=("<strong>Yes, a US citizen can sell property in India, including inherited property: as a person of Indian origin (with or without an OCI card) you can sell a house, flat or commercial property to a resident Indian, an NRI or an OCI holder; agricultural land only to a resident Indian citizen.</strong> "

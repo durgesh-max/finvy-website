@@ -717,7 +717,7 @@ PAGES = [
              "<li>Hong Kong Profits Tax rate: 16.5% (two-tiered: 8.25% on first HKD 2M; 16.5% thereafter) - specific QDMTT applicable from FY 2025 for MNEs.</li>"
              "<li>Hong Kong territorial source taxation: specific offshore claim possible for non-HK sourced income.</li>"
              "<li>India-Hong Kong DTAA: operational since 2017 - full treaty + MLI covered.</li>"
-             "<li>Dividend from Indian subsidiary to HK parent: 5-10% treaty rate under India-HK DTAA.</li>"
+             "<li>Dividend from Indian subsidiary to HK parent: 5% treaty rate under the India-HK DTAA.</li>"
              "<li>Specific HK Economic Substance requirements (if offshore claim) + specific substance rules.</li>"
              "<li>Specific BEPS Pillar 2 HK QDMTT applicable from 1 January 2025.</li>"
              "</ul>"),
@@ -728,7 +728,7 @@ PAGES = [
              "<li>Master File (Form 3CEAA) + Local File preparation.</li>"
              "<li>Form 3CEB auditor's report mandatory.</li>"
              "<li>Transfer pricing + specific intra-group service + royalty + specific pricing analysis.</li>"
-             "<li>Dividend repatriation: Form 15CA + 15CB + 5-10% treaty rate under India-HK DTAA.</li>"
+             "<li>Dividend repatriation: Form 15CA + 15CB + 5% treaty rate under the India-HK DTAA.</li>"
              "<li>Co-ordination with Hong Kong partner CPA firm for HK IRD CbCR filing + HK Profits Tax + HK Economic Substance.</li>"
              "<li>BEPS Pillar 2 QDMTT + IIR analysis.</li>"
              "<li>Specific GAAR + MLI PPT defence for HK structure.</li>"
@@ -753,7 +753,7 @@ PAGES = [
         "cta_h": "Hong Kong parent + Indian subsidiary CbCR?",
         "cta_b": "Form 3CEAC + 3CEAD + Master File + 3CEB + HK coordination + BEPS Pillar 2 + GAAR defence. BQP + HK partner engagement. WhatsApp +91 78018 87130.",
         "keywords": "Hong Kong parent Indian subsidiary CbCR CA India, Form 3CEAC 3CEAD HK parent CA, India HK DTAA transfer pricing CA",
-        "desc": "Hong Kong parent + Indian subsidiary CbCR CA India: BEPS Action 13 (MNE EUR 750M+ threshold), Indian subsidiary Form 3CEAC intimation + Form 3CEAD CbCR filing + Form 3CEAA Master File + Form 3CEB auditor's report, HK IRD filing + EOI exchange, India-HK DTAA (5-10% dividend/interest/royalty), BEPS Pillar 2 QDMTT. CA Durgesh Chavda Hong Kong-India specialist.",
+        "desc": "Hong Kong parent + Indian subsidiary CbCR CA India: BEPS Action 13 (MNE EUR 750M+ threshold), Indian subsidiary Form 3CEAC intimation + Form 3CEAD CbCR filing + Form 3CEAA Master File + Form 3CEB auditor's report, HK IRD filing + EOI exchange, India-HK DTAA (5% dividends, 10% interest / royalties / technical fees), BEPS Pillar 2 QDMTT. CA Durgesh Chavda.",
     },
     {
         "slug": "netherlands-bv-indian-stepdown-treaty-shopping-ca",

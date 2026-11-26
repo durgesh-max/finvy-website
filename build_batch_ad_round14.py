@@ -810,17 +810,17 @@ PAGES = [
         "slug": "how-to-respond-to-income-tax-notice-india",
         "title": "Income Tax Notice 2026: How to Respond, Time Limit, Where to Check Online, PDF Password and Notice Types (143(1), 143(2), 148, 133(6))",
         "hero_em": "notice type-by-type response playbook.",
-        "lead": "Direct answer: First identify the notice type (Section 143(1) intimation, 143(2) scrutiny, 148 reassessment, 148A show-cause, 139(9) defective return, 142(1) info call, 245 demand adjustment, specific). Each has distinct response window + consequences. Acknowledge on Income Tax portal, engage CA within 24-48 hours, respond within specified deadline. Default response window varies 15-30 days. BQP urgent response team.",
+        "lead": "Direct answer: First identify the notice type (Section 143(1) intimation, 143(2) scrutiny, 148 reassessment, 148A show-cause, 139(9) defective return, 142(1) info call, 245 demand adjustment, specific). Each has distinct response window + consequences. Acknowledge on Income Tax portal, engage a CA early, respond within the deadline stated in the notice.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Common notice types + response windows", "The playbook.",
              "<ul>"
              "<li><strong>Section 143(1) intimation</strong>: computer-generated intimation of return processed. If demand: 30 days to pay or respond. If refund: no action needed. If adjustment: review + specific response.</li>"
-             "<li><strong>Section 143(2) scrutiny</strong>: ITR selected for detailed assessment. 15-30 day response for first notice + 6-month assessment window.</li>"
+             "<li><strong>Section 143(2) scrutiny</strong>: ITR selected for detailed assessment. Reply within the time in the notice; the assessment order is due within 12 months from the end of the financial year in which the return was filed.</li>"
              "<li><strong>Section 148 reassessment</strong>: formal reassessment proceeding. 30 days to file return + specific response + Section 147 full assessment.</li>"
-             "<li><strong>Section 148A(b) show-cause</strong>: pre-reassessment show cause. 7-30 days to respond + opportunity to quash before Section 148.</li>"
+             "<li><strong>Section 148A show cause notice</strong>: pre-reassessment show cause. Reply within the time stated in the notice + opportunity to have it dropped before Section 148.</li>"
              "<li><strong>Section 139(9) defective return</strong>: ITR has defects. 15 days to rectify defects.</li>"
-             "<li><strong>Section 142(1) info call</strong>: specific documents / information requested by AO. 15-30 days typical.</li>"
+             "<li><strong>Section 142(1) info call</strong>: specific documents / information requested by AO, by the date in the notice.</li>"
              "<li><strong>Section 245 adjustment</strong>: refund adjustment proposed against demand. 30 days to object.</li>"
              "<li><strong>Section 154 rectification</strong>: proposed rectification of mistake. 30 days to object.</li>"
              "<li><strong>Section 156 demand notice</strong>: tax demand notification. 30 days to pay OR 15 days to object + Section 220 interest.</li>"
@@ -832,7 +832,7 @@ PAGES = [
              "<li>Download complete notice + supporting documents.</li>"
              "<li>Identify specific AY / specific income head / specific issue flagged.</li>"
              "<li>Preserve all records: ITR + Form 26AS + AIS/TIS + supporting documents + bank statements + agreements.</li>"
-             "<li>Engage CA immediately - response window typically tight (7-30 days).</li>"
+             "<li>Engage a CA as soon as the notice arrives - reply windows are short.</li>"
              "<li>Specific risk assessment: Section 148 reassessment / Section 270A penalty exposure / specific appeal implications.</li>"
              "</ol>"),
             ("/ Section 143(1) intimation response", "The common first-contact.",
@@ -851,8 +851,8 @@ PAGES = [
              "<ul>"
              "<li>ITR selected for scrutiny under Section 143(3).</li>"
              "<li>CASS (Computer Aided Scrutiny Selection) OR manual selection by AO.</li>"
-             "<li>15-30 day response for first notice.</li>"
-             "<li>6-month assessment window + multiple hearings.</li>"
+             "<li>Reply within the time stated in the notice.</li>"
+             "<li>Assessment order due within 12 months from the end of the FY of filing + hearings.</li>"
              "<li>Documents demanded: full reconciliation of ITR + Form 26AS + AIS + supporting documents.</li>"
              "<li>Oral representation + specific document submission.</li>"
              "<li>Section 143(3) order within 6 months + specific additions / disallowances.</li>"
@@ -861,14 +861,14 @@ PAGES = [
              "</ul>"),
             ("/ Section 148 / 148A response", "The reassessment track.",
              "<ul>"
-             "<li>Section 148A(b) show-cause: AO must issue BEFORE Section 148 formal notice (post Finance Act 2021 amendment).</li>"
-             "<li>Response window: 7-30 days typical.</li>"
+             "<li>Section 148A show cause notice: AO must issue it BEFORE the Section 148 notice (within 3 years from the end of the AY, or 5 years where escaped income is Rs 50 lakh or more, for notices from 1 September 2024).</li>"
+             "<li>Response window: as stated in the notice.</li>"
              "<li>Response strategy: documentary refutation + legal position + specific exhibits.</li>"
              "<li>Section 148A(d) order: AO decides whether to proceed with Section 148 OR drop.</li>"
              "<li>If AO drops: no reassessment. Case closed.</li>"
              "<li>If AO proceeds: Section 148 notice + 30 days to file return + Section 147 full assessment.</li>"
              "<li>Writ in High Court if Section 148A procedure defective (specific case-law + specific grounds).</li>"
-             "<li>Specific 4-year vs 10-year lookback limit assessment.</li>"
+             "<li>Check whether the notice is within the three-year / five-year limit.</li>"
              "</ul>"),
             ("/ Common response mistakes + how to avoid", "What to watch.",
              "<ul>"
@@ -881,9 +881,9 @@ PAGES = [
              "<li>Not considering specific appeal path (CIT(A) / ITAT / High Court / writ) at outset.</li>"
              "<li>Not managing Section 270A penalty defence (classification 50% vs 200% matters materially).</li>"
              "</ul>"),
-            ("/ BQP urgent response engagement", "What we deliver.",
+            ("/ BQP response engagement", "What we deliver.",
              "<ul>"
-             "<li>24-48 hour engagement acknowledgement.</li>"
+             "<li>Engagement confirmed and notice reviewed.</li>"
              "<li>Notice type identification + specific risk assessment.</li>"
              "<li>Document preservation + specific exhibit assembly.</li>"
              "<li>Response strategy: documentary refutation + legal position + specific case law.</li>"
@@ -899,26 +899,26 @@ PAGES = [
         ],
         "faqs": [
             ("How to respond to Income Tax notice India?",
-             "First identify notice type (143(1) / 143(2) / 148 / 148A / 139(9) / 142(1) / 245 / 154 / 156). Each has distinct response window + consequences. Acknowledge on portal + preserve records + engage CA within 24-48 hours + respond within specified deadline (typically 7-30 days). Default: no response = AO proceeds with specific adverse presumptions. BQP urgent response team."),
+             "First identify notice type (143(1) / 143(2) / 148 / 148A / 139(9) / 142(1) / 245 / 154 / 156). Each has distinct response window + consequences. Acknowledge on portal + preserve records + engage a CA early + respond within the deadline stated in the notice. Default: no response = AO proceeds on the department's information."),
             ("What's the typical response deadline for Income Tax notice?",
-             "Varies by notice type. Section 143(1) demand: 30 days. Section 143(2) scrutiny first response: 15-30 days + 6-month assessment window. Section 148A(b): 7-30 days. Section 148: 30 days to file return. Section 139(9) defective: 15 days. Section 142(1): 15-30 days. Section 245: 30 days. Section 154: 30 days. Section 156: 30 days to pay / 15 days to object."),
+             "Varies by notice type. Section 143(1) demand: 30 days. Section 143(2) scrutiny: as stated in the notice (the assessment order is due within 12 months from the end of the financial year in which the return was filed). Section 148A show cause: as stated in the notice. Section 148: file the return within the period stated in the notice. Section 139(9) defective: 15 days. Section 142(1): as stated in the notice. Section 245: 30 days. Section 156 demand: 30 days to pay."),
         ("Where can I check an income tax notice online?", "Log in to the income tax e-filing portal and open Pending Actions, then e-Proceedings (and the Worklist) to see notices, their response dates and the option to reply. Notices are also emailed to your registered email address with an SMS alert; you can confirm a notice is genuine using the portal's authenticate notice service with its DIN."),
         ("What is the password for an income tax notice PDF?", "Usually your PAN in lower case followed by your date of birth in DDMMYYYY format, with no spaces (for example abcde1234f15081990); companies and firms use the date of incorporation. A few notices have been reported to use the PAN in capitals, so try that if the first format fails."),
         ("What is the time limit for income tax notices?", "It depends on the notice: a 143(1) intimation is issued within nine months from the end of the financial year in which the return was filed; a 143(2) scrutiny notice within three months from the end of the financial year in which the return was filed; and reassessment notices under section 148 have their own longer limits linked to the amount of income involved. Each notice states its own reply deadline."),
         ("What is a section 133(6) notice?", "A section 133(6) notice is a request for information, often sent when the department sees high-value transactions in your AIS, such as large deposits, property deals or share trades, that do not appear to match your return. It is not an assessment or demand. Reply on the e-filing portal under e-proceedings or compliance with the explanation and documents asked for; ignoring it can attract a penalty for each day of default under section 272A(2)(c) and may lead to scrutiny or reassessment."),
             ("Can Section 148A show-cause be quashed before Section 148 reassessment?",
-             "Yes - Section 148A(b) response is quashing opportunity. Well-drafted response can achieve Section 148A(d) order dropping the proceeding (no Section 148 formal notice). For procedurally defective 148A: writ in High Court can quash (several High Court rulings have struck down defective 148A). Specific legal grounds + specific case law critical."),
+             "Yes - the reply to the section 148A show cause notice is the chance to stop it. A well-drafted reply can lead to an order under section 148A(3) dropping the proceeding (no Section 148 formal notice). For procedurally defective 148A: writ in High Court can quash (several High Court rulings have struck down defective 148A). Specific legal grounds + specific case law critical."),
             ("What happens if I don't respond to Income Tax notice?",
              "AO proceeds with only AO's version considered. Specific adverse presumptions. Section 148 reassessment if 148A unresponded. Section 143(3) ex-parte scrutiny order if 143(2) unresponded. Section 270A penalty 50-200%. Section 234A/B/C interest. Recovery proceedings under specific sections. Specific CIBIL impact for individuals."),
             ("Does BQP handle Income Tax notice response urgently?",
-             "Yes - specialist urgent response team. 24-48 hour engagement + notice identification + document preservation + response strategy + legal position + e-filing + hearing representation + Section 270A penalty defence + CIT(A)/ITAT/High Court appeal + Section 119(2)(b) condonation. For all notice types + all AYs. WhatsApp +91 78018 87130."),
+             "Yes. Notice identification + document preservation + response strategy + legal position + e-filing + hearing representation + Section 270A penalty defence + CIT(A)/ITAT/High Court appeal + Section 119(2)(b) condonation. For all notice types + all AYs. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("received-section-143-2-scrutiny-notice-urgent-action-india.html", "Related", "143(2) Urgent Response"),
                           ("section-148a-show-cause-7-day-response-urgent-india.html", "Related", "148A 7-Day Response")],
         "cta_h": "Received Income Tax notice?",
-        "cta_b": "URGENT: identify + respond within window. BQP 24-48 hour engagement + all notice types + all appeal paths. WhatsApp +91 78018 87130.",
+        "cta_b": "Identify the notice + respond within its window. BQP: all notice types + all appeal paths. WhatsApp +91 78018 87130 with the notice PDF and the ITR for that year.",
         "keywords": "how to respond Income Tax notice India CA, Income Tax notice response CA India step by step, section 143 148 notice response CA India",
-        "desc": "How to respond to Income Tax notice India (direct answer): identify notice type (143(1) / 143(2) / 148 / 148A / 139(9) / 142(1) / 245 / 154 / 156), response windows (7-30 days typical), immediate 24-72 hour action (acknowledge + preserve + engage CA), section-specific response strategy, common mistakes, BQP urgent response engagement across all notice types. CA Durgesh Chavda ICAI.",
+        "desc": "How to respond to Income Tax notice India (direct answer): identify notice type (143(1) / 143(2) / 148 / 148A / 139(9) / 142(1) / 245 / 154 / 156), response windows (as stated in each notice), immediate action (acknowledge + preserve + engage CA), section-specific response strategy, common mistakes, BQP response engagement across all notice types. CA Durgesh Chavda ICAI.",
     },
     {
         "slug": "what-is-input-tax-credit-and-how-to-claim-india-gst",

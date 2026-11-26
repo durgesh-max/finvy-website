@@ -20,7 +20,7 @@ PAGES = [
         "slug": "received-section-143-2-scrutiny-notice-urgent-action-india",
         "title": "Received Section 143(2) Scrutiny Notice? Urgent Action India",
         "hero_em": "6 month assessment window + strategy.",
-        "lead": "Section 143(2) scrutiny notice means your ITR has been selected for detailed assessment under Section 143(3). 6-month assessment window from notice date. First response within time specified (typically 15-30 days). Preparation + strategy at this stage decides outcome. BQP urgent response team. Here's immediate action playbook.",
+        "lead": "Section 143(2) scrutiny notice means your ITR has been selected for detailed assessment under Section 143(3). The notice must be served within 3 months from the end of the financial year in which the return was filed, and the assessment order is due within 12 months from the end of the financial year in which the return was filed. Reply within the time stated in the notice. Preparation + strategy at this stage decides outcome. Here's the immediate action playbook.",
         "kicker": "/ Urgent Response &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ What Section 143(2) means", "The scrutiny trigger.",
@@ -28,15 +28,15 @@ PAGES = [
              "<li><strong>Section 143(2)</strong>: Assessing Officer selects ITR for detailed scrutiny under Section 143(3).</li>"
              "<li>Selection: CBDT risk-based framework (CASS - Computer Aided Scrutiny Selection), specific-criteria selection, manual selection by AO.</li>"
              "<li>Time limit for AO to serve notice: 3 months from end of FY in which ITR filed. For FY 2025-26 ITR (filed by Oct 2026): notice by 30 June 2026 last date.</li>"
-             "<li>Once served: full scrutiny under Section 143(3) + 6-month assessment window + specific response + hearing + order.</li>"
+             "<li>Once served: full scrutiny under Section 143(3) + specific response + hearing + order (the assessment order is due within 12 months from the end of the financial year in which the return was filed).</li>"
              "</ul>"),
             ("/ Immediate action in first 24-72 hours", "Preserve + plan.",
              "<ol>"
              "<li>Acknowledge notice via Income Tax portal.</li>"
-             "<li>Note response deadline (typically 15-30 days from notice).</li>"
+             "<li>Note the response deadline stated in the notice.</li>"
              "<li>Preserve ALL records relevant to the AY: ITR + supporting docs + bank statements + Form 26AS + AIS/TIS + specific agreements + property / investment / share transaction evidence.</li>"
              "<li>Review ITR filed vs AO's likely 'reason for scrutiny' - what triggered selection.</li>"
-             "<li>Engage CA immediately - 15-30 days is tight for substantive response.</li>"
+             "<li>Engage a CA as soon as the notice arrives - the reply window in the notice is short for a full response.</li>"
              "<li>Identify specific risks: Section 148 reassessment if historical issue surfaces, Section 270A penalty exposure, specific sector-specific risks.</li>"
              "</ol>"),
             ("/ Response strategy", "What to submit.",
@@ -50,7 +50,7 @@ PAGES = [
              "</ul>"),
             ("/ Hearing + order + penalty exposure", "The subsequent path.",
              "<ul>"
-             "<li>AO holds hearings (video / in-person) during 6-month window.</li>"
+             "<li>Hearings are held by video conference under the faceless scheme while the assessment is open.</li>"
              "<li>Specific document calls + specific issue drill-down.</li>"
              "<li>Additions proposed - taxpayer response + specific objections.</li>"
              "<li>Section 143(3) order within 6 months - specific additions / disallowances / adjustments.</li>"
@@ -77,22 +77,23 @@ PAGES = [
         ],
         "faqs": [
             ("What's the response window for Section 143(2) notice?",
-             "Typically 15-30 days from notice service as specified. Can request extension on specific reasoning. Critical - first response establishes the record. No response leads to AO's version prevailing + specific adverse presumptions."),
+             "Within the time stated in the notice. An adjournment can be requested on the portal with reasons. Critical - first response establishes the record. No response leads to AO's version prevailing + specific adverse presumptions."),
             ("Can Section 143(2) scrutiny lead to Section 148 reassessment?",
-             "Yes - if during 143(3) scrutiny AO finds historical income escaping assessment in prior years, Section 148 reassessment can be initiated for those prior years (subject to 4-year or 10-year limits). Current-year scrutiny can expand to multi-year review."),
+             "Yes - if during 143(3) scrutiny AO finds historical income escaping assessment in prior years, Section 148 reassessment can be initiated for those prior years (subject to the three-year / five-year limits for notices issued from 1 September 2024). Current-year scrutiny can expand to multi-year review."),
             ("What's the typical Section 143(3) assessment timeline?",
-             "6 months from notice date (or extended per Finance Act specific extensions). Multiple hearings during window. Order typically issued within 6 months. Specific documents + oral representations evaluated."),
+             "The assessment order must be passed within 12 months from the end of the financial year in which the return was filed (section 153; a further 12 months where the case is referred to the Transfer Pricing Officer). Several rounds of queries and a video hearing may happen within that period; documents and written submissions are evaluated."),
             ("What's the penalty if additions sustained?",
              "Section 270A: 50% under-reporting (good faith/arithmetic error) OR 200% misreporting (fraud/wilful concealment). Classification is key battle. Section 270AA voluntary disclosure can mitigate 200% to lower rate. Section 234A/B/C interest additional."),
             ("Does BQP handle Section 143(2) scrutiny urgent engagement?",
-             "Yes - specialist urgent response team. 24-48 hour engagement + notice review + full reconciliation + documentary refutation + legal position memos + hearing representation + Section 270A penalty defence + CIT(A) + ITAT appeal if adverse + writ High Court if procedural defects. For individuals + startups + mid-market + foreign-shareholder subsidiaries. WhatsApp +91 78018 87130."),
+             "Yes. Notice review + full reconciliation + documentary refutation + legal position memos + hearing representation + Section 270A penalty defence + CIT(A) + ITAT appeal if adverse + writ High Court if procedural defects. For individuals + startups + mid-market + foreign-shareholder subsidiaries. WhatsApp +91 78018 87130."),
+        ("What should I send to reply to a section 143(2) scrutiny notice?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: the notice PDF (and any section 142(1) questionnaire attached to it), the ITR and computation for that year, Form 26AS / Form 168 and the AIS, bank statements for the accounts named or relevant to the issues, and proof for the items under question (capital gains working, property papers, loan or gift documents, deduction receipts). We check whether the notice is valid and within time, list what the AO is asking for, and draft the reply and annexures for the e-Proceedings tab before the deadline."),
         ],
         "related_pairs": [("section-143-2-scrutiny-notice-response-india.html", "Related", "Section 143(2) Full Guide"),
                           ("best-ca-section-148-reassessment-notice-response.html", "Related", "Section 148 Response CA")],
         "cta_h": "Section 143(2) scrutiny notice received?",
-        "cta_b": "URGENT: 15-30 day response window. BQP 24-48 hour engagement + reconciliation + hearing representation. WhatsApp +91 78018 87130 same-day response.",
+        "cta_b": "Reply window is set in the notice. BQP: reconciliation + reply drafting + hearing representation. WhatsApp +91 78018 87130 with the notice PDF, your ITR and computation.",
         "keywords": "received Section 143(2) scrutiny notice urgent CA India, Section 143(3) assessment response CA, scrutiny notice response India urgent CA",
-        "desc": "Received Section 143(2) scrutiny notice urgent action India: immediate 24-72 hour preservation + planning, 15-30 day response strategy (ITR reconciliation + documentary refutation + legal position + TP documentation + exemption claims), hearing + Section 143(3) order within 6 months, Section 270A penalty exposure (50%/200%), CIT(A)/ITAT appeal path. CA Durgesh Chavda.",
+        "desc": "Received Section 143(2) scrutiny notice urgent action India: immediate preservation + planning, response strategy within the notice deadline (ITR reconciliation + documentary refutation + legal position + TP documentation + exemption claims), hearing + Section 143(3) order (due within 12 months from the end of the FY of filing), Section 270A penalty exposure (50%/200%), CIT(A)/ITAT appeal path. CA Durgesh Chavda.",
     },
     {
         "slug": "discovered-gstr-9-shortfall-voluntary-disclosure-urgent-india",

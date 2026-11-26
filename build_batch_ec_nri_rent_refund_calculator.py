@@ -68,7 +68,7 @@ CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com wit
 
 PAGES = [dict(
     slug=SLUG,
-    title="NRI Rental Income TDS Refund Calculator (2026): Tenant TDS of 31.2% vs Tax on Your Actual Rental Income",
+    title="TDS on Rent Paid to an NRI Landlord (2026): 31.2% Rate, Section 393 (Old 195), Tenant TAN and Form 144 (Old 27Q), and a Refund Calculator",
     em="most NRI landlords overpay; see how much you can claim back.",
     kicker="/ Calculator &middot; NRIs &middot; Rental income &middot; Updated 2026-11-20",
     lead=("A tenant paying rent to an NRI landlord deducts TDS at <strong>30% plus surcharge and cess (31.2% for most)</strong> on the <strong>gross rent</strong>. Tax, however, is due only on house-property income: rent less municipal taxes, less a <strong>30% standard deduction</strong>, less interest on a home loan for the property. That income is taxed at <strong>slab rates</strong>, and under the new regime for FY 2025-26 the first INR 4 lakh is nil. The gap is often most of the TDS. "
@@ -91,6 +91,8 @@ PAGES = [dict(
          f'<p><strong>Sources:</strong> Income-tax Act provisions on income from house property (30% standard deduction, interest), TDS on payments to non-residents and FY 2025-26 slab rates; India&rsquo;s tax treaties (immovable property article). <em>{UPDATED}</em> Estimates only, not advice for your situation.</p>'),
     ],
     faqs=[("How much TDS does a tenant deduct on rent paid to an NRI?", "30% plus surcharge and cess on the gross rent, which is 31.2% for most NRIs, unless the NRI has a lower deduction certificate."),
+        ("What does a tenant have to do when the landlord is an NRI?", "The tenant must deduct tax under section 393 of the Income-tax Act, 2025 (old section 195) from every rent payment, whatever the amount - the Rs 50,000 a month limit for resident landlords does not apply. The tenant needs a TAN, deposits the tax by challan, files the quarterly TDS return in Form 144 (old 27Q) and gives the landlord a TDS certificate in Form 131 (old 16A). The rate is 30% plus cess (31.2%, with surcharge on very large rents) unless the landlord gives the tenant a lower or nil TDS certificate in Form 128."),
+        ("What should an NRI landlord send to cut TDS on rent or claim it back?", "WhatsApp us the rent agreement, the yearly rent and the municipal tax and loan interest you pay on the property, your PAN and Form 168 (old 26AS), and your country of residence. We work out the tax on your actual rental income, apply for a Form 128 lower TDS certificate if it is worth it, and file your ITR to claim back any excess TDS."),
           ("How is an NRI's rental income taxed?", "Rent less municipal taxes, less a 30% standard deduction and home-loan interest, taxed at slab rates; NRIs do not get the section 87A rebate."),
           ("Can an NRI get a refund of TDS on rent?", "Yes, by filing an Indian return. For FY 2025-26 a belated return can be filed until 31 December 2026 and a filed return revised until 31 March 2027 (fee after 31 December); an updated return cannot claim refunds."),
           ("How can an NRI landlord reduce TDS on rent?", "Apply for a lower deduction certificate so the tenant deducts at the rate the Income Tax Department certifies."),

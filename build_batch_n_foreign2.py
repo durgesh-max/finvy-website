@@ -383,12 +383,12 @@ write_page("company-secretarial-services-india-remote", page(
 # 5. FEMA compounding
 write_page("fema-compounding-foreign-subsidiary-india", page(
     slug="fema-compounding-foreign-subsidiary-india",
-    title="FEMA Compounding + Regularisation 2026 | Foreign Subsidiary India - BQP",
-    description="FEMA voluntary compounding for foreign-shareholder Indian subsidiaries: regularise missed FC-GPR / FC-TRS / FLA / APR / Form ODI / Form FC-TRS filings, pricing guideline breach, sector-cap violation. Section 13 FEMA Act. Compounding application + hearing + order. Timeline 90-180 days. Working CA guide by Durgesh Chavda.",
+    title="FEMA Compounding Rules 2024 and Application (2026): Regularising FC-GPR, FC-TRS, FLA, APR and ECB Delays for Foreign Subsidiaries in India - BQP",
+    description="FEMA voluntary compounding for foreign-shareholder Indian subsidiaries: regularise missed FC-GPR / FC-TRS / FLA / APR / Form ODI / Form FC-TRS filings, pricing guideline breach, sector-cap violation. Section 15 of FEMA and the Compounding Proceedings Rules, 2024. Application, hearing and order within 180 days of a complete application. Working CA guide by Durgesh Chavda.",
     keywords="FEMA compounding India, FEMA voluntary compounding foreign company, FC-GPR late filing compounding, FEMA Section 13 penalty, regularise FEMA breach Indian subsidiary",
     hero_kicker="/ Foreign Clients &middot; FEMA Compounding &middot; Updated 2026-10-14",
     hero_title_html="FEMA compounding, <em>regularise before scrutiny finds it.</em>",
-    hero_lead="Indian subsidiary of foreign parent discovers historical FEMA non-compliance &mdash; missed FC-GPR, late FLA Return, pricing guideline breach, incorrect Form FC-TRS, missed APR for ODI. Section 13 FEMA Act permits <strong>voluntary compounding</strong>: pay a defined penalty, settle the breach, close the exposure. Materially cheaper than being caught in audit or scrutiny. 90-180 day timeline. Here's the complete playbook.",
+    hero_lead="Indian subsidiary of foreign parent discovers historical FEMA non-compliance &mdash; missed FC-GPR, late FLA Return, pricing guideline breach, incorrect Form FC-TRS, missed APR for ODI. Section 15 of FEMA permits <strong>voluntary compounding</strong>: pay a defined penalty, settle the breach, close the exposure. Materially cheaper than being caught in audit or scrutiny. The RBI aims to compound within 180 days of a complete application. Here's the complete playbook.",
     sections=[
         ("/ Common FEMA breaches foreign-subsidiary carries", "What needs compounding.",
          "<ul>"
@@ -403,13 +403,13 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
          "<li><strong>Press Note 3 breach</strong>: investment from land-bordering country without prior approval.</li>"
          "<li><strong>Section 10 of FEMA</strong>: AD-category banking violations.</li>"
          "</ul>"),
-        ("/ The compounding mechanism", "Section 13 FEMA Act.",
-         "<p>Section 13 of FEMA Act 1999 + FEMA (Compounding Proceedings) Rules 2000 permit voluntary compounding of contraventions. Key features:</p>"
+        ("/ The compounding mechanism", "Section 15 of FEMA.",
+         "<p>Section 15 of FEMA 1999 and the Foreign Exchange (Compounding Proceedings) Rules, 2024 (notified 12 September 2024, replacing the 2000 Rules) permit voluntary compounding of contraventions under section 13. Key features:</p>"
          "<ul>"
          "<li><strong>Voluntary application</strong>: filed by the contravener (Indian subsidiary / Indian branch / Indian individual) to RBI's Compounding Authority (Chief General Manager or Regional Director).</li>"
          "<li><strong>Admission of contravention</strong>: application must contain full disclosure of the breach + supporting documents.</li>"
          "<li><strong>Compounding fee</strong>: as determined by Compounding Authority. Based on guidelines + amount involved + nature of breach + delay.</li>"
-         "<li><strong>Timeline</strong>: 180 days from acknowledgement of application &mdash; typical 90-180 days.</li>"
+         "<li><strong>Timeline</strong>: compounding within 180 days from receipt of a complete application.</li>"
          "<li><strong>Hearing</strong>: usually physical or video hearing with contravener's representative + CA. Opportunity to present mitigating facts.</li>"
          "<li><strong>Compounding order</strong>: specifies compounding fee + payment timeline (usually 15 days).</li>"
          "<li><strong>Payment made &rarr; contravention compounded &rarr; closed</strong>: no further prosecution under FEMA.</li>"
@@ -432,7 +432,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
          "<li><strong>Multi-year / multi-instance breaches</strong>: compound; often grouped under single application for cost efficiency.</li>"
          "</ul>"
          "<p>Rough range for typical foreign-subsidiary cleanup: INR 50,000 - INR 10 lakh depending on scope and complexity. Material certainty achieved for small outlay.</p>"),
-        ("/ Compounding application workflow", "90-180 day execution.",
+        ("/ Compounding application workflow", "Decided within 180 days of a complete application.",
          "<ol>"
          "<li><strong>Audit of FEMA compliance history</strong>: review all FC-GPR, FC-TRS, FLA, APR, Form ODI, ECB filings for 5+ year history. Identify breaches + severity.</li>"
          "<li><strong>Fact pattern + chronology</strong>: for each breach, draft chronology with dates, amounts, parties, delay period, reason (if any).</li>"
@@ -457,7 +457,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("What breaches are typically compounded for foreign-subsidiary companies?",
          "Most common: missed/late FC-GPR filing after inward FDI remittance; late FC-TRS on share transfer; non-filing of FLA Return (annual); non-filing of Form APR for Indian company's overseas investment; pricing guideline breach on share issue to non-resident; delays in share allotment post remittance; Press Note 3 breach (investment from land-bordering country without approval)."),
         ("How long does FEMA compounding take?",
-         "90-180 days from application submission to compounding order. Includes application review (30-60 days), hearing scheduling (another 30-60 days), hearing + order drafting (30-60 days). Fee payment within 15 days of order. Timing varies by Compounding Authority's docket + complexity of breach."),
+         "The RBI aims to compound within 180 days of receiving a complete application. Includes application review (30-60 days), hearing scheduling (another 30-60 days), hearing + order drafting (30-60 days). Fee payment within 15 days of order. Timing varies by Compounding Authority's docket + complexity of breach."),
         ("Does BQP handle FEMA compounding for foreign-subsidiary companies?",
          "Yes - this is a specialised service. Audit of FEMA compliance history + chronology drafting + supporting document assembly + compounding application preparation + submission + hearing representation + fee payment coordination + closure certificate. Scope-based engagement typically 2-6 months. WhatsApp +91 78018 87130."),
     ],
@@ -466,7 +466,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("foreign-company-setup-indian-subsidiary-wos.html", "Guide", "WOS Setup"),
     ],
     cta_headline="FEMA breaches surfaced in diligence? Compound voluntarily.",
-    cta_body="Materially cheaper than audit-driven compounding. Closes exposure permanently. 90-180 day timeline. BQP end-to-end: audit + application + hearing representation + closure. Scope-based engagement.",
+    cta_body="Materially cheaper than audit-driven compounding. Closes exposure permanently. The RBI aims to compound within 180 days of a complete application. BQP end-to-end: audit + application + hearing representation + closure. Scope-based engagement.",
 ))
 
 # 6. India accounting outsourcing

@@ -37,7 +37,7 @@ PAGES = [dict(
             "<strong>Income does not match:</strong> the price is high compared with the income in your returns, or you did not file a return for that year.",
             "<strong>Cash:</strong> cash payments raise a source-of-cash question. A seller cannot accept Rs 20,000 or more in cash for a property deal (section 269SS); the penalty is equal to the cash accepted.",
             "<strong>Stamp duty value above the price:</strong> if the stamp duty value is higher than the price by more than the higher of Rs 50,000 and 10% of the price, the difference is taxed as the buyer's income (section 56(2)(x)).",
-            "<strong>Buyer TDS not deducted:</strong> 1% TDS on a purchase of Rs 50 lakh or more from a resident seller (Form 26QB), or full TDS with a TAN when the seller is an NRI. A missing or short deduction leads to a TDS default notice.",
+            "<strong>Buyer TDS not deducted:</strong> 1% TDS on a purchase of Rs 50 lakh or more from a resident seller, reported in Form 141 (old 26QB), or TDS on the whole price, with no Rs 50 lakh threshold, when the seller is an NRI - from 1 October 2026 a resident individual or HUF buyer can do this with a PAN and Form 141 instead of a TAN (<a href="buying-property-from-nri-no-tan-form-141-from-1-october-2026.html">no TAN needed</a>). A missing or short deduction leads to a TDS default notice.",
             "<strong>Joint purchase:</strong> the AIS can show the full price against each buyer. Each co-owner should show their own share and where it came from.")),
         ("/ Which notice you have", "Read the heading and section first.",
          table(["Notice", "What it asks", "How to respond"], [

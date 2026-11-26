@@ -2,7 +2,7 @@
 """Batch AF: Round 16 - deadline pages for Oct-Dec 2026 (AOC-4, MGT-7, belated/revised ITR, ITR-U, disqualification, strike-off, NRI missed ITR)."""
 from build_lib import page, write_page
 
-CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your CIN/PAN and the notice or deadline you are facing. You get a fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your PAN or CIN, the deadline or notice you are facing and the documents you already have. We reply with the scope and the next steps."
 UPDATED = "<p><em>Last updated: 25 October 2026. Statutory dates can be extended by MCA or CBDT notification; check the latest circular before relying on a date.</em></p>"
 
 
@@ -118,7 +118,7 @@ PAGES = [
     ),
     dict(
         slug="belated-itr-31-december-2026-section-139-4-india",
-        title="Belated ITR Deadline 31 December 2026: Section 139(4)",
+        title="Belated ITR Last Date 31 December 2026 (AY 2026-27): Section 139(4), Rs 5,000 Late Fee, NRI TDS Refunds and What Happens After",
         em="last date to file a missed FY 2025-26 return.",
         kicker="/ Income Tax Deadline &middot; Updated 2026-10-25",
         lead="If you missed the original due date for your FY 2025-26 income tax return, you can still file a belated return under Section 139(4) until 31 December 2026. It costs a late fee of up to INR 5,000, interest under Section 234A, and in most cases the right to carry forward losses. After 31 December, the only route is an updated return (ITR-U), which carries additional tax.",

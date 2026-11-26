@@ -67,7 +67,7 @@ PAGES = [dict(
             "<strong>Schedule FA:</strong> foreign assets are reported only by resident and ordinarily resident individuals; NRIs and RNORs do not fill it.")),
         ("/ Refunds and filing", "Getting your money back.",
          ul("<strong>Check Form 26AS and the AIS</strong> for TDS on NRO interest, rent (31.2% or more) and property sales, and match it to your income.",
-            "<strong>Refund account:</strong> pre-validate an Indian bank account (NRO or NRE) on the e-filing portal; an NRI with no Indian account can give a foreign bank account for the refund.",
+            "<strong>Refund account:</strong> pre-validate an Indian bank account (usually your NRO account) on the e-filing portal; an NRI with no Indian account can give a foreign bank account for the refund.",
             "<strong>Verify within 30 days</strong> of filing (net banking, Aadhaar OTP if linked, or digital signature); an unverified return is treated as not filed.",
             "<strong>From FY 2026-27</strong> returns move to the Income-tax Act, 2025 and the new ITR forms; the same principles apply. See <a href=\"ay-2026-27-itr-forms-new-disclosures-india.html\">ITR forms and new disclosures</a>.")
          + '<p>Related: <a href="nri-missed-itr-deadline-what-to-do-india.html">NRI missed the ITR deadline</a> &middot; <a href="belated-itr-31-december-2026-section-139-4-india.html">belated return by 31 December 2026</a> &middot; <a href="ca-for-nri-tax-return-filing.html">NRI tax return filing</a> &middot; <a href="is-nre-fd-interest-taxable-in-uk-usa-canada-australia-singapore-uae-2026.html">is NRE interest taxed abroad</a> &middot; <a href="residential-status-calculator-india-nri-rnor-section-6.html">residential status calculator</a>.</p>'
@@ -79,13 +79,13 @@ PAGES = [dict(
           ("Does an NRI need to file an ITR in India?", "Yes if Indian income (excluding exempt NRE/FCNR interest) is above the basic exemption limit, or to claim a refund of excess TDS or carry forward losses. With only NRE or FCNR interest, no return is needed."),
           ("Which ITR for an NRI with no income?", "None is required, but if TDS was deducted (for example on NRO interest) file ITR-2 to claim the refund."),
           ("Can an NRI claim 80C deduction?", "Yes, under the old regime: life insurance, an existing PPF account, ELSS, children's tuition fees and home-loan principal. NRIs cannot open new PPF accounts, buy new NSCs or invest in the Senior Citizens Savings Scheme."),
-          ("Can an NRI get a tax refund in India?", "Yes. File ITR-2 or ITR-3 claiming the excess TDS; the refund goes to a pre-validated Indian account (NRO or NRE), or to a foreign account if you have no Indian account. For FY 2025-26 a belated return is possible until 31 December 2026."),
+          ("Can an NRI get a tax refund in India?", "Yes. File ITR-2 or ITR-3 claiming the excess TDS; the refund goes to a pre-validated Indian account (usually your NRO account; confirm with your bank before using an NRE account), or to a foreign account if you have no Indian account. For FY 2025-26 a belated return is possible until 31 December 2026."),
           ("Can BQP file my NRI return?", "Yes. " + CONTACT)],
     related=[("nri-missed-itr-deadline-what-to-do-india.html", "NRI missed the ITR deadline"), ("ca-for-nri-tax-return-filing.html", "NRI tax return filing"),
              ("belated-itr-31-december-2026-section-139-4-india.html", "Belated return by 31 December 2026")],
     cta_h="Filing your Indian return from abroad?", cta_b=CONTACT,
     keywords="which ITR to file for NRI, which ITR for NRI AY 2026-27, does NRI need to file ITR, NRI ITR with no income, can NRI claim 80C, NRI tax refund India, is dividend taxable for NRI, ITR-2 for NRI",
-    desc="Which ITR should an NRI file (AY 2026-27)? ITR-2 (or ITR-3 with business income); ITR-1/ITR-4 only for residents; who must file; 31 July and 31 December 2026 dates; no 87A rebate; 80C and other deductions; refunds to NRO/NRE or a foreign account; dividends and treaty relief.",
+    desc="Which ITR should an NRI file (AY 2026-27)? ITR-2 (or ITR-3 with business income); ITR-1/ITR-4 only for residents; who must file; 31 July and 31 December 2026 dates; no 87A rebate; 80C and other deductions; refunds to a pre-validated Indian (usually NRO) account or a foreign account; dividends and treaty relief.",
     howto={"name": "How an NRI files an Indian income-tax return", "description": "Steps for FY 2025-26.", "steps": [
         {"name": "Confirm residential status", "text": "Count days in India to confirm non-resident (or RNOR) status."},
         {"name": "Collect income and TDS", "text": "Download Form 26AS and AIS; gather interest certificates, rent, capital gains statements."},

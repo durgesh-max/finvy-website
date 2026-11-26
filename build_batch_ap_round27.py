@@ -2,7 +2,7 @@
 """Batch AP: Round 27 - pages answering what people ask on X: FAST-DS emails, ITR refund delays, foreign cloud tax holiday."""
 from build_lib import page, write_page
 
-CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130. Fixed-scope quote within 48 hours."
+CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130."
 
 
 def ul(*items):
@@ -72,7 +72,7 @@ PAGES = [
     ),
     dict(
         slug="itr-refund-delayed-2026-why-and-what-to-do",
-        title="ITR and TDS Refund Status 2026: Check by PAN, How Many Days It Takes, Why Refunds Are Delayed and 244A Interest",
+        title="Income Tax Refund Delayed in 2026? Reasons, Refund Status by PAN, How Many Days It Takes, 244A Interest and Refunds for NRIs",
         em="and the interest you are owed.",
         kicker="/ Income Tax &middot; Updated 2026-10-30",
         lead="Many taxpayers who filed on time are still waiting for refunds. The Department can process a return up to nine months after the end of the financial year in which it was filed, so a return filed in 2026 can lawfully be processed as late as December 2026. Refunds are often held up by mismatches the taxpayer can fix, and a delayed refund earns interest of 0.5% a month under Section 244A.",
@@ -114,6 +114,8 @@ PAGES = [
             ("How long can the Income Tax Department take to process my return?", "Up to nine months from the end of the financial year in which the return was filed."),
             ("Do I get interest on a delayed refund?", "Yes, generally 0.5% per month under Section 244A, from 1 April of the assessment year if you filed on time. It can be reduced for delays caused by the taxpayer."),
             ("How do I complain about a delayed refund?", "Raise a grievance through e-Nivaran on the e-filing portal after checking that no notice or verification is pending."),
+        ("How can an NRI claim a TDS refund, and into which account?", "File ITR-2 (or ITR-3 with business income) claiming the TDS shown in Form 168 (old 26AS) and AIS, and e-verify it. The refund goes to the bank account pre-validated on the e-filing portal; for an NRI that is usually the NRO account, because Indian-source money belongs there. An income tax refund is not clearly listed among the credits allowed into an NRE account, so check with your bank before nominating one. A non-resident with no Indian account can give one foreign bank account in the return. For FY 2025-26 a belated or revised return can still claim the refund until 31 December 2026."),
+        ("What should I send to check why my refund is stuck?", "WhatsApp us your PAN, the acknowledgement of the return, the processing status or intimation under section 143(1) if received, any notice or communication on the portal, and Form 168 / AIS. We check for a bank-validation failure, a TDS mismatch, an adjustment against old demand or a pending notice, and tell you the fix: re-validation, a rectification request, a response to the notice or a grievance."),
             ("Can BQP chase my refund?", "Yes, including NRI refunds. " + CONTACT),
         ],
         related=[("section-143-1-intimation-response-india-2026.html", "Responding to a Section 143(1) intimation"), ("form-26as-vs-ais-vs-tis-india-2026.html", "Form 26AS, AIS and TIS")],

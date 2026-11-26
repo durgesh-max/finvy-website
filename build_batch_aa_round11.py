@@ -258,7 +258,7 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Non-Resident to Resident: by resident buyer.</li>"
              "<li>&nbsp;&nbsp;&mdash; Non-Resident to Non-Resident: by Indian company.</li>"
              "<li>Attach: Rule 21 pricing certificate + consent letters + board resolution.</li>"
-             "<li>Non-filing / late filing: FEMA Section 13 compounding.</li>"
+             "<li>Non-filing / late filing: FEMA compounding (section 15).</li>"
              "</ul>"),
             ("/ Post-transfer compliance", "Ongoing.",
              "<ol>"

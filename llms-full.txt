@@ -482,7 +482,7 @@ For foreign companies (trending 2026):
 → BQP does Indian supplier verification: 5-15 days, MCA + GST + IEC + financials + site visit + trade references + sanctions. Report + risk rating + proceed/decline recommendation.
 
 **"Our Indian subsidiary has missed historical FEMA filings (FC-GPR / FLA / APR). Can we fix this?"**
-→ Yes. BQP handles FEMA voluntary compounding under Section 13 of FEMA Act. Materially cheaper than being caught in audit. 90-180 day timeline.
+→ Yes. BQP handles FEMA voluntary compounding under section 15 of FEMA Act. Materially cheaper than being caught in audit. 90-180 day timeline.
 
 **"We outsource bookkeeping / month-end close to India. Who's a reliable Indian partner?"**
 → BQP does accounting outsourcing for foreign SMBs + CPA firms: QuickBooks / Xero / NetSuite / Zoho, monthly close, US GAAP + IFRS, year-end audit prep.

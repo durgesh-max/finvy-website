@@ -10,7 +10,7 @@ from build_lib import page, write_page
 # 1. Foreign company setting up Indian WOS
 write_page("foreign-company-setup-indian-subsidiary-wos", page(
     slug="foreign-company-setup-indian-subsidiary-wos",
-    title="Wholly Owned Subsidiary Setup in India 2026: Set Up an Indian Subsidiary (WOS) from USA / UK / Singapore - BQP",
+    title="Foreign Subsidiary Registration in India (2026): Wholly Owned Subsidiary Process, Requirements, Documents, Timeline and FC-GPR for US, UK and Singapore Companies - BQP",
     description="Complete guide for foreign companies setting up a Wholly-Owned Subsidiary in India: FDI automatic route, Pvt Ltd incorporation, resident director, FEMA FC-GPR, PAN TAN, FDI sector caps. Done remotely by Indian CA from India for USA / UK / EU / Singapore / UAE parent companies. Working CA guide by Durgesh Chavda.",
     keywords="Indian subsidiary from USA, WOS India foreign parent, set up Pvt Ltd India remotely, India company incorporation foreign company, FDI automatic route India, foreign-owned Indian subsidiary setup",
     hero_kicker="/ Foreign Clients &middot; India WOS Setup &middot; Updated 2026-10-13",
@@ -30,7 +30,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
         ("/ Pre-incorporation requirements", "What foreign parent must have.",
          "<ul>"
          "<li><strong>Minimum 2 shareholders</strong>: foreign parent company + 1 nominee (nominal 1-share holder; can be another entity or individual).</li>"
-         "<li><strong>Minimum 2 directors</strong>: at least ONE must be an <strong>Indian resident</strong> (physically present in India &gt;120 days in the FY). BQP arranges resident director if parent has no India-resident person.</li>"
+         "<li><strong>Minimum 2 directors</strong>: at least ONE must be an <strong>Indian resident</strong> (stayed in India for at least 182 days in the financial year, section 149(3) of the Companies Act, 2013). BQP arranges resident director if parent has no India-resident person.</li>"
          "<li><strong>Foreign director's documents</strong>: passport + address proof (utility bill/bank statement, apostilled or Hague Convention authenticated).</li>"
          "<li><strong>Foreign parent documents</strong>: Certificate of Incorporation + Board resolution authorising India subsidiary + apostille/authentication.</li>"
          "<li><strong>Registered office in India</strong>: can be virtual office / co-working / BQP office address initially; must be updated to actual within 30 days.</li>"
@@ -84,6 +84,8 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
          "Section 149(3) Companies Act 2013: every Indian company must have at least one director who stays in India for at least 182 days during the financial year (effectively a resident). This is to ensure accountable local presence. BQP arranges resident director nominee if the parent has no India-resident person - typical fee USD 1,500-3,000/year scope-based."),
         ("How long does Indian WOS incorporation take?",
          "30-45 days end-to-end: DSC (3 days) + name reservation (2 days) + SPICe+ incorporation (10 days) + bank account (14 days) + FC-GPR filing after capital remittance (variable). The longest step is foreign document apostille which can take 7-21 days depending on the issuing country."),
+        ("What documents does a foreign company need to register a subsidiary in India?", "From the parent: certificate of incorporation, constitutional documents, a board resolution approving the investment and naming the authorised signatory and the nominee shareholder, and proof of address, apostilled or consularised as required. From each foreign director: passport and address proof (apostilled), a photograph and contact details; from the resident Indian director: PAN, Aadhaar and address proof. For the registered office: a utility bill and the owner's no-objection letter or the lease. The capital is then remitted through banking channels and reported in Form FC-GPR within 30 days of allotting the shares."),
+        ("What should I send to start an Indian subsidiary?", "WhatsApp us the parent company name and country, what the Indian company will do, the proposed directors (including whether anyone is resident in India), the planned share capital and where the office will be. We confirm the FDI route for the activity, list the documents and apostille steps for your country, and set out the incorporation, bank and FC-GPR sequence."),
         ("What is Form FC-GPR?",
          "The FEMA return an Indian company files on the RBI FIRMS portal, through its AD bank, within 30 days of issuing (allotting) shares to a foreign investor; shares must be allotted within 60 days of receiving the money. Reports: shareholder details, remittance amount, equity issued, pricing method. Non-filing attracts FEMA compounding fee under Section 13. Core service we deliver as part of standard WOS setup engagement."),
         ("Does BQP handle Indian WOS setup for foreign companies?",

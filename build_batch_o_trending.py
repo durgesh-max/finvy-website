@@ -115,14 +115,14 @@ write_page("nri-inheritance-indian-property-tax-fema-2026", page(
          "<li><strong>If deceased left a Will (testamentary succession)</strong>:</li>"
          "<li>&nbsp;&nbsp;&mdash; Original Will + witness confirmation.</li>"
          "<li>&nbsp;&nbsp;&mdash; Probate from Indian High Court if (a) deceased was Christian / Parsi / Jew, or (b) immovable property in Mumbai / Chennai / Kolkata (mandatory jurisdictional probate requirement). Elsewhere, probate optional for Hindu / Muslim / Sikh / Jain testators but strengthens title.</li>"
-         "<li>&nbsp;&nbsp;&mdash; Timeline: 6-24 months for probate.</li>"
+         "<li>&nbsp;&nbsp;&mdash; Probate timing depends on the court and whether anyone objects.</li>"
          "<li><strong>If no Will (intestate succession)</strong>:</li>"
          "<li>&nbsp;&nbsp;&mdash; Hindu Succession Act 1956 for Hindu / Buddhist / Jain / Sikh.</li>"
          "<li>&nbsp;&nbsp;&mdash; Indian Succession Act 1925 for Christian / Parsi / Jew.</li>"
          "<li>&nbsp;&nbsp;&mdash; Muslim Personal Law for Muslim.</li>"
          "<li>&nbsp;&nbsp;&mdash; Succession Certificate from District Court (for movable assets &mdash; bank balance, shares).</li>"
          "<li>&nbsp;&nbsp;&mdash; Legal Heir Certificate from Revenue Authority (for immovable property mutation).</li>"
-         "<li>&nbsp;&nbsp;&mdash; Timeline: 6-18 months.</li>"
+         "<li>&nbsp;&nbsp;&mdash; Timing depends on the court and whether anyone objects.</li>"
          "<li><strong>Mutation (immovable property)</strong>: application to Municipal Corporation / Revenue Department with death certificate + Will / Succession Certificate / Legal Heir Certificate + NOC from co-heirs + property documents. Mutation updates municipal records to NRI's name.</li>"
          "<li><strong>Bank / demat / MF transfer</strong>: with Succession Certificate + ID documents.</li>"
          "<li><strong>NRO account</strong>: NRI should have NRO account to hold inherited Indian funds. Operations limited to local use + repatriation under FEMA.</li>"
@@ -153,7 +153,7 @@ write_page("nri-inheritance-indian-property-tax-fema-2026", page(
         ("Is there inheritance tax on Indian property for NRI heir?",
          "No - India abolished estate duty in 1985 and has no inheritance tax. Section 56(2)(x) Income Tax Act specifically exempts inheritance from being treated as 'Income from Other Sources'. NRI inheriting Indian property faces no immediate tax liability at inheritance; only future income from the property (rent, interest, dividend) + capital gains on later sale are taxable."),
         ("How does an NRI legally transfer inherited Indian property to their name?",
-         "Depends on whether a Will exists. With Will: obtain probate from Indian High Court (mandatory for Mumbai/Chennai/Kolkata immovable; optional elsewhere for Hindu/Muslim/Sikh/Jain). Without Will: Succession Certificate from District Court (for movable) + Legal Heir Certificate from Revenue Authority (for immovable mutation). Timeline: 6-24 months. Then mutation with Municipal Corporation/Revenue Department updates records to NRI's name."),
+         "Depends on whether a Will exists. With Will: obtain probate from Indian High Court (mandatory for Mumbai/Chennai/Kolkata immovable; optional elsewhere for Hindu/Muslim/Sikh/Jain). Without Will: Succession Certificate from District Court (for movable) + Legal Heir Certificate from Revenue Authority (for immovable mutation). Timing depends on the court or authority and whether anyone objects. Then mutation with Municipal Corporation/Revenue Department updates records to NRI's name."),
         ("Is a will made abroad valid for property in India?", "Usually yes, if it is valid where it was made, but succession to immovable property in India is governed by Indian law, and Indian authorities will normally want the will proved in an Indian court before the property is transferred. Where the will has already been probated abroad, the heirs apply for an ancillary probate in India rather than starting from scratch."),
         ("Is probate mandatory for a will covering property in India?", "No longer, anywhere in India. The Repealing and Amending Act, 2025 omitted section 213 of the Indian Succession Act from 21 December 2025, so probate is no longer compulsory even for wills covering property in Mumbai, Chennai or Kolkata. Probate is still available and is often worth getting for high-value or disputed estates, and banks, housing societies and registrars may still ask for it or a succession certificate. Take local legal advice."),
         ("Do NRI heirs need a succession certificate?", "A succession certificate covers movable assets such as bank deposits, shares and debts when there is no will or no probate; immovable property passes by the will, probate or a legal heir certificate and mutation. The tax side is simpler: India has no inheritance tax, and the heir pays tax only on income or a later sale."),
@@ -503,7 +503,7 @@ write_page("nri-pan-aadhaar-linking-exemption-rules", page(
          "<li><strong>NRI on long India visit (182+ days)</strong>: becomes eligible.</li>"
          "<li><strong>Returning NRI (settled in India)</strong>: becomes eligible.</li>"
          "<li><strong>If NRI has Aadhaar</strong> (obtained during past India residence): PAN-Aadhaar linking still not mandatory under Notification 37/2017 exemption. But can voluntarily link if useful.</li>"
-         "<li><strong>Aadhaar enrolment procedure</strong>: visit nearest Aadhaar Enrolment Centre with ID + address proof + biometrics capture. Takes 2-4 weeks.</li>"
+         "<li><strong>Aadhaar enrolment procedure</strong>: visit nearest Aadhaar Enrolment Centre with ID + address proof + biometrics capture.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-15.</em></p>"),
     ],

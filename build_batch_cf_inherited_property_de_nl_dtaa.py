@@ -44,14 +44,14 @@ def src(text):
     return f'<p><strong>Sources:</strong> {text} <em>{UPDATED}</em> General information, not legal or tax advice for your situation.</p>'
 
 
-C_INH = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who passed away and when, whether there is a will, the heirs and where they live, and the property details. "
-         "We reply the same working day with the steps, the tax on a sale and a fixed-scope quote; legal documents are prepared with your lawyer.")
+C_INH = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with who passed away and when, whether there is a will, the heirs and where they live, and the property details (the previous owner's purchase deed, the death certificate, the will or legal heir certificate, mutation status and any sale offer). "
+         "We set out the steps, the tax on a sale and the buyer TDS position; legal documents are prepared with your lawyer.")
 C_NRI = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your country of residence, the Indian income and the years involved. "
          "We reply the same working day with the treaty position and a fixed-scope quote.")
 
 INH = dict(
     slug="inherited-property-india-rules-rights-sale-tax-nri-resident-2026",
-    title="Inherited Property in India (2026): Who Inherits, Documents, Selling It, Capital Gains Tax for Residents and NRIs",
+    title="Inherited Property in India (2026): Who Inherits, Documents, Selling It, Capital Gains Tax and Buyer TDS for Residents, NRIs and OCIs",
     em="no inheritance tax, but the sale is taxed.",
     kicker=f"/ Inheritance &middot; Property &middot; Residents and NRIs &middot; Updated {DATE}",
     lead=("India has <strong>no inheritance or estate tax</strong>: receiving property from a parent or relative is not taxed. Tax arises only when the heir <strong>sells</strong>. "
@@ -88,6 +88,7 @@ INH = dict(
           ("How is capital gains tax worked out on inherited property?", "The heir uses the previous owner's purchase cost and holding period (fair market value on 1 April 2001 for older property). Long-term gains are taxed at 12.5% without indexation; residents may choose 20% with indexation for land or buildings acquired before 23 July 2024."),
           ("Do daughters have equal rights in inherited property?", "Yes, for Hindus, Sikhs, Jains and Buddhists. Since the 2005 amendment to the Hindu Succession Act, daughters are coparceners by birth with the same rights as sons, as confirmed by the Supreme Court in 2020."),
           ("Can an NRI inherit and sell property in India?", "Yes. An NRI or OCI can inherit any property in India, sell it (agricultural land only to a resident Indian citizen) and repatriate up to USD 1 million per financial year."),
+        ("How much TDS does the buyer deduct when an NRI sells inherited property?", "The buyer deducts TDS on the whole sale price, not just the gain, under section 393 of the 2025 Act (old 195). The previous owner's holding period counts, so inherited property is usually long-term: 12.5% plus surcharge and 4% cess, about 13% of the price up to Rs 50 lakh, 14.3% up to Rs 1 crore and 14.95% above. Because the gain is worked out on the previous owner's cost (or the 1 April 2001 value for older property), this TDS can be well above the tax actually due. A lower TDS certificate in Form 128 (old Form 13), applied for before the sale, or a refund through the Indian return deals with the excess. From 1 October 2026 a resident individual or HUF buyer can deduct with a PAN and Form 141, without a TAN."),
           ("What documents do I need to sell inherited property?", "Death certificate, will and probate or legal heir certificate, mutation in the records, and release or partition deeds if the heirs are dividing the property."),
         ("What is property mutation?", "Mutation (often called dakhil kharij) is updating the government revenue or municipal records to show the new owner after an inheritance, gift or sale. It lets the new owner pay property tax and is usually asked for by buyers, banks and housing societies, but it is not proof of ownership: title comes from the will, inheritance law or the registered deed, and courts have repeatedly held that a mutation entry does not create title."),
         ("How can an NRI apply for mutation of inherited property?", "Apply to the local revenue office (for land) or the municipal body or housing society (for a flat), with the death certificate, the will or legal heir or succession documents, the title deed and identity proof. Many states, including Maharashtra, accept applications online, and an NRI can act through a relative holding a registered power of attorney instead of travelling."),

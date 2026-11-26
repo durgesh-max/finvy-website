@@ -37,7 +37,7 @@ SKELETON = ('<div style="border:1px solid var(--line,#ddd);border-radius:6px;pad
             '<p><em>This skeleton is a starting point, not legal advice. The right reply depends on the section, the query and the evidence.</em></p>')
 PAGES = [dict(
     slug=SLUG,
-    title="Income Tax Notice Reply Letter Format (2026): Sample Structure, Annexures and How to Submit Through e-Proceedings",
+    title="Income Tax Notice Reply Format (2026): Sample Letter to Copy into Word, Time Limit, Annexures and How to Submit Online Through e-Proceedings",
     em="answer each point, attach the proof, submit before the due date.",
     kicker="/ Taxpayers, NRIs and companies &middot; Income tax &middot; Updated 2026-11-25",
     lead=("<strong>There is no official format for replying to an income tax notice.</strong> "
@@ -80,6 +80,8 @@ PAGES = [dict(
           ("How do I submit a reply to an income tax notice online?", "Log in to the e-filing portal, open Pending Actions and then e-Proceedings, choose the notice, click Submit Response, and upload the reply and annexures before the due date."),
           ("What if I cannot reply by the due date?", "Request an adjournment or extension on the portal before the due date, giving a reason. Not replying can lead to an assessment on the information available and penalties."),
           ("Can I edit my reply after submission?", "No. A submitted response cannot be edited, though you can make a further submission. Check the reply and attachments before submitting."),
+        ("Can I use an AI tool to draft my income tax notice reply?", "An AI draft can help you organise points, but the reply goes on record and cannot be edited once submitted. It has to quote the right section and tax year, match the figures in your return, Form 168 (old 26AS) and AIS, and attach the evidence that supports each point. A CA checks those before anything is filed. To get a reply checked or prepared, WhatsApp +91 78018 87130 with the notice PDF, the due date and your return for that year."),
+        ("How much does a CA charge to reply to an income tax notice?", "It depends on the notice: a simple 143(1) mismatch is different from a scrutiny or reassessment notice with several queries. After reading the notice, the CA gives a written scope and fee before starting. Send the notice and due date on WhatsApp for a quick read."),
           ("How can I check whether an income tax notice is genuine?", "Use the portal's authenticate notice service with the DIN on the notice. Under CBDT Circular 19/2019, a communication without a DIN is treated as invalid."),
           ("Can BQP reply to an income tax notice for me?", "Yes. CA Durgesh Chavda can act as authorised representative, draft the point-wise reply with annexures and handle hearings. " + C)],
     related=[("how-to-respond-to-income-tax-notice-india.html", "How to respond to an income tax notice"),

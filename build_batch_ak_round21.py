@@ -56,7 +56,7 @@ PAGES = [
     ),
     dict(
         slug="dir-3-kyc-deactivated-mca-filings-blocked-urgent-india",
-        title="DIN Deactivated for DIR-3 KYC? How to Reactivate It in 2026",
+        title="DIN Deactivated (2026): Why It Happens, the DIR-3 KYC Late Fee and How to Reactivate Your DIN",
         em="and unblock your company's MCA filings.",
         kicker="/ MCA &middot; DIN Reactivation &middot; Updated 2026-10-29",
         lead="A DIN marked 'Deactivated due to non-filing of DIR-3 KYC' cannot sign any MCA form, so AOC-4, MGT-7 and other filings stop. Many DINs were deactivated for missing the annual KYC under the old rules. Reactivation means filing the pending KYC with the INR 5,000 fee. Under the 2026 rules, KYC is then due only once every three years, plus within 30 days of any change in contact details.",
@@ -78,6 +78,8 @@ PAGES = [
         ],
         faqs=[
             ("How do I reactivate a deactivated DIN?", "File the pending DIR-3 KYC on the MCA portal and pay the INR 5,000 fee. The DIN becomes active once the filing is processed."),
+        ("Why is my DIN deactivated?", "Usually because DIR-3 KYC was not filed by the due date: the MCA master data then shows the DIN as deactivated for non-filing of DIR-3 KYC, and the director cannot sign company forms until it is filed. A DIN can also show other statuses - for example disqualified under section 164(2) after a company's three-year filing default - which filing DIR-3 KYC does not fix; that needs the company's overdue returns dealt with first."),
+        ("What should I send to reactivate a deactivated DIN?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the DIN, the director's PAN and Aadhaar (or passport for a foreign national), the director's own mobile number and email for the OTPs, a valid digital signature certificate, and the list of company forms waiting to be signed. We check the DIN status on the MCA portal, file the DIR-3 KYC and then the pending forms."),
             ("Can a director with a deactivated DIN sign AOC-4 or MGT-7?", "No. The DIN must be active before the director can sign any MCA form."),
             ("Do I have to file DIR-3 KYC every year after reactivation?", "No. From 31 March 2026 KYC is due once every three financial years, by 30 June, plus within 30 days of any change in contact details."),
             ("Can BQP reactivate a foreign director's DIN?", "Yes, working remotely with the director on OTP verification and then filing the company's pending forms. " + CONTACT),

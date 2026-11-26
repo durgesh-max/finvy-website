@@ -5,7 +5,7 @@ from build_lib import page, write_page
 # 1. PILLAR: NRI Taxation India Complete Guide
 write_page("nri-taxation-india-complete-guide", page(
     slug="nri-taxation-india-complete-guide",
-    title="NRI Taxation India 2026 Complete Guide | Residency, DTAA, Returns - BQP",
+    title="NRI Taxation in India (2026): Residential Status, What NRIs Pay Tax On, TDS, DTAA Relief, ITR-2 and Refunds - BQP",
     description="NRI taxation India 2026: residential status (RNOR / NRI / Resident), DTAA relief, Section 115A, capital gains, NRE / NRO / FCNR account tax, repatriation. Working CA guide by Durgesh Chavda.",
     keywords="NRI taxation India, NRI tax guide 2026, NRI residential status, RNOR status India, NRI DTAA India, NRE account tax, NRO account tax, Section 115A NRI, NRI capital gains India, NRI tax return filing",
     hero_kicker="/ NRI tax &middot; Pillar guide",
@@ -24,11 +24,11 @@ write_page("nri-taxation-india-complete-guide", page(
          "<li>RNOR: Resident in India in the current year but non-resident in India in 9 out of the preceding 10 years, OR physically present in India for 729 days or less in the preceding 7 years.</li>"
          "<li>ROR: Resident who does not meet the RNOR carve-outs.</li>"
          "</ul>"
-         "<p>Why it matters: ROR is taxed on worldwide income. NRI and RNOR are taxed on India-source income only. This single determination can change tax liability by lakhs or crores for high-earning returnees.</p>"),
+         "<p>Why it matters: ROR is taxed on worldwide income. NRI and RNOR are taxed on Indian income only (RNOR also on foreign income from a business controlled or a profession set up in India), so the status decides whether foreign income is taxed in India at all.</p>"),
         ("/ What income India taxes for each status", "ROR vs RNOR vs NRI.",
          "<p><strong>Resident and Ordinarily Resident (ROR):</strong> taxed on worldwide income &mdash; Indian salary + foreign salary + Indian capital gains + foreign capital gains + Indian rental + foreign rental + foreign business income.</p>"
-         "<p><strong>Resident but Not Ordinarily Resident (RNOR):</strong> taxed on India-source income only (same as NRI), unless the foreign income is from a business controlled from India or a profession set up in India &mdash; in which case the foreign income is also taxed. RNOR is a transitional 2-3 year window for returnees that preserves NRI-like treatment on foreign assets.</p>"
-         "<p><strong>Non-Resident (NRI):</strong> taxed on India-source income only. India-source includes: salary earned in India, salary paid by Indian employer regardless of where earned, rental from Indian property, capital gains on Indian assets, dividends from Indian companies, interest on Indian bank accounts (NRO), interest from Indian debt instruments.</p>"),
+         "<p><strong>Resident but Not Ordinarily Resident (RNOR):</strong> taxed on India-source income only (same as NRI), unless the foreign income is from a business controlled from India or a profession set up in India &mdash; in which case the foreign income is also taxed. RNOR is a transitional status for returnees, usually lasting two or three years depending on past stays, that keeps NRI-like treatment for most foreign income.</p>"
+         "<p><strong>Non-Resident (NRI):</strong> taxed on India-source income only. India-source includes: salary earned in India, salary received in India, rental from Indian property, capital gains on Indian assets, dividends from Indian companies, interest on Indian bank accounts (NRO), interest from Indian debt instruments.</p>"),
         ("/ The NRI-specific tax regimes", "Section 115A, Section 115AC and more.",
          "<p>India has special lower-rate regimes for NRIs on specific income heads:</p>"
          "<p><strong>Section 115A:</strong> NRI dividend income from Indian companies &mdash; 20% rate (plus surcharge and cess) with no deduction and no need to file return if TDS is correctly deducted. Royalty and fees for technical services from Indian payers: 20% on the gross amount (raised from 10% by the Finance Act, 2023), or the lower treaty rate.</p>"
@@ -79,9 +79,11 @@ write_page("nri-taxation-india-complete-guide", page(
         ("What is TRC and Form 10F?",
          "TRC (Tax Residency Certificate) is a certificate issued by the NRI's country tax authority certifying their tax residence in that country. Form 10F is an electronic self-declaration filed on the Indian income tax portal providing details of the NRI's foreign residence and treaty position. Both are required to claim DTAA treaty-reduced rates on Indian-source income."),
         ("Can an NRI claim DTAA relief if India has no treaty with their country?",
-         "No. DTAA relief requires an operative tax treaty between India and the NRI's country of residence. For countries without treaties (relatively few remaining), Section 91 unilateral relief may apply where the NRI pays tax on the same income in both countries &mdash; India allows credit limited to the lower of the two rates. This is weaker and less certain than treaty relief."),
+         "No. DTAA relief requires an operative tax treaty between India and the NRI's country of residence. For countries without a treaty, India's unilateral relief (section 91 of the 1961 Act) is available only to residents of India, so it does not help an NRI; relief for the Indian tax then depends on the foreign-tax-credit rules of the country where you live."),
         ("How much can an NRI repatriate from India per year?",
          "Up to USD 1 million per financial year from the balances in an NRO account, including from sale of inherited or purchased Indian property, with Form 15CA + Form 15CB CA certification. Amounts beyond USD 1M in a year require RBI approval, or sequential year-wise repatriation across multiple years. NRE / FCNR account balances are freely repatriable without the USD 1M cap."),
+        ("Can an NRI get a refund of excess TDS in India?", "Yes. File ITR-2 (or ITR-3 with business income) claiming the TDS shown in Form 168 (old 26AS) and AIS. The refund goes to a pre-validated Indian bank account such as an NRO account; a non-resident with no Indian account can give one foreign account in the return. For FY 2025-26 a belated or revised return can still be filed until 31 December 2026, and the refund carries interest of 0.5% a month under the refund-interest rules."),
+        ("What should I send for an NRI tax review?", "WhatsApp us your PAN, your days in India for the year (passport stamps or travel history), Form 168 / AIS, details of Indian income (rent, interest, capital gains, dividends), your country of residence and whether you have a tax residency certificate. We confirm your residential status, the right ITR, treaty relief and any refund due."),
         ("Does BQP handle NRI tax filings and planning?",
          "Yes. NRI annual ITR filing (ITR-2 or ITR-3), DTAA relief + TRC + Form 10F co-ordination, Form 15CA/CB for repatriation, Section 195 TDS positioning on India-source payments, residential-status planning for return-of-residence, and sale of Indian property for NRIs. Dubai, US, UK, Singapore NRI clients handled regularly. Request via get-a-quote.html."),
     ],

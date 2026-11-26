@@ -304,7 +304,7 @@ PAGES = [
              "<li>Common scenario: person obtained PAN when resident (say 2010) + moved abroad post 2015 + PAN database still shows them as 'resident'.</li>"
              "<li>Income Tax applies 'resident' status to PAN for Section 139AA linking requirement.</li>"
              "<li>Linking deadline passed → PAN marked 'inoperative'.</li>"
-             "<li>NRI discovers when: Section 195 TDS at 20% (PAN-absent rate), bank KYC refresh fails, mutual fund KYC fails, Form 15CB signing fails, Indian ITR cannot be e-filed.</li>"
+             "<li>NRI discovers when: TDS is deducted at the higher section 206AA rate, a refund is held back, or a bank or mutual fund KYC refresh flags the PAN.</li>"
              "</ul>"),
             ("/ Form 49AA fix workflow", "Step-by-step.",
              "<ol>"
@@ -315,20 +315,20 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Passport-size photo.</li>"
              "<li><strong>Online filing</strong>: NSDL (now Protean) e-governance portal: tin-nsdl.com → PAN services → Changes or Correction → select 'Non-resident' category.</li>"
              "<li>Fill Form 49AA online with specific NRI details.</li>"
-             "<li>Upload documents + pay fee (~INR 100-200 + courier).</li>"
+             "<li>Upload documents and pay the correction fee shown on the portal.</li>"
              "<li>Submit for processing.</li>"
              "<li>If PAN already inoperative: filing Form 49AA simultaneously + requesting restoration. May require Jurisdictional AO contact.</li>"
-             "<li>Processing: 15-30 days.</li>"
+             "<li>Processing time varies; keep the acknowledgement number.</li>"
              "<li>Updated PAN: database status changes to 'Non-Resident'. Section 139AA exemption applies. PAN reactivated.</li>"
              "</ol>"),
             ("/ Post-fix verification", "Ongoing readiness.",
              "<ul>"
              "<li>Verify PAN status on Indian income tax e-filing portal: shows 'Non-Resident' flag.</li>"
-             "<li>Confirm Section 195 TDS at treaty rate (not 20% default) with Indian payers.</li>"
+             "<li>Confirm with Indian payers that TDS is back at the normal or treaty rate (not the higher section 206AA rate).</li>"
              "<li>Bank KYC refresh with updated NRI status.</li>"
              "<li>Mutual fund + demat KYC with NRI status.</li>"
              "<li>Form 10F electronic filing enabled (login works).</li>"
-             "<li>Form 15CB signing by Indian payer's CA succeeds.</li>"
+             "<li>Pending refunds are released on processing.</li>"
              "<li>Indian ITR e-filing works.</li>"
              "</ul>"),
             ("/ What if PAN remains stuck", "Escalation.",
@@ -344,23 +344,24 @@ PAGES = [
             ("Why is my (NRI) PAN inoperative despite being exempt?",
              "PAN database still shows you as 'resident' from original Form 49A issuance. Section 139AA applies based on database status. CBDT Notification 37/2017 exemption needs correct NRI flag in database. Fix: Form 49AA update to NRI status."),
             ("How long does PAN NRI status update take?",
-             "15-30 days typical processing. Faster if application well-documented. Can be expedited via Jurisdictional AO contact in urgent cases. BQP coordinates for faster processing in urgent NRI situations."),
+             "Processing time varies and is not fixed by any rule. A complete application with clear proof of non-resident status avoids back-and-forth; keep the acknowledgement number and follow up with the Jurisdictional AO if the status does not change."),
             ("What happens if PAN remains inoperative?",
-             "Section 195 TDS at 20% default on all India-source income (vs 10-15% treaty rate). Indian ITR cannot be e-filed. Form 10F electronic filing blocked. Bank/MF/demat KYC refresh fails. Form 15CB signing blocked. Materially blocks most financial operations - fix urgently."),
+             "Under CBDT Circular 3/2023, while a PAN is inoperative: refunds are not issued, no interest is paid on refunds for that period, and tax is deducted or collected at the higher rate (under section 206AA / 206CC, at least 20% or the normal rate if higher), so treaty rates are lost in practice. The return can still be filed. Banks, brokers and mutual funds may also flag the account at KYC refresh. Updating the PAN to non-resident status restores normal treatment going forward."),
         ("Can an NRI get an Aadhaar card?", "Yes. An NRI with a valid Indian passport can enrol at any Aadhaar enrolment centre in India on any visit; the 182-day stay rule that applies to residents does not apply to NRIs. Aadhaar is optional for NRIs, and an NRI does not need it to keep a PAN operative if the PAN records show non-resident status."),
         ("What documents does an NRI need for Aadhaar?", "A valid Indian passport, which UIDAI accepts as proof of identity, address and date of birth. If you want an address other than the one in the passport, bring any other address proof UIDAI accepts from residents. You also give an email address, and you can book an appointment at a centre through the UIDAI website."),
         ("Can an NRI in the USA or UAE apply for Aadhaar from abroad?", "No. Enrolment needs biometrics at an Aadhaar centre in India, so it has to be done during a visit. OCI cardholders and foreign passport holders are not NRIs for Aadhaar and follow the resident-foreigner route, which needs 182 days of stay in India."),
             ("Can I use alternate PAN while updating?",
              "No - two PANs linked to same person creates regularisation issue. Must update existing PAN to NRI status. Cannot have multiple active PANs."),
             ("Does BQP handle NRI PAN status update?",
-             "Yes - standard NRI advisory. Form 49AA preparation + document assembly + Jurisdictional AO coordination (if needed) + PAN restoration + Section 206AA mitigation + Form 10F e-filing enablement + bank/MF KYC refresh coordination. Fast turnaround to unblock Indian financial operations. WhatsApp +91 78018 87130."),
+             "Yes - standard NRI advisory. Form 49AA preparation + document assembly + Jurisdictional AO coordination (if needed) + PAN restoration + Section 206AA mitigation + Form 10F e-filing enablement + bank/MF KYC refresh coordination. WhatsApp +91 78018 87130."),
+        ("What should I send to fix an inoperative PAN as an NRI?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: a screenshot of the PAN status on the e-filing portal (Verify Your PAN), your passport pages showing your stays abroad for the last few years, your visa, residence permit or OCI card, your overseas address proof, and any Form 26AS / Form 168 entry or bank message showing higher TDS or a held refund. We check whether the PAN shows the wrong residential status, prepare the update request to non-resident status and follow it through to completion."),
         ],
         "related_pairs": [("nri-pan-aadhaar-linking-exemption-rules.html", "Related", "NRI PAN-Aadhaar Rules"),
                           ("pan-aadhaar-linking-status-fix-india-2026.html", "Related", "PAN-Aadhaar General Fix")],
         "cta_h": "NRI PAN inoperative or showing resident status?",
-        "cta_b": "Form 49AA update to NRI + 15-30 day resolution + Section 195 treaty rate restoration + Form 10F enablement. BQP end-to-end for NRIs globally.",
+        "cta_b": "Form 49AA update to NRI + tracking to completion + Section 195 treaty rate restoration + Form 10F enablement. BQP end-to-end for NRIs globally.",
         "keywords": "how to fix PAN Aadhaar NRI OCI India step by step, Form 49AA NRI update CA, PAN inoperative NRI fix CA, NRI PAN status update step by step",
-        "desc": "How to fix PAN-Aadhaar link + NRI/OCI status update India step-by-step: the exemption + the trap (database shows resident), Form 49AA fix workflow (document preparation + NSDL filing + 15-30 day processing), post-fix verification (Section 195 treaty rate + Form 10F enablement + bank/MF KYC), escalation path. CA Durgesh Chavda NRI specialist.",
+        "desc": "How to fix PAN-Aadhaar link + NRI/OCI status update India step-by-step: the exemption + the trap (database shows resident), Form 49AA fix workflow (document preparation + NSDL filing + tracking), post-fix verification (Section 195 treaty rate + Form 10F enablement + bank/MF KYC), escalation path. CA Durgesh Chavda.",
     },
     {
         "slug": "how-to-file-form-10f-electronic-india-nri-no-pan-step-by-step",
@@ -435,7 +436,7 @@ PAGES = [
         "cta_h": "NRI without Indian PAN needing Form 10F?",
         "cta_b": "PAN-less registration + Form 10F e-filing + TRC coordination + DTAA treaty rate claim. BQP end-to-end for NRIs globally.",
         "keywords": "how to file Form 10F electronic NRI without PAN India step by step, PAN-less Form 10F CA India, Form 10F NRI foreign TIN registration CA",
-        "desc": "How to file Form 10F electronic India for NRI without PAN step-by-step: pre-registration preparation (foreign TIN + TRC + email + mobile) + PAN-less registration on India e-filing portal + Form 10F 9-field e-filing + TRC upload + post-filing share with Indian payer + annual renewal. CA Durgesh Chavda NRI specialist.",
+        "desc": "How to file Form 10F electronic India for NRI without PAN step-by-step: pre-registration preparation (foreign TIN + TRC + email + mobile) + PAN-less registration on India e-filing portal + Form 10F 9-field e-filing + TRC upload + post-filing share with Indian payer + annual renewal. CA Durgesh Chavda.",
     },
     {
         "slug": "ca-for-us-green-card-holder-returning-india-tax-step-by-step",

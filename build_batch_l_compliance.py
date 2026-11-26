@@ -604,7 +604,7 @@ write_page("section-206c-1h-tcs-sale-goods-india", page(
 # 8. GSTR-9 / GSTR-9C
 write_page("gstr-9-gstr-9c-annual-return-india-2026", page(
     slug="gstr-9-gstr-9c-annual-return-india-2026",
-    title="GSTR-9 & GSTR-9C Annual Return 2026 | Threshold, Due Date, Reconciliation - BQP",
+    title="GSTR-9 and GSTR-9C for FY 2025-26: Due 31 December 2026, Rs 2 Crore / Rs 5 Crore Thresholds, Late Fee and Reconciliation - BQP",
     description="GSTR-9 annual return + GSTR-9C reconciliation statement for FY 2025-26: INR 2 crore threshold for GSTR-9, INR 5 crore for GSTR-9C, 31 December deadline, late fee INR 200/day, reconciliation with books, common mismatches. Working CA guide by Durgesh Chavda.",
     keywords="GSTR-9 annual return 2026, GSTR-9C reconciliation statement, GSTR-9 due date 2026, GSTR-9 vs GSTR-9C, GSTR-9 late fee, GSTR-9 threshold INR 2 crore",
     hero_kicker="/ Blog &middot; GSTR-9 / GSTR-9C &middot; Updated 2026-10-12",
@@ -618,7 +618,7 @@ write_page("gstr-9-gstr-9c-annual-return-india-2026", page(
          "<li><strong>Turnover threshold</strong>: turnover above <strong>INR 2 crore</strong> in the FY. Below INR 2 crore &mdash; filing is <strong>optional</strong> (made optional via Notification 47/2019 and subsequent amendments).</li>"
          "<li><strong>Exempt from GSTR-9</strong>: Casual Taxable Person, Non-Resident Taxable Person, Input Service Distributor, Composition dealer (files GSTR-9A instead), person deducting TDS under Section 51 (files GSTR-7), person collecting TCS under Section 52 (files GSTR-8).</li>"
          "</ul>"
-         "<p><strong>Due date</strong>: 31 December following the FY. For FY 2024-25, due 31 December 2025. For FY 2025-26, due 31 December 2026. Deadlines are typically extended via CBIC notification &mdash; verify current status.</p>"
+         "<p><strong>Due date</strong>: 31 December following the FY. For FY 2024-25, due 31 December 2025. For FY 2025-26, due 31 December 2026. Check the GST portal for any extension notification before relying on a later date.</p>"
          "<p><strong>Late fee</strong>: INR 50 a day for turnover up to INR 5 crore and INR 100 a day for INR 5-20 crore (each capped at 0.04% of turnover), INR 200 a day above INR 20 crore (capped at 0.5%), under Notification 07/2023-Central Tax for FY 2022-23 onwards.</p>"),
         ("/ GSTR-9C scope + threshold", "Reconciliation with books.",
          "<p><strong>GSTR-9C (Reconciliation Statement)</strong>:</p>"
@@ -669,13 +669,13 @@ write_page("gstr-9-gstr-9c-annual-return-india-2026", page(
         ("What is the difference between GSTR-9 and GSTR-9C?",
          "GSTR-9 is the annual return summarising all monthly / quarterly returns for the FY. GSTR-9C is the reconciliation statement reconciling GSTR-9 figures with audited financial statements (books of accounts). GSTR-9C mandatory for turnover above INR 5 crore. GSTR-9C was earlier CA-certified; now self-certified from FY 2020-21 onwards."),
         ("When is GSTR-9 for FY 2025-26 due?",
-         "31 December 2025 (standard deadline). CBIC typically extends via notification; verify current status before filing. Late fee if filed after extended due date: INR 50 a day for turnover up to INR 5 crore and INR 100 a day for INR 5-20 crore (each capped at 0.04% of turnover), INR 200 a day above INR 20 crore (capped at 0.5%), under Notification 07/2023-Central Tax for FY 2022-23 onwards."),
+         "31 December 2026. Check the GST portal for any extension notification before relying on a later date. Late fee if filed after extended due date: INR 50 a day for turnover up to INR 5 crore and INR 100 a day for INR 5-20 crore (each capped at 0.04% of turnover), INR 200 a day above INR 20 crore (capped at 0.5%), under Notification 07/2023-Central Tax for FY 2022-23 onwards."),
         ("Can I claim missed ITC in GSTR-9?",
-         "No. GSTR-9 is only a summary / reconciliation statement; it does not allow fresh ITC claims. Missed ITC must be claimed in GSTR-3B by the earlier of (a) due date of September's 3B of the next FY, or (b) date of filing GSTR-9 for the FY (effectively 30 November following FY, with annual return deadline). Beyond this, ITC is time-barred under Section 16(4)."),
+         "No. GSTR-9 is only a summary / reconciliation statement; it does not allow fresh ITC claims. Under section 16(4), ITC for a year must be claimed in GSTR-3B by the earlier of 30 November after the end of that year (30 November 2026 for FY 2025-26) or the date the annual return is filed. ITC missed beyond that is time-barred."),
         ("What are the common GSTR-9 mismatches that trigger notices?",
          "GSTR-1 vs GSTR-3B turnover mismatch, GSTR-3B ITC vs GSTR-2B shortfall, books turnover vs GST turnover (credit notes, discounts, year-end adjustments), Section 17(5) blocked ITC claimed, RCM supplies not reported, HSN-wise summary missing. Each of these can trigger ASMT-10 (notice of discrepancy) or Section 61 scrutiny proceedings."),
         ("Does BQP handle GSTR-9 / GSTR-9C filing?",
-         "Yes - full year-end reconciliation (GSTR-1 vs GSTR-3B, 3B vs 2B, books vs GSTR-9), ITC blocking under Section 17(5) analysis, RCM reconciliation, HSN-wise summary preparation, GSTR-9C self-certification. Annual engagement typically scoped alongside quarterly GSTR-3B / GSTR-1 compliance. WhatsApp +91 78018 87130."),
+         "Yes - full year-end reconciliation (GSTR-1 vs GSTR-3B, 3B vs 2B, books vs GSTR-9), ITC blocking under Section 17(5) analysis, RCM reconciliation, HSN-wise summary preparation, GSTR-9C self-certification. WhatsApp +91 78018 87130 with your GSTIN, GSTR-1 and GSTR-3B summaries for FY 2025-26, the GSTR-2B ITC statement, your books (trial balance or sales and purchase registers) and the HSN summary."),
     ],
     related=[
         ("gst-notice-response-india-asmt-drc-gstr.html", "Blog", "GST Notice Response"),

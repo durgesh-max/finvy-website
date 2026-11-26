@@ -204,7 +204,7 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Specific indemnity structure with escrow.</li>"
              "<li>&nbsp;&nbsp;&mdash; Buyer accepts specific FEMA risk with price adjustment.</li>"
              "</ul>"),
-            ("/ Voluntary compounding under Section 13", "The fast fix.",
+            ("/ Voluntary compounding under section 15", "The fast fix.",
              "<ol>"
              "<li>Comprehensive FEMA compliance history audit (5-year lookback typical).</li>"
              "<li>Breach identification + severity assessment + chronology drafting.</li>"
@@ -258,7 +258,7 @@ PAGES = [
                           ("best-ca-fema-compounding-voluntary-india.html", "Related", "Best CA for FEMA Compounding")],
         "cta_h": "FEMA breaches found in buyer DD?",
         "cta_b": "Deal pausing. Voluntary compounding up to 180 days + buyer counsel coordination. BQP: compounding application + buyer counsel coordination. WhatsApp +91 78018 87130 with the diligence findings and filing history.",
-        "keywords": "FEMA breach pre M&A diligence urgent compounding India CA, FEMA Section 13 compounding urgent pre deal CA, FC-GPR FC-TRS FLA missed urgent CA India",
+        "keywords": "FEMA breach pre M&A diligence urgent compounding India CA, FEMA compounding (section 15) urgent pre deal CA, FC-GPR FC-TRS FLA missed urgent CA India",
         "desc": "FEMA breach found in pre-M&A buyer due diligence urgent compounding India: common breaches (FC-GPR, FC-TRS, FLA, APR, pricing guidelines, Press Note 3, sector cap, ECB), impact on deal (closing delay, buyer indemnity/escrow demands), voluntary compounding under section 15 (decision within 180 days of a complete application, then the fee and order), buyer counsel coordination. CA Durgesh Chavda.",
     },
     {

@@ -27,7 +27,7 @@ PAGES.append({
     "slug": "form-fc-gpr-filing-checklist-india-2026",
     "title": "Form FC-GPR Filing Checklist India 2026 | FDI Reporting Guide - BQP",
     "hero_em": "30-day deadline + checklist.",
-    "lead": "Form FC-GPR (the FEMA return on issue of shares to a person resident outside India) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 filing checklist.",
+    "lead": "Form FC-GPR (the FEMA return on issue of shares to a person resident outside India) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA compounding (section 15). Here's the complete 2026 filing checklist.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Who must file + when", "The core rule.",
@@ -35,7 +35,7 @@ PAGES.append({
          "<li>Indian company receives foreign inward remittance for share subscription (FDI).</li>"
          "<li>Share allotment made to foreign subscriber.</li>"
          "<li>Form FC-GPR filed within <strong>30 days of allotment</strong> via FIRMS portal (RBI).</li>"
-         "<li>Non-filing or late filing: FEMA Section 13 compounding (voluntary) or RBI inspection + penalty up to 3x amount involved.</li>"
+         "<li>Late filing: within three years, regularised by paying a late submission fee (LSF); beyond that, or for other breaches, compounding under section 15 of FEMA - otherwise a penalty under section 13 of up to three times the amount involved.</li>"
          "</ul>"),
         ("/ Required documents", "The attachments.",
          "<ul>"
@@ -82,14 +82,14 @@ PAGES.append({
         ("Can BQP file FC-GPR for Indian subsidiary of foreign parent?",
          "Yes - standard service. Documentation collection + pricing certification + FIRMS portal filing within 30-day deadline. Also handle associated compliances: Form PAS-3 share allotment + MGT-14 board resolution + FEMA compounding if past breaches."),
         ("Does BQP handle FEMA voluntary compounding for missed FC-GPR?",
-         "Yes - integrated. Historical FEMA breach audit + Section 13 compounding application + hearing representation + fee payment + closure certificate. See our FEMA compounding guide. WhatsApp +91 78018 87130."),
+         "Yes - integrated. Historical FEMA breach audit + FEMA compounding (section 15) application + hearing representation + fee payment + closure certificate. See our FEMA compounding guide. WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("foreign-company-setup-indian-subsidiary-wos.html", "Related", "India WOS Setup"),
                       ("fema-compounding-foreign-subsidiary-india.html", "Related", "FEMA Compounding")],
     "cta_h": "Foreign FDI received? FC-GPR due in 30 days.",
     "cta_b": "FIRC + Rule 21 pricing + FIRMS portal filing. BQP end-to-end + FEMA compounding if past breaches. Scope-based engagement.",
     "keywords": "Form FC-GPR filing India 2026, FC-GPR FDI reporting CA, FEMA FC-GPR 30 days, Rule 21 pricing CA India",
-    "desc": "Form FC-GPR filing checklist India 2026: 30-day deadline from share allotment, FIRC collection, Rule 21 pricing certificate, FIRMS portal filing, FEMA Section 13 compounding for missed filings. Working CA guide by Durgesh Chavda.",
+    "desc": "Form FC-GPR filing checklist India 2026: 30-day deadline from share allotment, FIRC collection, Rule 21 pricing certificate, FIRMS portal filing, FEMA compounding (section 15) for missed filings. Working CA guide by Durgesh Chavda.",
 })
 
 # 2. Form FC-TRS
@@ -140,7 +140,7 @@ PAGES.append({
     ],
     "faqs": [
         ("When is Form FC-TRS due?",
-         "Within 60 days of share transfer transaction. Filed via FIRMS portal (RBI). Non-filing attracts FEMA Section 13 compounding."),
+         "Within 60 days of share transfer transaction. Filed via FIRMS portal (RBI). Non-filing attracts FEMA compounding (section 15)."),
         ("Is FC-TRS needed when a non-resident sells to another non-resident?",
          "No. FC-TRS covers transfers between a resident and a non-resident. A transfer between two non-residents is not reported in FC-TRS, though sector caps, entry routes and Indian capital gains tax on the seller still apply."),
         ("What's the pricing restriction?",
@@ -309,7 +309,7 @@ PAGES.append({
     "slug": "form-odi-apr-annual-performance-report-india-2026",
     "title": "Form APR Due 31 December 2026: ODI Annual Performance Report for Indian Parents of Foreign Subsidiaries, Audited Accounts and the INR 7,500 Late Fee",
     "hero_em": "overseas investment annual filing.",
-    "lead": "Form APR (Annual Performance Report, the old Form ODI Part II) is annual FEMA filing by Indian company for its overseas direct investment (ODI): due 31 December each year for FY ended March. Covers overseas subsidiary performance, dividend repatriation, change in investment. Non-filing attracts FEMA Section 13 compounding. Here's the complete 2026 compliance alert.",
+    "lead": "Form APR (Annual Performance Report, the old Form ODI Part II) is annual FEMA filing by Indian company for its overseas direct investment (ODI): due 31 December each year for FY ended March. Covers overseas subsidiary performance, dividend repatriation, change in investment. Non-filing attracts FEMA compounding (section 15). Here's the complete 2026 compliance alert.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Who files + when", "The core rule.",
@@ -318,7 +318,7 @@ PAGES.append({
          "<li>Must file APR annually by <strong>31 December</strong> for FY ended previous March.</li>"
          "<li>So APR for FY 2025-26 (ended March 2026) due by 31 December 2026.</li>"
          "<li>Through the Indian entity's AD Category-I bank, which reports it to the RBI.</li>"
-         "<li>Non-filing: FEMA Section 13 compounding.</li>"
+         "<li>Non-filing: FEMA compounding (section 15).</li>"
          "</ul>"),
         ("/ What's in APR", "The data.",
          "<ul>"
@@ -356,7 +356,7 @@ PAGES.append({
     "cta_h": "Form APR (old Form ODI Part II) due 31 December 2026.",
     "cta_b": "Annual filing for Indian parent of foreign subsidiary. BQP: foreign subsidiary data + APR drafting + filing through the AD bank + late fee or compounding for past missed APRs.",
     "keywords": "Form ODI APR India 2026, Annual Performance Report overseas investment, Form ODI Part II due December",
-    "desc": "Form APR (Annual Performance Report, the old Form ODI Part II) India 2026: annual FEMA filing by Indian parent for overseas subsidiary, due 31 December, foreign subsidiary data + dividend repatriation + change in investment, FEMA Section 13 compounding for missed. Working CA guide by Durgesh Chavda.",
+    "desc": "Form APR (Annual Performance Report, the old Form ODI Part II) India 2026: annual FEMA filing by Indian parent for overseas subsidiary, due 31 December, foreign subsidiary data + dividend repatriation + change in investment, FEMA compounding (section 15) for missed. Working CA guide by Durgesh Chavda.",
 })
 
 # 6. DPT-3 return

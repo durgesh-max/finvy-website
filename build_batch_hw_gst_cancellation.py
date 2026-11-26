@@ -19,7 +19,7 @@ C = contact("your GSTIN, whether you want to cancel or the officer cancelled it,
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="GST Registration Cancellation (2026): REG-16 Process, REG-19 Order Download, Final Return GSTR-10 and Revocation",
+    title="GST Registration Cancelled? Revocation in REG-21 (2026): Suo Moto Cancellation, 90-Day Time Limit, How to Reactivate, Voluntary Cancellation in REG-16 and GSTR-10",
     em="cancelling the GSTIN does not cancel what you owe.",
     kicker="/ Businesses closing or restructuring &middot; GST &middot; Updated 2026-11-25",
     lead=("<strong>A business that closes, transfers its business, falls below the GST threshold or changes its constitution can apply to cancel its GST registration in Form REG-16 on the GST portal; the officer issues the cancellation order in Form REG-19, generally within 30 days, and the GSTIN is suspended in the meantime.</strong> "
@@ -32,7 +32,7 @@ PAGES = [dict(
             "<strong>Is there a fee to cancel GST registration?</strong> No government fee. Late fees can apply to returns still pending, including the final return.",
             "<strong>What is GSTR-10?</strong> The final return, due within three months of the cancellation date or the date of the order, whichever is later.",
             "<strong>Can I cancel if returns are pending?</strong> File the pending returns first; the officer can refuse or delay cancellation until they are in.",
-            "<strong>Can a cancelled GSTIN be restored?</strong> If the officer cancelled it, apply for revocation in Form REG-21 within the time allowed after filing the overdue returns. A voluntary cancellation that has been approved generally cannot be revoked; apply for a new registration instead.")),
+            "<strong>Can a cancelled GSTIN be restored?</strong> If the officer cancelled it, apply for revocation in Form REG-21 within 90 days of the cancellation order after filing the overdue returns. A voluntary cancellation that has been approved generally cannot be revoked; apply for a new registration instead.")),
         ("/ Voluntary vs cancellation by the officer", "Two different routes.",
          table(["Step", "Voluntary cancellation", "Cancellation by the officer"], [
              ["Start", "You file REG-16", "Officer issues show-cause notice REG-17"],
@@ -40,8 +40,8 @@ PAGES = [dict(
              ["Order", "REG-19 cancellation order", "REG-19 cancellation order (or REG-20 dropping proceedings)"],
              ["Common reasons", "Closure, sale or transfer of business, turnover below threshold, change of constitution", "Returns not filed for a continuous period, business not at the registered place, fraud"],
              ["Final return", "GSTR-10 within three months", "GSTR-10 within three months"],
-             ["Undo", "Generally not revocable; register afresh", "Revocation application in REG-21 within the time allowed in section 30 and rule 23"]])
-         + '<p>Sources differ on the revocation time limit (30, 90 or up to 180 days with extension); check section 30 and rule 23 and the portal before relying on a date.</p>'),
+             ["Undo", "Generally not revocable; register afresh", "Revocation application in REG-21 within 90 days of the cancellation order (extendable by up to 180 days)"]])
+         + '<p>Time limit: apply in REG-21 within 90 days of the cancellation order (rule 23, as amended by Notification 38/2023); a further extension of up to 180 days can be allowed by the Commissioner or an Additional / Joint Commissioner on sufficient cause.</p>'),
         ("/ Before and after cancelling", "Avoid surprises.",
          ul("<strong>Stock and capital goods:</strong> pay an amount equal to the input tax credit on stock and capital goods held on the cancellation date (section 29(5)).",
             "<strong>Liabilities continue:</strong> tax, interest and penalties for the period before cancellation can still be demanded; keep records for the full retention period.",
@@ -60,7 +60,9 @@ PAGES = [dict(
           ("How do I download the GST cancellation certificate?", "There is no separate certificate: the cancellation order is Form REG-19, which you can download from the notices and orders section after logging in to the GST portal."),
           ("What is GSTR-10 and when is it due?", "GSTR-10 is the final return after cancellation, due within three months of the date of cancellation or the date of the cancellation order, whichever is later. Late fees apply if it is filed late."),
           ("Is there a fee for GST cancellation?", "No government fee is charged to cancel a GST registration, but late fees and interest on any pending returns, including the final return, must be paid."),
-          ("Can a cancelled GST registration be revoked?", "Where the officer cancelled it, you can apply for revocation in Form REG-21 within the time allowed under section 30 and rule 23, after filing pending returns and paying dues. An approved voluntary cancellation generally cannot be revoked; you apply for a fresh registration."),
+          ("Can a cancelled GST registration be revoked?", "Where the officer cancelled it, you can apply for revocation in Form REG-21 within 90 days of the cancellation order (extendable by up to 180 days under rule 23), after filing pending returns and paying the tax, interest and late fees due. An approved voluntary cancellation generally cannot be revoked; you apply for a fresh registration."),
+        ("My GST registration was cancelled suo moto. How do I activate it again?", "Read the cancellation order (REG-19) for the reason and date. If it was cancelled for not filing returns, file every pending return up to the date of cancellation and pay the tax, interest and late fees; then apply for revocation in Form REG-21 on the GST portal within 90 days of the order (an extension of up to 180 more days can be sought on sufficient cause). The officer may ask questions in REG-23 before passing the revocation order in REG-22. If the 90 days and any extension have passed, the remaining routes are an appeal against the cancellation order or a fresh registration."),
+        ("What should I send to get my GST registration restored?", "WhatsApp us your GSTIN, the show cause notice (REG-17) and cancellation order (REG-19) if you have them, the list of returns not filed, and whether the business is still running. We work out the returns, tax and late fees to clear, whether you are within the revocation time limit, and file REG-21 or advise on an appeal or fresh registration."),
           ("Can BQP handle GST cancellation or revocation?", "Yes. CA Durgesh Chavda can clear pending returns, file REG-16 and GSTR-10, reply to show-cause notices and apply for revocation. " + C)],
     related=[("gst-notice-response-india-asmt-drc-gstr.html", "GST notice response"),
              ("is-gst-registration-mandatory-for-startup-new-small-business-threshold-2026.html", "GST registration threshold"),

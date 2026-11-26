@@ -37,7 +37,7 @@ S_TCS = [("Lulu Forex", "https://luluforex.com/blog/complete-guide-to-tcs-change
 PAGES = [
     dict(
         slug="fast-ds-2026-foreign-asset-disclosure-scheme-31-december-deadline",
-        title="FAST-DS 2026: Declare Undisclosed Foreign Assets by 31 December 2026",
+        title="FAST-DS 2026 Last Date 31 December 2026: Declare Undisclosed Foreign Assets - 60% Category 1 vs Rs 1 Lakh Category 2, Who Qualifies and How to File",
         em="the one-time window for small taxpayers.",
         kicker="/ News &middot; FAST-DS 2026 &middot; Updated 2026-10-30",
         lead="FAST-DS 2026 (Foreign Assets of Small Taxpayers Disclosure Scheme) lets eligible taxpayers declare foreign income or assets they left out of their Indian returns and get immunity under the Black Money Act. Declarations opened on 16 August 2026 and close on 31 December 2026. It is aimed at returning students, young professionals, technology employees and former NRIs who still hold overseas accounts, shares, ESOPs or property. <a href=\"fast-ds-2026-calculator-foreign-asset-disclosure-cost.html\">Estimate your amount with the FAST-DS 2026 calculator &rarr;</a> Got an email from the Department about foreign assets? <a href=\"income-tax-email-foreign-assets-fast-ds-what-to-do.html\">Here is what it means &rarr;</a>",

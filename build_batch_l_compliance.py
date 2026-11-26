@@ -42,10 +42,10 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "<li><strong>Form PAS-6 (Reconciliation of Share Capital Audit Report) filing</strong> &mdash; mandatory half-yearly filing starting 60 days from end of each half-year. Non-filing attracts penalty.</li>"
          "<li>Potential Section 450 penalty under Companies Act (default where no specific penalty is specified) &mdash; up to INR 10,000 and INR 1,000 per day of continuing default.</li>"
          "</ul>"
-         "<p>Operational impact: your Series A term sheet closes, you need to allot new preferred shares, and demat is not set up. The round delays by 30-60 days while demat gets completed. Common in 2024-2025; still happens.</p>"),
+         "<p>Operational impact: your Series A term sheet closes, you need to allot new preferred shares, and demat is not set up. The round waits until demat is completed.</p>"),
         ("/ Step-by-step compliance", "The execution workflow.",
          "<ol>"
-         "<li><strong>Obtain ISIN</strong> (International Securities Identification Number) for each class of security from NSDL or CDSL. Submit application via a Registrar &amp; Transfer Agent (RTA). Fee ~INR 10,000-20,000 one-time per ISIN.</li>"
+         "<li><strong>Obtain ISIN</strong> (International Securities Identification Number) for each class of security from NSDL or CDSL. Submit application via a Registrar &amp; Transfer Agent (RTA).</li>"
          "<li><strong>Appoint a Depository Participant (DP)</strong> &mdash; the company itself engages a DP (NSDL / CDSL registered broker) to facilitate demat.</li>"
          "<li><strong>Communicate to all shareholders</strong>: formal letter + email instructing them to open demat accounts and submit demat request through their respective DPs.</li>"
          "<li><strong>Shareholders open demat accounts</strong> (if they don't have one) with any DP of their choice; submit Dematerialisation Request Form (DRF) + physical share certificate to the DP.</li>"
@@ -54,14 +54,14 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "<li><strong>Physical share certificates are cancelled</strong> by the company and defaced.</li>"
          "<li><strong>File Form PAS-6</strong> with ROC half-yearly within 60 days of end of each half-year (30 September and 31 March), reporting demat reconciliation.</li>"
          "</ol>"
-         "<p>Timeline: 30-90 days end-to-end depending on shareholder responsiveness and number of folios. For companies with foreign shareholders or scattered small holders, longer.</p>"),
+         "<p>Timing depends on the number of folios and how quickly shareholders open demat accounts; foreign shareholders and scattered small holders usually take longer.</p>"),
         ("/ Common execution problems", "What trips companies up.",
          "<ul>"
          "<li><strong>Shareholders can't be reached</strong> &mdash; especially angel investors or ESOP holders who have moved jobs/countries. Chase relentlessly; document attempts.</li>"
          "<li><strong>Share certificates lost</strong> &mdash; original physical certificate missing. Need to issue duplicate under Rule 6, which has its own procedure (public notice, indemnity bond, Rule 6 cert).</li>"
          "<li><strong>Foreign shareholders</strong> &mdash; need to open NRO / NRE-linked demat account or hold through FPI route. Longer timeline. KYC and FATCA / CRS declarations.</li>"
          "<li><strong>Shareholders' bank account mismatch</strong> &mdash; demat KYC requires PAN + bank linkage; small folders often have outdated info.</li>"
-         "<li><strong>ISIN approval delay</strong> &mdash; NSDL / CDSL can take 15-30 days. Apply early.</li>"
+         "<li><strong>ISIN approval delay</strong> &mdash; apply early.</li>"
          "<li><strong>Form PAS-6 skipped</strong> &mdash; many companies get the demat done but forget the half-yearly PAS-6 filing. Penalty accrues.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-12.</em></p>"),
@@ -72,7 +72,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
         ("What is the deadline for private company demat under Rule 9B?",
          "Rule 9B applies to private companies (other than small and producer companies) from 30 June 2025, after the MCA extended the original 30 September 2024 deadline (G.S.R. 131(E), 12 February 2025). Existing shareholders should have their physical shares dematerialised by then. From that date, any new issuance / transfer / buyback / transmission cannot proceed in physical form."),
         ("How do I get ISIN for my private limited company shares?",
-         "Apply via a Registrar & Transfer Agent (RTA) to NSDL or CDSL (depositories). Submit application with company documents (MOA, AOA, incorporation certificate, latest audited balance sheet). One-time fee approximately INR 10,000-20,000 per class of security (equity, preference, debentures). Approval typically 15-30 days."),
+         "Apply via a Registrar & Transfer Agent (RTA) to NSDL or CDSL (depositories). Submit application with company documents (MOA, AOA, incorporation certificate, latest audited balance sheet). A separate ISIN is needed for each class of security (equity, preference, debentures)."),
         ("What is Form PAS-6 and when do I file it?",
          "Half-yearly Reconciliation of Share Capital Audit Report under Rule 9A. Filed within 60 days of each half-year end (30 September and 31 March). Reports reconciliation between issued capital and demat-held capital. Mandatory for companies in demat form; non-filing attracts penalty under Section 450."),
         ("What if a shareholder refuses or cannot be contacted for demat?",

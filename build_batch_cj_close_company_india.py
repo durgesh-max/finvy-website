@@ -41,7 +41,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="How to Close a Company in India (2026): Strike Off in Form STK-2, Conditions, Restoring a Struck-Off Company and Closing a Foreign Subsidiary",
+    title="Company Closure in India (2026): Strike-Off Process in Form STK-2, Documents, Conditions, Restoring a Struck-Off Company and Closing a Foreign Subsidiary",
     em="clear the liabilities first, then file STK-2.",
     kicker="/ Company law &middot; Exit &middot; Foreign subsidiaries &middot; Updated 2026-11-14",
     lead=("The simplest way to close a private company in India is <strong>voluntary strike off</strong> under section 248(2) of the Companies Act, 2013: once all liabilities are paid, the company files <strong>Form STK-2</strong> with a special resolution (or consent of 75% of members by paid-up capital), indemnity and affidavits from directors, and a statement of accounts certified by a chartered accountant. "
@@ -75,6 +75,8 @@ PAGES = [dict(
           ("What does strike off mean for a company?", "The company's name is removed from the register and it ceases to exist as a legal entity, but the liabilities of directors, officers and members continue."),
           ("Who processes strike-off applications?", "The MCA's Centre for Processing Accelerated Corporate Exit (C-PACE), which handles voluntary strike-off filings centrally."),
           ("Can a struck-off company be revived?", "Yes, by the NCLT under section 252: an appeal within 3 years of the Registrar's order, or an application within 20 years of gazette publication where the company was carrying on business or it is otherwise just."),
+        ("What documents are needed to close a company in India?", "For voluntary strike off: Form STK-2 signed by a director; indemnity bonds from every director in Form STK-3; affidavits from every director in Form STK-4; a statement of accounts showing nil assets and liabilities, certified by a chartered accountant and made up to a date within 30 days of filing; a copy of the special resolution or the consent of members holding 75% of the paid-up capital; and the regulator approval where the company is regulated. Overdue financial statements and annual returns up to the end of the year in which business stopped must be filed before STK-2."),
+        ("What should I send to start closing my company?", "WhatsApp us the company name or CIN, the last filed financial statements and annual return, the latest bank statement, a list of anything still open (GST registration, loans, vendor or employee dues, pending tax refunds or notices) and, for a foreign-owned subsidiary, the FDI filings made. We confirm whether strike off is possible or liquidation is needed, list the pending filings and set out the closure steps."),
           ("How does a foreign company close its Indian subsidiary?", "Settle all liabilities and taxes, close payroll and GST, repatriate remaining funds through the bank, then strike off (if nothing is left) or use voluntary liquidation."),
           ("Can BQP handle the closure?", "Yes. " + CONTACT)],
     related=[("director-disqualified-section-164-2-din-deactivated-fix-india.html", "Director disqualified under section 164(2)"), ("repatriate-profits-india-foreign-parent.html", "Repatriate profits to a foreign parent"),

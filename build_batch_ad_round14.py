@@ -485,7 +485,7 @@ PAGES = [
     },
     {
         "slug": "how-to-file-form-67-ftc-claim-india-step-by-step",
-        "title": "How to File Form 67 FTC Claim India Step-by-Step",
+        "title": "How to File Form 67 Online (2026): Step-by-Step Foreign Tax Credit Claim, Rule 128 Computation, Time Limit and Common Errors (Form 44 from Tax Year 2026-27)",
         "hero_em": "Section 90 Foreign Tax Credit + ITR integration.",
         "lead": "Direct answer: File Form 67 on India e-filing portal, ideally before or with the ITR and in any case by the end of the assessment year (rule 128(9)), to claim Foreign Tax Credit (FTC) under Section 90. Form 67 reports foreign-source income + foreign tax paid + specific DTAA / Section 91 relief claimed. Credit limited to lower of (a) foreign tax paid on same income, (b) Indian tax on same income. Here's the step-by-step filing + Rule 128 computation.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
@@ -512,9 +512,9 @@ PAGES = [
              "<li>Credit = lower of (a) foreign tax paid on specific income, (b) Indian tax on same income at specific rate.</li>"
              "<li>Specific head-wise computation: salary / interest / dividend / capital gain / business / specific - credit computed per head.</li>"
              "<li>Specific per-country computation if multiple foreign jurisdictions.</li>"
-             "<li>Specific currency conversion: SBI reference rate on specific date (date of payment / date of tax deduction / specific).</li>"
+             "<li>Specific currency conversion: SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)).</li>"
              "<li>DTAA relief: specific DTAA Article 24 (relief from double taxation) governs.</li>"
-             "<li>Section 91 relief (for non-DTAA countries): proportionate credit without specific treaty.</li>"
+             "<li>Section 91 relief (residents with income from a non-DTAA country): relief at the Indian rate or the foreign rate, whichever is lower.</li>"
              "<li>Specific unused FTC carry-forward: generally NOT allowed in India (unlike US / UK where carry-forward exists).</li>"
              "</ul>"),
             ("/ Documentation required for Form 67", "What to attach.",
@@ -527,7 +527,7 @@ PAGES = [
              "<li>&nbsp;&nbsp;&mdash; Specific withholding certificates (US 1042-S, UK CT61, Singapore Form IR8A, specific per jurisdiction).</li>"
              "<li>&nbsp;&nbsp;&mdash; Specific income statement from foreign payer (K-1 / Dividend voucher / P60 / specific).</li>"
              "<li>&nbsp;&nbsp;&mdash; Specific foreign bank statement showing receipt + specific tax deduction.</li>"
-             "<li>&nbsp;&nbsp;&mdash; Specific currency conversion computation (SBI reference rate dates + specific calculations).</li>"
+             "<li>&nbsp;&nbsp;&mdash; Specific currency conversion computation (SBI TT buying rate dates + specific calculations).</li>"
              "</ul>"),
             ("/ Step-by-step filing workflow", "The e-filing process.",
              "<ol>"
@@ -535,7 +535,7 @@ PAGES = [
              "<li>Navigate: e-File > Income Tax Forms > File Income Tax Forms.</li>"
              "<li>Select Form 67 - Foreign Tax Credit.</li>"
              "<li>Select AY + specific country(ies).</li>"
-             "<li>Enter: foreign-source income (head-wise + country-wise + amount in INR using SBI reference rate).</li>"
+             "<li>Enter: foreign-source income (head-wise + country-wise + amount in INR using the SBI TT buying rate).</li>"
              "<li>Enter: foreign tax paid (head-wise + country-wise + amount in INR).</li>"
              "<li>Compute FTC per Rule 128 (lower of foreign tax or Indian tax).</li>"
              "<li>Review + validate.</li>"
@@ -560,8 +560,8 @@ PAGES = [
              "<li>Foreign-source income identification + specific head-wise classification.</li>"
              "<li>Foreign tax paid verification + specific supporting documentation collection.</li>"
              "<li>Rule 128 FTC computation + Section 90 vs 91 analysis.</li>"
-             "<li>Currency conversion with SBI reference rate on specific dates.</li>"
-             "<li>Form 67 preparation + e-filing BEFORE ITR due date.</li>"
+             "<li>Currency conversion at the SBI TT buying rate under rule 128(4).</li>"
+             "<li>Form 67 preparation + e-filing before or with the ITR.</li>"
              "<li>Indian ITR integration with FTC claim in applicable schedules.</li>"
              "<li>Specific coordination with foreign CPA for foreign tax return + specific documentation.</li>"
              "<li>Audit defence if Form 67 / FTC assessed scrutiny.</li>"
@@ -575,18 +575,19 @@ PAGES = [
             ("When is Form 67 due?",
              "On or before the end of the assessment year (31 March after the ITR due date), provided the return is filed within section 139(1) or 139(4) (rule 128(9), as substituted by Notification 100/2022); with an updated return, by the date it is filed. Filing before or with the ITR is safest."),
             ("How is FTC calculated under Rule 128?",
-             "Credit = lower of (a) foreign tax paid on specific income, (b) Indian tax on same income at specific rate. Head-wise + country-wise computation. Currency conversion at the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)). Specific DTAA Article 24 (relief from double taxation) + Section 91 (non-DTAA countries) governing framework. Unused FTC: generally NOT carried forward in India."),
+             "Credit = lower of (a) foreign tax paid on specific income, (b) Indian tax on same income at specific rate. Head-wise + country-wise computation. Currency conversion at the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)). the relief-from-double-taxation article of the relevant DTAA (Article 25 in the India-US treaty, Article 24 in the India-UK treaty) + Section 91 (non-DTAA countries) governing framework. Unused FTC: generally NOT carried forward in India."),
             ("Do I need foreign tax certificate for Form 67?",
              "Form 67 itself doesn't require document upload. Supporting documents (foreign tax return / withholding certificates / income statements / bank statements / currency conversion) must be retained for 6-year audit lookback. If scrutiny: BQP + client produce documents in defence."),
+        ("What should I send to file Form 67?", "WhatsApp us your foreign tax return or year-end statement (for example US Form 1040 with 1099 / W-2 forms, a UK SA302 or P60, or a salary slip showing tax withheld), proof and dates of each tax payment or deduction, the country and type of each income, and your AIS / Form 168. We convert each payment at the rule 128 rate, compute the credit country by country, file Form 67 (Form 44 from tax year 2026-27) and match it with your ITR."),
             ("Does BQP handle Form 67 + FTC optimisation?",
              "Yes - standard engagement for Indian residents with foreign-source income. Residential status + foreign income identification + Rule 128 computation + Form 67 e-filing + ITR integration + specific coordination with foreign CPA + audit defence. For US K-1 recipients, UK dividend recipients, Singapore dividend, UAE income, Australian trust, Canadian employment. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("form-67-foreign-tax-credit-india-2026.html", "Related", "Form 67 Full Guide"),
                           ("form-67-foreign-tax-credit-india-2026.html", "Related", "Section 90 FTC Guide")],
         "cta_h": "Need to claim Foreign Tax Credit via Form 67?",
-        "cta_b": "Rule 128 computation + Form 67 e-filing before ITR due + ITR integration + audit defence. BQP end-to-end engagement. WhatsApp +91 78018 87130.",
+        "cta_b": "Rule 128 computation + Form 67 e-filing before or with the ITR + ITR integration + audit defence. BQP end-to-end engagement. WhatsApp +91 78018 87130.",
         "keywords": "how to file Form 67 FTC claim India step by step, Form 67 Foreign Tax Credit Section 90 India CA, Rule 128 FTC computation CA India",
-        "desc": "How to file Form 67 FTC claim India step-by-step (direct answer): file BEFORE ITR due date (31 July/31 October) on e-filing portal, Rule 128 computation (lower of foreign tax or Indian tax on same income, head-wise + country-wise), DTAA Article 24 + Section 91 framework, documentation (foreign tax returns + withholding certificates + bank statements), common errors + BQP end-to-end engagement. CA Durgesh Chavda ICAI.",
+        "desc": "How to file Form 67 FTC claim India step-by-step (direct answer): file before or with the ITR, and in any case by the end of the assessment year with a timely or belated return (rule 128(9)) on e-filing portal, Rule 128 computation (lower of foreign tax or Indian tax on same income, head-wise + country-wise), DTAA Article 24 + Section 91 framework, documentation (foreign tax returns + withholding certificates + bank statements), common errors + BQP end-to-end engagement. CA Durgesh Chavda ICAI.",
     },
     {
         "slug": "which-is-better-llp-vs-private-limited-india",

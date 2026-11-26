@@ -632,7 +632,7 @@ PAGES = [
             ("Is 3-year Ind AS track record mandatory?",
              "Yes for Main Board IPO - 3 years of audited financials in Ind AS. If company's historical accounts are in Indian GAAP (older) or US GAAP (if US-HQ'd previously), restatement to Ind AS required. ASC 606 → Ind AS 115 revenue + ASC 842 → Ind AS 116 lease + ASC 718 → Ind AS 102 SBC conversions."),
             ("Can BQP work with Merchant Banker + Legal Counsel on pre-IPO?",
-             "Yes - standard. BQP's compliance + financial workstream feeds into Merchant Banker's DRHP + Legal Counsel's SEBI filing. Weekly cross-firm status call during pre-IPO phase. Prior work with Axis Capital / ICICI Securities / IIFL + Khaitan / AZB / Shardul Amarchand on specific SME + Main Board mandates."),
+             "Yes - standard. BQP's compliance + financial workstream feeds into Merchant Banker's DRHP + Legal Counsel's SEBI filing. Weekly cross-firm status call during pre-IPO phase."),
             ("Does BQP handle complete pre-IPO roadmap including vendor coordination?",
              "Yes - specialist practice. 24-36 month pre-IPO roadmap + Ind AS restatement + SEBI ICDR structuring + DRHP compliance workstream + vendor coordination (Merchant Banker + Legal Counsel + RTA + Depository + Printer) + post-listing LODR roadmap. For startups + mid-market Main Board + SME IPO. WhatsApp +91 78018 87130."),
         ],

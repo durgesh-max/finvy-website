@@ -277,7 +277,7 @@ write_page("gst-notice-response-india-asmt-drc-gstr", page(
         ("/ Section 73 vs Section 74", "The crucial distinction.",
          "<p><strong>Section 73</strong>: applies to bona fide errors, oversight, interpretation differences. No fraud alleged.</p>"
          "<ul>"
-         "<li>Time limit: SCN within 3 years of due date of annual return (so for FY 2024-25, within 31 December 2028).</li>"
+         "<li>Time limit: for FY 2024-25 onwards, Section 74A - notice within 42 months of the annual return due date (for FY 2024-25, by 30 June 2029); for FY 2023-24 and earlier, a Section 73 notice at least 3 months before the 3-year order deadline.</li>"
          "<li>Penalty: 10% of tax or INR 10,000, whichever higher.</li>"
          "<li>Voluntary payment via DRC-03 before SCN: nil penalty.</li>"
          "<li>Payment within 30 days of SCN: no penalty (interest only).</li>"

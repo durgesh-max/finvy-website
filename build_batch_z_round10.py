@@ -258,7 +258,7 @@ PAGES = [
         "slug": "how-to-use-nri-india-property-tds-ldc-calculator-guide",
         "title": "How to Use NRI India Property TDS + LDC Calculator Guide",
         "hero_em": "step-by-step calculator usage.",
-        "lead": "NRI selling Indian property faces 20% default TDS under Section 195 on gross sale consideration. BQP's NRI India Property TDS + LDC Calculator (bharatquantumprospera.com/nri-property-tds-ldc-calculator.html) computes: actual tax after indexation + Section 54 reinvestment + LDC rate under Section 197 that NRI should request to minimise locked-up TDS. Here's the complete step-by-step usage guide.",
+        "lead": "NRI selling Indian property faces default TDS under section 393 (old 195) of 12.5% plus surcharge and cess (up to 14.95%) on the gross sale consideration for a long-term sale. BQP's NRI India Property TDS + LDC Calculator (bharatquantumprospera.com/nri-property-tds-ldc-calculator.html) computes: actual tax after indexation + Section 54 reinvestment + LDC rate under Section 197 that NRI should request to minimise locked-up TDS. Here's the complete step-by-step usage guide.",
         "kicker": "/ Calculator Usage Guide &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ What the calculator does", "The computation.",
@@ -267,7 +267,7 @@ PAGES = [
              "<li>Computes: indexed cost of acquisition + indexed cost of improvement + capital gain under both methods (12.5% without indexation vs 20% with indexation) + tax under each method + optimal choice.</li>"
              "<li>Section 54 reinvestment benefit: if reinvesting in residential property, exemption applied.</li>"
              "<li>LDC rate recommendation: effective tax rate as % of gross sale consideration - this is what NRI should request in Form 13 under Section 197.</li>"
-             "<li>Comparison: 20% default TDS (INR locked up) vs LDC rate (minimum needed).</li>"
+             "<li>Comparison: default TDS (INR locked up) vs LDC rate (minimum needed).</li>"
              "</ul>"),
             ("/ Step-by-step usage", "The workflow.",
              "<ol>"
@@ -289,11 +289,11 @@ PAGES = [
              "</ul>"),
             ("/ Post-calculator workflow", "What NRI does next.",
              "<ol>"
-             "<li>Review calculated LDC rate (typically 2-5% of sale consideration vs 20% default).</li>"
+             "<li>Review calculated LDC rate (based on the expected tax on the actual gain, against the default of up to 14.95%).</li>"
              "<li>File Form 13 on TRACES portal requesting LDC at calculated rate.</li>"
-             "<li>Form 13 to Jurisdictional AO - 4-8 week processing.</li>"
+             "<li>Form 128 (old Form 13) to the Assessing Officer - processing time varies, so apply early.</li>"
              "<li>AO issues LDC certificate with specific TDS rate.</li>"
-             "<li>Share LDC with buyer - buyer deducts specified rate (not 20% default).</li>"
+             "<li>Share LDC with buyer - buyer deducts the specified rate (not the default rate).</li>"
              "<li>Buyer files Form 27Q quarterly reflecting LDC rate.</li>"
              "<li>NRI files Indian ITR with final tax computation + claims any residual refund.</li>"
              "<li>FEMA Form 15CA + 15CB for repatriation up to USD 1M/year.</li>"
@@ -304,20 +304,20 @@ PAGES = [
             ("Why use BQP's NRI Property TDS + LDC Calculator?",
              "Free + instant computation of actual tax + optimal LDC rate recommendation. Saves 4-6 hours of manual indexation + Section 54 modelling. Specific inputs match Form 13 LDC application fields. Downloadable results for buyer + Form 13 coordination. At bharatquantumprospera.com/nri-property-tds-ldc-calculator.html."),
             ("What's the typical LDC rate the AO approves?",
-             "Varies: 2-5% of sale consideration for property with modest LTCG. 0.1-1% if Section 54 reinvestment planned (near-zero actual tax). Close to 12.5% if large gain with no reinvestment. AO's approval generally matches calculator-recommended rate if calculations are properly documented."),
+             "It varies with the expected tax on the gain: a small gain, or a gain reinvested under section 82 or 85 (old 54 or 54EC), means a low rate; a large gain with no reinvestment means a rate closer to the default. The Assessing Officer decides the rate on the documents filed, so the purchase cost, improvement bills and reinvestment plan need to be supported."),
             ("How long does LDC application + approval take?",
              "4-8 weeks typical. Form 13 submission on TRACES + Jurisdictional AO review + LDC certificate issuance. Can be faster (2-4 weeks) if application well-documented. Plan property sale timing accordingly - LDC should be in hand before buyer deducts TDS."),
             ("Can I claim LDC after sale is done?",
-             "No - LDC must be in place BEFORE buyer makes payment / deducts TDS. If 20% default TDS already deducted on gross consideration: only remedy is refund via Indian ITR filing (6-18 month wait). Plan LDC application 2-4 months before planned sale date."),
+             "No - LDC must be in place BEFORE buyer makes payment / deducts TDS. If the default TDS has already been deducted on the gross consideration: the remedy is a refund through the Indian ITR, which comes back only after the return is processed. Plan LDC application 2-4 months before planned sale date."),
             ("Does BQP handle NRI property sale end-to-end?",
-             "Yes - standard NRI service. Capital gain computation (using calculator) + Section 54 reinvestment planning + Form 13 LDC application (4-8 week turnaround) + buyer coordination + FEMA Form 15CA + 15CB for repatriation (USD 1M/year) + Indian ITR filing with final tax position. WhatsApp +91 78018 87130."),
+             "Yes - standard NRI service. Capital gain computation (using calculator) + Section 54 reinvestment planning + Form 128 (old Form 13) lower TDS certificate application + buyer coordination + FEMA Form 15CA + 15CB for repatriation (USD 1M/year) + Indian ITR filing with final tax position. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("nri-property-tds-ldc-calculator.html", "Related", "NRI Property TDS Calculator"),
                           ("nri-india-property-ldc-lower-deduction-certificate.html", "Related", "NRI LDC Full Guide")],
         "cta_h": "NRI selling Indian property? Use BQP's calculator + LDC application.",
         "cta_b": "Instant computation + LDC rate recommendation + Form 13 filing + buyer coordination + FEMA repatriation. BQP integrated NRI property sale engagement.",
         "keywords": "NRI property TDS LDC calculator usage guide India, Section 197 LDC calculator NRI, how to use NRI property calculator",
-        "desc": "How to use BQP's NRI India property TDS + LDC calculator step-by-step guide: inputs (purchase price, sale price, improvement, indexation choice, Section 54 reinvestment), computation (capital gain + tax under 12.5% vs 20% indexation), LDC rate recommendation (typically 2-5% of sale consideration vs 20% default), post-calculator workflow (Form 13, buyer coordination, FEMA repatriation). CA Durgesh Chavda.",
+        "desc": "How to use BQP's NRI India property TDS + LDC calculator step-by-step guide: inputs (purchase price, sale price, improvement, indexation choice, Section 54 reinvestment), computation (capital gain + tax under 12.5% vs 20% indexation), LDC rate recommendation (based on the expected tax on the actual gain, against the default of up to 14.95%), post-calculator workflow (Form 13, buyer coordination, FEMA repatriation). CA Durgesh Chavda.",
     },
     {
         "slug": "how-to-use-india-us-flip-tax-impact-calculator-guide",

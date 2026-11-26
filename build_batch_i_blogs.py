@@ -128,7 +128,7 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
          "<li>TCS at 20%: INR 1,32,000 collected by the AD bank.</li>"
          "<li>Founder actually remits INR 16.6 lakh to Delaware + INR 1,32,000 to the government via TCS = INR 17.92 lakh cash outflow.</li>"
          "</ul>"
-         "<p>The INR 1.32 lakh TCS is NOT a tax; it is advance tax credit against the founder's final income tax for the year. Claimed on ITR as TCS credit (Section 206C(4)). If the founder's final tax liability is lower than the TCS collected, excess is refunded (12-18 months typical).</p>"),
+         "<p>The INR 1.32 lakh TCS is NOT a tax; it is advance tax credit against the founder's final income tax for the year. Claimed on ITR as TCS credit (Section 206C(4)). If the founder's final tax liability is lower than the TCS collected, the excess is refunded after the return is filed and processed.</p>"),
         ("/ Who is exempt", "The carve-outs.",
          "<p>TCS on LRS does NOT apply where:</p>"
          "<ul>"
@@ -171,7 +171,7 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
         ("Does TCS on LRS apply to credit-card spend abroad?",
          "Under current CBDT clarification, credit-card spend abroad is excluded from LRS and therefore NOT subject to the 20% TCS. However, this has been contested in policy announcements. For large credit-card obligations, verify current CBDT position before relying on this exclusion."),
         ("How do I recover TCS collected on my LRS remittance?",
-         "Claim it as advance tax credit when filing your annual Indian ITR. TCS reflects in your Form 26AS / AIS. If TCS collected exceeds final tax liability, excess is refunded by the Income Tax Department - typically 12-18 months after ITR filing."),
+         "Claim it as advance tax credit when filing your annual Indian ITR. TCS reflects in your Form 26AS / AIS. If TCS collected exceeds final tax liability, the excess is refunded by the Income Tax Department after the return is processed, so the money is out of your hands from the remittance until then."),
         ("Can an NRI avoid TCS by routing through family in India?",
          "NRIs don't come under LRS at all - LRS applies only to Resident Indians. However, NRI gifts or inheritance received by Resident Indian family members, if later remitted back abroad under LRS, would be subject to the standard 20% TCS. Direct routing through NRI's own foreign-currency account is cleaner."),
         ("Does BQP handle TCS planning and recovery?",

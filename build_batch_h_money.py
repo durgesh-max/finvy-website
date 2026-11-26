@@ -164,7 +164,7 @@ write_page("ca-for-nri-tax-return-filing", page(
         ("/ Where NRIs commonly lose money", "The leakages a working CA closes.",
          "<ul>"
          "<li><strong>Paying 30% TDS on NRO interest when 10-15% treaty rate was available.</strong> Submitting Form 10F to the Indian bank is a one-time setup that saves 15-20% of all NRO interest income each year.</li>"
-         "<li><strong>Buying Indian property and selling it later with 12.5% + surcharge TDS on full consideration.</strong> For a INR 2 crore sale, this is INR 25-32 lakh TDS lock-up for 12-18 months pending refund. LDC filing (Form 13) 45 days before closing reduces TDS to 2-5% of consideration based on actual expected capital gains.</li>"
+         "<li><strong>Buying Indian property and selling it later with 12.5% + surcharge TDS on full consideration.</strong> For a INR 2 crore sale, this is about INR 29.9 lakh of TDS (at 14.95%) held until the refund. A lower TDS certificate (Form 128, old Form 13) applied for before the sale lets the buyer deduct at a rate based on the expected tax on the actual gain.</li>"
          "<li><strong>Not claiming DTAA on Indian dividend income.</strong> Indian dividend withholding is 20% (Section 115A). Treaty rate is often 10-15%. Form 10F + TRC can save the delta.</li>"
          "<li><strong>Missing the RNOR window on return to India.</strong> 2-3 year RNOR window post-return allows foreign asset disposal (US equity, UAE property, UK pension) without Indian tax. Returnees often discover this after the window ends.</li>"
          "<li><strong>Not re-designating NRE accounts promptly on becoming Resident.</strong> FEMA breach, bank may freeze, penalty possible under FEMA Section 13.</li>"
@@ -193,7 +193,7 @@ write_page("ca-for-nri-tax-return-filing", page(
         ("What is Form 15CA / 15CB and when is it needed?",
          "For repatriation of NRO funds outside India (up to USD 1 million per financial year). Form 15CA is self-declaration electronically filed on the Indian tax portal. Form 15CB is a CA certificate certifying tax paid or treaty position; required for remittances above INR 5 lakh. Both filed before the actual outward remittance from the bank."),
         ("Can BQP help me sell Indian property as an NRI?",
-         "Yes, end-to-end. Lower Deduction Certificate (Form 13) filed 45 days before sale to reduce buyer's TDS from 12.5%+ of consideration to 2-5% of actual capital gains. Capital gains computation, Section 54/54F/54EC reinvestment structuring, Form 15CA + 15CB for repatriation. Standard engagement 60-120 days from LDC to final remittance."),
+         "Yes, end-to-end. Lower TDS certificate (Form 128, old Form 13) applied for before the sale, so the buyer deducts at a rate based on the expected tax on the actual gain instead of 12.5% plus surcharge and cess on the full price. Capital gains computation, Section 54/54F/54EC reinvestment structuring, Form 15CA + 15CB for repatriation. Standard engagement 60-120 days from LDC to final remittance."),
         ("How do I engage BQP for NRI tax filing?",
          "WhatsApp CA Durgesh Chavda at +91 78018 87130, or email info@bharatquantumprospera.com. Standard annual ITR engagement scoped on a short scoping call. Multi-year engagements and property-sale mandates scoped separately."),
     ],

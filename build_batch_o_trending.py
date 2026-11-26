@@ -533,7 +533,7 @@ write_page("nri-pan-aadhaar-linking-exemption-rules", page(
 # 7. NRI LDC property sale
 write_page("nri-india-property-ldc-lower-deduction-certificate", page(
     slug="nri-india-property-ldc-lower-deduction-certificate",
-    title="NRI Property Sale Lower TDS Certificate (2026): Form 128 (Old Form 13) Under Section 395, Documents, Process and TDS Saved - BQP",
+    title="NRI Property Sale Lower TDS Certificate (2026): Form 128 (Old Form 13) Under Section 395 - Documents Required, How to Apply Online and TDS Saved - BQP",
     description="NRI selling Indian property - obtain Lower Deduction Certificate (LDC) under Section 197 to reduce 20% Section 195 TDS to actual tax liability: online application via TRACES, documents, timeline 4-8 weeks, buyer coordination. Avoid locking up INR lakhs in TDS pool. Working CA guide by Durgesh Chavda.",
     keywords="NRI property sale LDC lower deduction certificate, Section 197 LDC NRI property, TRACES LDC application NRI, Section 195 TDS reduction property NRI, LDC online NRI",
     hero_kicker="/ NRI Guide &middot; LDC &middot; Updated 2026-10-15",
@@ -591,6 +591,9 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
     faqs=[
         ("What is Lower Deduction Certificate (LDC) for NRI property sale?",
          "A certificate issued by the Indian tax officer under section 395 of the Income-tax Act, 2025 (old section 197), specifying a TDS rate lower than Section 195 default (20% on LTCG / 30% on STCG), based on NRI's actual tax liability on the sale. Applied for in Form 128 (formerly Form 13) on the TRACES portal. Buyer deducts the LDC-specified rate instead of default - saves significant cash flow for NRI."),
+        ("Can an NRI apply for a lower deduction certificate, and how do I apply online?", "Yes. The NRI seller applies in Form 128 (old Form 13) on the TRACES portal, logging in with their PAN, before the buyer pays. The application gives the estimated income and tax for the year, the property and buyer details, the expected TDS, and the capital gains working, with supporting documents uploaded. The tax officer issues the certificate on TRACES, the seller downloads it and the buyer verifies it there."),
+        ("What documents are required for a lower deduction certificate for an NRI property sale?", "Usually: PAN, the sale agreement or MoU with the price and payment schedule, the purchase deed (or inheritance or gift documents and the previous owner's purchase deed), cost of improvement bills, a capital gains computation, proof of any planned section 54 / 54EC reinvestment, the buyer's details, and recent Indian income tax returns. The officer can ask for more, so a complete file avoids back-and-forth."),
+        ("What should I send to apply for a lower TDS certificate on my property sale?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your PAN, the sale agreement or token receipt, the purchase deed (or inheritance papers), improvement bills, the buyer's name and how they will deduct the tax, any reinvestment plan, and your last Indian returns. We compute the gain, prepare Form 128 and file it on TRACES with you."),
         ("How long does LDC take?",
          "It depends on the case: a complete, well-documented Form 128 application moves faster, while queries from the officer or a change of jurisdiction slow it down. Apply as soon as the sale terms are agreed; the certificate should be in hand before the buyer pays."),
         ("What's the typical LDC rate approved by AO?",
@@ -598,7 +601,7 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
         ("Can I apply for LDC after the sale is done?",
          "No - LDC must be in place BEFORE buyer makes payment / deducts TDS. Once 20% default TDS is deducted and deposited, the only remedy is a refund by filing an Indian income tax return. LDC is prospective - apply well in advance."),
         ("Does the buyer need to do anything special with LDC?",
-         "Buyer references the LDC in Form 27Q TDS return + mentions it in the TDS challan. Buyer deducts the lower rate specified in LDC, deposits only that amount, files Form 27Q quarterly, issues the TDS certificate (Form 16A, now Form 131) showing the certificate rate. Standard procedure for buyer; most Indian buyers are familiar if advised at execution."),
+         "The buyer can verify the certificate on TRACES, deducts only at the rate it specifies and quotes the certificate number when reporting the TDS - in Form 144 (old 27Q) with a TAN, or, for a resident individual or HUF buyer from 1 October 2026, in Form 141 with a PAN - and then gives the seller the TDS certificate showing the lower rate. Brief the buyer before the sale deed is signed."),
         ("Does BQP handle LDC applications for NRI property sellers?",
          "Yes - standard NRI service. Capital gain calculation + Section 54 / 54F / 54EC planning + Form 128 preparation and TRACES filing + follow-up with the officer + buyer coordination. Scope agreed upfront. WhatsApp +91 78018 87130."),
     ],

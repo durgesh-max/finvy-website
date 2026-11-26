@@ -178,7 +178,7 @@ PAGES = [
         "slug": "fema-breach-found-pre-ma-diligence-urgent-compounding-india",
         "title": "FEMA Breach in Pre-M&A Diligence? Urgent Compounding India",
         "hero_em": "clean-up before buyer walks.",
-        "lead": "Buyer's due diligence found FEMA breaches - missed FC-GPR / FC-TRS / FLA / APR filings. Deal pauses until compliance clean + specific indemnity structuring. Voluntary compounding under section 15 of FEMA is the usual fix: the RBI aims to decide within 180 days of a complete application, followed by the fee and the compounding order. Prevents deal collapse. BQP urgent engagement.",
+        "lead": "Buyer's due diligence found FEMA breaches - missed FC-GPR / FC-TRS / FLA / APR filings. Deal pauses until compliance clean + specific indemnity structuring. Voluntary compounding under section 15 of FEMA is the usual fix: the RBI aims to decide within 180 days of a complete application, followed by the fee and the compounding order. Helps keep the deal on track.",
         "kicker": "/ FEMA Pre-M&A Clean-up &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why FEMA breaches surface in due diligence", "The common finds.",
@@ -197,7 +197,7 @@ PAGES = [
              "<li>Buyer's counsel flags FEMA breaches as material due diligence finding.</li>"
              "<li>Deal pauses - closing cannot proceed until specific resolution.</li>"
              "<li>Buyer may demand: specific indemnity + escrow + reduced consideration.</li>"
-             "<li>Deal timeline impact: 30-180 day delay typical.</li>"
+             "<li>Deal timeline impact: the closing can slip until the breach is cleaned up or covered by an indemnity / escrow.</li>"
              "<li>Specific worst case: buyer walks away.</li>"
              "<li>Alternative resolutions:</li>"
              "<li>&nbsp;&nbsp;&mdash; Voluntary compounding under section 15 of FEMA (up to 180 days).</li>"
@@ -227,7 +227,7 @@ PAGES = [
              "<li>Typical foreign-subsidiary cleanup: INR 50,000 - INR 10 lakh total depending on scope.</li>"
              "<li>Materially cheaper than RBI inspection + 3x amount involved penalty.</li>"
              "</ul>"),
-            ("/ BQP urgent pre-M&A engagement", "What we deliver.",
+            ("/ BQP pre-M&A engagement", "What we deliver.",
              "<ul>"
              "<li>Engagement as soon as the notice is received.</li>"
              "<li>FEMA compliance history audit (5-year lookback).</li>"
@@ -243,22 +243,23 @@ PAGES = [
         ],
         "faqs": [
             ("How urgent is FEMA compounding pre-M&A?",
-             "Deal can pause 30-180 days until resolution. Buyer counsel typically demands specific compliance clean-up or specific indemnity/escrow structuring. Voluntary compounding (up to 180 days) is fastest path to resolution. Alternative indemnity structuring may be acceptable in some cases but less clean."),
+             "A deal can pause until the breach is dealt with. Buyer counsel usually asks for the compliance to be cleaned up or for a specific indemnity / escrow. Voluntary compounding (the RBI aims to decide within 180 days of a complete application) closes the breach itself. Alternative indemnity structuring may be acceptable in some cases but less clean."),
             ("What's typical FEMA compounding fee?",
-             "FC-GPR/FC-TRS late (minor): INR 10K-50K per instance. FLA/APR missed: INR 10K-50K per year. Pricing guideline breach: higher - up to multiples of variance. Sector cap/Press Note 3: significant - 100%+ of amount involved. Typical foreign-subsidiary cleanup: INR 50K-10 lakh total. Materially cheaper than RBI inspection."),
+             "There is no fixed tariff for every breach. Reporting delays (FC-GPR, FC-TRS, FLA, APR) within three years of the due date are usually regularised by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay. Other contraventions, older delays, pricing-guideline breaches and sector-cap issues are compounded at amounts the RBI computes under its compounding guidelines, rising with the amount and the period involved; some contraventions cannot be compounded at all (rule 9). BQP engagement fee separate."),
             ("Can compounding be done urgently in less than 90 days?",
              "The RBI aims to decide within 180 days of a complete application. Specific urgency can be flagged in application but RBI doesn't offer fast-track. Alternative: specific indemnity structuring with buyer may bypass compounding + close transaction. Compounding completed post-closing as condition precedent."),
             ("What if buyer walks away due to FEMA breaches?",
              "Risk reduces by: (a) proactive compounding before deal talks, (b) complete compliance history + specific indemnity + escrow structure, (c) specific buyer counsel coordination. BQP engagement includes buyer counsel liaison + deal timing coordination. Specific pre-M&A audit by seller before marketing to buyers often avoids this scenario."),
             ("Does BQP handle urgent pre-M&A FEMA compounding?",
-             "Yes - specialist practice. 24-48 hour urgent engagement + comprehensive compliance audit + application preparation + submission + hearing representation + buyer counsel coordination + closure certificate. For pre-M&A, pre-IPO, pre-fundraising scenarios. WhatsApp +91 78018 87130."),
+             "Yes. Compliance audit + application preparation + submission + hearing representation + buyer counsel coordination + closure certificate. For pre-M&A, pre-IPO, pre-fundraising scenarios. WhatsApp +91 78018 87130 with the buyer's diligence findings, the share allotment and transfer history, and copies of filings made (FC-GPR, FC-TRS, FLA)."),
+        ("What should I send if the buyer's diligence has found FEMA breaches?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: the diligence report or the list of FEMA findings, the company's share allotment and transfer history with dates and amounts received, copies of FC-GPR, FC-TRS, FLA and any ODI or ECB filings actually made, valuation reports used for share issues, and any RBI or AD bank correspondence. We map each finding to a late-submission fee or compounding, prepare the compounding application, and give buyer counsel a written status they can rely on for the indemnity or condition precedent."),
         ],
         "related_pairs": [("fema-compounding-foreign-subsidiary-india.html", "Related", "FEMA Compounding Full Guide"),
                           ("best-ca-fema-compounding-voluntary-india.html", "Related", "Best CA for FEMA Compounding")],
         "cta_h": "FEMA breaches found in buyer DD?",
-        "cta_b": "Deal pausing. Voluntary compounding up to 180 days + buyer counsel coordination. BQP urgent engagement. WhatsApp +91 78018 87130 for same-day response.",
+        "cta_b": "Deal pausing. Voluntary compounding up to 180 days + buyer counsel coordination. BQP: compounding application + buyer counsel coordination. WhatsApp +91 78018 87130 with the diligence findings and filing history.",
         "keywords": "FEMA breach pre M&A diligence urgent compounding India CA, FEMA Section 13 compounding urgent pre deal CA, FC-GPR FC-TRS FLA missed urgent CA India",
-        "desc": "FEMA breach found in pre-M&A buyer due diligence urgent compounding India: common breaches (FC-GPR, FC-TRS, FLA, APR, pricing guidelines, Press Note 3, sector cap, ECB), impact on deal (30-180 day pause, buyer indemnity/escrow demands), voluntary compounding under section 15 (decision within 180 days of a complete application, then the fee and order), buyer counsel coordination. CA Durgesh Chavda specialist pre-M&A FEMA practice.",
+        "desc": "FEMA breach found in pre-M&A buyer due diligence urgent compounding India: common breaches (FC-GPR, FC-TRS, FLA, APR, pricing guidelines, Press Note 3, sector cap, ECB), impact on deal (closing delay, buyer indemnity/escrow demands), voluntary compounding under section 15 (decision within 180 days of a complete application, then the fee and order), buyer counsel coordination. CA Durgesh Chavda.",
     },
     {
         "slug": "rule-9b-demat-missed-fundraising-blocked-urgent-india",
@@ -305,7 +306,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP urgent deal-closing engagement", "The playbook.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement + current state audit.</li>"
+             "<li>Current state audit.</li>"
              "<li>Gap identification + shareholder-wise status + ISIN application.</li>"
              "<li>DP appointment + depository co-ordination.</li>"
              "<li>Shareholder communication templates + follow-up cadence.</li>"
@@ -328,7 +329,7 @@ PAGES = [
             ("What's buyback tax Section 115QA?",
              "20% + surcharge on distributed income paid by Indian company doing buyback. Receipt in shareholder's hands: capital gain but Section 10(34A) exempts buyback-related income (so no further shareholder tax typically). Companies Act limits: max 10-25% buyback per limit + 2-year gap between buybacks + Section 68 Companies Act conditions."),
             ("Does BQP engage urgently for deal-closing Rule 9B?",
-             "Yes - specialist practice for deal closing engagements. 24-48 hour engagement + 60-120 day execution + investor counsel coordination + related compliance (PAS-6, PAS-3, FC-TRS, Section 115QA buyback). For Series A/B/C fundraising + M&A deals. WhatsApp +91 78018 87130."),
+             "Yes, for deal closing engagements. Execution plan + investor counsel coordination + related compliance (PAS-6, PAS-3, FC-TRS, Section 115QA buyback). For Series A/B/C fundraising + M&A deals. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("rule-9b-dematerialisation-2-year-anniversary-october-2026.html", "Related", "Rule 9B 2-Year Status"),
                           ("dematerialisation-unlisted-shares-india-mandatory.html", "Related", "Rule 9B Full Guide")],
@@ -384,7 +385,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP urgent ESOP exit engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement + ESOP exit tax computation.</li>"
+             "<li>ESOP exit tax computation.</li>"
              "<li>Section 48 capital gain + Section 17(2) perquisite basis reconciliation.</li>"
              "<li>Section 54F eligibility verification + property identification.</li>"
              "<li>CGAS deposit coordination if investment delayed.</li>"
@@ -407,7 +408,7 @@ PAGES = [
             ("Can I use 54EC bonds for an ESOP exit?",
              "No. Since 1 April 2018, Section 54EC bonds exempt only long-term gains on land or buildings. For ESOP share gains the only reinvestment exemption is Section 54F (one residential house in India)."),
             ("Does BQP handle ESOP exit + 54F end-to-end?",
-             "Yes - specialist practice. ESOP exit tax computation + Section 54F eligibility + property identification + CGAS deposit + Form 10E + ITR with exemption claim + NRI LDC coordination + 3-year lock-in monitoring. Co-ordinated with real estate + legal partners. WhatsApp +91 78018 87130."),
+             "Yes. ESOP exit tax computation + Section 54F eligibility + property identification + CGAS deposit + Form 10E + ITR with exemption claim + NRI LDC coordination + 3-year lock-in monitoring. Co-ordinated with real estate + legal partners. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("ca-for-section-54f-esop-exercise-sale-reinvestment-india.html", "Related", "ESOP + 54F Full Guide"),
                           ("best-ca-section-54f-capital-gain-reinvestment-india.html", "Related", "Best CA for 54F")],
@@ -610,7 +611,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP urgent DPDP breach engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement + breach severity triage.</li>"
+             "<li>Breach severity triage.</li>"
              "<li>Legal notification drafting (DPB + data principal communications).</li>"
              "<li>Parallel regulator notification (CERT-In 6-hour + sector-specific).</li>"
              "<li>Co-ordination with foreign privacy counsel (GDPR / CCPA parallel if applicable).</li>"
@@ -633,7 +634,7 @@ PAGES = [
             ("Does BQP coordinate with foreign privacy counsel on DPDP + GDPR?",
              "Yes - standard. For foreign-origin companies (US / UK / EU parent) with Indian subsidiary: GDPR 72-hour notification to EU supervisory authority + DPDP 72-hour notification in India + CCPA California notification if applicable. BQP + foreign privacy counsel + specific technical security + legal defence coordinated."),
             ("Does BQP handle urgent DPDP breach response?",
-             "Yes - specialist practice. 24-48 hour engagement + breach triage + legal notification drafting + parallel regulator coordination + foreign privacy counsel coordination + DPB investigation defence + Section 33 penalty mitigation + TDSAT appeal if adverse. For foreign + Indian companies. WhatsApp +91 78018 87130."),
+             "Yes. Breach triage + legal notification drafting + parallel regulator coordination + foreign privacy counsel coordination + DPB investigation defence + Section 33 penalty mitigation + TDSAT appeal if adverse. For foreign + Indian companies. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("dpdp-act-india-foreign-company-compliance-2026.html", "Related", "DPDP Act Full Guide"),
                           ("best-ca-dpdp-act-compliance-foreign-company-india.html", "Related", "Best CA for DPDP")],

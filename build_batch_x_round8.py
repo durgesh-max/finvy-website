@@ -27,7 +27,7 @@ PAGES = [
              "<ul>"
              "<li>GSTR-9 is reconciliation statement - not fresh declaration. Mistakes surface as discrepancies in ASMT-10 (notice of discrepancy under Section 61) within 1-2 years of filing.</li>"
              "<li>Pre-filing audit catches: GSTR-1 vs 3B gaps, 3B ITC vs 2B shortfalls, Section 17(5) blocked ITC claimed, Section 16(4) time-barred ITC, HSN summary mismatches with trade pattern, books vs GST turnover differences.</li>"
-             "<li>Enables: amendment of prior-period GST returns before year-end, voluntary disclosure under Section 73 (10% penalty / INR 10K whichever higher) vs reactive 100% penalty under Section 74.</li>"
+             "<li>Enables: correcting errors in later returns within the time limits, paying non-fraud shortfalls through DRC-03 before a notice, with no penalty (section 73(5) / 74A), instead of facing penalty after a notice.</li>"
              "<li>GSTR-9C (if turnover > INR 5 crore): CA audit of reconciliation. Self-certified since FY 2020-21 but still complex.</li>"
              "</ul>"),
             ("/ 4-week pre-filing audit framework", "Phased approach.",
@@ -63,7 +63,7 @@ PAGES = [
              "<li>Part III - taxable supplies reconciliation.</li>"
              "<li>Part IV - ITC reconciliation books vs GSTR-9 Table 6.</li>"
              "<li>Part V - reasons for unreconciled items.</li>"
-             "<li>Voluntary disclosure strategy: if material under-payment identified, DRC-03 with 10% penalty / INR 10K (Section 73 non-fraud) vs waiting for notice under Section 74 (100% penalty).</li>"
+             "<li>Voluntary disclosure strategy: if material under-payment identified, pay through DRC-03 with interest before a notice - no penalty for a non-fraud shortfall - instead of waiting for a notice that brings penalty.</li>"
              "</ul>"),
             ("/ Common pre-filing audit findings", "Where companies trip.",
              "<ul>"
@@ -81,7 +81,7 @@ PAGES = [
             ("When should GSTR-9 pre-filing audit start?",
              "At least 60 days before 31 December 2026 deadline. So from end of October / early November 2026. 4-week audit framework fits comfortably. Earlier is better - allows time for voluntary disclosure under DRC-03 before year-end + prior-period GSTR amendments if needed."),
             ("What's the voluntary disclosure benefit?",
-             "DRC-03 voluntary disclosure under Section 73 (non-fraud): 10% penalty OR INR 10,000 whichever higher. Compared to waiting for notice under Section 74 (fraud): 100% penalty + interest. Pre-filing audit identification + voluntary disclosure materially cheaper than reactive compliance under notice."),
+             "DRC-03 payment before a notice for a non-fraud shortfall: no penalty if the tax and interest are paid before a show cause notice (section 73(5) for FY 2017-18 to 2023-24; section 74A for FY 2024-25 onwards). Left to a notice and order, penalty applies; in fraud or suppression cases it can reach 100% of the tax. Finding and paying shortfalls before filing GSTR-9 is usually cheaper than responding to a notice."),
             ("How long does GSTR-9 pre-filing audit take?",
              "4 weeks typical for companies with INR 10-100 crore turnover. 2-3 weeks for smaller companies. 6-8 weeks for complex multi-location + multi-GSTIN groups. Timing: start by early November to comfortably hit 31 December deadline + enable voluntary disclosure window."),
             ("Does GSTR-9C still need CA certification?",

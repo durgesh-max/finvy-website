@@ -98,14 +98,14 @@ PAGES = [
         "slug": "discovered-gstr-9-shortfall-voluntary-disclosure-urgent-india",
         "title": "Discovered GSTR-9 Shortfall? Voluntary Disclosure Urgent India",
         "hero_em": "DRC-03 before ASMT-10 or audit.",
-        "lead": "GSTR-9 pre-filing audit revealed material under-payment / mismatches. Voluntary disclosure via Form DRC-03 under Section 73 CGST Act: 10% penalty / INR 10,000 (whichever higher) vs waiting for notice under Section 74 (100% penalty + 5-year lookback). Window closes once ASMT-10 or audit notice served. Urgent action needed. Here's the complete playbook.",
+        "lead": "GSTR-9 pre-filing audit revealed material under-payment / mismatches. Paying through Form DRC-03 before any notice: no penalty if the tax and interest are paid before a show cause notice (section 73(5) for FY 2017-18 to 2023-24; section 74A for FY 2024-25 onwards); where there is fraud or wilful suppression, 15% of the tax if paid before the notice, rising to 100% if left to a final order. Window closes once ASMT-10 or audit notice served. Urgent action needed. Here's the complete playbook.",
         "kicker": "/ GST Voluntary Disclosure &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why voluntary disclosure makes sense", "The economics.",
              "<ul>"
-             "<li><strong>Section 73 (non-fraud, voluntary)</strong>: 10% penalty of tax OR INR 10,000 whichever higher. 3-year lookback from DRC-03 filing date. Interest at 18% per annum.</li>"
-             "<li><strong>Section 74 (fraud / wilful suppression, discovered via notice)</strong>: 100% penalty of tax + interest 18% + possible prosecution. 5-year lookback.</li>"
-             "<li>Difference: Section 73 vs 74 = 90% penalty saving + 2-year shorter lookback window.</li>"
+             "<li><strong>Non-fraud shortfall, paid before a notice</strong>: no penalty - only the tax and interest at 18% a year (section 73(5) up to FY 2023-24; section 74A from FY 2024-25). If left to a notice and order, penalty is 10% of the tax or INR 10,000, whichever is higher.</li>"
+             "<li><strong>Fraud or wilful suppression</strong>: penalty of 15% of the tax if paid before the notice, 25% within the notice window, 50% after the order, and 100% otherwise, plus interest and possible prosecution; the department also gets a longer period to raise the demand.</li>"
+             "<li>Difference: a non-fraud shortfall paid early carries no penalty; the same shortfall left to an order carries penalty, and fraud cases cost far more.</li>"
              "<li>Timing: must be BEFORE service of ASMT-10 (Section 61 scrutiny notice) OR DRC-01 (Section 73/74 demand notice) OR GST audit notice.</li>"
              "<li>Window closes once Department serves specific notice.</li>"
              "</ul>"),
@@ -125,7 +125,7 @@ PAGES = [
              "<ol>"
              "<li>Pre-filing audit identifies specific shortfalls + aggregates by month/year.</li>"
              "<li>Compute exact tax + interest at 18% per annum.</li>"
-             "<li>10% penalty / INR 10,000 (whichever higher) addition.</li>"
+             "<li>No penalty for a non-fraud shortfall paid before a notice; in a fraud or suppression case, add a 15% penalty.</li>"
              "<li>Prepare Form DRC-03 on GST portal: specific month/year, specific HSN, specific reason, computation.</li>"
              "<li>Pay via Challan GST-04 (or Challan PMT-06).</li>"
              "<li>File Form DRC-03 on GST portal with payment reference.</li>"
@@ -134,7 +134,7 @@ PAGES = [
              "</ol>"),
             ("/ Specific advantages of DRC-03 route", "Why act now.",
              "<ul>"
-             "<li>90% penalty saving vs Section 74 reactive compliance.</li>"
+             "<li>No penalty on a non-fraud shortfall paid with interest before a notice.</li>"
              "<li>No specific legal battle - closes exposure permanently.</li>"
              "<li>Clean compliance history - critical for pre-M&A due diligence + pre-IPO.</li>"
              "<li>Avoid specific prosecution risk under Section 132 CGST (specific thresholds + wilful suppression).</li>"
@@ -154,22 +154,22 @@ PAGES = [
         ],
         "faqs": [
             ("Why voluntary disclosure before notice?",
-             "90% penalty saving. Section 73 (non-fraud, voluntary): 10% penalty / INR 10,000 whichever higher. Section 74 (reactive post-notice fraud/suppression): 100% penalty + 5-year lookback + specific prosecution risk. Specific action window closes once ASMT-10 / DRC-01 / GST audit notice served."),
+             "For a non-fraud shortfall there is no penalty if the tax and interest are paid before a show cause notice (section 73(5) for FY 2017-18 to 2023-24; section 74A for FY 2024-25 onwards). Once a notice is issued, penalty applies unless paid within the window the notice allows; where there is fraud or wilful suppression, 15% of the tax if paid before the notice, rising to 100% if left to a final order. Specific action window closes once ASMT-10 / DRC-01 / GST audit notice served."),
             ("What's the deadline for DRC-03 voluntary disclosure?",
              "No specific statutory deadline - but window closes once Department serves specific notice (ASMT-10 Section 61 scrutiny, DRC-01 Section 73/74 demand, GST audit notice). Must be filed BEFORE such service. Practical: before 31 December 2026 GSTR-9 FY 2025-26 deadline + before FY 2025-26 department focus on current year."),
             ("Can DRC-03 be filed for multiple years + multiple issues?",
-             "Yes - single DRC-03 can cover specific month/year/issue; multiple DRC-03s for different periods/issues. Each DRC-03 has specific tax + interest + penalty. For complex multi-year shortfalls: multiple DRC-03s with aggregated computation."),
+             "Yes - single DRC-03 can cover specific month/year/issue; multiple DRC-03s for different periods/issues. Each DRC-03 carries the tax, interest and any penalty that applies. For complex multi-year shortfalls: multiple DRC-03s with aggregated computation."),
             ("What's interest rate on DRC-03?",
-             "18% per annum simple interest from due date of GST return where shortfall occurred to date of DRC-03 payment. Specific calculation per Section 50 CGST Act. For 3-year lookback with 18% interest: can be material + 3-year compound effect approx 65%+ addition to tax."),
+             "18% per annum simple interest from due date of GST return where shortfall occurred to date of DRC-03 payment. Specific calculation per Section 50 CGST Act. Interest is simple, so three years of delay adds roughly 54% of the tax."),
             ("Does BQP handle GSTR-9 pre-filing audit + DRC-03 urgent engagement?",
              "Yes - urgent GSTR-9 engagement. 4-week pre-filing audit + shortfall identification + DRC-03 preparation + filing + GSTR-9 + GSTR-9C with correct position + specific documentation for future defence. Priority before 31 December 2026 deadline. WhatsApp +91 78018 87130 same-day response for urgent GSTR-9 engagement."),
         ],
         "related_pairs": [("gstr-9-pre-filing-audit-checklist-december-2026.html", "Related", "GSTR-9 Pre-Filing Audit"),
                           ("gstr-9-fy-2024-25-december-2026-last-mile-checklist.html", "Related", "GSTR-9 Last Mile")],
         "cta_h": "GSTR-9 shortfall discovered? Voluntary disclosure window closing.",
-        "cta_b": "DRC-03 under Section 73 (10% penalty) vs Section 74 (100% penalty + 5-year lookback). BQP urgent engagement. Priority before 31 December 2026.",
+        "cta_b": "DRC-03 before a notice: no penalty for non-fraud shortfalls (section 73(5) / 74A). BQP urgent engagement. Priority before 31 December 2026.",
         "keywords": "discovered GSTR-9 shortfall voluntary disclosure DRC-03 urgent India, GST Section 73 vs 74 voluntary disclosure CA, Form DRC-03 voluntary payment GST CA India",
-        "desc": "Discovered GSTR-9 shortfall voluntary disclosure urgent India: Section 73 CGST voluntary (10% penalty / INR 10K) vs Section 74 reactive (100% penalty + 5-year lookback), window closes once ASMT-10/DRC-01/audit notice served. Form DRC-03 workflow + 4-week pre-filing audit + GSTR-9 reconciliation. 90% penalty saving + clean pre-M&A/IPO compliance history. CA Durgesh Chavda urgent engagement.",
+        "desc": "Discovered GSTR-9 shortfall voluntary disclosure urgent India: no penalty for a non-fraud shortfall paid with interest before a notice (section 73(5) / 74A), against penalty and a longer look-back once a notice is issued, window closes once ASMT-10/DRC-01/audit notice served. Form DRC-03 workflow + 4-week pre-filing audit + GSTR-9 reconciliation. Penalty avoided on non-fraud shortfalls + clean pre-M&A/IPO compliance history. CA Durgesh Chavda urgent engagement.",
     },
     {
         "slug": "fema-breach-found-pre-ma-diligence-urgent-compounding-india",

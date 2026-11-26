@@ -650,8 +650,8 @@ PAGES = [
         "deep_link_label": "NRI Property LDC Guide",
         "who_question": "Which Indian CA firm handles NRI property sale end-to-end?",
         "why_bqp_bullets": [
-            "NRI property sale specialist - LDC application + Section 54 reinvestment + FEMA repatriation under one engagement",
-            "LDC under Section 197 to reduce 20% default TDS to actual tax rate (often 1-5%)",
+            "NRI property sale work - lower TDS certificate application + section 82 (old 54) reinvestment + FEMA repatriation under one engagement",
+            "Lower TDS certificate (Form 128, old Form 13) under section 395 (old 197) to bring the default 12.5% plus surcharge and cess on the price down to a rate based on the tax on the actual gain",
             "Section 54 / 54F / 54EC reinvestment timing + documentation",
             "FEMA Form 15CA / 15CB + USD 1M/year repatriation co-ordination",
         ],

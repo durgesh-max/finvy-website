@@ -18,7 +18,7 @@ def quick_page(slug, title, hero_em, lead, kicker, sections_pairs, faqs, related
 PAGES = [
     {
         "slug": "gstr-9-pre-filing-audit-checklist-december-2026",
-        "title": "GSTR-9 Pre-Filing Audit Checklist December 2026",
+        "title": "GSTR-9 Checklist for FY 2025-26 (Due 31 December 2026): Pre-Filing Reconciliation, Table-wise Review, GSTR-9C and DRC-03 for Shortfalls",
         "hero_em": "catch reconciliation gaps before filing.",
         "lead": "GSTR-9 FY 2025-26 due 31 December 2026. Pre-filing audit catches reconciliation gaps before submission - preventing scrutiny notices + enabling optimal position. Four-week pre-filing audit framework covering GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5) blocked ITC, Section 16(4) time-barred, HSN summary, GSTR-9C reconciliation. Working CA checklist by Durgesh Chavda.",
         "kicker": "/ GSTR-9 Pre-Filing Audit &middot; Updated 2026-10-22",
@@ -28,7 +28,7 @@ PAGES = [
              "<li>GSTR-9 is reconciliation statement - not fresh declaration. Mistakes surface as discrepancies in ASMT-10 (notice of discrepancy under Section 61) within 1-2 years of filing.</li>"
              "<li>Pre-filing audit catches: GSTR-1 vs 3B gaps, 3B ITC vs 2B shortfalls, Section 17(5) blocked ITC claimed, Section 16(4) time-barred ITC, HSN summary mismatches with trade pattern, books vs GST turnover differences.</li>"
              "<li>Enables: correcting errors in later returns within the time limits, paying non-fraud shortfalls through DRC-03 before a notice, with no penalty (section 73(5) / 74A), instead of facing penalty after a notice.</li>"
-             "<li>GSTR-9C (if turnover > INR 5 crore): CA audit of reconciliation. Self-certified since FY 2020-21 but still complex.</li>"
+             "<li>GSTR-9C (if turnover > INR 5 crore): reconciliation statement, self-certified by the taxpayer since FY 2020-21 (no CA audit), but still detailed work.</li>"
              "</ul>"),
             ("/ 4-week pre-filing audit framework", "Phased approach.",
              "<p><strong>Week 1: Data extraction + reconciliation setup</strong></p>"
@@ -53,8 +53,8 @@ PAGES = [
              "<li>Table 6 (ITC availed) + Table 7 (ITC reversed/ineligible).</li>"
              "<li>Table 8 (ITC per 2B vs 3B claimed).</li>"
              "<li>Table 9 (tax paid).</li>"
-             "<li>Tables 10-14 (amendments, demand, refund).</li>"
-             "<li>Tables 15-16 (HSN-wise summary) - must match actual trade pattern.</li>"
+             "<li>Tables 10-14 (amendments and ITC reversals made in the next year, differential tax).</li>"
+             "<li>Table 15 (demands and refunds), Table 16 (supplies from composition taxpayers, deemed supplies), Tables 17-18 (HSN-wise summary) - must match the actual trade pattern.</li>"
              "<li>Section 16(4) time-barred ITC: for FY 2025-26, maximum claim window closed with earlier of (a) October 2025 3B filing or (b) GSTR-9 filing date. Missed ITC permanently lost.</li>"
              "</ul>"
              "<p><strong>Week 4: GSTR-9C (if applicable) + voluntary disclosure</strong></p>"
@@ -71,7 +71,7 @@ PAGES = [
              "<li><strong>3B ITC > 2B available</strong>: vendors who didn't file GSTR-1. Chase vendors or reverse ITC with Section 50 interest.</li>"
              "<li><strong>Section 17(5) blocked ITC claimed</strong>: ITC on motor vehicles (personal), construction materials for own-building, food/beverage, personal insurance - must reverse Table 7.</li>"
              "<li><strong>Section 16(4) missed window</strong>: ITC not claimed in GSTR-3B within window - permanently lost. Lesson for FY 2025-26 forward tracking.</li>"
-             "<li><strong>HSN summary mismatch</strong>: Table 15/16 HSN pattern doesn't match actual trade - specific scrutiny trigger.</li>"
+             "<li><strong>HSN summary mismatch</strong>: Table 17/18 HSN pattern doesn't match actual trade - specific scrutiny trigger.</li>"
              "<li><strong>RCM supplies not declared</strong>: specific services under reverse charge mechanism not disclosed - Section 73 exposure.</li>"
              "<li><strong>Books turnover > GSTR-9 turnover</strong>: unreported sales. Materially significant - voluntary disclosure urgent.</li>"
              "</ul>"
@@ -79,17 +79,19 @@ PAGES = [
         ],
         "faqs": [
             ("When should GSTR-9 pre-filing audit start?",
-             "At least 60 days before 31 December 2026 deadline. So from end of October / early November 2026. 4-week audit framework fits comfortably. Earlier is better - allows time for voluntary disclosure under DRC-03 before year-end + prior-period GSTR amendments if needed."),
+             "At least 60 days before 31 December 2026 deadline. So from end of October / early November 2026. 4-week audit framework fits comfortably. Earlier is better - allows time for voluntary disclosure under DRC-03 before year-end + corrections in later returns within the time limits if needed."),
             ("What's the voluntary disclosure benefit?",
              "DRC-03 payment before a notice for a non-fraud shortfall: no penalty if the tax and interest are paid before a show cause notice (section 73(5) for FY 2017-18 to 2023-24; section 74A for FY 2024-25 onwards). Left to a notice and order, penalty applies; in fraud or suppression cases it can reach 100% of the tax. Finding and paying shortfalls before filing GSTR-9 is usually cheaper than responding to a notice."),
             ("How long does GSTR-9 pre-filing audit take?",
              "4 weeks typical for companies with INR 10-100 crore turnover. 2-3 weeks for smaller companies. 6-8 weeks for complex multi-location + multi-GSTIN groups. Timing: start by early November to comfortably hit 31 December deadline + enable voluntary disclosure window."),
             ("Does GSTR-9C still need CA certification?",
              "No - from FY 2020-21 onwards GSTR-9C is self-certified (CA certification requirement removed). But reconciliation complexity remains - most taxpayers still engage CA for GSTR-9C preparation given technical depth. BQP standard engagement includes GSTR-9C."),
+        ("Who has to file GSTR-9 for FY 2025-26?", "Regular taxpayers with aggregate turnover above Rs 2 crore must file GSTR-9 by 31 December 2026; below that it is optional. GSTR-9C, the reconciliation statement, applies above Rs 5 crore. Composition taxpayers file GSTR-4 instead, and casual, non-resident and TDS / TCS registrations do not file GSTR-9."),
+        ("What should I send for a GSTR-9 review?", "WhatsApp us your GSTIN, the GSTR-1 and GSTR-3B summaries for April 2025 to March 2026, GSTR-2B or your ITC register, your trial balance and sales and purchase registers, and any notice or intimation received. We reconcile them table by table, flag blocked or time-barred ITC and shortfalls to pay through DRC-03 first, and prepare GSTR-9 and, where needed, GSTR-9C."),
             ("What's Table 44 of GSTR-9?",
              "GSTR-9 doesn't have Table 44 - you may be thinking of Clause 44 of Form 3CD (tax audit) which reconciles Income Tax turnover with GST turnover. GSTR-9 itself has 19 Tables (4-16 for main reconciliation + specific adjustments)."),
             ("Does BQP handle GSTR-9 + GSTR-9C + pre-filing audit?",
-             "Yes - integrated engagement. Pre-filing audit (4 weeks before 31 December) + voluntary disclosure if identified + Table-by-Table GSTR-9 + Part-by-Part GSTR-9C + ASMT-10 response if subsequent notice. Standard annual engagement for companies with turnover INR 2 crore+. Priority turnaround through December 2026. WhatsApp +91 78018 87130."),
+             "Yes - integrated engagement. Pre-filing audit (4 weeks before 31 December) + voluntary disclosure if identified + Table-by-Table GSTR-9 + Part-by-Part GSTR-9C + ASMT-10 response if subsequent notice. Standard annual engagement for companies with turnover INR 2 crore+. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("gstr-9-fy-2024-25-december-2026-last-mile-checklist.html", "Related", "GSTR-9 Last Mile"),
                           ("gstr-9-gstr-9c-annual-return-india-2026.html", "Related", "GSTR-9 Full Guide")],

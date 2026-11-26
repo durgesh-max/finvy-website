@@ -55,7 +55,7 @@ PAGES = [
              "<li>Table 9 (tax paid).</li>"
              "<li>Tables 10-14 (amendments and ITC reversals made in the next year, differential tax).</li>"
              "<li>Table 15 (demands and refunds), Table 16 (supplies from composition taxpayers, deemed supplies), Tables 17-18 (HSN-wise summary) - must match the actual trade pattern.</li>"
-             "<li>Section 16(4) time-barred ITC: for FY 2025-26, maximum claim window closed with earlier of (a) October 2025 3B filing or (b) GSTR-9 filing date. Missed ITC permanently lost.</li>"
+             "<li>Section 16(4) time-barred ITC: for FY 2025-26, the claim window closes on the earlier of 30 November 2026 or the GSTR-9 filing date. ITC missed after that is lost.</li>"
              "</ul>"
              "<p><strong>Week 4: GSTR-9C (if applicable) + voluntary disclosure</strong></p>"
              "<ul>"

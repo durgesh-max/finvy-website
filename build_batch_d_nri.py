@@ -257,7 +257,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
 # 4. NRI Selling Indian Property
 write_page("nri-selling-indian-property-capital-gains", page(
     slug="nri-selling-indian-property-capital-gains",
-    title="NRI Capital Gains Tax on Property in India 2026: 12.5% Rate, No Indexation, Section 54 Exemption, TDS and Repatriation - BQP",
+    title="NRI Capital Gains Tax on Property in India 2026: 12.5% Rate, No Indexation, Section 54 Exemption, Buyer TDS, TDS Refund and Repatriation - BQP",
     description="NRI selling Indian property: capital gains calculation, Section 195 TDS 12.5% + surcharge, Section 54 / 54F / 54EC reinvestment, repatriation USD 1M, Form 15CA/CB. Working CA guide.",
     keywords="NRI sell Indian property, NRI capital gains property, Section 195 TDS NRI, Section 54 NRI, NRI property repatriation, Form 15CA 15CB NRI, Lower Deduction Certificate NRI",
     hero_kicker="/ NRI tax &middot; Property sale",
@@ -293,12 +293,14 @@ write_page("nri-selling-indian-property-capital-gains", page(
     ],
     faqs=[
         ("What TDS does the buyer deduct when buying property from an NRI?",
-         "Post-July 2024, 12.5% + surcharge + cess of the sale consideration (not the gain) under Section 195. Effective rate 14-16% depending on sale value. The LDC route reduces this to 2-5% if the NRI applies via Form 13 before the sale."),
+         "On a long-term sale, 12.5% plus surcharge and 4% cess on the sale price (not the gain) under section 393 of the 2025 Act (old 195): about 13% up to Rs 50 lakh, 14.3% up to Rs 1 crore and 14.95% above. A lower TDS certificate in Form 128 (old Form 13), obtained before the sale, lets the buyer deduct at a rate based on the expected tax on your actual gain."),
         ("Can an NRI claim Section 54 exemption on an Indian property sale?",
          "Yes. Section 54 applies to any residential house capital gain, including NRI's. Reinvestment must be in Indian residential property within 2 years (purchase) or 3 years (construction). The reinvestment property can be held jointly with Indian relatives. INR 10 crore cap applies."),
         ("What is the capital gains tax rate for NRIs on property, and can they use indexation?", "Property held for more than 24 months is long-term: the gain is taxed at 12.5% plus surcharge and cess, without indexation. The option to pay 20% with indexation on land or buildings bought before 23 July 2024 is available only to resident individuals and HUFs, not to NRIs. Property held for 24 months or less is short-term and taxed at slab rates. The buyer deducts TDS on the sale price unless a lower deduction certificate is obtained."),
         ("How do I avoid locking up large TDS on an NRI property sale?",
          "Apply on TRACES for a lower TDS certificate in Form 128 (old Form 13) well before the sale. The certificate specifies a lower TDS rate based on the expected tax on your actual gain, and the buyer then withholds at that rate instead of up to 14.95% of the price. It matters most where the gain is small compared with the price."),
+        ("Can an NRI claim a TDS refund on a property sale?", "Yes. The buyer deducts TDS on the whole price, but the tax is due only on the capital gain (12.5% on a long-term gain, without indexation, less any section 54 / 54EC exemption). The difference comes back as a refund when you file an Indian return (ITR-2) for the year of the sale, credited to a pre-validated Indian bank account, usually NRO, with interest at 0.5% a month where it applies. For a sale in FY 2025-26, a belated return can still be filed until 31 December 2026. A lower TDS certificate before the next sale avoids locking the money up in the first place."),
+        ("What should I send to claim back excess TDS on my property sale?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: the sale deed, the buyer's TDS certificate (Form 131, old 16A) or your Form 168 (old 26AS) / AIS, your purchase deed and stamp duty receipt, bills for improvements, details of any reinvestment (new house, 54EC bonds or a Capital Gains Account Scheme deposit), your days in India for the year and the Indian bank account for the refund. We compute the actual tax, prepare ITR-2 claiming the excess and track the refund."),
         ("Can I repatriate more than USD 1M from an Indian property sale?",
          "The default cap is USD 1M per financial year from NRO. For sale proceeds above that, you can spread across multiple financial years (USD 1M + USD 1M + ...), apply to RBI for a larger single-year repatriation, or split ownership across multiple family members each with their own USD 1M cap. Advance planning is essential &mdash; the cap is calendar-financial-year, so timing of sale and documentation matter."),
         ("Does the buyer need a TAN to buy property from an NRI?", "Not from 1 October 2026. A resident individual buying from an NRI can deposit the TDS using Form 141 under their own PAN, without a TAN. The NRI seller still needs a PAN, and the buyer still deducts TDS at the non-resident rates."),
@@ -307,7 +309,7 @@ write_page("nri-selling-indian-property-capital-gains", page(
         ("What if I buy another Indian property within 2 years of sale?",
          "Section 54 exemption applies: the LTCG on the sold property is exempt to the extent reinvested in the new residential property in India. Reinvestment within 2 years from the date of sale (purchase) or 3 years (construction). If reinvestment is partial, exemption is prorated."),
         ("Does BQP handle NRI property sales?",
-         "Yes. Full-service: LDC application (Form 13), capital-gains computation, buyer co-ordination, Form 15CA/CB for repatriation, Section 54/54EC/54F structuring, ITR filing. Working-CA engagement from LDC filing through final remittance. Standard timeline 60-120 days. Request via get-a-quote.html."),
+         "Yes. Lower TDS certificate application (Form 128, old Form 13), capital-gains computation, buyer co-ordination, Forms 145 / 146 (old 15CA / 15CB) for repatriation, section 54 / 54EC / 54F planning and the ITR claiming any excess TDS back. WhatsApp +91 78018 87130 with the sale agreement or deed, your purchase deed and improvement bills, and the expected sale date."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar"),

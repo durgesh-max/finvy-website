@@ -191,16 +191,16 @@ write_page("nri-residential-status-rnor-india", page(
 # 3. NRI Returning to India - RNOR transition
 write_page("nri-returning-india-tax-rnor-transition", page(
     slug="nri-returning-india-tax-rnor-transition",
-    title="NRI Returning to India 2026 | RNOR Transition Tax Planning - BQP",
+    title="NRI Returning to India (2026): RNOR Status, Tax on Foreign Income, 401(k) / IRA, NRE to RFC Accounts and Schedule FA - BQP",
     description="NRI permanently returning to India: RNOR 2-3 year window, foreign asset re-pricing, IRA/401(k) conversion timing, foreign property sale, re-designation of NRE accounts. Working CA planning guide.",
     keywords="NRI returning to India, RNOR transition, IRA 401k rollover India, foreign property NRI return, re-designate NRE account, moving back to India tax, repatriate retirement NRI",
     hero_kicker="/ NRI tax &middot; Return to India",
     hero_title_html="NRI returning to India, <em>the RNOR planning window.</em>",
-    hero_lead="The 2-3 year RNOR window post-return is the single most tax-efficient period of an NRI's life. Foreign assets can be sold, retirement accounts converted, foreign property disposed of, all without Indian tax. After the RNOR transition ends, worldwide income is Indian-taxable. Plan the window.",
+    hero_lead="The 2-3 year RNOR window post-return is a valuable planning period. Foreign assets can be sold, retirement accounts converted, foreign property disposed of, all without Indian tax. After the RNOR transition ends, worldwide income is Indian-taxable. Plan the window.",
     sections=[
         ("/ What RNOR delivers", "Why this window matters.",
          "<p>Resident but Not Ordinarily Resident (RNOR) is the Indian tax status between NRI and ROR. For 2-3 financial years after returning to India permanently, the typical returnee holds RNOR status (assuming they were non-resident in 9 of the preceding 10 years, or physically present in India for 729 days or less in the preceding 7 years).</p>"
-         "<p>RNOR taxability: India-source income only &mdash; same as NRI. Foreign dividends, foreign capital gains, foreign rental, foreign retirement withdrawals are NOT taxable in India during RNOR.</p>"
+         "<p>RNOR taxability: Indian income, plus foreign income only if it comes from a business controlled in India or a profession set up in India. Foreign dividends, foreign capital gains, foreign rental and foreign retirement withdrawals are generally NOT taxable in India during RNOR.</p>"
          "<p>After RNOR ends (usually year 3 or year 4 post-return), status becomes ROR and worldwide income is Indian-taxable. The RNOR window is a one-time planning opportunity.</p>"),
         ("/ What to do in the RNOR window", "The returnee checklist.",
          "<ol>"
@@ -210,13 +210,13 @@ write_page("nri-returning-india-tax-rnor-transition", page(
          "<li><strong>Close dormant foreign bank accounts.</strong> Simplifies future FBAR / Schedule FA reporting. During RNOR there is no Schedule FA filing obligation; after ROR there is.</li>"
          "<li><strong>Convert foreign business income streams.</strong> If you hold a foreign business, consider taking the final distribution / liquidating / converting to passive income during RNOR. Post-RNOR, foreign business income can be Indian-taxable if controlled from India.</li>"
          "<li><strong>Re-designate NRE / FCNR accounts.</strong> On becoming Resident, NRE and FCNR accounts must be re-designated as Resident accounts (RFC or regular) within specified timelines. NRE interest becomes taxable once you are resident; FCNR interest stays exempt while you are RNOR (section 10(15)(iv)(fa)).</li>"
-         "<li><strong>File Schedule FA (Foreign Assets) once ROR.</strong> Mandatory annual disclosure of all foreign assets. Non-disclosure penalty: Black Money Act, up to USD 10 lakh + possible imprisonment. Build the asset log during RNOR.</li>"
+         "<li><strong>File Schedule FA (Foreign Assets) once ROR.</strong> Mandatory annual disclosure of all foreign assets. Non-disclosure penalty: Black Money Act penalty of Rs 10 lakh a year for missing foreign assets in the return, plus possible prosecution. Build the asset log during RNOR.</li>"
          "</ol>"),
         ("/ The IRA / 401(k) decision", "A detailed walk-through.",
          "<p>For US NRIs returning to India, the US retirement account decision is the single largest financial choice. Options:</p>"
          "<p><strong>Option A: Lump-sum distribution during RNOR.</strong> Full balance withdrawn in one year. US tax on the full amount at US marginal rate (often 32-37% for a large balance), plus 10% early-withdrawal penalty if under age 59.5. No Indian tax during RNOR. Net cash available immediately in India. Downsides: punitive US rate on a one-year lump-sum, loss of future tax-deferred growth.</p>"
          "<p><strong>Option B: Rollover to IRA, periodic withdrawals.</strong> Keep the IRA in US, draw down over 10+ years. Each year's withdrawal is US-taxed at your then-marginal rate (lower if your US income is minimal post-move). But each year's withdrawal is also potentially Indian-taxable once ROR &mdash; India may treat IRA distribution as 'pension income' taxable at slab rate, with FTC for US tax paid under DTAA Article 20. Net Indian tax: typically neutral but complex.</p>"
-         "<p><strong>Option C: Roth conversion during RNOR.</strong> Convert traditional IRA to Roth IRA while RNOR &mdash; US tax on the conversion amount at your then-US-marginal rate, no Indian tax during RNOR. After conversion, Roth withdrawals are US-tax-free (if 5-year rule met) and India has not clearly ruled on Roth taxability but likely tax-free. This is often the best outcome if US marginal rate is manageable in the conversion year.</p>"
+         "<p><strong>Option C: Roth conversion during RNOR.</strong> Convert traditional IRA to Roth IRA while RNOR &mdash; US tax on the conversion amount at your then-US-marginal rate, no Indian tax during RNOR. After conversion, Roth withdrawals are US-tax-free (if 5-year rule met) and India's treatment of later Roth withdrawals is not settled, so take advice before relying on it. It can work where the US marginal rate in the conversion year is manageable.</p>"
          "<p>Decision depends on: your US marginal rate in RNOR year, Indian marginal rate forecast post-ROR, your age (early-withdrawal penalty), balance size, and your appetite for ongoing US tax filing. Model all three.</p>"),
         ("/ The NRE account re-designation", "An often-missed step.",
          "<p>On becoming Resident in India, FEMA requires the account holder to re-designate NRE and FCNR accounts within reasonable time. Options:</p>"
@@ -229,15 +229,17 @@ write_page("nri-returning-india-tax-rnor-transition", page(
     ],
     faqs=[
         ("How long does RNOR status last for a returning NRI?",
-         "Typically 2 to 3 financial years post-return, depending on your 10-year lookback at the time of return. If you were non-resident in 9+ of the preceding 10 years at return, you can be RNOR for 2 years in some cases, up to 3 years. The 7-year 729-day carve-out can extend RNOR further in specific cases."),
+         "It is tested year by year. You are RNOR in a year if you were non-resident in 9 of the 10 preceding years, or were in India for 729 days or less in the 7 preceding years. Someone who lived abroad for many years usually gets two, sometimes three, RNOR years, but the count must be worked out from your travel history before you plan any sale or withdrawal."),
         ("Should I withdraw my US 401(k) before returning to India?",
-         "Not before &mdash; use the RNOR window after return. Pre-return withdrawal while US-resident attracts your US marginal rate plus state tax (if applicable). Post-return during RNOR, the US tax applies but your US income is often lower, dropping the marginal rate. Roth conversion during RNOR is frequently the best outcome. Model your specific numbers before deciding."),
+         "Not before &mdash; use the RNOR window after return. Pre-return withdrawal while US-resident attracts your US marginal rate plus state tax (if applicable). Post-return during RNOR, the US tax applies but your US income is often lower, dropping the marginal rate. Roth conversion during RNOR is one option to model. Model your specific numbers before deciding."),
         ("Is my US IRA distribution taxed in India once I'm ROR?",
          "Yes, under current law. ROR means worldwide income is Indian-taxable. US IRA distribution is treated as pension / annuity income by Indian tax authorities, taxed at slab rate. India-US DTAA Article 20 provides FTC relief for the US tax on the same amount. Net Indian tax: often zero or small positive, but requires accurate FTC documentation."),
         ("Can I keep my US investment accounts after returning to India?",
          "Yes, generally &mdash; US brokerage accounts can remain open and continue to hold investments. However: FBAR filing applies if you remain a US person; Schedule FA filing applies when you become ROR in India; some brokerages close accounts of non-US-resident clients (check Fidelity / Schwab / Vanguard terms); and the India-US DTAA + FTC machinery must handle double-counting of US dividends and gains."),
         ("What happens to my NRE Fixed Deposit when I return?",
          "You re-designate immediately on return, as RBI directs. Options: convert to Resident Rupee Deposit (interest taxable from conversion), convert to RFC Account (foreign-currency, interest taxable), or withdraw and convert to another instrument. The exemption on NRE interest under Section 10(4)(ii) ends from the conversion date; interest before conversion remains exempt."),
+        ("Do I need to report foreign assets in my Indian return after moving back?", "Yes, once you become resident and ordinarily resident. From that year Schedule FA in your ITR must list foreign bank and brokerage accounts, retirement accounts such as a 401(k) or IRA, foreign property, insurance policies and other foreign assets, even if they earn nothing. RNOR years do not need Schedule FA. Missing it can attract the Black Money Act penalty, so build the list during your RNOR years and correct any earlier omission promptly."),
+        ("What should I send to plan my return to India?", "WhatsApp us your expected return date, your days in India for each of the last 10 years (passport stamps or travel history), a list of foreign accounts, retirement plans, property and policies with rough values, your NRE / NRO / FCNR accounts, and what you plan to sell or withdraw. We work out your RNOR years, the order in which to sell or withdraw, the account re-designation steps and your first-year return and disclosure."),
         ("Does BQP handle NRI return-to-India planning?",
          "Yes. We handle pre-return planning (optimal exit date from host country, RNOR start-year math), RNOR-year asset disposal planning (foreign equity, real estate, retirement accounts), NRE / FCNR re-designation co-ordination, and first-year ROR filing including Schedule FA. Request via get-a-quote.html."),
     ],
@@ -247,7 +249,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
         ("india-us-dtaa-withholding-rates.html", "DTAA", "India-US DTAA"),
     ],
     cta_headline="Returning to India in the next 24 months?",
-    cta_body="The RNOR window is a one-time planning opportunity. Pre-return scoping covers US / UAE / UK asset-disposal plan, retirement-account conversion math, NRE re-designation timing, and first-year ROR filing readiness. Most clients save multiples of our fee on retirement-account tax alone.",
+    cta_body="The RNOR window is a one-time planning opportunity. Pre-return scoping covers US / UAE / UK asset-disposal plan, retirement-account conversion math, NRE re-designation timing, and first-year ROR filing readiness.",
 ))
 
 # 4. NRI Selling Indian Property

@@ -501,7 +501,7 @@ write_page("fema-odi-us-entity-indian-founder", page(
         ("stripe-atlas-alternative-india.html", "Compare", "Stripe Atlas vs CA-led"),
     ],
     cta_headline="Funded a US entity from India &mdash; and skipped the ODI reporting?",
-    cta_body="If your initial Form FC was missed or your APRs are overdue, the clean-up is straightforward but time-sensitive before your next fundraise. We assess the back-exposure, prepare the compounding application, file the overdue APRs, and get you to clean FEMA status within 60-90 days.",
+    cta_body="If your initial Form FC was missed or your APRs are overdue, the clean-up is straightforward but time-sensitive before your next fundraise. We assess the back-exposure, prepare the compounding application, file the overdue APRs, and work through the RBI process until the compounding order is passed (the RBI aims to decide within 180 days of a complete application).",
 ))
 
 print("v2 pages built")

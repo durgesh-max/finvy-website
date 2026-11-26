@@ -439,7 +439,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
          "<li><strong>Supporting document collection</strong>: FIRC (Foreign Inward Remittance Certificate), bank statements, board resolutions, share certificates, AD bank correspondence.</li>"
          "<li><strong>Compounding application drafting</strong>: comprehensive application covering all identified breaches, admission of facts, mitigating circumstances, prayer for compounding.</li>"
          "<li><strong>Submission to Compounding Authority</strong>: via AD-I category bank. Along with application fee + supporting documents.</li>"
-         "<li><strong>Acknowledgement</strong>: RBI acknowledges + schedules hearing (typically within 60-90 days).</li>"
+         "<li><strong>Acknowledgement</strong>: RBI examines the application, may ask for more information, and gives a personal hearing if requested.</li>"
          "<li><strong>Hearing</strong>: in-person or video hearing with CA representation. BQP partner attends. Specific questions on breach + mitigating facts.</li>"
          "<li><strong>Compounding order</strong>: within 180 days of acknowledgement. Specifies fee + payment deadline.</li>"
          "<li><strong>Fee payment</strong>: via RTGS to designated government account within 15 days.</li>"
@@ -457,9 +457,9 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("What breaches are typically compounded for foreign-subsidiary companies?",
          "Most common: missed/late FC-GPR filing after inward FDI remittance; late FC-TRS on share transfer; non-filing of FLA Return (annual); non-filing of Form APR for Indian company's overseas investment; pricing guideline breach on share issue to non-resident; delays in share allotment post remittance; Press Note 3 breach (investment from land-bordering country without approval)."),
         ("How long does FEMA compounding take?",
-         "The RBI aims to compound within 180 days of receiving a complete application. Includes application review (30-60 days), hearing scheduling (another 30-60 days), hearing + order drafting (30-60 days). Fee payment within 15 days of order. Timing varies by Compounding Authority's docket + complexity of breach."),
+         "The RBI aims to compound within 180 days of receiving a complete application. The clock runs from a complete application, so missing documents or follow-up queries push it out. The compounding amount is paid within 15 days of the order."),
         ("Does BQP handle FEMA compounding for foreign-subsidiary companies?",
-         "Yes - this is a specialised service. Audit of FEMA compliance history + chronology drafting + supporting document assembly + compounding application preparation + submission + hearing representation + fee payment coordination + closure certificate. Scope-based engagement typically 2-6 months. WhatsApp +91 78018 87130."),
+         "Yes. Audit of FEMA compliance history + chronology drafting + supporting document assembly + compounding application preparation + submission + hearing representation + fee payment coordination + closure certificate. Scope-based engagement. WhatsApp +91 78018 87130 with the list of late filings (FC-GPR, FC-TRS, FLA, APR, ECB-2), allotment and remittance dates, and any RBI or AD bank letters."),
     ],
     related=[
         ("fla-return-foreign-liabilities-assets-rbi-india.html", "Guide", "FLA Return"),

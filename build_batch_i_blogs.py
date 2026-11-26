@@ -276,7 +276,7 @@ write_page("uae-corporate-tax-2026-qfzp-fta-update", page(
         ("What activities qualify for QFZP 0% rate?",
          "Transactions with other Free Zone persons (except excluded activities), Qualifying Activities with non-Free Zone persons, ownership/exploitation of qualifying intangible assets, treasury financing to related parties, specified ancillary income within de minimis. Excluded activities (transactions with natural persons, UAE real estate, specific finance activities) are always 9%."),
         ("Can I move my shell Dubai holdco to QFZP status?",
-         "Only if you build genuine UAE substance (local employees, operating expenditure proportional to activity, UAE physical office with staff) AND the entity derives Qualifying Income. A nominee-director + outsourced-accounting structure typically fails QFZP. Substance uplift is a 60-90 day engagement in our practice."),
+         "Only if you build genuine UAE substance (local employees, operating expenditure proportional to activity, UAE physical office with staff) AND the entity derives Qualifying Income. A nominee-director + outsourced-accounting structure typically fails QFZP. Building that substance takes time, so plan it before the tax period you want to qualify for."),
         ("Does my Dubai holdco need an audit?",
          "QFZP requires audited financial statements. Non-QFZP (9% CT) entities above AED 50 million revenue require audit. Even smaller entities often need audit for banking, visa or regulatory purposes. Plan for ongoing audit cost in your UAE structure."),
         ("What is DMTT and does it affect my Dubai holdco?",

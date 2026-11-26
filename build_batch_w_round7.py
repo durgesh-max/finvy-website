@@ -83,7 +83,7 @@ PAGES.append({
 # 2. Form 67 Foreign Tax Credit
 PAGES.append({
     "slug": "form-67-foreign-tax-credit-india-2026",
-    "title": "Form 67 Foreign Tax Credit (FTC) India 2026 Checklist",
+    "title": "DTAA Relief and Foreign Tax Credit in India (2026): Section 90 vs 91, How Relief Is Calculated and Filing Form 67 (Now Form 44)",
     "hero_em": "DTAA FTC claim mechanism.",
     "lead": "Form 67 is mandatory for Indian resident claiming Foreign Tax Credit (FTC) under Section 90 or 91 of Income Tax Act. Filed with Indian ITR. Covers taxes paid in foreign country on income doubly taxable (India + foreign country). Section 90 for DTAA countries; Section 91 for non-DTAA countries. Here's the complete 2026 filing framework.",
     "kicker": "/ FTC Form Checklist &middot; Updated 2026-10-22",
@@ -95,7 +95,7 @@ PAGES.append({
          "<li>Section 90 (DTAA country, e.g., US / UK / Singapore / UAE / Mauritius): treaty-based FTC.</li>"
          "<li>Section 91 (non-DTAA country): unilateral FTC under domestic law.</li>"
          "<li>Credit is LOWER of (a) foreign tax paid, OR (b) Indian tax attributable to foreign income.</li>"
-         "<li><strong>Must file Form 67</strong>: BEFORE due date of Indian ITR (same deadline as ITR).</li>"
+         "<li><strong>Must file Form 67</strong>: best filed before or with the ITR; rule 128(9) allows it up to the end of the assessment year if the return is filed on time or as a belated return.</li>"
          "</ul>"),
         ("/ Common FTC scenarios", "Where it comes up.",
          "<ul>"
@@ -123,7 +123,7 @@ PAGES.append({
          "<li><strong>Filed after the end of the assessment year</strong>: FTC can be denied. Up to that date Form 67 is accepted if the return was filed under section 139(1) or 139(4) (rule 128(9)); with an updated return it must be filed by the date of that return.</li>"
          "<li><strong>Over-claim</strong>: credit cannot exceed Indian tax on same income. If foreign tax > Indian tax, excess cannot be refunded.</li>"
          "<li><strong>Wrong currency conversion</strong>: must convert foreign tax at the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)).</li>"
-         "<li><strong>Non-DTAA country mistake</strong>: Section 91 (unilateral) applies for non-DTAA; Section 90 for DTAA. Different credit mechanics.</li>"
+         "<li><strong>Non-DTAA country mistake</strong>: Section 91 (unilateral) applies to residents with income from a non-DTAA country; Section 90 for DTAA countries. Different credit mechanics.</li>"
          "<li><strong>Specific income DTAA treatment</strong>: some income types (salary via Article 15, dividend via Article 10) have specific allocation rules. FTC under Section 90(1).</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),
@@ -132,11 +132,13 @@ PAGES.append({
         ("When is Form 67 due?",
          "For assessment years up to 2026-27, rule 128(9) (substituted by Notification 100/2022, effective 1 April 2022) allows Form 67 to be filed on or before the end of the assessment year, provided the return is filed within the time under section 139(1) or 139(4); with an updated return under section 139(8A), by the date that return is filed. For AY 2026-27 that means by 31 March 2027, but filing Form 67 before or with the ITR avoids processing mismatches. From tax year 2026-27 the form is Form 44 under the Income-tax Rules, 2026; check its time limit."),
         ("What's the difference between Section 90 and 91 FTC?",
-         "Section 90: FTC under DTAA (bilateral treaty with specific country - US, UK, Singapore, UAE, Mauritius, Canada, Australia, Germany etc.). Section 91: unilateral FTC for non-DTAA countries where India has no treaty. Different mechanics - Section 90 relies on treaty article; Section 91 relies on domestic Indian provision."),
+         "Section 90: FTC under DTAA (bilateral treaty with specific country - US, UK, Singapore, UAE, Mauritius, Canada, Australia, Germany etc.). Section 91: unilateral relief for residents of India with income from a country that has no treaty with India. Different mechanics - Section 90 relies on treaty article; Section 91 relies on domestic Indian provision."),
         ("Can I claim FTC in Indian ITR without filing Form 67?",
          "No - rule 128(8) requires Form 67 for a foreign tax credit claim. Notification 100/2022 lets it be filed up to the end of the assessment year if the return is filed under section 139(1) or 139(4), and with an updated return by the date that return is filed. Filing Form 67 first, then the ITR, avoids mismatches."),
         ("Is FTC limited to Indian tax on foreign income?",
          "Yes - FTC = LOWER of (a) foreign tax paid, OR (b) Indian tax attributable to foreign income. Excess foreign tax above Indian tax cannot be refunded. Material in high-tax foreign jurisdictions (US / UK) where foreign tax exceeds Indian equivalent."),
+        ("How is DTAA relief calculated?", "Under section 90 and rule 128, the credit for each item of foreign income is the lower of the foreign tax paid on it and the Indian tax payable on that income, worked out country by country and source by source; any excess foreign tax is not refunded or carried forward. Under section 91, a resident with income from a country that has no treaty with India gets relief on the doubly taxed income at the Indian rate of tax or the foreign rate, whichever is lower. Foreign tax that is disputed is allowed only once the dispute is settled."),
+        ("What should I send to claim foreign tax credit?", "WhatsApp us your foreign tax return or year-end tax statement (for example a US 1040 and 1099 / W-2 forms, a UK SA302, or a payslip with tax withheld), proof of tax paid or deducted with dates, your Indian AIS / Form 168, and the country of the income. We work out the credit country by country, prepare Form 67 (Form 44 from tax year 2026-27) and match it with your ITR."),
         ("How do I convert foreign tax to INR for Form 67?",
          "Use the SBI telegraphic transfer buying rate on the last day of the month before the month in which the foreign tax was paid or deducted (rule 128(4)), not an FY average or the ITR filing date. Keep a record of each payment date and rate; convert each foreign tax payment separately."),
         ("Does BQP handle Form 67 FTC claims?",
@@ -145,9 +147,9 @@ PAGES.append({
     "related_pairs": [("us-green-card-holder-india-tax-complete-2026.html", "Related", "US Green Card India Tax"),
                       ("nri-dtaa-claim-practical-trc-form-10f.html", "Related", "NRI DTAA Practical")],
     "cta_h": "Indian resident with foreign-source income taxed abroad?",
-    "cta_b": "Form 67 FTC claim before ITR + Section 90/91 under DTAA + currency conversion. BQP cross-border tax specialist.",
+    "cta_b": "Form 67 FTC claim before ITR + Section 90/91 under DTAA + currency conversion.",
     "keywords": "Form 67 FTC India 2026, Foreign Tax Credit CA India, Section 90 91 CA India, DTAA FTC CA",
-    "desc": "Form 67 Foreign Tax Credit (FTC) India 2026 complete checklist: Section 90 (DTAA countries) vs Section 91 (non-DTAA), mandatory filing before ITR due date, foreign tax conversion at RBI rate, credit limit = lower of foreign tax or Indian tax on same income. Working CA guide by Durgesh Chavda.",
+    "desc": "Form 67 Foreign Tax Credit (FTC) India 2026 complete checklist: Section 90 (DTAA countries) vs Section 91 (non-DTAA), Form 67 required for the claim (up to the end of the assessment year with a timely or belated return), foreign tax converted at the SBI TT buying rate, credit limit = lower of foreign tax or Indian tax on same income. Working CA guide by Durgesh Chavda.",
 })
 
 # 3. Form MGT-14

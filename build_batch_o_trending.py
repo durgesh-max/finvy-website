@@ -532,12 +532,12 @@ write_page("nri-pan-aadhaar-linking-exemption-rules", page(
 # 7. NRI LDC property sale
 write_page("nri-india-property-ldc-lower-deduction-certificate", page(
     slug="nri-india-property-ldc-lower-deduction-certificate",
-    title="NRI Property Sale India LDC (Lower Deduction Certificate) 2026 - BQP",
+    title="NRI Property Sale Lower TDS Certificate (2026): Form 128 (Old Form 13) Under Section 395, Documents, Process and TDS Saved - BQP",
     description="NRI selling Indian property - obtain Lower Deduction Certificate (LDC) under Section 197 to reduce 20% Section 195 TDS to actual tax liability: online application via TRACES, documents, timeline 4-8 weeks, buyer coordination. Avoid locking up INR lakhs in TDS pool. Working CA guide by Durgesh Chavda.",
     keywords="NRI property sale LDC lower deduction certificate, Section 197 LDC NRI property, TRACES LDC application NRI, Section 195 TDS reduction property NRI, LDC online NRI",
     hero_kicker="/ NRI Guide &middot; LDC &middot; Updated 2026-10-15",
     hero_title_html="NRI property sale, <em>LDC saves you from a 20% TDS trap.</em>",
-    hero_lead="NRI selling Indian property: Section 195 requires buyer to deduct 20% TDS on sale consideration (not just gain). On INR 3 crore sale, that's INR 60 lakh locked up as TDS even if actual capital gain tax is INR 5 lakh. Lower Deduction Certificate (LDC) under Section 197 fixes this &mdash; apply to Indian Tax Officer, get a certificate specifying actual tax amount, buyer deducts only that amount. 4-8 week process. Here's the complete LDC playbook.",
+    hero_lead="NRI selling Indian property: Section 195 requires buyer to deduct 20% TDS on sale consideration (not just gain). On INR 3 crore sale, that's INR 60 lakh locked up as TDS even if actual capital gain tax is INR 5 lakh. A lower deduction certificate (LDC) fixes this: apply in Form 128 (formerly Form 13) under section 395 of the Income-tax Act, 2025 (old section 197), get a certificate for your actual tax, and the buyer deducts only that. Apply as soon as the sale terms are agreed. Here's the complete LDC playbook.",
     sections=[
         ("/ The 20% TDS problem", "Why LDC exists.",
          "<p><strong>Section 195 default</strong>: when buyer pays NRI seller for Indian property, buyer must deduct TDS at:</p>"
@@ -547,13 +547,13 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
          "<li><strong>TDS applies on gross sale consideration</strong> &mdash; not on gain. So even if your gain is modest or nil, 20% of sale amount withheld.</li>"
          "<li>TDS deposited by buyer with Indian government; NRI claims refund later in Indian ITR.</li>"
          "</ul>"
-         "<p><strong>The problem</strong>: on INR 3 crore property with INR 50 lakh gain, actual tax under Section 112 (LTCG) at 12.5% without indexation = INR 6.25 lakh. But Section 195 TDS = 20% of INR 3 crore = INR 60 lakh. INR 54 lakh overpaid; locked in TDS pool until Indian ITR refund (6-18 months). Huge cash flow trap.</p>"
-         "<p><strong>Section 197 LDC solution</strong>: NRI applies to Indian Tax Officer for certificate specifying lower TDS rate matching actual tax liability. Buyer then deducts the lower amount.</p>"),
+         "<p><strong>The problem</strong>: on INR 3 crore property with INR 50 lakh gain, actual tax under Section 112 (LTCG) at 12.5% (NRIs do not get the indexation option) = INR 6.25 lakh. But Section 195 TDS = 20% of INR 3 crore = INR 60 lakh. INR 54 lakh overpaid; locked in the TDS pool until you file an Indian return and the refund is processed. Huge cash flow trap.</p>"
+         "<p><strong>Section 395 (old 197) certificate</strong>: NRI applies to Indian Tax Officer for certificate specifying lower TDS rate matching actual tax liability. Buyer then deducts the lower amount.</p>"),
         ("/ When LDC is worth the effort", "Decision criteria.",
          "<ul>"
-         "<li><strong>Property sale value &gt; INR 50 lakh</strong>: 20% TDS = INR 10 lakh. Worth 4-8 weeks of application effort.</li>"
+         "<li><strong>Property sale value &gt; INR 50 lakh</strong>: 20% TDS = INR 10 lakh. Usually worth the application effort.</li>"
          "<li><strong>Gain is less than sale value</strong>: standard for property sold with indexed cost or Section 54 reinvestment planned. Material TDS saving.</li>"
-         "<li><strong>Timing allows 4-8 weeks</strong>: LDC takes typically 4-8 weeks (sometimes faster, sometimes longer). If buyer wants to close within 2 weeks, LDC may not be ready.</li>"
+         "<li><strong>Timing allows the application</strong>: the officer has to examine the application and may raise queries, so timing depends on the case and the documents. If the buyer wants to close very soon, the certificate may not be ready in time.</li>"
          "<li><strong>Section 54 / 54F reinvestment planned</strong>: capital gain will be fully / partially exempt &rarr; actual tax very low &rarr; LDC essentially zero rate &rarr; massive TDS saving.</li>"
          "</ul>"
          "<p>For sale under INR 50 lakh or urgent closing (no LDC time), accept 20% TDS and claim refund in Indian ITR.</p>"),
@@ -563,12 +563,12 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
          "<li>&nbsp;&nbsp;&mdash; Property purchase deed (showing cost + date).</li>"
          "<li>&nbsp;&nbsp;&mdash; Property sale agreement / draft (showing sale value + buyer details).</li>"
          "<li>&nbsp;&nbsp;&mdash; NRI's PAN + proof of NRI status (passport + visa / OCI).</li>"
-         "<li>&nbsp;&nbsp;&mdash; Capital gain calculation with indexation + Section 54 reinvestment plan if applicable.</li>"
+         "<li>&nbsp;&nbsp;&mdash; Capital gain calculation (12.5% on long-term gains without indexation for NRIs) + Section 54 reinvestment plan if applicable.</li>"
          "<li>&nbsp;&nbsp;&mdash; Last 2-3 years Indian ITR of NRI (shows capital gain treatment history).</li>"
-         "<li><strong>File Form 13 on TRACES portal</strong> (traces.tdscpc.gov.in):</li>"
+         "<li><strong>File Form 128 (old Form 13) on the TRACES portal</strong> (traces.tdscpc.gov.in):</li>"
          "<li>&nbsp;&nbsp;&mdash; NRI logs in with PAN + password.</li>"
          "<li>&nbsp;&nbsp;&mdash; Navigate to 'Statement/Payment &rarr; Request for Lower / No Deduction Certificate'.</li>"
-         "<li>&nbsp;&nbsp;&mdash; Fill Form 13 online: Section 195, nature of payment (immovable property sale), payer details (buyer PAN), amount, requested TDS rate.</li>"
+         "<li>&nbsp;&nbsp;&mdash; Fill Form 128 online: Section 195, nature of payment (immovable property sale), payer details (buyer PAN), amount, requested TDS rate.</li>"
          "<li>&nbsp;&nbsp;&mdash; Upload supporting documents.</li>"
          "<li>&nbsp;&nbsp;&mdash; Submit with DSC or Aadhaar OTP (if NRI has either).</li>"
          "<li><strong>Assigned to Jurisdictional AO</strong>: application moves to Assessing Officer having jurisdiction over NRI's PAN.</li>"
@@ -579,27 +579,27 @@ write_page("nri-india-property-ldc-lower-deduction-certificate", page(
          "</ol>"),
         ("/ What LDC rate the AO typically approves", "Realistic expectations.",
          "<ul>"
-         "<li><strong>LTCG on property held long term with indexation</strong>: AO calculates actual tax on indexed capital gain + applicable surcharge + cess, then LDC specifies that amount as % of sale consideration. Typically 2-5% of sale value for modest gain.</li>"
-         "<li><strong>LTCG with Section 54 reinvestment plan</strong>: if NRI commits to buy new residential property within 2 years (or construct within 3 years), capital gain exempt &rarr; LDC may specify very low rate (0.1-1% of sale).</li>"
+         "<li><strong>LTCG on property held long term</strong>: the officer works out the actual tax on the capital gain (12.5% plus surcharge and cess, without indexation for NRIs) and expresses it as a rate on the sale consideration; the lower the gain relative to the price, the lower the rate.</li>"
+         "<li><strong>LTCG with Section 54 reinvestment plan</strong>: if NRI commits to buy new residential property within 2 years (or construct within 3 years), capital gain exempt &rarr; the certificate can specify a much lower rate.</li>"
          "<li><strong>Section 54EC bonds</strong>: INR 50 lakh in REC / NHAI / PFC / IRFC bonds within 6 months of sale &rarr; INR 50 lakh of gain exempt &rarr; LDC reflects remaining tax.</li>"
          "<li><strong>Section 54F</strong>: full LTCG exemption on sale of long-term asset (non-residential) if net consideration invested in one residential property &rarr; LDC near zero.</li>"
-         "<li><strong>No reinvestment, substantial gain</strong>: LDC rate close to actual tax rate (12.5% on indexed gain).</li>"
+         "<li><strong>No reinvestment, substantial gain</strong>: the certificate rate reflects the actual tax (12.5% of the gain plus surcharge and cess).</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-15.</em></p>"),
     ],
     faqs=[
         ("What is Lower Deduction Certificate (LDC) for NRI property sale?",
-         "A certificate issued by Indian Tax Officer under Section 197 Income Tax Act, specifying a TDS rate lower than Section 195 default (20% on LTCG / 30% on STCG), based on NRI's actual tax liability on the sale. Issued via Form 13 application on TRACES portal. Buyer deducts the LDC-specified rate instead of default - saves significant cash flow for NRI."),
+         "A certificate issued by the Indian tax officer under section 395 of the Income-tax Act, 2025 (old section 197), specifying a TDS rate lower than Section 195 default (20% on LTCG / 30% on STCG), based on NRI's actual tax liability on the sale. Applied for in Form 128 (formerly Form 13) on the TRACES portal. Buyer deducts the LDC-specified rate instead of default - saves significant cash flow for NRI."),
         ("How long does LDC take?",
-         "4-8 weeks typically from Form 13 submission to LDC issuance. Can be faster (2-4 weeks) if application is well-documented + AO is responsive, or slower (8-12 weeks) if AO raises queries or jurisdictional transfer required. Plan the property sale timeline accordingly; LDC should be in hand before closing."),
+         "It depends on the case: a complete, well-documented Form 128 application moves faster, while queries from the officer or a change of jurisdiction slow it down. Apply as soon as the sale terms are agreed; the certificate should be in hand before the buyer pays."),
         ("What's the typical LDC rate approved by AO?",
-         "Varies: 2-5% of sale consideration for property with modest LTCG; 0.1-1% if Section 54 reinvestment planned; close to 0% if full Section 54F exemption; close to 12.5% if large gain with no reinvestment. AO calculates actual tax under Section 112 (post Finance Act 2024 LTCG rules) and expresses as % of sale value for LDC."),
+         "It depends on your actual tax. The officer works out the tax on the capital gain (12.5% plus surcharge and cess on long-term gains, without indexation for NRIs), allows for planned Section 54 / 54F / 54EC reinvestment, and expresses the result as a rate on the sale value. A small gain or a planned reinvestment means a low rate."),
         ("Can I apply for LDC after the sale is done?",
-         "No - LDC must be in place BEFORE buyer makes payment / deducts TDS. Once 20% default TDS is deducted and deposited, the only remedy is refund via Indian ITR filing (6-18 month wait). LDC is prospective - apply well in advance."),
+         "No - LDC must be in place BEFORE buyer makes payment / deducts TDS. Once 20% default TDS is deducted and deposited, the only remedy is a refund by filing an Indian income tax return. LDC is prospective - apply well in advance."),
         ("Does the buyer need to do anything special with LDC?",
-         "Buyer references the LDC in Form 27Q TDS return + mentions it in the TDS challan. Buyer deducts the lower rate specified in LDC, deposits only that amount, files Form 27Q quarterly, issues Form 16A to NRI showing LDC rate. Standard procedure for buyer; most Indian buyers are familiar if advised at execution."),
+         "Buyer references the LDC in Form 27Q TDS return + mentions it in the TDS challan. Buyer deducts the lower rate specified in LDC, deposits only that amount, files Form 27Q quarterly, issues the TDS certificate (Form 16A, now Form 131) showing the certificate rate. Standard procedure for buyer; most Indian buyers are familiar if advised at execution."),
         ("Does BQP handle LDC applications for NRI property sellers?",
-         "Yes - standard NRI service. Capital gain calculation with indexation + Section 54/54F/54EC planning + Form 13 preparation + TRACES filing + AO follow-up + LDC issuance + buyer coordination. 4-8 week turnaround. Scope-based engagement. WhatsApp +91 78018 87130."),
+         "Yes - standard NRI service. Capital gain calculation + Section 54 / 54F / 54EC planning + Form 128 preparation and TRACES filing + follow-up with the officer + buyer coordination. Scope agreed upfront. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("nri-selling-indian-property-capital-gains.html", "Guide", "NRI Property Sale"),

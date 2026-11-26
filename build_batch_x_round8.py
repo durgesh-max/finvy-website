@@ -680,7 +680,7 @@ PAGES = [
              "<li>Conversion planning: tax implications + FEMA + stamp duty + regulatory.</li>"
              "<li>Section 47(xiiib) conditions compliance for tax-neutral.</li>"
              "<li>Draft resolutions + conversion agreement.</li>"
-             "<li>ROC filings: LLP conversion to Pvt Ltd (SPICe+), Pvt Ltd to LLP (Form 17 + specific).</li>"
+             "<li>ROC filings: LLP to Pvt Ltd (URC-1 under section 366), Pvt Ltd to LLP (Form 18).</li>"
              "<li>FEMA compliance for foreign shareholders.</li>"
              "<li>Section 56(2)(x) risk mitigation.</li>"
              "<li>Related compliance: GST re-registration if GSTIN changes, PAN update, bank KYC update, licence re-registration.</li>"
@@ -698,7 +698,7 @@ PAGES = [
             ("What are FEMA implications for conversion with foreign shareholders?",
              "If company has foreign shareholders, conversion involves: FC-TRS for share transfer during conversion + FC-GPR for new issue + potentially Form ODI if ownership moves between Indian + offshore entity + Press Note 3 beneficial ownership verification. Specific pricing guidelines + FEMA Section 13 compounding if historical breaches."),
             ("How long does entity conversion take?",
-             "LLP to Pvt Ltd (via business transfer route): 60-90 days. Pvt Ltd to LLP: 60-90 days (specific Form 17 process). Partnership to LLP: 30-45 days. Partnership to Pvt Ltd: 60-90 days. Timeline affected by: regulatory approvals (if sector-specific), FEMA pricing certificates, licence re-registration."),
+             "LLP to Pvt Ltd: the LLP registers as a company under section 366 of the Companies Act, 2013 (Form URC-1). Pvt Ltd to LLP: Form 18 under the Third Schedule of the LLP Act, 2008. Partnership firm to LLP: Form 17 under the Second Schedule. The time taken depends on ROC processing, any sector-specific approvals, FEMA pricing certificates where there are foreign shareholders, and re-registering GST, licences and bank accounts. WhatsApp +91 78018 87130 with the current entity's registration certificate, the partner or shareholder list and the latest balance sheet."),
             ("Does BQP handle entity conversion + related compliance?",
              "Yes - specialist practice. Conversion planning + Section 47 compliance + FEMA compliance for foreign shareholders + ROC filings + GST / PAN / bank re-registration + post-conversion compliance roadmap. For startups + mid-market businesses + foreign-shareholder entities. WhatsApp +91 78018 87130."),
         ],

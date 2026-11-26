@@ -63,7 +63,7 @@ PAGES = [
              "<li><strong>Starting as Partnership for 'simplicity' with growth plan</strong>: unlimited liability + no ESOP + conversion complexity.</li>"
              "<li><strong>Section 115BAA / 115BAB opt-in not evaluated</strong>: Pvt Ltd + 115BAA 22% effective 25.17% often beats LLP 29% + AMT 18.5%. Specific analysis needed.</li>"
              "<li><strong>Sole proprietor crossing Section 44AB tax audit threshold</strong>: INR 1 crore turnover triggers tax audit. Formal entity (LLP / Pvt Ltd) may be more cost-effective at that scale.</li>"
-             "<li><strong>IPO plan ignored</strong>: must be Pvt Ltd for IPO. LLP conversion pre-IPO adds 60-120 days + complexity.</li>"
+             "<li><strong>IPO plan ignored</strong>: must be Pvt Ltd for IPO. Converting an LLP into a company before an IPO adds work and cost, so choose the structure early.</li>"
              "</ul>"
              "<p><em>Last updated: 2026-10-23.</em></p>"),
         ],

@@ -21,7 +21,7 @@ C = contact("the LLP name or LLPIN, the date of incorporation, the partners' con
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="LLP Annual Filing (2026): Form 11 by 30 May, Form 8 by 30 October, Fees, Late Fees, First-Year Filing and How to Check Status",
+    title="LLP Annual Filing (2026): Form 11 by 30 May, Form 8 by 30 October, Fees, Late Fees and Penalty, First-Year Filing and How to Check Status",
     em="two MCA forms and one tax return, every year, even with no business.",
     kicker="/ LLP partners and founders &middot; MCA compliance &middot; Updated 2026-11-25",
     lead=("<strong>Every LLP in India files two annual forms with the Ministry of Corporate Affairs and an income tax return, whether or not it did any business.</strong> "
@@ -71,6 +71,8 @@ PAGES = [dict(
     faqs=[("What is the due date for LLP annual filing?", "Form 11 (annual return) is due by 30 May and Form 8 (statement of account and solvency) by 30 October each year. The income tax return, ITR-5, follows the income tax due dates."),
           ("Is the LLP Form 8 due date for FY 2025-26 extended?", "No. MCA General Circular 05/2026 extended only the company forms AOC-4 and MGT-7. LLP Form 8 for FY 2025-26 was due on 30 October 2026 and additional fees apply after that."),
           ("What is the late fee for LLP annual filing?", "An additional fee that is a multiple of the normal fee for each late form: from 1x for up to 15 days to 15x for small LLPs or 30x for others after 180 days, plus a per-day amount beyond 360 days."),
+        ("What is the penalty for not filing LLP annual returns?", "Two things apply. First, the additional fee on each late form: a multiple of the normal filing fee that rises with the delay, up to 15 times for a small LLP or 30 times for other LLPs, plus Rs 10 or Rs 20 a day beyond 360 days. Second, the LLP Act penalty: for a late annual return (Form 11) under section 35, Rs 100 a day, up to Rs 1 lakh for the LLP and Rs 50,000 for each designated partner. MCA General Circular 05/2026 does not cover LLP forms, so filing the pending forms now stops both from growing."),
+        ("What should I send to clear an LLP's overdue annual filings?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the LLPIN, the years and forms pending (Form 11, Form 8, ITR-5), the partners' contribution, the turnover for each year, whether accounts were prepared or audited, and the designated partners' DIN and DSC status. We list the forms, the additional fee position and the order of filing."),
           ("Does an LLP with no business need to file returns?", "Yes. An LLP with no activity still files Form 11, Form 8 and ITR-5 every year until it is struck off."),
           ("When is an LLP audit compulsory?", "When turnover exceeds Rs 40 lakh or partners' contribution exceeds Rs 25 lakh in the financial year. Income tax audit applies separately above the income tax turnover limits."),
           ("Can BQP file our LLP's annual returns?", "Yes. CA Durgesh Chavda files Form 11, Form 8 and ITR-5, including overdue years and LLPs with NRI or foreign partners. " + C)],

@@ -10,12 +10,12 @@ from build_lib import page, write_page
 # 1. Section 143(1) Intimation Response
 write_page("section-143-1-intimation-response-india-2026", page(
     slug="section-143-1-intimation-response-india-2026",
-    title="Section 143(1) Intimation Response Guide 2026 | Agree, Disagree, Rectification - BQP",
+    title="Income Tax Demand Notice under Section 143(1) (2026): Intimation PDF Password, Agree or Disagree on the Portal, 30-Day Payment, Rectification and Time Limit - BQP",
     description="Section 143(1) intimation received after ITR filing: understand the three outcomes (refund, demand, nil), reconcile with return, respond via rectification Section 154 if disagree. Step-by-step response guide by CA Durgesh Chavda.",
     keywords="Section 143(1) intimation response, Section 143(1) notice reply, income tax 143(1) intimation India, 143(1) refund demand nil, Section 154 rectification",
     hero_kicker="/ Blog &middot; Section 143(1) Intimation &middot; Updated 2026-10-10",
     hero_title_html="Section 143(1) intimation, <em>how to read it and respond.</em>",
-    hero_lead="Every ITR filer gets a Section 143(1) intimation after processing &mdash; usually within 60-90 days of filing. It shows one of three outcomes: refund due, demand payable, or nil (return accepted as filed). Most people glance at it and move on. If the number does not match your ITR, you have 30 days under Section 154 to rectify. Here is the practitioner's response guide.",
+    hero_lead="Every ITR filer gets a Section 143(1) intimation after processing &mdash; after the return is processed, often within weeks to a few months of filing. It shows one of three outcomes: refund due, demand payable, or nil (return accepted as filed). Most people glance at it and move on. If a demand is raised, respond on the portal or pay within 30 days to avoid interest; if the computation is wrong, a rectification under section 154 (now 287) can be filed within four years. Here is the practitioner's response guide.",
     sections=[
         ("/ What Section 143(1) actually is", "Automated return processing, not scrutiny.",
          "<p>Section 143(1) of the Income Tax Act authorises the Centralised Processing Centre (CPC) at Bengaluru to process ITRs automatically. The system runs arithmetic checks, matches TDS claimed against Form 26AS, verifies tax paid against liability computed, and issues an intimation with one of three outcomes:</p>"
@@ -25,7 +25,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
          "<li><strong>Nil &mdash; return accepted as filed</strong>.</li>"
          "</ul>"
          "<p>Section 143(1) is NOT scrutiny. It is automated reconciliation. If you receive a 143(1), the Department has not questioned your return &mdash; it has just processed it. Scrutiny is a separate notice under Section 143(2).</p>"
-         "<p>Timeline: issued typically 60-90 days post-filing; must be issued within 9 months from the end of the FY in which the return is filed.</p>"),
+         "<p>Timeline: issued after processing, often within weeks to a few months; must be issued within 9 months from the end of the FY in which the return is filed.</p>"),
         ("/ Three outcomes - what to do with each", "Response per outcome.",
          "<p><strong>If refund due:</strong> no action needed unless the amount is wrong. Refund credits to your pre-validated bank account (ensure PAN-Aadhaar + bank account validation is current on the e-filing portal) within 15-45 days. If no credit after 60 days, raise Refund Reissue on the portal.</p>"
          "<p><strong>If demand payable:</strong></p>"
@@ -43,7 +43,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
          "<li><strong>Deduction disallowed</strong> &mdash; e.g., Section 80C claim rejected because the deductor did not report the LIC/ELSS/NPS contribution. Collect the proof document (LIC premium receipt, ELSS statement, NPS annual statement) and file Section 154 with the proof.</li>"
          "<li><strong>Arithmetic error</strong> &mdash; CPC computed something differently (standard deduction, slab, surcharge). Prepare the correct computation and file Section 154 referencing the specific line item.</li>"
          "</ol>"
-         "<p>Filing route: Login to incometax.gov.in &rarr; e-File &rarr; Rectification &rarr; Request Type: 'Reprocess the return' or 'Tax Credit Mismatch Correction' or 'Return Data Correction'. Attach supporting documents. CPC responds within 60-90 days typically.</p>"),
+         "<p>Filing route: Login to incometax.gov.in &rarr; e-File &rarr; Rectification &rarr; Request Type: 'Reprocess the return' or 'Tax Credit Mismatch Correction' or 'Return Data Correction'. Attach supporting documents. Track the status under the rectification menu.</p>"),
         ("/ Common 143(1) mistakes to avoid", "What we see in practice.",
          "<ul>"
          "<li><strong>Ignoring the demand for 30 days &mdash; interest under Section 220(2) at 1% per month starts.</strong> Even if you plan to rectify, respond or pay within the window.</li>"
@@ -56,14 +56,16 @@ write_page("section-143-1-intimation-response-india-2026", page(
     ],
     faqs=[
         ("What is Section 143(1) intimation?",
-         "Automated return-processing intimation from CPC Bengaluru showing one of three outcomes: refund due, demand payable, or nil (return accepted). Issued typically 60-90 days after ITR filing. Not scrutiny - just reconciliation of your return against TDS records and tax paid."),
+         "Automated return-processing intimation from CPC Bengaluru showing one of three outcomes: refund due, demand payable, or nil (return accepted). Issued after the return is processed, often within weeks to a few months of filing and no later than nine months from the end of the financial year of filing. Not scrutiny - just reconciliation of your return against TDS records and tax paid."),
         ("I received a 143(1) demand but I think it is wrong. What do I do?",
-         "File Section 154 rectification online within 4 years from end of the FY in which the intimation was passed. Compare the Department's computation (right column) with your ITR (left column), identify the specific line of mismatch, attach supporting documents (Form 16, LIC receipt, PF statement, etc.), submit via incometax.gov.in. Response typically within 60-90 days."),
+         "File Section 154 rectification online within 4 years from end of the FY in which the intimation was passed. Compare the Department's computation (right column) with your ITR (left column), identify the specific line of mismatch, attach supporting documents (Form 16, LIC receipt, PF statement, etc.), submit via incometax.gov.in. Processing time varies; track the status under the rectification menu."),
         ("Can I ignore a 143(1) demand?",
-         "No. Interest under Section 220(2) at 1% per month accrues from the 31st day post-intimation. Even if you plan to rectify, respond or pay within 30 days. Ignoring compounds the penalty."),
+         "No. Interest under Section 220(2) at 1% per month accrues from the 31st day post-intimation. Even if you plan to rectify, respond or pay within 30 days. Ignoring it adds interest and can lead to penalty and adjustment against future refunds."),
         ("What does outstanding demand mean on the income tax portal, and how do I respond?", "Outstanding demand is tax the department says you still owe, usually from a 143(1) intimation or an assessment order, shown under Pending Actions on the e-filing portal. Respond to each entry: agree and pay; disagree with reasons (for example tax already paid, credit not given, or an appeal or rectification filed); or partly agree and pay the part you accept. If you do not respond, the amount can be adjusted against a future refund after an intimation to you, so reply even when the demand is wrong."),
+        ("What is the password to open the income tax intimation or demand notice PDF?", "For an individual it is the PAN in lower case followed by the date of birth in DDMMYYYY format, with no spaces, for example abcde1234f01041985. For a company, firm, LLP or trust, use the PAN in lower case followed by the date of incorporation or formation in the same format."),
+        ("What should I send if I have an income tax demand?", "WhatsApp us the intimation or demand notice PDF, the acknowledgement of the return it relates to, and your Form 168 (old 26AS) and AIS. We compare the department's computation with your return line by line, tell you whether to pay, disagree on the portal or file a rectification, and prepare the response."),
         ("How long after ITR filing does 143(1) come?",
-         "Typically 60-90 days after filing. Legally, CPC can issue within 9 months from the end of the FY in which the return is filed. If more than 9 months pass without a 143(1), the return is deemed accepted (no demand or refund action)."),
+         "Often within weeks to a few months of filing. Legally, CPC can issue within 9 months from the end of the FY in which the return is filed. If more than 9 months pass without a 143(1), the return is deemed accepted (no demand or refund action)."),
         ("When does an income tax notice come?", "It depends on the notice. A processing intimation under section 143(1) can come up to nine months after the end of the financial year in which you filed the return, and usually comes within weeks. A scrutiny notice under section 143(2) must be served within three months from the end of the financial year of filing; for a return filed in July 2026 that means by 30 June 2027. Reassessment notices for escaped income can come later, within longer limits set by law, and mismatch or e-verification messages based on your AIS can arrive at any time. From tax year 2026-27 the same rules sit in section 270 of the Income-tax Act, 2025."),
         ("What is the difference between Section 143(1) and 143(2)?",
          "143(1) is automated return-processing intimation - just reconciliation. 143(2) is scrutiny notice - the Department wants to examine your return in detail, request documents, and may add income or disallow deductions. 143(2) must be served within three months from the end of the financial year in which the return was filed, each notice sets its own reply date, and it is much more serious."),
@@ -75,7 +77,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
         ("nri-taxation-india-complete-guide.html", "Guide", "NRI Taxation"),
     ],
     cta_headline="Received a 143(1) demand or confused by the intimation?",
-    cta_body="Working-CA one-off engagement: reconcile the computation, identify the specific mismatch, file Section 154 rectification with supporting documents. Typical resolution: 60-90 days. WhatsApp Durgesh.",
+    cta_body="Working-CA one-off engagement: reconcile the computation, identify the specific mismatch, file Section 154 rectification with supporting documents. WhatsApp Durgesh.",
 ))
 
 # 2. Section 143(2) Scrutiny Notice Response

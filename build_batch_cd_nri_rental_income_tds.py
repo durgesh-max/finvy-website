@@ -29,7 +29,7 @@ def table(head, rows):
 
 
 CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the monthly rent, your other Indian income, any home loan on the property and your country of residence. "
-           "We reply the same working day on a lower deduction certificate, the return and repatriation, with a fixed-scope quote.")
+           "We reply on the lower deduction certificate, the return and repatriation, with the scope of work.")
 SLUG = "nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
        f'<p style="margin:0 0 8px;font-weight:600">Most NRI landlords are over-deducted.</p>'
@@ -79,6 +79,8 @@ PAGES = [dict(
           ("Which form does the tenant file?", "The quarterly non-resident TDS statement, Form 144 under the Income-tax Rules, 2026 (formerly Form 27Q), and a TDS certificate for the landlord."),
           ("Can an NRI landlord reduce the TDS?", "Yes. Apply for a lower or nil deduction certificate (Form 128, formerly Form 13) based on the expected income; the tenant then deducts at the certified rate."),
           ("How is NRI rental income taxed?", "As income from house property: net annual value (rent less municipal taxes) minus a 30% standard deduction and interest on a loan for the property, taxed at slab rates. Excess TDS is refunded through the return."),
+        ("Can an NRI claim a TDS refund on rental income?", "Yes. The tenant deducts 31.2% on the gross rent, but the tax is worked out on the net figure - rent less municipal taxes, less the 30% standard deduction and any interest on a loan for the property - at slab rates (NRIs get no section 87A rebate). The difference is refunded when you file ITR-2 for the year, to a pre-validated Indian account, usually NRO, with interest at 0.5% a month where it applies. For FY 2025-26 a belated return can still be filed until 31 December 2026. A lower deduction certificate (Form 128) for the tenant avoids the excess in later years."),
+        ("What should I send to claim back TDS on my rent?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: the rent agreement, the tenant's TDS certificates (Form 131, old 16A) or your Form 168 (old 26AS) / AIS, municipal tax receipts, the home-loan interest certificate if the property is mortgaged, your other Indian income, your days in India for the year and the Indian bank account for the refund. We compute the actual tax, file ITR-2 claiming the excess, and can apply for a lower deduction certificate for next year."),
           ("Can rent be sent abroad?", "Yes. Rent is current income; after tax it can be remitted from the NRO account with the CA certificate and bank forms, outside the USD 1 million limit for capital."),
           ("Can BQP get the lower TDS certificate and file the return?", "Yes. " + CONTACT)],
     related=[("best-ca-for-nri-tax-return-filing-india-2026.html", "NRI tax return filing"),

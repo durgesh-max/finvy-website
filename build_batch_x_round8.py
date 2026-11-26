@@ -103,7 +103,7 @@ PAGES = [
     {
         "slug": "form-29b-mat-applicability-certificate-india-2026",
         "title": "Form 29B MAT Applicability Certificate India 2026",
-        "hero_em": "Section 115JB 15% MAT compliance.",
+        "hero_em": "Section 115JB MAT compliance (14% from tax year 2026-27; 15% up to FY 2025-26).",
         "lead": "Form 29B is Chartered Accountant certificate on Minimum Alternate Tax (MAT) applicability + computation under Section 115JB Income Tax Act. 14% of book profit (15% up to FY 2025-26) as alternative tax when standard provisions result in lower tax. Mandatory for companies in MAT scope. Section 115BAA / 115BAB opt-in exempts from MAT. Here's the complete 2026 Form 29B framework.",
         "kicker": "/ Form 29B Checklist &middot; Updated 2026-10-22",
         "sections_pairs": [
@@ -148,7 +148,7 @@ PAGES = [
             ("Does Section 115BAA opt-in avoid MAT?",
              "Yes - companies in Section 115BAA (22%) are exempt from MAT. One of the key benefits of 115BAA opt-in (alongside concessional rate). Companies with substantial MAT concern pre-opt-in see additional reason to switch to 115BAA via Form 10-IC."),
             ("What's MAT credit?",
-             "If MAT paid is higher than standard tax in a year, excess (MAT - standard tax) is MAT credit. Carried forward 15 years. In future years when standard tax exceeds MAT, MAT credit can be set off against standard tax (up to extent of standard tax). Prevents double-counting."),
+             "Up to FY 2025-26, MAT paid above normal tax became MAT credit, carried forward for 15 years and set off when normal tax exceeded MAT. From tax year 2026-27 (Finance Act, 2026) MAT is a final tax at 14% for companies in the old regime, so no new credit arises. A domestic company that moves to the new regime can set off credit built up to 31 March 2026, limited to 25% of its tax liability each year, with the balance carried forward."),
             ("Does Form 29B need ICAI UDIN?",
              "Yes - UDIN (Unique Document Identification Number) mandatory for every CA certificate signing. Generated on ICAI portal + attached to Form 29B. Non-UDIN Form 29B considered invalid."),
             ("Does BQP handle Form 29B + Section 115BAA opt-in modelling?",
@@ -157,7 +157,7 @@ PAGES = [
         "related_pairs": [("section-115baa-115bab-corporate-tax-regime-india.html", "Related", "Section 115BAA / 115BAB"),
                           ("form-10-ic-section-115baa-election-checklist-india-2026.html", "Related", "Form 10-IC")],
         "cta_h": "Company liable to MAT or opting into Section 115BAA?",
-        "cta_b": "Form 29B CA certificate + Section 115BAA opt-in modelling + MAT credit carry-forward. BQP standard tax engagement.",
+        "cta_b": "Form 29B CA certificate + Section 115BAA opt-in modelling + use of MAT credit built up to 31 March 2026. BQP standard tax engagement.",
         "keywords": "Form 29B MAT India 2026, Section 115JB MAT 14% CA, MAT applicability CA India, Form 29B Section 115BAA exempt",
         "desc": "Form 29B MAT applicability certificate India 2026: Section 115JB 15% Minimum Alternate Tax, book profit computation Explanation 1 adjustments, MAT credit 15-year carry-forward, Section 115BAA / 115BAB opt-in exempts from MAT. Working CA guide by Durgesh Chavda.",
     },

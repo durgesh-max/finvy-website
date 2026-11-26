@@ -753,7 +753,7 @@ PAGES = [
              "<li>New manufacturing companies eligible for Section 115BAB 15% - lower rate preferred.</li>"
              "<li>R&D-heavy companies claiming Section 35 weighted deductions.</li>"
              "<li>New plant/machinery capex companies claiming Section 32(1)(iia) additional depreciation.</li>"
-             "<li>Companies with large MAT credit balance under Section 115JAA (credit lapses on opt-in).</li>"
+             "<li>Companies with a large MAT credit balance: from tax year 2026-27, credit built up to 31 March 2026 can be set off after moving to the new regime, limited to 25% of the tax liability each year, so model how quickly it can be used.</li>"
              "<li>Companies in specific infrastructure / specific sector with Section 80-IA / 80-IAC / 80-IAB claims.</li>"
              "<li>Companies currently in loss - 115BAA offers no benefit (no tax savings if no profit).</li>"
              "</ul>"),

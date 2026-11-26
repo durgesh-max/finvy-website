@@ -88,11 +88,11 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
     sections=[
         ("/ Current compliance state", "What we're seeing on the ground.",
          "<ul>"
-         "<li><strong>Fully compliant private companies</strong>: well-funded startups + mid-size companies with institutional investors - typically 100% complete.</li>"
+         "<li><strong>Fully compliant private companies</strong>: well-funded startups and companies with institutional investors, where investors usually insist on it.</li>"
          "<li><strong>Partially compliant</strong>: shares of founders / core team demat; angel investor shares still physical (because investor non-responsive to demat request).</li>"
-         "<li><strong>Entirely non-compliant</strong>: smaller family-held private limited companies, older companies with scattered small shareholders - likely 30-40% of eligible companies still have non-demat shares.</li>"
+         "<li><strong>Entirely non-compliant</strong>: smaller family-held private limited companies, older companies with scattered small shareholders - the group most likely to still have shares in physical form.</li>"
          "<li><strong>Enforcement</strong>: ROC filing blocks (DIR-12, PAS-3) + Section 450 default penalty + inability to complete share transfer / allotment / buyback / transmission.</li>"
-         "<li><strong>Transaction friction</strong>: M&A deals delayed by 30-60 days when target hasn't demat'd pre-closing. Fundraising rounds blocked when new allotment can't be made in physical form.</li>"
+         "<li><strong>Transaction friction</strong>: M&A deals delayed when the target has not dematerialised its shares before closing. Fundraising rounds blocked when new allotment can't be made in physical form.</li>"
          "</ul>"),
         ("/ Who's exempt (recap)", "The scope.",
          "<ul>"
@@ -111,7 +111,7 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
         ("/ Remediation path for non-compliant companies", "90-day execution plan.",
          "<ol>"
          "<li><strong>Compliance gap assessment</strong>: review existing shareholder list; identify physical-share holders.</li>"
-         "<li><strong>ISIN application</strong>: via Registrar &amp; Transfer Agent (RTA) to NSDL / CDSL. 15-30 day approval.</li>"
+         "<li><strong>ISIN application</strong>: via the Registrar &amp; Transfer Agent (RTA) to NSDL / CDSL.</li>"
          "<li><strong>Depository Participant (DP) appointment</strong>: company's DP for facilitating demat.</li>"
          "<li><strong>Shareholder communication</strong>: formal letter + email + phone follow-up to all physical-share holders. Standard templates + repeat follow-ups.</li>"
          "<li><strong>Shareholder's demat account opening + DRF submission</strong>: shareholders open demat with their respective DPs; submit Dematerialisation Request Form + physical share certificate.</li>"
@@ -121,7 +121,7 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
          "<li><strong>Lost certificate issuance under Rule 6</strong>: for lost / destroyed certificates - public notice + indemnity bond + Rule 6 cert.</li>"
          "<li><strong>Unresponsive shareholder documentation</strong>: RPAD letters + emails + newspaper notice attempts documented.</li>"
          "</ol>"
-         "<p>Typical remediation timeline: 60-120 days depending on shareholder count + responsiveness.</p>"),
+         "<p>Remediation time depends on how many shareholders still hold physical certificates and how quickly they respond.</p>"),
         ("/ M&A + fundraising-specific attention", "Pre-closing clean-up.",
          "<ul>"
          "<li><strong>Target company pre-M&A diligence</strong>: buyer's DD will surface Rule 9B non-compliance. Deal pauses until target completes demat (30-60 day delay).</li>"
@@ -134,11 +134,11 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
     ],
     faqs=[
         ("What's the current state of Rule 9B compliance in October 2026?",
-         "Mixed. Well-funded startups + mid-size institutional-backed companies typically fully compliant. Smaller family-held + older private companies with scattered shareholders - still 30-40% non-compliant. Form PAS-6 half-yearly filing has caught up for compliant companies; non-compliant companies face late fee + Section 450 default penalty exposure."),
+         "Mixed. Companies backed by institutional investors have usually completed it; smaller family-held and older private companies with scattered shareholders are more likely to still have physical shares. Form PAS-6 half-yearly filing has caught up for compliant companies; non-compliant companies face late fee + Section 450 default penalty exposure."),
         ("What transactions does Rule 9B block for non-compliant companies?",
          "New share allotment (fundraising, ESOP exercise), share transfer (M&A, secondary sale, founder exit), buyback, transmission (on shareholder death), bonus / rights issue. Essentially every cap table change. Also: Form PAS-6 half-yearly filing mandatory for companies in demat scope - non-filing attracts Section 47 late fee + Section 450 continuing default penalty."),
         ("Can a Series A investor insist on target company demat before investing?",
-         "Yes - standard practice now in 2026. Series A term sheet typically includes closing condition: 'Target to complete dematerialisation of all outstanding shares under Rule 9B before Closing'. Target company must execute demat (30-60 days) before investor's funds flow. Material deal timing impact if left to last minute."),
+         "Yes - standard practice now in 2026. Series A term sheet typically includes closing condition: 'Target to complete dematerialisation of all outstanding shares under Rule 9B before Closing'. The company must complete dematerialisation before the investor's funds flow. Material deal timing impact if left to last minute."),
         ("What if a shareholder refuses to demat?",
          "Company documents attempts (RPAD letters, emails, newspaper notice, phone follow-ups). Share remains physical in that shareholder's name but company's Rule 9B obligation is to facilitate demat, not force it. For future share transfer / allotment: that specific shareholder's shares will not be transferable until they demat. Compliance posture: company has demonstrated reasonable efforts."),
         ("Does BQP help with Rule 9B remediation + PAS-6?",
@@ -149,7 +149,7 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
         ("company-secretarial-services-india-remote.html", "Guide", "CS Services"),
     ],
     cta_headline="Rule 9B 2 years on. Still have physical-share holders?",
-    cta_body="Blocks every cap table change: allotment, transfer, buyback, transmission. BQP 60-120 day remediation + ongoing PAS-6 compliance.",
+    cta_body="Blocks every cap table change: allotment, transfer, buyback, transmission. BQP: remediation + ongoing PAS-6 compliance.",
 ))
 
 # 13. GIFT City expansion

@@ -264,8 +264,8 @@ PAGES = [
     {
         "slug": "rule-9b-demat-missed-fundraising-blocked-urgent-india",
         "title": "Rule 9B Demat Missed? Fundraising Blocked Urgent India",
-        "hero_em": "60-120 day remediation under deal pressure.",
-        "lead": "Series A/B/C term sheet signed. Buyer / investor's closing condition: all shareholders in demat form (Rule 9B compliance). Company's older shareholders (angel investors, employees with physical ESOP certificates) still in physical form. New allotment blocked. Deal timeline impact: 60-120 days. Fast-track remediation needed. Here's the complete playbook.",
+        "hero_em": "Remediation under deal pressure.",
+        "lead": "Series A/B/C term sheet signed. Buyer / investor's closing condition: all shareholders in demat form (Rule 9B compliance). Company's older shareholders (angel investors, employees with physical ESOP certificates) still in physical form. New allotment blocked, and the closing waits until every shareholder is in demat form. Here's the complete playbook.",
         "kicker": "/ Rule 9B Urgent Remediation &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why Rule 9B blocks fundraising", "The specific trigger.",
@@ -274,9 +274,9 @@ PAGES = [
              "<li>Specific obligation: company must facilitate demat; any new allotment / transfer / buyback / transmission can ONLY be in demat form.</li>"
              "<li>Investor's closing condition typically: 'all outstanding shares to be in demat form before Closing'.</li>"
              "<li>If company has physical-share holders at closing: new allotment to investor BLOCKED.</li>"
-             "<li>Deal pauses until all shareholders in demat - 60-120 days typical for complete demat with shareholder cooperation.</li>"
+             "<li>The deal pauses until all shareholders are in demat form; the time taken depends on how many shareholders still hold physical certificates and how quickly they respond.</li>"
              "</ul>"),
-            ("/ 60-120 day remediation workflow under deal pressure", "Fast-track execution.",
+            ("/ Remediation workflow under deal pressure", "Fast-track execution.",
              "<ol>"
              "<li><strong>Week 1</strong>: Compliance gap assessment + shareholder-wise physical/demat status + ISIN application if not already (if ISIN exists, skip).</li>"
              "<li><strong>Week 2-3</strong>: ISIN approval from NSDL/CDSL (if applied).</li>"
@@ -304,7 +304,7 @@ PAGES = [
              "<li><strong>Form PAS-3 share allotment filing</strong>: within 30 days of new allotment.</li>"
              "<li><strong>Investor's post-closing covenants</strong>: ongoing Form PAS-6 + Rule 9B compliance for new company state.</li>"
              "</ul>"),
-            ("/ BQP urgent deal-closing engagement", "The playbook.",
+            ("/ BQP deal-closing engagement", "The playbook.",
              "<ul>"
              "<li>Current state audit.</li>"
              "<li>Gap identification + shareholder-wise status + ISIN application.</li>"
@@ -321,11 +321,11 @@ PAGES = [
         ],
         "faqs": [
             ("How long does Rule 9B remediation take under deal pressure?",
-             "60-120 days typical. ISIN application 15-30 days + DP appointment + shareholder communication + 60+ days for shareholder-side demat opening + DRF submission + company confirmation. Faster possible with responsive shareholders + if ISIN already exists. For unresponsive shareholders: specific indemnity/escrow may bypass completion."),
+             "It depends on how many shareholders still hold physical certificates and how quickly they respond. The steps are: ISIN application through the RTA to NSDL / CDSL, shareholders opening demat accounts, DRF submission and company confirmation. It moves faster if the company already has an ISIN and shareholders respond quickly. For unresponsive shareholders: specific indemnity/escrow may bypass completion."),
             ("What if shareholders refuse to demat?",
              "Document reasonable efforts (RPAD letters + emails + phone + newspaper notice). Options: (a) continue chase, (b) buyback unresponsive shareholder's shares (specific valuation + Section 115QA 20% buyback tax), (c) specific indemnity/escrow with investor accepting specific carve-out. Investor's acceptance varies by specific percentage of unresponsive + relationship."),
             ("Does BQP handle Rule 9B + buyback integrated?",
-             "Yes - integrated service. Rule 9B remediation + unresponsive shareholder buyback via Section 115QA + specific indemnity structuring + Form PAS-6 + Form PAS-3 for new allotment + FC-TRS if cross-border + investor counsel coordination. Fast-track execution 60-120 days under deal pressure. WhatsApp +91 78018 87130."),
+             "Yes - integrated service. Rule 9B remediation + unresponsive shareholder buyback via Section 115QA + specific indemnity structuring + Form PAS-6 + Form PAS-3 for new allotment + FC-TRS if cross-border + investor counsel coordination. WhatsApp +91 78018 87130 with the shareholding list and the closing date."),
             ("What's buyback tax Section 115QA?",
              "20% + surcharge on distributed income paid by Indian company doing buyback. Receipt in shareholder's hands: capital gain but Section 10(34A) exempts buyback-related income (so no further shareholder tax typically). Companies Act limits: max 10-25% buyback per limit + 2-year gap between buybacks + Section 68 Companies Act conditions."),
             ("Does BQP engage urgently for deal-closing Rule 9B?",
@@ -334,9 +334,9 @@ PAGES = [
         "related_pairs": [("rule-9b-dematerialisation-2-year-anniversary-october-2026.html", "Related", "Rule 9B 2-Year Status"),
                           ("dematerialisation-unlisted-shares-india-mandatory.html", "Related", "Rule 9B Full Guide")],
         "cta_h": "Rule 9B demat blocking fundraising / M&A closing?",
-        "cta_b": "60-120 day remediation + unresponsive shareholder resolution + investor counsel coordination. BQP urgent engagement. WhatsApp +91 78018 87130.",
+        "cta_b": "Rule 9B remediation + unresponsive shareholder resolution + investor counsel coordination. WhatsApp +91 78018 87130 with the shareholding list showing who holds physical certificates, whether the company already has an ISIN, and the investor's closing date.",
         "keywords": "Rule 9B demat missed fundraising blocked urgent CA India, Series A closing Rule 9B demat urgent CA, M&A Rule 9B demat remediation urgent CA India",
-        "desc": "Rule 9B demat missed fundraising blocked urgent India: 60-120 day remediation under deal pressure (ISIN application + DP appointment + shareholder communication + DRF + demat confirmation + physical cancellation + Form PAS-6 catch-up), dealing with unresponsive shareholders (RPAD + buyback Section 115QA + indemnity), related compliance (PAS-6 + PAS-3 + FC-TRS). CA Durgesh Chavda urgent deal-closing specialist.",
+        "desc": "Rule 9B demat missed fundraising blocked urgent India: remediation under deal pressure (ISIN application + DP appointment + shareholder communication + DRF + demat confirmation + physical cancellation + Form PAS-6 catch-up), dealing with unresponsive shareholders (RPAD + buyback Section 115QA + indemnity), related compliance (PAS-6 + PAS-3 + FC-TRS). CA Durgesh Chavda.",
     },
     {
         "slug": "esop-exit-tax-surprise-section-54f-reinvestment-urgent-india",

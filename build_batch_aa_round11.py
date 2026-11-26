@@ -18,25 +18,25 @@ def quick_page(slug, title, hero_em, lead, kicker, sections_pairs, faqs, related
 PAGES = [
     {
         "slug": "how-to-respond-section-148a-show-cause-notice-india-step-by-step",
-        "title": "How to Respond to Section 148A Show-Cause Notice Step-by-Step",
+        "title": "Section 148A Notice Reply Format (2026): How to Respond to a Reassessment Show Cause Notice, Time Limits After the 2024 Amendment and What to Attach",
         "hero_em": "7-day window action plan.",
-        "lead": "Section 148A show-cause notice received. Response window 7-30 days. First response often decides whether Section 148 formal notice follows (full reassessment) OR AO drops proceeding (quashed at 148A(d) order stage). Here's the step-by-step response playbook from CA Durgesh Chavda. For AY 2019-20 standard reassessment (window closing March 2027) + AY 2015-16+ 10-year reassessment.",
+        "lead": "Section 148A show-cause notice received. The reply window is set in the notice. The reply often decides whether a section 148 notice follows (full reassessment) or the AO drops the matter in the order under section 148A(3). Here's the step-by-step response playbook from CA Durgesh Chavda.",
         "kicker": "/ Section 148A Response &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ Day 1-2: Immediate acknowledgement + preservation", "First actions.",
              "<ol>"
              "<li>Acknowledge the notice via Income Tax portal (confirms receipt).</li>"
-             "<li>Note exact response deadline (specified in notice; typically 7-30 days from service).</li>"
+             "<li>Note the exact response deadline stated in the notice.</li>"
              "<li>Preserve all records relevant to the AY in question: ITR filed + supporting documents + Form 26AS + AIS/TIS + bank statements + agreements + property documents + specific transaction evidence.</li>"
              "<li>Request complete 'information' AO has relied on - via RTI if not fully disclosed in notice.</li>"
-             "<li>Engage CA / tax counsel immediately - 7-30 days is tight.</li>"
+             "<li>Engage a CA or tax counsel as soon as the notice arrives - the reply window is short.</li>"
              "</ol>"),
             ("/ Day 3-5: Information analysis + classification", "What AO alleges.",
              "<ul>"
              "<li>Analyse specific 'information': is it SFT (Form 61A) data, AIS/TIS mismatch, international exchange, specific search output, informant report?</li>"
              "<li>Classify: mechanical notice (easy to quash) or substantive issue (needs defence).</li>"
              "<li>Legal grounds assessment:</li>"
-             "<li>&nbsp;&nbsp;&mdash; Jurisdictional: 4-year vs 10-year limit, Section 148A procedure defects.</li>"
+             "<li>&nbsp;&nbsp;&mdash; Jurisdictional: whether the notice is within the three-year / five-year limit, and Section 148A procedure defects.</li>"
              "<li>&nbsp;&nbsp;&mdash; Substantive: income was already disclosed, SFT misreporting, duplicate counting, non-taxable receipt (gift, inheritance, exempt).</li>"
              "<li>&nbsp;&nbsp;&mdash; Treaty: DTAA relief available, foreign tax credit, treaty-residence tie-breaker.</li>"
              "</ul>"),
@@ -48,12 +48,12 @@ PAGES = [
              "<li>Mitigating circumstances: good faith, voluntary disclosure history, no concealment intent.</li>"
              "<li>Attach: ITR copies, Form 26AS, bank statements, agreements, specific exhibits.</li>"
              "</ul>"),
-            ("/ Day 7-30: Response submission + follow-up", "Execution.",
+            ("/ By the deadline: Response submission + follow-up", "Execution.",
              "<ol>"
-             "<li>File Section 148A(b) response on Indian Income Tax e-filing portal before deadline.</li>"
+             "<li>File the reply to the section 148A show cause notice on the e-filing portal before the deadline.</li>"
              "<li>Separate request for extension if additional time needed (specific reasoning).</li>"
              "<li>Request personal hearing if specific facts require oral representation.</li>"
-             "<li>Follow-up for Section 148A(d) order (AO decides whether to proceed).</li>"
+             "<li>Follow up for the order under section 148A(3) (old 148A(d)), where the AO decides whether to issue a section 148 notice.</li>"
              "<li>If AO drops: documented closure of proceeding.</li>"
              "<li>If AO proceeds to Section 148: formal reassessment notice follows + 30-day return filing requirement.</li>"
              "</ol>"),
@@ -69,22 +69,24 @@ PAGES = [
         ],
         "faqs": [
             ("What's the Section 148A response window?",
-             "7-30 days from service of notice (specific days specified in notice). Can request extension on specific reasoning. Critical window - no response = AO proceeds to 148A(d) order with only AO's version considered."),
+             "Within the time stated in the notice. An adjournment can be requested on the portal with reasons. If no reply is filed, the Assessing Officer decides under section 148A(3) (old 148A(d)) on the department's information alone."),
+        ("Is there a prescribed format for a section 148A reply?", "No. Write a letter that quotes the notice reference and DIN, the assessment year and the information the department relies on, then answers each item point by point: whether the transaction is yours, whether it was already shown in the return, the source of funds, and why no income has escaped or why the amount is below the Rs 50 lakh threshold where that matters. Attach bank statements, the return and computation, purchase or sale deeds and confirmations as numbered annexures, and raise any limitation or procedural objection at the start. The free notice reply generator on this site builds a point-by-point draft you can adapt; upload the final reply as a PDF on the e-filing portal."),
+        ("What should I send to reply to a section 148A notice?", "WhatsApp us the notice PDF with the information annexed to it, the return and computation for that assessment year, and the bank statements or documents for the transactions it mentions. We check the time limit and the information first, then draft the reply and the annexures for you to review before it is filed."),
             ("Can I quash Section 148A notice?",
-             "Yes - via Section 148A(b) response (dismissed at 148A(d) stage) OR via writ in High Court if procedure fundamentally defective. Several High Court rulings have struck down defective 148A proceedings. For substantive but weak notices, response alone can achieve dismissal without court."),
+             "Yes - through the reply to the show cause notice (dropped at the section 148A(3) order stage) OR via writ in High Court if procedure fundamentally defective. Several High Court rulings have struck down defective 148A proceedings. For substantive but weak notices, response alone can achieve dismissal without court."),
             ("What's the penalty if Section 148 reassessment confirms addition?",
              "Section 270A: 50% penalty for under-reporting (good faith) or 200% penalty for misreporting (fraud/wilful concealment). Classification is key battle. Section 270AA voluntary disclosure provision can avoid 200%. CIT(A) + ITAT appeal paths available."),
             ("What's the limitation for Section 148 reassessment?",
-             "Standard: 4 years from end of relevant AY. For AY 2019-20: closes 31 March 2027. Extended 10 years: for escaped income > INR 50 lakh in asset form (immovable property, financial asset, bullion). Current 10-year window: AY 2016-17 to 2018-19 open till specific dates."),
+             "For notices issued on or after 1 September 2024 (Finance (No. 2) Act, 2024): the section 148A show cause notice must be issued within three years from the end of the assessment year, or five years where the income said to have escaped is Rs 50 lakh or more, and the section 148 notice within three years and three months (five years and three months). Years already time-barred under the earlier limits stay closed. From tax year 2026-27 these provisions sit in the Income-tax Act, 2025 under new section numbers."),
             ("Does BQP handle Section 148A urgent response?",
-             "Yes - urgent response team. 24-48 hour engagement for Section 148A show-cause. Immediate acknowledgement + information review + Section 148A(b) response drafting + e-filing within window + Section 148A(d) order follow-up + Section 148 reassessment representation if proceeds + CIT(A)/ITAT appeal if adverse + writ High Court if defective. WhatsApp +91 78018 87130."),
+             "Yes. Information review + drafting the reply to the section 148A show cause notice + e-filing within window + follow-up of the section 148A(3) order + Section 148 reassessment representation if proceeds + CIT(A)/ITAT appeal if adverse + writ High Court if defective. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("section-148-148a-reassessment-notice-response-india.html", "Related", "Section 148/148A Full Guide"),
                           ("best-ca-section-148-reassessment-notice-response.html", "Related", "Best CA for 148 Response")],
         "cta_h": "Section 148A notice received?",
-        "cta_b": "7-30 day urgent response. BQP engagement: immediate acknowledgement + information review + Section 148A(b) response + follow-up. WhatsApp +91 78018 87130.",
+        "cta_b": "Reply within the time given in the notice. BQP engagement: information review + reply to the section 148A show cause notice + follow-up. WhatsApp +91 78018 87130.",
         "keywords": "how to respond Section 148A notice India CA, Section 148A response step by step, 148A show cause notice response India",
-        "desc": "How to respond to Section 148A show-cause notice India step-by-step: Day 1-2 immediate acknowledgement + preservation, Day 3-5 information analysis + classification, Day 5-7 response drafting + supporting evidence, Day 7-30 submission + follow-up, if Section 148 formal notice follows path. CA Durgesh Chavda urgent response playbook.",
+        "desc": "How to respond to Section 148A show-cause notice India step-by-step: Day 1-2 immediate acknowledgement + preservation, Day 3-5 information analysis + classification, Day 5-7 response drafting + supporting evidence, submission within the notice deadline + follow-up, if Section 148 formal notice follows path. CA Durgesh Chavda urgent response playbook.",
     },
     {
         "slug": "how-to-structure-india-us-flip-f-reorganization-step-by-step",

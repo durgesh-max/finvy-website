@@ -352,12 +352,12 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
 # 5. Transfer pricing India for foreign MNC
 write_page("transfer-pricing-india-foreign-mnc", page(
     slug="transfer-pricing-india-foreign-mnc",
-    title="Transfer Pricing India 2026: Documentation Requirements for Foreign MNCs, Form 3CEB (Form 48), APA, Master File - BQP",
+    title="Transfer Pricing in India (2026): Rules, Documentation, Form 3CEB (Now Form 48) Due Date, Penalties, Safe Harbour and Master File for Foreign-Owned Companies - BQP",
     description="Transfer pricing compliance for Indian subsidiary of foreign MNC: Form 3CEB mandatory, benchmarking study, Master File + CbCR for groups above threshold, APA (Advance Pricing Agreement), BEPS Pillar 2 India implementation. Delivered remotely from India for US / UK / EU / Singapore / UAE MNC groups. Working CA guide by Durgesh Chavda.",
     keywords="transfer pricing India foreign MNC, Form 3CEB India foreign company, APA India advance pricing agreement, Master File CbCR India, BEPS Pillar 2 India MNC",
     hero_kicker="/ Foreign Clients &middot; Transfer Pricing &middot; Updated 2026-10-13",
     hero_title_html="Transfer pricing India, <em>when parent is foreign.</em>",
-    hero_lead="Any Indian subsidiary of a foreign MNC with cross-border related-party transactions is in India's transfer pricing regime: Section 92 to 92F, Rules 10 to 10TE. Form 3CEB mandatory. Benchmarking study required. Scrutiny likelihood is high &mdash; India is one of the most TP-active jurisdictions globally with ~INR 50,000 crore+ in adjustments annually. For groups above the threshold, Master File + CbCR + BEPS Pillar 2. Here's the practitioner's framework.",
+    hero_lead="Any Indian subsidiary of a foreign MNC with cross-border related-party transactions is in India's transfer pricing regime: Section 92 to 92F, Rules 10 to 10TE. Form 3CEB mandatory. Benchmarking study required. Transfer pricing scrutiny is common in India, so the benchmarking file needs to be ready before the report is signed. For groups above the threshold, Master File + CbCR + BEPS Pillar 2. Here's the practitioner's framework.",
     sections=[
         ("/ When Indian TP applies", "Associated Enterprise + International Transaction.",
          "<p>India's TP applies when:</p>"
@@ -379,7 +379,7 @@ write_page("transfer-pricing-india-foreign-mnc", page(
          "<p>Form 3CEB is a transfer pricing audit certificate issued by a Chartered Accountant, filed as part of the Indian company's annual tax return. Required for:</p>"
          "<ul>"
          "<li>Every taxpayer with international transactions above INR 1 crore in the FY (effectively every foreign-subsidiary).</li>"
-         "<li>Due date: 31 October of the AY (vs 31 July for non-TP taxpayers).</li>"
+         "<li>Due date: 31 October of the assessment year, one month before the 30 November return due date for transfer-pricing cases.</li>"
          "</ul>"
          "<p>Form 3CEB covers:</p>"
          "<ul>"
@@ -434,7 +434,7 @@ write_page("transfer-pricing-india-foreign-mnc", page(
     ],
     faqs=[
         ("Is Form 3CEB mandatory for every foreign-subsidiary in India?",
-         "Effectively yes - any Indian subsidiary of a foreign parent that has international transactions (parent charges management fee, royalty, interest, service fee, or buys/sells goods to Indian subsidiary) crosses the INR 1 crore threshold quickly. Form 3CEB mandatory alongside Form 3CD and ITR-6. Due 31 October of the AY."),
+         "Effectively yes - any Indian subsidiary of a foreign parent that has international transactions (parent charges management fee, royalty, interest, service fee, or buys/sells goods to Indian subsidiary) crosses the INR 1 crore threshold quickly. Form 3CEB mandatory alongside Form 3CD and ITR-6. Due 31 October of the assessment year (31 October 2026 for FY 2025-26)."),
         ("What is the transfer pricing documentation threshold in India?", "Detailed transfer pricing documentation (functional analysis, benchmarking, agreements) must be kept where the aggregate value of international transactions with associated enterprises exceeds INR 1 crore in the year. Below that, documentation is lighter, but the accountant's report (Form 48, formerly Form 3CEB) is still filed for any international transaction, and prices must still be at arm's length."),
         ("What are the transfer pricing documentation requirements in India?", "Records of the ownership structure, the group's business, the nature and terms of each related-party transaction, a functional, asset and risk analysis, the method selected and the comparables used, the agreements and invoices, and any assumptions or adjustments. From tax year 2026-27 these sit under the Income-tax Rules, 2026; the documentation must exist by the due date of the accountant's report."),
         ("When is the master file required in India?", "When the group's consolidated revenue exceeds INR 500 crore and either its international transactions exceed INR 50 crore, or transactions in intangibles exceed INR 10 crore. The master file and the country-by-country report are separate from the local documentation and the accountant's report."),
@@ -446,6 +446,8 @@ write_page("transfer-pricing-india-foreign-mnc", page(
          "For groups with large recurring intercompany transactions (e.g., annual royalty > USD 5M, or IT services engagement with 1000+ Indian headcount), yes - 5+4 years of certainty + removal of double-taxation risk + reduced litigation outweigh the 24-36 month filing process + professional fees. For smaller / variable transactions, standard annual Form 3CEB may suffice."),
         ("How much is a typical TP adjustment in India?",
          "Varies widely by industry and transaction type. For IT services with low Indian margin: adjustment at 2-8% of cost base. For royalty: often 100% disallowance if not benchmarked. For guarantee fee: 0.5-1.5% of guaranteed amount addition. Across India, CBDT makes ~INR 50,000 crore+ in TP adjustments annually across all taxpayers."),
+        ("What is the penalty for not filing Form 3CEB or keeping transfer pricing documentation?", "Under the 1961 Act provisions carried into the 2025 Act: failing to furnish the accountant's report (Form 3CEB, now Form 48) attracts a penalty of Rs 1 lakh; failing to keep or maintain the prescribed documentation, or reporting a transaction incorrectly, can cost 2% of the value of each international transaction; and failing to produce the documents when the officer asks can cost a further 2%. Any adjustment to the price is taxed on top, with interest, and can attract under-reporting penalties."),
+        ("What should I send for a transfer pricing review?", "WhatsApp us the group chart, the Indian company's latest financial statements, a list of transactions with group companies for the year (services, royalties, interest, goods, reimbursements and cost allocations) with the amounts, the intercompany agreements and any earlier Form 3CEB or benchmarking study. We confirm what must be reported, whether the safe harbour fits, and what the documentation and Form 48 need before 31 October."),
         ("Does BQP handle Indian TP for foreign MNC subsidiaries?",
          "Yes - full stack: Form 3CEB preparation + filing, benchmarking study (TNMM / RPM / CUP method), Master File + CbCR filing, APA application if valuable, TP scrutiny / assessment representation. We work with group tax / treasury of foreign parent and coordinate with group-level TP advisors. Standard annual engagement scoped per transaction count + complexity. WhatsApp +91 78018 87130."),
     ],

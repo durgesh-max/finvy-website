@@ -546,7 +546,7 @@ PAGES = [
              "<li>Residence tie-breaker: specific tests applied.</li>"
              "<li>Dividend: 15% treaty rate.</li>"
              "<li>Interest: 15% treaty rate.</li>"
-             "<li>Royalty / FTS: 10-15% depending on specific scenarios.</li>"
+             "<li>Royalty / FTS: 10% or 15% depending on the type of royalty or service.</li>"
              "<li>Business profits: taxable only via PE (Article 7).</li>"
              "<li>Capital gain: taxable in state of residence subject to specific real estate / substantial holding carve-outs.</li>"
              "<li>Specific trust distribution + beneficiary residency analysis.</li>"
@@ -590,7 +590,7 @@ PAGES = [
         "cta_h": "Australian trust + Indian beneficiary tax planning?",
         "cta_b": "Trust distribution analysis + Indian ITR + Schedule FA + FTC + FEMA + Black Money Act compliance. BQP + Australian partner engagement. WhatsApp +91 78018 87130.",
         "keywords": "Australian trust Indian beneficiary FEMA CA India, Australian discretionary trust Indian resident tax CA, India Australia DTAA trust distribution CA",
-        "desc": "Australian trust + Indian beneficiary FEMA CA India: Australian trust framework (discretionary + unit), Indian tax on trust distribution (ROR worldwide + head-wise + Section 56(2)(x) + Schedule FA), FEMA inward remittance + FIRC + Black Money Act 2015 compliance, India-Australia DTAA (15% dividend/interest, 10-15% royalty/FTS), common scenarios (family trust + unit trust + testamentary). CA Durgesh Chavda Australia-India specialist.",
+        "desc": "Australian trust + Indian beneficiary FEMA CA India: Australian trust framework (discretionary + unit), Indian tax on trust distribution (ROR worldwide + head-wise + Section 56(2)(x) + Schedule FA), FEMA inward remittance + FIRC + Black Money Act 2015 compliance, India-Australia DTAA (15% dividend/interest, 10% or 15% royalty/FTS depending on type), common scenarios (family trust + unit trust + testamentary). CA Durgesh Chavda Australia-India specialist.",
     },
     {
         "slug": "german-gmbh-indian-branch-vat-gst-ca",

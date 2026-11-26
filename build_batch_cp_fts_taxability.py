@@ -50,7 +50,7 @@ PAGES = [dict(
         ("/ Is it FTS, and is it taxable?", "Three questions.",
          table(["Question", "If yes", "If no"], [
              ["Is it a managerial, technical or consultancy service (not construction/mining or salary)?", "Domestic FTS: taxable in India at 20% gross", "Check royalty or business-profits rules instead"],
-             ["Does the supplier's treaty have an FTS article?", "Treaty rate applies (often 10-15%) if lower and documents are given", "No separate FTS article: check the royalty and business-profits articles (for example India-Australia)"],
+             ["Does the supplier's treaty have an FTS article?", "Treaty rate applies (it depends on the treaty) if lower and documents are given", "No separate FTS article: check the royalty and business-profits articles (for example India-Australia)"],
              ["Does the treaty require the service to 'make available' know-how (US, UK, Singapore, Canada)?", "Taxable only if technical knowledge or skill is transferred so you can use it independently (for example, training your team)", "Routine services that do not transfer know-how fall outside FTS: business profits, taxable only with a PE"]])
          + BOX),
         ("/ How the Indian payer withholds", "Process and documents.",

@@ -477,7 +477,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("What happens to my NRE account when I return to India?",
          "RBI expects NRE accounts to be re-designated as resident accounts (or moved to an RFC account) immediately on your return; banks ask you to do it as soon as you arrive. Savings component converts to Resident Savings Account (interest fully taxable from conversion). Fixed Deposits can be converted to RFC (Resident Foreign Currency) Account to retain foreign-currency denomination, or to Resident Rupee Fixed Deposits. The Section 10(4)(ii) exemption ends on the re-designation date; interest earned before is retained tax-free."),
         ("Can I claim DTAA treaty rate on NRO interest instead of 30% domestic TDS?",
-         "Yes. Submit TRC + Form 10F to the bank before the TDS cycle. Bank then deducts at the treaty rate (typically 10-15% depending on your country of residence). Without it the bank deducts 30% plus cess; the excess can be claimed back through the ITR, but it comes back only after the return for that year is filed and processed, which can be a year or more after the deduction."),
+         "Yes. Submit TRC + Form 10F to the bank before the TDS cycle. Bank then deducts at the treaty rate (the rate depends on the treaty with your country of residence). Without it the bank deducts 30% plus cess; the excess can be claimed back through the ITR, but it comes back only after the return for that year is filed and processed, which can be a year or more after the deduction."),
         ("Does BQP handle NRE / NRO / FCNR setup and ongoing tax?",
          "Yes. Account setup co-ordination with Indian banks, FATCA / CRS declaration, DTAA Form 10F for reduced NRO TDS, annual ITR including NRO interest + NRE verification, Form 15CA / 15CB for repatriation, re-designation on return to India. Request via get-a-quote.html."),
     ],
@@ -487,7 +487,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("nri-residential-status-rnor-india.html", "Guide", "Residential Status Rules"),
     ],
     cta_headline="Running NRE, NRO and FCNR accounts correctly can cut the tax on your Indian interest.",
-    cta_body="Many NRIs pay 30% TDS on NRO interest when a treaty rate of 10-15% was available through Form 10F. We fix the account setup, file the Form 10F stack, handle the DTAA rate claim, and co-ordinate repatriation. Setup + first-year filing is a one-time engagement.",
+    cta_body="Many NRIs pay 30% TDS on NRO interest when a lower treaty rate was available with a TRC and Form 41 (old 10F). We fix the account setup, file the Form 10F stack, handle the DTAA rate claim, and co-ordinate repatriation. Setup + first-year filing is a one-time engagement.",
 ))
 
 print("Batch D complete: 6 NRI taxation pages written")

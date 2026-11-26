@@ -421,7 +421,7 @@ write_page("us-green-card-holder-india-tax-complete-2026", page(
         ("Does a US green card holder need to file Indian ITR?",
          "Only if (a) physically Indian tax resident (182+ days in FY; for a visiting green card holder of Indian origin the 60-day test becomes 182 days, or 120 days where Indian income exceeds INR 15 lakh), OR (b) India-source income exceeds basic exemption limit (INR 4 lakh under the new regime, INR 2.5 lakh under the old; non-residents get no rebate). Most green card holders residing in US are Indian NRIs - file Indian ITR only if India rental / Indian capital gains / Indian bank interest triggers filing threshold. Green card holders physically in India for extended periods become Indian residents - full worldwide income disclosure in Indian ITR."),
         ("How does the India-US DTAA help a green card holder?",
-         "Prevents double taxation via Foreign Tax Credit (FTC) + reduced treaty rates on specific income types. Article 4 tie-breaker determines treaty residence if dual resident. Treaty rates: dividend 15% (25% ownership) / 25% (otherwise); royalty 10-15%; FTS 10-15%. Both India and US must honour treaty rates per their domestic law. TRC + Form 10F required for Indian treaty claim."),
+         "Prevents double taxation via Foreign Tax Credit (FTC) + reduced treaty rates on specific income types. Article 4 tie-breaker determines treaty residence if dual resident. Treaty rates: dividend 15% (company owning 10% or more of the voting stock) / 25% (otherwise); royalties and fees for included services 10% or 15% depending on the type. Both India and US must honour treaty rates per their domestic law. TRC + Form 10F required for Indian treaty claim."),
         ("Is Indian PF (Provident Fund) taxable to a US green card holder?",
          "Complex. US generally treats Indian PF as foreign pension - taxable in US on contributions + growth + distributions unless specific DTAA treatment applies. India-US DTAA has no specific PF article - US tax applies. Needs year-by-year reporting (Form 8938, FBAR). Specialised cross-border tax advice essential; many green card holders unknowingly misreport Indian PF."),
         ("Can I keep US green card while living in India long-term?",
@@ -632,7 +632,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
          "<p>These three together give the Indian payer / Indian Tax Officer confidence to apply reduced treaty rate.</p>"),
         ("/ TRC - country-wise mechanics", "How to get TRC.",
          "<p><strong>United States</strong>: Form 6166 from IRS. Apply via Form 8802 at least 45 days before needed. Fee USD 85. Can get up to 3 years at once. User account at IRS website.</p>"
-         "<p><strong>United Kingdom</strong>: HMRC Certificate of Residence. Request online via Government Gateway or by letter. Typically 2-6 weeks turnaround.</p>"
+         "<p><strong>United Kingdom</strong>: HMRC Certificate of Residence. Request online via Government Gateway or by letter. Apply well before you need it.</p>"
          "<p><strong>UAE</strong>: FTA (Federal Tax Authority) Tax Residency Certificate. Apply via FTA portal. AED 500 individual / AED 1,750 commercial. 2-4 week processing.</p>"
          "<p><strong>Singapore</strong>: IRAS Certificate of Residence. Request via mytax.iras.gov.sg. 1-2 week processing.</p>"
          "<p><strong>Canada</strong>: CRA Certificate of Residency. Request by letter to CRA. 4-8 week processing.</p>"
@@ -668,7 +668,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
         ("How does an NRI claim DTAA treaty rate on India-source income?",
          "Three documents in sequence: (1) TRC (Tax Residency Certificate) from home country tax authority confirming residence. (2) Form 10F filed electronically on India's income tax portal confirming status + treaty eligibility + beneficial ownership. (3) No-PE declaration for business income claims. Share all three with Indian payer; payer applies treaty rate under Section 195 instead of default 20%+."),
         ("How long is TRC valid?",
-         "Typically 1 year (calendar or fiscal year as specified by issuing authority). Must be renewed annually for continued DTAA claim. Form 10F validity is tied to TRC period. Plan ahead: TRC application timelines vary 2-8 weeks by country; US takes 45 days minimum."),
+         "Typically 1 year (calendar or fiscal year as specified by issuing authority). Must be renewed annually for continued DTAA claim. Form 10F validity is tied to TRC period. Plan ahead: processing times are set by each country's tax authority, so apply early."),
         ("What if NRI doesn't have TRC when payment is due?",
          "Indian payer applies Section 195 default rate (20% + surcharge + cess). NRI pays higher tax upfront. Can obtain TRC later and claim refund via Indian ITR filing - 6-18 month wait. Plan ahead: obtain TRC + file Form 10F before major India-source income event (property sale, dividend declaration, royalty payment)."),
         ("What is a no-PE declaration and when is it required?",

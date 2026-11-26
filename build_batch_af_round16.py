@@ -288,7 +288,7 @@ PAGES = [
     ),
     dict(
         slug="company-struck-off-section-248-notice-revival-india",
-        title="Company Struck Off Under Section 248: Notice, Response, Revival",
+        title="Company Struck Off in India (2026): Section 248 Notice, Reply, and How to Revive or Restore It Through the NCLT (Section 252)",
         em="respond to STK-1 or restore through the NCLT.",
         kicker="/ MCA &middot; Strike-Off &middot; Updated 2026-10-25",
         lead="The Registrar can strike a company off the register under Section 248 if it has not started business within a year of incorporation, or has not carried on business or operations for two years without applying for dormant status. It starts with a notice (STK-1). If you miss that window, the company is dissolved and can only be restored through the NCLT under Section 252.",
@@ -315,6 +315,8 @@ PAGES = [
             ("Why would the Registrar strike off my company?", "If it did not start business within a year of incorporation, or has not carried on business for two years and has not applied for dormant status."),
             ("How long do I have to respond to an STK-1 notice?", "Usually 30 days from the notice. Reply with evidence of business and file all overdue returns."),
             ("Can a struck-off company be restored?", "Yes, through the NCLT under Section 252: within three years by an aggrieved person, or within 20 years by the company, a member, a creditor or a workman."),
+        ("How do I revive a struck-off company?", "File a petition (appeal) with the NCLT under section 252 with the Registrar as a party, showing the company was carrying on business or that restoration is just. If the tribunal agrees, it orders the name restored, usually on condition that all overdue financial statements and annual returns are filed with the fees and any costs it sets. The order is then filed with the Registrar in Form INC-28 within 30 days, the overdue forms are filed, and the company becomes active again."),
+        ("What should I send to restore a struck-off company?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the CIN, the STK-1 notice or the gazette notification of strike-off, the last financial statements and annual returns filed, the directors' DINs and their status, bank statements or invoices showing the business continued, and why you want the company back (bank account, property, contracts, tax refunds). We check whether section 252(1) or 252(3) applies and prepare the overdue filings and the petition with counsel."),
             ("What happens to the bank account after strike-off?", "It is frozen. It can be operated again only after the NCLT restoration order is filed with the Registrar."),
             ("Can BQP handle restoration?", "Yes. We prepare the overdue filings and coordinate the NCLT petition with counsel. " + CONTACT),
         ],

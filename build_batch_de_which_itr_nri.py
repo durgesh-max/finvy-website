@@ -33,7 +33,7 @@ def table(head, rows):
 
 
 CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your country of residence, days in India, and your Indian income (rent, interest, capital gains, dividends) with the TDS shown in Form 26AS / AIS. "
-           "We reply within one working day with the right form, the refund position and a fixed-scope quote.")
+           "We reply with the right form, the refund position and the scope of work.")
 SLUG = "which-itr-to-file-for-nri-ay-2026-27-itr-2-itr-3-refund-80c-deductions"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
        f'<p style="margin:0 0 8px;font-weight:600">Missed 31 July? You still have until 31 December 2026.</p>'
@@ -74,7 +74,7 @@ PAGES = [dict(
          + f'<p><strong>Sources:</strong> Income-tax Act, 1961 (sections 80C, 80D, 80TTA, 80TTB, 87A, 111A, 112A, 139) for FY 2025-26; ITR-2 and ITR-3 instructions for AY 2026-27; Income-tax Act, 2025 from FY 2026-27. Secondary guides checked 19 November 2026: ClearTax, CalcGuru, Patron Accounting, 1 Finance. <em>{UPDATED}</em> General information; your treaty and residential status can change the answer.</p>'),
     ],
     faqs=[("Which ITR should an NRI file?", "ITR-2 for salary, rent, interest, dividends and capital gains from India; ITR-3 if there is any business or professional income. ITR-1 and ITR-4 are only for residents."),
-        ("What is the last date for NRI ITR filing for AY 2026-27?", "For NRIs filing ITR-2 (salary, rent, interest, capital gains), the due date was 31 July 2026 and it was not extended. Non-audit business or professional income (ITR-3) had a later date, and audit cases were extended to 21 November 2026. If you missed your date, a belated return can still be filed by 31 December 2026 with a late fee, and refunds can still be claimed."),
+        ("What is the last date for NRI ITR filing for AY 2026-27?", "For NRIs filing ITR-2 (salary, rent, interest, capital gains), the due date was 31 July 2026 and it was not extended. Non-audit business or professional income (ITR-3) had a later date, and audit cases were extended to 21 November 2026. If you missed your date, a belated return can still be filed by 31 December 2026 with a late fee, and refunds can still be claimed. A return already filed can be revised until 31 March 2027 (free until 31 December 2026, then with a fee)."),
         ("Can an NRI file ITR-1?", "No. ITR-1 (Sahaj) and ITR-4 (Sugam) are only for resident individuals, so NRIs use ITR-2, or ITR-3 if they have business or professional income in India."),
           ("Does an NRI need to file an ITR in India?", "Yes if Indian income (excluding exempt NRE/FCNR interest) is above the basic exemption limit, or to claim a refund of excess TDS or carry forward losses. With only NRE or FCNR interest, no return is needed."),
           ("Which ITR for an NRI with no income?", "None is required, but if TDS was deducted (for example on NRO interest) file ITR-2 to claim the refund."),

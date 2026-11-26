@@ -62,7 +62,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP urgent engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement acknowledgement.</li>"
+             "<li>Engagement as soon as the notice is received.</li>"
              "<li>Notice review + 'reason for scrutiny' analysis.</li>"
              "<li>Full reconciliation preparation + documentary refutation.</li>"
              "<li>Written legal position memos.</li>"
@@ -92,7 +92,7 @@ PAGES = [
         "cta_h": "Section 143(2) scrutiny notice received?",
         "cta_b": "URGENT: 15-30 day response window. BQP 24-48 hour engagement + reconciliation + hearing representation. WhatsApp +91 78018 87130 same-day response.",
         "keywords": "received Section 143(2) scrutiny notice urgent CA India, Section 143(3) assessment response CA, scrutiny notice response India urgent CA",
-        "desc": "Received Section 143(2) scrutiny notice urgent action India: immediate 24-72 hour preservation + planning, 15-30 day response strategy (ITR reconciliation + documentary refutation + legal position + TP documentation + exemption claims), hearing + Section 143(3) order within 6 months, Section 270A penalty exposure (50%/200%), CIT(A)/ITAT appeal path. CA Durgesh Chavda urgent response specialist.",
+        "desc": "Received Section 143(2) scrutiny notice urgent action India: immediate 24-72 hour preservation + planning, 15-30 day response strategy (ITR reconciliation + documentary refutation + legal position + TP documentation + exemption claims), hearing + Section 143(3) order within 6 months, Section 270A penalty exposure (50%/200%), CIT(A)/ITAT appeal path. CA Durgesh Chavda.",
     },
     {
         "slug": "discovered-gstr-9-shortfall-voluntary-disclosure-urgent-india",
@@ -228,7 +228,7 @@ PAGES = [
              "</ul>"),
             ("/ BQP urgent pre-M&A engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement acknowledgement.</li>"
+             "<li>Engagement as soon as the notice is received.</li>"
              "<li>FEMA compliance history audit (5-year lookback).</li>"
              "<li>Specific breach identification + severity + chronology.</li>"
              "<li>Supporting document assembly.</li>"
@@ -721,19 +721,19 @@ PAGES = [
     },
     {
         "slug": "section-148a-show-cause-7-day-response-urgent-india",
-        "title": "Section 148A Show-Cause 7-Day Response Urgent India",
-        "hero_em": "7-day window = quashing opportunity.",
-        "lead": "Section 148A(b) show-cause notice received. Response window typically 7-30 days (often 7 days). First response often decides whether Section 148 formal reassessment follows (full assessment proceeding) OR AO drops at Section 148A(d) order stage (quashed). Material opportunity to prevent reassessment with proper response. BQP urgent response team. Here's the complete 7-day playbook.",
+        "title": "Section 148A Show Cause Notice Received? Reply Plan, Time Limits After the 2024 Amendment and Grounds to Have It Dropped (2026)",
+        "hero_em": "The reply window is the chance to have the proceeding dropped.",
+        "lead": "Section 148A show cause notice received. Reply within the time stated in the notice, which can be short. First response often decides whether Section 148 formal reassessment follows (full assessment proceeding) OR AO drops at order under section 148A(3) stage (quashed). Material opportunity to prevent reassessment with proper response. Here is the playbook for the reply window.",
         "kicker": "/ Section 148A 7-Day Response &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why Section 148A response is critical", "The quashing opportunity.",
              "<ul>"
-             "<li>Section 148A(b): AO must issue show-cause notice BEFORE formal Section 148 reassessment notice.</li>"
-             "<li>Response within specified window (typically 7-30 days).</li>"
-             "<li>Section 148A(d) order: AO decides whether to proceed. Must consider taxpayer's response.</li>"
+             "<li>Section 148A: AO must issue show-cause notice BEFORE formal Section 148 reassessment notice.</li>"
+             "<li>Response within the window stated in the notice.</li>"
+             "<li>order under section 148A(3): AO decides whether to proceed. Must consider taxpayer's response.</li>"
              "<li>If AO drops: no Section 148 reassessment. Case closed.</li>"
              "<li>If AO proceeds: formal Section 148 notice + full Section 147 reassessment follows.</li>"
-             "<li>Statistics: well-drafted Section 148A(b) response often achieves closure at 148A(d) stage - specific scenarios where AO's 'information' is weak or incorrectly interpreted.</li>"
+             "<li>A well-drafted reply can lead to the proceeding being dropped at the section 148A(3) order stage, especially where the AO's 'information' is weak or misread.</li>"
              "</ul>"),
             ("/ Day 1-2: Immediate acknowledgement + preservation", "First actions.",
              "<ol>"
@@ -741,12 +741,12 @@ PAGES = [
              "<li>Note exact response deadline (specified in notice).</li>"
              "<li>Preserve all records relevant to AY in question: ITR + supporting documents + Form 26AS + AIS/TIS + bank statements + agreements + property / investment / share transaction evidence.</li>"
              "<li>Request complete 'information' AO relied on - via RTI if not fully disclosed.</li>"
-             "<li>Engage CA + legal counsel immediately - 7-30 days is tight.</li>"
+             "<li>Engage a CA and legal counsel as soon as the notice arrives - the window is short.</li>"
              "</ol>"),
             ("/ Day 2-5: Legal + factual analysis", "Build the case.",
              "<p><strong>Legal grounds to assess</strong>:</p>"
              "<ul>"
-             "<li><strong>Jurisdictional</strong>: 4-year vs 10-year limit; Section 148A procedure defects; mechanical satisfaction.</li>"
+             "<li><strong>Jurisdictional</strong>: three-year / five-year limit; Section 148A procedure defects; mechanical satisfaction.</li>"
              "<li><strong>Substantive</strong>: income was already disclosed (ITR extract + Form 26AS reconciliation); SFT misreporting (Form 61A data wrong); duplicate counting (same transaction counted twice); non-taxable receipt (gift from relative, inheritance, exempt income).</li>"
              "<li><strong>Treaty</strong>: DTAA relief available (if cross-border income); foreign tax credit; treaty-residence tie-breaker.</li>"
              "<li><strong>Section 56(2)(x) relative exemption</strong>: for gift income allegations.</li>"
@@ -755,7 +755,7 @@ PAGES = [
              "</ul>"),
             ("/ Day 5-7: Response drafting + submission", "The execution.",
              "<ol>"
-             "<li>Section 148A(b) response: comprehensive written submission.</li>"
+             "<li>reply to the section 148A show cause notice: comprehensive written submission.</li>"
              "<li>Documentary refutation: specific exhibits + agreements + bank statements + specific receipts.</li>"
              "<li>Legal position memos: specific case law + statutory provisions.</li>"
              "<li>Specific submission structure: facts + AO's allegation + specific refutation + supporting evidence + specific legal position.</li>"
@@ -763,7 +763,7 @@ PAGES = [
              "<li>Request extension if additional time needed (specific reasoning).</li>"
              "<li>File response on Indian Income Tax e-filing portal before deadline.</li>"
              "<li>Request personal hearing if specific facts require oral representation.</li>"
-             "<li>Follow-up for Section 148A(d) order.</li>"
+             "<li>Follow-up for order under section 148A(3).</li>"
              "</ol>"),
             ("/ If AO proceeds to Section 148", "The full reassessment path.",
              "<ul>"
@@ -773,15 +773,15 @@ PAGES = [
              "<li>Section 270A penalty: 50% under-reporting / 200% misreporting.</li>"
              "<li>Writ in High Court: if Section 148A procedure fundamentally defective (several High Court rulings have struck down defective 148A proceedings).</li>"
              "</ul>"),
-            ("/ BQP urgent 7-day response engagement", "What we deliver.",
+            ("/ BQP reply engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement acknowledgement.</li>"
+             "<li>Engagement as soon as the notice is received.</li>"
              "<li>Notice review + 'information' analysis (RTI if needed).</li>"
              "<li>Full documentary refutation preparation.</li>"
              "<li>Legal position memos + specific case law.</li>"
-             "<li>Section 148A(b) response drafting within window.</li>"
+             "<li>reply to the section 148A show cause notice drafting within window.</li>"
              "<li>E-filing on Indian Income Tax portal.</li>"
-             "<li>Section 148A(d) order follow-up.</li>"
+             "<li>order under section 148A(3) follow-up.</li>"
              "<li>Section 148 reassessment representation if proceeds.</li>"
              "<li>CIT(A) + ITAT appeal if adverse.</li>"
              "<li>Writ High Court for procedural defects.</li>"
@@ -790,23 +790,23 @@ PAGES = [
              "<p><em>Last updated: 2026-10-25.</em></p>"),
         ],
         "faqs": [
-            ("What's the Section 148A(b) response window?",
-             "Typically 7-30 days from service of notice (specific days specified). Often 7-15 days. Can request extension on specific reasoning. Critical window - no response = AO proceeds to 148A(d) order with only AO's version considered."),
+            ("What's the reply to the section 148A show cause notice window?",
+             "Within the time stated in the notice, which can be short. An adjournment can be requested with reasons. Critical window - no response = AO proceeds to order under section 148A(3) with only AO's version considered."),
             ("Can Section 148A proceeding be quashed at response stage?",
-             "Yes - substantive but weak notices often achieve closure at Section 148A(d) stage via well-drafted response. For fundamentally defective 148A procedures: writ in High Court can quash. Several High Court rulings have struck down defective 148A. Specific case law + specific legal grounds matter."),
+             "Yes - substantive but weak notices often achieve closure at Section 148A(3) stage via well-drafted response. For fundamentally defective 148A procedures: writ in High Court can quash. Several High Court rulings have struck down defective 148A. Specific case law + specific legal grounds matter."),
             ("What's the biggest risk if I don't respond?",
-             "AO proceeds to Section 148A(d) order with only AO's version considered. Section 148 formal notice follows. Section 147 reassessment proceeding. Section 270A penalty 50% under-reporting (good faith) or 200% misreporting (fraud) + Section 234A/B/C interest. Full reassessment with specific adverse presumptions."),
+             "AO proceeds to order under section 148A(3) with only AO's version considered. Section 148 formal notice follows. Section 147 reassessment proceeding. Section 270A penalty 50% under-reporting (good faith) or 200% misreporting (fraud) + Section 234A/B/C interest. Full reassessment with specific adverse presumptions."),
             ("Does BQP handle Section 148A within 7 days?",
-             "Yes - urgent response team. 24-48 hour engagement + notice review + 'information' analysis + full documentary refutation + legal position memos + Section 148A(b) response drafting + e-filing within window. Specific capacity for 7-day response urgency. WhatsApp +91 78018 87130 same-day response."),
+             "Yes. Notice review + 'information' analysis + full documentary refutation + legal position memos + reply to the section 148A show cause notice drafting + e-filing within window. WhatsApp +91 78018 87130 with the notice."),
             ("What's reassessment season timing?",
-             "November-December typical. AO's 4-year standard limit for AY 2019-20 closes 31 March 2027 → notices issued November 2026-February 2027. AY 2015-16 to 2018-19 (10-year extended for asset-form escaped income > INR 50 lakh) also active. Current reassessment season: Nov-Dec 2026 wave in progress."),
+             "Notices cluster in the months before 31 March. Under the limits in force since 1 September 2024, section 148A notices for AY 2023-24 (three-year limit) and, where the escaped income is Rs 50 lakh or more, AY 2021-22 (five-year limit) must be issued by 31 March 2027."),
         ],
         "related_pairs": [("section-148-reassessment-season-november-december-2026.html", "Related", "Section 148 Season"),
                           ("how-to-respond-section-148a-show-cause-notice-india-step-by-step.html", "Related", "Section 148A Step-by-Step")],
-        "cta_h": "Section 148A show-cause 7-day window?",
-        "cta_b": "URGENT: documentary refutation + legal position + e-filing within window. BQP 24-48 hour engagement. WhatsApp +91 78018 87130 same-day response.",
+        "cta_h": "Section 148A show cause notice received?",
+        "cta_b": "Documentary refutation + legal position + e-filing within the window. WhatsApp +91 78018 87130.",
         "keywords": "Section 148A show cause 7 day response urgent India CA, 148A quash High Court writ CA, 148A response reassessment urgent CA India",
-        "desc": "Section 148A show-cause 7-day response urgent India: 7-day window = quashing opportunity (Section 148A(d) stage closure before Section 148 formal reassessment), Day 1-2 acknowledgement + preservation + CA engagement, Day 2-5 legal (jurisdictional + substantive + treaty) + factual analysis, Day 5-7 response drafting (documentary refutation + legal position + exhibits) + e-filing, if AO proceeds Section 147 reassessment path. CA Durgesh Chavda urgent response specialist.",
+        "desc": "Section 148A show cause notice received: reply within the time stated in the notice to have the proceeding dropped at the section 148A(3) stage; time limits after the 2024 amendment (three years, five years for Rs 50 lakh or more); acknowledgement + preservation + CA engagement, legal (jurisdictional + substantive + treaty) + factual analysis, response drafting (documentary refutation + legal position + exhibits) + e-filing, if AO proceeds Section 147 reassessment path. CA Durgesh Chavda.",
     },
 ]
 

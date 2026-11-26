@@ -227,27 +227,27 @@ write_page("gift-city-expansion-2026-new-tenants-ifsca-reforms", page(
 # 14. Section 148 season
 write_page("section-148-reassessment-season-november-december-2026", page(
     slug="section-148-reassessment-season-november-december-2026",
-    title="Section 148 Reassessment Season November-December 2026 - BQP",
-    description="Section 148 / 148A reassessment season November-December 2026: AO sending Section 148A(b) show-cause notices for AY 2019-20 / 2020-21 before March 2027 limitation, 10-year lookback for asset-form escaped income above INR 50 lakh, response strategy, writ in High Court if 148A defective, Section 270A under vs mis reporting defence. Working CA guide by Durgesh Chavda.",
-    keywords="Section 148 reassessment season November 2026, 148A show cause notice AY 2019-20, Section 148 limitation March 2027, 10 year reassessment India 2026",
+    title="Section 148 Reassessment Notices November-December 2026: Years Still Open (AY 2023-24, AY 2021-22) and How to Reply - BQP",
+    description="Section 148 / 148A reassessment season November-December 2026: section 148A show cause notices for AY 2023-24 (three-year limit) and AY 2021-22 (five-year limit for escaped income of Rs 50 lakh or more) before the 31 March 2027 limitation, response strategy, writ in High Court if 148A defective, Section 270A under vs mis reporting defence. Working CA guide by Durgesh Chavda.",
+    keywords="Section 148 reassessment season November 2026, 148A show cause notice AY 2023-24, Section 148 limitation March 2027, reassessment time limit India 2026",
     hero_kicker="/ Reassessment Season Alert &middot; Updated 2026-10-22",
     hero_title_html="Section 148 reassessment season, <em>Nov-Dec 2026 wave is here.</em>",
-    hero_lead="November-December is India's traditional reassessment-notice season. AOs rushing to issue Section 148A(b) show-cause notices for AY 2019-20 (standard 4-year window closing March 2027) and AY 2015-16 / 2016-17 (10-year window for asset-form escaped income above INR 50 lakh). If you've received a Section 148A(b) notice, the response window is 7-30 days. Here's exactly what to do.",
+    hero_lead="The months before 31 March are when many reassessment notices are issued. Under the limits in force since 1 September 2024, the years still open in November 2026 are AY 2023-24 (three-year limit for the section 148A notice, ending 31 March 2027) and, where the escaped income is Rs 50 lakh or more, AY 2021-22 (five-year limit, also ending 31 March 2027). If you have received a section 148A notice, reply within the time it states. Here is what to do.",
     sections=[
         ("/ The current season context", "Why November-December.",
          "<ul>"
-         "<li><strong>AY 2019-20 standard 4-year limit</strong>: closing on 31 March 2027. AOs issuing 148A(b) before year-end to preserve option to proceed to Section 148 before limitation.</li>"
-         "<li><strong>AY 2015-16 / 2016-17 10-year extended limit</strong>: applicable where escaped income is INR 50 lakh+ in asset form. AOs reviewing CBDT risk-based selection + FTA (Foreign Tax Authority) exchange data + search cases.</li>"
+         "<li><strong>AY 2023-24: three-year limit</strong>: 148A notices due by 31 March 2027. AOs issue them before year-end to keep the option of a section 148 notice.</li>"
+         "<li><strong>AY 2021-22: five-year limit (escaped income Rs 50 lakh or more)</strong>: applicable where escaped income is INR 50 lakh+ in asset form. AOs reviewing CBDT risk-based selection + FTA (Foreign Tax Authority) exchange data + search cases.</li>"
          "<li><strong>Data sources driving notices</strong>: SFT (Statement of Financial Transactions), AIS / TIS mismatches, international tax exchange, specific industry audits, informant reports.</li>"
-         "<li><strong>Volume</strong>: significant volume of 148A(b) notices issued each November-December season. Many are mechanical and quashable.</li>"
+         "<li><strong>Volume</strong>: notices are often issued in the months before the March limitation date; some are mechanical and can be challenged.</li>"
          "</ul>"),
         ("/ Section 148A procedure recap", "Finance Act 2021 framework.",
          "<ol>"
          "<li><strong>AO has information</strong> suggesting income escaping assessment (SFT, AIS mismatch, international exchange, search output).</li>"
          "<li><strong>Section 148A(a) enquiry</strong>: optional - AO may make preliminary enquiry.</li>"
-         "<li><strong>Section 148A(b) show-cause notice</strong>: AO issues formal show-cause with the 'information' it relies on + proposed grounds. Response window 7-30 days.</li>"
+         "<li><strong>Section 148A show cause notice</strong>: AO issues the show cause notice with the 'information' it relies on. Reply within the time stated in it.</li>"
          "<li><strong>Taxpayer's response</strong>: can refute information, present mitigating facts, argue jurisdictional defects.</li>"
-         "<li><strong>Section 148A(d) order</strong>: AO decides whether to proceed. Must consider taxpayer's response.</li>"
+         "<li><strong>order under section 148A(3)</strong>: AO decides whether to proceed. Must consider taxpayer's response.</li>"
          "<li><strong>Section 148 formal notice</strong>: if AO proceeds, formal reassessment notice issued. Taxpayer must file return.</li>"
          "<li><strong>Section 147 reassessment</strong>: regular assessment follows.</li>"
          "<li><strong>Section 147 order appealable</strong> to CIT(A) within 30 days.</li>"
@@ -258,13 +258,13 @@ write_page("section-148-reassessment-season-november-december-2026", page(
          "<li><strong>Information review (Day 1-3)</strong>: analyse exactly what information AO relies on. RTI request for complete file if needed.</li>"
          "<li><strong>Classification review (Day 3-5)</strong>: is this a mechanical notice (easy to quash) or substantive issue (need defence)?</li>"
          "<li><strong>Legal grounds assessment</strong>:</li>"
-         "<li>&nbsp;&nbsp;&mdash; Jurisdictional: 4-year vs 10-year limit, Section 148A procedure defects.</li>"
+         "<li>&nbsp;&nbsp;&mdash; Jurisdictional: three-year / five-year limit, Section 148A procedure defects.</li>"
          "<li>&nbsp;&nbsp;&mdash; Substantive: income was already disclosed, SFT misreporting, duplicate counting, non-taxable receipt (gift, inheritance, exempt).</li>"
          "<li>&nbsp;&nbsp;&mdash; Treaty: DTAA relief available, foreign tax credit, treaty-residence tie-breaker.</li>"
          "<li><strong>Documentary refutation</strong>: ITR extract showing disclosed income, bank statements, agreements, Section 50C compliance docs, Section 56(2)(x) relative gift docs.</li>"
-         "<li><strong>Section 148A(b) response drafting</strong>: comprehensive written response with annexures.</li>"
+         "<li><strong>reply to the section 148A show cause notice drafting</strong>: comprehensive written response with annexures.</li>"
          "<li><strong>Submission on income tax portal</strong>: electronic filing before deadline.</li>"
-         "<li><strong>Follow-up</strong>: await Section 148A(d) order. If favourable: closure. If adverse: Section 148 notice follows.</li>"
+         "<li><strong>Follow-up</strong>: await order under section 148A(3). If favourable: closure. If adverse: Section 148 notice follows.</li>"
          "<li><strong>Writ in High Court</strong>: if Section 148A procedure fundamentally defective, consider writ petition.</li>"
          "</ol>"),
         ("/ Specific issues this season", "What AOs are focused on.",
@@ -280,24 +280,24 @@ write_page("section-148-reassessment-season-november-december-2026", page(
     ],
     faqs=[
         ("Why is November-December reassessment-notice season in India?",
-         "AO's 4-year standard reassessment limitation closes on 31 March for the AY that becomes 4 years old. For AY 2019-20, limitation closes 31 March 2027. AOs issue Section 148A(b) show-cause notices in late Q4 2026 and Q1 2027 to preserve the option to proceed to Section 148 within the window. Same pattern applies to 10-year extended limit for high-value asset-form escaped income cases."),
-        ("What's the response window for Section 148A(b)?",
-         "Typically 7-30 days from receipt of show-cause notice. Specific days specified in notice. Extensions sometimes granted on reasoned request. Critical to respond within window - no response = AO proceeds to Section 148A(d) order with only AO's version considered."),
-        ("Can Section 148A(b) notice be quashed?",
-         "Yes - via writ in High Court if procedure fundamentally defective (no proper 'information', mechanical satisfaction, pre-decided outcome, no genuine opportunity to respond). Several High Court rulings have struck down defective 148A proceedings. For substantive but weak notices, Section 148A(b) response itself can achieve dismissal at 148A(d) stage without High Court involvement."),
+         "Under the limits in force from 1 September 2024, a section 148A show cause notice for AY 2023-24 must be issued by 31 March 2027 (three years from the end of the AY), and for AY 2021-22 by 31 March 2027 where the escaped income is Rs 50 lakh or more (five years). AOs therefore issue notices for these years in the months before March 2027."),
+        ("What's the response window for Section 148A?",
+         "Within the time stated in the show cause notice. An adjournment can be requested with reasons. Critical to respond within window - no response = AO proceeds to order under section 148A(3) with only AO's version considered."),
+        ("Can Section 148A notice be quashed?",
+         "Yes - via writ in High Court if procedure fundamentally defective (no proper 'information', mechanical satisfaction, pre-decided outcome, no genuine opportunity to respond). Several High Court rulings have struck down defective 148A proceedings. For substantive but weak notices, reply to the section 148A show cause notice itself can achieve dismissal at 148A(3) stage without High Court involvement."),
         ("What if the 'escaped income' is actually already disclosed?",
          "This is one of the most common defences. Produce ITR Schedule showing the income reported. Cross-reference with Form 26AS / AIS / TIS. Documentary proof of disclosure in prior year ITR. If AO's SFT data duplicates already-disclosed income, response conclusively establishes no escape."),
         ("What's the penalty if Section 148 reassessment confirms escaped income?",
          "Section 270A: 50% penalty for under-reporting (good faith) OR 200% penalty for misreporting (fraud / wilful concealment). Classification is a key battle in reassessment. Section 270AA voluntary disclosure provision can avoid 200% rate. CIT(A) + ITAT appeal paths available."),
         ("Does BQP handle Section 148 / 148A response urgently?",
-         "Yes - specialised urgent service during November-December reassessment season. Immediate response team: notice review + information analysis + documentary refutation + legal grounds assessment + Section 148A(b) response drafting + e-filing + Section 148A(d) order follow-up + Section 148 reassessment representation if proceeds + CIT(A) appeal if adverse. 7-30 day response windows handled urgently. WhatsApp +91 78018 87130."),
+         "Yes. During the reassessment season: notice review + information analysis + documentary refutation + legal grounds assessment + reply to the section 148A show cause notice drafting + e-filing + order under section 148A(3) follow-up + Section 148 reassessment representation if proceeds + CIT(A) appeal if adverse. Send the notice as soon as it arrives. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("section-148-148a-reassessment-notice-response-india.html", "Guide", "Section 148 / 148A Full Guide"),
         ("best-ca-section-148-reassessment-notice-response.html", "Guide", "Best CA for 148 Response"),
     ],
-    cta_headline="Received Section 148A(b) show-cause notice?",
-    cta_body="7-30 day window. First response often decides the proceeding. BQP urgent response team: notice analysis + refutation + e-filing within window. Scope-based engagement.",
+    cta_headline="Received Section 148A show cause notice?",
+    cta_body="Reply within the time in the notice. The first reply often decides the proceeding. BQP: notice analysis + refutation + e-filing within the window. Scope-based engagement.",
 ))
 
 # 15. Tax audit followups
@@ -353,7 +353,7 @@ write_page("tax-audit-season-november-2026-post-filing-followups", page(
          "<li>UDIN verification against ICAI records.</li>"
          "<li>Form 3CD Clause 22 (43B(h)) + Clause 44 (GST reconciliation) + Clause 34 (TDS) coherence.</li>"
          "<li>Specified financial transaction disclosure (Clause 32) matching Form 61A reports.</li>"
-         "<li>Pending Section 148A(b) notices from November-December 2026 reassessment season - urgent response.</li>"
+         "<li>Pending Section 148A notices from November-December 2026 reassessment season - urgent response.</li>"
          "<li>Advance tax Q3 (15 December) computation based on finalised audited financials.</li>"
          "<li>GSTR-9 FY 2025-26 preparation (due 31 December 2026).</li>"
          "<li><em>Last updated: 2026-10-22.</em></p>"),

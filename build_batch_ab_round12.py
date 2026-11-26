@@ -644,9 +644,9 @@ PAGES = [
     },
     {
         "slug": "advance-tax-q3-december-15-shortfall-234c-interest-urgent-india",
-        "title": "Advance Tax Q3 December 15 Shortfall 234C Interest Urgent India",
+        "title": "Advance Tax Due 15 December 2026 (Third Instalment): 75% Rule, Interest Under Section 425 (Old 234C) and What to Pay Now",
         "hero_em": "late-pay by 15 December + Section 234C minimisation.",
-        "lead": "Advance tax Q3 deadline is 15 December 2026 (75% cumulative requirement for FY 2026-27). Shortfall triggers Section 234C 1% per month interest for 3 months on the shortfall amount. For materially large shortfalls (INR 10 lakh+), interest cost is INR 30,000+. Last-minute computation + Challan + Challan Identification Number tracking critical. Here's the urgent playbook.",
+        "lead": "Advance tax Q3 deadline is 15 December 2026 (75% cumulative requirement for FY 2026-27). A shortfall attracts interest under section 425 of the Income-tax Act, 2025 (old section 234C) - 1% a month for three months on the shortfall. For materially large shortfalls (INR 10 lakh+), interest cost is INR 30,000+. Last-minute computation + Challan + Challan Identification Number tracking critical. Here's the urgent playbook.",
         "kicker": "/ Q3 Advance Tax Urgent &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why 15 December matters", "The Section 234C math.",
@@ -655,8 +655,8 @@ PAGES = [
              "<li>Shortfall: Section 234C 1% per month simple interest for 3 months.</li>"
              "<li>Example: INR 20 lakh shortfall → INR 60,000 interest cost (3 months × 1%).</li>"
              "<li>Larger shortfalls (INR 1 crore+): INR 3 lakh+ interest - materially significant.</li>"
-             "<li>Also: Section 234B 1% per month from April 1 to date of regular assessment if full-year less than 90%.</li>"
-             "<li>Combined 234B + 234C: can be 3-5% effective annual interest on shortfall.</li>"
+             "<li>Also: section 424 (old 234B) - 1% a month from 1 April until the tax is paid or assessed, if advance tax paid is less than 90% of the tax due.</li>"
+             "<li>Both can apply together: the deferment interest under section 425 and, if less than 90% is paid by 31 March, the shortfall interest under section 424.</li>"
              "</ul>"),
             ("/ Last-minute Q3 computation", "Fast workflow.",
              "<ol>"
@@ -684,12 +684,12 @@ PAGES = [
              "<ul>"
              "<li>Unanticipated capital gains: Section 234C has specific relief if gain arose AFTER Q3 due date (15 December) + paid in subsequent instalment (Q4 15 March).</li>"
              "<li>Dividend income: specific relief where dividend declared after advance tax due date.</li>"
-             "<li>Section 44AD / 44ADA presumptive scheme: single advance tax instalment by 15 March of FY (no Q1/Q2/Q3 obligation).</li>"
+             "<li>Presumptive scheme (old sections 44AD / 44ADA): the whole advance tax is paid in one instalment by 15 March (no June, September or December instalment).</li>"
              "<li>Senior citizens without business income: exempt from advance tax if income only from pension / interest / rent.</li>"
              "</ul>"),
-            ("/ BQP urgent Q3 advance tax engagement", "What we deliver.",
+            ("/ BQP Q3 advance tax engagement", "What we deliver.",
              "<ul>"
-             "<li>Immediate 24-48 hour engagement + full-year income estimation.</li>"
+             "<li>Full-year income estimation.</li>"
              "<li>Specific-section tax computation (115BBH VDA, 112A LTCG, 111A STCG, 115BAA companies).</li>"
              "<li>TDS reconciliation + Form 26AS + AIS/TIS review.</li>"
              "<li>Q3 cumulative + payment-due computation.</li>"
@@ -705,18 +705,19 @@ PAGES = [
             ("What's the Q3 advance tax deadline for FY 2026-27?",
              "15 December 2026. Cumulative requirement: 75% of estimated full-year tax by this date. Q1 (15 June): 15%. Q2 (15 September): 45% cumulative. Q3 (15 December): 75% cumulative. Q4 (15 March 2027): 100%."),
             ("What's Section 234C interest for Q3 shortfall?",
-             "1% per month simple interest for 3 months on the shortfall between 75% cumulative requirement and amount actually paid by 15 December. For INR 10 lakh shortfall: INR 30,000 interest. For INR 1 crore shortfall: INR 3 lakh interest."),
+             "For tax year 2026-27 this is section 425 of the Income-tax Act, 2025 (old section 234C): 3% of the shortfall (1% a month for three months) between the 75% cumulative requirement and the amount actually paid by 15 December. For an INR 10 lakh shortfall: INR 30,000 interest. For an INR 1 crore shortfall: INR 3 lakh interest."),
             ("Can I claim Section 234C relief for unanticipated capital gain?",
              "Yes - if capital gain arose on or after 15 December (Q3 due date) + tax on it paid in Q4 (15 March): Section 234C relief applies. If gain was realised BEFORE 15 December + not included in Q3 payment: no relief + 234C interest applies."),
             ("Does Section 44AD/44ADA presumptive scheme have different advance tax?",
-             "Yes - single advance tax instalment by 15 March of FY (not 4 quarterly instalments). Simpler compliance + no 234C risk during Q1/Q2/Q3. Opt-in via ITR specific declaration + 5-year lock-in once opted."),
+             "Yes. A small business or professional taxed under the presumptive scheme (old sections 44AD / 44ADA) pays the whole advance tax in one instalment by 15 March, so there is no December instalment. There is no separate opt-in for this. A business that leaves the presumptive scheme after using it can be barred from returning to it for five years."),
             ("Does BQP handle urgent Q3 advance tax computation + Challan?",
-             "Yes - standard engagement. 24-48 hour turnaround during December advance tax window. Full-year income estimation + specific-section tax + TDS reconciliation + Q3 computation + Challan preparation + CIN tracking + Form 26AS reconciliation + Section 234B/C interest minimisation. WhatsApp +91 78018 87130."),
+             "Yes. Full-year income estimation + specific-section tax + TDS reconciliation + Q3 computation + Challan preparation + CIN tracking + Form 26AS reconciliation + Section 234B/C interest minimisation. WhatsApp +91 78018 87130."),
+        ("What should I send to work out my 15 December advance tax?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: your salary, business or professional income from 1 April to date and your estimate to 31 March, any shares, mutual funds, property or crypto sold this year (with dates and amounts), interest and dividend income, Form 26AS / AIS showing TDS and TCS so far, and challans for advance tax paid in June and September. We compute the 75% cumulative amount due by 15 December, the interest if anything was short earlier, and prepare the challan details for payment on the e-filing portal."),
         ],
         "related_pairs": [("advance-tax-q3-december-15-2026-india.html", "Related", "Q3 Advance Tax Full Guide"),
                           ("new-vs-old-tax-regime-calculator.html", "Related", "New vs Old Regime Calculator")],
         "cta_h": "Q3 advance tax deadline 15 December approaching?",
-        "cta_b": "75% cumulative + Challan + CIN + 234C minimisation. BQP urgent 24-48 hour engagement. WhatsApp +91 78018 87130.",
+        "cta_b": "75% cumulative + challan + CIN + interest minimisation. WhatsApp +91 78018 87130 with your income so far this year, expected income to 31 March, TDS already deducted (Form 26AS / AIS) and advance tax paid in June and September.",
         "keywords": "advance tax Q3 December 15 shortfall 234C interest urgent India CA, 75% advance tax Section 234C CA, Q3 advance tax 2026 shortfall urgent CA",
         "desc": "Advance tax Q3 December 15 shortfall + Section 234C interest urgent India: 15 December 2026 cumulative 75% requirement, Section 234C 1% per month for 3 months on shortfall, last-minute computation (specific-section tax including Section 115BBH VDA + 112A LTCG + 111A STCG + 115BAA companies), TDS reconciliation, Challan ITNS 280 Code 100, CIN tracking, specific Section 234C relief for unanticipated capital gain. CA Durgesh Chavda urgent engagement.",
     },

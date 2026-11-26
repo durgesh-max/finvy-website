@@ -342,7 +342,7 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
         ("Can I claim missed ITC via GSTR-9?",
          "No. GSTR-9 is summary / reconciliation statement - does not allow fresh ITC claim. Missed ITC must be claimed in GSTR-3B by earlier of (a) due date of September's 3B of next FY (so for FY 2025-26 missed ITC: due date of October 2025 3B), or (b) date of filing GSTR-9 for the FY. Beyond: time-barred under Section 16(4)."),
         ("What triggers ASMT-10 after GSTR-9 filing?",
-         "GST-9 vs GST-9 reconciliation discrepancies, ITC claim exceeding 2B available by material amount, Section 17(5) blocked ITC not properly reversed, GSTR-9C reconciliation gaps unexplained, HSN summary significant mismatch with trade pattern. ASMT-10 is notice of discrepancy under Section 61 - response window typically 15-30 days."),
+         "GST-9 vs GST-9 reconciliation discrepancies, ITC claim exceeding 2B available by material amount, Section 17(5) blocked ITC not properly reversed, GSTR-9C reconciliation gaps unexplained, HSN summary significant mismatch with trade pattern. ASMT-10 is a notice of discrepancy under Section 61; the reply in ASMT-11 is due within 30 days (rule 99) or any further period the officer allows."),
         ("Does BQP handle GSTR-9 + GSTR-9C filing?",
          "Yes - full year-end reconciliation + filing. GSTR-1 vs 3B, 3B vs 2B, books vs GST, Section 17(5) analysis, Section 16(4) time-barred review, HSN summary preparation, GSTR-9 Table-by-Table preparation, GSTR-9C Part-by-Part preparation. For companies with turnover INR 2 crore+. Scope-based engagement; priority turnaround through December 2026. WhatsApp +91 78018 87130."),
     ],

@@ -809,13 +809,13 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
          "<li>&nbsp;&nbsp;a. Pay <strong>INR 1,000 Section 234H fee</strong> via Challan 280 on tds.tin.nsdl.com. Select 'Fee for Linking Aadhaar with PAN' as the type.</li>"
          "<li>&nbsp;&nbsp;b. Wait 24-48 hours for payment to reflect in the e-filing portal.</li>"
          "<li>&nbsp;&nbsp;c. Submit the Link Aadhaar request on the portal with the Challan reference.</li>"
-         "<li>&nbsp;&nbsp;d. PAN becomes operative within 7-30 days typically (sometimes faster).</li>"
+         "<li>&nbsp;&nbsp;d. Under CBDT Circular 3/2023, the PAN can be made operative within 30 days of intimating Aadhaar after the fee is paid (CBDT Circular 3/2023).</li>"
          "<li><strong>If name mismatch</strong>: either correct name on PAN (via NSDL / UTI PAN services) or correct name on Aadhaar (UIDAI update process). Smaller mismatches (minor spelling) often auto-resolve during linking.</li>"
          "<li><strong>If date of birth mismatch</strong>: more serious. Must correct one of the two (usually easier to correct Aadhaar) before linking.</li>"
          "</ol>"),
         ("/ Common linking failures and fixes", "Troubleshooting.",
          "<ul>"
-         "<li><strong>Error: Name mismatch</strong> &mdash; Aadhaar name is 'Mr Durgesh Chavda' but PAN name is 'Durgesh K. Chavda'. Fix: update PAN name via NSDL / UTI PAN application (processing 15-30 days).</li>"
+         "<li><strong>Error: Name mismatch</strong> &mdash; Aadhaar name is 'Mr Durgesh Chavda' but PAN name is 'Durgesh K. Chavda'. Fix: update PAN name via a Protean (NSDL) / UTIITSL PAN correction application.</li>"
          "<li><strong>Error: DOB mismatch</strong> &mdash; different birth dates on PAN and Aadhaar. Fix: typically easier to correct Aadhaar (UIDAI online or at Aadhaar Seva Kendra).</li>"
          "<li><strong>Error: Aadhaar not generated</strong> &mdash; Aadhaar enrolment ID exists but final Aadhaar number not generated. Fix: check UIDAI status; may need to re-enrol.</li>"
          "<li><strong>Error: PAN already linked with different Aadhaar</strong> &mdash; indicates fraud or data entry error. Raise grievance on incometax.gov.in.</li>"
@@ -830,7 +830,7 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
         ("How do I check PAN Aadhaar link status by mobile SMS?", "Send an SMS in the format UIDPAN <12-digit Aadhaar number> <10-digit PAN> to 567678 or 56161 from your registered mobile number, for example UIDPAN 111122223333 AAAPA9999Q. The reply tells you whether the two are linked. You can also use the Link Aadhaar Status option on the income tax e-filing portal without logging in."),
         ("What was the last date for PAN Aadhaar linking?", "The general deadline was 30 June 2023; PANs not linked by then became inoperative and can be made operative again by paying the Rs 1,000 fee and completing the link. PANs allotted on the basis of an Aadhaar enrolment ID up to 1 October 2024 had until 31 December 2025 to link. If your PAN is still unlinked, link it now on the e-filing portal."),
         ("What is the fee to reactivate inoperative PAN?",
-         "INR 1,000 under Section 234H via Challan 280 (type: 'Fee for Linking Aadhaar with PAN'). Payment reflected in e-filing portal within 24-48 hours. After submission with Challan reference, PAN becomes operative within 7-30 days typically."),
+         "INR 1,000 under Section 234H via Challan 280 (type: 'Fee for Linking Aadhaar with PAN'). Submit the linking request once the payment shows on the e-filing portal; the PAN can be made operative within 30 days of intimating Aadhaar after the fee is paid (CBDT Circular 3/2023)."),
         ("Who is exempt from PAN-Aadhaar linking?",
          "Non-Resident Indians (NRI), non-citizens of India, residents of Assam / Jammu and Kashmir / Meghalaya, and super senior citizens (above 80 years of age). If you fall in any of these categories, update your e-filing portal profile to reflect exemption - no linking required."),
         ("What are the consequences of inoperative PAN?",
@@ -838,13 +838,14 @@ write_page("pan-aadhaar-linking-status-fix-india-2026", page(
         ("Can I file ITR with inoperative PAN?",
          "Yes. The Income Tax Department has clarified that a return can be filed even if the PAN is inoperative, but refunds (and interest on them) are withheld until the PAN is made operative. Reactivate PAN first (INR 1,000 Section 234H fee + link completion), then file ITR."),
         ("What if name on PAN and Aadhaar don't match?",
-         "Minor spelling mismatches often auto-resolve during linking. Material mismatches require correction. Updating PAN name (via NSDL / UTI PAN application) takes 15-30 days. Updating Aadhaar name (UIDAI online or Aadhaar Seva Kendra) is typically faster. Easier to correct Aadhaar in most cases."),
+         "Minor spelling mismatches often auto-resolve during linking. Material mismatches require correction. The PAN name is updated through a Protean (NSDL) / UTIITSL correction application; the Aadhaar name through UIDAI online or an Aadhaar Seva Kendra. Easier to correct Aadhaar in most cases."),
+        ("What should I send to fix an inoperative PAN?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with: a screenshot of the PAN status from the e-filing portal (Link Aadhaar Status or Verify Your PAN), the Challan 280 receipt if the INR 1,000 fee is already paid, the name and date of birth exactly as they appear on your PAN and Aadhaar, and, if you live abroad, your passport pages showing stays outside India. We check whether you need to link at all (NRIs and some others are exempt), fix any name or date mismatch, and follow up on held refunds and higher TDS."),
     ],
     related=[
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Blog", "ITR AY 2026-27"),
         ("form-26as-vs-ais-vs-tis-india-2026.html", "Blog", "Form 26AS vs AIS vs TIS"),
     ],
-    cta_headline="PAN marked inoperative? Reactivation is INR 1,000 + 7-30 days.",
+    cta_headline="PAN marked inoperative? Reactivation needs the INR 1,000 fee and Aadhaar linking; the PAN can then be made operative within 30 days.",
     cta_body="Working-CA engagement if your PAN is inoperative and you have pending refund / blocked transactions. Fee payment, linking submission, grievance resolution if linking fails. Routine but time-sensitive if refund is held up.",
 ))
 

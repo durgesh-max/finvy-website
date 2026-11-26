@@ -292,7 +292,7 @@ PAGES = [
     },
     {
         "slug": "how-to-fix-pan-aadhaar-link-nri-oci-status-update-india",
-        "title": "How to Fix PAN-Aadhaar Link + NRI/OCI Status Update India",
+        "title": "NRI PAN Status Update (2026): How to Change Your PAN to NRI or OCI Status, Check It Online and Fix an Inoperative PAN",
         "hero_em": "deactivated PAN remediation.",
         "lead": "NRI/OCI often finds their PAN marked 'inoperative' due to PAN-Aadhaar linking issue - despite NRIs being EXEMPT per CBDT Notification 37/2017. Common cause: PAN database shows holder as 'resident' from original Form 49A issuance when they were in India. Fix: update PAN status to NRI via Form 49AA + supporting documents. Here's the complete step-by-step remediation framework.",
         "kicker": "/ PAN Status Fix &middot; Updated 2026-10-23",
@@ -345,6 +345,8 @@ PAGES = [
              "PAN database still shows you as 'resident' from original Form 49A issuance. Section 139AA applies based on database status. CBDT Notification 37/2017 exemption needs correct NRI flag in database. Fix: Form 49AA update to NRI status."),
             ("How long does PAN NRI status update take?",
              "Processing time varies and is not fixed by any rule. A complete application with clear proof of non-resident status avoids back-and-forth; keep the acknowledgement number and follow up with the Jurisdictional AO if the status does not change."),
+        ("Is there a last date to update my PAN status to NRI?", "No deadline is fixed for changing a PAN's residential status. The cost of waiting is practical: while the PAN wrongly shows you as a resident without an Aadhaar link it can become inoperative, so refunds are held, no refund interest is paid for that period and tax is deducted at the higher rate. Update it as soon as you become non-resident, and before a property sale, a large NRO withdrawal or filing a return claiming a refund."),
+        ("How do I check my PAN status online as an NRI?", "Use Verify Your PAN on the income tax e-filing portal: it shows whether the PAN is active or inoperative. If it is inoperative even though you are non-resident, the residential status in the PAN records needs correcting through a PAN change request or the jurisdictional assessing officer. Keep the acknowledgement and check again after the update is processed."),
             ("What happens if PAN remains inoperative?",
              "Under CBDT Circular 3/2023, while a PAN is inoperative: refunds are not issued, no interest is paid on refunds for that period, and tax is deducted or collected at the higher rate (under section 206AA / 206CC, at least 20% or the normal rate if higher), so treaty rates are lost in practice. The return can still be filed. Banks, brokers and mutual funds may also flag the account at KYC refresh. Updating the PAN to non-resident status restores normal treatment going forward."),
         ("Can an NRI get an Aadhaar card?", "Yes. An NRI with a valid Indian passport can enrol at any Aadhaar enrolment centre in India on any visit; the 182-day stay rule that applies to residents does not apply to NRIs. Aadhaar is optional for NRIs, and an NRI does not need it to keep a PAN operative if the PAN records show non-resident status."),

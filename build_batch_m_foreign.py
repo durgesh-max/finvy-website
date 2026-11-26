@@ -236,7 +236,7 @@ write_page("form-15ca-15cb-foreign-remittance-india", page(
          "</ul>"),
         ("/ Common 15CA / 15CB mistakes", "What foreign payees should push back on.",
          "<ul>"
-         "<li><strong>Payer withholding at 20% ignoring treaty</strong>: when TRC + Form 10F are available, treaty rate (usually 10-15%) applies. Over-withholding delays payee's refund / clog in Indian tax system.</li>"
+         "<li><strong>Payer withholding at 20% ignoring treaty</strong>: when TRC + Form 10F are available, the treaty rate for that income and country applies. Over-withholding delays payee's refund / clog in Indian tax system.</li>"
          "<li><strong>Payer claiming 'reimbursement' without substance</strong>: reimbursement must be bare cost, no mark-up, documented back-to-back. Else chargeable as business income / FTS.</li>"
          "<li><strong>Missing Form 10F</strong>: post Oct 2023, electronic Form 10F mandatory. Even non-residents without Indian PAN must obtain India e-filing PAN temporarily to file Form 10F. CBDT clarifications ongoing.</li>"
          "<li><strong>Service classification errors</strong>: payer calls it 'consultancy' (FTS 10% treaty), CA re-classifies as 'business income' (nil if no PE). Taxability can shift by INR 10 lakh+ on INR 1 crore remittance.</li>"

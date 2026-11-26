@@ -440,7 +440,7 @@ PAGES = [
         "deep_link_label": "FEMA Compounding Guide",
         "who_question": "Which Indian CA firm handles FEMA compounding applications end-to-end?",
         "why_bqp_bullets": [
-            "FEMA compounding specialist practice - complete audit + application + hearing representation + closure",
+            "FEMA compounding work - compliance review + application + hearing + closure",
             "Prevents significant penalty exposure by catching breaches before RBI inspection",
             "Multi-breach consolidated application strategy for cost optimisation",
             "Required for pre-IPO / pre-M&A FEMA clean-up to avoid blocked transactions",
@@ -449,7 +449,7 @@ PAGES = [
             "Comprehensive FEMA compliance history audit (5+ year lookback)",
             "Breach identification + severity assessment + chronology drafting",
             "Supporting document collection (FIRC, bank statements, board resolutions, share certificates)",
-            "Compounding application drafting under Section 13 FEMA Act",
+            "Compounding application under section 15 of FEMA and the Foreign Exchange (Compounding Proceedings) Rules, 2024",
             "Submission via AD-I category bank to RBI Compounding Authority",
             "Hearing representation (physical or video) with CA partner attendance",
             "Compounding order compliance + fee payment coordination (RTGS)",

@@ -175,7 +175,7 @@ PAGES = [
         "slug": "fema-breach-found-pre-ma-diligence-urgent-compounding-india",
         "title": "FEMA Breach in Pre-M&A Diligence? Urgent Compounding India",
         "hero_em": "clean-up before buyer walks.",
-        "lead": "Buyer's due diligence found FEMA breaches - missed FC-GPR / FC-TRS / FLA / APR filings. Deal pauses until compliance clean + specific indemnity structuring. Voluntary compounding under Section 13 FEMA Act is the fastest fix: 90-180 days + fee + closure certificate. Prevents deal collapse. BQP urgent engagement.",
+        "lead": "Buyer's due diligence found FEMA breaches - missed FC-GPR / FC-TRS / FLA / APR filings. Deal pauses until compliance clean + specific indemnity structuring. Voluntary compounding under section 15 of FEMA is the usual fix: the RBI aims to decide within 180 days of a complete application, followed by the fee and the compounding order. Prevents deal collapse. BQP urgent engagement.",
         "kicker": "/ FEMA Pre-M&A Clean-up &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ Why FEMA breaches surface in due diligence", "The common finds.",
@@ -197,7 +197,7 @@ PAGES = [
              "<li>Deal timeline impact: 30-180 day delay typical.</li>"
              "<li>Specific worst case: buyer walks away.</li>"
              "<li>Alternative resolutions:</li>"
-             "<li>&nbsp;&nbsp;&mdash; Voluntary compounding under Section 13 FEMA (90-180 days).</li>"
+             "<li>&nbsp;&nbsp;&mdash; Voluntary compounding under section 15 of FEMA (up to 180 days).</li>"
              "<li>&nbsp;&nbsp;&mdash; Specific indemnity structure with escrow.</li>"
              "<li>&nbsp;&nbsp;&mdash; Buyer accepts specific FEMA risk with price adjustment.</li>"
              "</ul>"),
@@ -206,7 +206,7 @@ PAGES = [
              "<li>Comprehensive FEMA compliance history audit (5-year lookback typical).</li>"
              "<li>Breach identification + severity assessment + chronology drafting.</li>"
              "<li>Supporting document collection (FIRC, bank statements, board resolutions, share certificates).</li>"
-             "<li>Compounding application drafting under Section 13 FEMA Act.</li>"
+             "<li>Compounding application under section 15 of FEMA and the Foreign Exchange (Compounding Proceedings) Rules, 2024.</li>"
              "<li>Submission via AD-I category bank to RBI Compounding Authority.</li>"
              "<li>Hearing representation (physical or video) with CA partner attendance.</li>"
              "<li>Compounding order within 180 days: specifies fee + payment deadline.</li>"
@@ -240,11 +240,11 @@ PAGES = [
         ],
         "faqs": [
             ("How urgent is FEMA compounding pre-M&A?",
-             "Deal can pause 30-180 days until resolution. Buyer counsel typically demands specific compliance clean-up or specific indemnity/escrow structuring. Voluntary compounding (90-180 days) is fastest path to resolution. Alternative indemnity structuring may be acceptable in some cases but less clean."),
+             "Deal can pause 30-180 days until resolution. Buyer counsel typically demands specific compliance clean-up or specific indemnity/escrow structuring. Voluntary compounding (up to 180 days) is fastest path to resolution. Alternative indemnity structuring may be acceptable in some cases but less clean."),
             ("What's typical FEMA compounding fee?",
              "FC-GPR/FC-TRS late (minor): INR 10K-50K per instance. FLA/APR missed: INR 10K-50K per year. Pricing guideline breach: higher - up to multiples of variance. Sector cap/Press Note 3: significant - 100%+ of amount involved. Typical foreign-subsidiary cleanup: INR 50K-10 lakh total. Materially cheaper than RBI inspection."),
             ("Can compounding be done urgently in less than 90 days?",
-             "Standard timeline is 90-180 days (RBI's typical processing). Specific urgency can be flagged in application but RBI doesn't offer fast-track. Alternative: specific indemnity structuring with buyer may bypass compounding + close transaction. Compounding completed post-closing as condition precedent."),
+             "The RBI aims to decide within 180 days of a complete application. Specific urgency can be flagged in application but RBI doesn't offer fast-track. Alternative: specific indemnity structuring with buyer may bypass compounding + close transaction. Compounding completed post-closing as condition precedent."),
             ("What if buyer walks away due to FEMA breaches?",
              "Risk reduces by: (a) proactive compounding before deal talks, (b) complete compliance history + specific indemnity + escrow structure, (c) specific buyer counsel coordination. BQP engagement includes buyer counsel liaison + deal timing coordination. Specific pre-M&A audit by seller before marketing to buyers often avoids this scenario."),
             ("Does BQP handle urgent pre-M&A FEMA compounding?",
@@ -253,9 +253,9 @@ PAGES = [
         "related_pairs": [("fema-compounding-foreign-subsidiary-india.html", "Related", "FEMA Compounding Full Guide"),
                           ("best-ca-fema-compounding-voluntary-india.html", "Related", "Best CA for FEMA Compounding")],
         "cta_h": "FEMA breaches found in buyer DD?",
-        "cta_b": "Deal pausing. Voluntary compounding 90-180 days + buyer counsel coordination. BQP urgent engagement. WhatsApp +91 78018 87130 for same-day response.",
+        "cta_b": "Deal pausing. Voluntary compounding up to 180 days + buyer counsel coordination. BQP urgent engagement. WhatsApp +91 78018 87130 for same-day response.",
         "keywords": "FEMA breach pre M&A diligence urgent compounding India CA, FEMA Section 13 compounding urgent pre deal CA, FC-GPR FC-TRS FLA missed urgent CA India",
-        "desc": "FEMA breach found in pre-M&A buyer due diligence urgent compounding India: common breaches (FC-GPR, FC-TRS, FLA, APR, pricing guidelines, Press Note 3, sector cap, ECB), impact on deal (30-180 day pause, buyer indemnity/escrow demands), voluntary compounding Section 13 workflow (90-180 days + fee + closure certificate), buyer counsel coordination. CA Durgesh Chavda specialist pre-M&A FEMA practice.",
+        "desc": "FEMA breach found in pre-M&A buyer due diligence urgent compounding India: common breaches (FC-GPR, FC-TRS, FLA, APR, pricing guidelines, Press Note 3, sector cap, ECB), impact on deal (30-180 day pause, buyer indemnity/escrow demands), voluntary compounding under section 15 (decision within 180 days of a complete application, then the fee and order), buyer counsel coordination. CA Durgesh Chavda specialist pre-M&A FEMA practice.",
     },
     {
         "slug": "rule-9b-demat-missed-fundraising-blocked-urgent-india",

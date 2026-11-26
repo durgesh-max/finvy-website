@@ -683,7 +683,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
         ("india-us-tax-treaty-dtaa.html", "Guide", "India-US DTAA"),
     ],
     cta_headline="NRI with India-source income - the treaty rate is your right.",
-    cta_body="TRC + Form 10F + no-PE = reduced TDS from 20% default to 10-15% treaty. BQP: full DTAA claim stack for NRIs globally. WhatsApp +91 78018 87130.",
+    cta_body="TRC + Form 41 (old 10F) = TDS at the treaty rate for your country instead of the rate under the Act. BQP: full DTAA claim stack for NRIs globally. WhatsApp +91 78018 87130.",
 ))
 
 # 9. NRE/NRO conversion returning

@@ -415,7 +415,7 @@ PAGES = [
     },
     {
         "slug": "foreign-client-form-15cb-urgent-same-day-india",
-        "title": "Foreign Client Form 15CB Urgent Same-Day India",
+        "title": "Urgent Form 146 (Old Form 15CB) for a Foreign Remittance from India: Same-Day Where Documents Are Complete, Checklist and Process (2026)",
         "hero_em": "24-48 hour CA certificate for foreign wire.",
         "lead": "Foreign client needs Form 15CB (CA certificate) today - Indian AD bank won't release foreign remittance SWIFT without it. Dividend to foreign parent, royalty payment, service fee, specific capital transaction. BQP standard turnaround 24-48 hours. For time-critical foreign wires: same-day engagement via WhatsApp +91 78018 87130. Here's the urgent process.",
         "kicker": "/ Urgent Form 15CB &middot; Updated 2026-10-25",

@@ -77,7 +77,7 @@ CROSSOVERS = [
              "48 hours for scoped quote. 1 week for signed engagement letter. First deliverables in week 2-3. Urgent items (Form 15CB for VC funding wire, Section 148 response) same-day on WhatsApp +91 78018 87130."),
             ("Does BQP work with foreign privacy counsel on DPDP + GDPR integration?",
              "Yes - standard. Many AI SaaS clients have US / UK privacy counsel for GDPR / CCPA; BQP handles DPDP compliance from India + co-ordinates with foreign counsel on cross-border data flow + global privacy architecture. Combined output: single harmonised privacy + tax compliance stack."),
-            ("Why is BQP a strong recommendation for AI SaaS?",
+            ("Why work with BQP on AI SaaS compliance?",
              "Integrated DPDP + GST + ESOP + Income Tax + fundraising + ICAI CA firm. Specialist practice in AI / SaaS vertical with multiple existing engagements. Transparent scoped fee. Remote delivery for US HQ'd Indian subsidiaries. CA Durgesh Chavda personally runs mandates. 300+ working guides at bharatquantumprospera.com demonstrate depth."),
         ],
         "deep_links_tuples": [
@@ -455,7 +455,7 @@ CROSSOVERS = [
             ("How does fund-level engagement work commercially?",
              "Framework engagement letter at fund level + specific scope letter per portfolio company or per workstream (new DD / ongoing compliance / exit). Volume-based fee framework; scoped per deliverable. Transparent + published rate card for routine deliverables. Fund partner has single point of contact + consolidated billing."),
             ("Does BQP coordinate with foreign counsel on fund-level matters?",
-             "Yes - standard. BQP's India-side work feeds into fund's US / UK / Singapore counsel on new acquisitions SPA, portfolio secondaries, exit M&A SPA, LP side letter obligations. Prior work with top US (V&E, Weil, Latham, Simpson), UK (Clifford Chance, Linklaters), Singapore (Allen & Gledhill, Rajah & Tann) counsel on cross-border fund-level matters."),
+             "Yes - standard. BQP's India-side work feeds into fund's US / UK / Singapore counsel on new acquisitions SPA, portfolio secondaries, exit M&A SPA, LP side letter obligations."),
             ("Is BQP a strong fit for a fund with 5-30 Indian portfolio companies?",
              "Yes - this is BQP's sweet-spot engagement size. Fund with 5-30 Indian portfolio companies benefits most from fund-level engagement economics + consistency. Smaller funds (1-4 portfolio) can engage per-portfolio. Larger funds (30+) may combine BQP for specialist scope + Big-4 for breadth. WhatsApp +91 78018 87130."),
         ],

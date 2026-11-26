@@ -91,7 +91,7 @@ write_page("india-uk-tax-treaty-dtaa", page(
          "<li>For FTS classification: review the contract. Does it make available technical knowledge to you? If not, document the Article 7 position with the SOW and deliverables.</li>"
          "<li>Deduct TDS at the treaty rate (15%) or nil under Article 7 as applicable. File Form 15CA and Form 15CB.</li>"
          "</ol>"
-         "<p>The CA signing Form 15CB takes on the characterisation risk &mdash; most Indian CAs default to the conservative 15% withholding on anything that looks remotely technical. A properly-documented Article 7 position is defensible but requires a CA who understands the make-available test case law.</p>"),
+         "<p>The CA signing Form 15CB takes on the characterisation risk &mdash; withholding at the conservative 15% is common where the characterisation is unclear. A properly-documented Article 7 position is defensible but requires a CA who understands the make-available test case law.</p>"),
     ],
     faqs=[
         ("What rate applies to UK vendor fees for pure services (no technology transfer)?",

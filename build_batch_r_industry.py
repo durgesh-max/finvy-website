@@ -71,7 +71,7 @@ def industry_page(slug, industry, industry_hero, specific_issues, specific_servi
             (f"What's BQP's engagement model + fee structure for {industry.lower()}?",
              "Scoped engagement letter with fixed scope + fixed fee (or defined retainer for ongoing work). No hourly billing surprises. Fee set at scoping call stage based on actual work involved. Transparent + published scope."),
             ("Does BQP coordinate with foreign counsel + Big-4 group auditors?",
-             f"Yes - standard. BQP's work-product feeds into foreign counsel's SPA / term sheet / closing documentation. Co-ordinates with Big-4 group auditors on consolidation, IFRS reconciliation, Pillar 2, cross-firm M&A workstreams. Prior work with top US / UK / Singapore / UAE counsel + Big-4 on cross-border {industry.lower()} mandates."),
+             f"Yes - standard. BQP's work-product feeds into foreign counsel's SPA / term sheet / closing documentation. Co-ordinates with Big-4 group auditors on consolidation, IFRS reconciliation, Pillar 2, cross-firm M&A workstreams."),
             (f"How is BQP different from a general-purpose CA for {industry.lower()}?",
              f"Three concrete differences: (1) Deep practitioner specialisation in sector-specific tax + compliance issues of {industry.lower()}. (2) Integrated CA + CS + tax + legal + strategy under one firm vs multi-firm coordination overhead. (3) Transparent scope-based fee model + 48-hour quote + remote delivery. 300+ working guides at bharatquantumprospera.com demonstrate practitioner depth transparently."),
         ],

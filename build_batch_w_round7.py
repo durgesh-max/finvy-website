@@ -602,7 +602,7 @@ PAGES.append({
         ("What's BQP's typical fee structure?",
          "Scoped engagement letter with fixed scope + fixed fee (or clearly-defined retainer for ongoing work). No hourly billing surprises. Fee set at scoping call stage based on actual work involved + timeline + deliverables. Transparent + no hidden costs."),
         ("Does BQP coordinate with my US CPA / UK accountant / global advisor?",
-         "Yes - standard. BQP handles India-side (Indian ITR + FEMA + TP + audit) + co-ordinates with your foreign counterpart. Shared workspace + weekly cross-firm status call + document version control + aligned deliverables. Prior work with Big-4 global network + US / UK / Singapore top-tier CPA / law firms."),
+         "Yes - standard. BQP handles India-side (Indian ITR + FEMA + TP + audit) + co-ordinates with your foreign counterpart. Shared workspace + weekly cross-firm status call + document version control + aligned deliverables."),
         ("What if I need urgent India work (Form 15CB in 24 hours)?",
          "WhatsApp +91 78018 87130 for same-day urgent response. Form 15CB CA certificate standard turnaround 24-48 hours. Section 148A show-cause response, FEMA deadline, assessment representation - urgent engagement model standard. CA Durgesh Chavda personally handles urgent matters."),
         ("What's BQP's track record with foreign clients?",

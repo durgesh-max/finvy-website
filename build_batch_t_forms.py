@@ -25,7 +25,7 @@ PAGES = []
 # 1. Form FC-GPR
 PAGES.append({
     "slug": "form-fc-gpr-filing-checklist-india-2026",
-    "title": "Form FC-GPR Filing (2026): Due Date (30 Days From Allotment), Procedure on the RBI FIRMS Portal, Documents, Late Submission Fee and Checklist - BQP",
+    "title": "Form FC-GPR Filing (2026): Within How Many Days? Due Date 30 Days From Allotment, Procedure on the RBI FIRMS Portal, Documents, Late Submission Fee and Checklist - BQP",
     "hero_em": "30-day deadline + checklist.",
     "lead": "Form FC-GPR (the FEMA return on issue of shares to a person resident outside India) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA compounding (section 15). Here's the complete 2026 filing checklist.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
@@ -72,8 +72,8 @@ PAGES.append({
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     "faqs": [
-        ("When is Form FC-GPR due?",
-         "Within 30 days of share allotment to foreign subscriber. Allotment itself must be made within 60 days of receiving the money (FEMA Non-Debt Instrument Rules, and section 42(6) of the Companies Act for private placements), failing which the money must be refunded. So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR."),
+        ("FC-GPR has to be filed within how many days?",
+         "Within 30 days of share allotment to foreign subscriber. Allotment itself must be made within 60 days of receiving the money (FEMA Non-Debt Instrument Rules, and section 42(6) of the Companies Act for private placements), failing which the money must be refunded. So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR at the outside. If shares are not allotted within 60 days, the money has to be refunded within 15 days after that. Before filing, the AD bank needs the FIRC and the KYC of the foreign investor for each remittance. A late FC-GPR is regularised with the late submission fee if filed within three years of the due date."),
         ("How do I file FC-GPR online on the RBI FIRMS portal?", "FC-GPR is filed in the Single Master Form on the RBI's FIRMS portal. The company first needs an Entity User (approved by the RBI) to complete the Entity Master, and then a Business User approved through its AD bank - only a Business User can file forms. The Business User fills FC-GPR with the allotment details and uploads the board resolution for the allotment, the valuation certificate, the KYC of the foreign investor and proof of the inward remittance from the AD bank, along with the declarations the form asks for. The AD bank checks the form and forwards it to the RBI; reply to any query it raises within the time given."),
         ("Is there a fee to file FC-GPR?", "No fee is charged for filing FC-GPR on time. If it is filed late, the RBI allows the delay to be regularised by paying a late submission fee (within three years of the due date), and longer delays go through FEMA compounding under section 15."),
         ("What should I send to get FC-GPR filed?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the date and amount of each foreign remittance, the FIRC or bank advice, the investor's KYC and country, the allotment date and number of shares, the valuation report if you have one, and whether the company already has FIRMS Entity and Business User logins. We check the pricing and deadlines, prepare the documents and file FC-GPR, or regularise a late filing."),

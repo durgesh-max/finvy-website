@@ -19,7 +19,7 @@ C = contact("your GSTIN, whether you want to cancel or the officer cancelled it,
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="GST Registration Cancelled? Revocation in REG-21 (2026): Suo Moto Cancellation, 90-Day Time Limit, How to Reactivate, Voluntary Cancellation in REG-16 and GSTR-10",
+    title="GST Show Cause Notice for Cancellation (REG-17)? How to Reply in REG-18, Revocation in REG-21 (2026): Suo Moto Cancellation, 90-Day Time Limit, Voluntary Cancellation in REG-16 and GSTR-10",
     em="cancelling the GSTIN does not cancel what you owe.",
     kicker="/ Businesses closing or restructuring &middot; GST &middot; Updated 2026-11-25",
     lead=("<strong>A business that closes, transfers its business, falls below the GST threshold or changes its constitution can apply to cancel its GST registration in Form REG-16 on the GST portal; the officer issues the cancellation order in Form REG-19, generally within 30 days, and the GSTIN is suspended in the meantime.</strong> "

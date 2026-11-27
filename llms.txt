@@ -719,3 +719,4 @@ Technology, fintech, SaaS, D2C, healthtech, edtech, cleantech, manufacturing, an
 - [TDS default notice (2026): password, default summary and how to clear it](https://bharatquantumprospera.com/tds-default-notice-traces-default-summary-password-how-to-clear-short-payment-interest-late-fee-2026.html)
 - [GST refund for exporters (2026): IGST paid or unused ITC under LUT](https://bharatquantumprospera.com/gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html)
 - [TDS return correction (2026): correction statements and the two-year limit](https://bharatquantumprospera.com/tds-return-correction-statement-online-traces-conso-file-rpu-fvu-two-year-time-limit-common-errors-2026.html)
+- [GST DRC-01C and DRC-01B notice reply (2026): ITC and liability mismatch](https://bharatquantumprospera.com/gst-drc-01c-drc-01b-notice-reply-itc-mismatch-gstr-2b-3b-liability-mismatch-gstr-1-3b-rule-88c-88d-2026.html)

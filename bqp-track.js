@@ -73,6 +73,7 @@
     if (/^mailto:/i.test(href)) return 'email';
     if (/^tel:/i.test(href)) return 'phone';
     if (/book-a-call\.html/i.test(href)) return 'book_call_link';
+    if (/topmate\.io\//i.test(href)) return 'topmate_call';
     if (/get-a-quote\.html/i.test(href)) return 'quote_link';
     return '';
   }

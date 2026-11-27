@@ -155,7 +155,7 @@ for code, c in COUNTRIES.items():
 # Repatriation guide (HowTo)
 PAGES.append(dict(
     slug="repatriate-money-from-india-to-abroad-nro-usd-1-million-15ca-15cb-2026",
-    title="How to Repatriate Money From India to the UK, US, Canada or Australia in 2026: NRO USD 1 Million, Form 15CA/15CB, Step by Step",
+    title="How to Transfer Money From an NRO Account to a Foreign Bank Account (UK, US, Canada, Australia) in 2026: NRO USD 1 Million, Form 145 / 146 (Old 15CA / 15CB), Step by Step",
     em="from NRO account to your foreign bank.",
     kicker="/ Repatriation &middot; Step by Step &middot; Updated 2026-11-06",
     lead=("NRIs can send NRE and FCNR money abroad freely. NRO money (rent, dividends, pension, interest, old savings) and property sale proceeds can be repatriated up to USD 1 million per financial year, April to March. The bank needs Form 15CA filed online and, in most cases, a Chartered Accountant's Form 15CB confirming tax has been paid; from 1 April 2026 these are Form 145 and Form 146 under the Income-tax Act, 2025. "

@@ -460,8 +460,8 @@ PAGES.append({
         ("/ Half-yearly compliance", "September + March.",
          "<ul>"
          "<li><strong>30 September + 31 March</strong>: half-year end for specific reporting.</li>"
-         "<li><strong>29 November (60 days from 30 Sep)</strong>: Form PAS-6 (Rule 9B demat reconciliation) + MSME Form I (dues to MSE above 45 days).</li>"
-         "<li><strong>30 May (60 days from 31 Mar)</strong>: Form PAS-6 + MSME Form I.</li>"
+         "<li><strong>29 November (60 days from 30 Sep)</strong>: Form PAS-6 (Rule 9B demat reconciliation). MSME Form I (dues to MSE above 45 days) for the same half-year is due earlier, by 31 October.</li>"
+         "<li><strong>30 May (60 days from 31 Mar)</strong>: Form PAS-6. MSME Form I for the October-March half-year is due by 30 April.</li>"
          "<li><strong>30 September</strong>: DIR-3 KYC, now once every three years (by 30 June of the due year).</li>"
          "<li>End of HY: specific ESIC / PF statutory contributions reconciliation.</li>"
          "</ul>"),
@@ -474,8 +474,8 @@ PAGES.append({
          "<li><strong>31 July</strong>: Individuals + HUFs ITR (non-audit) + Form 10E (salary arrears relief).</li>"
          "<li><strong>31 August</strong>: AGM (if company's AGM date is specific).</li>"
          "<li><strong>30 September</strong>: AGM (last date for most companies). DIR-3 KYC is now due by 30 June, once every three financial years (from 31 March 2026).</li>"
-         "<li><strong>31 October</strong>: AOC-4 (financial statements) + ITR (tax audit cases) + Form 3CA/CB + Form 3CD + Form 10-IC (115BAA opt-in) + Form 10-ID (115BAB opt-in).</li>"
-         "<li><strong>29 November</strong>: MGT-7 (annual return) + Form 3CEB (TP audit) + PAS-6 (September HY) + MSME Form I (September HY).</li>"
+         "<li><strong>31 October</strong>: AOC-4 (financial statements) + ITR (tax audit cases) + Form 3CA/CB + Form 3CD + Form 10-IC (115BAA opt-in) + Form 10-ID (115BAB opt-in) + MSME Form I (April-September half-year).</li>"
+         "<li><strong>29 November</strong>: MGT-7 (annual return) + Form 3CEB (TP audit) + PAS-6 (September HY).</li>"
          "<li><strong>31 December</strong>: GSTR-9 (annual return) + GSTR-9C (reconciliation) + Form APR (old Form ODI Part II) + belated / revised ITR deadline.</li>"
          "<li><strong>15 December</strong>: Q3 advance tax (75% cumulative).</li>"
          "<li><strong>31 January</strong>: specific sector returns.</li>"
@@ -499,7 +499,7 @@ PAGES.append({
         ("What's the biggest-impact deadline in Q3 of FY 2026-27?",
          "15 December 2026: Q3 advance tax (75% cumulative). Material cash outflow for profitable companies + individuals. Also 29 November 2026: MGT-7 (annual return) + Form 3CEB TP audit + PAS-6 Rule 9B demat. 31 October 2026: AOC-4 + tax audit ITR + Form 3CA/CB/CD."),
         ("Which deadlines are most commonly missed?",
-         "DIR-3 KYC (30 June, once every three financial years from 31 March 2026) - missing it deactivates the DIN. Form MSME-1 (29 Nov) - specific MSE compliance. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
+         "DIR-3 KYC (30 June, once every three financial years from 31 March 2026) - missing it deactivates the DIN. Form MSME-1 (31 October for April-September, 30 April for October-March) - where dues to micro or small suppliers are outstanding beyond 45 days. Form ODI APR (31 Dec) for Indian parent of foreign subsidiary. PAS-6 (29 Nov / 30 May) - Rule 9B demat. FLA Return (15 Jul) - foreign liabilities + assets to RBI."),
         ("What are the GST filing deadlines?",
          "Monthly: GSTR-1 by 11th + GSTR-3B by 20th + GSTR-7 (TDS) by 10th + GSTR-8 (TCS) by 10th. Small taxpayers under QRMP: GSTR-1 by the 13th and GSTR-3B by the 22nd or 24th (by state) of the month after each quarter, with tax paid monthly in PMT-06 by the 25th. Annual: GSTR-9 (annual return) + GSTR-9C (reconciliation) by 31 December."),
         ("What are the TDS return due dates for FY 2026-27?", "For tax year 2026-27 the quarterly TDS statements are due on 31 July 2026 (April-June), 31 October 2026 (July-September), 31 January 2027 (October-December) and 31 May 2027 (January-March). They are filed in the new forms under the Income-tax Act, 2025: Form 138 for salary, Form 140 for other payments to residents and Form 144 for payments to non-residents, with TCS in Form 143; the January-March 2026 quarter was the last filed in the old 24Q, 26Q and 27Q. Late filing attracts a fee of INR 200 a day up to the TDS amount, and a penalty can follow if the delay runs beyond a year."),

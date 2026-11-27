@@ -32,7 +32,7 @@ def table(head, rows):
             + "".join("<tr>" + "".join(f"<td>{c}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table>")
 
 
-CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your country of residence, days in India, and your Indian income (rent, interest, capital gains, dividends) with the TDS shown in Form 26AS / AIS. "
+CONTACT = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your country of residence, days in India, and your Indian income (rent, interest, capital gains, dividends) with the TDS shown in Form 168 (old 26AS) / AIS. "
            "We reply with the right form, the refund position and the scope of work.")
 SLUG = "which-itr-to-file-for-nri-ay-2026-27-itr-2-itr-3-refund-80c-deductions"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
@@ -42,7 +42,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="NRI ITR Filing (AY 2026-27): Which ITR to File (ITR-2 or ITR-3, Not ITR-1), Last Date, Who Must File, Refunds and 80C",
+    title="Do NRIs Need to File ITR? NRI ITR Filing (AY 2026-27): Which ITR to File (ITR-2 or ITR-3, Not ITR-1), Last Date, Who Must File, Refunds and 80C",
     em="for NRIs in the UAE, US, UK, Singapore, Canada and Australia.",
     kicker="/ NRIs &middot; Income-tax return &middot; Updated 2026-11-19",
     lead=("An NRI files <strong>ITR-2</strong> for salary, rent, interest, dividends and capital gains from India, and <strong>ITR-3</strong> if there is business or professional income. <strong>ITR-1 (Sahaj) and ITR-4 (Sugam) are only for residents</strong>, so an NRI cannot use them. "
@@ -76,7 +76,7 @@ PAGES = [dict(
     faqs=[("Which ITR should an NRI file?", "ITR-2 for salary, rent, interest, dividends and capital gains from India; ITR-3 if there is any business or professional income. ITR-1 and ITR-4 are only for residents."),
         ("What is the last date for NRI ITR filing for AY 2026-27?", "For NRIs filing ITR-2 (salary, rent, interest, capital gains), the due date was 31 July 2026 and it was not extended. Non-audit business or professional income (ITR-3) had a later date, and audit cases were extended to 21 November 2026. If you missed your date, a belated return can still be filed by 31 December 2026 with a late fee, and refunds can still be claimed. A return already filed can be revised until 31 March 2027 (free until 31 December 2026, then with a fee)."),
         ("Can an NRI file ITR-1?", "No. ITR-1 (Sahaj) and ITR-4 (Sugam) are only for resident individuals, so NRIs use ITR-2, or ITR-3 if they have business or professional income in India."),
-          ("Does an NRI need to file an ITR in India?", "Yes if Indian income (excluding exempt NRE/FCNR interest) is above the basic exemption limit, or to claim a refund of excess TDS or carry forward losses. With only NRE or FCNR interest, no return is needed."),
+          ("Does an NRI need to file an ITR in India?", "Yes if taxable Indian income (excluding exempt NRE / FCNR interest) is above the basic exemption limit - INR 4 lakh under the new regime or INR 2.5 lakh under the old, with no rebate for non-residents. File even below that to claim back excess TDS - common after a property sale, where the buyer deducts tax on the full price, or on NRO interest and rent - or to carry forward capital losses. With only NRE or FCNR interest, no return is needed."),
         ("How can an OCI cardholder file an income tax return in India?", "An OCI card does not change how you are taxed: like any individual, you are taxed on your residential status for the year, and most OCI holders living abroad are non-residents. File ITR-2 (or ITR-3 with business income) on the income tax e-filing portal with your PAN, reporting only Indian income. Verify the return with net banking, a digital signature, an EVC through a pre-validated bank or demat account, Aadhaar OTP if you have Aadhaar, or by signing the ITR-V and posting it to CPC Bengaluru within 30 days. There is no 87A rebate for non-residents, and refunds go to a pre-validated Indian account (a non-resident with no Indian account can give one foreign account)."),
         ("What should an OCI or NRI send to get an Indian return filed?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your PAN, your days in India for the year, Form 168 (old 26AS) and AIS, TDS certificates, NRO / NRE statements, any property sale or rent papers, and the bank account for the refund. We work out your residential status, pick the right ITR and file it for you to verify."),
           ("Which ITR for an NRI with no income?", "None is required, but if TDS was deducted (for example on NRO interest) file ITR-2 to claim the refund."),

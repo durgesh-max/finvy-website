@@ -416,7 +416,7 @@ write_page("section-194t-tds-partnership-firm-partners-india", page(
 # 6. Crypto VDA tax India 2026
 write_page("crypto-vda-tax-india-2026-complete", page(
     slug="crypto-vda-tax-india-2026-complete",
-    title="Crypto Tax India 2026: 30% Tax on Bitcoin and VDA Gains, 1% TDS, Minimum Amount and Losses - BQP",
+    title="Crypto Tax India 2026: 30% Tax on Bitcoin and VDA Gains, 1% TDS, Minimum Amount, Losses and Notices - BQP",
     description="Virtual Digital Asset (VDA) tax in India 2026: 30% tax on gains under Section 115BBH, 1% TDS under Section 194S above INR 50K/10K thresholds, VDA definition, no loss setoff, ITR schedule, exchange compliance. Working CA guide by Durgesh Chavda.",
     keywords="crypto tax India 2026, VDA tax India, 30% crypto tax, Section 194S 1% TDS, Section 115BBH, Bitcoin tax India 2026, Ethereum tax India, NFT tax India",
     hero_kicker="/ Blog &middot; Crypto VDA Tax &middot; Updated 2026-10-09",
@@ -482,6 +482,8 @@ write_page("crypto-vda-tax-india-2026-complete", page(
          "No. Section 115BBH allows only cost of acquisition as deduction. Exchange fees, gas fees, platform commission, trading fees - all non-deductible. The taxable amount is simply sale consideration minus cost of acquisition."),
         ("Can I set off crypto losses against stock market gains?",
          "No. VDA loss can only be set off against VDA gains of the same financial year. Cannot be set off against capital gains from other assets (listed equity, unlisted equity, property, mutual funds). Cannot be carried forward to future years. VDA loss expires in the year it is incurred."),
+        ("Why did I get an income tax notice for crypto trading?", "Indian exchanges deduct 1% TDS under section 194S and report your trades, so the TDS and the transactions show up in your AIS and Form 26AS (Form 168). If your return does not report the gains in Schedule VDA at 30% under section 115BBH, the mismatch leads to a compliance portal query, a section 133(6) letter or, for older years, a reassessment notice. Reply with the exchange's trade history and your gain computation, and use a revised or updated return if gains were left out."),
+        ("What should I send to reply to a crypto tax notice?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the notice or portal message, your AIS, the complete trade and transfer history from each exchange and wallet (including foreign exchanges), and your ITR for that year. We reconcile the trades with the TDS, compute the gains and prepare the reply or updated return. You keep your own e-filing login."),
         ("Do I need to disclose foreign-held crypto on Schedule FA?",
          "Yes, if you are Resident and Ordinarily Resident (ROR). Crypto on international exchanges (Binance Global, Coinbase, Kraken), foreign crypto wallets, foreign DeFi positions - all mandatory on Schedule FA. Non-disclosure attracts Black Money Act penalty up to INR 10 lakh per undisclosed asset. NRIs and RNORs do not file Schedule FA."),
         ("Does BQP handle crypto / VDA tax filings?",

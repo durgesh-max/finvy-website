@@ -88,7 +88,7 @@ PAGES = [
     ),
     dict(
         slug="buying-property-from-nri-no-tan-form-141-from-1-october-2026",
-        title="Buying Property From an NRI: No TAN Needed From 1 October 2026 (Form 141)",
+        title="TDS on Property Purchase From an NRI (FY 2026-27): Rate, Section 393 (Old 195), Surcharge, No Rs 50 Lakh Limit - and No TAN Needed From 1 October 2026 (Form 141)",
         em="TDS under your own PAN.",
         kicker="/ News &middot; NRI Property &middot; Updated 2026-10-30",
         lead="From 1 October 2026, a resident individual or HUF buying property from a non-resident Indian can deposit and report the TDS using their own PAN through Form 141, instead of first obtaining a TAN. The obligation to deduct tax, the rates and the penalties for getting it wrong have not changed.",
@@ -118,6 +118,8 @@ PAGES = [
         faqs=[
             ("Do I need a TAN to buy property from an NRI?", "Not from 1 October 2026 if you are a resident individual or HUF: you can use your PAN and Form 141. Companies, firms and other buyers still need a TAN."),
             ("What is the TDS rate when buying from an NRI?", "12.5% plus surcharge and cess on long-term gains (held over 24 months) and 30% plus surcharge and cess on short-term gains, unless the seller gives you a lower deduction certificate."),
+        ("Is TDS deducted on the full price or only on the gain when buying from an NRI?", "On the full amount paid to the NRI seller, unless the seller gives you a lower deduction certificate (Form 128, old Form 13) that fixes a lower rate on the actual gain. With surcharge and cess, TDS on a long-term sale works out to about 13% of the price up to INR 50 lakh, about 14.3% above INR 50 lakh and about 14.95% above INR 1 crore. Deduct it from each payment or instalment, deposit it and give the seller the TDS certificate; the seller claims any excess back in their return."),
+        ("What should a buyer send to get TDS on an NRI property purchase handled?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the sale agreement, the seller's PAN and proof of NRI status, the payment schedule (including any instalment already paid), the seller's purchase date, and the lower deduction certificate if the seller has one. We compute the TDS for each payment, file Form 141 (or Form 144 where a TAN is needed) and issue the certificate to the seller."),
             ("Is there a minimum property value for TDS from an NRI?", "No. The INR 50 lakh threshold applies only when the seller is resident. TDS applies to any purchase from an NRI."),
             ("I paid an instalment in September 2026. Which route applies?", "The TAN route for that instalment, because TDS was deducted before 1 October 2026. Later instalments can use the PAN route."),
             ("Can BQP handle the TDS for a buyer or seller?", "Yes, for buyers (computation, Form 141, certificates) and NRI sellers (lower deduction certificate, return, repatriation). " + CONTACT),

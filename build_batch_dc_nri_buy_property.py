@@ -16,7 +16,7 @@ Holistic Investment summaries (checked 18 Nov 2026)."""
 from urllib.parse import quote
 from build_lib import page, write_page
 
-UPDATED = "Last updated: 18 November 2026."
+UPDATED = "Last updated: 28 November 2026."
 
 
 def wa(t):
@@ -69,7 +69,7 @@ PAGES = [dict(
               "<strong>Under-construction property:</strong> check RERA registration and pay to the builder's designated account; the builder's receipts become your proof of foreign-exchange payment for future repatriation.")),
         ("/ Tax when you buy, own and sell", "The short version.",
          ul("<strong>Buying from a resident:</strong> deduct 1% TDS when the price (or stamp duty value) is INR 50 lakh or more, deposit it with your PAN and give the seller the TDS certificate.",
-            "<strong>Buying from another NRI:</strong> TDS on the seller's capital gain (12.5% plus surcharge and cess on long-term gains); from 1 October 2026 the buyer no longer needs a TAN. See <a href=\"buying-property-from-nri-no-tan-form-141-from-1-october-2026.html\">buying from an NRI</a> and <a href=\"nri-india-property-ldc-lower-deduction-certificate.html\">lower deduction certificates</a>.",
+            "<strong>Buying from another NRI:</strong> TDS on the full amount paid at non-resident rates (12.5% plus surcharge and cess where the gain is long-term), unless the seller has a lower deduction certificate; an NRI buyer still needs a TAN (the PAN-only route from 1 October 2026 is for resident individual and HUF buyers). See <a href=\"buying-property-from-nri-no-tan-form-141-from-1-october-2026.html\">buying from an NRI</a> and <a href=\"nri-india-property-ldc-lower-deduction-certificate.html\">lower deduction certificates</a>.",
             "<strong>Rent:</strong> a tenant paying an NRI landlord deducts TDS on the rent; see <a href=\"nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026.html\">TDS on rent to NRIs</a>. File an Indian return to claim deductions and refunds.",
             "<strong>Selling later:</strong> long-term gains after 24 months are taxed at 12.5% without indexation for NRIs; reinvestment exemptions can apply. See <a href=\"nri-sell-property-in-india-from-abroad-power-of-attorney-tds-repatriation-2026.html\">selling from abroad</a>.",
             "<strong>Home country:</strong> US residents report the property only if held through an entity or account (FBAR covers accounts, not directly held land), and report rent and gains on their US return with credit for Indian tax; UK, Canada and Australia residents similarly declare foreign rent and gains.")
@@ -80,7 +80,8 @@ PAGES = [dict(
           ("Can an NRI purchase commercial property in India?", "Yes. Offices, shops and warehouses can be bought freely, paid by remittance or from NRE, FCNR or NRO accounts. The two-property limit on repatriation applies to residential property, not commercial."),
           ("Can an NRI pay for property from an NRO account?", "Yes, but the sale proceeds of NRO-funded property can only be taken abroad through the NRO account within USD 1 million per financial year after tax. Paying from NRE or by remittance keeps the purchase price repatriable."),
           ("Can an NRI get a home loan in India?", "Yes. Indian banks and housing finance companies give home loans to NRIs, repaid by remittance or from NRE, FCNR or NRO accounts."),
-          ("Does an NRI buyer deduct TDS?", "Yes. When buying from a resident for INR 50 lakh or more, deduct 1%. When buying from an NRI, deduct TDS on the seller's capital gain; from 1 October 2026 the buyer needs only a PAN, not a TAN."),
+          ("Does an NRI buyer deduct TDS?", "Yes. When buying from a resident for INR 50 lakh or more, deduct 1%. When buying from an NRI, deduct TDS on the full amount paid at non-resident rates, unless the seller gives a lower deduction certificate (Form 128); from 1 October 2026 a resident individual or HUF buyer can deposit it with a PAN in Form 141, without a TAN."),
+        ("Can an NRI sell property to another NRI or an OCI cardholder?", "Yes, for residential and commercial property: under FEMA an NRI or OCI can sell it to a person resident in India, to another NRI or to an OCI cardholder. Agricultural land, plantations and farmhouses are the exception - they can be sold only to an Indian citizen resident in India. The NRI buyer must pay through Indian banking channels - an NRE, NRO or FCNR account or money remitted from abroad - not in foreign currency notes or abroad. Because the seller is a non-resident, the buyer deducts TDS on the price at non-resident rates; an NRI buyer is outside the PAN-only route for resident individual buyers, so needs a TAN and files Form 144 (old 27Q), unless the seller gives a lower deduction certificate in Form 128. The seller can repatriate the sale money through the NRO account within USD 1 million a financial year (with Forms 145 / 146), or up to the foreign exchange originally brought in for the purchase. WhatsApp +91 78018 87130 with the property type, both parties' residential status and the expected price, or book a call."),
           ("Can BQP help with my purchase?", "Yes. " + CONTACT)],
     related=[("nri-sell-property-in-india-from-abroad-power-of-attorney-tds-repatriation-2026.html", "Selling property from abroad"), ("nri-oci-agricultural-land-india-buy-inherit-sell-tax-fema-2026.html", "NRIs and agricultural land"),
              ("repatriate-money-from-india-to-abroad-nro-usd-1-million-15ca-15cb-2026.html", "Repatriating money from India")],

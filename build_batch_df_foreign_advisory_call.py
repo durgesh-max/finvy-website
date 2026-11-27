@@ -53,7 +53,7 @@ def call_box(topic, agenda, bring):
             f'<p style="margin:0 0 10px">Every India plan depends on your sector, your home country and who your partner is. A short call is the fastest way to get it right. On the call we cover:</p>'
             + ul(*agenda)
             + f'<p style="margin:10px 0 6px"><strong>Helpful to send before the call:</strong> {bring}</p>'
-            f'<p style="margin:10px 0 0"><a href="book-a-call.html"><strong>Book a call</strong></a> &middot; '
+            f'<p style="margin:10px 0 0"><a href="https://topmate.io/cadurgesh_chavda/741484" target="_blank" rel="noopener"><strong>Book a call</strong></a> &middot; '
             f'<a href="{wa(msg)}" target="_blank" rel="noopener"><strong>WhatsApp +91 78018 87130</strong></a> &middot; '
             f'<a href="{mail}"><strong>Email info@bharatquantumprospera.com</strong></a>. Calls work across time zones (the Gulf, Europe, the UK, the US, Singapore and Australia). Everything you share is kept confidential.</p></div>')
 

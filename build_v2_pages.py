@@ -230,7 +230,7 @@ def page(slug, title, description, keywords, hero_kicker, hero_title_html, hero_
   <h1{_h1_class(hero_title_html)}>{hero_title_html}</h1>
   <p class="lead">{hero_lead}</p>
   <div class="cta-row">
-    <a href="book-a-call.html" class="primary">Book a call &rarr;</a>
+    <a href="https://topmate.io/cadurgesh_chavda/741484" class="primary" target="_blank" rel="noopener">Book a call &rarr;</a>
     <a href="https://wa.me/917801887130" target="_blank" rel="noopener" class="ghost">WhatsApp</a>
     <a href="get-a-quote.html" class="ghost">Get a firm quote</a>
   </div>

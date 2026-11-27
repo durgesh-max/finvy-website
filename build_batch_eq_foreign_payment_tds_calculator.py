@@ -84,7 +84,7 @@ CALC = (f"<style>{CALC_CSS}</style><script type=\"application/ld+json\">{json.du
         f'<div class="calc-embed"><div class="calc-main"><div class="calc-card"><h2>The payment</h2><p class="sub">For payments by an Indian company to a foreign company with no permanent establishment in India.</p>{INPUTS}</div>'
         '<div class="result-card"><div class="rlabel">Result</div><div class="rvalue red" id="pOut" style="font-size:22px;line-height:1.3">-</div>'
         '<ul class="rtrace" id="pList"></ul>'
-        f'<p style="font-size:13px;margin:14px 0 0"><a href="book-a-call.html">Book a call before you remit &rarr;</a> &middot; <a href="{wa}" target="_blank" rel="noopener">WhatsApp</a></p></div></div></div>'
+        f'<p style="font-size:13px;margin:14px 0 0"><a href="https://topmate.io/cadurgesh_chavda/741484" target="_blank" rel="noopener">Book a call before you remit &rarr;</a> &middot; <a href="{wa}" target="_blank" rel="noopener">WhatsApp</a></p></div></div></div>'
         f"<script>{JS}\n</script>")
 CONTACT = ("Book a call at book-a-call.html, WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the contract or invoice, "
            "the recipient's country and documents (tax residency certificate, Form 10F / 41, PAN if any) and the remittance date.")

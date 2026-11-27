@@ -43,7 +43,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="Is NRE FD Interest Taxable in the UK, USA, Canada, Australia, Singapore or UAE? (2026) Country-by-Country Answer",
+    title="Is NRE or FCNR FD Interest Taxable in the UK, USA, Canada, Australia, Singapore or UAE? (2026) Country-by-Country Answer",
     em="tax-free in India, but often taxable where you live.",
     kicker="/ NRIs &middot; NRE &middot; Foreign tax &middot; Updated 2026-11-18",
     lead=("<strong>NRE fixed deposit interest is tax-free in India</strong> while you are a non-resident, but your <strong>country of residence may still tax it</strong>. "
@@ -79,6 +79,7 @@ PAGES = [dict(
     faqs=[("Is NRE FD interest taxable in India?", "No, while you are a non-resident (a person resident outside India under FEMA). It becomes taxable once you return and become resident, so accounts should be converted on return."),
           ("Is NRE FD interest taxable in the UK?", "Usually yes for UK residents, because the remittance basis ended on 6 April 2025. Qualifying new arrivals who were non-resident for the previous 10 years can claim four years of relief under the FIG regime. The personal savings allowance applies to all savings interest."),
           ("Is NRE FD interest taxable in the USA?", "Yes for US citizens, green-card holders and US tax residents, who are taxed on worldwide income. Report it on Schedule B and file FBAR and Form 8938 where the thresholds are met."),
+        ("Is FCNR deposit interest taxable in the USA?", "Yes for US citizens, green-card holders and US tax residents, in the same way as NRE interest. India exempts FCNR interest while you are a non-resident (and during RNOR years after you return), so there is no Indian tax to credit, but the US taxes worldwide income: include the interest on your US return in the year it is credited or becomes available, even if the deposit has not matured or is reinvested. On a USD FCNR deposit there is no currency gain; on deposits in other currencies, the US dollar gain or loss on conversion can also be reportable. The deposits count towards the FBAR (foreign accounts above USD 10,000 in total during the year) and, where its thresholds are met, Form 8938. Because the bank issues no US tax form, keep the interest certificate for each calendar year. WhatsApp +91 78018 87130 with your US status and the deposit details, or book a call - we prepare the India-side figures for your US preparer."),
           ("Is NRE FD interest taxable in Canada or Australia?", "Yes for residents of Canada and Australia, who are taxed on worldwide income. Australian temporary residents are generally not taxed on foreign investment income. Canadians also check Form T1135 if foreign property exceeds CAD 100,000."),
           ("Is NRE FD interest taxable in Singapore or the UAE?", "Generally no. Singapore exempts foreign-sourced income received by resident individuals (except through a partnership), and the UAE has no personal income tax."),
           ("Can BQP prepare the India-side figures for my overseas return?", "Yes. " + CONTACT)],

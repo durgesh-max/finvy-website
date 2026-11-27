@@ -294,7 +294,7 @@ PAGES = [
     },
     {
         "slug": "form-sh-4-share-transfer-form-india-2026",
-        "title": "Form SH-4 Share Transfer Form India 2026 Complete Checklist",
+        "title": "How to Transfer Shares to Another Person: Form SH-4 Share Transfer Form India 2026, Stamp Duty, Demat and Checklist",
         "hero_em": "stamp duty + proper execution.",
         "lead": "Form SH-4 is the share transfer form under Section 56 Companies Act 2013 + Rule 11 Companies (Share Capital and Debentures) Rules 2014. Prescribed form for every share transfer between members. Stamp duty payable under the Indian Stamp Act (0.015%, uniform across India since 1 July 2020). Signed by both transferor + transferee + witness. Here's the complete 2026 SH-4 framework.",
         "kicker": "/ Share Transfer Checklist &middot; Updated 2026-10-23",
@@ -337,6 +337,7 @@ PAGES = [
         "faqs": [
             ("When is Form SH-4 needed?",
              "For every share transfer between members in physical form. Post Rule 9B mandatory demat (30 June 2025 for private companies that were not small companies on 31 March 2023, extended from 30 September 2024), most transfers are depository-based without SH-4. SH-4 still relevant for Rule 9B-exempt entities + legacy physical shares + specific restructuring."),
+        ("How do I transfer a share certificate to another person?", "First check how the shares are held. Most private companies that are not small companies have had to move their shares into demat form (Rule 9B, deadline 30 June 2025), and a shareholder must dematerialise before transferring - the transfer then goes through the depository participants of both sides, with the company's consent letter for an off-market transfer. Where shares are still physical (for example a small company), the steps are: agree the price; fill in the share transfer deed in Form SH-4, signed by the seller and the buyer with a witness; pay stamp duty of 0.015% of the consideration; lodge the SH-4 with the original share certificate at the company; the board approves the transfer, enters the buyer in the register of members and endorses or reissues the certificate. Check the articles for any right of first refusal, and if either side is a non-resident, price it under FEMA and file Form FC-TRS within 60 days. For income tax, a price below fair value can be taxed in the buyer's hands. WhatsApp +91 78018 87130 with the share certificate or demat statement, the articles, the buyer and seller details and the proposed price, and we tell you the exact steps and documents."),
             ("What's the stamp duty on SH-4?",
              "Under the Indian Stamp Act as amended by the Finance Act, 2019: 0.015% of the consideration, uniform across India since 1 July 2020 (earlier 0.25% with state-level variations). Payable via physical stamp paper or e-stamping (preferred)."),
         ("Is stamp duty on share transfer the same in every state?", "Yes. Since 1 July 2020 the Indian Stamp Act, as amended by the Finance Act, 2019, fixes stamp duty on transfer of shares at 0.015% of the consideration across India; the duty is collected centrally and shared with the states. For demat transfers it is collected through the depository or exchange; for physical transfers on Form SH-4 it is paid by e-stamping or stamp paper before lodging the form with the company."),

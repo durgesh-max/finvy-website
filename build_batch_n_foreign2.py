@@ -10,7 +10,7 @@ from build_lib import page, write_page
 # 1. Virtual CFO India for foreign company
 write_page("virtual-cfo-india-foreign-company", page(
     slug="virtual-cfo-india-foreign-company",
-    title="Virtual CFO Services in India (2026): Meaning, Scope and Remote CFO Support for Foreign Companies - BQP",
+    title="Virtual CFO Services in India (2026): Meaning, Scope and Remote CFO Support for Indian MSMEs, Startups and Foreign Companies - BQP",
     description="Virtual CFO (vCFO) services from India for foreign SMBs, startups, PE portfolio companies: monthly reporting, financial modelling, cash-flow management, FP&A, fundraising prep, board decks, audit coordination. Fully remote from India for US / UK / EU / Singapore / UAE companies. Working CA vCFO services by Durgesh Chavda.",
     keywords="virtual CFO India, remote CFO services India, fractional CFO foreign company, vCFO India from USA UK, outsourced CFO India for SMB startup",
     hero_kicker="/ Foreign Clients &middot; vCFO India &middot; Updated 2026-10-14",
@@ -71,6 +71,8 @@ write_page("virtual-cfo-india-foreign-company", page(
          "Fractional CFO service - CFO-level finance leadership delivered on a part-time / monthly retainer basis instead of a full-time hire. The scope usually covers monthly MIS, financial modelling, cash-flow management, FP&A, fundraising prep, board reporting, audit coordination, treasury."),
         ("Can a Virtual CFO work remotely for a foreign company?",
          "Yes - this is the standard delivery model. Weekly video calls, async communication via email/Slack, read-only access to the client's accounting system, shared workspace for deliverables. BQP delivers vCFO from India for US / UK / EU / Singapore / UAE SMBs and startups."),
+        ("Do you provide virtual CFO services for Indian MSMEs and startups?", "Yes. Virtual CFO support works the same way for an Indian MSME or startup as for a foreign-owned subsidiary: monthly MIS and cash-flow tracking, budgets and forecasts, working-capital and bank-loan reporting, GST, TDS and ROC compliance oversight, and preparation for investor, lender or board meetings. The scope is set by what decisions the business needs support on, so a smaller business can start with reporting and cash flow and add fundraising or strategy work later."),
+        ("What should I send to start a virtual CFO engagement?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your latest management accounts or trial balance, the last filed financial statements, your GST and TDS filing status, bank and loan details, and what you need help with - investor or lender reporting, cash-flow control, a fundraise, or board packs. We review the numbers, agree a written scope and set up the monthly reporting rhythm."),
         ("What's the typical commitment?",
          "Scope is agreed upfront: fewer hours for stable businesses needing reporting only, more hours for growing businesses needing modelling + fundraising + strategic finance work. Can scale up to full-time CFO transition when the business reaches that stage."),
         ("How does vCFO differ from an outsourced accountant?",

@@ -865,12 +865,12 @@ write_page("repatriate-profits-india-foreign-parent", page(
     keywords="repatriate profits India foreign parent, dividend from India Section 195, royalty FTS Section 115A, dividend vs buyback India, FEMA repatriation current account capital account",
     hero_kicker="/ Foreign Clients &middot; Profit Repatriation &middot; Updated 2026-10-13",
     hero_title_html="Repatriate profits, <em>dividend vs royalty vs FTS vs buyback.</em>",
-    hero_lead="Foreign parent with profitable Indian subsidiary &mdash; how to get the cash out. Four main routes: dividend, royalty, Fees for Technical Services (FTS), buyback. Each has different tax rate, FEMA compliance, and defensibility. Section 195 TDS applies to all; treaty rate varies by DTAA. Post DDT abolition (April 2020), tax is in the shareholder's hands &mdash; typically ~10-15% withholding under treaty vs 20% default. Here's the practitioner's decision framework.",
+    hero_lead="Foreign parent with profitable Indian subsidiary &mdash; how to get the cash out. Four main routes: dividend, royalty, Fees for Technical Services (FTS), buyback. Each has different tax rate, FEMA compliance, and defensibility. Section 195 TDS applies to all; treaty rate varies by DTAA. Post DDT abolition (April 2020), tax is in the shareholder's hands &mdash; withholding at the treaty rate for the parent's country instead of 20% plus surcharge and cess. Here's the practitioner's decision framework.",
     sections=[
         ("/ The four repatriation routes", "Decision table.",
          "<p><strong>1. Dividend</strong></p>"
          "<ul>"
-         "<li>Post April 2020: DDT abolished. Dividend taxable in foreign parent's hands &mdash; Section 195 TDS 20% default; 10-15% under DTAA with TRC + Form 10F.</li>"
+         "<li>Post April 2020: DDT abolished. Dividend taxable in foreign parent's hands &mdash; Section 195 TDS 20% plus surcharge and cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F.</li>"
          "<li>Pre-conditions: Indian subsidiary must have distributable profits (per Companies Act Section 123); must pass solvency test.</li>"
          "<li>Board resolution + sometimes AGM declaration.</li>"
          "<li>FEMA: current account transaction &mdash; permitted via AD bank without special approval.</li>"
@@ -956,9 +956,9 @@ write_page("repatriate-profits-india-foreign-parent", page(
     ],
     faqs=[
         ("Is dividend from Indian subsidiary taxable in India post DDT abolition?",
-         "No DDT (Dividend Distribution Tax, previously ~20% in company's hands). From April 2020, dividend is taxable in shareholder's hands. For foreign shareholder: Section 195 TDS at 20% default; 10-15% under DTAA with TRC + Form 10F. Indian subsidiary deducts and deposits TDS; foreign parent receives net remittance."),
+         "No DDT (Dividend Distribution Tax, previously ~20% in company's hands). From April 2020, dividend is taxable in shareholder's hands. For foreign shareholder: Section 195 TDS at 20% plus surcharge and cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Indian subsidiary deducts and deposits TDS; foreign parent receives net remittance."),
         ("What's cheaper - dividend or royalty for profit repatriation?",
-         "Comparable at treaty rates (both ~10-15% WHT) but royalty is deductible in Indian subsidiary's P&L (reduces Indian corporate tax ~25%) while dividend is not. Net: royalty often more tax-efficient at group level IF supported by TP benchmarks + genuine IP ownership at parent. Risk: aggressive royalty rates trigger TP scrutiny."),
+         "Both are subject to treaty withholding rates but royalty is deductible in Indian subsidiary's P&L (reduces Indian corporate tax ~25%) while dividend is not. Net: royalty often more tax-efficient at group level IF supported by TP benchmarks + genuine IP ownership at parent. Risk: aggressive royalty rates trigger TP scrutiny."),
         ("What is 'deemed dividend' under Section 2(22)(e)?",
          "If Indian subsidiary gives a loan or advance to its parent (or any shareholder holding 10%+), the loan/advance is treated as deemed dividend to the extent of accumulated profits. Taxable in recipient's hands. Avoid by: (a) proper commercial loan documentation with interest + repayment schedule, (b) FEMA ECB compliance for cross-border loans, (c) using dividend/royalty route instead of informal transfers."),
         ("Do I need TRC and Form 10F every year?",

@@ -57,7 +57,7 @@ order = [k for k, _, _ in GROUPS] + ["other"]
 total = sum(len(v) for v in buckets.values())
 sections = []
 nav = " &middot; ".join(f'<a href="#{k}">{names[k]} ({len(buckets[k])})</a>' for k in order if buckets[k])
-sections.append(("/ Topics", "Jump to a topic.", f'<p>{nav}</p><p>Not sure where to start? <a href="book-a-call.html">Book a call</a> or <a href="https://wa.me/917801887130" target="_blank" rel="noopener">WhatsApp CA Durgesh Chavda</a>.</p>'))
+sections.append(("/ Topics", "Jump to a topic.", f'<p>{nav}</p><p>Not sure where to start? <a href="https://topmate.io/cadurgesh_chavda/741484" target="_blank" rel="noopener">Book a call</a> or <a href="https://wa.me/917801887130" target="_blank" rel="noopener">WhatsApp CA Durgesh Chavda</a>.</p>'))
 for k in order:
     items = sorted(buckets[k], key=lambda x: x[0].lower())
     if not items:

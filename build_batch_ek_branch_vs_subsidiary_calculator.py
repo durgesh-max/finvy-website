@@ -70,7 +70,7 @@ CALC = (f"<style>{CALC_CSS}</style><script type=\"application/ld+json\">{json.du
         f'<div class="calc-embed"><div class="calc-main"><div class="calc-card"><h2>Your India numbers</h2><p class="sub">FY 2026-27 rates. Use a realistic steady-state profit.</p>{INPUTS}</div>'
         '<div class="result-card"><div class="rlabel">Result</div><div class="rvalue red" id="bOut" style="font-size:22px;line-height:1.3">-</div>'
         '<ul class="rtrace" id="bList"></ul>'
-        f'<p style="font-size:13px;margin:14px 0 0"><a href="book-a-call.html">Book a call to choose the structure &rarr;</a> &middot; <a href="{wa}" target="_blank" rel="noopener">WhatsApp</a></p></div></div></div>'
+        f'<p style="font-size:13px;margin:14px 0 0"><a href="https://topmate.io/cadurgesh_chavda/741484" target="_blank" rel="noopener">Book a call to choose the structure &rarr;</a> &middot; <a href="{wa}" target="_blank" rel="noopener">WhatsApp</a></p></div></div></div>'
         f"<script>{JS}\n</script>")
 CONTACT = ("Book a call at book-a-call.html, WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your country, what you will do in India, "
            "expected revenue and profit, and how you plan to bring profits home.")

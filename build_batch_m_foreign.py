@@ -860,7 +860,7 @@ write_page("section-195-tds-foreign-payer-indian-vendor", page(
 # 10. Repatriate profits
 write_page("repatriate-profits-india-foreign-parent", page(
     slug="repatriate-profits-india-foreign-parent",
-    title="Repatriate Profits from India to Foreign Parent 2026 | Dividend Royalty FTS - BQP",
+    title="Profit Repatriation from India to a Foreign Parent (2026): Is There a Limit? Dividend, Royalty, FTS or Buyback - TDS, DTAA Rates and Forms 145 / 146",
     description="Repatriating profits from Indian subsidiary to foreign parent in 2026: dividend route (post DDT abolition, Section 195 TDS 20% / treaty rate), royalty + FTS Section 115A, buyback vs dividend, deemed dividend Section 2(22)(e), FEMA current account vs capital account. Done remotely from India by CA for US / UK / EU / Singapore / UAE parent. Working CA guide by Durgesh Chavda.",
     keywords="repatriate profits India foreign parent, dividend from India Section 195, royalty FTS Section 115A, dividend vs buyback India, FEMA repatriation current account capital account",
     hero_kicker="/ Foreign Clients &middot; Profit Repatriation &middot; Updated 2026-10-13",
@@ -870,7 +870,7 @@ write_page("repatriate-profits-india-foreign-parent", page(
         ("/ The four repatriation routes", "Decision table.",
          "<p><strong>1. Dividend</strong></p>"
          "<ul>"
-         "<li>Post April 2020: DDT abolished. Dividend taxable in foreign parent's hands &mdash; Section 195 TDS 20% plus surcharge and cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F.</li>"
+         "<li>Post April 2020: DDT abolished. Dividend taxable in foreign parent's hands &mdash; Section 195 TDS 20% plus surcharge and cess; the treaty rate for the parent's country under the DTAA with a TRC and Form 41 (old Form 10F).</li>"
          "<li>Pre-conditions: Indian subsidiary must have distributable profits (per Companies Act Section 123); must pass solvency test.</li>"
          "<li>Board resolution + sometimes AGM declaration.</li>"
          "<li>FEMA: current account transaction &mdash; permitted via AD bank without special approval.</li>"
@@ -956,17 +956,18 @@ write_page("repatriate-profits-india-foreign-parent", page(
     ],
     faqs=[
         ("Is dividend from Indian subsidiary taxable in India post DDT abolition?",
-         "No DDT (Dividend Distribution Tax, previously ~20% in company's hands). From April 2020, dividend is taxable in shareholder's hands. For foreign shareholder: Section 195 TDS at 20% plus surcharge and cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Indian subsidiary deducts and deposits TDS; foreign parent receives net remittance."),
+         "No DDT (Dividend Distribution Tax, previously ~20% in company's hands). From April 2020, dividend is taxable in shareholder's hands. For foreign shareholder: TDS at 20% plus surcharge and cess (section 195, now section 393 of the Income-tax Act, 2025), or the lower treaty rate for the parent's country under the DTAA with a TRC and Form 41 (old Form 10F). Indian subsidiary deducts and deposits TDS; foreign parent receives net remittance."),
+        ("Is there a limit on how much profit a foreign company can repatriate from India?", "No FEMA limit applies to profits. Dividends paid by an Indian company to its foreign shareholders are current account remittances and can be sent in full once tax is withheld - the limit is company law: under section 123 of the Companies Act, dividends come only out of the year's profits (after depreciation) or past undistributed profits, so losses must be set off first. Royalty, technical fees and other payments to the parent under a genuine agreement also need no RBI approval, but they must be priced at arm's length (transfer pricing) and the Indian company deducts TDS. Each remittance goes through the AD bank with Form 145 and, where required, the CA certificate in Form 146 (old 15CA / 15CB), plus a TRC and Form 41 (old 10F) to use the treaty rate. Taking out capital, rather than profit, is a different route - a buyback, capital reduction, sale of shares to a resident (FC-TRS within 60 days) or winding up. The USD 1 million a year cap people mention applies to NRIs moving money out of NRO accounts, not to dividends from an Indian company. WhatsApp +91 78018 87130 with the parent's country, the amount and type of payment (dividend, royalty, service fee, buyback) and the latest audited accounts, or book a call."),
         ("What's cheaper - dividend or royalty for profit repatriation?",
          "Both are subject to treaty withholding rates but royalty is deductible in Indian subsidiary's P&L (reduces Indian corporate tax ~25%) while dividend is not. Net: royalty often more tax-efficient at group level IF supported by TP benchmarks + genuine IP ownership at parent. Risk: aggressive royalty rates trigger TP scrutiny."),
         ("What is 'deemed dividend' under Section 2(22)(e)?",
          "If Indian subsidiary gives a loan or advance to its parent (or any shareholder holding 10%+), the loan/advance is treated as deemed dividend to the extent of accumulated profits. Taxable in recipient's hands. Avoid by: (a) proper commercial loan documentation with interest + repayment schedule, (b) FEMA ECB compliance for cross-border loans, (c) using dividend/royalty route instead of informal transfers."),
         ("Do I need TRC and Form 10F every year?",
-         "Yes - TRC is typically annual (year-specific). Form 10F is electronic (post Oct 2023 via India e-filing portal), also annual. Both required for every remittance claiming DTAA treaty rate. Must be in place before Form 15CB is signed. BQP maintains TRC + Form 10F file for recurring remittance clients."),
+         "Yes - TRC is typically annual (year-specific). Form 41 (old Form 10F) is filed electronically on the e-filing portal, again for each year. Both required for every remittance claiming DTAA treaty rate. Must be in place before Form 146 (old 15CB) is signed. BQP maintains TRC + Form 10F file for recurring remittance clients."),
         ("Can I use buyback to repatriate from India?",
          "Yes - Indian subsidiary buys back shares from foreign parent. Buybacks from 1 April 2026 (Finance Act, 2026) are taxed as capital gains in the shareholder's hands on the buyback price minus cost, with an additional levy for promoters (effective 30% for non-corporate and 22% for domestic corporate promoters); between 1 October 2024 and 31 March 2026 they were taxed as dividend, and the company-level Section 115QA tax no longer applies. Model the foreign parent's tax, including the promoter levy and treaty position, before choosing it. Useful for large one-time repatriation + cap table cleanup. Max 10-25% buyback per Companies Act, section 68, with a one-year gap between offers."),
         ("Does BQP handle profit repatriation end-to-end?",
-         "Yes - route recommendation (dividend vs royalty vs FTS vs buyback), TP support (for royalty + FTS), TRC + Form 10F coordination with parent, Form 15CA + 15CB preparation, Section 195 TDS deposit + Form 27Q quarterly filing, AD bank liaison for SWIFT, Form 16A issuance. Standard annual engagement for Indian subsidiaries of foreign parents making regular remittances. WhatsApp +91 78018 87130."),
+         "Yes - route recommendation (dividend vs royalty vs FTS vs buyback), TP support (for royalty + FTS), TRC + Form 41 (old 10F) coordination with parent, Form 145 / 146 (old 15CA / 15CB) preparation, TDS deposit + Form 144 (old 27Q) quarterly filing, AD bank liaison for SWIFT, Form 131 (old 16A) issuance. Standard annual engagement for Indian subsidiaries of foreign parents making regular remittances. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("form-15ca-15cb-foreign-remittance-india.html", "Guide", "Form 15CA/CB"),

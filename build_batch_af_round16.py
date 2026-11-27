@@ -162,7 +162,7 @@ PAGES = [
     ),
     dict(
         slug="revised-itr-section-139-5-deadline-31-december-2026-india",
-        title="Revised ITR for FY 2025-26: Now Until 31 March 2027 (Free Until 31 December 2026), Section 139(5)",
+        title="Revised ITR for FY 2025-26: Now Until 31 March 2027 (Free Until 31 December 2026), Section 139(5), Revising After a Refund or a Belated Return",
         em="fix a mistake in an ITR you already filed.",
         kicker="/ Income Tax Deadline &middot; Updated 2026-11-10",
         lead="If your FY 2025-26 return has an error, such as missed income, a wrong deduction, an unreported foreign asset or a TDS mismatch, you can revise it under Section 139(5). The Finance Act, 2026 extended the time limit from nine to twelve months, so for FY 2025-26 the last date is 31 March 2027, or before assessment is completed, whichever is earlier. Revising until 31 December 2026 is free; a revision after that attracts a fee under section 234-I of INR 1,000 or INR 5,000 depending on total income. The belated-return deadline is unchanged at 31 December 2026.",
@@ -196,6 +196,8 @@ PAGES = [
             ("Is there a fee for filing a revised return?", "Not until 31 December 2026. A revised return filed after that, up to 31 March 2027, attracts a fee under section 234-I of INR 1,000 or INR 5,000 depending on total income, apart from any extra tax and interest."),
             ("Can I revise a belated return?", "Yes. A belated return can be revised within the same window, up to 31 March 2027. The belated return itself must be filed by 31 December 2026."),
             ("How many times can I revise my ITR?", "There is no limit within the deadline. Each revision replaces the earlier return."),
+        ("Can I file a revised return after getting my refund?", "Yes. Receiving the refund, or the return being processed with an intimation, does not stop a revision: you can file a revised return within the revision deadline on this page, as long as the assessment has not been completed. If the revised return shows a smaller refund or tax payable, pay the difference (with any interest) before filing, otherwise the extra refund already received is raised as a demand. If it shows a larger refund, the additional amount is paid after the revised return is processed."),
+        ("What should I send to get my ITR revised?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the acknowledgement of the return already filed, the intimation if you have received one, your Form 168 (old 26AS) and AIS, and the income, deduction or bank detail that was wrong or missed. We check whether a revised return is still possible or whether a rectification or updated return fits better, and prepare it. You keep your own login."),
             ("Can BQP review and revise my return?", "Yes, including NRI and foreign-income returns. " + CONTACT),
         ],
         related=[("belated-itr-31-december-2026-section-139-4-india.html", "Belated ITR before 31 December"),

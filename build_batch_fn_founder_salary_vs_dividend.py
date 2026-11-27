@@ -31,7 +31,7 @@ C = contact("the company's expected profit this year, each founder's shareholdin
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Founder Salary vs Dividend in India (2026): How Founders of a Private Limited Company Should Pay Themselves - Tax on Each Route, Loans to Founders and NRI Founders",
+    title="Founder Salary vs Dividend in India (2026): How Founders of a Private Limited Company Should Pay Themselves - Tax on Each Route, GST on Director Remuneration, Loans to Founders and NRI Founders",
     em="salary is usually cheaper; dividends are taxed twice.",
     kicker="/ Startups &middot; Founders &middot; Tax &middot; Updated 2026-11-23",
     lead=("<strong>For most Indian startup founders, a salary is the cheaper way to take money out of a private limited company.</strong> "
@@ -74,6 +74,7 @@ PAGES = [dict(
     ],
     faqs=[("Is it better for a founder to take salary or dividend in India?", "Usually salary. Salary is deductible for the company, so the profit is taxed once in the founder's hands. A dividend comes out of profit already taxed at about 25% in the company and is taxed again at the founder's slab rate."),
           ("How much salary can a founder take from a private limited company?", "Company law does not cap managerial pay in a private company. For tax, the salary must be reasonable for the work done, because excessive payments to related persons can be disallowed in the company's return."),
+        ("Is GST payable on director remuneration?", "It depends on whether the director is an employee. CBIC Circular 140/10/2020 clarified that remuneration to a whole-time or executive director who is an employee - paid as salary and taxed with TDS on salary - is not a supply, so no GST applies. Fees, sitting fees and commission paid to independent or non-executive directors, or any part of a director's pay booked as professional fees (with TDS as fees rather than on salary), are taxable services, and the company pays 18% GST on them under reverse charge, with input tax credit where eligible. So the way founder pay is documented - appointment terms, payroll and the TDS section used - decides the GST position as well as the income tax. WhatsApp +91 78018 87130 with the board resolution or appointment letter and how the pay is booked, or book a call."),
           ("How are dividends taxed for a founder in India?", "At the founder's slab rate, with surcharge capped at 15% and no standard deduction. The company deducts 10% TDS where dividends exceed INR 10,000 in a year."),
           ("Can a founder take a loan from their own company?", "It is risky. A loan or advance to a shareholder with 10% or more of the voting power is taxed as a deemed dividend to the extent of the company's accumulated profits, even if repaid."),
           ("Is a founder's salary tax-free up to INR 12 lakh?", "Under the new regime, total income up to INR 12 lakh is tax-free after the rebate, and salaried founders also deduct INR 75,000, so salary up to about INR 12.75 lakh with no other income pays no tax."),

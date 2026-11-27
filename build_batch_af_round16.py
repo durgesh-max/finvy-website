@@ -209,7 +209,7 @@ PAGES = [
     ),
     dict(
         slug="itr-u-updated-return-48-months-section-139-8a-india",
-        title="ITR-U Updated Return (2026): File Up to 48 Months Late, 25% to 70% Additional Tax, No Refunds and When a Belated or Revised Return Is Better",
+        title="ITR-U Updated Return (2026): How to File Online for AY 2023-24, 2024-25 and 2025-26, Last Dates, Up to 48 Months, 25% to 70% Additional Tax, No Refunds and When a Belated or Revised Return Is Better",
         em="disclose missed income before the department finds it.",
         kicker="/ Income Tax &middot; ITR-U &middot; Updated 2026-10-25",
         lead="An updated return (ITR-U) under Section 139(8A) lets you report income you left out, even after the belated and revised deadlines have passed. Finance Act 2025 extended the window from 24 to 48 months from the end of the relevant assessment year. You pay the tax, interest and an additional tax of 25% to 70% of that amount, depending on how late you are.",
@@ -238,6 +238,7 @@ PAGES = [
                                ("File ITR-U", "File the updated return with proof of payment and e-verify."))),
         faqs=[
             ("How long do I have to file ITR-U?", "Up to 48 months from the end of the relevant assessment year, after Finance Act 2025 extended it from 24 months."),
+        ("How do I file an updated return for AY 2023-24 or AY 2025-26 online, and what is the last date?", "The window is 48 months from the end of the assessment year, so the last date is 31 March 2028 for AY 2023-24 (FY 2022-23), 31 March 2029 for AY 2024-25 and 31 March 2030 for AY 2025-26 (FY 2024-25). The additional tax rises with time: filed by 31 March 2027, AY 2025-26 attracts 25% (within 12 months), AY 2024-25 50% (within 24 months) and AY 2023-24 60% (within 36 months); AY 2023-24 moves to 70% from 1 April 2027. To file: work out the income left out and the tax on it, add interest and the additional tax, pay the total by challan first, then file the updated return in the ITR form that applies to you with the updated-return details and the challan particulars, and e-verify it. It cannot reduce tax or claim a refund, and it is blocked for a year where an assessment, search or certain reassessment notices are pending. WhatsApp +91 78018 87130 with your PAN, the assessment year, the return already filed (if any) and the income that was missed, and we compute the tax and file it."),
             ("How much additional tax does ITR-U carry?", "25% within 12 months, 50% within 24, 60% within 36 and 70% within 48 months, calculated on the tax and interest due."),
             ("Can I claim a refund through ITR-U?", "No. ITR-U can only increase your tax liability; it cannot report a loss, reduce tax or increase a refund."),
             ("Can I file ITR-U after receiving a notice?", "Usually not. It cannot be filed while a search, survey, assessment or reassessment is pending for that year, or where a section 148A show cause notice was issued after 36 months from the end of the assessment year (unless the section 148A(3) order drops the matter, and then only within the 48 months). Respond to the notice instead and take advice before filing anything."),

@@ -217,7 +217,7 @@ PAGES = [
             "Indian authorised representative appointment",
             "Monthly 18% IGST on B2C Indian sales + deposit by 20th of next month",
             "GSTR-5A monthly return filing",
-            "GSTR-9A annual return",
+            "No GST annual return applies to OIDAR suppliers",
             "B2B GSTIN capture flow setup at checkout (reverse charge for Indian GST-registered customers)",
             "Section 74 risk mitigation for prior non-compliance (voluntary disclosure)",
         ],

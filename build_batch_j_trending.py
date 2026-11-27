@@ -16,7 +16,7 @@ write_page("us-tax-2026-indian-founders-landscape", page(
          "<p><strong>21% federal corporate income tax</strong> under IRC Section 11 remains the headline rate for US C-Corporations in 2026. For an Indian founder's Delaware C-Corp with any US-source Effectively Connected Income (ECI), the 21% applies to taxable profits.</p>"
          "<p>Add on top:</p>"
          "<ul>"
-         "<li><strong>State corporate tax</strong> &mdash; Delaware 8.7%, California 8.84%, New York ~6.5-7.25%, Texas no state income tax but 1% franchise tax, Wyoming no state corporate tax. Delaware incorporation + foreign qualification in operating states means tax layered by economic nexus.</li>"
+         "<li><strong>State corporate tax</strong> &mdash; Delaware 8.7%, California 8.84%, New York ~6.5-7.25%, Texas no state income tax but a 0.75% franchise (margin) tax (0.375% for retail and wholesale) above a no-tax-due threshold, Wyoming no state corporate tax. Delaware incorporation + foreign qualification in operating states means tax layered by economic nexus.</li>"
          "<li><strong>GILTI (Global Intangible Low-Taxed Income)</strong> &mdash; if the C-Corp owns 10%+ of a non-US subsidiary with low-taxed income (which an Indian subsidiary of Delaware C-Corp often qualifies as), GILTI inclusion applies. Section 250 deduction + foreign tax credit mechanics determine actual US tax impact.</li>"
          "<li><strong>Branch profits tax</strong> &mdash; for US branches of foreign corporations, additional 30% branch profits tax (reduced to 15% under India-US DTAA Article 10).</li>"
          "</ul>"
@@ -71,7 +71,7 @@ write_page("us-tax-2026-indian-founders-landscape", page(
     ],
     faqs=[
         ("What is the US federal corporate tax rate in 2026?",
-         "21% under IRC Section 11, unchanged since Tax Cuts and Jobs Act 2017. Applied to C-Corporation taxable income. State corporate tax layers on top: Delaware 8.7%, California 8.84%, New York ~6.5-7.25%, Texas no state corporate but 1% franchise, Wyoming nil. Indian founders operating Delaware C-Corps with US-source ECI pay 21% federal + applicable state."),
+         "21% under IRC Section 11, unchanged since Tax Cuts and Jobs Act 2017. Applied to C-Corporation taxable income. State corporate tax layers on top: Delaware 8.7%, California 8.84%, New York ~6.5-7.25%, Texas no corporate income tax but a franchise (margin) tax of 0.75% (0.375% for retail and wholesale) above a no-tax-due threshold, Wyoming nil. Indian founders operating Delaware C-Corps with US-source ECI pay 21% federal + applicable state."),
         ("Can an Indian founder qualify for QSBS Section 1202?",
          "Yes, if the Indian founder becomes US tax resident (via H-1B 183-day presence, green card, or L-1) and holds Delaware C-Corp stock for 5+ years from original issuance. Up to USD 15M for stock issued after 4 July 2025, USD 10M for earlier stock (or 10x basis) capital gains exclusion at exit. The 5-year clock starts at Delaware C-Corp stock issuance (flip date for post-flip founders), not Indian company incorporation date."),
         ("What is the 83(b) 30-day window and why is it critical?",

@@ -49,7 +49,7 @@ PAGES = [
              "<li>Fast-track patent examination.</li>"
              "<li>IPR facilitation support.</li>"
              "<li>IEM compliance easing.</li>"
-             "<li>Section 54GB long-term capital gain reinvestment exemption.</li>"
+             "<li>Section 54GB startup reinvestment exemption - for residential property sold up to 31 March 2022 only.</li>"
              "</ul>"),
             ("/ Application workflow", "Step-by-step.",
              "<ol>"
@@ -79,15 +79,16 @@ PAGES = [
              "No - during Section 80-IAC claim years, cannot opt into 115BAA. Standard regime applies with 80-IAC 100% deduction. Post-80-IAC years, can opt into 115BAA (22%). Model which combination optimises over startup's growth trajectory."),
             ("Does Finance Act 2024 abolition of Section 56(2)(viib) matter for new DPIIT startups?",
              "Section 56(2)(viib) was abolished for all funding rounds post Finance Act 2024 - new startups no longer face angel tax risk regardless of DPIIT. Historical pre-abolition cases still relevant. DPIIT recognition remains valuable for Section 80-IAC + other benefits even without 56(2)(viib) angle."),
+            ("Is the section 54GB exemption still available for investing property sale proceeds in a startup?", "Not for new sales. Section 54GB exempted long-term capital gain when an individual or HUF sold a residential house or plot and invested the net sale proceeds in equity shares of an eligible startup, which then had to buy new assets with the money within a year; the startup window was extended by successive Finance Acts and applied to transfers up to 31 March 2022. For property sold after that, the routes are section 54 (another house), 54EC bonds (for land or buildings) or 54F (for other long-term assets). Past claims still come up in assessments: the shares had to be held for five years and the company's asset purchase evidenced, and the Mumbai Tribunal has allowed a proportionate exemption where only part of the proceeds was invested and rejected an INR 50 lakh cap. WhatsApp +91 78018 87130 with the sale date, the investment details and any notice received, or book a call."),
             ("Does BQP handle DPIIT + Section 80-IAC + ongoing compliance?",
-             "Yes - end-to-end startup practice. DPIIT application + Section 80-IAC Form 10-IAC + IMB approval + annual compliance + Section 54GB reinvestment planning + ongoing eligibility monitoring + fundraising + ESOP + 115BAA transition when 80-IAC expires. WhatsApp +91 78018 87130."),
+             "Yes - end-to-end startup practice. DPIIT application + Section 80-IAC Form 10-IAC + IMB approval + annual compliance + ongoing eligibility monitoring + fundraising + ESOP + 115BAA transition when 80-IAC expires. WhatsApp +91 78018 87130."),
         ],
         "related_pairs": [("how-to-register-startup-india-dpiit.html", "Related", "DPIIT Registration Guide"),
                           ("best-ca-firm-for-startup-registration-india-2026.html", "Related", "Best CA for Startup Registration")],
         "cta_h": "DPIIT recognition + Section 80-IAC 3-year tax holiday?",
         "cta_b": "End-to-end: DPIIT application + Form 10-IAC + IMB + 3-year election strategy + ongoing compliance. BQP startup specialist practice.",
         "keywords": "best CA DPIIT Startup India CA, Section 80-IAC CA India, Form 10-IAC CA, Inter-Ministerial Board CA startup",
-        "desc": "Best CA for DPIIT Startup India recognition + Section 80-IAC 100% tax holiday application: eligibility criteria, 3-year election strategy, Form 10-IAC + Inter-Ministerial Board approval, Section 54GB reinvestment, patent/trademark fee rebate, public procurement. Working CA guide by Durgesh Chavda.",
+        "desc": "Best CA for DPIIT Startup India recognition + Section 80-IAC 100% tax holiday application: eligibility criteria, 3-year election strategy, Form 10-IAC + Inter-Ministerial Board approval, patent/trademark fee rebate, public procurement. Working CA guide by Durgesh Chavda.",
     },
     {
         "slug": "best-ca-section-50c-stamp-duty-property-india",

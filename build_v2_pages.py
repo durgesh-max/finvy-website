@@ -330,10 +330,10 @@ write_page("stripe-atlas-alternative-india", page(
     keywords="stripe atlas alternative, stripe atlas india, stripe atlas vs CA firm, stripe atlas FEMA, stripe atlas ODI, doola alternative, firstbase alternative, best US incorporation service for Indian founders",
     hero_kicker="/ Comparison &middot; US incorporation",
     hero_title_html="A Stripe Atlas alternative <em>that handles the Indian side.</em>",
-    hero_lead="Stripe Atlas, Doola, and Firstbase form your Delaware or Wyoming entity for $500-$1,000 and stop there. For Indian founders that leaves FEMA ODI, 83(b), transfer pricing, Form 5472, and the fundraise diligence pack hanging. Here's what a CA-led mandate covers &mdash; and when it pays for itself.",
+    hero_lead="Stripe Atlas, Doola, and Firstbase form your Delaware or Wyoming entity and stop there. For Indian founders that leaves FEMA ODI, 83(b), transfer pricing, Form 5472, and the fundraise diligence pack hanging. Here's what a CA-led mandate covers &mdash; and when it pays for itself.",
     sections=[
         ("/ What Atlas does", "The US-side paperwork, and well.",
-         "<p>Stripe Atlas, Doola and Firstbase are legitimate services. They file your Delaware or Wyoming entity, get the EIN, draft basic bylaws or operating agreement, and introduce you to Mercury for banking. For roughly USD 500 total, they handle the US-side mechanics in 2-4 weeks.</p>"
+         "<p>Stripe Atlas, Doola and Firstbase are legitimate services. They file your Delaware or Wyoming entity, get the EIN, draft basic bylaws or operating agreement, and introduce you to Mercury for banking. They handle the US-side mechanics.</p>"
          "<p>If you are a solo bootstrapped founder with no Indian corporate entity putting capital in, no planned fundraise, and no intent to flip anything &mdash; Atlas is defensible. The service does what it says.</p>"),
         ("/ What Atlas does not do", "The Indian side &mdash; and that's where founders get stuck.",
          "<p>Atlas has no visibility into the Indian side of your structure. It does not handle:</p>"
@@ -348,22 +348,22 @@ write_page("stripe-atlas-alternative-india", page(
          "<li><strong>Fundraise diligence pack</strong> &mdash; what investors ask for during due diligence on your Indian/US combined structure.</li>"
          "</ul>"),
         ("/ The 90-day pay-back", "When CA-led saves money, not costs it.",
-         "<p>Atlas: USD 500 upfront. Clean on day 1. Gap grows every month after.</p>"
+         "<p>Atlas: one-time fee upfront. Clean on day 1. Gap grows every month after.</p>"
          "<p>CA-led mandate: INR 65,000-140,000 (USD 800-1,700) upfront depending on package. Covers both sides end-to-end.</p>"
          "<p>Realistic 12-month cost comparison for a seed-stage Indian founder going US:</p>"
          "<ul>"
-         "<li><strong>Atlas path:</strong> $500 formation + eventual $800 to fix FEMA ODI retroactively + $500 to file missed 83(b) if it's even possible + $2,000-$5,000 to prepare the fundraise diligence pack from scratch + $84,000 overcharge on Delaware franchise if you file the wrong method one year. Realistic 12-month total if things go wrong: USD 3,000-10,000+. Best case if nothing goes wrong: USD 500.</li>"
+         "<li><strong>Atlas path:</strong> Formation fee, then later costs to fix FEMA ODI retroactively, to deal with a missed 83(b) if anything can still be done, to build the fundraise diligence pack from scratch, and a far larger Delaware franchise tax bill if the wrong method is used. Best case if nothing goes wrong: just the formation fee.</li>"
          "<li><strong>CA-led path:</strong> INR 1.4L (~USD 1,700) all-in Year 1. Everything handled. Diligence-ready from day 1.</li>"
          "</ul>"
          "<p>The break-even is pretty obvious once FEMA ODI is on the table. If your Indian company is funding the US entity, CA-led wins. If not, Atlas is fine.</p>"),
         ("/ Decision matrix", "Use this.",
-         "<p><strong>Use Stripe Atlas / Doola / Firstbase if:</strong> you are a solo founder, no Indian corporate entity putting capital in, no fundraise planned in next 18 months, happy to self-manage ongoing US compliance (franchise tax, Form 1120 or Form 5472, BOI reporting). Budget: USD 500 upfront + USD 1,000-2,000/year ongoing compliance you handle yourself.</p>"
+         "<p><strong>Use Stripe Atlas / Doola / Firstbase if:</strong> you are a solo founder, no Indian corporate entity putting capital in, no fundraise planned in next 18 months, happy to self-manage ongoing US compliance (franchise tax, Form 1120 or Form 5472, BOI reporting). Budget for the formation fee plus yearly compliance you handle yourself.</p>"
          "<p><strong>Use a CA-led mandate if:</strong> you have an Indian company putting capital into the US entity, OR you plan to raise from US VCs in the next 12 months, OR you want to flip an existing Indian startup to Delaware, OR you want someone who takes responsibility for both sides of the cross-border structure. Budget: INR 65,000-350,000 upfront depending on scope, INR 50,000-150,000/year ongoing.</p>"
          "<p><strong>Use nothing (yet):</strong> if you don't yet know whether you need a US entity. We'll do a 20-minute call for free and tell you honestly.</p>"),
     ],
     faqs=[
         ("Is BQP cheaper than Stripe Atlas?",
-         "No &mdash; and that's not the comparison. Atlas is USD 500. Our Wyoming LLC package starts at INR 65k (~USD 800). We cost more because we do more: FEMA ODI, 83(b), Form 5472, transfer pricing, Delaware franchise tax strategy, flip support if needed. For a pure solo US-only setup where none of that applies, Atlas is cheaper. For an Indian founder with any India-US intercompany structure, we are the cheaper total over 12-24 months because we prevent the retroactive clean-up costs."),
+         "No &mdash; and that's not the comparison. Our scope is wider: FEMA ODI, 83(b), Form 5472, transfer pricing, Delaware franchise tax method, flip support if needed. For a pure solo US-only setup where none of that applies, a formation platform may be all you need. For an Indian founder with an India-US structure, the India-side filings are where retroactive clean-up gets expensive. Book a call for a scoped quote."),
         ("Can I start with Atlas and switch to BQP later?",
          "Yes, this is common. Many founders start with Atlas for the formation then engage us when they realise FEMA ODI, Form 5472, or 83(b) need handling. We take over the compliance side and leave the Atlas-formed entity in place. Expect a USD 300-500 one-time take-over fee to audit the existing setup and plug gaps."),
         ("Does Atlas help with Mercury banking?",
@@ -373,7 +373,7 @@ write_page("stripe-atlas-alternative-india", page(
         ("Does Atlas handle 83(b) filings?",
          "Atlas provides a template 83(b) and reminds you to file within 30 days. The founder has to actually print, sign, mail by certified mail, and keep proof of mailing. Atlas does not do the physical filing. Many founders miss this. Our mandate includes handling the physical filing and keeping the proof-of-mailing permanently in your records."),
         ("What is the Delaware franchise tax trap?",
-         "Delaware mails a first-year franchise tax bill calculated using the Authorized Shares Method, which charges ~$85,000 for the standard 10M-share VC template. You can elect the Assumed Par Value Method on the annual report and reduce this to ~$450 for a pre-revenue startup. Atlas does not explain this; many Atlas customers pay the $85k. We cover this in our ongoing compliance package. See our full Delaware franchise tax calculator at bharatquantumprospera.com/delaware-franchise-tax-calculator.html."),
+         "Delaware mails a first-year franchise tax bill calculated using the Authorized Shares Method, which charges ~$85,000 for the standard 10M-share VC template. You can elect the Assumed Par Value Method on the annual report and reduce this to ~$450 for a pre-revenue startup. Atlas does not explain this. We cover it in our ongoing compliance work. See our full Delaware franchise tax calculator at bharatquantumprospera.com/delaware-franchise-tax-calculator.html."),
     ],
     related=[
         ("us-incorporation.html", "Service", "US Incorporation (overview)"),

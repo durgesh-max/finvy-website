@@ -23,7 +23,7 @@ C = contact("sale date and price of the house, purchase date and cost, the new h
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Section 54 of Income Tax Act (Now Section 82): Exemption on Sale of House Property - Conditions, Rs 10 Crore Limit, Two Houses, CGAS, New Regime (2026)",
+    title="Section 54 of Income Tax Act (Now Section 82): Exemption on Sale of House Property - Conditions, Rs 10 Crore Limit, Two Houses, CGAS, NRIs, New Regime (2026)",
     em="reinvest in a house, on time, and keep it for three years.",
     kicker="/ Individuals and HUFs selling a house &middot; Capital gains &middot; Updated 2026-11-25",
     lead=("<strong>Section 54 exempts the long-term capital gain on selling a residential house if the gain is invested in another residential house in India: bought within one year before or two years after the sale, or constructed within three years.</strong> "
@@ -62,6 +62,7 @@ PAGES = [dict(
     ],
     faqs=[("What is the section 54 exemption?", "An exemption from tax on the long-term capital gain from selling a residential house, if the gain is invested in another residential house in India within the time limits. From tax year 2026-27 it is section 82 of the Income-tax Act, 2025."),
           ("What are the conditions for section 54?", "The seller is an individual or HUF; the house sold was held for more than 24 months; the new residential house in India is bought within one year before or two years after the sale, or constructed within three years; and the new house is not sold within three years."),
+        ("Is section 54 available to an NRI?", "Yes. Section 54 (now section 82) applies to any individual or HUF, whatever the residential status, so an NRI selling a house in India can claim it on the same conditions - including that the new house must be in India, not abroad. The exemption does not stop the buyer deducting TDS on the whole price under section 393 (old 195): either get a Form 128 (old Form 13) lower TDS certificate before the sale, showing the planned reinvestment, or claim the excess TDS back as a refund in your ITR-2 for the year."),
           ("What is the maximum exemption under section 54?", "The lower of the capital gain and the cost of the new house, with any cost or gain above Rs 10 crore ignored."),
           ("Is section 54 available under the new tax regime?", "Yes. Capital gains exemptions under sections 54, 54F and 54EC (and their 2025 Act counterparts) are available under both the old and new regimes."),
           ("Can I claim section 54 for two houses?", "Yes, once in a lifetime, if the long-term capital gain does not exceed Rs 2 crore. Otherwise the exemption is for one residential house."),

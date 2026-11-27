@@ -463,7 +463,7 @@ PAGES = [
             ("How do I verify a firm's foreign-client track record?",
              "Ask for specific client references (anonymised OK): what countries have they served, what services, over what period. Published case studies on firm's website. LinkedIn: partner's work history + prior foreign-client mandates. Industry references: Big-4 or law firms who've worked alongside the firm on cross-border mandates."),
             ("How much should Indian CA engagement cost?",
-             "Varies by scope. For reference ranges (indicative, scoped per actual mandate): standard annual compliance (Pvt Ltd + audit + ITR + GST + ROC): INR 1.5-5 lakh per year. Form 15CB: INR 5,000-25,000 per certificate. India market entry (WOS + GST + GST + initial compliance): INR 2-5 lakh one-time. M&A DD: INR 10-50 lakh per target. Compared to Big-4: typically 50-70% lower for specialist firm comparable scope."),
+             "Varies by scope. Fees depend on the entity, the volume of transactions and the scope - annual compliance, Form 15CB certificates, market entry and due diligence are each quoted separately. Book a call for a written quote."),
             ("How do I engage BQP?",
              "Three steps: (1) Email info@bharatquantumprospera.com with one-line description of what you need. (2) 30-min Zoom scoping call. (3) Scoped quote within 48 hours + remote engagement letter signing. Urgent matters (Form 15CB, Section 148 response): WhatsApp +91 78018 87130 for same-day."),
         ],

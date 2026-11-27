@@ -85,7 +85,7 @@ write_page("section-143-1-intimation-response-india-2026", page(
 # 2. Section 143(2) Scrutiny Notice Response
 write_page("section-143-2-scrutiny-notice-response-india", page(
     slug="section-143-2-scrutiny-notice-response-india",
-    title="Income Tax Scrutiny Notice u/s 143(2) (2026): Selection Criteria, Time Limit, Documents and How to Respond - BQP",
+    title="Income Tax Scrutiny Notice u/s 143(2) and Faceless Assessment (2026): Selection Criteria, Time Limit, Documents, Personal Hearing and How to Respond - BQP",
     description="Section 143(2) scrutiny notice received: understand limited vs complete scrutiny, the three-month time limit for the notice, documents to prepare, personal appearance protocol, Section 143(3) assessment order. Working CA guide by Durgesh Chavda.",
     keywords="Section 143(2) scrutiny notice, 143(2) response India, income tax scrutiny notice reply, Section 143(3) assessment, limited scrutiny vs complete scrutiny",
     hero_kicker="/ Blog &middot; Section 143(2) Scrutiny &middot; Updated 2026-10-10",

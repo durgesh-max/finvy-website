@@ -201,7 +201,7 @@ PAGES = [
         "slug": "best-ca-oidar-gst-foreign-saas-india-2026",
         "title_query": "Best CA for OIDAR GST Foreign SaaS Registration",
         "hero_em": "specialist OIDAR practice.",
-        "service_desc": "OIDAR GST registration for foreign SaaS / e-commerce / digital companies selling to Indian B2C customers under Section 2(17) IGST Act, acting as Indian authorised representative, monthly 18% IGST compliance, annual GSTR-9A",
+        "service_desc": "OIDAR GST registration for foreign SaaS / e-commerce / digital companies selling to Indian B2C customers under Section 2(17) IGST Act, acting as Indian authorised representative, monthly 18% IGST compliance, monthly GSTR-5A returns",
         "deep_link": "oidar-gst-foreign-saas-ecommerce-india.html",
         "deep_link_label": "OIDAR GST Complete Guide",
         "who_question": "Which Indian CA firm specialises in OIDAR GST for foreign SaaS?",

@@ -274,7 +274,7 @@ write_page("form-15ca-15cb-foreign-remittance-india", page(
 # 4. OIDAR GST
 write_page("oidar-gst-foreign-saas-ecommerce-india", page(
     slug="oidar-gst-foreign-saas-ecommerce-india",
-    title="OIDAR GST for Foreign SaaS & E-commerce 2026 | Registration + Compliance - BQP",
+    title="OIDAR Registration Under GST (2026): Meaning, Form REG-10 for Foreign SaaS and E-commerce, GSTR-5A Monthly Return and Compliance - BQP",
     description="OIDAR (Online Information Database Access & Retrieval) GST for foreign SaaS / e-commerce companies selling to Indian consumers: Section 2(17) + 2(118), mandatory registration, 18% IGST, invoice requirements, OIDAR-9 return, representative appointment. Done remotely from India for foreign-based SaaS / digital companies. Working CA guide by Durgesh Chavda.",
     keywords="OIDAR GST foreign SaaS India, OIDAR registration process India, OIDAR 18% IGST, foreign e-commerce GST India B2C, Section 2(17) OIDAR services",
     hero_kicker="/ Foreign Clients &middot; OIDAR GST &middot; Updated 2026-10-13",
@@ -314,7 +314,7 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
          "<li><strong>Register under OIDAR</strong>: online via GST portal (ggsp.gst.gov.in or regular GST portal, specific OIDAR category). Documents: company incorporation, passport of directors, bank account, business address proof.</li>"
          "<li><strong>GSTIN issued</strong>: specific format for OIDAR registrants (begins with '9900' or similar).</li>"
          "<li><strong>Charge 18% IGST</strong> on every invoice to Indian B2C customer. Shown on customer invoice; collected via payment gateway.</li>"
-         "<li><strong>Monthly / quarterly return</strong>: Form GSTR-9A (OIDAR annual return) + monthly statement. Pay collected IGST to Indian government by 20th of next month.</li>"
+         "<li><strong>Monthly / quarterly return</strong>: Form GSTR-5A for every month (a nil return if there were no Indian sales), filed with the IGST paid by the 20th of the next month. No GST annual return applies.</li>"
          "<li><strong>IGST payment</strong>: via NEFT/RTGS to designated government account. In practice, Indian representative handles payment on behalf of foreign supplier.</li>"
          "</ol>"),
         ("/ Common OIDAR mistakes + risks", "What foreign SaaS gets wrong.",
@@ -323,32 +323,33 @@ write_page("oidar-gst-foreign-saas-ecommerce-india", page(
          "<li><strong>Not distinguishing B2B vs B2C</strong>: Indian B2B customer should provide their GSTIN for self-assessment (reverse charge). Foreign supplier should capture GSTIN at checkout. Without GSTIN capture, every sale defaults to B2C &rarr; 18% OIDAR GST obligation.</li>"
          "<li><strong>Charging INR-denominated vs USD-denominated</strong>: GST is on supply value. If invoice is in USD, convert at RBI reference rate for the day. Document FX conversion rate.</li>"
          "<li><strong>Credit note / refund processing errors</strong>: refunds reduce taxable supply but need proper credit-note documentation under GST invoice rules.</li>"
-         "<li><strong>Missed Form OIDAR-9 / GSTR-9A filing</strong>: annual return separate from monthly compliance. Late fee + penalty.</li>"
+         "<li><strong>Missed GSTR-5A monthly filing</strong>: annual return separate from monthly compliance. Late fee + penalty.</li>"
          "<li><strong>No Indian representative</strong>: makes tax officer communication / notice response very difficult. Appointment of Indian authorised representative is standard best practice.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-13.</em></p>"),
     ],
     faqs=[
         ("What is OIDAR GST?",
-         "Online Information Database Access and Retrieval service tax under GST. Foreign suppliers of digital services (SaaS, streaming, cloud, online ads, e-books) to Indian B2C customers (non-GST-registered individuals / businesses) must register, charge 18% IGST, and remit to Indian government. Introduced under Section 2(17) IGST Act. Netflix, Spotify, Zoom, Adobe are all OIDAR-registered."),
+         "Online Information Database Access and Retrieval service tax under GST. Foreign suppliers of digital services (SaaS, streaming, cloud, online ads, e-books) to Indian B2C customers (non-GST-registered individuals / businesses) must register, charge 18% IGST, and remit to Indian government. Introduced under Section 2(17) IGST Act."),
         ("Is SaaS taxable in India?", "Yes, for GST, and sometimes for income tax. GST: SaaS is a service taxed at 18%; an Indian business buying from a foreign SaaS company pays the GST itself under reverse charge, a foreign SaaS company selling to Indian consumers must register under the OIDAR scheme and charge 18% IGST, and an Indian SaaS company selling abroad treats the sale as a zero-rated export under an LUT. Income tax: since the Supreme Court Engineering Analysis ruling of 2021, subscription and licence fees for standard software are generally not royalty under tax treaties, so a foreign SaaS company with a tax residency certificate and no permanent establishment in India usually pays no Indian income tax, though the significant economic presence rules matter where no treaty applies. An Indian SaaS company pays normal company tax on its profits."),
         ("Is there a threshold for OIDAR registration?",
          "No threshold - mandatory registration for every foreign supplier of OIDAR services to Indian B2C customers from the first rupee. Unlike regular GST which has INR 20 lakh / 40 lakh thresholds, OIDAR has zero threshold for foreign suppliers."),
+        ("What does OIDAR registration mean, and which registration type should a foreign supplier choose?", "OIDAR registration is the simplified GST registration that a supplier located outside India takes to pay IGST on online services (SaaS, apps, streaming, cloud, online advertising, e-books and similar) supplied to non-taxable online recipients in India - consumers and anyone else in India without a GSTIN. On the GST portal it is the non-resident online services provider registration in Form GST REG-10, not the non-resident taxable person registration (REG-09, for occasional supplies made while physically present in India) and not a normal taxpayer registration. There is no turnover threshold. After registration the supplier files GSTR-5A for each month by the 20th of the next month, a nil return in months with no Indian sales, and pays the IGST in rupees; it may appoint a person in India to pay the tax for it. Sales to GST-registered Indian businesses stay outside OIDAR because the buyer pays under reverse charge. WhatsApp +91 78018 87130 with the product, how Indian customers pay (card, app store or invoice) and whether any customers give a GSTIN, or book a call."),
         ("Does OIDAR apply to B2B sales to Indian businesses?",
          "No - if the Indian customer is GST-registered (business), reverse charge mechanism applies (Section 5(3) IGST Act). Indian recipient self-assesses GST; no obligation on foreign supplier. BUT: foreign supplier must capture Indian customer's GSTIN at checkout to prove B2B status. Without GSTIN, every sale defaults to B2C and attracts OIDAR GST obligation."),
         ("Do I need an Indian representative for OIDAR?",
-         "Not strictly mandatory, but highly recommended. The Indian authorised representative handles: representation with tax officer, monthly return filing, IGST payment execution, response to notices, annual return (GSTR-9A). Without an Indian representative, every compliance step is harder for foreign supplier. BQP acts as authorised representative for several foreign SaaS clients."),
+         "Not strictly mandatory, but highly recommended. The Indian authorised representative handles: representation with tax officer, monthly return filing, IGST payment execution, response to notices. No GST annual return applies to OIDAR suppliers - the monthly GSTR-5A is the return. Without an Indian representative, every compliance step is harder for foreign supplier. BQP acts as authorised representative for several foreign SaaS clients."),
         ("What happens if I don't register for OIDAR?",
-         "For tax periods from FY 2024-25, demands fall under section 74A of the CGST Act: a notice can be issued within 42 months of the due date of the annual return and the order within 12 months after that, with a penalty of 10% of tax or INR 10,000 (whichever is higher) in non-fraud cases and equal to the tax where there is fraud or wilful suppression. Earlier periods stay under sections 73 and 74. Payment gateway blocking is also possible (RBI can direct). Reputational risk if major customer tax audit surfaces the issue."),
+         "For tax periods from FY 2024-25, demands fall under section 74A of the CGST Act: a notice can be issued within 42 months of the due date of the annual return and the order within 12 months after that, with a penalty of 10% of tax or INR 10,000 (whichever is higher) in non-fraud cases and equal to the tax where there is fraud or wilful suppression. Earlier periods stay under sections 73 and 74. Reputational risk if major customer tax audit surfaces the issue."),
         ("Does BQP handle OIDAR registration + ongoing compliance?",
-         "Yes - full stack: OIDAR registration, Indian authorised representative service, monthly IGST computation + payment, GSTR-9A annual return, notice response, tax audit coordination. Standard annual engagement for foreign SaaS / e-commerce selling to Indian consumers. WhatsApp +91 78018 87130."),
+         "Yes - full stack: OIDAR registration, Indian authorised representative service, monthly IGST computation + payment, GSTR-5A monthly return, notice response, tax audit coordination. Standard annual engagement for foreign SaaS / e-commerce selling to Indian consumers. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("foreign-company-setup-indian-subsidiary-wos.html", "Guide", "India WOS Setup"),
         ("gstr-9-gstr-9c-annual-return-india-2026.html", "Guide", "GSTR-9"),
     ],
     cta_headline="Foreign SaaS / e-commerce with Indian B2C paying customers?",
-    cta_body="OIDAR registration is from the first rupee. Non-registration = tax demand with interest and penalty (section 74A for FY 2024-25 onwards). BQP: registration + Indian representative + monthly compliance + GSTR-9A. Standard annual engagement.",
+    cta_body="OIDAR registration is from the first rupee. Non-registration = tax demand with interest and penalty (section 74A for FY 2024-25 onwards). BQP: REG-10 registration + Indian representative + monthly GSTR-5A compliance. Standard annual engagement.",
 ))
 
 # 5. Transfer pricing India for foreign MNC

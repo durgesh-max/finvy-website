@@ -58,7 +58,7 @@ write_page("us-india-reverse-flip-structure", page(
         ("Why would an Indian startup reverse-flip from Delaware to India?",
          "Three main reasons: (1) Indian IPO track &mdash; SEBI listing standards prefer Indian issuer; (2) operational / cost realignment if the business has become India-centric; (3) tax rate differential as DDT abolition made Indian structure cleaner for distributed profits. The reverse flip has become routine for India-origin unicorns preparing for Indian listings."),
         ("How much does a reverse flip cost?",
-         "The transaction fees (legal, CA, valuation) are modest &mdash; typically USD 100-500K for a Series B+ company. The real cost is capital gains tax on the shareholder swap. For a USD 100M+ FMV company with Indian-resident founders, capital gains can run into tens of millions. PhonePe reported ~USD 950M tax outlay on their 2022-23 reverse flip."),
+         "The transaction costs (legal, CA, valuation) depend on the cap table and number of jurisdictions. The real cost is capital gains tax on the shareholder swap. For a USD 100M+ FMV company with Indian-resident founders, capital gains can run into tens of millions. PhonePe reported ~USD 950M tax outlay on their 2022-23 reverse flip."),
         ("Is reverse flip tax-free?",
          "No. The shareholder swap is a taxable transfer under Section 2(47) in India (and under IRC Section 367 / 368 in the US). The structure can be optimised but the base case is: shareholders pay capital gains tax on the FMV uplift from their original Delaware share cost to the current FMV."),
         ("Can we reverse-flip without a shareholder-share swap?",

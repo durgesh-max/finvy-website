@@ -581,7 +581,7 @@ write_page("how-to-buy-us-stocks-from-india-2026", page(
          "<li>Partnered with Drivewealth (US broker).</li>"
          "<li>Fractional shares supported.</li>"
          "<li>Account opening: ~24 hours with PAN + Aadhaar + bank proof.</li>"
-         "<li>Fees: USD 1 per transaction (varies by plan). No account maintenance fee on basic plan.</li>"
+         "<li>Brokerage and account charges vary by plan - check the platform's current schedule.</li>"
          "<li>Dividend handling: 25% US withholding (W-8BEN auto-filed).</li>"
          "<li>FIRC: generated for repatriation.</li>"
          "</ul>"

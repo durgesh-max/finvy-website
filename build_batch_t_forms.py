@@ -25,7 +25,7 @@ PAGES = []
 # 1. Form FC-GPR
 PAGES.append({
     "slug": "form-fc-gpr-filing-checklist-india-2026",
-    "title": "Form FC-GPR Filing Checklist India 2026 | FDI Reporting Guide - BQP",
+    "title": "Form FC-GPR Filing (2026): Due Date (30 Days From Allotment), Procedure on the RBI FIRMS Portal, Documents, Late Submission Fee and Checklist - BQP",
     "hero_em": "30-day deadline + checklist.",
     "lead": "Form FC-GPR (the FEMA return on issue of shares to a person resident outside India) is mandatory FEMA filing by Indian company receiving foreign inward FDI remittance: within 30 days of share allotment post remittance. Non-filing attracts FEMA compounding (section 15). Here's the complete 2026 filing checklist.",
     "kicker": "/ FEMA Form Checklist &middot; Updated 2026-10-22",
@@ -43,7 +43,7 @@ PAGES.append({
          "<li>KYC of foreign subscriber (passport + address proof).</li>"
          "<li>Board resolution authorising allotment.</li>"
          "<li>Share allotment letter.</li>"
-         "<li>Pricing certification: CA / Merchant Banker certificate confirming price per Rule 21 Pricing Guidelines (DCF for unlisted; closing price for listed).</li>"
+         "<li>Pricing certification: CA / Merchant Banker certificate confirming price per Rule 21 Pricing Guidelines (internationally accepted pricing methodology for unlisted shares; SEBI-guideline price for listed shares).</li>"
          "<li>Non-resident declaration of eligibility.</li>"
          "<li>CS certificate of compliance (where applicable).</li>"
          "</ul>"),
@@ -67,18 +67,21 @@ PAGES.append({
          "<li><strong>Press Note 3 breach</strong>: beneficial ownership from land-bordering country without approval - serious compounding + unwinding risk.</li>"
          "<li><strong>Share allotment delay beyond 60 days</strong>: separate FEMA breach: shares must be issued within 60 days of receiving the money (the earlier FEMA limit was 180 days), or the money refunded within 15 days after that.</li>"
          "<li><strong>FIRC not obtained</strong>: cannot file FC-GPR without FIRC. Chase AD bank.</li>"
-         "<li><strong>Wrong pricing method</strong>: unlisted uses DCF (Rule 21); listed uses closing price. Methodology must match Rule 21.</li>"
+         "<li><strong>Wrong pricing method</strong>: unlisted shares need a fair value on an internationally accepted pricing methodology, and listed shares the SEBI-guideline price; the issue price cannot be below it.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     "faqs": [
         ("When is Form FC-GPR due?",
-         "Within 30 days of share allotment to foreign subscriber. Allotment itself must be within 60 days of remittance receipt (Rule 2A Companies Act). So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR."),
+         "Within 30 days of share allotment to foreign subscriber. Allotment itself must be made within 60 days of receiving the money (FEMA Non-Debt Instrument Rules, and section 42(6) of the Companies Act for private placements), failing which the money must be refunded. So typical timeline: remittance → 60 days → allotment → 30 days → FC-GPR filing. Total 90 days from remittance to FC-GPR."),
+        ("How do I file FC-GPR online on the RBI FIRMS portal?", "FC-GPR is filed in the Single Master Form on the RBI's FIRMS portal. The company first needs an Entity User (approved by the RBI) to complete the Entity Master, and then a Business User approved through its AD bank - only a Business User can file forms. The Business User fills FC-GPR with the allotment details and uploads the board resolution for the allotment, the valuation certificate, the KYC of the foreign investor and proof of the inward remittance from the AD bank, along with the declarations the form asks for. The AD bank checks the form and forwards it to the RBI; reply to any query it raises within the time given."),
+        ("Is there a fee to file FC-GPR?", "No fee is charged for filing FC-GPR on time. If it is filed late, the RBI allows the delay to be regularised by paying a late submission fee (within three years of the due date), and longer delays go through FEMA compounding under section 15."),
+        ("What should I send to get FC-GPR filed?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the date and amount of each foreign remittance, the FIRC or bank advice, the investor's KYC and country, the allotment date and number of shares, the valuation report if you have one, and whether the company already has FIRMS Entity and Business User logins. We check the pricing and deadlines, prepare the documents and file FC-GPR, or regularise a late filing."),
         ("When is Form PAS-3 due after allotting shares to a foreign investor?", "Where the shares are issued by private placement under section 42, the return of allotment in Form PAS-3 is due within 15 days of allotment, and the money received cannot be used until PAS-3 is filed. FC-GPR is a separate FEMA filing due within 30 days of allotment."),
         ("What's the penalty for late FC-GPR?",
-         "Reporting delays within three years are usually settled by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); otherwise FEMA compounding applies. For prolonged non-filing or sector-cap breach: significantly higher, up to 3x amount involved. Voluntary compounding is cheaper than RBI inspection-driven proceedings."),
+         "Reporting delays within three years are usually settled by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); otherwise FEMA compounding applies. For prolonged non-filing or sector-cap breach: significantly higher, up to 3x amount involved."),
         ("What's Rule 21 pricing guidelines?",
-         "FEMA Rule 21 (Non-debt Instrument Rules 2019 + predecessors): share issue to non-resident must be at fair value. Unlisted: DCF method (discounted cash flow) by Merchant Banker or Chartered Accountant. Listed: closing price. Issue below Rule 21 pricing is FEMA breach."),
+         "FEMA Rule 21 (Non-debt Instrument Rules 2019 + predecessors): share issue to non-resident must be at fair value. Unlisted: fair value on an internationally accepted pricing methodology on an arm's length basis, certified by a chartered accountant, SEBI-registered merchant banker or practising cost accountant. Listed: the price worked out under the SEBI guidelines. Issue below Rule 21 pricing is FEMA breach."),
         ("Can BQP file FC-GPR for Indian subsidiary of foreign parent?",
          "Yes - standard service. Documentation collection + pricing certification + FIRMS portal filing within 30-day deadline. Also handle associated compliances: Form PAS-3 share allotment + MGT-14 board resolution + FEMA compounding if past breaches."),
         ("Does BQP handle FEMA voluntary compounding for missed FC-GPR?",

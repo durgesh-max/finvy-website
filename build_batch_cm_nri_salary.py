@@ -31,7 +31,7 @@ def table(head, rows):
 
 
 CONTACT = ("WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your days in India this year and the last four, who pays you and where you work from. "
-           "We reply the same working day with your residential status and whether your salary is taxable in India.")
+           "We work out your residential status and whether your salary is taxable in India.")
 SLUG = "nri-salary-taxable-in-india-remote-work-indian-employer-tds-2026"
 BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;border-radius:10px;padding:16px 18px;margin:18px 0;background:var(--bg-soft)">'
        f'<p style="margin:0 0 8px;font-weight:600">Working for an Indian company from Dubai, London or Toronto?</p>'
@@ -40,7 +40,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="Is an NRI's Salary Taxable in India? (2026): Work Done Abroad vs in India, Remote Work for Indian Employers, TDS and Residence Tests",
+    title="Is an NRI's Salary Taxable in India? (2026): Work Done Abroad vs in India, Remote Work for Indian Employers, TDS on Salary Paid to an NRI and Residence Tests",
     em="where you work decides, not where you are paid.",
     kicker="/ NRI &middot; Salary &middot; Remote work &middot; Updated 2026-11-15",
     lead=("For an NRI, salary is taxable in India <strong>only for work physically done in India</strong>. Indian law treats salary as earned in India when the <strong>services are rendered in India</strong>, wherever it is paid and in whatever currency. "
@@ -74,6 +74,8 @@ PAGES = [dict(
           ("Under which section is NRI salary exempt?", "There is no specific exemption section; salary for services rendered outside India simply does not accrue in India under the source rule (section 9(1)(ii) of the 1961 Act, carried into the 2025 Act), so a non-resident is not taxed on it."),
           ("I work remotely from abroad for an Indian company. Is my salary taxable?", "Generally not, if you are non-resident and do all the work outside India. Give the employer a declaration with travel dates; days worked from India are taxable."),
           ("What TDS applies to NRI salary?", "Salary for work done in India is subject to TDS at slab rates like any salary. Salary for work done outside India should not attract TDS if the employer is satisfied it is not taxable in India."),
+        ("How much TDS should an employer deduct on salary paid to an NRI employee?", "Salary for work done in India is taxable in India even for an NRI, so the employer deducts TDS under section 392 (old 192) at the slab rates on the estimated salary for the year, after the deductions available to the employee - the section 87A rebate is not available to non-residents, and without a PAN the higher no-PAN rate applies. Salary for work done entirely outside India by a non-resident is generally not taxable in India, so no TDS is needed on it once the employer has the employee's residential status and work location on record. The employer issues Form 130 (old Form 16) for the TDS."),
+        ("What should an NRI or employer send to check TDS on salary?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the employee's days in India this year and the four years before, where the work is done, the salary structure and payroll country, PAN status and any tax residency certificate. We confirm residential status, which part of the salary is taxable in India and the TDS to deduct, and help claim back excess TDS in the employee's return."),
           ("Is salary credited to an NRE account taxable?", "Not merely because it is credited there; the CBDT clarified for non-resident seafarers that salary for services outside India credited to an NRE account is not taxable."),
           ("Is salary earned outside India by a resident taxable in India?", "Yes, if you are resident and ordinarily resident: worldwide income, including salary earned abroad, is taxable in India, with credit for foreign tax under the treaty (Form 67, Form 44 from tax year 2026-27). A resident but not ordinarily resident (RNOR) person is not taxed on foreign salary received abroad. Residence depends on your days in India each tax year."),
           ("Do I need to pay income tax in India if I work overseas?", "Not on the overseas salary if you are non-resident for the year. An Indian citizen who leaves India for employment abroad is non-resident if in India for less than 182 days in that tax year; the 60-day test does not apply. Salary for work done in India before you left is still taxable."),

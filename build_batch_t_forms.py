@@ -418,7 +418,7 @@ PAGES.append({
 # 7. Form 3CA/3CB/3CD specific
 PAGES.append({
     "slug": "form-3ca-3cb-3cd-tax-audit-india-2026-checklist",
-    "title": "Tax Audit Limit AY 2026-27 (Rs 1 Crore / Rs 10 Crore / Rs 50 Lakh for Professionals) and Form 3CA / 3CB / 3CD Checklist",
+    "title": "Tax Audit Services Online and Tax Audit Limit AY 2026-27 (Rs 1 Crore / Rs 10 Crore / Rs 50 Lakh for Professionals): Form 3CA / 3CB / 3CD Checklist",
     "hero_em": "Section 44AB specific + Clause 44 reconciliation.",
     "lead": "Form 3CA/3CB (auditor's audit report) + Form 3CD (particulars for 44 clauses) under Section 44AB Income Tax: due 31 October each year. Specific attention 2026: Clause 22 Section 43B(h) Year 2 (MSE payment), Clause 44 GST reconciliation. ICAI UDIN mandatory. Here's the complete 2026 tax audit checklist.",
     "kicker": "/ Tax Audit Form Checklist &middot; Updated 2026-10-22",
@@ -466,6 +466,7 @@ PAGES.append({
         ("What's the tax audit turnover threshold for AY 2026-27?",
          "INR 1 crore (goods) / INR 50 lakh (profession) standard. INR 10 crore for businesses whose cash receipts and payments are each within 5%; professionals stay at INR 50 lakh. Section 44AD / 44ADA presumptive scheme + turnover below threshold = exempt."),
         ("What is the tax audit limit for professionals?", "Gross receipts above Rs 50 lakh in the year require a tax audit. A professional eligible for presumptive taxation under section 44ADA (receipts up to Rs 75 lakh where cash receipts are within 5%) who declares at least 50% of receipts as income does not need an audit; declaring a lower income above the basic exemption limit brings in the audit requirement."),
+        ("I am looking for tax audit services online. Can the tax audit be done remotely?", "Yes. A tax audit is done on records, so it works online: you share the books of account (Tally or other software export), bank statements, GST returns and the GSTR-9 reconciliation, Form 168 (old 26AS) / AIS, fixed asset and loan details, and the previous year's audit report. The CA examines them, asks for any missing vouchers, prepares Form 3CD with the audit report in Form 3CA or 3CB, generates the UDIN and uploads it from their own login; you then accept the report on the e-filing portal from your login, so no password needs to be shared. The audit report is due one month before the return due date for audit cases - normally 30 September, sometimes extended by CBDT circular - and missing it can attract a penalty of 0.5% of turnover up to Rs 1.5 lakh. WhatsApp +91 78018 87130 with your PAN, last year's turnover, the accounting software you use and whether GST applies, and we tell you whether an audit is needed and what to send."),
         ("Does a business under section 44AD need a tax audit?", "Not if it declares at least 6% or 8% of turnover under the presumptive scheme within the Rs 2 crore or Rs 3 crore limit. If it declares a lower profit, the normal audit thresholds (Rs 1 crore, or Rs 10 crore where cash is within 5%) apply; and if it opts out of 44AD within the five-year lock-out after using it, a tax audit is needed once total income exceeds the basic exemption limit."),
         ("What's Clause 22 of Form 3CD?",
          "Post Finance Act 2023 expansion: specific disclosure of Section 43B(h) MSE expense disallowance in current year + prior year reversal when paid during current year. Udyam certificate collection + 45-day aging + Section 15 MSMED interest. Cross-references MSME Form I half-yearly ROC filing."),
@@ -474,9 +475,9 @@ PAGES.append({
         ("Is UDIN mandatory on Form 3CA/3CB?",
          "Yes - ICAI UDIN mandatory for every CA audit report + certificate since 2019. Generated on ICAI portal before signing + attached to Form 3CA/3CB. UDIN verifiable by taxpayer + tax authority against ICAI records."),
         ("What's the penalty for missing the tax audit deadline?",
-         "Section 234F late ITR filing fee + Section 271B penalty for late tax audit: 0.5% of turnover or INR 1,50,000 whichever lower. ITR filing blocked until Form 3CA/3CB linked on portal. Section 148A show-cause risk from AO."),
+         "Section 234F late ITR filing fee + Section 271B penalty for late tax audit: 0.5% of turnover or INR 1,50,000 whichever lower. ITR filing blocked until Form 3CA/3CB linked on portal. A return filed without the required audit report can be treated as defective."),
         ("Does BQP conduct tax audit + file Form 3CA/3CB/3CD?",
-         "Yes - standard engagement. CA Durgesh Chavda personally signs tax audit reports as ICAI-qualified CA. Full 44-clause Form 3CD + Form 3CA/3CB + UDIN + ITR coordination. Priority turnaround in October 2026 tax audit window. WhatsApp +91 78018 87130."),
+         "Yes - standard engagement. CA Durgesh Chavda personally signs tax audit reports as ICAI-qualified CA. Full 44-clause Form 3CD + Form 3CA/3CB + UDIN + ITR coordination. WhatsApp +91 78018 87130."),
     ],
     "related_pairs": [("tax-audit-season-november-2026-post-filing-followups.html", "Related", "Tax Audit Post-Filing"),
                       ("ay-2026-27-itr-forms-new-disclosures-india.html", "Related", "AY 2026-27 ITR")],

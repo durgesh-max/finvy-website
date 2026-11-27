@@ -3,7 +3,7 @@
 from build_lib import page, write_page
 
 CONTACT = "Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with your PAN or CIN, the deadline or notice you are facing and the documents you already have. We reply with the scope and the next steps."
-UPDATED = "<p><em>Last updated: 25 October 2026. Statutory dates can be extended by MCA or CBDT notification; check the latest circular before relying on a date.</em></p>"
+UPDATED = "<p><em>Last updated: 28 November 2026. Statutory dates can be extended by MCA or CBDT notification; check the latest circular before relying on a date.</em></p>"
 
 
 def ul(*items):
@@ -118,7 +118,7 @@ PAGES = [
     ),
     dict(
         slug="belated-itr-31-december-2026-section-139-4-india",
-        title="Belated ITR Last Date 31 December 2026 (AY 2026-27): Section 139(4), Rs 5,000 Late Fee, NRI TDS Refunds and What Happens After",
+        title="Belated ITR Last Date 31 December 2026 (AY 2026-27): Section 139(4), Rs 5,000 Late Fee, New Tax Regime Only, NRI TDS Refunds and What Happens After",
         em="last date to file a missed FY 2025-26 return.",
         kicker="/ Income Tax Deadline &middot; Updated 2026-10-25",
         lead="If you missed the original due date for your FY 2025-26 income tax return, you can still file a belated return under Section 139(4) until 31 December 2026. It costs a late fee of up to INR 5,000, interest under Section 234A, and in most cases the right to carry forward losses. After 31 December, the only route is an updated return (ITR-U), which carries additional tax.",
@@ -147,6 +147,7 @@ PAGES = [
         faqs=[
             ("What is the last date for a belated ITR for FY 2025-26?", "31 December 2026, or before assessment is completed, whichever is earlier."),
             ("What is the penalty for filing ITR late?", "A late fee of INR 5,000 under Section 234F (INR 1,000 if income does not exceed INR 5 lakh), plus 1% per month interest under Section 234A on any unpaid tax."),
+        ("Can I choose the old tax regime in a belated return, and is the late fee different under the new regime?", "For FY 2025-26 (AY 2026-27) the new regime under section 115BAC is the default, and the choice to opt out of it can only be made in a return filed by the original due date under section 139(1) - or, where there is business income, through Form 10-IEA filed by that date. So a belated return filed now is, in practice, computed under the new regime: deductions such as 80C, 80D and the HRA exemption are not available, while the standard deduction and new-regime slabs apply. The late fee under section 234F is the same in either regime - INR 5,000, or INR 1,000 where total income does not exceed INR 5 lakh - and interest under section 234A runs on any unpaid tax. Non-residents do not get the section 87A rebate in either regime. If a regime choice made in time is in doubt, check what was filed before relying on the old regime. WhatsApp +91 78018 87130 with your PAN, the assessment year, your income types (salary, rent, capital gains, business) and Form 168 / AIS, or book a call - the belated window closes on 31 December 2026."),
         ("What is the time limit for a revised return for AY 2026-27?", "Budget 2026 extended it: a return for FY 2025-26 (AY 2026-27) can now be revised until 31 March 2027, instead of 31 December 2026, as long as the assessment is not complete. Revising after 31 December may attract a fee, so correct mistakes early. A belated return filed by 31 December 2026 can also be revised."),
         ("What is the time limit for an updated return (ITR-U)?", "An updated return can be filed up to 48 months from the end of the assessment year, so until 31 March 2031 for AY 2026-27, but only to report extra income, not to claim a refund or a bigger loss. It carries additional tax of 25%, 50%, 60% or 70% of the tax and interest due, depending on whether it is filed within the first, second, third or fourth year."),
             ("Can I carry forward losses in a belated return?", "No for business, speculation and capital losses. Loss from house property can still be carried forward."),

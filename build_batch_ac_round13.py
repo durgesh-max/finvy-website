@@ -323,7 +323,7 @@ PAGES = [
             ("Should we opt for Safe Harbour Rules?",
              "Depends on: (a) actual operating margin position, (b) comparability analysis conclusion, (c) specific transaction thresholds, (d) specific service category eligibility. If actual margin at or above SHR rate: SHR offers audit exemption + simplicity. If actual margin below SHR rate: comparable benchmarking analysis may support lower + SHR not optimal."),
             ("What's the APA timeline + cost?",
-             "Unilateral APA: 12-18 months typical, INR 10-20 lakh fee. Bilateral APA (CBDT + IRS): 24-36 months, higher fees + double representation. 5 years prospective + 4 years rollback = 9 years certainty. Materially cheaper than TP audit + penalty + MAP defence over equivalent period."),
+             "Unilateral APA: IT services applications are now on a two-year fast track; others have historically taken longer. Bilateral APA (CBDT + IRS): longer, because both tax authorities must agree. A single prescribed filing fee applies. 5 years prospective + 4 years rollback = 9 years certainty. Materially cheaper than TP audit + penalty + MAP defence over equivalent period."),
             ("Can TP adjustment lead to double taxation?",
              "Yes - if Indian TPO adjusts upward (specific Indian income increased) + US IRS doesn't correspondingly adjust downward (specific US expense increased) = same income taxed both sides. MAP (Mutual Agreement Procedure) under US-India DTAA Article 27: competent authorities negotiate corresponding adjustment. 2-5 year timeline."),
             ("Does BQP handle Delaware C-Corp + Indian ECC TP end-to-end?",

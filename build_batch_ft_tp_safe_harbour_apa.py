@@ -30,7 +30,7 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
-A.UPDATED = "Last updated: 23 November 2026."
+A.UPDATED = "Last updated: 28 November 2026."
 SLUG = "transfer-pricing-safe-harbour-vs-apa-india-2026-15-5-percent-it-services-form-49-advance-pricing-agreement"
 
 C = contact("the Indian entity's activity (software, ITeS, R&amp;D, distribution, manufacturing), last year's revenue and operating costs, the related-party transactions and the parent's country")
@@ -43,7 +43,7 @@ PAGES = [dict(
     lead=("<strong>An Indian subsidiary can lock in its transfer pricing in two ways: opt for the safe harbour, or sign an advance pricing agreement (APA) with the tax department.</strong> "
           "From tax year 2026-27, a single <strong>IT services safe harbour</strong> (software development, ITeS, KPO and software contract R&amp;D) accepts an operating profit of <strong>at least 15.5% of operating expenses</strong>, "
           "for eligible companies up to <strong>INR 2,000 crore</strong>, chosen once in <strong>Form 49</strong> for five tax years. It is cheap and quick, but one-sided: the parent&rsquo;s country is not bound and treaty dispute resolution is not available. "
-          "An <strong>APA</strong> covers up to five future years plus four years back, can be <strong>bilateral</strong> with the parent&rsquo;s country, and suits larger or complex transactions; the fee is INR 20 lakh and unilateral IT services APAs now have a two-year timeline. "
+          "An <strong>APA</strong> covers up to five future years plus four years back, can be <strong>bilateral</strong> with the parent&rsquo;s country, and suits larger or complex transactions; the filing fee is now a single prescribed amount and unilateral IT services APAs now have a two-year timeline. "
           "CBDT signed a record 219 APAs in FY 2025-26."),
     sections=[
         ("/ Quick answers", "The questions foreign parents ask first.",
@@ -76,7 +76,7 @@ PAGES = [dict(
              ["Types", "Unilateral (India only), bilateral or multilateral (India and the other country&rsquo;s competent authority)"],
              ["Period", "Up to five future tax years, plus rollback to up to four earlier years"],
              ["Forms", "Form 50 pre-filing consultation; Form 51 application, including rollback; Form 52 annual compliance report; Form 53 claim of relief; Form 54 renewal"],
-             ["Fee", "INR 20 lakh flat, regardless of transaction value (earlier INR 10 to 20 lakh)"],
+             ["Fee", "A single prescribed fee, the same whatever the transaction value (earlier it varied with transaction value)"],
              ["IT services fast track", "A unilateral APA application for IT services is treated as closed if not concluded within two years from the end of the quarter in which it was filed, extendable by six months on request"],
              ["Associated enterprises", "For APAs entered on or after 1 April 2026, the associated enterprise can also file a return or modified return in line with the APA"],
              ["Annual compliance report", "Form 52, within 30 days of the return due date or 90 days of signing, whichever is later"],
@@ -86,7 +86,7 @@ PAGES = [dict(
          table(["", "Safe harbour", "APA", "Annual benchmarking (TNMM)"], [
              ["Best for", "Cost-plus IT, ITeS, R&amp;D captives and GCCs within the limit", "Large, complex or two-country risk; royalties, distribution, intangibles", "Entities whose arm&rsquo;s length margin is below the safe harbour rate"],
              ["Certainty", "India only, for the option period", "India, and the other country if bilateral", "None until assessment"],
-             ["Cost and time", "Low; a form with the return", "INR 20 lakh fee plus advisory; months to years", "Yearly study and possible audit"],
+             ["Cost and time", "Low; a form with the return", "Prescribed filing fee plus advisory; months to years", "Yearly study and possible audit"],
              ["Margin", "Fixed (15.5% for IT services)", "Negotiated", "Comparables, often 12% to 20% for captives"],
              ["Double tax protection", "No (no MAP)", "Yes if bilateral", "MAP available after an adjustment"]])
          + ul("If your captive already earns 15.5% or more on cost and the parent&rsquo;s country accepts that mark-up, the safe harbour removes Indian audit risk for five years at almost no cost.",
@@ -103,9 +103,10 @@ PAGES = [dict(
     ],
     faqs=[("What is the safe harbour margin for IT services in India from 2026?", "At least 15.5% of operating expenses for software development, ITeS, KPO and software contract R&D, from tax year 2026-27, for eligible companies up to INR 2,000 crore. One Form 49 covers five consecutive tax years."),
           ("What is an advance pricing agreement in India?", "A binding agreement between the taxpayer and the Central Board of Direct Taxes on the transfer pricing method for up to five future tax years, with an option to roll it back to four earlier years. It can be unilateral, bilateral or multilateral."),
-          ("What is the APA fee in India in 2026?", "INR 20 lakh flat under the Income-tax Rules, 2026, regardless of transaction value."),
+          ("Is there a government fee for an APA in India?", "Yes. A single fee prescribed in the Income-tax Rules, 2026 is paid with the application, the same whatever the transaction value. Book a call to weigh an APA against safe harbour for the entity before applying."),
           ("How long does an APA take in India?", "Unilateral APAs for IT services are now on a fast track: if not concluded within two years from the end of the quarter of application (extendable by six months), the application is treated as closed. Other APAs have historically taken several years."),
           ("Can we use the mutual agreement procedure if we opt for safe harbour?", "No. Transactions accepted under safe harbour cannot be taken to the mutual agreement procedure, so the parent&#39;s country is not bound by the Indian price. A bilateral APA gives two-country certainty."),
+        ("How does the thin capitalisation rule work, and is there a safe harbour for it?", "India's thin capitalisation rule (section 94B of the 1961 Act, now section 177 of the Income-tax Act, 2025) limits the interest an Indian company, or the Indian permanent establishment of a foreign company, can deduct on borrowings from a non-resident associated enterprise, including third-party loans the group guarantees. Where such interest is more than INR 1 crore in a year, the part above 30% of EBITDA is disallowed; the disallowed interest can be carried forward for up to eight years and deducted within the 30% room of later years. Banks and insurance companies are outside the rule. There is no safe harbour that lifts the 30% limit: India's transfer pricing safe harbour rules cover the interest rate on certain intra-group loans and the commission on corporate guarantees, which is a separate arm's length question. A subsidiary funded mostly by parent debt should model both before drawing the loan, or look at equity or compulsorily convertible instruments instead. WhatsApp +91 78018 87130 with the loan amount, interest rate, lender and last year's EBITDA, or book a call."),
           ("Is safe harbour or APA better for a GCC in India?", "For a cost-plus captive already earning 15.5% or more on cost, safe harbour is usually simplest. For large captives, mixed functions, intangibles or where double tax is the concern, an APA is usually better."),
           ("Can BQP help with safe harbour or an APA?", "Yes. " + C)],
     related=[("transfer-pricing-india-foreign-mnc.html", "Transfer pricing for foreign MNCs"),
@@ -115,7 +116,7 @@ PAGES = [dict(
              ("foreign-owned-indian-subsidiary-annual-compliance-calendar-fy-2026-27.html", "Subsidiary compliance calendar")],
     cta_h="Pricing your Indian subsidiary?", cta_b=C,
     keywords="transfer pricing safe harbour India 2026, safe harbour rules India IT services 15.5%, Form 49 safe harbour, advance pricing agreement India, APA India fee, bilateral APA India, types of advance pricing agreement, safe harbour vs APA, GCC transfer pricing India",
-    desc="Transfer pricing safe harbour vs APA in India (2026): IT services safe harbour at 15.5% of operating expenses up to INR 2,000 crore via Form 49 for five years; other categories; APAs (Forms 50-54, INR 20 lakh fee, two-year IT fast track, rollback); which to choose.",
+    desc="Transfer pricing safe harbour vs APA in India (2026): IT services safe harbour at 15.5% of operating expenses up to INR 2,000 crore via Form 49 for five years; other categories; APAs (Forms 50-54, single filing fee, two-year IT fast track, rollback); which to choose.",
     howto={"name": "How an Indian subsidiary opts for the IT services safe harbour", "description": "Steps under the Income-tax Rules, 2026.", "steps": [
         {"name": "Check eligibility", "text": "IT services activity, associated enterprise not in an excluded territory, within INR 2,000 crore."},
         {"name": "Compute the margin", "text": "Operating profit on operating expenses, at least 15.5%."},

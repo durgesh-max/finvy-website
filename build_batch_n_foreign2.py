@@ -386,7 +386,7 @@ write_page("company-secretarial-services-india-remote", page(
 # 5. FEMA compounding
 write_page("fema-compounding-foreign-subsidiary-india", page(
     slug="fema-compounding-foreign-subsidiary-india",
-    title="FEMA Compounding Rules 2024 and Application (2026): Regularising FC-GPR, FC-TRS, FLA, APR and ECB Delays for Foreign Subsidiaries in India - BQP",
+    title="FEMA Compounding (2026): RBI Master Direction, Compounding Rules 2024 and How to Apply - Regularising FC-GPR, FC-TRS, FLA, APR and ECB Delays - BQP",
     description="FEMA voluntary compounding for foreign-shareholder Indian subsidiaries: regularise missed FC-GPR / FC-TRS / FLA / APR / Form ODI / Form FC-TRS filings, pricing guideline breach, sector-cap violation. Section 15 of FEMA and the Compounding Proceedings Rules, 2024. Application, hearing and order within 180 days of a complete application. Working CA guide by Durgesh Chavda.",
     keywords="FEMA compounding India, FEMA voluntary compounding foreign company, FC-GPR late filing compounding, FEMA Section 13 penalty, regularise FEMA breach Indian subsidiary",
     hero_kicker="/ Foreign Clients &middot; FEMA Compounding &middot; Updated 2026-10-14",
@@ -454,7 +454,7 @@ write_page("fema-compounding-foreign-subsidiary-india", page(
         ("What is FEMA compounding?",
          "Settlement under section 15 of FEMA, 1999 of a contravention that would otherwise attract a penalty under section 13, used to regularise historical FEMA breaches (contraventions of section 3(a) are excluded and go to the Directorate of Enforcement). Contravener (Indian subsidiary / Indian company / Indian individual) files application with RBI Compounding Authority admitting the breach, pays compounding fee as determined, and the contravention is formally compounded - no further prosecution. It closes the matter on the contravener's own application rather than leaving it to adjudication."),
         ("When should an Indian subsidiary pursue voluntary compounding?",
-         "When FEMA breaches are discovered - typically during pre-IPO due diligence, pre-M&A due diligence, auditor review, or internal compliance review. Voluntary compounding is cheaper than compounding driven by RBI inspection. Compounding should be pursued before any formal RBI notice because once a notice is issued, lower-fee voluntary route may close."),
+         "When FEMA breaches are discovered - typically during pre-IPO due diligence, pre-M&A due diligence, auditor review, or internal compliance review. Apply as soon as the breach is found and any pending filing is completed: the RBI cannot compound a matter that the Directorate of Enforcement is investigating, and an early, self-reported application with a clean chronology is easier to explain than one prompted by an AD bank or RBI query."),
         ("How much does FEMA compounding cost?",
          "Discretionary - set by Compounding Authority based on guidelines + amount + nature + delay. Reporting delays (FC-GPR, FC-TRS, APR) within three years are usually regularised by a Late Submission Fee of INR 7,500 plus 0.025% of the amount for each year of delay (within three years of the due date); other contraventions and older delays are compounded at amounts computed under the RBI's guidelines, rising with the amount and period involved. BQP engagement fee separate."),
         ("What breaches are typically compounded for foreign-subsidiary companies?",

@@ -180,7 +180,7 @@ UAE = dict(
 
 TRC = dict(
     slug="tax-residency-certificate-india-form-42-43-10fa-10fb-freelancer-youtube-2026",
-    title="Tax Residency Certificate From India (2026): Form 42 and Form 43 (Formerly 10FA and 10FB), Who Needs One, and YouTube and Freelancer Income",
+    title="Tax Residency Certificate (TRC) Full Form and How to Get One From India (2026): Form 42 and Form 43 (Formerly 10FA and 10FB), Who Needs One, and YouTube and Freelancer Income",
     em="apply online, get the certificate the foreign payer asks for.",
     kicker=f"/ Indian residents &middot; Foreign income &middot; DTAA &middot; Updated {DATE}",
     lead=("An Indian resident gets an Indian <strong>tax residency certificate (TRC)</strong> by filing <strong>Form 42</strong> (formerly Form 10FA) online on the income tax e-filing portal; the department issues the certificate in <strong>Form 43</strong> (formerly Form 10FB). "

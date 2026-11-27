@@ -390,16 +390,18 @@ PAGES.append({
          "<li>Shows company's external borrowing / loan structure to regulators + lenders + auditors.</li>"
          "<li>Pre-M&A diligence: buyer reviews DPT-3 history.</li>"
          "<li>Pre-IPO: SEBI reviews DPT-3 for public offering compliance history.</li>"
-         "<li>Non-filing: Section 450 default penalty.</li>"
+         "<li>Non-filing: penalty under rule 21 of the Deposit Rules (up to Rs 5,000, plus up to Rs 500 a day while the default continues).</li>"
          "<li>Form 3CD Clause 22 tax audit disclosure cross-references DPT-3.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     "faqs": [
         ("Is DPT-3 nil return mandatory?",
-         "Yes - even if company has no deposits / loans, nil DPT-3 must be filed as compliance signal. Non-filing attracts Section 450 default penalty."),
+         "DPT-3 is filed by every company (other than a government company) that has deposits, or money received that is not treated as a deposit - such as loans from directors or from other companies - outstanding on 31 March. A company with no such amounts outstanding is generally not required to file it, though some file a nil return as a record. Check the 31 March balance sheet before deciding."),
         ("What's the due date for DPT-3?",
          "30 June each year, reporting position as at 31 March of same year. So DPT-3 for position as at 31 March 2026 due by 30 June 2026."),
+        ("What happens if DPT-3 is not filed?", "File it late as soon as possible. A late DPT-3 carries an additional fee for the delay, and rule 21 of the Companies (Acceptance of Deposits) Rules, 2014 allows a penalty of up to Rs 5,000 on the company and officers in default, plus up to Rs 500 for each day the default continues. Missed DPT-3s also surface during due diligence, bank reviews and ROC scrutiny, because the balance sheet shows loans that were never reported. The usual fix is to file every missed year with the 31 March loan and deposit details backed by the auditor's certificate where it is required. WhatsApp +91 78018 87130 with the CIN, the years missed and the 31 March balance sheets for those years, and we tell you what needs to be filed for each year."),
+        ("Does a company with only director loans need to file DPT-3?", "Yes. Money received from a director is an exempted deposit under rule 2(1)(c), but it is still reported in DPT-3 as an amount not treated as a deposit. The director must also give a written declaration that the money is not borrowed or accepted from others. Send us the list of loans outstanding on 31 March on WhatsApp +91 78018 87130 and we tell you whether DPT-3 is due and how to report each one."),
         ("Is director loan reported in DPT-3?",
          "Yes - loan from director is 'exempted deposit' under Rule 2(1)(c). Not a 'deposit' from public but reportable in DPT-3. Both the amount + terms disclosed."),
         ("Does BQP file DPT-3 as part of annual compliance?",

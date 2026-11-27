@@ -367,7 +367,7 @@ PAGES = [
     },
     {
         "slug": "how-to-file-form-10f-electronic-india-nri-no-pan-step-by-step",
-        "title": "Form 10F Online Without PAN (2026): Step-by-Step for NRIs and Foreign Companies",
+        "title": "Form 10F (Now Form 41) Online Filing (2026): Step-by-Step on the Income Tax Portal, With or Without PAN, for NRIs and Foreign Companies",
         "hero_em": "PAN-less registration + e-filing.",
         "lead": "NRIs without Indian PAN can file electronic Form 10F on Indian Income Tax e-filing portal via specific PAN-less registration. The portal has offered this route since 2023, after the manual-filing relaxation ended on 30 September 2023. Required for every NRI claiming DTAA treaty rate on India-source income. Here's the complete step-by-step process.",
         "kicker": "/ Form 10F PAN-Less Filing &middot; Updated 2026-10-23",
@@ -424,12 +424,13 @@ PAGES = [
         "faqs": [
             ("Can NRI without PAN file Form 10F?",
              "Yes - The e-filing portal has allowed non-residents without PAN to register for this since 2023, after the manual-filing relaxation ended on 30 September 2023. NRI registers on India e-filing portal as 'Non-Resident Not Holding and Not Required to Have PAN' using foreign TIN or passport + country of residence + email + mobile. Account enables Form 10F e-filing. Not required to obtain Indian PAN specifically for Form 10F."),
+        ("What should I send to get Form 10F (Form 41) filed?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your tax residency certificate, passport (or certificate of incorporation for a company), Indian PAN if you have one or your foreign tax identification number, your address abroad, the period the TRC covers, and the Indian payer's name and the type of income (interest, dividend, royalty, fees or rent). We check the treaty position and help you register and file on the portal - you keep your own login."),
             ("What's TRC and why is it needed?",
              "Tax Residency Certificate - issued by home country tax authority confirming NRI is tax resident there. Required under Section 90(4) Income Tax Act for DTAA treaty rate. Form 10F + TRC together form the stack for Indian payer to apply treaty rate under Section 195."),
             ("How often to refile Form 10F?",
              "Annually - validity tied to TRC period (typically 1 year). Fresh Form 10F needed for each FY where DTAA benefit continues. If NRI's circumstances change (country of residence, treaty eligibility, beneficial ownership): refile immediately."),
             ("Can Indian payer apply treaty rate without Form 10F?",
-             "No - Section 90(4) + Section 90(5) require Form 10F + TRC for DTAA benefit. Without these: Section 195 default rate (20%) or Section 206AA rate (20%+) applies. Overpaid TDS can be refunded via Indian ITR but immediate deduction is at higher rate."),
+             "No - Section 90(4) + Section 90(5) require Form 10F + TRC for DTAA benefit. Without these: the rate under the Act for that income (for example 30% plus cess on NRO interest, or 20% plus surcharge and cess on dividends or royalty under section 115A) or the higher no-PAN rate (old 206AA) applies. Overpaid TDS can be refunded via Indian ITR but immediate deduction is at higher rate."),
             ("Does BQP help NRIs with Form 10F + TRC + DTAA claim?",
              "Yes - standard NRI advisory. Form 10F e-filing (via PAN-less registration or Indian PAN) + TRC coordination from home country + no-PE declaration drafting + DTAA treaty rate analysis + Form 15CA/15CB coordination with Indian payer + refund claim via Indian ITR if applicable. For US / UK / Singapore / UAE / Canada / Australia / EU NRIs. WhatsApp +91 78018 87130."),
         ],

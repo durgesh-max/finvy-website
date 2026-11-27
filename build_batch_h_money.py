@@ -210,7 +210,7 @@ write_page("ca-for-nri-tax-return-filing", page(
 # 4. CA for FEMA ODI Compliance
 write_page("ca-for-fema-odi-compliance", page(
     slug="ca-for-fema-odi-compliance",
-    title="CA for FEMA ODI Compliance 2026 | Form FC, UIN, APR, Late Fee and Compounding - BQP",
+    title="ODI Reporting Requirements and Timeline (2026): Form FC, UIN, APR by 31 December, Disinvestment, Late Fee and Compounding - CA for FEMA ODI Compliance - BQP",
     description="CA for FEMA Overseas Direct Investment (ODI) compliance for Indian individuals and companies: Form FC reporting through the AD bank, UIN, Annual Performance Report (APR) by 31 December, arm's length valuation, late submission fee and compounding. ICAI-qualified. BQP.",
     keywords="CA for FEMA ODI compliance, FEMA ODI CA India, Form ODI CA, UIN RBI CA, Annual Performance Report FEMA, Overseas Investment Regulations 2022 CA, FEMA compliance Indian founder",
     hero_kicker="/ CA for FEMA ODI &middot; Overseas Investment",
@@ -255,6 +255,8 @@ write_page("ca-for-fema-odi-compliance", page(
     faqs=[
         ("What is FEMA ODI and when is it required?",
          "Overseas Direct Investment under FEMA (Overseas Investment Rules 2022). Required whenever an Indian resident individual or Indian company invests in equity or convertible instruments of a foreign company. Each investment is reported in Form FC through the AD bank when it is made (a UIN is allotted), and an Annual Performance Report is filed by 31 December each year."),
+        ("What are the ODI reporting requirements and timeline?", "Under the Overseas Investment Rules and Regulations of 2022, reporting runs through your AD bank. When the investment is made, it is reported in Form FC and the RBI allots a UIN for the foreign entity; every later investment in that entity is reported in Form FC under the same UIN. Evidence of the investment, such as the share certificate, goes to the bank within six months. Every year an Annual Performance Report (Form APR) is due by 31 December, based on the foreign entity's latest accounts. Indian companies and LLPs with overseas investment also file the annual return on foreign liabilities and assets (Form FLA) by 15 July. A sale, transfer, buyback or winding up of the foreign entity is reported through the AD bank within 30 days of receiving the proceeds. Missed or late filings can be regularised within three years with the RBI late submission fee; beyond that, compounding is needed."),
+        ("How do I report an ODI disinvestment or closure?", "Report it through the AD bank within 30 days of receiving the sale, buyback or liquidation proceeds, with the sale agreement or liquidation papers, the valuation where the price matters, proof that the money came back to India and confirmation that all APRs up to the exit were filed. Losses on exit, write-offs and transfers to related parties have extra conditions. WhatsApp +91 78018 87130 with the UIN, the foreign entity's latest accounts, the filings already made with the bank and what you want to do - invest, report, regularise or exit - and we tell you which filings are due."),
         ("What is the LRS limit for overseas investment?",
          "USD 250,000 per financial year per Indian resident individual under the Liberalised Remittance Scheme (LRS). Covers investment, education, medical, travel, maintenance of relatives abroad. Investment-specific sub-limits apply (e.g., equity investment capped at the LRS limit itself)."),
         ("What is Form ODI Part I vs Part II vs Part III?",

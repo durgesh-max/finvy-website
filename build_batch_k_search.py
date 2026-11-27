@@ -336,7 +336,7 @@ write_page("gst-notice-response-india-asmt-drc-gstr", page(
 # 5. Freelancer Consultant Tax India
 write_page("freelancer-consultant-tax-india-2026-complete", page(
     slug="freelancer-consultant-tax-india-2026-complete",
-    title="Freelancer and Self-Employed Tax India 2026: 44ADA, GST, ITR for Upwork, Fiverr and Direct Clients - BQP",
+    title="Freelancer Tax India 2026: Is GST Required for Freelancers? 44ADA, ITR and GST for Upwork, Fiverr and Direct Clients - BQP",
     description="Freelancer / consultant tax in India 2026: Section 44ADA presumptive scheme (50% deemed profit), ITR-4 vs ITR-3, GST registration threshold, foreign client income + GST LUT, Section 80C + 80D deductions. Working CA guide by Durgesh Chavda.",
     keywords="freelancer tax India 2026, consultant tax India, Upwork tax India, Fiverr tax India, Section 44ADA presumptive, freelancer GST India, foreign income freelancer tax",
     hero_kicker="/ Blog &middot; Freelancer / Consultant Tax &middot; Updated 2026-10-10",
@@ -378,8 +378,8 @@ write_page("freelancer-consultant-tax-india-2026-complete", page(
          "<p><strong>GST registration mandatory when:</strong></p>"
          "<ul>"
          "<li>Aggregate turnover in a financial year exceeds <strong>INR 20 lakh</strong> for services (INR 10 lakh in special category states: Mizoram, Tripura, Manipur, Nagaland).</li>"
-         "<li>Inter-state supply of services (regardless of turnover).</li>"
-         "<li>E-commerce operator (Fiverr, Upwork via platform payment).</li>"
+         "<li>Inter-state supply of services does <strong>not</strong> by itself force registration - service providers below the threshold are exempt (Notification 10/2017-Integrated Tax).</li>"
+         "<li>Selling services through platforms such as Upwork or Fiverr does not by itself force registration either, below the threshold (the exceptions are notified services such as passenger transport and accommodation booked through a platform).</li>"
          "</ul>"
          "<p><strong>Freelancer GST compliance:</strong></p>"
          "<ul>"
@@ -425,7 +425,7 @@ write_page("freelancer-consultant-tax-india-2026-complete", page(
         ("How is a self-employed professional taxed in India?", "Self-employed professionals and freelancers are taxed on business or professional income at slab rates. Under section 44ADA they can declare 50% of gross receipts as profit (if receipts are under INR 75 lakh, subject to the cash-receipt condition) and skip detailed books, or keep accounts and claim actual expenses. They pay advance tax during the year and file ITR-4 (presumptive) or ITR-3."),
         ("Do students or beginners doing freelancing in India need to pay tax?", "Income is taxed on the amount earned, not on age or student status. If total income stays within the basic exemption and rebate under the new regime, no tax may be payable, but a return is still worth filing to claim back any TDS and to have proof of income. Foreign-client income should come in through banking channels with the purpose code recorded."),
         ("Do I need GST registration as a freelancer?",
-         "Mandatory if aggregate annual turnover exceeds INR 20 lakh for services (INR 10 lakh in special category states), or if you supply inter-state services (regardless of turnover), or if you use an e-commerce platform (Fiverr, Upwork). Below the threshold with intra-state only: voluntary registration available."),
+         "Mandatory once aggregate turnover in the financial year exceeds INR 20 lakh for services (INR 10 lakh in special category states). Export earnings from foreign clients count towards that turnover even though exports are zero-rated. Supplying services to clients in other states, or selling through platforms such as Upwork or Fiverr, does not by itself force registration below the threshold. Below it, registration is voluntary - useful if Indian business clients want a GST invoice. Once registered, file an LUT (Form RFD-11) each financial year to export without paying IGST."),
         ("Which ITR form should a freelancer file?",
          "ITR-4 if using Section 44ADA presumptive (most common choice). ITR-3 if not using presumptive scheme or if presumptive opt-out triggers tax audit. ITR-1 is NOT applicable for business/professional income."),
         ("How do I handle foreign client income from Upwork / Fiverr?",
@@ -530,7 +530,7 @@ write_page("youtube-instagram-influencer-tax-india-2026", page(
         ("Is YouTube AdSense income taxable in India?",
          "Yes. Fully taxable as business/professional income. Section 44ADA 50% presumptive scheme available if annual receipts under INR 75 lakh. GST: export of services, zero-rated with LUT bond. FEMA: receive via authorised dealer bank with FIRC. Google AdSense pays from Singapore or US entity depending on your region."),
         ("Do Instagram influencers need GST registration?",
-         "Mandatory if aggregate annual turnover (brand deals + affiliate + sponsorships + products / courses) exceeds INR 20 lakh. 18% GST on domestic brand collaborations. Export (foreign brand) is zero-rated with LUT bond. Inter-state service supply triggers registration regardless of turnover."),
+         "Mandatory if aggregate annual turnover (brand deals + affiliate + sponsorships + products / courses) exceeds INR 20 lakh. 18% GST on domestic brand collaborations. Export (foreign brand) is zero-rated with LUT bond. Supplying services to brands in other states does not by itself force registration below the threshold."),
         ("Is a free product from a brand taxable for influencers?",
          "Yes. Section 17(2)(vi) read with Section 28(iv) + Section 194R. Brand deducts 10% TDS on FMV of the product if aggregate value exceeds INR 20K per year per influencer. Influencer declares the FMV as business income on ITR and claims the TDS credit. CBDT Circular 12 of 2022 specifically covers influencer samples."),
         ("Can YouTubers use Section 44ADA?",

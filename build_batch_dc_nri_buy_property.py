@@ -10,8 +10,8 @@ foreign exchange or NRE/FCNR funds (including home-loan repayments from those so
 so paid can be repatriated; for residential property this is limited to two properties; balance and NRO-funded
 proceeds through NRO within USD 1 million per financial year with Forms 15CA/15CB. Home loans from Indian banks and
 housing finance companies are permitted, repaid by inward remittance or NRE/FCNR/NRO. TDS: an NRI buyer from a
-resident seller deducts 1% where consideration is INR 50 lakh or more; buying from an NRI seller, TDS on capital
-gains (no TAN needed from 1 October 2026). Sources: RBI master circular/master direction, Mondaq, TaxGuru, SBNRI and
+resident seller deducts 1% where consideration is INR 50 lakh or more; buying from an NRI seller, TDS at non-resident rates
+on the amount paid (an NRI buyer still needs a TAN). Sources: RBI master circular/master direction, Mondaq, TaxGuru, SBNRI and
 Holistic Investment summaries (checked 18 Nov 2026)."""
 from urllib.parse import quote
 from build_lib import page, write_page

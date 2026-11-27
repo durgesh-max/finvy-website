@@ -50,7 +50,7 @@ PAGES = [dict(
         ("/ The tax steps", "Start before the buyer pays.",
          ul("<strong>Work out the gain:</strong> sale price less indexed or actual cost, depending on when you bought; see <a href=\"nri-selling-indian-property-capital-gains.html\">capital gains for NRIs selling property</a>.",
             "<strong>Lower or nil TDS certificate:</strong> apply to the Income Tax Department so the buyer deducts tax on the gain, not the full price. Without it, TDS on the whole consideration can be far more than your actual tax.",
-            "<strong>Buyer's TDS:</strong> from 1 October 2026 a buyer can deduct and deposit TDS on a purchase from a non-resident using PAN, without a TAN; see <a href=\"buying-property-from-nri-no-tan-form-141-from-1-october-2026.html\">the new buyer route</a>.",
+            "<strong>Buyer's TDS:</strong> from 1 October 2026 a resident individual or HUF buyer can deduct and deposit TDS on a purchase from a non-resident using PAN, without a TAN; see <a href=\"buying-property-from-nri-no-tan-form-141-from-1-october-2026.html\">the new buyer route</a>.",
             "<strong>Exemptions:</strong> reinvestment in another Indian residential property or specified bonds can reduce the tax; plan it before you sell.",
             "<strong>Your return:</strong> file in India for the year of sale to claim any refund of excess TDS, and report the sale in your country of residence with credit for Indian tax under the treaty."))
         ,

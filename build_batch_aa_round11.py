@@ -583,9 +583,9 @@ PAGES = [
     },
     {
         "slug": "ca-for-india-dividend-repatriation-foreign-parent-step-by-step",
-        "title": "CA for India Dividend Repatriation to Foreign Parent (Step-by-Step)",
+        "title": "Dividend Repatriation from India to a Foreign Parent (2026): Step by Step - TDS, DTAA Dividend Rates by Country, Forms 145 / 146 and Remittance",
         "hero_em": "post-DDT dividend tax + treaty rate execution.",
-        "lead": "Indian subsidiary paying dividend to foreign parent: post Dividend Distribution Tax (DDT) abolition April 2020, dividend taxed in shareholder's hands via Section 195 TDS. Default 20% + surcharge + cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Form 15CA + 15CB mandatory. Here's the complete step-by-step execution framework.",
+        "lead": "Indian subsidiary paying dividend to foreign parent: post Dividend Distribution Tax (DDT) abolition April 2020, dividend taxed in shareholder's hands via Section 195 TDS. Default 20% + surcharge + cess; the treaty rate for the parent's country under the DTAA with a TRC and Form 41 (old Form 10F). Form 15CA + 15CB mandatory. Here's the complete step-by-step execution framework.",
         "kicker": "/ Dividend Repatriation Playbook &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ Pre-dividend declaration", "Preparation.",
@@ -612,8 +612,8 @@ PAGES = [
              "<li>CA (ICAI member) signs with UDIN.</li>"
              "<li>Treaty rate verification: country-specific DTAA + beneficial ownership + PPT.</li>"
              "<li>Standard DTAA dividend rates:</li>"
-             "<li>&nbsp;&nbsp;&mdash; USA: 15% (25% ownership) / 25% (otherwise).</li>"
-             "<li>&nbsp;&nbsp;&mdash; UK: 10% (10% ownership) / 15% (otherwise).</li>"
+             "<li>&nbsp;&nbsp;&mdash; USA: 15% (company holding at least 10% of the voting stock) / 25% (otherwise).</li>"
+             "<li>&nbsp;&nbsp;&mdash; UK: 10% (15% only for dividends paid out of property income by an investment vehicle).</li>"
              "<li>&nbsp;&nbsp;&mdash; Singapore: 10% (25% ownership) / 15% (otherwise).</li>"
              "<li>&nbsp;&nbsp;&mdash; UAE: 10%.</li>"
              "<li>&nbsp;&nbsp;&mdash; Mauritius: 5% (10% ownership) / 15% (otherwise).</li>"
@@ -643,20 +643,20 @@ PAGES = [
         ],
         "faqs": [
             ("Is dividend from Indian subsidiary to foreign parent taxable in India?",
-             "Yes - post DDT abolition April 2020, dividend taxable in foreign parent's hands. Section 195 TDS at 20% plus surcharge and cess, or the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Indian subsidiary deducts TDS + deposits + Form 27Q + Form 16A to foreign parent."),
+             "Yes - post DDT abolition April 2020, dividend taxable in foreign parent's hands. TDS at 20% plus surcharge and cess (section 195, now section 393 of the Income-tax Act, 2025), or the treaty rate for the parent's country under the DTAA with a TRC and Form 41 (old Form 10F). Indian subsidiary deducts TDS + deposits + Form 144 (old 27Q) + Form 131 (old 16A) to foreign parent."),
             ("What's the typical DTAA dividend rate?",
-             "Varies by country: USA 15% (25% ownership) / 25% otherwise; UK 10% (10% ownership) / 15% otherwise; Singapore 10% (25% ownership) / 15% otherwise; UAE 10%; Mauritius 5% (10% ownership) / 15% otherwise; Netherlands/Germany/France 10%. TRC + Form 10F + beneficial ownership required to claim treaty rate."),
+             "Varies by country: USA 15% (company holding at least 10% of the voting stock) / 25% otherwise; UK 10% (15% only for dividends paid out of property income by an investment vehicle); Singapore 10% (25% ownership) / 15% otherwise; UAE 10%; Mauritius 5% (10% ownership) / 15% otherwise; Netherlands/Germany/France 10%. TRC + Form 41 (old 10F) + beneficial ownership required to claim treaty rate."),
             ("Can we use buyback instead of dividend?",
              "Yes - alternative for large one-time repatriation. Section 115QA buyback tax 20% + surcharge on distributed income paid by Indian subsidiary. Receipt in parent's hands = capital gain but Section 10(34A) exempts buyback-related income. Materially different cash flow + tax position. Max 10-25% buyback per Companies Act + 2-year gap between buybacks."),
             ("What if TRC/Form 10F is missing?",
-             "Section 206AA + Section 195 default: 20% + applicable surcharge + 4% cess. Treaty rate denied. Foreign parent can later claim refund via Indian ITR but immediate TDS at higher rate. Best practice: TRC + Form 10F obtained before dividend declaration."),
+             "Section 206AA + Section 195 default: 20% + applicable surcharge + 4% cess. Treaty rate denied. Foreign parent can later claim refund via Indian ITR but immediate TDS at higher rate. Best practice: TRC + Form 41 (old 10F) in place before dividend declaration."),
             ("Does BQP handle dividend repatriation for Indian subsidiary of foreign parent?",
-             "Yes - standard engagement. Section 123 Companies Act compliance + board/shareholder resolution + Transfer Pricing arm's-length verification + TRC coordination with foreign parent + Form 10F e-filing + Form 15CA + 15CB preparation + Section 195 TDS deposit + Form 27Q + Form 16A + AD bank coordination + remittance. For Indian subsidiaries of US / UK / EU / Singapore / UAE parents making regular dividends. WhatsApp +91 78018 87130."),
+             "Yes - standard engagement. Section 123 Companies Act compliance + board/shareholder resolution + Transfer Pricing arm's-length verification + TRC coordination with foreign parent + Form 41 (old 10F) e-filing + Form 145 / 146 (old 15CA / 15CB) preparation + TDS deposit + Form 144 (old 27Q) + Form 131 (old 16A) + AD bank coordination + remittance. For Indian subsidiaries of US / UK / EU / Singapore / UAE parents making regular dividends. WhatsApp +91 78018 87130 with the parent's country and shareholding, the dividend amount and the date of the board or shareholder resolution, or book a call."),
         ],
         "related_pairs": [("repatriate-profits-india-foreign-parent.html", "Related", "Profit Repatriation Full Guide"),
                           ("form-15ca-15cb-foreign-remittance-india.html", "Related", "Form 15CA/15CB")],
         "cta_h": "Indian subsidiary paying dividend to foreign parent?",
-        "cta_b": "Section 195 + TRC + Form 10F + Form 15CA/15CB + treaty rate + Form 27Q + AD bank. BQP integrated engagement for foreign-shareholder Indian subsidiaries.",
+        "cta_b": "Withholding tax + TRC + Form 41 (old 10F) + Forms 145 / 146 (old 15CA / 15CB) + treaty rate + Form 144 (old 27Q) + AD bank. BQP integrated engagement for foreign-shareholder Indian subsidiaries.",
         "keywords": "CA India dividend repatriation foreign parent step by step, Section 195 dividend TDS CA India, Form 15CB dividend CA, DTAA dividend treaty rate CA India",
         "desc": "CA for India dividend repatriation to foreign parent step-by-step: pre-declaration (Section 123 distributable profits + solvency + resolution + TP arm's-length) + foreign parent documents (TRC + Form 10F + no-PE + beneficial ownership) + Form 15CA + 15CB execution (treaty rate verification + CA UDIN) + TDS deposit + Form 27Q + Form 16A + AD bank remittance. CA Durgesh Chavda specialist practice.",
     },

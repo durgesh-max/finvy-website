@@ -27,7 +27,7 @@ PAGES = [dict(
     em="most breaches can be fixed before a notice arrives.",
     kicker="/ FEMA &middot; Penalties &middot; Updated 2026-11-24",
     lead=("<strong>Under section 13 of the Foreign Exchange Management Act, a contravention can attract a penalty of up to three times the sum involved, or up to INR 2 lakh where the amount cannot be quantified, plus up to INR 5,000 a day while it continues.</strong> "
-          "These are maximums: the actual penalty is set case by case. FEMA is a civil law, and most problems can be cleared before any notice: late reports through the RBI&rsquo;s <strong>late submission fee</strong>, and other breaches through <strong>compounding</strong> with the RBI, where you admit the contravention and pay a computed amount (application fee INR 10,000 plus GST; order within 180 days). "
+          "These are maximums: the actual penalty is set case by case. FEMA is a civil law, and most problems can be cleared before any notice: late reports through the RBI&rsquo;s <strong>late submission fee</strong>, and other breaches through <strong>compounding</strong> with the RBI, where you admit the contravention and pay a computed amount (a fixed application fee; order within 180 days). "
           "Once the Enforcement Directorate starts adjudication, options narrow, so acting early is cheaper."),
     sections=[
         ("/ Quick answers", "What people facing a FEMA issue ask.",
@@ -35,11 +35,11 @@ PAGES = [dict(
             "<strong>Who imposes it?</strong> An adjudicating authority, usually in the Enforcement Directorate, after a show cause notice; appeals go to the Special Director (Appeals) or the Appellate Tribunal.",
             "<strong>Can I fix it myself first?</strong> Yes. Reporting delays are regularised by paying a late submission fee; other contraventions can be compounded with the RBI, which closes the matter without adjudication.",
             "<strong>Is FEMA criminal?</strong> No, it is civil, but unpaid penalties can be recovered strictly, and serious cases can overlap with income tax or black money law.",
-            "<strong>How much does compounding cost?</strong> An application fee of INR 10,000 plus GST, and a compounding amount the RBI works out from the sum and the delay, payable within 15 days of the order.")),
+            "<strong>How much does compounding cost?</strong> A fixed application fee with the application, and a compounding amount the RBI works out from the sum and the delay, payable within 15 days of the order - book a call and we will work out your likely amount.")),
         ("/ Routes compared", "Which route fits which problem.",
          table(["Route", "Used for", "Key points"], [
              ["Late submission fee", "Reports filed late (FC-GPR, FC-TRS, FLA return, ODI returns and similar)", "Pay the RBI's fee and file; available within the time window the RBI allows, otherwise compounding"],
-             ["Compounding with the RBI", "Most contraventions, including old reporting delays, investments outside the rules, missed approvals", "Voluntary admission; fee INR 10,000 plus GST; order within 180 days; pay within 15 days; not for a repeat of a similar contravention within three years"],
+             ["Compounding with the RBI", "Most contraventions, including old reporting delays, investments outside the rules, missed approvals", "Voluntary admission; fixed application fee; order within 180 days; pay within 15 days; not for a repeat of a similar contravention within three years"],
              ["Adjudication", "Where a show cause notice has been issued or compounding is refused or not used", "Penalty up to section 13 limits; appeal available"],
              ["Serious cases", "Money or assets held abroad in breach of the law", "Higher stakes, including confiscation; take advice before any filing"]])),
         ("/ Common breaches", "What we see most often for NRIs and companies.",
@@ -58,7 +58,7 @@ PAGES = [dict(
     ],
     faqs=[("What is the penalty for a FEMA violation in India?", "Under section 13, up to three times the sum involved where it can be quantified, or up to INR 2 lakh where it cannot, plus up to INR 5,000 for every day the contravention continues. These are maximums; the adjudicating authority sets the actual amount."),
           ("Can a FEMA violation be settled without a penalty order?", "Usually yes. Late reports are regularised by paying the RBI's late submission fee, and most other contraventions can be compounded with the RBI by admitting them and paying a computed amount, which closes the matter without adjudication."),
-          ("What is the RBI compounding application fee?", "INR 10,000 plus GST under the Foreign Exchange (Compounding Proceedings) Rules, 2024. The RBI must pass an order within 180 days of the application, and the compounding amount is payable within 15 days of the order."),
+          ("What is the RBI compounding application fee?", "A fixed application fee is payable with the application under the Foreign Exchange (Compounding Proceedings) Rules, 2024, separate from the compounding amount the RBI works out from the sum and the delay. Book a call and we will estimate your total. The RBI must pass an order within 180 days of the application, and the compounding amount is payable within 15 days of the order."),
           ("Is a FEMA violation a criminal offence?", "No. FEMA is a civil law with monetary penalties, though unpaid penalties are recovered strictly and holding assets abroad in breach of the law can also raise income tax and black money issues."),
           ("Who decides FEMA penalties?", "An adjudicating authority, typically in the Enforcement Directorate, after issuing a show cause notice. Orders can be appealed to the Special Director (Appeals) or the Appellate Tribunal for Foreign Exchange matters."),
         ("What should I do if I get an ED notice under FEMA?", "Do not ignore it. The Enforcement Directorate investigates FEMA contraventions under section 37 and can issue summons or ask for documents, and adjudication of a penalty starts only with a show cause notice. Read exactly what the notice asks for and by when, collect the bank records, RBI filings and approvals for the transactions in question, and reply or appear on time with a factual, documented account. Contraventions of section 3(a) are compounded by the ED itself, while the RBI compounding route asks for an undertaking that you are not under ED investigation - so check early which route is still open. If a penalty order is passed, the appeal lies to the Special Director (Appeals) or the Appellate Tribunal."),
@@ -71,11 +71,11 @@ PAGES = [dict(
              ("fema-breach-found-pre-ma-diligence-urgent-compounding-india.html", "FEMA breach found in diligence")],
     cta_h="Facing a FEMA problem?", cta_b=C,
     keywords="FEMA penalty, FEMA violation penalty, FEMA penalty provisions, section 13 FEMA, FEMA penalty in India, RBI compounding, compounding application fee, late submission fee FEMA, FEMA show cause notice",
-    desc="FEMA penalty in India (2026): section 13 allows up to three times the sum involved, INR 2 lakh where not quantifiable, and INR 5,000 a day for continuing breaches; fix it first through the RBI late submission fee or compounding (INR 10,000 plus GST, order within 180 days) before adjudication.",
+    desc="FEMA penalty in India (2026): section 13 allows up to three times the sum involved, INR 2 lakh where not quantifiable, and INR 5,000 a day for continuing breaches; fix it first through the RBI late submission fee or compounding (a fixed application fee plus the compounding amount, order within 180 days) before adjudication.",
     howto={"name": "How to deal with a FEMA contravention", "description": "Steps from discovery to closure.", "steps": [
         {"name": "List the contraventions", "text": "Late reports, missed approvals, wrong accounts, overseas investments."},
         {"name": "Pick the route", "text": "Late submission fee for reporting delays, compounding for the rest."},
-        {"name": "File the application", "text": "Compounding with the RBI: fee INR 10,000 plus GST and supporting documents."},
+        {"name": "File the application", "text": "Compounding with the RBI: the application with its fee and supporting documents."},
         {"name": "Pay and close", "text": "Pay the compounding amount within 15 days of the order."},
         {"name": "Reply to any notice", "text": "If a show cause notice arrives, respond on time and consider appeal routes."}]})]
 

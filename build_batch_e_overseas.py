@@ -239,7 +239,7 @@ write_page("uae-incorporation-indian-founder", page(
         ("What is UAE Economic Substance Regulations (ESR)?",
          "ESR requires UAE entities carrying out Relevant Activities (banking, insurance, fund management, HQ, holding, IP, distribution, lease-finance, shipping, service centre) to demonstrate substance in UAE &mdash; core income-generating activities, adequate employees, adequate expenditure, physical premises. Annual notification + report filed with the regulatory authority. Non-compliance penalty AED 20K-50K+."),
         ("Does BQP handle UAE incorporation for Indian founders?",
-         "Yes. We co-ordinate IFZA / DMCC / Meydan / DIFC setup, Golden Visa application support, UAE bank account introduction, Corporate Tax + ESR + TP registration, and FEMA ODI on India side. Standard package SGD-equivalent for Free Zone setup starts at USD 10,000 all-in including investor visa and bank account introduction. Request via get-a-quote.html."),
+         "Yes. We co-ordinate IFZA / DMCC / Meydan / DIFC setup, Golden Visa application support, UAE bank account introduction, Corporate Tax + ESR + TP registration, and FEMA ODI on India side. Free Zone set-up costs depend on the zone, licence type and visas needed - book a call for a quote covering the investor visa and bank account introduction. Request via get-a-quote.html."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),

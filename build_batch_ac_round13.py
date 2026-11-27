@@ -203,7 +203,7 @@ PAGES = [
              "</ul>"),
             ("/ Building defensible substance", "The playbook.",
              "<ol>"
-             "<li>Singapore operating cost budget: SGD 300K-500K+ annually for genuine substance (3+ employees + office + specific operations).</li>"
+             "<li>Singapore operating cost budget: enough for genuine substance (3+ employees + office + specific operations).</li>"
              "<li>Singapore-resident directors (minimum 1 required by Singapore law; recommend 2+ for substance).</li>"
              "<li>Monthly board meetings in Singapore with specific commercial decisions (not just rubber-stamping).</li>"
              "<li>Local banking + specific transaction history (not just dividend pass-through).</li>"
@@ -228,7 +228,7 @@ PAGES = [
         ],
         "faqs": [
             ("What makes a Singapore holding GAAR-proof?",
-             "Economic substance: 1-3+ local employees + physical office + local decision-making + local banking + Singapore tax paid + commercial rationale beyond tax (regional HQ / treasury / sales). Operational budget SGD 300K-500K+ annually. Specific documentation: substance file for GAAR + PPT defence."),
+             "Economic substance: 1-3+ local employees + physical office + local decision-making + local banking + Singapore tax paid + commercial rationale beyond tax (regional HQ / treasury / sales). A meaningful annual operating budget is needed. Specific documentation: substance file for GAAR + PPT defence."),
             ("Does India-Singapore DTAA capital gain exemption still work?",
              "Post 2016 Protocol: full capital gain exemption tapered. Residual benefits exist for specific grandfathered acquisitions pre-2017. Current structures: capital gain on share sale by Singapore holding of Indian stepdown largely taxable in India at applicable rates. Specific DTAA relief for interest + dividend + royalty rates remains available."),
             ("What's MLI PPT and how does it affect Singapore structures?",
@@ -243,7 +243,7 @@ PAGES = [
         "cta_h": "Singapore holding + Indian stepdown GAAR substance?",
         "cta_b": "Substance review + build + defence file + Indian compliance + repatriation. BQP + Singapore partner integrated engagement. WhatsApp +91 78018 87130.",
         "keywords": "Singapore holding Indian stepdown GAAR substance test CA India, Singapore holding India MLI PPT CA, Singapore substance Indian subsidiary CA India",
-        "desc": "Singapore holding Indian stepdown GAAR substance test CA India: economic substance requirements (local employees + premises + decision-making + banking + tax + commercial rationale), GAAR Section 95-102 + MLI PPT application, India-Singapore DTAA post-Protocol residual benefits, SGD 300K-500K+ substance budget, defensible structure playbook, dividend repatriation planning + BEPS Pillar 2. CA Durgesh Chavda Singapore-India specialist.",
+        "desc": "Singapore holding Indian stepdown GAAR substance test CA India: economic substance requirements (local employees + premises + decision-making + banking + tax + commercial rationale), GAAR Section 95-102 + MLI PPT application, India-Singapore DTAA post-Protocol residual benefits, substance budget, defensible structure playbook, dividend repatriation planning + BEPS Pillar 2. CA Durgesh Chavda Singapore-India specialist.",
     },
     {
         "slug": "delaware-c-corp-indian-engineering-center-transfer-pricing-ca",

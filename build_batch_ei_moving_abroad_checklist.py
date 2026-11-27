@@ -26,7 +26,7 @@ SLUG = "moving-abroad-from-india-becoming-nri-checklist-savings-account-to-nro-d
 C = contact("the country you are moving to, your move date, your Indian bank accounts, demat and mutual fund holdings, PPF/EPF, any property or loans, and whether you plan to return")
 PAGES = [dict(
     slug=SLUG,
-    title="Moving Abroad from India (2026): Becoming an NRI Checklist - Can You Keep Your Savings Account? NRO Conversion, Demat, Mutual Funds, PPF, EPF and Tax",
+    title="Moving Abroad from India (2026): Becoming an NRI Checklist - Can You Keep Your Savings Account? NRO Conversion, Demat, Mutual Funds, PPF, EPF, Tax and Tax Clearance Certificate",
     em="what to change in India when you move to the US, UK, Canada, Australia, Singapore or the Gulf.",
     kicker="/ Becoming an NRI &middot; Bank accounts &middot; Investments &middot; Tax &middot; Updated 2026-11-20",
     lead=("<strong>No, an NRI cannot keep an ordinary resident savings account.</strong> Under the FEMA deposit rules, your savings account, fixed deposits and recurring deposits must be <strong>redesignated as NRO accounts</strong> once you become non-resident, which usually means once you leave India for a job, business or an indefinite stay. "
@@ -66,6 +66,7 @@ PAGES = [dict(
           ("Can an NRO account be joint with a resident?", "Yes. An NRO account can be held jointly with a resident."),
           ("Do I need to update my demat and mutual funds when I move abroad?", "Yes. Demat and trading accounts must be converted to NRI accounts, and mutual fund folios need NRI status, an NRO or NRE bank mandate, an overseas address and FATCA details. Some fund houses restrict US and Canada residents."),
           ("Am I an NRI in the year I leave India for a job?", "An Indian citizen leaving for employment abroad is resident in that year only if in India for 182 days or more; the 60-day test does not apply."),
+        ("Do I need an income tax clearance certificate before leaving India?", "Almost certainly not if you are an Indian moving abroad for a job or study. The CBDT clarified in August 2024 that a person domiciled in India needs a tax clearance certificate only in rare cases - where they are involved in serious financial irregularities and their presence is needed for an investigation, or where direct tax arrears above INR 10 lakh are outstanding and not stayed - and only after the tax officer records reasons with senior approval. The 2024 amendment that added Black Money Act dues to the rule did not change this. A foreign national who came to India for employment or business is handled differently: before final departure the employer usually gives the tax office an undertaking that any tax due will be paid. In every case, clear the year's tax, file the return and settle any outstanding demand before you go. WhatsApp +91 78018 87130 with your departure date, residential status and any demand shown on the portal, or book a call."),
           ("Can BQP help me before I move abroad?", "Yes. " + C)],
     related=[("nre-nro-fcnr-account-tax-rules.html", "NRE, NRO and FCNR accounts"), ("residential-status-calculator-india-nri-rnor-section-6.html", "Residential status calculator"),
              ("nri-ppf-account-rules-continue-maturity-premature-closure-extension-repatriation-2026.html", "PPF for NRIs")],

@@ -101,7 +101,7 @@ PAGES = [dict(
              ("india-market-entry-foreign-company-guide.html", "India market entry playbook")],
     cta_h="Planning India for your company?", cta_b=C,
     keywords="doing business in India 2026, doing business in India guide, how to start a business in India as a foreigner, setting up wholly owned subsidiary in India, India FDI policy 2026, corporate tax rate India foreign company, India subsidiary resident director, foreign company India compliance, repatriate profits India",
-    desc="Doing business in India 2026 for foreign companies: wholly owned subsidiary as the usual vehicle, 100% FDI automatic in most sectors, about 25% tax (branch 35%), 5-15% treaty withholding, resident director, FC-GPR and FLA, no equalisation levy or Pillar Two, and how to take money out.",
+    desc="Doing business in India 2026 for foreign companies: wholly owned subsidiary as the usual vehicle, 100% FDI automatic in most sectors, about 25% tax (branch 35%), treaty withholding on dividends, resident director, FC-GPR and FLA, no equalisation levy or Pillar Two, and how to take money out.",
     howto={"name": "How a foreign company starts doing business in India", "description": "Main steps.", "steps": [
         {"name": "Choose the structure", "text": "Subsidiary, liaison or branch office, employer of record or joint venture."},
         {"name": "Check the FDI route", "text": "Automatic in most sectors; government approval for land-border countries and capped sectors."},

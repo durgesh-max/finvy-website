@@ -585,7 +585,7 @@ PAGES = [
         "slug": "ca-for-india-dividend-repatriation-foreign-parent-step-by-step",
         "title": "CA for India Dividend Repatriation to Foreign Parent (Step-by-Step)",
         "hero_em": "post-DDT dividend tax + treaty rate execution.",
-        "lead": "Indian subsidiary paying dividend to foreign parent: post Dividend Distribution Tax (DDT) abolition April 2020, dividend taxed in shareholder's hands via Section 195 TDS. Default 20% + surcharge + cess; 10-15% under DTAA with TRC + Form 10F. Form 15CA + 15CB mandatory. Here's the complete step-by-step execution framework.",
+        "lead": "Indian subsidiary paying dividend to foreign parent: post Dividend Distribution Tax (DDT) abolition April 2020, dividend taxed in shareholder's hands via Section 195 TDS. Default 20% + surcharge + cess; the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Form 15CA + 15CB mandatory. Here's the complete step-by-step execution framework.",
         "kicker": "/ Dividend Repatriation Playbook &middot; Updated 2026-10-23",
         "sections_pairs": [
             ("/ Pre-dividend declaration", "Preparation.",
@@ -632,7 +632,7 @@ PAGES = [
             ("/ Common dividend repatriation mistakes", "Where companies trip.",
              "<ul>"
              "<li>Section 206AA 20% rate when foreign parent PAN missing + TRC/Form 10F also missing.</li>"
-             "<li>Over-withholding at 20% default when treaty rate (10-15%) applies with proper documentation.</li>"
+             "<li>Over-withholding at 20% plus surcharge and cess when a lower treaty rate applies with proper documentation.</li>"
              "<li>Section 194 (resident dividend TDS) confused with Section 195 (non-resident). Different rates + specific sections.</li>"
              "<li>Form 10F expired - TRC + Form 10F must be current for FY of dividend.</li>"
              "<li>Section 194 10% TDS on dividend to Indian shareholder confused with Section 195 for non-resident shareholder.</li>"
@@ -643,7 +643,7 @@ PAGES = [
         ],
         "faqs": [
             ("Is dividend from Indian subsidiary to foreign parent taxable in India?",
-             "Yes - post DDT abolition April 2020, dividend taxable in foreign parent's hands. Section 195 TDS at 20% default + 10-15% treaty rate under DTAA with TRC + Form 10F. Indian subsidiary deducts TDS + deposits + Form 27Q + Form 16A to foreign parent."),
+             "Yes - post DDT abolition April 2020, dividend taxable in foreign parent's hands. Section 195 TDS at 20% plus surcharge and cess, or the treaty rate for the parent's country under the DTAA with TRC + Form 10F. Indian subsidiary deducts TDS + deposits + Form 27Q + Form 16A to foreign parent."),
             ("What's the typical DTAA dividend rate?",
              "Varies by country: USA 15% (25% ownership) / 25% otherwise; UK 10% (10% ownership) / 15% otherwise; Singapore 10% (25% ownership) / 15% otherwise; UAE 10%; Mauritius 5% (10% ownership) / 15% otherwise; Netherlands/Germany/France 10%. TRC + Form 10F + beneficial ownership required to claim treaty rate."),
             ("Can we use buyback instead of dividend?",

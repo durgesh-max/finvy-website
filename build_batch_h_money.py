@@ -511,7 +511,7 @@ write_page("us-company-registration-from-india-2026", page(
          "<p>Total timeline: 3-6 weeks from kickoff to funded Mercury account.</p>"),
         ("/ Delaware vs Wyoming vs other states", "The practical choice.",
          "<p><strong>Delaware:</strong> standard for VC-track C-Corps. Delaware Court of Chancery, Delaware General Corporation Law, VC-friendly preferred-stock machinery. Delaware franchise tax USD 400+ annually using Assumed Par Value Method (critical to use the right method).</p>"
-         "<p><strong>Wyoming:</strong> lower-cost LLC alternative. Annual fee USD 60. Privacy-friendly (no public member disclosure). Pass-through tax. NOT VC-fundable.</p>"
+         "<p><strong>Wyoming:</strong> lower-cost LLC alternative. Annual report due each year. Privacy-friendly (no public member disclosure). Pass-through tax. NOT VC-fundable.</p>"
          "<p><strong>California, New York, Texas, Florida:</strong> rarely the right choice for an Indian founder's primary US entity unless the business specifically needs in-state presence (e.g., California office with California-resident founder). Delaware or Wyoming formation + foreign qualification in operating states is usually more efficient.</p>"
          "<p><strong>Nevada:</strong> occasionally considered for privacy but Delaware or Wyoming typically covers the same ground more cheaply.</p>"),
         ("/ EIN without SSN", "The non-US-resident founder route.",

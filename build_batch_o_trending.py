@@ -632,7 +632,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
          "</ul>"
          "<p>These three together give the Indian payer / Indian Tax Officer confidence to apply reduced treaty rate.</p>"),
         ("/ TRC - country-wise mechanics", "How to get TRC.",
-         "<p><strong>United States</strong>: Form 6166 from IRS. Apply via Form 8802 at least 45 days before needed. Fee USD 85. Can get up to 3 years at once. User account at IRS website.</p>"
+         "<p><strong>United States</strong>: Form 6166 from IRS. Apply via Form 8802 at least 45 days before needed. A user fee applies. Can get up to 3 years at once. User account at IRS website.</p>"
          "<p><strong>United Kingdom</strong>: HMRC Certificate of Residence. Request online via Government Gateway or by letter. Apply well before you need it.</p>"
          "<p><strong>UAE</strong>: FTA (Federal Tax Authority) Tax Residency Certificate. Apply via FTA portal. AED 500 individual / AED 1,750 commercial. 2-4 week processing.</p>"
          "<p><strong>Singapore</strong>: IRAS Certificate of Residence. Request via mytax.iras.gov.sg. 1-2 week processing.</p>"

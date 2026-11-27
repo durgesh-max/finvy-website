@@ -25,7 +25,7 @@ write_page("overseas-incorporation-guide-indian-founder", page(
         ("/ The six-way comparison", "US, UAE, Singapore, UK, Estonia, Hong Kong.",
          "<p><strong>US (Delaware / Wyoming):</strong> Default for VC-fundable startups. 21% federal + ~1-9% state corporate tax. Delaware franchise tax USD 400+. Delaware C-Corp supports US VC term-sheet mechanics. Wyoming LLC: lower cost, pass-through, not VC-fundable. US employee hiring + Stripe + Mercury banking.</p>"
          "<p><strong>UAE (Mainland / Free Zone):</strong> 9% Corporate Tax above AED 375,000 (post-2023). Free Zone Qualifying Person: 0% possible on qualifying income. No personal income tax (relevant if founder is UAE resident). Golden Visa + residency pathway. Weaker: VC infrastructure, enterprise-customer familiarity, employee pool for tech.</p>"
-         "<p><strong>Singapore (Pte Ltd):</strong> 17% corporate tax with partial exemption (effective 10-12% on first SGD 300K). GST 9%. Strong tax treaty network. Excellent VC infrastructure (Antler, Sequoia Southeast Asia, Golden Gate Ventures). Strong banking (DBS, OCBC, Mercury via partner). SGD 50-100K effective minimum operating cost per year.</p>"
+         "<p><strong>Singapore (Pte Ltd):</strong> 17% corporate tax with partial exemption (effective 10-12% on first SGD 300K). GST 9%. Strong tax treaty network. Excellent VC infrastructure (Antler, Sequoia Southeast Asia, Golden Gate Ventures). Strong banking (DBS, OCBC, Mercury via partner). Running costs are higher than the US options because of local director, secretary and audit requirements.</p>"
          "<p><strong>UK (Ltd):</strong> 25% corporation tax (19% for small-profit companies). GBP 100 incorporation. UK tax treaty network strong. Easier EU-facing entity post-Brexit. Weaker: no capital gains preferential rate at exit (ETMO replaced), ongoing CA / company secretary cost.</p>"
          "<p><strong>Estonia (OU, e-Residency):</strong> 20% distributed-profit tax &mdash; no tax on retained profits. e-Residency program allows fully-remote company setup. Attractive for digital-only businesses that reinvest. Weaker: limited banking without physical presence, lower treaty rate ambiguities, EU VAT compliance.</p>"
          "<p><strong>Hong Kong (Private Limited):</strong> 16.5% corporate tax; 0% on foreign-source income. Historically strong banking (though tighter post-2020). CPA and HK company secretary required. Weaker since 2020 political environment.</p>"),
@@ -57,7 +57,7 @@ write_page("overseas-incorporation-guide-indian-founder", page(
         ("Which overseas jurisdiction is best for Indian SaaS founders?",
          "Default: Delaware C-Corp if US VC is in the plan, Wyoming LLC if bootstrapped. The Indian SaaS founder landscape is heavily US-oriented &mdash; US customers, US VCs, US payment rails. Singapore or UAE become relevant for specific regional expansion. There is no universally-best; the honest answer requires modelling your 12-month funding plan + customer location + revenue profile."),
         ("What is the cheapest overseas jurisdiction to incorporate from India?",
-         "Estonia OU via e-Residency: ~EUR 300 incorporation + ~EUR 200/year ongoing. Wyoming LLC: ~USD 100 incorporation + USD 150-250/year. Delaware LLC: ~USD 90 + USD 400-700/year franchise tax. UAE Free Zone: USD 5,000-15,000 setup + USD 2,000-5,000/year. Cheapest doesn't mean best &mdash; weigh against your business needs."),
+         "Estonia OU via e-Residency and a Wyoming LLC usually have the lowest setup and running costs; a Delaware LLC adds an annual franchise tax; a UAE free zone company costs more to set up and renew because of licence and visa requirements. Cheapest doesn't mean best &mdash; weigh against your business needs."),
         ("Do I need to go to the US to incorporate in Delaware?",
          "No. Fully remote. Delaware incorporation + EIN (via Form SS-4 fax or international phone) + Mercury or Brex business bank account can all be done from India. Full setup typically 3-6 weeks. Even post-formation operations rarely require physical visit."),
         ("Does FEMA ODI apply to US / UAE / Singapore incorporation by Indian individuals?",
@@ -133,7 +133,7 @@ write_page("singapore-incorporation-indian-founder", page(
          "<li>83(b) + QSBS matter.</li>"
          "<li>Lower running cost than a Singapore company that needs a nominee director.</li>"
          "</ul>"
-         "<p>Many Indian founders use both: Delaware C-Corp as the parent, Singapore Pte Ltd as the Southeast Asia operating subsidiary. Costs ~USD 5-8K setup + USD 3-5K/year ongoing, but opens both US VC and SEA customer paths.</p>"),
+         "<p>Many Indian founders use both: Delaware C-Corp as the parent, Singapore Pte Ltd as the Southeast Asia operating subsidiary. It adds setup and annual running costs, but opens both US VC and SEA customer paths.</p>"),
     ],
     faqs=[
         ("Can an Indian citizen be the sole shareholder of a Singapore Pte Ltd?",

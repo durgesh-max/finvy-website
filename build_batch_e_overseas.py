@@ -218,7 +218,7 @@ write_page("uae-incorporation-indian-founder", page(
          "<li><strong>Choose activity classification</strong> &mdash; Trading, Consulting, Services, Industrial. Specific activity codes within each.</li>"
          "<li><strong>Reserve name</strong> with the authority. 1-3 days.</li>"
          "<li><strong>Initial approval</strong> + licence application. Depending on Free Zone, 1-3 weeks.</li>"
-         "<li><strong>Lease office space</strong> &mdash; Free Zones often bundle flexi-desk packages (AED 10K-30K/year); DIFC / ADGM higher.</li>"
+         "<li><strong>Lease office space</strong> &mdash; Free Zones often bundle flexi-desk packages; DIFC / ADGM cost more.</li>"
          "<li><strong>Receive licence</strong> + Chamber of Commerce membership (Mainland).</li>"
          "<li><strong>Investor residence visa</strong> processing (medical + Emirates ID + visa stamping) &mdash; 2-4 weeks after licence.</li>"
          "<li><strong>Bank account</strong> &mdash; most banks require resident director interview with Emirates ID. Processing 2-6 weeks (varies dramatically bank-to-bank; UAE banks have been tightening KYC post-2020).</li>"
@@ -430,7 +430,7 @@ write_page("hong-kong-incorporation-indian-founder", page(
          "<li>Minimum 1 shareholder.</li>"
          "<li>Minimum share capital HKD 1 (no concept of paid-up capital minimum in practice).</li>"
          "<li>HK registered office required.</li>"
-         "<li>HK-resident Company Secretary required &mdash; typically outsourced to a licensed CSP (Corporate Services Provider), HKD 5,000-15,000/year.</li>"
+         "<li>HK-resident Company Secretary required &mdash; typically outsourced to a licensed CSP (Corporate Services Provider), for an annual fee.</li>"
          "<li>Annual return filing with Companies Registry.</li>"
          "<li>Annual audit mandatory for all HK private companies regardless of turnover (unique globally).</li>"
          "</ul>"),
@@ -445,10 +445,10 @@ write_page("hong-kong-incorporation-indian-founder", page(
          "<p><strong>No capital gains tax, no VAT, no withholding on dividends to shareholders.</strong></p>"),
         ("/ Setup and banking", "The hard part is banking.",
          "<ol>"
-         "<li><strong>Name check</strong> at Companies Registry &mdash; HKD 100.</li>"
-         "<li><strong>Appoint HK Company Secretary</strong> via a Corporate Services Provider &mdash; HKD 5-15K/year.</li>"
-         "<li><strong>Incorporate</strong> &mdash; HKD 1,720 government fee + CSP service fee. 1-2 days online.</li>"
-         "<li><strong>Business Registration Certificate</strong> from Inland Revenue Department &mdash; HKD 2,150/year or HKD 5,650/3-year.</li>"
+         "<li><strong>Name check</strong> at Companies Registry &mdash; small fee.</li>"
+         "<li><strong>Appoint HK Company Secretary</strong> via a Corporate Services Provider &mdash; an annual service fee.</li>"
+         "<li><strong>Incorporate</strong> &mdash; government fee + CSP service fee. 1-2 days online.</li>"
+         "<li><strong>Business Registration Certificate</strong> from Inland Revenue Department &mdash; annual or three-year registration fee.</li>"
          "<li><strong>Bank account</strong> &mdash; the actual bottleneck. HSBC, Standard Chartered, Bank of China (HK), DBS HK have all tightened KYC post-2020. Non-resident founders with no HK ties frequently rejected. Alternatives: ZA Bank (virtual, remote-friendly), Airwallex (fintech), Statrys (fintech), Neat (fintech). Allow 4-12 weeks and often multiple rejections before successful account opening.</li>"
          "<li><strong>FEMA ODI</strong> on India side.</li>"
          "</ol>"
@@ -475,7 +475,7 @@ write_page("hong-kong-incorporation-indian-founder", page(
         ("Is Hong Kong still a good jurisdiction for Indian founders in 2026?",
          "Thinner than before. The core advantages (low tax, strong banking, international hub) remain in principle but banking has tightened dramatically post-2020. For new Indian founders without existing HK ties, Singapore or UAE often serves the same purposes with better remote-setup experience."),
         ("Can an Indian founder be sole director of HK Ltd?",
-         "Yes. HK has no residence requirement for directors or shareholders. However a HK-resident Company Secretary is required &mdash; this is handled by a Corporate Services Provider on a service basis for HKD 5,000-15,000/year."),
+         "Yes. HK has no residence requirement for directors or shareholders. However a HK-resident Company Secretary is required &mdash; this is handled by a Corporate Services Provider on a service basis for an annual fee."),
         ("What is the offshore profits claim in Hong Kong?",
          "A specific procedure where a HK Ltd declares that its profits derived during the year are from genuine offshore sources (outside HK). If accepted by IRD, those profits are 0% HK tax. Documentation requirements are heavy: evidence of where contracts were negotiated, who signed, where services were performed, where customers are. Not casual; needs preparation."),
         ("Can I open a HSBC HK business account as an Indian founder remotely?",

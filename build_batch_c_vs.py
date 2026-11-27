@@ -23,15 +23,15 @@ write_page("delaware-c-corp-vs-wyoming-llc", page(
          "<p><strong>Delaware C-Corp annual costs:</strong></p>"
          "<ul>"
          "<li>Franchise tax: minimum USD 400 (assumed par value method), typical USD 400-1,000 for early-stage, can run USD 5,000+ for growth-stage with high authorised shares.</li>"
-         "<li>Annual report: USD 50 filing fee.</li>"
-         "<li>Registered agent: USD 100-300.</li>"
-         "<li>Total year 1 steady state: typically USD 600-1,500.</li>"
+         "<li>Annual report: a state filing fee.</li>"
+         "<li>Registered agent: an annual service charge.</li>"
+         "<li>Running cost: higher, mainly because of the franchise tax - book a call for a quote.</li>"
          "</ul>"
          "<p><strong>Wyoming LLC annual costs:</strong></p>"
          "<ul>"
          "<li>Annual report: USD 60 (plus USD 0.0002 per asset dollar, capped low).</li>"
-         "<li>Registered agent: USD 50-150.</li>"
-         "<li>Total year 1 steady state: typically USD 150-250.</li>"
+         "<li>Registered agent: an annual service charge.</li>"
+         "<li>Running cost: lower - book a call for a quote.</li>"
          "</ul>"
          "<p>Delta over 5 years: roughly USD 3,000-7,000 saved in Wyoming &mdash; meaningful for bootstrapped founders, immaterial for VC-track companies.</p>"),
         ("/ Privacy", "Wyoming hides owner names; Delaware does not for LLCs either, but C-Corps vary.",
@@ -56,7 +56,7 @@ write_page("delaware-c-corp-vs-wyoming-llc", page(
     ],
     faqs=[
         ("Which state has lower incorporation cost: Delaware or Wyoming?",
-         "Wyoming. Formation fee: Wyoming USD 100, Delaware USD 90-200 depending on entity type. Annual compliance: Wyoming USD 150-250, Delaware USD 600-1,500. Over 5 years, Wyoming saves USD 3,000-7,000 for a standard early-stage entity."),
+         "Wyoming. Formation fee: a one-time state filing fee in each state, varying by entity type. Annual compliance: Wyoming USD 150-250, Delaware USD 600-1,500. Over 5 years, Wyoming saves USD 3,000-7,000 for a standard early-stage entity."),
         ("Can I convert from Wyoming LLC to Delaware C-Corp later?",
          "Yes. Delaware allows direct statutory conversion of an out-of-state LLC into a Delaware C-Corp. Done as an F-reorg (IRC Section 368(a)(1)(F)) the conversion is tax-free in the standard founder scenario. Timing: 30-60 days. If VC raise is likely, convert before the term sheet."),
         ("Does Form 5472 apply to Wyoming LLCs?",

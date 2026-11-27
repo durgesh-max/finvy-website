@@ -155,7 +155,7 @@ write_page("gift-city-vs-mauritius-vs-singapore-fund", page(
         ("Can an Indian fund manager set up a GIFT City IFSC fund without moving to Gujarat?",
          "Yes. GIFT City Fund Management Entity (FME) licensing has substance requirements (local directors, operational expenditure, physical office) but allows the manager's team to operate from India across multiple cities. Many Indian fund managers maintain Mumbai / Bengaluru main offices with a GIFT City FME office for substance."),
         ("What are typical fund setup costs across the three?",
-         "GIFT City IFSC: INR 20-40 lakh setup + INR 15-25 lakh per year ongoing (FME licensing + accounting + audit + legal). Mauritius GBL: USD 25-45K setup + USD 20-35K per year. Singapore VCC: SGD 30-60K setup + SGD 25-45K per year. All exclude the actual compliance / FA / fund-admin cost which scales with AUM."),
+         "Set-up and running costs differ by jurisdiction and depend on FME licensing, accounting, audit and legal work - book a call for a costed comparison. All exclude the actual compliance / FA / fund-admin cost which scales with AUM."),
         ("Does BQP structure funds in any of these three?",
          "Yes. GIFT City primary focus (strongest India angle); Mauritius for specific legacy / multi-jurisdiction mandates; Singapore VCC via co-ordinated counsel. Scoping covers investor base, India exposure, manager residence, strategy, and multi-year AUM plan. Request via get-a-quote.html."),
     ],

@@ -12,7 +12,7 @@ from build_lib import page, write_page
 # 1. NRI Form 10F e-filing mandatory
 write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
     slug="nri-form-10f-e-filing-mandatory-india-2026",
-    title="NRI Form 10F e-Filing Mandatory 2026 | PAN-less NRI Guide - BQP",
+    title="Form 10F (Now Form 41) e-Filing Mandatory for NRIs (2026): Who Must File, Validity, Filing Without PAN - BQP",
     description="Form 10F e-filing on Indian income tax portal mandatory post Oct 2023 for every NRI claiming DTAA treaty rate: electronic filing route, PAN-less registration for non-residents, TRC coordination, validity 1 year, consequences of non-filing. Complete 2026 practitioner's guide. CA Durgesh Chavda.",
     keywords="NRI Form 10F e-filing, Form 10F electronic India, PAN-less Form 10F NRI, Form 10F DTAA India, Form 10F mandatory 2026",
     hero_kicker="/ NRI Guide &middot; Form 10F &middot; Updated 2026-10-15",
@@ -30,7 +30,7 @@ write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
          "<li><strong>NRI claiming lower TDS deduction</strong>: when seeking refund of excess Section 195 TDS deducted at 20% default when treaty rate was 10-15%.</li>"
          "<li><strong>Foreign company receiving India-source income</strong>: dividend from Indian subsidiary, royalty from Indian licensee, service fee from Indian customer.</li>"
          "</ul>"
-         "<p>Without Form 10F + TRC, Indian payer must apply Section 195 default rate (20%) or Section 206AA PAN-absent rate (20%+). No treaty relief.</p>"),
+         "<p>Without Form 10F + TRC, Indian payer must apply the rate under the Act for that income (for example 30% plus cess on NRO interest, or 20% plus surcharge and cess on dividends or royalty under section 115A) or the higher no-PAN rate (old 206AA). No treaty relief.</p>"),
         ("/ What Form 10F contains", "The nine items.",
          "<ul>"
          "<li>Status of the taxpayer (individual / company / firm / other).</li>"
@@ -77,7 +77,7 @@ write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
         ("What is the validity of Form 10F?",
          "Tied to the associated TRC - typically 1 year. Both must be refreshed annually. Form 10F stays filed on the portal; new one must be filed for each new FY where DTAA benefit continues to be claimed."),
         ("What happens if an NRI doesn't file Form 10F?",
-         "DTAA treaty rate denied. Indian payer must apply Section 195 default rate (20%) or Section 206AA rate (20%+) where applicable. NRI can later claim refund by filing Indian ITR + Form 10F + TRC, but immediate TDS deduction is at higher rate."),
+         "DTAA treaty rate denied. Indian payer must apply the rate under the Act for that income (for example 30% plus cess on NRO interest, or 20% plus surcharge and cess on dividends or royalty under section 115A) or the higher no-PAN rate (old 206AA) where applicable. NRI can later claim refund by filing Indian ITR + Form 10F + TRC, but immediate TDS deduction is at higher rate."),
         ("Does Form 10F need to be in English?",
          "The India e-filing portal is in English. Form 10F is filled in English. Supporting TRC (from home country) can be in any language but English translation (certified) recommended for Indian payer / tax officer reference."),
         ("Does BQP help NRIs with Form 10F + TRC + DTAA claim?",

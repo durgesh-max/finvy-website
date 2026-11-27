@@ -22,7 +22,7 @@ C = contact("your GSTIN, state, turnover, whether you file monthly or quarterly 
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="GST Return Filing 2026: Which Returns to File, Due Dates (GSTR-1, GSTR-3B, QRMP, CMP-08, GSTR-9), Step-by-Step Process and Late Fee",
+    title="GST Return Filing 2026: Which Returns to File, Due Dates (GSTR-1, GSTR-3B, QRMP, CMP-08, GSTR-9), Step-by-Step Process, GSTR-3B Late Fee Per Day and Maximum Cap",
     em="nil returns are due too, and late fees run every day.",
     kicker="/ GST-registered businesses &middot; GST compliance &middot; Updated 2026-11-25",
     lead=("<strong>Most GST-registered businesses file two returns: GSTR-1 (sales) by the 11th and GSTR-3B (summary and tax payment) by the 20th of the next month, or quarterly under QRMP if turnover is up to &#8377;5 crore.</strong> "
@@ -67,6 +67,8 @@ PAGES = [dict(
           ("How do I file a GST return online?", "Log in to the GST portal, reconcile purchases with GSTR-2B, file GSTR-1 (or IFF), review the auto-drafted GSTR-3B, pay tax through the cash and credit ledgers and file with DSC or EVC."),
           ("Is a nil GST return mandatory?", "Yes. A registered person must file GSTR-1 and GSTR-3B even when there are no sales or purchases in the period; nil returns attract a lower late fee if filed late."),
           ("What is the late fee for GST returns?", "Rs 50 a day (Rs 20 a day for nil returns) for GSTR-3B and GSTR-1, subject to caps linked to turnover, plus 18% a year interest on tax paid late."),
+        ("What is the maximum late fee for GSTR-3B?", "The daily late fee (Rs 50 a day, or Rs 20 a day for a nil return, split equally between CGST and SGST) stops at a cap per return based on the previous year's aggregate turnover: Rs 500 for a nil return, Rs 2,000 for turnover up to Rs 1.5 crore, Rs 5,000 for Rs 1.5 crore to Rs 5 crore, and Rs 10,000 above Rs 5 crore. Interest at 18% a year under section 50 runs separately on any tax paid late, and a return cannot be filed after three years from its due date (section 39(11)), so old pending returns should be cleared quickly."),
+        ("What should I send to clear pending GST returns?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with your GSTIN, the list of returns pending (or a screenshot of the return dashboard), sales and purchase details for those months, and any notice received. We work out the tax, interest and late fee, file the pending GSTR-1 and GSTR-3B in order, and handle any cancellation or mismatch notice that has come up. You keep your own GST login."),
           ("What is the GST return due date for composition dealers?", "CMP-08 by the 18th of the month after each quarter and the annual GSTR-4, now due by 30 June after the year (confirm the current date on the portal)."),
           ("Can BQP file my GST returns?", "Yes. CA Durgesh Chavda files GSTR-1, GSTR-3B and annual returns, reconciles ITC, clears missed returns and handles GST notices. " + C)],
     related=[("what-is-input-tax-credit-and-how-to-claim-india-gst.html", "Input tax credit"),

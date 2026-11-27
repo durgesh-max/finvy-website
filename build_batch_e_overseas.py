@@ -95,7 +95,7 @@ write_page("singapore-incorporation-indian-founder", page(
          "<li>Company secretary required within 6 months of incorporation.</li>"
          "<li>Registered Singapore address.</li>"
          "</ul>"
-         "<p>The resident director requirement is the single operational constraint for Indian founders &mdash; without a Singapore-resident director, the entity cannot be registered. Options: hire a nominee director service (SGD 1,500-3,500 per year), move a founder to Singapore (via EntrePass / Employment Pass), or appoint a Singapore co-founder.</p>"
+         "<p>The resident director requirement is the single operational constraint for Indian founders &mdash; without a Singapore-resident director, the entity cannot be registered. Options: hire a nominee director service, move a founder to Singapore (via EntrePass / Employment Pass), or appoint a Singapore co-founder.</p>"
          "<p>Other vehicle types for specific use cases: Variable Capital Company (VCC) for funds, Limited Liability Partnership (LLP) for professional services.</p>"),
         ("/ Singapore corporate tax", "17% headline, lower effective.",
          "<p><strong>Headline rate:</strong> 17% on taxable income.</p>"
@@ -106,10 +106,10 @@ write_page("singapore-incorporation-indian-founder", page(
          "<p><strong>GST:</strong> 9% (post-2024). Registration mandatory if annual turnover exceeds SGD 1M, voluntary below.</p>"),
         ("/ Setting up from India", "The practical steps.",
          "<ol>"
-         "<li><strong>Name reservation</strong> via ACRA BizFile. SGD 15. 1-2 days.</li>"
+         "<li><strong>Name reservation</strong> via ACRA BizFile. A small fee applies; 1-2 days.</li>"
          "<li><strong>Appoint resident director</strong> &mdash; either move a co-founder on EntrePass / Employment Pass (processing 1-2 months) or engage a nominee director service.</li>"
-         "<li><strong>Engage company secretary</strong> &mdash; SGD 300-600 per year typically.</li>"
-         "<li><strong>Register the Pte Ltd</strong> with ACRA. SGD 300. Approval 1-3 days for standard filings.</li>"
+         "<li><strong>Engage company secretary</strong> &mdash; an annual service.</li>"
+         "<li><strong>Register the Pte Ltd</strong> with ACRA. Registration fee payable; approval 1-3 days for standard filings.</li>"
          "<li><strong>Open bank account</strong> &mdash; DBS Business, OCBC Business, UOB Business, or fintech alternatives (ANEXT, Aspire, Wise Business). Traditional bank accounts increasingly require resident director interview; fintechs are more remote-friendly.</li>"
          "<li><strong>Register for GST</strong> if applicable, Corppass for government-portal access.</li>"
          "<li><strong>Register for CPF</strong> if hiring Singapore-resident employees.</li>"
@@ -131,7 +131,7 @@ write_page("singapore-incorporation-indian-founder", page(
          "<li>Target is US VC capital.</li>"
          "<li>Payment rail is Stripe / Mercury / Brex.</li>"
          "<li>83(b) + QSBS matter.</li>"
-         "<li>Lower incorporation cost (DE ~USD 500/year total; SG ~SGD 2000-4000/year with nominee director).</li>"
+         "<li>Lower running cost than a Singapore company that needs a nominee director.</li>"
          "</ul>"
          "<p>Many Indian founders use both: Delaware C-Corp as the parent, Singapore Pte Ltd as the Southeast Asia operating subsidiary. Costs ~USD 5-8K setup + USD 3-5K/year ongoing, but opens both US VC and SEA customer paths.</p>"),
     ],
@@ -139,7 +139,7 @@ write_page("singapore-incorporation-indian-founder", page(
         ("Can an Indian citizen be the sole shareholder of a Singapore Pte Ltd?",
          "Yes. ACRA allows 100% foreign ownership. The only resident requirement is for at least one director to be ordinarily resident in Singapore &mdash; a Singapore citizen, PR, Employment Pass holder, or EntrePass holder. If no founder qualifies, a nominee director service fills the role."),
         ("Is Singapore cheaper than Delaware for incorporation?",
-         "No, usually not. Delaware is roughly USD 90 incorporation + USD 400-700/year franchise + USD 100-200/year registered agent = USD 600-1,000/year steady state. Singapore is roughly SGD 300 incorporation + SGD 1,500-3,500/year nominee director + SGD 300-600 company secretary + SGD 300-500 bookkeeping = SGD 2,500-5,000/year (USD 1,900-3,800). Delaware is cheaper for small operating entities."),
+         "No, usually not. Delaware's running costs are the state filing, the annual franchise tax and a registered agent. Singapore's running costs add a nominee director (if no founder lives there), a company secretary and bookkeeping, so they are usually higher than Delaware's. Delaware is cheaper for small operating entities."),
         ("Do I need a Singapore employment visa to run my Pte Ltd?",
          "Not technically to own it &mdash; but if you want to be the director (fulfilling the resident-director requirement) and / or draw a Singapore salary, you need Employment Pass or EntrePass. Alternative: nominee director + remote operation from India + draw dividend / consulting fee instead of salary."),
         ("What is Singapore's tax rate on dividends to Indian shareholder?",
@@ -155,7 +155,7 @@ write_page("singapore-incorporation-indian-founder", page(
         ("us-incorporation.html", "Guide", "US Incorporation (compare)"),
     ],
     cta_headline="Singapore makes sense for ~30% of Indian founders. The scoping call tells you.",
-    cta_body="A 60-minute scoping covers Delaware-vs-Singapore-vs-UAE-vs-UK across your actual business parameters &mdash; customers, VC plan, founder residence, product + regulatory profile. We produce written recommendation + cost model. Standard Singapore setup from BQP starts at SGD 3,500 all-in.",
+    cta_body="A 60-minute scoping covers Delaware-vs-Singapore-vs-UAE-vs-UK across your actual business parameters &mdash; customers, VC plan, founder residence, product + regulatory profile. We produce written recommendation + cost model. Book a call for an all-in quote for your Singapore set-up.",
 ))
 
 # 3. UAE for Indian founder

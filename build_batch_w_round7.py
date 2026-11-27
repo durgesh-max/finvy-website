@@ -331,7 +331,7 @@ PAGES.append({
          "<li><strong>95%+ digital receipts threshold</strong>: higher INR 3 crore / INR 75 lakh thresholds apply only if 95%+ receipts digital. Cash-heavy business doesn't qualify for higher limit.</li>"
          "<li><strong>Declaring profit below deemed %</strong>: triggers tax audit + books of accounts obligation. Common for low-margin business - must choose: deemed % profit OR normal regime with audit.</li>"
          "<li><strong>Non-specified profession under 44ADA</strong>: software consultancy / management consultancy / specific tech services - borderline cases. CBDT clarifications matter.</li>"
-         "<li><strong>Firm vs individual</strong>: 44ADA for individuals + HUF only (not firms / LLPs). 44AD covers partnership firm + individual + HUF.</li>"
+         "<li><strong>Firm vs individual</strong>: 44ADA covers resident individuals and partnership firms (not LLPs) - not HUFs. 44AD covers resident individuals, HUFs and partnership firms (not LLPs).</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
@@ -339,7 +339,7 @@ PAGES.append({
         ("What's the Section 44AD turnover threshold for 2026?",
          "INR 2 crore standard; INR 3 crore if 95%+ receipts digital (raised by the Finance Act, 2023 from AY 2024-25). Deemed profit 8% of gross receipts (6% for digital). Available for resident individual + HUF + Partnership firm (not LLP) + eligible business."),
         ("What's the Section 44ADA turnover threshold for 2026?",
-         "INR 50 lakh standard; INR 75 lakh if 95%+ receipts digital. Deemed profit 50% of gross receipts. Available for resident individual + HUF specified professionals (legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration + notified)."),
+         "INR 50 lakh standard; INR 75 lakh if 95%+ receipts digital. Deemed profit 50% of gross receipts. Available to resident individuals and partnership firms (other than LLPs) carrying on specified professions (legal, medical, engineering, architectural, accountancy, technical consultancy, interior decoration and other notified professions) - not to HUFs."),
         ("What is presumptive taxation?", "A scheme that lets small businesses and professionals declare income at a fixed percentage of turnover or receipts instead of keeping full books and getting a tax audit: 8% of turnover (6% for digital receipts) for eligible businesses under section 44AD, and 50% of gross receipts for specified professionals under section 44ADA. From tax year 2026-27 these are merged into section 58 of the Income-tax Act, 2025, with the same core rates."),
         ("Which ITR form is used for presumptive taxation?", "ITR-4 (Sugam) for resident individuals, HUFs and firms (other than LLPs) with total income up to Rs 50 lakh who opt for presumptive taxation; others, including those with capital gains beyond the simple cases or foreign assets, use ITR-3 (or ITR-5 for firms)."),
         ("Can I declare profit lower than 8% or 50%?",

@@ -20,7 +20,7 @@ PAGES = []
 # 1. Form 15H / 15G
 PAGES.append({
     "slug": "form-15g-15h-no-tds-declaration-india-2026",
-    "title": "Form 15G / 15H No-TDS Declaration India 2026 Checklist",
+    "title": "Form 15G / 15H (2026): How to Avoid TDS on FD Interest, Who Can Submit, NRI Rules and Checklist",
     "hero_em": "senior citizen + non-taxable income TDS avoidance.",
     "lead": "Form 15G (below 60 years) / Form 15H (senior citizen 60+) are self-declarations submitted to deductor (bank / company / payer) to avoid TDS on income (interest / dividend / rental) when overall taxable income is below exemption limit. Section 197A Income Tax Act. Here's the complete 2026 submission framework.",
     "kicker": "/ No-TDS Declaration Checklist &middot; Updated 2026-10-22",
@@ -64,9 +64,10 @@ PAGES.append({
         ("Can I submit 15H if I have multiple sources of income?",
          "Yes - submit to each deductor separately. 15H to Bank A for FD interest, 15H to Bank B for savings interest, 15H to company for dividend, 15H to tenant for rent. Each deductor independently decides based on their payment. But if your TOTAL income exceeds exemption, false 15H exposes you to Section 277 penalty."),
         ("What if I submit 15G/15H and later income exceeds exemption?",
-         "Immediate penalty exposure under Section 277 (prosecution + fine) for false declaration + Section 201 interest for TDS shortfall. Correct action: notify deductors immediately to start TDS deduction; file ITR correctly reflecting all income; pay any shortfall + interest. Prevention: conservative estimation + annual review."),
+         "Immediate penalty exposure under Section 277 (prosecution + fine) for false declaration + the tax and interest on the shortfall becoming payable by you. Correct action: notify deductors immediately to start TDS deduction; file ITR correctly reflecting all income; pay any shortfall + interest. Prevention: conservative estimation + annual review."),
         ("Does Form 15G/15H apply to NRIs?",
-         "No - specifically only for RESIDENT individuals / HUF / trust. NRIs cannot submit 15G/15H. For NRI income, specific TDS at Section 195 rates + treaty rate via Form 10F + TRC applies. Also NRI can claim refund of excess TDS via Indian ITR."),
+         "No - specifically only for RESIDENT individuals / HUF / trust. NRIs cannot submit 15G/15H. For NRI income, specific TDS at Section 195 rates + treaty rate via Form 41 (old 10F) + TRC applies. Also NRI can claim refund of excess TDS via Indian ITR."),
+        ("How can I avoid or reduce TDS on FD interest?", "For a resident, banks deduct TDS only when interest from that bank crosses INR 50,000 in the year (INR 1 lakh for senior citizens), at 10% with a PAN. If your total income is below the taxable limit, give the bank Form 15G (or 15H if you are 60 or over) at the start of the year; otherwise the TDS is simply credited against your tax when you file the ITR, and any excess is refunded. Splitting deposits across banks does not change the tax, only when it is deducted. For an NRI the rules are different: interest on NRE and FCNR deposits is tax-free and has no TDS, while NRO interest suffers TDS at about 31.2% (higher with surcharge) and Forms 15G / 15H cannot be used. An NRI can bring that down by giving the bank a tax residency certificate, Form 41 (old 10F) and PAN to get the lower DTAA rate for their country, or by applying for a lower or nil deduction certificate in Form 128 (old 13) where their actual tax is lower - and can always claim back excess TDS through the Indian return. Without a PAN, TDS goes up. WhatsApp +91 78018 87130 with your residential status, the banks and deposit types (NRE, NRO, FCNR or resident FD), the interest for the year and your Form 168 / AIS, or book a call."),
         ("What's the dividend TDS threshold for 15G/15H?",
          "Section 194 TDS on dividend from Indian company: 10% TDS above INR 10,000 per FY per person (threshold raised from INR 5,000 from 1 April 2025). 15G/15H can be submitted to company to avoid TDS when overall income is below exemption. Many Indian retail dividend recipients eligible for 15G/15H."),
         ("Does BQP help senior citizens with 15H + Indian ITR?",

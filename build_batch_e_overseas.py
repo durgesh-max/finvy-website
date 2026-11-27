@@ -282,7 +282,7 @@ write_page("uk-incorporation-indian-founder", page(
          "<ol>"
          "<li><strong>Name availability check</strong> at Companies House.</li>"
          "<li><strong>UK registered office</strong> &mdash; a registered office service is common; since March 2024 it must be an appropriate address (not a PO box) and the company also needs a registered email address.</li>"
-         "<li><strong>Incorporate</strong> via Companies House &mdash; online filing, GBP 100 fee, often approved within 24 hours.</li>"
+         "<li><strong>Incorporate</strong> via Companies House &mdash; online filing with a government fee, often approved within 24 hours.</li>"
          "<li><strong>HMRC registration</strong> for Corporation Tax (automatic within 3 months) and PAYE / VAT if applicable.</li>"
          "<li><strong>Bank account</strong> &mdash; HSBC, Barclays, Lloyds, NatWest; traditional banks require UK-resident director for interview or extensive video KYC. Fintech alternatives: Wise Business, Revolut Business, Starling &mdash; more remote-friendly, UK IBAN provided.</li>"
          "<li><strong>FEMA ODI</strong> on India side &mdash; Form FC (which replaced Form ODI Part I in August 2022) reported through your AD bank when the money is sent, then an Annual Performance Report each year.</li>"

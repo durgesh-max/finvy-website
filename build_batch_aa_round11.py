@@ -413,7 +413,7 @@ PAGES = [
             ("/ Post-filing + ongoing", "Share with Indian payer.",
              "<ul>"
              "<li>Share the filed Form 10F acknowledgement with the Indian payer.</li>"
-             "<li>Indian payer uses Form 10F + TRC + no-PE declaration to apply treaty rate (not 20% default) under Section 195.</li>"
+             "<li>Indian payer uses Form 10F + TRC + no-PE declaration to apply the treaty rate (instead of the rate under the Act) under Section 195.</li>"
              "<li>Form 10F valid for period covered by TRC (typically 1 year).</li>"
              "<li>Renew annually: new TRC + fresh Form 10F.</li>"
              "<li>If circumstances change (country of residence, treaty eligibility): refile Form 10F.</li>"

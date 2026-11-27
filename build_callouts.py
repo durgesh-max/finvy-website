@@ -308,7 +308,7 @@ TARGETS = {
     "seed-vs-series-a.html": ["fundstages"],
     "private-limited-company-registration-india-2026-spice-plus-name-check-documents-directors-process.html": ["coannual"],
     "nri-income-tax-slab-india-2026-27-new-old-regime-no-87a-rebate-basic-exemption-surcharge-tds.html": ["nritaxcalc"],
-    "fema-penalty-india-2026-section-13-violation-compounding-late-submission-fee-nri-company.html": ["femanri"],
+    "fema-penalty-india-2026-section-13-violation-compounding-late-submission-fee-nri-company.html": ["femanri", "femaconsultant"],
     "mutual-fund-taxation-india-2026-equity-debt-hybrid-ltcg-12-5-stcg-20-examples.html": ["goldtax"],
     "crypto-vda-tax-india-2026-complete.html": ["lottery"],
     "section-80d-health-insurance-tax-benefit-2026-25000-50000-parents-senior-citizens-section-126.html": ["edu80e"],

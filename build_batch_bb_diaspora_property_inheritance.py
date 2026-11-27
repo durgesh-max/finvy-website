@@ -75,7 +75,7 @@ PAGES.append(dict(
          table(["Point", "Rule for an NRI seller (2026)"], [
              ["Long-term (held more than 24 months)", "12.5% without indexation, plus surcharge and cess. The 20%-with-indexation option for property bought before 23 July 2024 is available only to resident individuals and HUFs, not NRIs."],
              ["Short-term (24 months or less)", "Taxed at slab rates; the buyer deducts 30% plus surcharge and cess."],
-             ["TDS by the buyer", "On an NRI sale the buyer must deduct tax at source. Without a certificate, buyers and banks deduct on the full sale price, which can be many times the actual tax. From 1 October 2026 a buyer can deposit it using Form 141 without a TAN."],
+             ["TDS by the buyer", "On an NRI sale the buyer must deduct tax at source. Without a certificate, buyers and banks deduct on the full sale price, which can be many times the actual tax. From 1 October 2026 a resident individual or HUF buyer can deposit it using Form 141 without a TAN."],
              ["Lower deduction certificate", "Apply online (Form 128 under section 395 of the Income-tax Act, 2025; Form 13 before April 2026) with the purchase cost and computation, so TDS is limited to the real tax. Apply before the sale agreement is signed."],
              ["Reinvestment exemptions", "Section 54 (section 82 of the 2025 Act) for a new house in India; section 54EC (section 85) bonds up to INR 50 lakh within six months. Both reduce Indian tax, but the gain may still be taxable where you live."],
              ["Indian return", "File the Indian return for the year of sale to claim back excess TDS and report the gain."],

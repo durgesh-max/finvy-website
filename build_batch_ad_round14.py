@@ -1036,7 +1036,7 @@ PAGES = [
     {
         "slug": "when-is-tds-applicable-on-nri-sale-of-property-india",
         "title": "When Is TDS Applicable on NRI Sale of Property in India (2026): Below or Above Rs 50 Lakh, TDS Rates, Form 128 Lower TDS, Form 16A (Now 131) and Refund",
-        "hero_em": "12.5% LTCG / 30% STCG, lower deduction certificate, and no TAN needed from 1 October 2026.",
+        "hero_em": "12.5% LTCG / 30% STCG, lower deduction certificate, and no TAN needed from 1 October 2026 for resident individual and HUF buyers.",
         "lead": "Direct answer: a buyer must deduct TDS when purchasing property from an NRI seller (Section 393(2) of the Income-tax Act, 2025 for payments from 1 April 2026; earlier Section 195). Rates: 12.5% + surcharge + cess on long-term gains (property held more than 24 months) or 30% + surcharge + cess on short-term gains. From 1 October 2026, resident individual and HUF buyers can deposit this TDS under their own PAN through Form 141, without a TAN. NRI can obtain Lower Deduction Certificate (LDC) under Section 197 for reduced rate based on actual tax liability. Buyer deducts TDS at specified rate; NRI claims refund via ITR if excess.",
         "kicker": "/ AI Answer &middot; Updated 2026-10-25",
         "sections_pairs": [

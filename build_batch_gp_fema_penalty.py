@@ -23,7 +23,7 @@ C = contact("what happened (late filing, investment without approval, money held
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="FEMA Penalty in India (2026): Section 13 Penalties, Compounding With the RBI and Late Submission Fees",
+    title="FEMA Penalty in India (2026): Section 13 Penalties, ED Notices, Compounding With the RBI and Late Submission Fees",
     em="most breaches can be fixed before a notice arrives.",
     kicker="/ FEMA &middot; Penalties &middot; Updated 2026-11-24",
     lead=("<strong>Under section 13 of the Foreign Exchange Management Act, a contravention can attract a penalty of up to three times the sum involved, or up to INR 2 lakh where the amount cannot be quantified, plus up to INR 5,000 a day while it continues.</strong> "
@@ -61,6 +61,8 @@ PAGES = [dict(
           ("What is the RBI compounding application fee?", "INR 10,000 plus GST under the Foreign Exchange (Compounding Proceedings) Rules, 2024. The RBI must pass an order within 180 days of the application, and the compounding amount is payable within 15 days of the order."),
           ("Is a FEMA violation a criminal offence?", "No. FEMA is a civil law with monetary penalties, though unpaid penalties are recovered strictly and holding assets abroad in breach of the law can also raise income tax and black money issues."),
           ("Who decides FEMA penalties?", "An adjudicating authority, typically in the Enforcement Directorate, after issuing a show cause notice. Orders can be appealed to the Special Director (Appeals) or the Appellate Tribunal for Foreign Exchange matters."),
+        ("What should I do if I get an ED notice under FEMA?", "Do not ignore it. The Enforcement Directorate investigates FEMA contraventions under section 37 and can issue summons or ask for documents, and adjudication of a penalty starts only with a show cause notice. Read exactly what the notice asks for and by when, collect the bank records, RBI filings and approvals for the transactions in question, and reply or appear on time with a factual, documented account. Contraventions of section 3(a) are compounded by the ED itself, while the RBI compounding route asks for an undertaking that you are not under ED investigation - so check early which route is still open. If a penalty order is passed, the appeal lies to the Special Director (Appeals) or the Appellate Tribunal."),
+        ("What should I send if I have received an ED notice or FEMA show cause notice?", "WhatsApp +91 78018 87130 or email info@bharatquantumprospera.com with the notice or summons, the transactions it refers to (bank statements, remittance records, Form 145 / 146 or FIRC copies), any RBI filings or approvals such as FC-GPR, ODI or LRS records, and earlier correspondence with your bank or the RBI. We review the exposure, prepare the reply and documents, and advise whether compounding is available."),
           ("Can BQP help with a FEMA penalty or compounding?", "Yes. " + C)],
     related=[("fema-compounding-foreign-subsidiary-india.html", "FEMA compounding for foreign subsidiaries"),
              ("fema-health-check-foreign-owned-indian-company-fc-gpr-fla-compounding-2026.html", "FEMA health check"),

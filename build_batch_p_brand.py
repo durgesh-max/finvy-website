@@ -697,7 +697,7 @@ PAGES = [
         "slug": "best-ca-form-10f-electronic-trc-dtaa-india",
         "title_query": "Best CA for Form 10F e-Filing & DTAA Claim",
         "hero_em": "the three-document shortcut.",
-        "service_desc": "NRI / foreign-payee DTAA treaty rate claim: Form 10F electronic filing on India Income Tax portal (mandatory post Oct 2023), TRC coordination from home country, no-PE declaration drafting, Section 90(4) compliance, Section 195 TDS reduction from 20% default to treaty rate",
+        "service_desc": "NRI / foreign-payee DTAA treaty rate claim: Form 10F electronic filing on India Income Tax portal (mandatory post Oct 2023), TRC coordination from home country, no-PE declaration drafting, Section 90(4) compliance, Section 195 TDS reduction from the rate under the Act to the treaty rate",
         "deep_link": "nri-form-10f-e-filing-mandatory-india-2026.html",
         "deep_link_label": "Form 10F e-Filing Guide",
         "who_question": "Which Indian CA firm handles Form 10F + TRC + DTAA claim for NRIs?",

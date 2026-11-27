@@ -27,7 +27,7 @@ write_page("nri-form-10f-e-filing-mandatory-india-2026", page(
          "<ul>"
          "<li><strong>Any payment from India to non-resident claiming DTAA treaty rate</strong>: dividend, royalty, FTS, interest, capital gain, service fee. See our <a href='form-15ca-15cb-foreign-remittance-india.html'>Form 15CA/CB guide</a>.</li>"
          "<li><strong>NRI filing Indian ITR</strong>: when claiming reduced tax rate under DTAA (e.g., long-term capital gains at treaty rate).</li>"
-         "<li><strong>NRI claiming lower TDS deduction</strong>: when seeking refund of excess Section 195 TDS deducted at 20% default when treaty rate was 10-15%.</li>"
+         "<li><strong>NRI claiming lower TDS deduction</strong>: when seeking refund of excess TDS deducted at the rate under the Act when a lower treaty rate applied.</li>"
          "<li><strong>Foreign company receiving India-source income</strong>: dividend from Indian subsidiary, royalty from Indian licensee, service fee from Indian customer.</li>"
          "</ul>"
          "<p>Without Form 10F + TRC, Indian payer must apply the rate under the Act for that income (for example 30% plus cess on NRO interest, or 20% plus surcharge and cess on dividends or royalty under section 115A) or the higher no-PAN rate (old 206AA). No treaty relief.</p>"),
@@ -621,7 +621,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
     keywords="NRI DTAA claim practical, TRC Form 10F DTAA, Section 90(4) DTAA, DTAA treaty rate NRI India, DTAA no PE declaration NRI",
     hero_kicker="/ NRI Guide &middot; DTAA Practical &middot; Updated 2026-10-15",
     hero_title_html="DTAA claim as NRI, <em>the three-document shortcut.</em>",
-    hero_lead="India has Double Taxation Avoidance Agreements (DTAAs) with 90+ countries. If you're an NRI resident of a treaty country, your India-source income can be taxed at reduced treaty rate instead of Section 195 default (20%+). But claiming the treaty rate requires three documents in sequence: TRC from your country, Form 10F on Indian e-filing portal, and (sometimes) no-PE declaration. Here's exactly how to execute each.",
+    hero_lead="India has Double Taxation Avoidance Agreements (DTAAs) with 90+ countries. If you're an NRI resident of a treaty country, your India-source income can be taxed at reduced treaty rate instead of the rate under the Act (for example 30% plus cess on NRO interest). But claiming the treaty rate requires three documents in sequence: TRC from your country, Form 10F on Indian e-filing portal, and (sometimes) no-PE declaration. Here's exactly how to execute each.",
     sections=[
         ("/ The three documents - what each proves", "The chain.",
          "<ul>"
@@ -670,7 +670,7 @@ write_page("nri-dtaa-claim-practical-trc-form-10f", page(
         ("How long is TRC valid?",
          "Typically 1 year (calendar or fiscal year as specified by issuing authority). Must be renewed annually for continued DTAA claim. Form 10F validity is tied to TRC period. Plan ahead: processing times are set by each country's tax authority, so apply early."),
         ("What if NRI doesn't have TRC when payment is due?",
-         "Indian payer applies Section 195 default rate (20% + surcharge + cess). NRI pays higher tax upfront. Can obtain TRC later and claim refund via Indian ITR filing - 6-18 month wait. Plan ahead: obtain TRC + file Form 10F before major India-source income event (property sale, dividend declaration, royalty payment)."),
+         "Indian payer deducts at the rate under the Act for that income (for example 30% plus cess on NRO interest, or 20% plus surcharge and cess on dividends) or the higher no-PAN rate. NRI pays higher tax upfront. Can obtain TRC later and claim refund via Indian ITR filing - 6-18 month wait. Plan ahead: obtain TRC + file Form 10F before major India-source income event (property sale, dividend declaration, royalty payment)."),
         ("What is a no-PE declaration and when is it required?",
          "Declaration by NRI confirming they do NOT have a Permanent Establishment in India (fixed place of business, dependent agent, construction site over 6 months, service PE based on days threshold). Required for Article 7 business income exemption under DTAA. If NRI has Indian PE, business income taxable in India - treaty doesn't exempt."),
         ("Does DTAA apply to NRI capital gain on Indian securities?",

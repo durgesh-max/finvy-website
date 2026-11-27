@@ -13,14 +13,14 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
-A.UPDATED = "Last updated: 25 November 2026."
+A.UPDATED = "Last updated: 28 November 2026."
 SLUG = "penalty-section-270a-under-reporting-50-misreporting-200-immunity-270aa-now-section-439-440-2026"
 
 C = contact("the assessment order and penalty notice (section, assessment year, DIN), the additions made, and whether you have filed an appeal or paid the demand")
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Penalty Under Section 270A (Now Section 439): 50% for Under-Reporting, 200% for Misreporting, and Immunity Under 270AA (Now 440)",
+    title="Penalty Under Section 270A (Now Section 439): 50% for Under-Reporting, 200% for Misreporting, Immunity Under 270AA (Now 440) and When the Penalty Is Invalid",
     em="decide on immunity before the appeal clock runs out.",
     kicker="/ Taxpayers facing penalty notices &middot; Income tax &middot; Updated 2026-11-25",
     lead=("<strong>Section 270A of the Income-tax Act, 1961 (applicable from assessment year 2017-18) levies a penalty of 50% of the tax on under-reported income, rising to 200% where the under-reporting results from misreporting, such as suppressing facts, false entries or unrecorded receipts.</strong> "
@@ -59,6 +59,7 @@ PAGES = [dict(
           ("What is immunity under section 270AA?", "Immunity from the 270A penalty and from prosecution if you pay the tax and interest in the assessment order within the demand notice period and do not appeal, applying in Form 68 (Form 161 under section 440 of the 2025 Act). Under section 270AA the application was due within one month from the end of the month in which the order was received."),
           ("What is misreporting of income under section 270A?", "Misrepresentation or suppression of facts, failure to record investments, claiming expenditure not substantiated by evidence, recording false entries, failing to record receipts that affect total income, and failing to report an international or specified domestic transaction."),
           ("Can I appeal against a 270A penalty?", "Yes, before the Commissioner (Appeals). If you instead want immunity under section 270AA or 440, you must not appeal the assessment order."),
+        ("When is a section 270A penalty invalid, or likely to be set aside?", "The common grounds are these. The notice or order does not say which limb applies - under-reporting (50%) or under-reporting in consequence of misreporting (200%) - or does not identify which of the misreporting cases in section 270A(9) is alleged; courts and tribunals have set aside penalties for that vagueness. The addition falls within the exclusions in section 270A(6) - for example, an explanation that is bona fide with all material facts disclosed, or an addition made purely on an estimate where the accounts are correct and complete. The addition itself is deleted or reduced in appeal, so the penalty falls with it or must be recomputed. And procedural defects, such as an order passed after the time limit or a communication without a valid DIN. Whether a ground holds depends on the wording of your notice and order and the facts of the addition, so read them together before deciding between a reply, immunity (where the deadline has not passed) and an appeal. WhatsApp +91 78018 87130 with the assessment order, the penalty show-cause notice and any penalty order (with DINs), and the appeal status, or book a call."),
           ("Can BQP help with a 270A penalty notice?", "Yes. CA Durgesh Chavda can reply to the penalty notice, assess whether immunity or appeal is better, and file the application or appeal. " + C)],
     related=[("income-tax-appeal-cit-appeals-form-35-form-99-time-limit-30-days-fee-20-percent-pre-deposit-2026.html", "Income tax appeal to CIT(A)"),
              ("rectification-under-section-154-income-tax-now-section-287-time-limit-online-request-format-2026.html", "Rectification under section 154"),

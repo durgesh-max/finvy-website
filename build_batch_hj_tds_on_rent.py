@@ -21,7 +21,7 @@ C = contact("whether you are the tenant, landlord, buyer or seller, the monthly 
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="TDS on Rent Limit for FY 2026-27: Section 393 (Old 194-IB, 194-I and 194-IA), Rs 50,000 a Month, Rates and Property Purchase TDS",
+    title="TDS on Rent Limit for FY 2026-27: Section 393 (Old 194-IB, 194-I and 194-IA), Rs 50,000 a Month, Rates and Property Purchase TDS (Form 141 and Form 16B, Now Form 132)",
     em="new section numbers, same Rs 50,000 test.",
     kicker="/ Tenants, landlords and property buyers &middot; TDS &middot; Updated 2026-11-25",
     lead=("<strong>From 1 April 2026, TDS on rent and on property purchases is deducted under section 393 of the Income-tax Act, 2025, which replaced sections 194-IB, 194-I and 194-IA.</strong> "
@@ -62,6 +62,7 @@ PAGES = [dict(
           ("Which section replaced 194-IB under the Income-tax Act, 2025?", "Section 393(1), Table Sl. No. 2(i), from 1 April 2026. It keeps the 2% rate on rent above Rs 50,000 a month paid by individuals and HUFs not under audit, deducted once with the last month's rent of the year or tenancy."),
           ("Which section replaced 194-I?", "Section 393(1), Table Sl. No. 2(ii): 10% on rent for land, buildings, furniture or fittings and 2% on plant, machinery or equipment, where rent exceeds Rs 50,000 for a month or part of a month."),
           ("What is the new section for 194-IA TDS on property purchase?", "Section 393(1), Table Sl. No. 3(i): the buyer deducts 1% of the price or stamp duty value, whichever is higher, where it is Rs 50 lakh or more and the seller is resident."),
+        ("How do I get Form 16B (now Form 132) after paying TDS on a property purchase?", "Keep the challan acknowledgement you get when the TDS is paid through the challan-cum-statement (Form 141 under the new rules, old Form 26QB) - it is your proof of payment and carries the acknowledgement number. Form 16B, now Form 132 under the Income-tax Rules, 2026, is the TDS certificate for the seller: once the statement is processed, the buyer downloads it from TRACES and gives it to the seller, who uses it to claim credit; the buyer is required to issue it within 15 days of furnishing the statement. If the certificate is not available yet, wait for processing and check that the PANs, property value and amounts were entered correctly - a mistake needs a correction before credit shows in the seller's Form 168 (old 26AS). WhatsApp +91 78018 87130 with the challan acknowledgement, both PANs and the sale deed date, and we check the status and sort out any correction."),
           ("How much TDS is deducted on rent paid to an NRI landlord?", "Rent paid to an NRI falls under section 393(2) (old 195), not the resident rent entries. There is no Rs 50,000 threshold, the tenant needs a TAN, and TDS is at the rates for non-residents plus surcharge and cess unless a lower certificate applies."),
           ("Can BQP help with TDS on rent or property?", "Yes. CA Durgesh Chavda can confirm the section and rate, handle TDS for NRI landlords and sellers, apply for lower TDS certificates and fix missed TDS. " + C)],
     related=[("nri-rental-income-india-tenant-tds-31-2-percent-tan-form-144-2026.html", "TDS on rent paid to an NRI"),

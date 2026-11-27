@@ -250,6 +250,7 @@ BOXES = {
     "auditapp": ("Which audit applies?", 'Not sure which audit applies? See <a href="audit-applicability-india-company-llp-partnership-proprietorship-trust-statutory-tax-audit-limits-2026.html">Audit applicability by entity</a>.'),
     "tdsnotdep": ("TDS missing?", 'TDS cut from your salary but missing from Form 26AS? See <a href="tds-deducted-by-employer-but-not-deposited-section-205-cbdt-2016-credit-demand-what-to-do-2026.html">TDS deducted but not deposited</a>.'),
     "trust12ab": ("Trust or NGO?", 'Registering or renewing a trust or NGO? See <a href="trust-registration-12ab-section-332-80g-ngo-provisional-regular-renewal-form-104-105-2026.html">Trust registration under 12AB and 80G</a>.'),
+    "femaconsultant": ("FEMA filings?", 'Need FEMA filings done or fixed? See <a href="fema-consultant-india-fdi-odi-nri-rbi-filings-compounding-mumbai-delhi-bangalore-pune-hyderabad-chennai-2026.html">FEMA consultant: FDI, ODI, NRI and RBI filings</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -278,6 +279,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "fema-late-submission-fee-calculator-fc-gpr-fc-trs-form-di-fla-apr-lsf-rbi-2026.html": ["femaconsultant"],
     "audit-applicability-india-company-llp-partnership-proprietorship-trust-statutory-tax-audit-limits-2026.html": ["trust12ab"],
     "section-8-company-registration-india-non-profit-licence-12a-80g-csr-1-compliance-2026.html": ["trust12ab"],
     "stay-of-income-tax-demand-20-percent-rule-budget-2026-10-percent-how-to-apply-format-2026.html": ["tdsnotdep"],
@@ -543,9 +545,9 @@ TARGETS = {
     "repatriate-profits-india-foreign-parent.html": ["closeco", "fcap", "fcoitr", "doingbiz"],
     "aoc-4-filing-deadline-30-october-2026-late-fee-india.html": ["closeco", "fdesk", "coannual"],
     "mgt-7-mgt-7a-annual-return-29-november-2026-india.html": ["closeco", "fdesk", "dormant", "coannual"],
-    "form-fc-gpr-filing-checklist-india-2026.html": ["fdirules", "ffn", "fval", "ffema", "lsfcalc", "raiseforeign", "inc20a"],
-    "form-fc-trs-filing-checklist-india-2026.html": ["fdirules", "facq", "fval", "ffema", "lsfcalc", "sharetds", "unlist"],
-    "fla-return-foreign-liabilities-assets-rbi-india.html": ["fdirules", "fcal", "ffema", "lsfcalc"],
+    "form-fc-gpr-filing-checklist-india-2026.html": ["fdirules", "ffn", "fval", "ffema", "lsfcalc", "raiseforeign", "inc20a", "femaconsultant"],
+    "form-fc-trs-filing-checklist-india-2026.html": ["fdirules", "facq", "fval", "ffema", "lsfcalc", "sharetds", "unlist", "femaconsultant"],
+    "fla-return-foreign-liabilities-assets-rbi-india.html": ["fdirules", "fcal", "ffema", "lsfcalc", "femaconsultant"],
     "fdi-vs-fpi-india-startup-investment.html": ["fdirules", "fiigsec", "raiseforeign", "fpireg"],
     "uae-investor-investing-in-india-fdi-india-uae-bit-2024-dtaa-compliance.html": ["fdirules", "uaenri", "fqa", "ffta"],
     "india-telecom-fdi-100-automatic-2024.html": ["fdirules"],

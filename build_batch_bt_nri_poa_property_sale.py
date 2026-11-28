@@ -67,6 +67,7 @@ PAGES = [dict(
           ("How much TDS does the buyer deduct when buying from an NRI?", "TDS at non-resident rates on the sale consideration unless the NRI obtains a lower or nil deduction certificate, which lets the buyer deduct on the actual gain instead."),
           ("How much of the sale money can I send abroad?", "Up to USD 1 million per financial year from your NRO account, after tax, with Form 15CA and, where applicable, a CA's Form 15CB."),
           ("Does the buyer need a TAN to buy from an NRI?", "Not from 1 October 2026: the buyer can deduct and deposit TDS using PAN."),
+        ("Can an NRI sell property in India to another NRI?", "Yes. Under FEMA an NRI or OCI can sell residential or commercial property in India to a resident or to another NRI or OCI; agricultural land, a plantation or a farmhouse can be sold only to a resident Indian citizen. The NRI buyer pays from an NRE, NRO or FCNR account or by inward remittance, needs a TAN, deducts TDS on the sale price at the non-resident rates (unless the seller holds a lower deduction certificate) and files the TDS return. The seller files the Indian return and can repatriate within the USD 1 million limit with Forms 145/146. Book a call to plan both sides of the deal."),
           ("Can BQP handle the tax side?", "Yes. " + CONTACT)],
     related=[("nri-selling-indian-property-capital-gains.html", "Capital gains for NRIs selling property"),
              ("repatriate-money-from-india-to-abroad-nro-usd-1-million-15ca-15cb-2026.html", "Repatriation: USD 1 million, 15CA/15CB"),

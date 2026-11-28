@@ -20,7 +20,7 @@ C = contact("the date you returned (or plan to), your days in India in each of t
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="RNOR Status in India (2026): Conditions, How Many Years It Lasts, What Is Taxed and Planning for Returning NRIs",
+    title="RNOR (Resident but Not Ordinarily Resident) Status in India (2026): Conditions, How Many Years It Lasts, What Is Taxed and Planning for Returning NRIs",
     em="the window when foreign income stays outside Indian tax.",
     kicker="/ Returning NRIs and expats &middot; Residential status &middot; Updated 2026-11-25",
     lead=("<strong>RNOR (resident but not ordinarily resident) is a middle residential status for people who become resident in India after years abroad.</strong> "
@@ -60,6 +60,7 @@ PAGES = [dict(
          + sources("Income-tax Act, 1961, section 6(1), 6(1A) and 6(6); Income-tax Act, 2025, section 6 (same tests, per the site's section mapping); site pages on expat tax, H-1B returnees, deemed residence and foreign retirement accounts. Residential status depends on exact days; confirm with your travel records. Checked 25 November 2026.")),
     ],
     faqs=[("What is RNOR status in India?", "Resident but not ordinarily resident: a resident who was a non-resident in 9 of the 10 preceding years or spent 729 days or less in India in the 7 preceding years, plus some residents under the 120-day rule and deemed residents. An RNOR is taxed on Indian income but generally not on foreign income."),
+          ("What does resident but not ordinarily resident mean?", "Resident but not ordinarily resident (RNOR) is a residential status under section 6(6) of the Income-tax Act. You are resident for the year, but not ordinarily resident if you were non-resident in 9 of the 10 preceding years or in India for 729 days or less in the 7 preceding years. Indian citizens and persons of Indian origin treated as resident under the 120-day rule for Indian income above INR 15 lakh, and deemed residents, are also RNOR. An RNOR is taxed in India on Indian income and on foreign income only if it comes from a business controlled or a profession set up in India."),
           ("How many years does RNOR status last?", "There is no fixed period; it is tested every year. Returning NRIs commonly qualify for one to three years, depending on how many years they were non-resident and how many days they spent in India."),
           ("Is foreign income taxed in India for an RNOR?", "Generally no, unless it is received in India or comes from a business controlled or a profession set up in India. Indian income is taxed as for any resident."),
           ("Does an RNOR have to report foreign assets in Schedule FA?", "No. Schedule FA applies only to residents who are ordinarily resident, so the first ROR year is when foreign assets must be reported."),

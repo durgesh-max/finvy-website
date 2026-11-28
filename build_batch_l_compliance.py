@@ -279,7 +279,7 @@ write_page("section-56-2-x-gift-tax-india-2026", page(
          "<li><strong>Any specified movable property with inadequate consideration</strong> &mdash; difference between FMV and consideration if difference &gt; INR 50,000.</li>"
          "</ul>"
          "<p><strong>Specified movable property</strong>: shares + securities, jewellery, archaeological collections, drawings, paintings, sculptures, any work of art, bullion. Other movable property (e.g., car, laptop, watch) is generally NOT covered by 56(2)(x) &mdash; outside gift tax scope.</p>"
-         "<p><strong>Threshold mechanism</strong>: INR 50,000 is per FY aggregate per taxpayer across all gift receipts. The whole amount above INR 50,000 is taxable, not just the excess (slight nuance in how it's computed).</p>"),
+         "<p><strong>Threshold mechanism</strong>: INR 50,000 is per FY aggregate per taxpayer across all gift receipts. For sums of money, once the year's total from non-relatives exceeds INR 50,000, the whole total is taxable - not just the part above INR 50,000. From tax year 2026-27 the same rules continue under the Income-tax Act, 2025.</p>"),
         ("/ Who is a 'relative' under Section 56(2)(x)", "The exempt list.",
          "<p>Gifts from <strong>relatives</strong> are fully exempt regardless of amount. The exhaustive list under Explanation to Section 56(2)(x):</p>"
          "<p>For an individual:</p>"
@@ -320,11 +320,11 @@ write_page("section-56-2-x-gift-tax-india-2026", page(
          "<li>Not the actual cash paid &mdash; the stamp duty value.</li>"
          "<li>Example: father's friend 'sells' recipient a property for INR 10 lakh when stamp duty value is INR 50 lakh. INR 40 lakh is taxed in recipient's hands under 56(2)(x) (because consideration inadequate by &gt;10% + &gt; INR 50,000).</li>"
          "</ul>"
-         "<p><strong>Immovable property gift from relative</strong>: exempt under 56(2)(x). But for GST / stamp duty, actual stamp duty on gift deed still applies to the recipient.</p>"
+         "<p><strong>Immovable property gift from relative</strong>: exempt under 56(2)(x). Stamp duty on the gift deed still applies under state law (many states charge a concessional rate for gifts to close family).</p>"
          "<p><strong>Shares gift from non-relative</strong>:</p>"
          "<ul>"
          "<li>FMV of shares at receipt is taxed in recipient's hands at slab rate.</li>"
-         "<li>FMV determined by Rule 11UA (NAV method for unlisted; closing price for listed).</li>"
+         "<li>FMV is determined under Rule 11UA (a book-value formula for unlisted equity shares; the stock exchange price on the date of receipt for listed shares).</li>"
          "<li>Example: friend gifts you shares of your Indian startup worth INR 5 lakh. Recipient pays slab tax on INR 5 lakh.</li>"
          "</ul>"
          "<p><strong>Shares gift from relative</strong>: exempt. Cost of acquisition for subsequent capital gains = original cost in donor's hands (Section 49(1)).</p>"
@@ -343,7 +343,7 @@ write_page("section-56-2-x-gift-tax-india-2026", page(
         ("Is cash gift above INR 50,000 from a friend taxable?",
          "Yes - friend is NOT a 'relative' under Section 56(2)(x). Cash gift from friend above INR 50,000 aggregate in a FY is fully taxable in recipient's hands at slab rate as 'Income from Other Sources'. Even multiple small gifts totaling above INR 50,000 in a FY become taxable."),
         ("Are marriage gifts taxable?",
-         "Gifts received by the individual on the occasion of his / her OWN marriage are fully exempt - any amount, from anyone. However: gifts to parents of bride/groom, gifts received at a sibling's wedding, gifts received post-marriage date all fall back under standard Section 56(2)(x) rules (INR 50,000 threshold + relative exemption)."),
+         "Gifts received by the individual on the occasion of his / her OWN marriage are fully exempt - any amount, from anyone. However: gifts to parents of bride/groom, gifts received at a sibling's wedding, gifts received long after the wedding and unconnected with it fall back under standard Section 56(2)(x) rules (INR 50,000 threshold + relative exemption)."),
         ("Is inheritance taxable in India?",
          "No. Section 56(2)(x) specifically exempts gifts received under will or by way of inheritance. India has no estate duty or inheritance tax. However: income earned from inherited assets after inheritance (e.g., rent, interest, capital gains on sale) is taxable in the inheritor's hands under normal provisions."),
         ("Does BQP help with gift tax planning?",

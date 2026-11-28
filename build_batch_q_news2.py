@@ -96,7 +96,7 @@ write_page("rule-9b-dematerialisation-2-year-anniversary-october-2026", page(
          "</ul>"),
         ("/ Who's exempt (recap)", "The scope.",
          "<ul>"
-         "<li><strong>Small companies</strong>: paid-up capital up to INR 4 crore + turnover up to INR 40 crore (Section 2(85)). Growth-stage startups cross this threshold quickly.</li>"
+         "<li><strong>Small companies</strong>: paid-up capital up to INR 10 crore and turnover up to INR 100 crore (raised from INR 4 crore / INR 40 crore with effect from 1 December 2025) (Section 2(85)). Funded startups often cross it.</li>"
          "<li><strong>Government companies</strong>.</li>"
          "<li><strong>Nidhi companies</strong>.</li>"
          "<li>Everyone else: in scope under Rule 9B.</li>"

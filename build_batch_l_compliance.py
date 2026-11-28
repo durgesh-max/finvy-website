@@ -10,7 +10,7 @@ from build_lib import page, write_page
 # 1. Dematerialisation of Unlisted Shares
 write_page("dematerialisation-unlisted-shares-india-mandatory", page(
     slug="dematerialisation-unlisted-shares-india-mandatory",
-    title="Dematerialisation of Unlisted Shares India | MCA Oct 2024 Mandate - BQP",
+    title="Dematerialisation of Unlisted Shares India | Rule 9B Deadline 30 June 2025 - BQP",
     description="MCA Rule 9B (Companies PAS Second Amendment Rules 2023) mandates demat form for all unlisted public and private company share transfers / allotments from Oct 2024. ISIN, NSDL/CDSL route, LLP exemption, penalty for non-compliance. Working CA guide by Durgesh Chavda.",
     keywords="dematerialisation unlisted shares India 2024, Rule 9B MCA demat mandate, ISIN private limited company, NSDL CDSL unlisted shares, Form PAS-6 compliance, private company demat requirement",
     hero_kicker="/ Blog &middot; Demat of Unlisted Shares &middot; Updated 2026-10-12",
@@ -28,9 +28,9 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "</ul>"
          "<p><strong>Exempt from Rule 9B:</strong></p>"
          "<ul>"
-         "<li>Small companies (paid-up capital up to INR 4 crore + turnover up to INR 40 crore under Section 2(85)).</li>"
+         "<li>Small companies (paid-up capital up to INR 10 crore and turnover up to INR 100 crore (raised from INR 4 crore / INR 40 crore with effect from 1 December 2025) under Section 2(85)).</li>"
          "<li>Government companies.</li>"
-         "<li>Nidhi companies and specific other categories per MCA notification.</li>"
+         "<li>Producer companies have a later deadline; Nidhis and wholly owned subsidiaries are relevant to the Rule 9A exemptions for unlisted public companies.</li>"
          "</ul>"
          "<p>In practice, most mid-sized Indian startups and growth-stage private companies cross the small-company threshold once their funding round or revenue scales &mdash; Rule 9B applies.</p>"),
         ("/ What non-compliance blocks", "Material consequences.",
@@ -40,7 +40,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "<li><strong>Buyback blocked</strong>.</li>"
          "<li><strong>Transmission (on shareholder death) blocked</strong>.</li>"
          "<li><strong>Form PAS-6 (Reconciliation of Share Capital Audit Report) filing</strong> &mdash; mandatory half-yearly filing starting 60 days from end of each half-year. Non-filing attracts penalty.</li>"
-         "<li>Potential Section 450 penalty under Companies Act (default where no specific penalty is specified) &mdash; up to INR 10,000 and INR 1,000 per day of continuing default.</li>"
+         "<li>Potential Section 450 penalty under the Companies Act (the general penalty where none is specified) &mdash; INR 10,000 plus INR 1,000 a day for a continuing default, subject to caps.</li>"
          "</ul>"
          "<p>Operational impact: your Series A term sheet closes, you need to allot new preferred shares, and demat is not set up. The round waits until demat is completed.</p>"),
         ("/ Step-by-step compliance", "The execution workflow.",
@@ -59,7 +59,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
          "<ul>"
          "<li><strong>Shareholders can't be reached</strong> &mdash; especially angel investors or ESOP holders who have moved jobs/countries. Chase relentlessly; document attempts.</li>"
          "<li><strong>Share certificates lost</strong> &mdash; original physical certificate missing. Need to issue duplicate under Rule 6, which has its own procedure (public notice, indemnity bond, Rule 6 cert).</li>"
-         "<li><strong>Foreign shareholders</strong> &mdash; need to open NRO / NRE-linked demat account or hold through FPI route. Longer timeline. KYC and FATCA / CRS declarations.</li>"
+         "<li><strong>Foreign shareholders</strong> &mdash; need a demat account with an Indian depository participant (repatriable for FDI holdings). Longer timeline. KYC and FATCA / CRS declarations.</li>"
          "<li><strong>Shareholders' bank account mismatch</strong> &mdash; demat KYC requires PAN + bank linkage; small folders often have outdated info.</li>"
          "<li><strong>ISIN approval delay</strong> &mdash; apply early.</li>"
          "<li><strong>Form PAS-6 skipped</strong> &mdash; many companies get the demat done but forget the half-yearly PAS-6 filing. Penalty accrues.</li>"
@@ -68,7 +68,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
     ],
     faqs=[
         ("Which companies must dematerialise shares under Rule 9B?",
-         "All unlisted public companies and private companies (except small companies, government companies, Nidhi companies). Small company threshold under Section 2(85): paid-up capital up to INR 4 crore + turnover up to INR 40 crore. Most growth-stage startups and mid-sized private companies cross this and are in scope."),
+         "Private companies other than small and government companies (Rule 9B), and unlisted public companies other than Nidhis, government companies and wholly owned subsidiaries (Rule 9A). Small company threshold under Section 2(85): paid-up capital up to INR 10 crore and turnover up to INR 100 crore (raised from INR 4 crore / INR 40 crore with effect from 1 December 2025). Many funded startups and mid-sized private companies cross this; whether Rule 9B applied by 30 June 2025 was judged on the FY 2022-23 accounts under the then limits."),
         ("What is the deadline for private company demat under Rule 9B?",
          "Rule 9B applies to private companies (other than small and producer companies) from 30 June 2025, after the MCA extended the original 30 September 2024 deadline (G.S.R. 131(E), 12 February 2025). Existing shareholders should have their physical shares dematerialised by then. From that date, any new issuance / transfer / buyback / transmission cannot proceed in physical form."),
         ("How do I get ISIN for my private limited company shares?",
@@ -85,7 +85,7 @@ write_page("dematerialisation-unlisted-shares-india-mandatory", page(
         ("insights.html", "Library", "All Guides"),
     ],
     cta_headline="Private company with shareholders still in physical form?",
-    cta_body="Compliance already overdue since Sep 2024. Blocks every new allotment / transfer / fundraising. BQP engagement: ISIN + RTA + shareholder coordination + PAS-6 filing. Standard 30-90 day execution scoped per shareholder count.",
+    cta_body="Compliance has been due since 30 June 2025. Blocks every new allotment / transfer / fundraising. BQP engagement: ISIN + RTA + shareholder coordination + PAS-6 filing. Scoped per shareholder count.",
 ))
 
 # 2. Section 148 / 148A Reassessment

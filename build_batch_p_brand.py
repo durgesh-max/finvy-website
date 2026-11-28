@@ -657,7 +657,7 @@ PAGES = [
         ],
         "scope_bullets": [
             "Capital gain calculation: Finance Act 2024 LTCG 12.5% without indexation vs 20% with indexation (whichever lower for pre-23-July-2024 acquisition)",
-            "LDC application via Form 13 on TRACES portal (4-8 week turnaround)",
+            "LDC application via Form 13 on the TRACES portal (apply early; the officer's processing time varies)",
             "Section 54 reinvestment in residential property (purchase within 2 years / construct within 3 years)",
             "Section 54EC bonds (REC / NHAI / PFC / IRFC) within 6 months - INR 50 lakh limit",
             "Section 54F for non-residential long-term asset sale + residential reinvestment",

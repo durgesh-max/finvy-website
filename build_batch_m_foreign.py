@@ -107,7 +107,7 @@ write_page("due-diligence-indian-company-foreign-buyer", page(
     keywords="due diligence Indian company foreign buyer, India M&A due diligence CA, tax due diligence India, financial DD India target, India target company diligence",
     hero_kicker="/ Foreign Clients &middot; India DD &middot; Updated 2026-10-13",
     hero_title_html="India target due diligence, <em>end to end from India.</em>",
-    hero_lead="Foreign M&amp;A buyer, VC fund, PE firm or strategic acquirer evaluating an Indian target: comprehensive remote due diligence delivered from India. Financial, tax, legal, FEMA, compliance, HR, IT, data room review. 3-6 week turnaround. Red-flag report + working-paper file + buyer counsel coordination. Here's what proper India DD looks like.",
+    hero_lead="Foreign M&amp;A buyer, VC fund, PE firm or strategic acquirer evaluating an Indian target: comprehensive remote due diligence delivered from India. Financial, tax, legal, FEMA, compliance, HR, IT, data room review. Red-flag report + working-paper file + buyer counsel coordination. Here's what proper India DD looks like.",
     sections=[
         ("/ The India DD stack", "Six workstreams.",
          "<p><strong>Standard India target DD covers six workstreams</strong>:</p>"
@@ -150,9 +150,9 @@ write_page("due-diligence-indian-company-foreign-buyer", page(
         ("/ Scope and fee framework", "How we scope.",
          "<p>India DD scope depends on target size + complexity:</p>"
          "<ul>"
-         "<li><strong>Small target (revenue &lt; INR 10 crore)</strong>: ~2-3 week turnaround. Financial + tax DD only. Scope-based pricing.</li>"
-         "<li><strong>Mid-market target (INR 10-100 crore)</strong>: 3-5 week turnaround. Full six-workstream DD. QoE build. Site visit if manufacturing/retail.</li>"
-         "<li><strong>Large target (INR 100 crore+)</strong>: 6-8 week turnaround. Full DD + QoE + synergy analysis + post-closing integration plan.</li>"
+         "<li><strong>Small target (revenue &lt; INR 10 crore)</strong>: financial + tax DD only. Scope-based pricing.</li>"
+         "<li><strong>Mid-market target (INR 10-100 crore)</strong>: full six-workstream DD. QoE build. Site visit if manufacturing/retail.</li>"
+         "<li><strong>Large target (INR 100 crore+)</strong>: full DD + QoE + synergy analysis + post-closing integration plan.</li>"
          "<li><strong>Follow-on diligence</strong>: for additional rounds / expansions. Standard retainer basis.</li>"
          "</ul>"
          "<p>BQP coordinates with buyer counsel (US / UK / Singapore counsel) + buyer internal finance team. Weekly status calls. Final report delivered in buyer's preferred format (PDF + Excel + Word for SPA input).</p>"),

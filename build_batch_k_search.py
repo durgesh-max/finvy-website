@@ -679,7 +679,7 @@ write_page("how-to-buy-us-stocks-from-india-2026", page(
 # 8. Form 26AS vs AIS vs TIS
 write_page("form-26as-vs-ais-vs-tis-india-2026", page(
     slug="form-26as-vs-ais-vs-tis-india-2026",
-    title="Form 26AS (Now Form 168) vs AIS vs TIS 2026: Meaning, Login, Download PDF, Password and Which to Use for ITR - BQP",
+    title="Form 26AS (Now Form 168) vs AIS (Annual Information Statement) vs TIS 2026: Meaning, Login, Download PDF, Password and Which to Use for ITR - BQP",
     description="Form 26AS vs AIS (Annual Information Statement) vs TIS (Taxpayer Information Summary) 2026: differences, which to download for ITR filing, reconciliation workflow, feedback mechanism, SFT (Specified Financial Transactions) reporting. CA Durgesh Chavda guide.",
     keywords="Form 26AS vs AIS 2026, AIS vs TIS difference, Annual Information Statement India, Taxpayer Information Summary, Form 26AS AIS reconciliation",
     hero_kicker="/ Blog &middot; Form 26AS vs AIS vs TIS &middot; Updated 2026-10-10",

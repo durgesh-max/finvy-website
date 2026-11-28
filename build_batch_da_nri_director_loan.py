@@ -48,7 +48,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="Loan from an NRI Director or Foreign Shareholder to an Indian Company (2026): ECB Rules, Director Loan Exemption, TDS on Interest and Filings",
+    title="Loan from an NRI Director or Foreign Shareholder to an Indian Company (2026): ECB (External Commercial Borrowing) Rules, Director Loan Exemption, TDS on Interest and Filings",
     em="for NRI founders in the Gulf, US, UK and Singapore funding their Indian company.",
     kicker="/ NRIs &middot; Foreign shareholders &middot; FEMA &middot; Updated 2026-11-18",
     lead=("Yes, an NRI director or a foreign shareholder can lend money to an Indian private company. Under the <strong>revised External Commercial Borrowing (ECB) framework in force from 16 February 2026</strong>, any person resident outside India, including an individual NRI, can be a recognised lender. There is no longer any need to hold a minimum equity stake. "

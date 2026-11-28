@@ -212,7 +212,7 @@ write_page("ca-for-nri-tax-return-filing", page(
 # 4. CA for FEMA ODI Compliance
 write_page("ca-for-fema-odi-compliance", page(
     slug="ca-for-fema-odi-compliance",
-    title="ODI Reporting Requirements and Timeline (2026): Form FC, UIN, APR by 31 December, Disinvestment, Late Fee and Compounding - CA for FEMA ODI Compliance - BQP",
+    title="ODI (Overseas Direct Investment) Reporting Requirements and Timeline (2026): Form FC, UIN, APR by 31 December, Disinvestment, Late Fee and Compounding - CA for FEMA ODI Compliance - BQP",
     description="CA for FEMA Overseas Direct Investment (ODI) compliance for Indian individuals and companies: Form FC reporting through the AD bank, UIN, Annual Performance Report (APR) by 31 December, arm's length valuation, late submission fee and compounding. ICAI-qualified. BQP.",
     keywords="CA for FEMA ODI compliance, FEMA ODI CA India, Form ODI CA, UIN RBI CA, Annual Performance Report FEMA, Overseas Investment Regulations 2022 CA, FEMA compliance Indian founder",
     hero_kicker="/ CA for FEMA ODI &middot; Overseas Investment",

@@ -1130,7 +1130,7 @@ PAGES = [
             ("Can NRI avoid LTCG via Section 54 reinvestment?",
              "Yes - Section 54 (for residential sale) / 54F (for other-asset sale) reinvestment in another Indian residential property. 1 year back / 2 years forward purchase / 3 years forward construction. If investment delayed: CGAS deposit by 31 July ITR year. Full LTCG exempt if conditions met. Property must be in India + 3-year lock-in."),
             ("How does FEMA repatriation work after NRI property sale?",
-             "FEMA USD 1M per FY per person (all NRO balances together) repatriation limit (for sale proceeds from inherited / previously-owned property). For NRE pathway: specific no-limit for current-income remittance + specific capital-receipt scenarios. Workflow: audit + Indian tax paid + Form 15CA + 15CB CA certificate + AD bank processes remittance. BQP standard 2-4 week turnaround."),
+             "FEMA USD 1M per FY per person (all NRO balances together) repatriation limit (for sale proceeds from inherited / previously-owned property). For NRE pathway: specific no-limit for current-income remittance + specific capital-receipt scenarios. Workflow: audit + Indian tax paid + Form 15CA + 15CB CA certificate + AD bank processes remittance."),
             ("Does BQP handle NRI property sale end-to-end?",
              "Yes - specialist NRI property-sale practice. Pre-sale planning + capital gain projection + LDC application + Section 54/54F planning + sale deed advisory + ITR filing + refund tracking + FEMA repatriation + Form 15CA/15CB + specific DTAA + specific FTC coordination with foreign CPA. For NRIs across US/UK/UAE/Singapore/Canada/Australia. WhatsApp +91 78018 87130."),
         ],

@@ -439,7 +439,7 @@ CROSSOVERS = [
              "<li>Fund engagement letter signed - portfolio-level framework agreement.</li>"
              "<li>Portfolio inventory + current state audit for all existing portfolio companies.</li>"
              "<li>Compliance roadmap for each portfolio + fund-level dashboard.</li>"
-             "<li>New acquisition DD request: 3-6 week turnaround standard; expedited for competitive processes.</li>"
+             "<li>New acquisition DD request: timeline agreed per deal, with an expedited track for competitive processes.</li>"
              "<li>Ongoing annual compliance for portfolio.</li>"
              "<li>Exit preparedness audit on pre-defined criteria.</li>"
              "<li>Quarterly fund-level reporting to GP + Investment Committee.</li>"

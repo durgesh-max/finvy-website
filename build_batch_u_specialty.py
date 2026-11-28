@@ -332,7 +332,7 @@ PAGES = [
              "<li>Foreign company entering India (US / UK / EU / Singapore / UAE) wanting remote-first delivery + integrated CA + CS + tax + legal under one firm.</li>"
              "<li>Foreign PE / VC fund with 5-30 Indian portfolio companies needing fund-level engagement + consistent compliance standards.</li>"
              "<li>NRI / US green card holder wanting cross-border India-US dual-tax coordination.</li>"
-             "<li>Mid-market M&A buyer wanting India target DD + SPA input + buyer counsel coordination (3-6 week turnaround).</li>"
+             "<li>Mid-market M&A buyer wanting India target DD + SPA input + buyer counsel coordination .</li>"
              "<li>Specialist matters: Form 15CB urgent, Section 148 response, FEMA compounding, DPDP compliance, Rule 9B demat remediation, PLI scheme application.</li>"
              "<li>SME IPO + Main Board IPO under INR 500 crore issue size.</li>"
              "</ul>"),

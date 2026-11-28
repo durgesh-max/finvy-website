@@ -14,14 +14,14 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
-A.UPDATED = "Last updated: 25 November 2026."
+A.UPDATED = "Last updated: 28 November 2026."
 SLUG = "partnership-firm-registration-india-online-documents-certificate-form-1-registrar-of-firms-2026"
 
 C = contact("the state where the firm will operate, the number of partners and whether any is an NRI, the business activity, and whether you already have a partnership deed")
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Partnership Firm Registration in India (2026): Online Process, Documents, Certificate, Form 1 and Why an Unregistered Firm Cannot Sue",
+    title="Partnership Firm Registration in India (2026): Online Process, Documents, Partnership Deed, Certificate, Form 1 and Why an Unregistered Firm Cannot Sue",
     em="optional in law, essential in practice.",
     kicker="/ Founders and family businesses &middot; Business registration &middot; Updated 2026-11-25",
     lead=("<strong>A partnership firm is formed by a partnership deed between two or more people; registering it with the state Registrar of Firms is optional under the Indian Partnership Act, 1932, but an unregistered firm and its partners cannot sue third parties to enforce the firm&rsquo;s contracts (section 69).</strong> "
@@ -59,6 +59,7 @@ PAGES = [dict(
     ],
     faqs=[("Is partnership firm registration compulsory in India?", "No. Registration with the state Registrar of Firms is optional under the Indian Partnership Act, 1932, but under section 69 an unregistered firm cannot sue third parties to enforce its contracts, and partners cannot sue the firm or each other on the partnership, so most firms register."),
           ("How do I register a partnership firm online?", "Draft and stamp the partnership deed, get the firm's PAN, then file the Form 1 statement signed by all partners with the state Registrar of Firms, online where the state allows it, with the deed, partners' ID and address proof, proof of the place of business and the state fee. The Registrar then issues a certificate of registration."),
+        ("What should a partnership deed contain?", "At minimum: the firm's name, business and principal place of business; the partners' names and addresses; the date the partnership starts and whether it is at will or for a fixed term; each partner's capital contribution; the profit and loss sharing ratio; and rules for drawings, bank account operation, admission and retirement of partners, death of a partner, dissolution, and settling disputes. For tax, the deed matters more than people expect: interest on capital (deductible up to 12% simple a year) and salary or remuneration to working partners (deductible within the section 40(b) limits based on book profit) are allowed only if the deed authorises them and states the rate or the method of working them out. Since 1 April 2025 the firm also deducts TDS on remuneration, interest and similar payments to partners above the threshold. Have the deed stamped under the state's stamp law before signing, and amend it by a supplementary deed when terms change. Book a call to draft or review the deed."),
           ("What documents are required for partnership firm registration?", "The stamped partnership deed, Form 1 signed by all partners, the firm's PAN, ID and address proof of each partner, and proof of the place of business such as a rent agreement or ownership document with an NOC."),
           ("What is the fee for partnership firm registration?", "Each state sets its own registration fee and stamp duty on the partnership deed, so check the state Registrar of Firms' portal for the current amounts."),
           ("Can an unregistered partnership firm file a case?", "It cannot sue a third party to enforce a contract, but courts have held the bar does not apply to statutory or common law rights. The firm can also register before filing the suit to cure the defect."),

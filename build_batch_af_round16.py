@@ -256,7 +256,7 @@ PAGES = [
     ),
     dict(
         slug="director-disqualified-section-164-2-din-deactivated-fix-india",
-        title="Director Disqualified Under Section 164(2): How to Fix It",
+        title="Director Disqualification Under Section 164(2) (2026): Disqualified Directors List, DIN Deactivation and How to Fix It",
         em="non-filing, disqualification and the way back.",
         kicker="/ MCA &middot; Director Disqualification &middot; Updated 2026-10-25",
         lead="If a company does not file its financial statements or annual returns for three continuing financial years, every director of that company is disqualified for five years under Section 164(2). The disqualification follows the director to every other company where they sit on the board. The fix is to bring the defaulting company's filings up to date and, where needed, approach the Registrar or the High Court.",

@@ -555,7 +555,7 @@ DEADLINE_ALERTS = [
             ("/ What goes in the return", "The data points.",
              "<ul>"
              "<li>Company CIN + PAN + registered office + applicable period.</li>"
-             "<li>Each MSE supplier: PAN + Udyam number + total outstanding amount + aging bucket (46-60 days / 61-90 days / 91-180 days / 180+ days).</li>"
+             "<li>Each MSE supplier: name, PAN, Udyam registration number, the amount due and the date from which it is due.</li>"
              "<li>Reason for delay (if specified).</li>"
              "<li>Interest payable under Section 15 MSMED (3x RBI bank rate compounded monthly).</li>"
              "</ul>"),

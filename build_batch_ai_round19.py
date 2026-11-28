@@ -176,7 +176,7 @@ PAGES = [
              ul("Applies to UAE entities of multinational groups with consolidated revenue of EUR 750 million or more in at least two of the four preceding years.",
                 "Entities whose first in-scope fiscal year ended before 30 April 2026 must register by 30 November 2026 (FTA Decision No. 12 of 2026); others have seven months from year-end.",
                 "Late registration can attract a penalty of AED 10,000 per entity.",
-                "India has its own Pillar Two rules; groups with Indian and UAE entities should coordinate both.") + src(*S_UAE) + updated("Confirm your tax period and obligations on the FTA portal.")),
+                "India has not enacted Pillar Two, so low-taxed Indian profits of an in-scope group can be picked up by the parent's or other countries' rules; groups with Indian and UAE entities should coordinate both.") + src(*S_UAE) + updated("Confirm your tax period and obligations on the FTA portal.")),
         ],
         howto=None,
         faqs=[

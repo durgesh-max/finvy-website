@@ -283,6 +283,7 @@ BOXES = {
     "rpt188": ("Related party contracts?", 'Contracts with your parent or directors? See <a href="related-party-transactions-section-188-companies-act-approval-arms-length-aoc-2-wholly-owned-subsidiary-2026.html">related party transactions under section 188 and AOC-2</a>.'),
     "dirloan185": ("Director loan?", 'Taking or giving a loan to your company? See <a href="loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html">loans to directors: section 185, exemption and deemed dividend</a>.'),
     "privplace42": ("Raising a round?", 'Issuing shares to investors? See <a href="private-placement-shares-section-42-pas-4-pas-3-60-days-allotment-200-persons-startup-fundraise-2026.html">private placement under section 42: PAS-4, 60-day allotment, PAS-3</a>.'),
+    "authcapsh7": ("Authorised capital?", 'Hitting your authorised capital limit? See <a href="increase-authorised-share-capital-sh-7-section-61-64-ordinary-resolution-30-days-before-fundraise-2026.html">increase authorised capital: section 61 and Form SH-7</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -311,6 +312,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "form-mgt-14-board-shareholder-resolution-filing-india-2026.html": ["authcapsh7"],
+    "private-placement-shares-section-42-pas-4-pas-3-60-days-allotment-200-persons-startup-fundraise-2026.html": ["authcapsh7"],
     "angel-tax-abolished-effective-date-which-year-startups-section-56-2-viib-2026.html": ["privplace42"],
     "section-43b-h-year-2-impact-buyers-mse-india.html": ["msmedelay"],
     "trust-registration-12ab-section-332-80g-ngo-provisional-regular-renewal-form-104-105-2026.html": ["fcra"],

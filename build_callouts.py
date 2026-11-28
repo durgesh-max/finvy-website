@@ -295,6 +295,7 @@ BOXES = {
     "nrijointacct": ("Joint account with parents?", 'Joint account with a parent in India? See <a href="nri-joint-bank-account-with-resident-parent-nre-nro-former-or-survivor-power-of-attorney-tax-2026.html">NRI joint bank accounts: former or survivor, power of attorney and tax</a>.'),
     "gstupinotice": ("GST notice over UPI?", 'GST notice over UPI receipts? See <a href="gst-notice-for-upi-transactions-small-traders-bank-receipts-registration-threshold-exempt-goods-how-to-reply-2026.html">GST notice for UPI transactions: thresholds, exempt goods and how to reply</a>.'),
     "startexport": ("Starting to export?", 'Planning your first export? See <a href="how-to-start-export-business-india-iec-gst-lut-rcmc-ad-code-documents-payment-realisation-2026.html">how to start an export business in India: IEC, GST LUT, RCMC and getting paid</a>.'),
+    "inheritabroad": ("Inherited from abroad?", 'Inherited money or assets from abroad? See <a href="inheritance-from-abroad-indian-resident-tax-fema-schedule-fa-foreign-estate-tax-bring-money-to-india-2026.html">inheritance from abroad: tax in India, FEMA and Schedule FA</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -323,6 +324,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "do-i-need-to-report-foreign-assets-itr-schedule-fa-who-must-file-penalty-2026.html": ["inheritabroad"],
     "gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html": ["startexport"],
     "loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html": ["loan2equity"],
     "change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html": ["objectclause"],
@@ -568,7 +570,7 @@ TARGETS = {
     "india-data-localisation-rbi-dpdp-foreign-saas.html": ["sep", "dpdpstatus"],
     "dpdp-act-india-foreign-company-compliance-2026.html": ["sep", "dpdpstatus"],
     "nri-inheritance-indian-property-tax-fema-2026.html": ["agri", "inhp", "cgcalc", "fwill", "frentcalc", "ussell", "nrihuf", "nripm", "giftdeed", "nriinheritshares"],
-    "inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html": ["agri", "inhp", "fwill", "nro2nre", "giftpar", "ussell", "uksell", "ausell"],
+    "inherit-money-property-from-india-living-in-uk-usa-canada-australia-2026.html": ["agri", "inhp", "fwill", "nro2nre", "giftpar", "ussell", "uksell", "ausell", "inheritabroad"],
     "best-ca-for-nri-tax-return-filing-india-2026.html": ["rent", "epf", "nrisal", "whichitr", "cafornri"],
     "nri-taxation-india-complete-guide.html": ["rent", "epf", "nrisal", "nrippf", "nrigold", "movingabroad", "nribonds", "nrielig"],
     "nri-tax-services-worldwide-by-country.html": ["rent", "movingabroad", "nristatus", "nripension", "nrigold", "nritaxcalc"],

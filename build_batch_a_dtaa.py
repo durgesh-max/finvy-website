@@ -236,7 +236,7 @@ write_page("india-mauritius-tax-treaty-dtaa", page(
         ("get-a-quote.html", "Mandate", "Get a firm quote"),
     ],
     cta_headline="Sitting on grandfathered Mauritius-held Indian equity?",
-    cta_body="Pre-exit diagnostics (LOB + PPT + GAAR) are the single most important workstream before an Indian portfolio exit. Legacy structures often fail current tests on substance. We audit, remediate, and defend &mdash; typically 60-90 days before the exit event.",
+    cta_body="Pre-exit diagnostics (LOB + PPT + GAAR) are the single most important workstream before an Indian portfolio exit. Legacy structures often fail current tests on substance. We audit, remediate, and defend &mdash; well before the exit event.",
 ))
 
 # 5. India-Chile DTAA

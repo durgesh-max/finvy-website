@@ -287,7 +287,7 @@ PAGES = [
              "<li>Unilateral APA with CBDT: certainty on TP method + markup for 5 years + rollback 4 years = 9-year certainty total.</li>"
              "<li>Bilateral APA: with CBDT + US IRS: certainty both sides + avoids double taxation.</li>"
              "<li>Multilateral APA: multiple jurisdictions.</li>"
-             "<li>Timeline: APA typically 24-36 months for bilateral; 12-18 months for unilateral.</li>"
+             "<li>Timeline: varies; unilateral IT-services APAs now have a two-year fast track, and bilateral APAs usually take longer because both authorities must agree.</li>"
              "<li>CBDT filing fee: set by the rules and linked to the value of international transactions (Rule 10F onwards).</li>"
              "<li>Cost: materially cheaper than specific TP audit + MAP defence.</li>"
              "</ul>"),

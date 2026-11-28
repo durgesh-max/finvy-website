@@ -160,7 +160,7 @@ write_page("india-market-research-foreign-company", page(
         ("Can BQP's research feed into our investment committee / board decision?",
          "Yes - deliverables are formatted specifically for investment-committee / board use: executive summary with go/no-go recommendation, 15-25 slide board deck, full report, data appendix. Final presentation delivered via Zoom to IC or board directly. Standard output for VC / PE / strategic investor use cases."),
         ("Does BQP handle India market research for foreign companies?",
-         "Yes - scope-based engagement typically 4-8 weeks. Multi-sector capability (SaaS, D2C, fintech, manufacturing, pharma, EdTech, clean energy). Co-ordinated with foreign-client strategy / corp dev / investment teams. WhatsApp +91 78018 87130."),
+         "Yes - scope-based engagement; the timeline is agreed at scoping. Multi-sector capability (SaaS, D2C, fintech, manufacturing, pharma, EdTech, clean energy). Co-ordinated with foreign-client strategy / corp dev / investment teams. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("india-market-entry-foreign-company-guide.html", "Guide", "India Market Entry"),

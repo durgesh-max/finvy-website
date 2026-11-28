@@ -724,7 +724,7 @@ write_page("india-iec-gst-customs-foreign-exporter-importer-2026", page(
          "<ul>"
          "<li><strong>Basic Customs Duty (BCD)</strong>: tariff based on HSN code. Varies 0-20%+ depending on product. Published in Customs Tariff.</li>"
          "<li><strong>Social Welfare Surcharge (SWS)</strong>: 10% on BCD.</li>"
-         "<li><strong>IGST on imports</strong>: 18% / 12% / 5% / 28% / nil depending on HSN. On (CIF value + BCD + SWS).</li>"
+         "<li><strong>IGST on imports</strong>: nil, 5%, 18% or 40% depending on HSN (the 12% and 28% slabs were removed from 22 September 2025). On (CIF value + BCD + SWS).</li>"
          "<li><strong>Compensation Cess</strong> (if applicable, luxury goods / tobacco / autos): additional.</li>"
          "<li><strong>Anti-dumping duty / countervailing duty</strong>: if notified for specific product + country of origin.</li>"
          "<li><strong>Customs clearance via Indian CHA (Customs House Agent)</strong>: Indian broker handles clearance; files Bill of Entry; pays duties.</li>"

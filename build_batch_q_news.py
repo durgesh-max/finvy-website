@@ -131,7 +131,7 @@ write_page("diwali-2026-bonus-perquisite-tax-india", page(
         ("/ GST obligations for employers", "The deemed supply.",
          "<ul>"
          "<li><strong>Schedule I Para 2 CGST Act</strong>: gift exceeding INR 50,000 in aggregate per employee per FY by employer to employee treated as deemed supply.</li>"
-         "<li>Employer must pay GST on such deemed supply at applicable rate (18% / 12% / 5% depending on category of gift).</li>"
+         "<li>Employer must pay GST on such deemed supply at applicable rate (5% or 18%, or 40% for specified luxury goods, depending on the item - the 12% and 28% slabs were removed from 22 September 2025).</li>"
          "<li>ITC on inputs used for making the deemed supply may be available if related to business purpose &mdash; but Section 17(5)(h) blocks ITC on 'goods lost / stolen / destroyed / written off / disposed by way of gift or free samples'.</li>"
          "<li>Practical impact: gifts above INR 50,000 per employee per FY become GST-cost expensive for employer. Many employers keep per-employee Diwali gift value below INR 50,000.</li>"
          "<li>Keep per-employee gift value documented for both direct tax perquisite rule (INR 5,000) + GST deemed supply rule (INR 50,000).</li>"
@@ -155,7 +155,7 @@ write_page("diwali-2026-bonus-perquisite-tax-india", page(
         ("Is gift voucher better than physical gift for Diwali?",
          "Tax-wise same treatment - both qualify as 'gift in kind' under Rule 3(7)(iv). Both get INR 5,000 FY exemption. Voucher is often preferred by employees for flexibility; physical gift is traditional. Mix is fine; aggregate value matters."),
         ("Does GST apply on Diwali gifts from employer?",
-         "If aggregate gift value exceeds INR 50,000 per employee per FY: deemed supply under Schedule I Para 2 CGST Act. Employer pays GST on deemed supply (18% / 12% / 5% depending on category). ITC on inputs blocked under Section 17(5)(h). Most employers keep per-employee gift value below INR 50,000 to avoid this."),
+         "If aggregate gift value exceeds INR 50,000 per employee per FY: deemed supply under Schedule I Para 2 CGST Act. Employer pays GST on deemed supply (5%, 18% or 40% depending on the goods, after the September 2025 rationalisation). ITC on inputs blocked under Section 17(5)(h). Most employers keep per-employee gift value below INR 50,000 to avoid this."),
         ("What if employer gives Diwali party / dinner instead of gift?",
          "Diwali office party / dinner for all employees is NOT a perquisite under Section 17(2) if provided to all employees as business entertainment. Rule 3(7)(iii) exempts recreational facilities provided uniformly to all employees. GST ITC on business entertainment typically blocked under Section 17(5). Prefer collective party over individual gift above threshold."),
         ("Does BQP help structure Diwali bonus for optimal tax?",

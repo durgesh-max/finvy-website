@@ -391,9 +391,9 @@ INDUSTRIES = [
         "industry_hero": "E-way bill + GST + ONDC + warehousing navigated.",
         "specific_issues": [
             ("E-way bill compliance (Rule 138)", "Mandatory for goods above INR 50,000; multi-state logistics requires systematic generation + reconciliation."),
-            ("GST on logistics services (18% / 12% / 5% depending on category)", "Transport by road / rail / air / sea; multi-modal logistics; cold chain."),
+            ("GST on logistics services (5% or 18% depending on the service and whether ITC is taken)", "Transport by road / rail / air / sea; multi-modal logistics; cold chain."),
             ("Place of Supply rules for logistics", "Movement of goods + Place of Supply triggers + IGST vs CGST+SGST."),
-            ("Warehousing + CDSC (Central Drug Standard) + FSSAI storage", "Sector-specific storage compliance for pharma / food warehousing."),
+            ("Warehousing + CDSCO (drug regulator) and FSSAI storage rules", "Sector-specific storage compliance for pharma / food warehousing."),
             ("ONDC (Open Network for Digital Commerce) integration", "Open network protocol - participation + settlement framework."),
             ("Section 194C TDS on transport contractors", "1% / 2% TDS; exceptions for small transport operators."),
             ("E-commerce operator duties for logistics marketplace", "Section 52 TCS + Section 194-O 1% TDS."),

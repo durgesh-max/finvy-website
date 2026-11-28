@@ -645,7 +645,7 @@ write_page("how-to-buy-us-stocks-from-india-2026", page(
          "<ul>"
          "<li><strong>Not filing W-8BEN with broker</strong> &mdash; broker withholds dividend at 30% instead of DTAA 25%. 5-percentage-point extra on every dividend. Fix: ensure W-8BEN is on file; re-sign every 3 years.</li>"
          "<li><strong>Not claiming Form 67 FTC</strong> &mdash; leaves US tax paid as sunk cost. Indian taxpayer pays slab tax on top of US 25%. Form 67 before ITR deadline recovers the FTC.</li>"
-         "<li><strong>Missing Schedule FA disclosure</strong> &mdash; mandatory for ROR taxpayers. Non-disclosure penalty under Black Money Act up to INR 10 lakh per undisclosed asset. US brokerage holdings always on Schedule FA.</li>"
+         "<li><strong>Missing Schedule FA disclosure</strong> &mdash; mandatory for ROR taxpayers. Non-disclosure can attract a Black Money Act penalty of INR 10 lakh for each year of non-disclosure (since 1 October 2024 not levied where the foreign assets other than immovable property total up to INR 20 lakh). US brokerage holdings always on Schedule FA.</li>"
          "<li><strong>Exceeding LRS limit</strong> &mdash; USD 250K per FY per individual. Family office structures use multiple individuals' separate limits. Keep running tally of all overseas remittances.</li>"
          "<li><strong>Breaking FEMA by using PayPal / crypto</strong> &mdash; investment remittance must flow through authorised dealer bank (not consumer PayPal, not crypto). Only broker-approved LRS channels.</li>"
          "<li><strong>Missing TCS credit on ITR</strong> &mdash; Section 206C(1G) TCS is deposited to your account; must be claimed as credit on ITR via Form 26AS reconciliation.</li>"

@@ -303,7 +303,7 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
     title="ITR Filing AY 2026-27 India | Deadlines + New Forms + Changes - BQP",
     description="ITR filing for Assessment Year 2026-27 (Financial Year 2025-26): due dates, new form changes, Section 115BAC default regime, Section 44AB tax audit threshold, Schedule FA, Schedule FSI, interest + penalty for late filing. Working CA guide.",
     keywords="ITR filing AY 2026-27, ITR deadline 2026, new ITR forms 2026, Section 115BAC default new regime, Section 44AB audit threshold 2026, ITR-2 ITR-3 2026, Schedule FA ITR",
-    hero_kicker="/ Blog &middot; ITR AY 2026-27 &middot; October 2026",
+    hero_kicker="/ Blog &middot; ITR AY 2026-27 &middot; November 2026",
     hero_title_html="ITR filing AY 2026-27, <em>deadlines, forms, changes.</em>",
     hero_lead="For Assessment Year 2026-27 (Financial Year 2025-26, income earned 1 April 2025 to 31 March 2026), ITRs are being filed through 2026. This is the current state: due dates, Section 115BAC default new tax regime, Section 44AB tax audit threshold, Schedule FA for foreign assets, ITR form choice, and the specific penalties for late filing or non-disclosure.",
     sections=[
@@ -334,7 +334,7 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
          "<p>Tax audit under Section 44AB is required if:</p>"
          "<ul>"
          "<li><strong>Business turnover</strong> exceeds INR 1 crore (threshold raised to INR 10 crore if cash receipts and cash payments together are &le; 5% of turnover and payments).</li>"
-         "<li><strong>Professional receipts</strong> exceed INR 50 lakh (threshold raised to INR 75 lakh if cash receipts and cash payments together are &le; 5%).</li>"
+         "<li><strong>Professional receipts</strong> exceed INR 50 lakh (a professional under section 44ADA with receipts up to INR 75 lakh and cash within 5% needs no audit if declaring at least 50% as profit).</li>"
          "<li><strong>Presumptive scheme taxpayers</strong> (Section 44AD / 44ADA) opting out below the deemed profit percentage, where income exceeds basic exemption.</li>"
          "</ul>"
          "<p>Audit report (Form 3CA/3CB + 3CD) filed by 30 September 2026; ITR due by 31 October 2026.</p>"),
@@ -349,15 +349,15 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
          "<li>Any other foreign asset or signatory authority.</li>"
          "</ul>"
          "<p><strong>Schedule FSI (Foreign Source Income)</strong> &mdash; mandatory for ROR to disclose foreign income (dividend, interest, capital gains, business, salary) and claim FTC (Foreign Tax Credit) under India-DTAA.</p>"
-         "<p><strong>Non-disclosure penalty under Black Money Act</strong> &mdash; up to INR 10 lakh per undisclosed foreign asset, plus potential prosecution. Non-disclosure is high-risk; make Schedule FA complete and accurate.</p>"
+         "<p><strong>Non-disclosure penalty under Black Money Act</strong> &mdash; a penalty of INR 10 lakh under section 43 of the Black Money Act for each year of non-disclosure (since 1 October 2024 not levied where the foreign assets other than immovable property total up to INR 20 lakh), plus possible prosecution. Non-disclosure is high-risk; make Schedule FA complete and accurate.</p>"
          "<p>NRIs and RNORs: Schedule FA is NOT required (they are taxed on India-source only, not worldwide). But once ROR status attaches, Schedule FA is mandatory from year 1 of ROR.</p>"),
         ("/ Common ITR filing mistakes AY 2026-27", "What we see.",
          "<ul>"
-         "<li><strong>Choosing wrong regime without modelling.</strong> New regime is default; old regime requires explicit election via Form 10IEA. Many salaried taxpayers accidentally stay on new regime without comparing.</li>"
+         "<li><strong>Choosing wrong regime without modelling.</strong> New regime is default; salaried taxpayers without business income pick the old regime in the ITR itself, while those with business income must file Form 10-IEA by the due date. Many taxpayers stay on the default without comparing.</li>"
          "<li><strong>Capital gains Schedule CG errors.</strong> Post-July-2024 LTCG at 12.5% without indexation. Common error: still applying old 20%-with-indexation rate for transfers after 23 July 2024.</li>"
          "<li><strong>TCS on LRS not claimed as credit.</strong> Form 27D must be matched; TCS flows into Form 26AS; claim as advance tax credit. Common oversight for first-time LRS remitters.</li>"
          "<li><strong>Schedule FA incomplete.</strong> Foreign brokerage accounts (US Fidelity / Schwab / Vanguard), foreign retirement accounts (401(k) / IRA), foreign bank accounts, UAE real estate &mdash; all must be disclosed year 1 of ROR status.</li>"
-         "<li><strong>Form 10F missed for DTAA treaty-rate withholding claims.</strong> If you received India-source payments with 25% TDS when treaty rate was 15%, the correct position is to have filed Form 10F in advance to the payer. Post-fact, refund via ITR with FTC/Section-199 claim.</li>"
+         "<li><strong>Form 10F missed for DTAA treaty-rate withholding claims.</strong> If you received India-source payments with 25% TDS when treaty rate was 15%, the correct position is to have filed Form 10F in advance to the payer. After the event, claim the excess TDS as a refund in the ITR on the treaty rate, backed by the tax residency certificate and Form 41.</li>"
          "<li><strong>NRI not filing even with India-source income.</strong> NRO interest, Indian mutual fund LTCG, Indian property rent &mdash; all require ITR if above basic exemption or if TDS has been deducted (to claim refund).</li>"
          "</ul>"
          "<p><em>Last updated: 2026-11-28.</em></p>"),
@@ -366,13 +366,13 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
         ("What is the ITR deadline for AY 2026-27 in India?",
          "31 July 2026 for non-audit taxpayers (individuals, HUFs, non-audit firms). 31 October 2026 for audit taxpayers. 30 November 2026 for transfer-pricing cases. Belated return allowed up to 31 December 2026 with Section 234F late fee + Section 234A interest. Updated return (ITR-U) up to 31 March 2029."),
         ("Is the new tax regime default for FY 2025-26?",
-         "Yes - Section 115BAC(1A) new regime is default from AY 2024-25 onwards. Old regime available but requires explicit election via Form 10IEA (filed before ITR due date). The new regime slabs are more favourable for taxpayers without large Section 80C/80D/HRA deductions; old regime wins where deductions exceed roughly INR 4-5 lakh at incomes above INR 10 lakh."),
+         "Yes - Section 115BAC(1A) new regime is default from AY 2024-25 onwards. The old regime is available but must be chosen: in the ITR itself if you have no business income, or by filing Form 10-IEA by the due date if you do. The new regime slabs are more favourable for taxpayers without large Section 80C/80D/HRA deductions; the old regime wins only where deductions are large, and the break-even depends on income, so model both."),
         ("What is the Section 44AB tax audit threshold?",
-         "Business turnover above INR 1 crore (or INR 10 crore if cash transactions are below 5%). Professional receipts above INR 50 lakh (or INR 75 lakh with low cash). Presumptive scheme (Section 44AD/44ADA) opt-out below deemed profit also triggers audit. Audit report Form 3CA/3CB + 3CD by 30 September 2026."),
+         "Business turnover above INR 1 crore (or INR 10 crore if cash transactions are below 5%). Professional receipts above INR 50 lakh (44ADA users with receipts up to INR 75 lakh, low cash and at least 50% declared as profit need no audit). Presumptive scheme (Section 44AD/44ADA) opt-out below deemed profit also triggers audit. Audit report Form 3CA/3CB + 3CD by 30 September 2026."),
         ("Do NRIs need to file an Indian ITR?",
          "Yes if NRI has India-source income above basic exemption (NRO interest, rental, Indian equity dividend, Indian property sale, Indian mutual fund redemption). ITR-2 for salary/capital gains income; ITR-3 for business income. NRIs are NOT required to file Schedule FA (foreign assets). Zero-India-source NRIs typically do not need to file."),
         ("What is Schedule FA and who files it?",
-         "Schedule Foreign Assets - mandatory for ROR (Resident and Ordinarily Resident) taxpayers to disclose all foreign bank accounts, foreign financial interests, foreign real estate, foreign retirement accounts, trusts, and signatory authorities. Non-disclosure penalty up to INR 10 lakh per asset under Black Money Act plus potential prosecution. NRIs and RNORs are NOT required to file Schedule FA."),
+         "Schedule Foreign Assets - mandatory for ROR (Resident and Ordinarily Resident) taxpayers to disclose all foreign bank accounts, foreign financial interests, foreign real estate, foreign retirement accounts, trusts, and signatory authorities. Non-disclosure can attract a penalty of INR 10 lakh under section 43 of the Black Money Act for each year of non-disclosure (since 1 October 2024 not levied where the foreign assets other than immovable property total up to INR 20 lakh), plus possible prosecution. NRIs and RNORs are NOT required to file Schedule FA."),
         ("Does BQP file ITRs for AY 2026-27?",
          "Yes - annual ITR filing for individual taxpayers (ITR-2 for salary/capital gains, ITR-3 for business income), NRIs (ITR-2 with DTAA relief claim), audit-case ITR-5 for firms, and ITR-6 for companies with transfer-pricing documentation. New-vs-old regime modelling included. WhatsApp +91 78018 87130."),
     ],
@@ -381,7 +381,7 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
         ("tcs-20-foreign-remittance-lrs-india-2026.html", "Blog", "TCS 20% on LRS"),
         ("new-vs-old-tax-regime-calculator.html", "Tool", "New vs Old Regime Calculator"),
     ],
-    cta_headline="ITR AY 2026-27 due by 31 October (audit) / already due 31 July (non-audit).",
+    cta_headline="ITR AY 2026-27: non-audit returns were due 31 July; audit cases 21 November 2026 (extended).",
     cta_body="Audit-case ITRs still open until 31 October 2026. Belated non-audit ITRs allowed until 31 December with Section 234F fee + interest. We handle individual / NRI / audit-case / transfer-pricing ITRs for AY 2026-27. WhatsApp Durgesh.",
 ))
 

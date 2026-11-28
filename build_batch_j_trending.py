@@ -416,7 +416,7 @@ write_page("section-194t-tds-partnership-firm-partners-india", page(
 # 6. Crypto VDA tax India 2026
 write_page("crypto-vda-tax-india-2026-complete", page(
     slug="crypto-vda-tax-india-2026-complete",
-    title="Crypto Tax India 2026: 30% Tax on Bitcoin and VDA Gains, 1% TDS, Minimum Amount, Losses and Notices - BQP",
+    title="Tax on Cryptocurrency in India (2026): 30% Crypto Tax on Bitcoin and VDA Gains, 1% TDS, Minimum Amount, Losses and Notices - BQP",
     description="Virtual Digital Asset (VDA) tax in India 2026: 30% tax on gains under Section 115BBH, 1% TDS under Section 194S above INR 50K/10K thresholds, VDA definition, no loss setoff, ITR schedule, exchange compliance. Working CA guide by Durgesh Chavda.",
     keywords="crypto tax India 2026, VDA tax India, 30% crypto tax, Section 194S 1% TDS, Section 115BBH, Bitcoin tax India 2026, Ethereum tax India, NFT tax India",
     hero_kicker="/ Blog &middot; Crypto VDA Tax &middot; Updated 2026-10-09",

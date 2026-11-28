@@ -524,7 +524,7 @@ write_page("india-market-entry-foreign-company-guide", page(
     ],
     faqs=[
         ("What's the standard entity for foreign company entering India?",
-         "Private Limited Company (Pvt Ltd) as 100% Wholly-Owned Subsidiary (WOS) of foreign parent. Chosen in ~90% of foreign market entries. Alternatives (Branch, Liaison, Project Office, LLP, JV) chosen in specific scenarios - sector restrictions, exploratory presence, time-bound projects."),
+         "Private Limited Company (Pvt Ltd) as 100% Wholly-Owned Subsidiary (WOS) of foreign parent. The most common route for foreign companies entering India. Alternatives (Branch, Liaison, Project Office, LLP, JV) chosen in specific scenarios - sector restrictions, exploratory presence, time-bound projects."),
         ("Does my FDI need government approval?",
          "Depends on sector + source. Automatic route for most sectors (IT, SaaS, trading, manufacturing, services) - no prior approval. Approval route for sector-capped (multi-brand retail 51%, defence 74%, print media 26%, insurance 74%). Press Note 3: any investment from countries sharing land border with India (China, Pakistan, Bangladesh, etc.) requires prior approval regardless of sector."),
         ("How long does India market entry take?",

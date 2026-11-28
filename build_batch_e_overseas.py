@@ -154,7 +154,7 @@ write_page("singapore-incorporation-indian-founder", page(
         ("india-singapore-tax-treaty-dtaa.html", "DTAA", "India-Singapore DTAA"),
         ("us-incorporation.html", "Guide", "US Incorporation (compare)"),
     ],
-    cta_headline="Singapore makes sense for ~30% of Indian founders. The scoping call tells you.",
+    cta_headline="Singapore makes sense for some Indian founders, not all. The scoping call tells you.",
     cta_body="A 60-minute scoping covers Delaware-vs-Singapore-vs-UAE-vs-UK across your actual business parameters &mdash; customers, VC plan, founder residence, product + regulatory profile. We produce written recommendation + cost model. Book a call for an all-in quote for your Singapore set-up.",
 ))
 
@@ -409,7 +409,7 @@ write_page("estonia-eresidency-indian-founder", page(
         ("uk-incorporation-indian-founder.html", "Guide", "UK Ltd (compare)"),
         ("us-incorporation.html", "Guide", "US (compare)"),
     ],
-    cta_headline="Estonia OU fits ~10% of Indian founders. Scoping tells you if you are one.",
+    cta_headline="Estonia OU suits a narrow set of Indian founders. Scoping tells you if you are one.",
     cta_body="Digital-only, EU customers, reinvestment-heavy, no need for traditional banking &mdash; that is the profile. We scope Estonia vs UK vs Delaware honestly, handle e-Residency application + OU incorporation + Wise onboarding + FEMA ODI. Package from EUR 1,500.",
 ))
 

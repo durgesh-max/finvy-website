@@ -60,6 +60,7 @@ write_page("best-ca-for-us-incorporation-india", page(
          "Standard scope: state formation (Certificate of Incorporation or Formation), registered agent, EIN via Form SS-4, Operating Agreement or Bylaws + Shareholder Agreement, Mercury or Brex bank introduction, FEMA ODI filing on India side, 83(b) election if applicable, and a year-1 compliance calendar. All priced in writing before kickoff. Fee scoped per engagement."),
         ("How quickly can BQP set up a US company for an Indian founder?",
          "Standard timeline: 4-6 weeks from engagement kickoff to funded Mercury bank account. Formation 1-5 days. EIN 2-8 weeks via Form SS-4 (phone route is faster than fax). Bank account 2-4 weeks. For urgent cases we can expedite with same-day Delaware formation and the IRS phone route for EIN."),
+        ("What should I send to start a US incorporation?", "Two or three proposed company names; the state you are considering (or let us compare Delaware and Wyoming for your plan); each owner's name, passport and percentage; a one-line description of the business and where customers are; whether you expect to raise investment or issue stock options (which points to a C-Corp rather than an LLC); and, for owners resident in India, the Indian bank you will use for the ODI remittance. Book a call to settle the structure before anything is filed."),
     ],
     related=[
         ("us-incorporation.html", "Hub", "US Incorporation Main Page"),

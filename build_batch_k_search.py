@@ -654,7 +654,7 @@ write_page("how-to-buy-us-stocks-from-india-2026", page(
          "<p><em>Last updated: 2026-10-10.</em></p>"),
     ],
     faqs=[
-        ("Can Indian residents legally buy US stocks?",
+        ("Is it legal to invest in US stocks from India?",
          "Yes. Under FEMA Liberalised Remittance Scheme (LRS), Indian resident individual can remit up to USD 250,000 per financial year for overseas investment including US stocks. Multiple SEBI-registered Indian platforms (Vested, INDmoney, Angel One Global, HDFC Securities Global) wrap the compliance into a simple account-opening flow."),
         ("What is the TCS on buying US stocks from India?",
          "20% TCS under Section 206C(1G) on LRS remittance above INR 10 lakh per financial year (cumulative across 'other' category remittances including investment). The 20% TCS is NOT a tax - it is advance tax credit, refundable via ITR. Use our LRS TCS Calculator for exact numbers."),

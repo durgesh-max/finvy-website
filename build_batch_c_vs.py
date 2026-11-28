@@ -66,7 +66,7 @@ write_page("delaware-c-corp-vs-wyoming-llc", page(
         ("Does QSBS (Section 1202) apply to a Wyoming LLC?",
          "No. QSBS applies to C-Corporation stock only. A Wyoming LLC member interest is not C-Corp stock, so QSBS does not apply. If QSBS eligibility matters, incorporate as a Delaware C-Corp from day one &mdash; the 5-year holding period starts from the C-Corp formation date. An LLC-to-C-Corp conversion resets the QSBS clock to the conversion date, not the LLC formation date."),
         ("Does BQP incorporate in both Delaware and Wyoming?",
-         "Yes. We handle both. Scoping typically starts with your 12-month funding plan &mdash; if US VC is on the horizon, Delaware C-Corp from day one. If not, Wyoming LLC with built-in conversion documentation if the plan changes. Request via get-a-quote.html."),
+         "Yes. We handle both. Scoping typically starts with your 12-month funding plan &mdash; if US VC is on the horizon, Delaware C-Corp from day one. If not, Wyoming LLC with built-in conversion documentation if the plan changes. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -146,7 +146,7 @@ write_page("us-c-corp-vs-s-corp-indian-founder", page(
         ("What is the double-taxation cost of C-Corp vs pass-through?",
          "C-Corp: 21% federal corporate tax at entity + 15% / 25% treaty withholding on dividend to Indian shareholder = ~33-40% total US tax burden on distributed profits. Pass-through LLC: 0% US entity tax if no US-source ECI, plus the Indian founder's Indian tax on profits in India. The LLC saves materially where the activity does not generate US-source ECI."),
         ("Does BQP structure Indian-founder US entities?",
-         "Yes. Scoping covers: VC-fundability requirement, US-source ECI analysis (US employees, US customers, US property), expected profit profile, and founder's own tax residence. We recommend LLC or C-Corp accordingly and handle incorporation + ongoing compliance. Request via get-a-quote.html."),
+         "Yes. Scoping covers: VC-fundability requirement, US-source ECI analysis (US employees, US customers, US property), expected profit profile, and founder's own tax residence. We recommend LLC or C-Corp accordingly and handle incorporation + ongoing compliance. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -219,7 +219,7 @@ write_page("mercury-vs-brex-indian-founder", page(
         ("Do I need an ITIN to open Mercury or Brex?",
          "No. Both accept the entity's EIN as the primary tax identifier. The individual founder uses their passport for KYC; no ITIN is required at account opening. ITIN may be needed later for individual US tax filings (if the founder has US-source income) but is not a banking prerequisite."),
         ("Does BQP help with Mercury / Brex account opening?",
-         "Yes, as part of the US incorporation package. Standard package includes entity formation + EIN + bank account introduction (Mercury or Brex as applicable). Not a bank intermediary &mdash; we prepare the application pack and coach the founder through the process. Request via get-a-quote.html."),
+         "Yes, as part of the US incorporation package. Standard package includes entity formation + EIN + bank account introduction (Mercury or Brex as applicable). Not a bank intermediary &mdash; we prepare the application pack and coach the founder through the process. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -281,7 +281,7 @@ write_page("safe-vs-convertible-note-india-founder", page(
         ("What is a 'qualified financing' for SAFE conversion?",
          "Typically defined in the SAFE as a priced equity round above a specified threshold (commonly USD 1M+). The threshold prevents a tiny subsequent raise from triggering conversion at an unexpectedly low valuation. The YC standard SAFE form has specific language."),
         ("Does BQP structure SAFE / convertible note rounds for Indian founders?",
-         "Yes, from both sides: for Indian-founder Delaware C-Corps issuing SAFEs to US angels (US-side legal co-ordination + cap table modelling + 83(b) considerations), and for Indian companies raising via CCD or CCPS under FEMA (Form FC-GPR, valuation certificate, pricing guidelines). Request via get-a-quote.html."),
+         "Yes, from both sides: for Indian-founder Delaware C-Corps issuing SAFEs to US angels (US-side legal co-ordination + cap table modelling + 83(b) considerations), and for Indian companies raising via CCD or CCPS under FEMA (Form FC-GPR, valuation certificate, pricing guidelines). Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -343,7 +343,7 @@ write_page("esop-vs-rsu-vs-phantom-stock-india-us", page(
         ("What is the vesting cliff requirement in India for ESOP tax treatment?",
          "Section 17(2)(vi) requires a minimum vesting period for ESOPs to receive the standard perquisite tax treatment. The typical pattern is 1-year cliff + 3 years of monthly vesting (total 4 years), which satisfies the requirement. Shorter vesting can trigger immediate perquisite tax at grant rather than at exercise."),
         ("Does BQP structure ESOP / RSU plans for India-US startups?",
-         "Yes. For Indian companies: Section 17 ESOP plan drafting, trust structure, vesting documentation. For Delaware C-Corps with Indian employees: NSO plan with 409A valuation co-ordination, India-side perquisite tax calculation, cross-border grant mechanics. Scoping depends on team size and cross-border composition. Request via get-a-quote.html."),
+         "Yes. For Indian companies: Section 17 ESOP plan drafting, trust structure, vesting documentation. For Delaware C-Corps with Indian employees: NSO plan with 409A valuation co-ordination, India-side perquisite tax calculation, cross-border grant mechanics. Scoping depends on team size and cross-border composition. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),

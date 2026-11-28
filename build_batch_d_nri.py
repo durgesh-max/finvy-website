@@ -85,7 +85,7 @@ write_page("nri-taxation-india-complete-guide", page(
         ("Can an NRI get a refund of excess TDS in India?", "Yes. File ITR-2 (or ITR-3 with business income) claiming the TDS shown in Form 168 (old 26AS) and AIS. The refund goes to a pre-validated Indian bank account such as an NRO account; a non-resident with no Indian account can give one foreign account in the return. For FY 2025-26 a belated or revised return can still be filed until 31 December 2026, and the refund carries interest of 0.5% a month under the refund-interest rules."),
         ("What should I send for an NRI tax review?", "WhatsApp us your PAN, your days in India for the year (passport stamps or travel history), Form 168 / AIS, details of Indian income (rent, interest, capital gains, dividends), your country of residence and whether you have a tax residency certificate. We confirm your residential status, the right ITR, treaty relief and any refund due."),
         ("Does BQP handle NRI tax filings and planning?",
-         "Yes. NRI annual ITR filing (ITR-2 or ITR-3), DTAA relief + TRC + Form 10F co-ordination, Form 15CA/CB for repatriation, Section 195 TDS positioning on India-source payments, residential-status planning for return-of-residence, and sale of Indian property for NRIs. Dubai, US, UK, Singapore NRI clients handled regularly. Request via get-a-quote.html."),
+         "Yes. NRI annual ITR filing (ITR-2 or ITR-3), DTAA relief + TRC + Form 10F co-ordination, Form 15CA/CB for repatriation, Section 195 TDS positioning on India-source payments, residential-status planning for return-of-residence, and sale of Indian property for NRIs. Dubai, US, UK, Singapore NRI clients handled regularly. Book a call to scope it."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA"),
@@ -179,7 +179,7 @@ write_page("nri-residential-status-rnor-india", page(
         ("How do I prove my day-count to the Indian tax authority?",
          "Primary evidence: passport stamps (immigration entry / exit). Secondary: airline tickets, boarding passes, employer travel records, foreign salary pay slips. Maintain a dated spreadsheet log reconciling to passport stamps. Audits going back 7-10 years are possible &mdash; keep records that long."),
         ("Does BQP handle residential-status planning?",
-         "Yes. Pre-move planning (optimising the exit date and return date), year-of-return RNOR documentation, Section 6(1A) analysis for UAE / zero-tax jurisdiction residents, and litigation support if residency is challenged. Standard scoping call is free. Request via get-a-quote.html."),
+         "Yes. Pre-move planning (optimising the exit date and return date), year-of-return RNOR documentation, Section 6(1A) analysis for UAE / zero-tax jurisdiction residents, and litigation support if residency is challenged. Standard scoping call is free. Book a call to scope it."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar Guide"),
@@ -243,7 +243,7 @@ write_page("nri-returning-india-tax-rnor-transition", page(
         ("Do I need to report foreign assets in my Indian return after moving back?", "Yes, once you become resident and ordinarily resident. From that year Schedule FA in your ITR must list foreign bank and brokerage accounts, retirement accounts such as a 401(k) or IRA, foreign property, insurance policies and other foreign assets, even if they earn nothing. RNOR years do not need Schedule FA. Missing it can attract the Black Money Act penalty, so build the list during your RNOR years and correct any earlier omission promptly."),
         ("What should I send to plan my return to India?", "WhatsApp us your expected return date, your days in India for each of the last 10 years (passport stamps or travel history), a list of foreign accounts, retirement plans, property and policies with rough values, your NRE / NRO / FCNR accounts, and what you plan to sell or withdraw. We work out your RNOR years, the order in which to sell or withdraw, the account re-designation steps and your first-year return and disclosure."),
         ("Does BQP handle NRI return-to-India planning?",
-         "Yes. We handle pre-return planning (optimal exit date from host country, RNOR start-year math), RNOR-year asset disposal planning (foreign equity, real estate, retirement accounts), NRE / FCNR re-designation co-ordination, and first-year ROR filing including Schedule FA. Request via get-a-quote.html."),
+         "Yes. We handle pre-return planning (optimal exit date from host country, RNOR start-year math), RNOR-year asset disposal planning (foreign equity, real estate, retirement accounts), NRE / FCNR re-designation co-ordination, and first-year ROR filing including Schedule FA. Book a call to scope it."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar"),
@@ -388,7 +388,7 @@ write_page("nri-mutual-funds-india-tax", page(
         ("Do debt mutual funds still have LTCG benefit for NRIs?",
          "No, for post-April-2023 purchases. The Finance Act 2023 removed the LTCG preferential rate on debt mutual funds &mdash; all gains are now taxed at the NRI's slab rate regardless of holding period. Pre-April-2023 holdings are grandfathered under the earlier 20%-with-indexation regime until sold."),
         ("Does BQP handle NRI mutual fund investment and ITR filing?",
-         "Yes. NRI KYC with FATCA / CRS self-declaration, repatriable vs non-repatriable scheme setup, annual ITR filing with capital gains schedule, Form 15CA / 15CB for repatriation, PFIC advisory for US NRIs. Request via get-a-quote.html."),
+         "Yes. NRI KYC with FATCA / CRS self-declaration, repatriable vs non-repatriable scheme setup, annual ITR filing with capital gains schedule, Form 15CA / 15CB for repatriation, PFIC advisory for US NRIs. Book a call to scope it."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar"),
@@ -483,7 +483,7 @@ write_page("nre-nro-fcnr-account-tax-rules", page(
         ("Can I claim DTAA treaty rate on NRO interest instead of 30% domestic TDS?",
          "Yes. Submit TRC + Form 10F to the bank before the TDS cycle. Bank then deducts at the treaty rate (the rate depends on the treaty with your country of residence). Without it the bank deducts 30% plus cess; the excess can be claimed back through the ITR, but it comes back only after the return for that year is filed and processed, which can be a year or more after the deduction."),
         ("Does BQP handle NRE / NRO / FCNR setup and ongoing tax?",
-         "Yes. Account setup co-ordination with Indian banks, FATCA / CRS declaration, DTAA Form 10F for reduced NRO TDS, annual ITR including NRO interest + NRE verification, Form 15CA / 15CB for repatriation, re-designation on return to India. Request via get-a-quote.html."),
+         "Yes. Account setup co-ordination with Indian banks, FATCA / CRS declaration, DTAA Form 10F for reduced NRO TDS, annual ITR including NRO interest + NRE verification, Form 15CA / 15CB for repatriation, re-designation on return to India. Book a call to scope it."),
     ],
     related=[
         ("nri-taxation-india-complete-guide.html", "Pillar", "NRI Taxation Pillar"),

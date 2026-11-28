@@ -209,7 +209,7 @@ write_page("nri-gift-indian-relatives-section-56-fema-2026", page(
          "<ul>"
          "<li><strong>NRI remits money to Indian relative</strong>: foreign-source inflow. Credited to recipient's NRE / regular savings / NRO account depending on recipient's status.</li>"
          "<li><strong>For Indian resident recipient</strong>: cash gift credited to regular savings account. No FEMA restriction on receipt by resident Indian. No Form A2 is needed to receive money (Form A2 is for remittances out of India); the bank may ask for the purpose of the inward remittance, and a gift deed or letter keeps the record clean.</li>"
-         "<li><strong>Gift deed recommended</strong>: notarised gift deed from NRI donor to Indian recipient describing: donor's details + recipient details + amount + relationship + stamp duty on gift deed (varies by state, typically INR 500-5,000 for cash gift documentation).</li>"
+         "<li><strong>Gift deed recommended</strong>: notarised gift deed from NRI donor to Indian recipient describing: donor's details + recipient details + amount + relationship + stamp duty on the gift deed where the state charges it (rates vary by state).</li>"
          "<li><strong>For gifts above INR 2 lakh to resident Indian in cash</strong>: Section 269ST violation if cash; strongly prefer bank transfer. NRI gifting via wire = compliant.</li>"
          "<li><strong>Multiple remittances in a year</strong>: aggregate matters. Standard practice: gift via one or two consolidated remittances with clear gift deed documentation.</li>"
          "<li><strong>Immovable property gift from NRI to resident</strong>: via registered gift deed in India + stamp duty + registration. FEMA permits (gift of property to resident family member allowed).</li>"
@@ -219,10 +219,10 @@ write_page("nri-gift-indian-relatives-section-56-fema-2026", page(
          "<li><strong>Indian relative gifts money to NRI</strong>: outbound remittance from India. Governed by FEMA Current Account Rules + LRS (Liberalised Remittance Scheme).</li>"
          "<li><strong>LRS limit</strong>: USD 2,50,000 per Indian resident per FY. Covers all permitted current + capital account transactions.</li>"
          "<li><strong>LRS use for gift to NRI relative</strong>: specifically permitted under FEMA Master Direction on LRS &mdash; included in 'maintenance of close relatives abroad' + 'gift' as permitted purposes.</li>"
-         "<li><strong>Documentation</strong>: Form A2 declaration + PAN + purpose code (CRG - current remittance for gift). Gift deed strengthens case.</li>"
+         "<li><strong>Documentation</strong>: Form A2 declaration + PAN + the purpose code for personal gifts (S1302). Gift deed strengthens case.</li>"
          "<li><strong>TCS under Section 206C(1G)</strong>: 20% TCS on LRS remittances above INR 10 lakh in a financial year (threshold raised from INR 7 lakh from 1 April 2025). See our <a href='tcs-20-foreign-remittance-lrs-india-2026.html'>TCS LRS guide</a>. Collected by remitting bank, creditable against Indian donor's income tax.</li>"
          "<li><strong>Immovable property gift from resident to NRI</strong>: Indian resident can gift immovable property (not agricultural land) to NRI relative via registered gift deed + stamp duty.</li>"
-         "<li><strong>Shares / securities gift</strong>: resident can gift Indian securities to NRI relative via FC-TRS filing (shares transferred to NRI's NRO/NRE demat).</li>"
+         "<li><strong>Shares / securities gift</strong>: a resident gifting Indian shares to a non-resident relative needs prior RBI approval through the AD bank under the FEMA non-debt instrument rules (conditions include the relative test, sectoral caps and an annual value limit), followed by FC-TRS reporting.</li>"
          "</ul>"),
         ("/ Documentation + best practice", "The paper trail.",
          "<ul>"

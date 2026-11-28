@@ -779,7 +779,7 @@ PAGES = [
             ("/ BQP reply engagement", "What we deliver.",
              "<ul>"
              "<li>Engagement as soon as the notice is received.</li>"
-             "<li>Notice review + 'information' analysis (RTI if needed).</li>"
+             "<li>Notice review + 'information' analysis .</li>"
              "<li>Full documentary refutation preparation.</li>"
              "<li>Legal position memos + specific case law.</li>"
              "<li>reply to the section 148A show cause notice drafting within window.</li>"

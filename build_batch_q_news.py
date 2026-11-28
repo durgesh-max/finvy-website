@@ -650,18 +650,18 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
     slug="ay-2026-27-itr-forms-new-disclosures-india",
     title="AY 2026-27 ITR Forms + New Disclosures India - BQP",
     hero_em="new Schedule VDA + Schedule 112A + updated TP + foreign asset disclosures.",
-    lead="CBDT notified ITR forms for AY 2026-27 (FY 2025-26) with several new disclosure requirements reflecting Finance Act 2024 + Finance Act 2025 changes. Includes new Schedule VDA (virtual digital assets), updated Schedule 112A for LTCG 12.5% framework, enhanced foreign asset reporting (Schedule FA), new TP disclosure (Form 3CEAB). Here's what's new for AY 2026-27 ITR filing.",
+    lead="The AY 2026-27 (FY 2025-26) ITR forms reflect the Finance Act 2024 and 2025 changes, chiefly the split capital gains reporting around 23 July 2024 and the 12.5% LTCG rate. The crypto (Schedule VDA) and foreign asset (Schedule FA) schedules are not new but still trip people up. Here is what to watch when filing.",
     kicker="/ ITR AY 2026-27 Update &middot; Updated 2026-10-22",
     section_pairs=[
         ("/ Key form changes for AY 2026-27", "What's new.",
          "<ul>"
-         "<li><strong>Schedule VDA (Virtual Digital Assets)</strong>: separate disclosure for crypto / NFT / specified digital assets. Section 115BBH 30% flat tax + Section 194S 1% TDS reconciliation. Transaction-level reporting for exchanges + wallets.</li>"
-         "<li><strong>Schedule 112A updated</strong>: for LTCG 12.5% framework (post Finance Act 2024). Grandfathering of pre-23-July-2024 acquisitions choice between 12.5% without indexation vs 20% with indexation.</li>"
-         "<li><strong>Schedule FA (Foreign Assets)</strong>: enhanced for CRS / FATCA integration. Specific line items for foreign bank accounts, foreign securities, foreign life insurance, foreign private trusts, foreign company shareholding above 10%.</li>"
-         "<li><strong>Section 56(2)(viib) legacy</strong>: historical disclosure retained even though provision abolished for new transactions. Pre-abolition cases still require reporting.</li>"
-         "<li><strong>Section 43B(h) MSE disclosure</strong>: specific line item for amounts disallowed and amounts paid in subsequent FY (reversal). Year 2 (FY 2025-26) first full-year reporting.</li>"
+         "<li><strong>Schedule VDA (Virtual Digital Assets)</strong>: the separate crypto / NFT schedule (in the forms since AY 2023-24). Section 115BBH 30% flat tax + Section 194S 1% TDS reconciliation. Transaction-level reporting for exchanges + wallets.</li>"
+         "<li><strong>Schedule CG / 112A</strong>: capital gains reported separately for transfers before and after 23 July 2024, with listed equity under Schedule 112A at 12.5% LTCG. Grandfathering of pre-23-July-2024 acquisitions choice between 12.5% without indexation vs 20% with indexation.</li>"
+         "<li><strong>Schedule FA (Foreign Assets)</strong>: residents (ordinarily resident) report foreign bank accounts, securities, insurance, trusts, property and signing authority on a calendar-year basis; India receives CRS / FATCA data, so gaps are visible.</li>"
+         ""
+         "<li><strong>Section 43B(h) MSE disclosure</strong>: specific line item for amounts disallowed and amounts paid in subsequent FY (reversal). It has applied since FY 2023-24, so FY 2025-26 is its third year.</li>"
          "<li><strong>BEPS Pillar 2</strong>: India has not enacted Pillar 2 rules, so Indian returns have no Pillar 2 schedule or form; in-scope groups (consolidated revenue of EUR 750 million or more) supply data for returns filed abroad.</li>"
-         "<li><strong>Schedule Startup</strong>: enhanced DPIIT Startup India + Section 80-IAC claim disclosure.</li>"
+         ""
          "</ul>"),
         ("/ Deadlines for AY 2026-27", "Key dates.",
          "<ul>"
@@ -669,7 +669,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
          "<li><strong>31 October 2026</strong>: taxpayers subject to tax audit (Section 44AB) + specified assessees.</li>"
          "<li><strong>30 November 2026</strong>: taxpayers subject to transfer pricing audit (Form 3CEB applicable).</li>"
          "<li><strong>31 December 2026</strong>: belated return filing deadline (with Section 234F late fee); revised return.</li>"
-         "<li><strong>31 March 2027</strong>: updated return under Section 139(8A) (up to 48 months from end of relevant AY after Finance Act 2025, with specific additional tax).</li>"
+         "<li><strong>31 March 2031</strong>: last date for an updated return under section 139(8A) for AY 2026-27 (48 months from the end of the AY after Finance Act 2025), with additional tax of 25% to 70%.</li>"
          "</ul>"),
         ("/ Common AY 2026-27 ITR mistakes to avoid", "Where filings go wrong.",
          "<ul>"
@@ -680,7 +680,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
          "<li>Form 10F electronic filing (for DTAA treaty rate claim) not completed before ITR filing.</li>"
          "<li>Section 44AB tax audit threshold crossed but Form 3CB/CD not filed within deadline - ITR filing blocked.</li>"
          "<li>Form 3CEB TP audit threshold crossed but Form 3CEB not filed - November deadline.</li>"
-         "<li>Section 115BBH VDA 30% rate applied to loss (no loss offset against VDA gain or vs other income). Common mistake.</li>"
+         "<li>Setting off VDA losses - losses on one crypto asset cannot be set off against gains on another or against other income. Common mistake.</li>"
          "<li>Section 194S VDA TDS not claimed as credit (if deducted on sale by exchange).</li>"
          "</ul>"),
         ("/ Specific attention items for 2026-27", "Finance Act integration.",
@@ -690,13 +690,13 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
          "<li><strong>Non-STT securities / unlisted / property Section 112</strong>: 12.5% with indexation choice as above.</li>"
          "<li><strong>Debt mutual fund</strong>: post April 2023 regime - no indexation; STCG at slab rate regardless of holding period.</li>"
          "<li><strong>Section 194R business perquisite TDS</strong>: 10% TDS on business perquisites + related gift value disclosure.</li>"
-         "<li><strong>Section 194T partnership firm TDS</strong>: 10% TDS on partner's share of profit above INR 20,000.</li>"
-         "<li><strong>UAE Corporate Tax integration</strong>: UAE operations post 2024 CT may require specific disclosure.</li>"
+         "<li><strong>Section 194T partnership firm TDS</strong>: 10% TDS from 1 April 2025 on salary, remuneration, commission, bonus and interest paid to partners above INR 20,000 a year (the partner's exempt share of profit is not covered).</li>"
+         ""
          "<li><em>Last updated: 2026-10-22.</em></p>"),
     ],
     faq_pairs=[
         ("What's new in AY 2026-27 ITR forms?",
-         "Separate Schedule VDA (crypto / NFT with Section 115BBH 30% + Section 194S TDS reconciliation), updated Schedule 112A for LTCG 12.5% framework (Finance Act 2024), enhanced Schedule FA foreign assets with CRS / FATCA integration, Section 43B(h) MSE disclosure, enhanced Startup India + 80-IAC claim disclosure."),
+         "Mainly capital gains reporting split around 23 July 2024 with the 12.5% LTCG rate (Finance Act 2024) and the related Schedule CG / 112A lines. Schedule VDA (crypto, 30% tax and 1% TDS reconciliation) and Schedule FA (foreign assets) are existing schedules that still need care, and tax audit cases report Section 43B(h) MSE disallowances."),
         ("When is AY 2026-27 ITR due?",
          "31 July 2026 for individuals/HUFs without tax audit. 31 October 2026 for tax audit cases (Section 44AB). 30 November 2026 for TP audit cases (Form 3CEB). 31 December 2026 belated. 31 March 2027 updated return (Section 139(8A) with 24-month window + additional tax)."),
         ("How do I claim LTCG indexation under Finance Act 2024?",
@@ -704,7 +704,7 @@ write_page("ay-2026-27-itr-forms-new-disclosures-india", quick_news_page(
         ("How do I report crypto transactions in AY 2026-27 ITR?",
          "Schedule VDA - new dedicated schedule. Report: aggregate gain under Section 115BBH 30% flat tax. No loss offset allowed. Only deduction: cost of acquisition. Section 194S 1% TDS on sale by exchange - claim as TDS credit. Transaction-level reconciliation across multiple exchanges / wallets. Foreign exchange holdings also reportable in Schedule FA."),
         ("Does Section 43B(h) MSE disallowance need to be in ITR?",
-         "Yes - Form 3CD Clause 22 (tax audit) requires specific disclosure. Corresponding ITR line item reflects: (a) MSE amounts disallowed in current FY under 43B(h), (b) MSE amounts paid in current FY where disallowance was reversed from prior year. For AY 2026-27, this is year 2 of 43B(h) impact."),
+         "Yes - Form 3CD Clause 22 (tax audit) requires specific disclosure. Corresponding ITR line item reflects: (a) MSE amounts disallowed in current FY under 43B(h), (b) MSE amounts paid in current FY where disallowance was reversed from prior year. For AY 2026-27 this is the third year of 43B(h), which first applied to FY 2023-24."),
         ("Does BQP handle AY 2026-27 ITR filing?",
          "Yes - standard annual tax engagement. Residence status determination + ITR-1/2/3/5/6/7 as applicable + all new schedules (VDA, 112A, FA, 43B(h)) + Form 10F electronic filing + Form 3CEB TP + Form 3CD tax audit + Section 195 TDS refund claims + capital gain Section 54 reinvestment. Fast turnaround through July-November 2026 ITR window. WhatsApp +91 78018 87130."),
     ],

@@ -93,7 +93,7 @@ write_page("gift-city-vs-mauritius-vs-singapore-fund", page(
          "<ul>"
          "<li><strong>Section 10(23FE):</strong> exemption on specified investments by Specified Persons (sovereign wealth, pension funds).</li>"
          "<li><strong>Section 10(4D):</strong> 0% Indian tax on income earned by specified Category III AIFs operating in IFSC on specified types of investment income.</li>"
-         "<li><strong>Section 10(4F):</strong> 0% on income of non-resident unit holders of IFSC Category I/II/III AIFs on specified income.</li>"
+         "<li><strong>Section 10(23FBC):</strong> exemption for unit holders of an IFSC specified fund (a Category III AIF meeting the section 10(4D) conditions) on income from the fund and gains on its units; IFSC Category I / II AIFs follow pass-through rules.</li>"
          "<li>100% tax holiday for IFSC business units for 20 consecutive years out of 25 (Finance Act, 2026; section 147 of the 2025 Act, formerly section 80LA), then a 15% rate.</li>"
          "<li>GST 0% on specified IFSC-based services.</li>"
          "</ul>"

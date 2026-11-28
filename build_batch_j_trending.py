@@ -502,11 +502,11 @@ write_page("crypto-vda-tax-india-2026-complete", page(
 write_page("gift-city-section-10-4d-2026-update", page(
     slug="gift-city-section-10-4d-2026-update",
     title="GIFT City Section 10(4D) 2026 Update | AIF Category III Tax - BQP",
-    description="GIFT City IFSC Section 10(4D) current state 2026: tax exemption for specified income of Category III AIFs at IFSC, Section 80LA 100% tax holiday, 10(4F) non-resident unit holder exemption, qualifying income definition, IFSCA Fund Management Entity licensing. Working CA guide by Durgesh Chavda.",
-    keywords="GIFT City Section 10(4D) 2026, GIFT City AIF Category III tax, Section 80LA GIFT City, Section 10(4F) IFSC, IFSCA FME licensing, GIFT City fund setup",
+    description="GIFT City IFSC Section 10(4D) current state 2026: tax exemption for specified income of Category III AIFs at IFSC, Section 80LA 100% tax holiday, 10(23FBC) unit holder exemption, qualifying income definition, IFSCA Fund Management Entity licensing. Working CA guide by Durgesh Chavda.",
+    keywords="GIFT City Section 10(4D) 2026, GIFT City AIF Category III tax, Section 80LA GIFT City, Section 10(23FBC) IFSC, IFSCA FME licensing, GIFT City fund setup",
     hero_kicker="/ Blog &middot; GIFT City IFSC &middot; Updated 2026-10-09",
     hero_title_html="GIFT City IFSC Section 10(4D), <em>the 2026 state of play.</em>",
-    hero_lead="GIFT City (Gujarat International Finance Tec-City) IFSC continues to expand through 2024-2026 as India's onshore-international fund hub. Section 10(4D) exempts specified Category III AIF income from Indian tax. Section 80LA (now section 147 of the Income-tax Act, 2025) provides a 100% tax holiday for IFSC business units, for 20 consecutive years out of 25 after the Finance Act, 2026. Section 10(4F) exempts non-resident unit holders. By October 2026, 100+ AIFs are operating at GIFT City with IFSCA Fund Management Entity (FME) licensing. This is the practitioner's current map.",
+    hero_lead="GIFT City (Gujarat International Finance Tec-City) IFSC continues to expand through 2024-2026 as India's onshore-international fund hub. Section 10(4D) exempts specified Category III AIF income from Indian tax. Section 80LA (now section 147 of the Income-tax Act, 2025) provides a 100% tax holiday for IFSC business units, for 20 consecutive years out of 25 after the Finance Act, 2026. Section 10(23FBC) exempts unit holders of such specified funds. A growing number of funds now operate at GIFT City under IFSCA Fund Management Entity (FME) licences. This is the practitioner's current map.",
     sections=[
         ("/ Section 10(4D): what it exempts", "The AIF Category III carve-out.",
          "<p>Section 10(4D) of the Income Tax Act provides for exemption of specified income of certain funds operating in IFSC. Scope:</p>"
@@ -517,7 +517,7 @@ write_page("gift-city-section-10-4d-2026-update", page(
          "<li>Income earned from investments in Indian or foreign securities, provided held at IFSC level in the Specified Fund.</li>"
          "</ul>"
          "<p><strong>Combined with Section 80LA</strong> (100% tax holiday for IFSC units for 20 consecutive years out of 25 since the Finance Act, 2026, earlier 10 out of 15; now section 147 of the Income-tax Act, 2025), GIFT City Specified Funds can effectively deliver <strong>0% Indian tax</strong> on fund-level qualifying income.</p>"
-         "<p>Compare to a Mumbai-based Category III AIF (not in IFSC): taxed at the fund level at MMR (~42.7% including surcharge and cess) on specified income. The GIFT City delta is 40+ percentage points on fund-level tax drag. This is why Category III managers have migrated to GIFT City.</p>"),
+         "<p>Compare to a Category III AIF outside IFSC, which is taxed at the fund level, often at high marginal rates on business income. That gap is why many Category III managers look at GIFT City.</p>"),
         ("/ Section 10(4F): non-resident unit holder exemption", "The LP side.",
          "<p>Section 10(4F) exempts non-resident unit holders of IFSC Specified Funds on specified income types:</p>"
          "<ul>"
@@ -533,23 +533,23 @@ write_page("gift-city-section-10-4d-2026-update", page(
          "<li><strong>Registered FME (Non-Retail)</strong>: broader scope, managing restricted-investor Category I/II/III.</li>"
          "<li><strong>Registered FME (Retail)</strong>: retail-eligible funds, higher capital + governance requirements.</li>"
          "</ul>"
-         "<p>Setup timeline: 90-180 days from first IFSCA application to FME licence + AIF registration + first LP close. Fast by Indian regulatory standards.</p>"
+         "<p>Setup timeline: depends on IFSCA processing, the FME category and how quickly substance and LP documents are ready - plan it with the first close in mind.</p>"
          "<p>Substance requirements: office space at GIFT City (physical presence; can start with managed co-working facility), key management personnel appropriately resident, operational expenditure in IFSC, audited financial statements.</p>"),
         ("/ What's new in 2026", "Expansion of qualifying activities.",
          "<p>Through 2024-2026, Section 10(4D) scope has expanded via budget amendments and IFSCA circulars:</p>"
          "<ul>"
-         "<li><strong>Specified securities list expanded</strong> to include additional categories of fixed income, equity derivatives, and global securities.</li>"
-         "<li><strong>Fund-of-funds structures</strong> at GIFT City more clearly recognised, enabling multi-manager vehicles with pass-through 10(4D) benefit.</li>"
-         "<li><strong>Family office variants</strong> at GIFT City: specific FME category for Single Family Office (SFO) and Multi-Family Office (MFO) structures.</li>"
+         ""
+         ""
+         "<li><strong>Family offices</strong> at GIFT City: IFSCA's family investment fund framework for single-family structures.</li>"
          "<li><strong>Retail fund products</strong>: Retail FME license allows GIFT City funds to offer retail-eligible products, expanding addressable market.</li>"
-         "<li><strong>Portfolio Management Services (PMS)</strong> at GIFT City: separate IFSCA regulations enable PMS structures with specified tax benefits.</li>"
-         "<li><strong>Fund administrator ecosystem</strong>: licensed fund administrators (Apex Group, SS&amp;C, local Indian equivalents) now operating at IFSC, reducing operational friction for new funds.</li>"
+         "<li><strong>Portfolio Management Services (PMS)</strong> at GIFT City: available to registered FMEs under the IFSCA fund management rules.</li>"
+         "<li><strong>Service providers</strong>: fund administrators, custodians and trustees now operate at IFSC, reducing operational friction for new funds.</li>"
          "</ul>"),
         ("/ Who benefits most", "Match the regime to the strategy.",
          "<ul>"
-         "<li><strong>India-focused fund managers running Category III (long-short, hedge, derivatives)</strong>: biggest beneficiary. 42.7% MMR drag replaced by near-zero at fund level.</li>"
+         "<li><strong>India-focused fund managers running Category III (long-short, hedge, derivatives)</strong>: biggest beneficiary. fund-level tax can fall sharply for qualifying income.</li>"
          "<li><strong>Pan-Asia or regional funds investing into India</strong>: GIFT City instead of Singapore VCC or Mauritius GBL. Fewer substance frictions, Indian-regulator-friendly, treaty-ready.</li>"
-         "<li><strong>Foreign LPs seeking India exposure</strong>: GIFT City AIF structure instead of direct FDI or Mauritius route. Section 10(4F) + 10(4D) delivers clean tax position.</li>"
+         "<li><strong>Foreign LPs seeking India exposure</strong>: GIFT City AIF structure instead of direct FDI or Mauritius route. Sections 10(4D) and 10(23FBC) can deliver a clean tax position for qualifying specified funds.</li>"
          "<li><strong>Family offices consolidating cross-border holdings</strong>: GIFT City SFO/MFO structure for UHNI families with multi-jurisdiction exposure.</li>"
          "<li><strong>PE/VC fund managers planning next fund</strong>: Fund III+ structures at GIFT City increasingly common for India-focused managers.</li>"
          "<li><strong>Specific sector funds</strong> (infrastructure, climate, deeptech): IFSCA has specific carve-outs for sector funds that may qualify additional benefits.</li>"
@@ -559,24 +559,24 @@ write_page("gift-city-section-10-4d-2026-update", page(
     faqs=[
         ("What is Section 10(4D) and what does it exempt?",
          "Section 10(4D) of the Income Tax Act exempts specified income (capital gains on specified securities, interest, dividend, portfolio management income) earned by specified Category III AIFs at GIFT City IFSC. Combined with Section 80LA 100% tax holiday, GIFT City Specified Funds can deliver effectively 0% Indian tax on qualifying fund-level income."),
-        ("What is Section 10(4F)?",
-         "Exemption for non-resident unit holders of IFSC Specified Funds on income distributed by the fund that is attributable to Section 10(4D)-exempt income, plus capital gains on unit redemption. Enables foreign LPs to invest into India via GIFT City with near-zero end-to-end tax."),
+        ("What is Section 10(4F), and which section exempts fund unit holders?",
+         "Section 10(4F) is about lease rentals: it exempts a non-resident's royalty or interest from leasing an aircraft (and now ships) to an IFSC unit. The unit holder exemption for IFSC specified funds is section 10(23FBC), which exempts a unit holder's income from the fund and gains on transferring its units."),
         ("How is GIFT City better than Mauritius for new India-focused funds?",
-         "Mauritius lost its capital-gains exemption on Indian equity post-April 2017 (2016 protocol). LOB + PPT + GAAR substance tests apply. GIFT City delivers equivalent (0%) tax outcome with cleaner regulatory position (IFSCA regulated), no treaty uncertainty, no substance disputes. For new India-focused funds in 2026, GIFT City is typically the better choice."),
+         "Mauritius lost its capital-gains exemption on Indian equity post-April 2017 (2016 protocol). LOB + PPT + GAAR substance tests apply. A qualifying GIFT City specified fund can reach a low Indian tax outcome through domestic exemptions (sections 10(4D) and 10(23FBC)) without relying on a treaty, under an Indian regulator, though IFSC substance conditions still apply. For new India-focused funds it is often worth modelling first."),
         ("What is an IFSCA FME license?",
          "Fund Management Entity licence under IFSCA Fund Management Regulations. Three categories: Authorised FME (restricted-investor base), Registered FME Non-Retail (broader restricted), Registered FME Retail (retail-eligible). Required for any AIF manager at GIFT City. Capital, governance, substance tests apply."),
         ("How long does GIFT City fund setup take?",
-         "90-180 days from first IFSCA application to FME licence + AIF registration + first LP close. Faster than Mauritius GBL setup (often 6-9 months) and comparable to Singapore VCC (6-9 months). Fund administrator and legal infrastructure now mature at GIFT City."),
+         "It depends on IFSCA processing, the FME category, substance (office and key personnel) and how quickly LP documents are ready. Book a call to plan the timeline against the first close."),
         ("Does BQP structure GIFT City funds?",
-         "Yes - full stack. IFSCA FME application, AIF Category I/II/III registration, Section 10(4D) qualifying income analysis, Section 80LA tax holiday setup, LP documentation (PPM, trust deed, investment management agreement), Section 10(4F) co-ordination for foreign LPs. Standard engagement for new fund setup. WhatsApp +91 78018 87130."),
+         "Yes - full stack. IFSCA FME application, AIF Category I/II/III registration, Section 10(4D) qualifying income analysis, Section 80LA tax holiday setup, LP documentation (PPM, trust deed, investment management agreement), Section 10(23FBC) unit holder position for foreign LPs. Standard engagement for new fund setup. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("gift-city-vs-mauritius-vs-singapore-fund.html", "Compare", "GIFT City vs MU vs SG"),
         ("aif-category-ii-vs-iii-tax-india.html", "Guide", "AIF Cat II vs III"),
         ("what-is-gift-city.html", "Glossary", "What is GIFT City"),
     ],
-    cta_headline="India-focused Category III AIF? GIFT City is the default in 2026.",
-    cta_body="Section 10(4D) + 80LA stack: 0% at fund level + 0% for non-resident LPs under 10(4F). Compared to Mumbai Cat III AIF at 42.7% MMR, the delta funds the IFSCA setup many times over. BQP handles full-stack FME + AIF registration.",
+    cta_headline="India-focused Category III AIF? GIFT City is worth modelling first.",
+    cta_body="Section 10(4D) at fund level plus section 10(23FBC) for unit holders can keep Indian tax on qualifying income very low, compared with a Category III AIF outside IFSC taxed at the fund level. BQP handles full-stack FME + AIF registration.",
 ))
 
 # 8. Pillar 2 Global Minimum Tax

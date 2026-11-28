@@ -164,7 +164,7 @@ PAGES = [
             ("/ Pre-application preparation", "What to assemble.",
              "<ul>"
              "<li>Indian company (Pvt Ltd) with specific NBFC-eligible object clause in MOA.</li>"
-             "<li>Minimum net worth INR 2 crore (NBFC-ICC base; higher for NBFC-ND-SI).</li>"
+             "<li>Net owned funds of INR 10 crore for a new NBFC-ICC under RBI's scale-based regulation.</li>"
              "<li>Promoter + director 'fit and proper' documentation.</li>"
              "<li>Business plan: lending segment + risk framework + customer target + geography.</li>"
              "<li>IT infrastructure: core lending platform + data localisation per RBI requirements.</li>"
@@ -207,7 +207,7 @@ PAGES = [
             ("How long does NBFC licence take?",
              "6-12 months from application to Certificate of Registration (CoR). Faster (4-6 months) if application well-documented + no RBI queries. Slower (12-18 months) if specific regulatory concerns + extended Q&A. In-principle approval precedes CoR - typically 6-9 months to in-principle."),
             ("What's the minimum net worth?",
-             "NBFC-ICC: INR 2 crore minimum. NBFC-ND-SI (Systemically Important Non-Deposit): INR 10 crore. NBFC-MFI (Microfinance): INR 5 crore urban / INR 2 crore rural. NBFC-AA (Account Aggregator): INR 2 crore. Specific category requires specific minimum. BQP evaluates optimal category per business."),
+             "Under RBI's scale-based regulation, a new NBFC-ICC or NBFC-MFI needs net owned funds of INR 10 crore; existing ones had to reach INR 5 crore by 31 March 2025 and INR 10 crore by 31 March 2027. Some categories keep lower floors (for example account aggregators and P2P platforms at INR 2 crore), and middle and upper layer NBFCs carry further requirements. Book a call to pick the right category."),
             ("Can foreign shareholder own NBFC?",
              "Yes - FDI permitted up to specified sector cap (100% in most NBFC categories post 2016 reform). Pricing per Rule 21 Non-Debt Instrument Rules. FC-GPR filing within 30 days of allotment. Press Note 3 beneficial ownership verification. BQP integrates FEMA FDI + NBFC licence."),
             ("What's RBI SBR (Scale-Based Regulation)?",

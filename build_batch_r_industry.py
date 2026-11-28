@@ -89,10 +89,10 @@ INDUSTRIES = [
         "specific_issues": [
             ("Section 115BAA / 115BAB applicability", "SaaS startup eligibility; 15% rate on new manufacturing not applicable (SaaS is services), 22% rate for services under 115BAA."),
             ("ESOP valuation + ASC 718 / Ind AS 102", "409A valuation for US HQ + Rule 11UA for Indian ESOPs. SBC accounting materially impacts P&L."),
-            ("OIDAR GST for foreign-sold SaaS", "Indian SaaS selling to foreign B2C may be subject to foreign OIDAR GST (UK, EU, Australia); foreign SaaS selling to Indian B2C: Indian OIDAR 18%."),
+            ("OIDAR GST for foreign-sold SaaS", "Indian SaaS selling to foreign consumers may have to register for foreign VAT / GST on digital services (for example in the UK, EU or Australia); foreign SaaS selling to Indian B2C: Indian OIDAR 18%."),
             ("DPDP Act compliance", "SaaS handling Indian user data = Data Fiduciary under DPDP; consent + notice + breach notification + Significant Data Fiduciary tier if volume + sensitivity thresholds."),
             ("ARR vs GAAP revenue reconciliation", "ARR / MRR / Rule of 40 reporting to investors vs GAAP revenue recognition under ASC 606 / Ind AS 115 - two separate layers."),
-            ("Cross-border tax (India-US / India-UK / India-Singapore)", "SaaS royalty / FTS characterisation under DTAA, Section 115A 10% treaty rate, PE risk from Indian subsidiary serving foreign parent's customers."),
+            ("Cross-border tax (India-US / India-UK / India-Singapore)", "SaaS royalty / FTS characterisation under DTAA, Section 115A domestic rate of 20% on royalty / FTS paid to non-residents (reduced to the treaty rate where a treaty applies), PE risk from Indian subsidiary serving foreign parent's customers."),
             ("Section 115BBH VDA (if crypto adjacent)", "SaaS products handling crypto / NFT / Web3 primitives face Section 115BBH 30% complexity."),
         ],
         "specific_services": [
@@ -118,7 +118,7 @@ INDUSTRIES = [
         "industry": "D2C / E-commerce",
         "industry_hero": "AOV + CAC + inventory + GST complexity navigated.",
         "specific_issues": [
-            ("Multi-state GST registration", "D2C selling across India needs GST registration in each state where threshold crossed OR via E-way bill rules; alternatively via single Place of Business framework."),
+            ("Multi-state GST registration", "GST registration is needed in each state from which you supply - where you hold a warehouse or other place of business - not in every state where customers sit; inter-state sales from one registered state are billed with IGST, subject to the e-commerce registration rules."),
             ("Section 194-O TDS on e-commerce operator payment to seller (0.1% since 1 October 2024)", "If D2C uses marketplace, 194-O applies. If direct website, 194-O doesn't apply."),
             ("TCS Section 52 (e-commerce operator)", "If D2C runs own marketplace with multiple vendors, 52 TCS obligation."),
             ("Inventory accounting (Ind AS 2 / ASC 330)", "Lower-of-cost-or-NRV, slow-moving provisions, year-end counts."),
@@ -150,15 +150,15 @@ INDUSTRIES = [
         "specific_issues": [
             ("RBI PA / PG / PA-CB licensing", "Payment aggregator licence (INR 15 cr net worth min); cross-border PA-CB framework for international flows."),
             ("Account Aggregator (AA) + DEPA integration", "Consent-based financial data sharing; FIU / FIP / AA role structuring."),
-            ("NBFC licence (for lending)", "NBFC-ND / NBFC-SI / NBFC-MFI classification; minimum net worth INR 2 crore."),
+            ("NBFC licence (for lending)", "scale-based regulation (base, middle, upper layers); new NBFCs need net owned funds of INR 10 crore, with existing NBFCs phased up."),
             ("Data localisation + RBI payment data circular April 2018", "All payment data India-only storage; audit by CERT-In empanelled auditor."),
-            ("Card tokenisation RBI September 2021", "Card storage prohibited; network tokens for recurring."),
+            ("Card tokenisation RBI September 2021", "Merchants may not store card data (card-on-file tokenisation applies from 1 October 2022); tokens are used for recurring payments."),
             ("UPI integration (TPAP via sponsor bank)", "NPCI onboarding + sponsor bank partnership."),
             ("CKYC + eKYC via Aadhaar", "Customer KYC through Central KYC Registry or Aadhaar-based eKYC."),
             ("DPDP + sector overlay", "Financial Data Principal rights + consent framework beyond pure DPDP."),
         ],
         "specific_services": [
-            "RBI PA / PG / PA-CB licence application (6-18 month timeline)",
+            "RBI PA / PG / PA-CB licence application",
             "NBFC licence application for lending fintech",
             "Account Aggregator integration (FIU route or AA licence)",
             "Data localisation architecture + CERT-In empanelled audit coordination",

@@ -781,7 +781,7 @@ write_page("udyam-msme-registration-benefits-india-2026", page(
     hero_lead="Udyam Registration is the current (replaced Udyog Aadhaar from July 2020) government recognition for Micro, Small, and Medium Enterprises (MSMEs) in India. Registration is free, online, takes 10 minutes, and unlocks collateral-free credit, interest subvention, GEM procurement access, delayed-payment protection under Section 15 of MSMED Act, and sector-specific government schemes. Every MSME-eligible business should register. Here's the complete 2026 guide.",
     sections=[
         ("/ MSME classification criteria (post-2020)", "Investment + turnover.",
-         "<p>Post-July-2020, MSME classification uses <strong>composite criteria</strong>: investment in plant and machinery / equipment AND turnover. Enterprise classified based on <strong>higher of the two</strong> metrics (promotes-up classification; no demotion):</p>"
+         "<p>Post-July-2020, MSME classification uses <strong>composite criteria</strong>: investment in plant and machinery / equipment AND turnover. Enterprise classified by both tests: it moves up a category if it crosses <strong>either</strong> limit, and moves down only if it falls below both:</p>"
          "<table style='width:100%;border-collapse:collapse;margin:12px 0;font:400 13px Inter'>"
          "<tr style='background:#f8f3e8'><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Classification</th><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Investment in P&amp;M / Equipment</th><th style='padding:8px;border:1px solid #ece4d5;text-align:left'>Turnover</th></tr>"
          "<tr><td style='padding:8px;border:1px solid #ece4d5'><strong>Micro</strong></td><td style='padding:8px;border:1px solid #ece4d5'>Up to INR 2.5 crore</td><td style='padding:8px;border:1px solid #ece4d5'>Up to INR 10 crore</td></tr>"
@@ -800,15 +800,15 @@ write_page("udyam-msme-registration-benefits-india-2026", page(
          "</ul>"
          "<p><strong>Procurement benefits</strong>:</p>"
          "<ul>"
-         "<li><strong>GEM (Government e-Marketplace) registration</strong> &mdash; Udyam-registered MSMEs can bid on central and state government procurement. Mandatory 25% procurement from MSMEs under Public Procurement Policy for MSEs 2012.</li>"
+         "<li><strong>GEM (Government e-Marketplace) registration</strong> &mdash; Udyam-registered MSMEs can bid on central and state government procurement. A 25% annual procurement target from micro and small enterprises under the Public Procurement Policy for MSEs, 2012.</li>"
          "<li><strong>Preference in CPSE (Central Public Sector Enterprise) tenders</strong>.</li>"
          "<li><strong>Exemption from EMD (Earnest Money Deposit)</strong> and reduced tender fee for Micro and Small Enterprises.</li>"
          "</ul>"
          "<p><strong>Delayed payment protection</strong>:</p>"
          "<ul>"
          "<li><strong>Section 15 of MSMED Act 2006</strong>: if buyer (any person) delays payment to MSE beyond 45 days from acceptance of goods / services, interest at <strong>3 times RBI bank rate</strong> (compounded monthly) is payable by buyer. This is a powerful recovery lever.</li>"
-         "<li><strong>Section 16 MSMED</strong>: dispute resolution via Micro and Small Enterprises Facilitation Council (MSEFC), relatively fast arbitration.</li>"
-         "<li><strong>Section 23 Income Tax Act</strong>: amount payable to Micro and Small Enterprise beyond 45 days is disallowed as deduction in the buyer's hands under Section 43B(h). Finance Act 2023 inserted Section 43B(h) &mdash; delayed payments beyond 45 days result in buyer's expense being deductible only on actual payment, not on accrual. Material P&amp;L impact on buyers who delay MSE payments.</li>"
+         "<li><strong>Section 18 MSMED</strong>: a reference to the Micro and Small Enterprises Facilitation Council (MSEFC) for conciliation and, failing that, arbitration.</li>"
+         "<li><strong>Section 23 MSMED</strong>: the interest a buyer pays for delay is not deductible for income tax. Separately, under Section 43B(h) of the Income-tax Act an amount payable to a micro or small enterprise beyond the allowed time is deductible only when paid. Finance Act 2023 inserted Section 43B(h) &mdash; delayed payments beyond 45 days result in buyer's expense being deductible only on actual payment, not on accrual. Material P&amp;L impact on buyers who delay MSE payments.</li>"
          "</ul>"
          "<p><strong>Tax benefits</strong>:</p>"
          "<ul>"
@@ -849,7 +849,7 @@ write_page("udyam-msme-registration-benefits-india-2026", page(
         ("What is Udyam Registration?",
          "Current government MSME recognition system (replaced Udyog Aadhaar from July 2020). Free, online, 10-minute registration at udyamregistration.gov.in. Classifies enterprises as Micro, Small, or Medium based on investment in P&M/equipment and turnover. Unlocks collateral-free loan, interest subvention, GEM procurement, Section 15 MSMED Act delayed-payment protection, Section 43B(h) Income Tax interaction."),
         ("What are the Micro / Small / Medium thresholds?",
-         "Post FY 2025-26: Micro - investment up to INR 2.5 crore, turnover up to INR 10 crore. Small - investment up to INR 25 crore, turnover up to INR 100 crore. Medium - investment up to INR 125 crore, turnover up to INR 500 crore. Enterprise classified based on higher of the two metrics. Export turnover excluded. Both manufacturing and services covered."),
+         "Post FY 2025-26: Micro - investment up to INR 2.5 crore, turnover up to INR 10 crore. Small - investment up to INR 25 crore, turnover up to INR 100 crore. Medium - investment up to INR 125 crore, turnover up to INR 500 crore. An enterprise moves up a category if it crosses either limit, and moves down only if it falls below both. Export turnover excluded. Both manufacturing and services covered."),
         ("What is Section 43B(h) and how does it affect buyers of MSE?",
          "Finance Act 2023 inserted Section 43B(h): expenses payable to Micro and Small Enterprise beyond 45 days from acceptance of goods / services are disallowed in the buyer's hands and allowed only on actual payment, not on accrual. Material P&L impact on buyers who delay MSE payments - creates strong commercial pressure to pay MSEs on time."),
         ("Can an MSME lose MSME status if it grows?",

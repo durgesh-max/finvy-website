@@ -600,18 +600,18 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
          "<p><strong>Effective tax rate (ETR) calculation</strong>: taxes paid in a jurisdiction divided by GloBE income in that jurisdiction. If ETR &lt; 15%, top-up tax equals the shortfall.</p>"),
         ("/ Country-by-country status in 2026", "Who has what.",
          "<ul>"
-         "<li><strong>UK</strong>: Pillar 2 enacted via Finance Act 2023; IIR and UTPR effective for accounting periods beginning on/after 31 December 2023; DMTT also enacted.</li>"
-         "<li><strong>Germany, Netherlands, France, Spain, Italy</strong>: all EU member states have implemented Pillar 2 via EU Directive 2022/2523 and national legislation. In force for accounting periods beginning on/after 31 December 2023.</li>"
+         "<li><strong>UK</strong>: Pillar 2 enacted via Finance (No. 2) Act 2023; the IIR (multinational top-up tax) and domestic top-up tax apply to accounting periods beginning on or after 31 December 2023, and the UTPR from 31 December 2024.</li>"
+         "<li><strong>Germany, Netherlands, France, Spain, Italy</strong>: most EU member states have implemented Pillar 2 under EU Directive 2022/2523, generally for periods beginning on or after 31 December 2023 (a few smaller states elected to defer the IIR / UTPR).</li>"
          "<li><strong>Japan, South Korea, Australia, Canada</strong>: implemented or implementing through 2024-2025.</li>"
          "<li><strong>UAE</strong>: a 15% Domestic Minimum Top-up Tax (DMTT) applies for financial years starting on or after 1 January 2025 (Cabinet Decision No. 142 of 2024) to groups with consolidated revenue of EUR 750 million or more; in-scope entities register with the Federal Tax Authority.</li>"
          "<li><strong>India</strong>: monitoring; no Pillar 2 legislation as of November 2026. Finance Act amendments may introduce in future Budget.</li>"
          "<li><strong>Singapore</strong>: enacted Pillar 2 framework; QDMTT effective for in-scope MNE groups.</li>"
          "<li><strong>Mauritius</strong>: QDMTT framework enacted.</li>"
          "<li><strong>Switzerland, Ireland, Luxembourg</strong>: implemented via EU/global framework.</li>"
-         "<li><strong>United States</strong>: has its own GILTI + BEAT framework; US does not fully adopt Pillar 2 but engages via GloBE / safe harbour arrangements.</li>"
+         "<li><strong>United States</strong>: has not adopted Pillar 2; it relies on its own regime for foreign income, and in 2025 the G7 agreed a 'side-by-side' approach under which US-parented groups are kept out of the IIR and UTPR, taken forward through OECD guidance.</li>"
          "</ul>"),
         ("/ Who in Indian startup ecosystem is affected", "The scope question.",
-         "<p>Direct Pillar 2 scope: MNE groups with <strong>consolidated annual revenue above EUR 750 million</strong> (approximately INR 7,000 crore / USD 820 million at 2026 rates).</p>"
+         "<p>Direct Pillar 2 scope: MNE groups with <strong>consolidated annual revenue above EUR 750 million</strong> (convert at the group's reporting-currency rate; well above typical venture-backed startup revenue).</p>"
          "<p>In-scope Indian-origin groups by late 2026 (illustrative):</p>"
          "<ul>"
          "<li>Large Indian MNEs with foreign subsidiaries: Tata, Reliance, Infosys, TCS, Wipro, Mahindra, Bharti &mdash; all in scope.</li>"
@@ -619,7 +619,7 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
          "<li>Indian-headquartered pharma MNEs: Sun Pharma, Dr. Reddy's, Cipla, Lupin &mdash; mostly in scope.</li>"
          "<li>Large Indian-founder US unicorns (post USD 1B revenue): some are in scope depending on consolidated group structure.</li>"
          "</ul>"
-         "<p>NOT in scope: 99.9% of Indian startups and SMEs. The EUR 750M consolidated revenue threshold is well above typical venture-backed Indian startup revenue. Pillar 2 is a concern for mature MNE groups, not early-stage or growth-stage startups.</p>"
+         "<p>NOT in scope: the vast majority of Indian startups and SMEs. The EUR 750M consolidated revenue threshold is well above typical venture-backed Indian startup revenue. Pillar 2 is a concern for mature MNE groups, not early-stage or growth-stage startups.</p>"
          "<p>But: a founder planning long-horizon global expansion should understand that at the EUR 750M revenue scale, Pillar 2 compliance becomes material. Build structures that can absorb it.</p>"),
         ("/ Practical impact on specific Indian structures", "Where Pillar 2 bites.",
          "<p><strong>Delaware C-Corp parent + Indian subsidiary (growth stage)</strong>: once consolidated revenue crosses EUR 750M, Pillar 2 engages. Indian subsidiary with 25% effective rate: typically no top-up (above 15% ETR). Delaware parent at 21% + state: typically no top-up. Pillar 2 largely neutral.</p>"
@@ -628,19 +628,19 @@ write_page("pillar-2-global-minimum-tax-india-startups-2026", page(
          "<p><strong>Mauritius GBL legacy structures</strong>: Mauritius QDMTT may apply if MNE group above threshold uses Mauritius low-tax entity. Potential additional friction on exits from grandfathered Indian equity.</p>"
          "<p><strong>Singapore VCC fund structures</strong>: Singapore QDMTT may apply if MNE group above threshold uses Singapore partially-exempt structure.</p>"),
         ("/ What Indian startups should actually do", "The practical answer.",
-         "<p><strong>Below EUR 750M consolidated revenue (99.9% of Indian startups)</strong>: no direct Pillar 2 action required. Continue to use GIFT City, UAE QFZP, Delaware C-Corp, standard structures without Pillar 2 overlay.</p>"
+         "<p><strong>Below EUR 750M consolidated revenue (the vast majority of Indian startups)</strong>: no direct Pillar 2 action required. Continue to use GIFT City, UAE QFZP, Delaware C-Corp, standard structures without Pillar 2 overlay.</p>"
          "<p><strong>Approaching EUR 750M consolidated revenue (unicorns + large growth-stage)</strong>: start Pillar 2 scoping 12-18 months before crossing the threshold. Compliance framework setup, data-gathering for GloBE income calculation per jurisdiction, legal entity ETR mapping.</p>"
          "<p><strong>Above EUR 750M (large Indian MNEs)</strong>: Pillar 2 compliance is already live for most in-scope groups via UK, EU, Singapore, UAE QDMTT regimes. Annual GloBE return filings, top-up tax calculations, documentation.</p>"
-         "<p><strong>Monitor India's position</strong>: if India implements Pillar 2 (likely through Budget 2027 or 2028), framework details will matter for Indian-headquartered MNE groups. Current signal: likely QDMTT to retain top-up tax within India rather than cede to IIR of foreign jurisdictions.</p>"
+         "<p><strong>Monitor India's position</strong>: India has not announced a timetable for Pillar 2. If it legislates, a domestic top-up tax would let India collect top-up tax on low-taxed Indian profits itself, so Indian-headquartered groups should watch each Budget.</p>"
          "<p><em>Last updated: 2026-10-09.</em></p>"),
     ],
     faqs=[
         ("What is OECD Pillar 2 Global Minimum Tax?",
          "A 15% global minimum effective tax rate on Multinational Enterprise (MNE) groups with consolidated annual revenue above EUR 750 million. Operates via three rules: Income Inclusion Rule (IIR) at parent level, Undertaxed Profits Rule (UTPR) as back-up, Qualified Domestic Minimum Top-up Tax (QDMTT) at jurisdiction level. Introduced by OECD/G20 BEPS 2.0 framework."),
         ("Does Pillar 2 apply to most Indian startups in 2026?",
-         "No. 99.9% of Indian startups are below the EUR 750 million consolidated annual revenue threshold. Pillar 2 is a concern for mature MNE groups and large Indian multinational companies, not early-stage or growth-stage startups. For in-scope Indian-origin groups (Tata, Reliance, Infosys, large unicorns at scale), Pillar 2 compliance is already live via multiple jurisdictions."),
+         "No. The vast majority of Indian startups are below the EUR 750 million consolidated annual revenue threshold. Pillar 2 is a concern for mature MNE groups and large Indian multinational companies, not early-stage or growth-stage startups. For in-scope Indian-origin groups (Tata, Reliance, Infosys, large unicorns at scale), Pillar 2 compliance is already live via multiple jurisdictions."),
         ("Has India implemented Pillar 2?",
-         "Not yet as of October 2026. India is monitoring the global rollout. Likely future implementation via Budget 2027 or 2028 as a Qualified Domestic Minimum Top-up Tax (QDMTT) to retain Indian top-up tax within India rather than cede to foreign IIR/UTPR. Monitor Finance Act announcements."),
+         "Not yet as of October 2026. India has not announced a timetable. If it legislates, a qualified domestic minimum top-up tax (QDMTT) would let India collect top-up tax on low-taxed Indian profits itself instead of ceding it to a foreign IIR or UTPR. Watch each Finance Act."),
         ("Does UAE 9% Corporate Tax interact with Pillar 2?",
          "Yes for in-scope MNE groups. UAE QFZP 0% rate on Qualifying Income puts UAE jurisdiction below 15% ETR. The UAE DMTT (Domestic Minimum Top-up Tax), in force for financial years starting on or after 1 January 2025, adds a top-up to reach 15% for in-scope MNE groups. For sub-threshold groups (most Dubai holdcos of Indian founders), UAE DMTT does not apply."),
         ("Does GIFT City Section 10(4D) exemption survive Pillar 2?",

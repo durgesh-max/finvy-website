@@ -51,7 +51,7 @@ C_PO = ("Email info@bharatquantumprospera.com or WhatsApp +91 78018 87130 with t
 
 RCM = dict(
     slug="gst-reverse-charge-import-of-services-india-rcm-self-invoice-itc-2026",
-    title="GST Reverse Charge on Import of Services in India (2026): When RCM Applies, Self-Invoice, Payment, GSTR-3B Reporting and ITC",
+    title="GST Reverse Charge in India (2026): Import of Services, Legal, Security and Other Domestic RCM Services - When RCM Applies, Self-Invoice, Payment, GSTR-3B Reporting and ITC",
     em="the Indian buyer pays the GST, then claims it back.",
     kicker="/ GST &middot; Import of services &middot; RCM &middot; Updated 2026-11-15",
     lead=("When a business in India buys services from a supplier located outside India (software subscriptions, consulting, design, cloud, legal or marketing services, intra-group charges), <strong>the Indian recipient pays the GST under reverse charge</strong>, not the foreign supplier. "
@@ -79,6 +79,7 @@ RCM = dict(
           ("Is RCM applicable on import of services?", "Yes, when the supplier is located outside India and the recipient is in India (other than a non-taxable online recipient). The recipient pays the tax and can claim credit if eligible."),
           ("Which notification covers reverse charge on import of services?", "Notification No. 10/2017-Integrated Tax (Rate) dated 28 June 2017, entry 1."),
           ("Can reverse-charge GST be paid from input tax credit?", "No. It must be paid in cash through the electronic cash ledger; the amount paid can then be claimed as input tax credit if the service is used for business."),
+        ("Which domestic services attract GST under reverse charge - legal, security, directors, rent?", "Notification 13/2017-Central Tax (Rate) lists the domestic services on which the recipient business, not the supplier, pays GST. The common ones: legal services by an advocate or a firm of advocates to a business entity (businesses below the registration threshold are exempt); security services (supply of security personnel) by a supplier other than a company to a registered person; services of a director who is not an employee to the company; goods transport agency services where the GTA has not opted to charge GST itself; sponsorship services to a company or firm; insurance agent and recovery agent services to insurers and banks; and renting of commercial property by an unregistered landlord to a registered tenant other than a composition dealer. The recipient pays the tax in cash, reports it in GSTR-3B Table 3.1(d), issues a self-invoice where the supplier is unregistered, and claims the input tax credit if eligible. WhatsApp +91 78018 87130 with your list of vendors and what you pay them for, or book a call."),
           ("Where is import of services reported in GSTR-3B?", "The tax liability in Table 3.1(d) (inward supplies liable to reverse charge) and the eligible credit in Table 4."),
           ("Can BQP review our foreign vendor payments?", "Yes. " + C_RCM)],
     related=[("oidar-gst-foreign-saas-ecommerce-india.html", "OIDAR GST for foreign SaaS"), ("what-is-form-15cb-and-when-is-it-required-india.html", "Form 15CB (now Form 146)"),

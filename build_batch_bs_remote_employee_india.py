@@ -36,7 +36,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="Foreign Company With Remote Employees in India: PE Risk, Payroll Tax and EOR vs Contractor vs Subsidiary (2026)",
+    title="Foreign Company With Remote Employees in India: PE (Permanent Establishment) Risk, Payroll Tax and EOR vs Contractor vs Subsidiary (2026)",
     em="one hire can create an Indian tax presence.",
     kicker="/ US, UK, Singapore &amp; UAE companies &middot; India hiring &middot; Updated 2026-11-12",
     lead=("A US, UK, Singapore or UAE company can hire people in India without an Indian entity, but it should choose the route deliberately. "

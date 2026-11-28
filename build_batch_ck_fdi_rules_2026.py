@@ -40,7 +40,7 @@ BOX = (f'<div style="border:1px solid var(--line);border-left:4px solid #C2312A;
 
 PAGES = [dict(
     slug=SLUG,
-    title="FDI Rules in India (2026): Automatic vs Government Route, Prohibited Sectors, Filings and Deadlines, and What the New Rules Change",
+    title="FDI (Foreign Direct Investment) Rules in India (2026): Automatic vs Government Route, Prohibited Sectors, Filings and Deadlines, and What the New Rules Change",
     em="most sectors need no approval, but every rupee needs reporting.",
     kicker="/ FDI &middot; FEMA &middot; Foreign investors &middot; Updated 2026-11-14",
     lead=("Foreign direct investment into India comes under the <strong>FEMA (Non-debt Instruments) Rules, 2019</strong> and DPIIT's <strong>Consolidated FDI Policy</strong>. Most sectors are on the <strong>automatic route</strong> (no prior approval); some sectors, and <strong>any investment from a country sharing a land border with India</strong>, need <strong>government approval</strong>; a few sectors are prohibited. "

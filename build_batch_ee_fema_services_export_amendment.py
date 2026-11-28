@@ -22,7 +22,7 @@ OLD = "fema-export-rules-1-october-2026-nine-month-realisation-edf-services"
 C = contact("whether you export services as an individual or a company, your typical invoice sizes, your bank, and any EDF reminders you have received")
 PAGES = [dict(
     slug=SLUG,
-    title="FEMA Relief for Service Exporters (RBI, 2 November 2026): Freelancers Deemed to Have Filed EDF, Companies Too for Remittances up to INR 10 Lakh",
+    title="FEMA Relief for Service Exporters (RBI, 2 November 2026): EDF Replaces SOFTEX, Freelancers Deemed to Have Filed, Companies Too up to INR 10 Lakh",
     em="what the second amendment to the 2026 export regulations changes.",
     kicker="/ FEMA &middot; Service exports &middot; Freelancers &middot; Updated 2026-11-20",
     lead=("On <strong>2 November 2026</strong> the RBI notified the <strong>Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026</strong> (FEMA 23(R)/(2)/2026-RB), stated to apply from 1 October 2026. "
@@ -55,6 +55,7 @@ PAGES = [dict(
           ("Do freelancers still need to file the monthly EDF?", "Under the amendment, a resident individual is deemed to have submitted the EDF when they furnish the information needed for the bank to receive and credit the payment, with no amount limit."),
           ("Does the INR 10 lakh limit apply to individuals?", "No. The INR 10 lakh threshold applies to exporters other than resident individuals, such as companies, LLPs and firms."),
           ("Has the nine-month realisation rule changed?", "No. The amendment does not change the realisation period set by the 2026 regulations."),
+        ("Is the SOFTEX form still needed for software exports?", "No. The FEMA (Export of Goods and Services) Regulations, 2026, in force from 1 October 2026, discontinued SOFTEX and treat software as a service. Software exports are now declared on the Export Declaration Form (EDF) within 30 days from the end of the month in which the invoice is raised, certified by the bank or, for units in a domestic tariff area, by STPI. Under the 2 November 2026 amendment, resident individuals are deemed to have filed the EDF once they give the bank the payment details, and other exporters get the same treatment for remittances up to INR 10 lakh. SOFTEX forms still open for invoices raised before 1 October 2026 should be followed up with the bank or STPI so the export is closed. Book a call to set up the EDF routine for larger receipts."),
           ("What changed for imports of services?", "Banks enter import-of-services details in IDPMS only for importers that are not resident individuals and where the invoice or contract exceeds INR 10 lakh."),
           ("Can BQP help with export FEMA and GST compliance?", "Yes. " + C)],
     related=[(OLD + ".html", "FEMA export rules from 1 October 2026"), ("freelancer-consultant-tax-india-2026-complete.html", "Freelancer tax guide"),

@@ -261,6 +261,7 @@ BOXES = {
     "direxit": ("Director leaving?", 'A director leaving? See <a href="director-resignation-removal-india-dir-11-dir-12-section-168-169-resident-director-2026.html">director resignation and removal: DIR-11, DIR-12, sections 168 and 169</a>.'),
     "fnbank": ("Bank account in India?", 'Need an Indian bank account? See <a href="can-foreigner-open-bank-account-in-india-resident-nro-nre-snrr-oci-tourist-company-2026.html">can a foreigner open a bank account in India</a>.'),
     "itc86a": ("Credit blocked?", 'Credit ledger blocked? See <a href="itc-blocked-rule-86a-gst-electronic-credit-ledger-blocked-how-to-unblock-2026.html">ITC blocked under Rule 86A: how to get it unblocked</a>.'),
+    "f5472abate": ("Form 5472 penalty?", 'Got a Form 5472 penalty? See <a href="form-5472-penalty-abatement-reasonable-cause-form-843-foreign-owned-us-llc-2026.html">Form 5472 penalty abatement: reasonable cause, Form 843 and Appeals</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -289,6 +290,8 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "what-is-form-5472.html": ["f5472abate"],
+    "how-to-file-form-5472.html": ["f5472abate"],
     "roc-compliance-private-limited-company-llp-2026-27-calendar-due-dates-forms-late-fees.html": ["regoffice"],
     "gst-consultant-online-india-registration-returns-lut-refund-notice-reply-gstr-9-near-me-2026.html": ["bookkeeping"],
     "fema-late-submission-fee-calculator-fc-gpr-fc-trs-form-di-fla-apr-lsf-rbi-2026.html": ["femaconsultant"],

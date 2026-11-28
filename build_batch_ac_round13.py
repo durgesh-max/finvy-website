@@ -609,7 +609,7 @@ PAGES = [
              "</ul>"),
             ("/ Indian GST framework", "What applies in India.",
              "<ul>"
-             "<li>Indian GST (CGST + SGST + IGST): 18% standard rate on services; 5% / 12% / 28% specific rates.</li>"
+             "<li>Indian GST (CGST + SGST + IGST): 18% standard rate on services; 5% and 40% specific rates (the 12% and 28% slabs were removed from 22 September 2025).</li>"
              "<li>Export of services (Section 2(6) IGST Act): zero-rated with LUT / bond or with refund of specific unutilised ITC.</li>"
              "<li>Place of supply rules (Section 13 IGST Act): specific for cross-border service determination.</li>"
              "<li>Services provided by Indian branch to German GmbH (immediate parent): specific analysis - is it export of service (zero-rated) or specific intra-establishment transaction?</li>"

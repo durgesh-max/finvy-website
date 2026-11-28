@@ -22,7 +22,7 @@ C = contact("whether you are the employer or employee, the salary structure, the
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="TDS on Salary 2026-27: Section 392 (Old Section 192), Limit, Rates, Calculation and Form 130",
+    title="TDS on Salary 2026-27: Section 392 (Old Section 192), Limit, Rates, Calculation, Form 130 and Form 16 Not Received",
     em="spread the year's tax evenly across the months.",
     kicker="/ Employees and employers &middot; Income tax &middot; Updated 2026-11-25",
     lead=("<strong>TDS on salary is deducted by the employer each time salary is paid, at the average rate of income tax on the employee&rsquo;s estimated taxable salary for the year; there is no fixed TDS rate on salary.</strong> "
@@ -61,6 +61,7 @@ PAGES = [dict(
           ("What is the rate of TDS on salary?", "There is no fixed rate. The employer deducts tax at the average rate applicable to the employee's estimated taxable salary for the year, under the new regime by default or the old regime if the employee opts for it."),
           ("What is the TDS on salary limit for 2026-27?", "Under the new regime, no TDS is due if taxable income is up to Rs 12 lakh, which with the Rs 75,000 standard deduction means salary up to about Rs 12.75 lakh, because the section 87A rebate makes the tax nil. Above that, TDS applies, with marginal relief just above the threshold."),
           ("What replaces Form 16?", "Form 130 is the salary TDS certificate under the Income-tax Act, 2025. For tax year 2026-27 it is due by 15 June 2027."),
+        ("I have not received Form 16 (now Form 130) from my employer or previous employer. Can I still file my return?", "Yes. Form 16 is a certificate, not a condition for filing. The employer must issue it by 15 June after the year for any tax deducted, and can be penalised for not doing so, so ask HR or the payroll team first - a past employer can still issue it from the tax department's TDS system. Meanwhile, file using your payslips and the TDS credited to your PAN in Form 168 (old 26AS) and AIS: the salary paid and tax deducted by each employer appear there once the employer has filed its quarterly salary TDS return. If you changed jobs, add both employers' salary and claim the standard deduction only once, and check whether the second employer knew your earlier salary - if not, too little tax may have been deducted and you may need to pay the balance as self-assessment tax before filing. If tax was deducted but does not show in Form 168, the employer has not filed or has filed the TDS return wrongly, so ask for a correction before claiming it. WhatsApp +91 78018 87130 with your payslips, Form 168 / AIS and the details of each employer, or book a call."),
           ("Which return does the employer file for salary TDS?", "The quarterly TDS return for salary is Form 138, which replaces Form 24Q from tax year 2026-27."),
           ("Can BQP handle salary TDS for our company?", "Yes. CA Durgesh Chavda can set up payroll TDS computation, file Form 138 returns and issue Form 130, including for foreign-owned Indian subsidiaries. " + C)],
     related=[("tds-return-filing-fy-2026-27-due-dates-form-138-140-144-143-process-late-fee.html", "TDS return filing"),

@@ -272,6 +272,7 @@ BOXES = {
     "itsearch132": ("Income tax raid?", 'Income tax search (raid)? See <a href="income-tax-search-seizure-section-132-raid-what-to-do-rights-statement-jewellery-block-assessment-2026.html">income tax search and seizure under section 132: what to do</a>.'),
     "notice1336": ("133(6) notice or summons?", 'Got a 133(6) notice or a summons? See <a href="income-tax-notice-section-133-6-information-request-summons-section-131-how-to-reply-2026.html">section 133(6) information notices and section 131 summons: how to reply</a>.'),
     "blocked175": ("Blocked GST credit?", 'Is your GST credit blocked? See <a href="gst-blocked-credits-section-17-5-itc-on-car-food-insurance-construction-csr-gifts-exceptions-2026.html">GST blocked credits under section 17(5) and the exceptions</a>.'),
+    "einvoice": ("E-invoicing?", 'Does e-invoicing apply to you? See <a href="gst-e-invoicing-applicability-5-crore-30-day-reporting-limit-irn-exemptions-cancellation-2026.html">GST e-invoicing: INR 5 crore threshold and the 30-day limit</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -300,6 +301,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "e-way-bill-expired-extension-goods-detained-section-129-mov-07-penalty-release-2026.html": ["einvoice"],
     "income-tax-survey-section-133a-what-officers-can-do-statement-impounding-books-survey-vs-search-2026.html": ["itsearch132"],
     "high-value-transaction-notice-income-tax-credit-card-spending-sft-limits-how-to-reply-2026.html": ["bankvisible", "notice1336"],
     "what-is-form-5472.html": ["f5472abate"],
@@ -319,7 +321,7 @@ TARGETS = {
     "startup-advisor-ahmedabad.html": ["gujaratpt"],
     "ca-firm-ahmedabad.html": ["gujaratpt"],
     "income-tax-gst-notice-reply-draft-letter-generator-free-tool-format-word.html": ["drc01c"],
-    "gst-return-filing-2026-due-dates-gstr-1-gstr-3b-qrmp-cmp-08-gstr-9-process-late-fee.html": ["drc01c", "gstconsultant"],
+    "gst-return-filing-2026-due-dates-gstr-1-gstr-3b-qrmp-cmp-08-gstr-9-process-late-fee.html": ["drc01c", "gstconsultant", "einvoice"],
     "tds-default-notice-traces-default-summary-password-how-to-clear-short-payment-interest-late-fee-2026.html": ["tdscorrection"],
     "form-16a-now-form-131-tds-certificate-2026-download-traces-due-dates-form-130-vs-131.html": ["tdsdefault", "tdscorrection"],
     "ca-for-nri-in-india-nri-tax-consultant-online-pune-mumbai-delhi-bangalore-chennai-ahmedabad-hyderabad-2026.html": ["nrinotice"],

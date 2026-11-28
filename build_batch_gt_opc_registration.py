@@ -21,7 +21,7 @@ C = contact("who will own the OPC and where they live, who the nominee and direc
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="OPC Registration in India (2026): One Person Company Process, Documents, Nominee, NRI Owners and Compliance",
+    title="OPC Registration in India (2026): One Person Company Process, Documents, Nominee, NRI Owners, Compliance and Conversion to Private Limited",
     em="one owner, limited liability, and a company you can grow.",
     kicker="/ Solo founders and NRIs &middot; OPC &middot; Updated 2026-11-24",
     lead=("<strong>A One Person Company (OPC) is a private company with a single shareholder, registered online with the Ministry of Corporate Affairs through the SPICe+ form on the MCA V3 portal.</strong> "
@@ -65,6 +65,7 @@ PAGES = [dict(
           ("What documents are needed for OPC registration?", "PAN (or passport for documents from abroad), address proof and a photograph of the member, director and nominee, the nominee's consent in Form INC-3, proof of the registered office with the owner's no-objection or a rent agreement, and DSCs for those signing."),
           ("Can an NRI register an OPC in India?", "Yes. Since 1 April 2021 any Indian citizen, resident or not, can form an OPC. The company still needs at least one director who stays in India for 182 days in the financial year, so an NRI owner usually appoints a resident director."),
           ("Is there a capital or turnover limit for an OPC?", "No. The INR 50 lakh paid-up capital and INR 2 crore turnover caps were removed in 2021, there is no minimum capital, and an OPC can convert into a private or public company at any time."),
+        ("How do I convert an OPC into a private limited company?", "Since 1 April 2021 an OPC can convert into a private limited company voluntarily at any time - the old two-year wait and the paid-up capital and turnover triggers were removed. The steps: bring in at least one more member and appoint at least one more director so the company has a minimum of two of each (a private company also needs one director resident in India), pass a special resolution approving the conversion and altering the memorandum and articles, file the resolution in MGT-14, then apply to the Registrar in Form INC-6 with the altered documents and the list of members and directors; once approved, a fresh certificate of incorporation is issued and the company drops 'OPC' from its name. Some guides also call for creditors' consent, so keep a creditors' list and any no-objection letters ready. Bank, GST, PAN / TAN and contracts then need the new name updated. WhatsApp +91 78018 87130 with the company's CIN, the incoming shareholder and director details and the planned shareholding, or book a call."),
           ("What are the annual compliances of an OPC?", "At least one board meeting in each half of the calendar year (unless the OPC has only one director), a statutory audit, financial statements in Form AOC-4 within 180 days of the year end, the annual return in Form MGT-7A, director KYC and the company income tax return. No annual general meeting is needed."),
           ("Can BQP help register and run an OPC?", "Yes. " + C)],
     related=[("can-nri-start-business-in-india-sole-proprietorship-partnership-opc-llp-company-2026.html", "Can an NRI start a business in India"),

@@ -47,10 +47,10 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
          "<li><strong>Lower tax: Option B.</strong></li>"
          "</ul>"
          "<p>For post-23-July-2024 asset acquisitions, only Option B applies &mdash; no choice.</p>"
-         "<p>Rule of thumb: for very old assets (10+ years, high indexation), 20% with indexation sometimes wins. For medium-held assets (3-10 years), 12.5% without indexation almost always wins. Model each transaction.</p>"),
+         "<p>Rule of thumb: for very old assets (10+ years, high indexation), 20% with indexation sometimes wins. For medium-held assets (3-10 years), 12.5% without indexation usually wins. Model each transaction.</p>"),
         ("/ Impact on debt mutual funds", "The grandfathering that stayed.",
          "<p>Debt mutual funds purchased on or after <strong>1 April 2023</strong> lost the LTCG preferential rate entirely. All gains, regardless of holding period, are taxed at the investor's slab rate.</p>"
-         "<p>Debt MF units acquired before 1 April 2023 remain under the earlier regime (20% with indexation after 3-year holding) until sold. This grandfathering survives Finance Act 2024.</p>"
+         "<p>Debt MF units acquired before 1 April 2023 keep long-term treatment, but Finance Act 2024 changed the terms: for transfers from 23 July 2024 they are long-term after 24 months and taxed at 12.5% without indexation (the old 20%-with-indexation route ended).</p>"
          "<p>Practical effect: investors with pre-April-2023 debt MF holdings have a one-time planning window. If you expect to hold the units long term and have significant indexation benefit, holding to the current regime is often better than switching strategies.</p>"),
         ("/ Impact on founders at exit", "Flip, reverse flip, acquisition.",
          "<ul>"

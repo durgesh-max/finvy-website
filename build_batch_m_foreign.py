@@ -53,7 +53,7 @@ write_page("foreign-company-setup-indian-subsidiary-wos", page(
          "<li><strong>Statutory audit</strong>: mandatory for all Pvt Ltd regardless of size. Signed by an Indian CA. Done remotely for foreign-owned companies &mdash; BQP delivers audit from India.</li>"
          "<li><strong>Income tax return</strong>: Form ITR-6 by 31 October (if TP applicable: 30 November).</li>"
          "<li><strong>Tax audit</strong>: if turnover &gt; INR 1 crore.</li>"
-         "<li><strong>Transfer pricing audit (Form 3CEB)</strong>: mandatory for any transaction with foreign parent (always &gt; INR 1 crore threshold triggered immediately). Form 3CEB by 31 October.</li>"
+         "<li><strong>Transfer pricing audit (Form 3CEB)</strong>: required for any international transaction (or specified domestic transaction), whatever the amount; the INR 1 crore threshold only decides whether full Rule 10D documentation must be kept. Form 3CEB by 31 October.</li>"
          "<li><strong>ROC annual filings</strong>: AOC-4 (financials), MGT-7 (annual return).</li>"
          "<li><strong>FLA Return (RBI)</strong>: annual filing of foreign liabilities &amp; assets &mdash; <a href='fla-return-foreign-liabilities-assets-rbi-india.html'>our FLA guide</a>.</li>"
          "<li><strong>GST monthly / quarterly returns</strong>: GSTR-1 + GSTR-3B.</li>"
@@ -372,16 +372,16 @@ write_page("transfer-pricing-india-foreign-mnc", page(
          "<ul>"
          "<li>Direct or indirect participation in management, control, or capital (26%+ shareholding, 26%+ voting, etc.).</li>"
          "<li>Common management / control of both enterprises.</li>"
-         "<li>Guarantee / loan providing &gt; 51% total.</li>"
+         "<li>Loans of 51% or more of the borrower's total assets, or guarantees of 10% or more of its total borrowings.</li>"
          "<li>Appointment of &gt; 50% of board members.</li>"
          "</ul>"
-         "<p>Indian subsidiary of US parent: AE. Indian subsidiary of UK parent via Singapore holdco: both US / UK / Singapore are AE.</p>"
+         "<p>Indian subsidiary of US parent: AE. Indian subsidiary of a UK parent held through a Singapore holdco: both the UK parent and the Singapore holdco are AEs.</p>"
          "<p><strong>International Transaction (Section 92B)</strong>: any transaction between AEs that affects profits, income, losses, or assets &mdash; purchase/sale of goods, services, intangibles, lending/borrowing, guarantees, cost sharing, business restructuring.</p>"
          "<p><strong>Threshold for TP documentation</strong>: aggregate international transactions &gt; INR 1 crore in the FY &rarr; Section 92D documentation required.</p>"),
         ("/ Form 3CEB (annual audit)", "The core compliance.",
          "<p>Form 3CEB is a transfer pricing audit certificate issued by a Chartered Accountant, filed as part of the Indian company's annual tax return. Required for:</p>"
          "<ul>"
-         "<li>Every taxpayer with international transactions above INR 1 crore in the FY (effectively every foreign-subsidiary).</li>"
+         "<li>Every taxpayer that entered into any international transaction or specified domestic transaction in the year, whatever the amount (the INR 1 crore threshold only relaxes the detailed documentation, not the Form 3CEB report).</li>"
          "<li>Due date: 31 October of the assessment year, one month before the 30 November return due date for transfer-pricing cases.</li>"
          "</ul>"
          "<p>Form 3CEB covers:</p>"
@@ -422,14 +422,14 @@ write_page("transfer-pricing-india-foreign-mnc", page(
          "<li>Removes double-taxation risk (bilateral APA).</li>"
          "<li>Reduces litigation cost / management time.</li>"
          "</ul>"
-         "<p><strong>Timeline</strong>: typically 24-36 months from filing to signing. Expensive upfront but valuable for groups with large recurring intercompany transactions.</p>"),
+         "<p><strong>Timeline</strong>: varies; bilateral APAs usually take longer because both tax authorities must agree. Most useful for groups with large recurring intercompany transactions.</p>"),
         ("/ Common TP mistakes foreign MNCs make in India", "What triggers assessment.",
          "<ul>"
          "<li><strong>Low operating margin on contract services</strong>: Indian subsidiary providing IT / BPO services to the foreign parent at a margin below the range shown by the comparables the officer selects, so the officer adds the difference to income.</li>"
          "<li><strong>Royalty rate on licensed brand / technology</strong>: too low (parent extracting value) or too high (shifting profit to parent). Benchmarking against royalty databases (e.g., RoyaltyStat, ktMINE) + comparability adjustments.</li>"
          "<li><strong>Guarantee fee for parent's bank guarantee</strong>: Indian subsidiary paying nil or symbolic guarantee fee to parent for parent-provided guarantee. Officers expect an arm's length fee, benchmarked to what an independent guarantor or bank would charge for a comparable guarantee.</li>"
-         "<li><strong>Marketing intangibles (AMP / brand building)</strong>: Indian subsidiary spending significantly on brand marketing in India but not getting marketing-service fee / IP reward from parent. 'Bright Line' test ADPCO cases &rarr; adjustment risk.</li>"
-         "<li><strong>Cost allocation without substance</strong>: parent allocating group HQ costs to Indian subsidiary without proper allocation key / benefit test. CBDT typically disallows allocations lacking benefit test.</li>"
+         "<li><strong>Marketing intangibles (AMP / brand building)</strong>: Indian subsidiary spending significantly on brand marketing in India but not getting marketing-service fee / IP reward from parent. AMP adjustments have been heavily litigated; courts rejected the 'bright line' test, but the issue still comes up in assessments.</li>"
+         "<li><strong>Cost allocation without substance</strong>: parent allocating group HQ costs to Indian subsidiary without proper allocation key / benefit test. Transfer pricing officers typically challenge allocations that lack a benefit test.</li>"
          "<li><strong>Weak benchmarking</strong>: using too few comparables, including non-comparable sized companies, cherry-picking inter-quartile range.</li>"
          "<li><strong>Not filing Master File / CbCR when applicable</strong>: group revenue above threshold but local Indian team not aware of global filing status.</li>"
          "</ul>"
@@ -437,7 +437,7 @@ write_page("transfer-pricing-india-foreign-mnc", page(
     ],
     faqs=[
         ("Is Form 3CEB mandatory for every foreign-subsidiary in India?",
-         "Effectively yes - any Indian subsidiary of a foreign parent that has international transactions (parent charges management fee, royalty, interest, service fee, or buys/sells goods to Indian subsidiary) crosses the INR 1 crore threshold quickly. Form 3CEB mandatory alongside Form 3CD and ITR-6. Due 31 October of the assessment year (31 October 2026 for FY 2025-26)."),
+         "Effectively yes - any Indian subsidiary of a foreign parent that has international transactions (parent charges management fee, royalty, interest, service fee, or buys/sells goods to Indian subsidiary) needs the Form 3CEB report for any international transaction, whatever the amount; the INR 1 crore threshold only decides whether detailed documentation is required. It is filed alongside Form 3CD and ITR-6. Due 31 October of the assessment year (31 October 2026 for FY 2025-26)."),
         ("What is the transfer pricing documentation threshold in India?", "Detailed transfer pricing documentation (functional analysis, benchmarking, agreements) must be kept where the aggregate value of international transactions with associated enterprises exceeds INR 1 crore in the year. Below that, documentation is lighter, but the accountant's report (Form 48, formerly Form 3CEB) is still filed for any international transaction, and prices must still be at arm's length."),
         ("What are the transfer pricing documentation requirements in India?", "Records of the ownership structure, the group's business, the nature and terms of each related-party transaction, a functional, asset and risk analysis, the method selected and the comparables used, the agreements and invoices, and any assumptions or adjustments. From tax year 2026-27 these sit under the Income-tax Rules, 2026; the documentation must exist by the due date of the accountant's report."),
         ("When is the master file required in India?", "When the group's consolidated revenue exceeds INR 500 crore and either its international transactions exceed INR 50 crore, or transactions in intangibles exceed INR 10 crore. The master file and the country-by-country report are separate from the local documentation and the accountant's report."),
@@ -688,7 +688,7 @@ write_page("india-audit-services-foreign-shareholder-remote", page(
          "</ul>"
          "<p><strong>3. Transfer Pricing Audit (Section 92E / Rule 10E)</strong></p>"
          "<ul>"
-         "<li>Mandatory for any company with international transactions &gt; INR 1 crore (nearly every foreign-subsidiary triggers).</li>"
+         "<li>Form 3CEB is required for any international transaction (or specified domestic transaction), whatever the amount; the INR 1 crore threshold only decides whether full Rule 10D documentation must be kept.</li>"
          "<li>Form 3CEB signed by Indian CA.</li>"
          "<li>Deadline: 31 October (extended once in recent years to 30 November).</li>"
          "<li>See <a href='transfer-pricing-india-foreign-mnc.html'>TP guide</a>.</li>"

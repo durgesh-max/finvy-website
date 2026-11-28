@@ -493,12 +493,12 @@ PAGES.append({
     "slug": "form-3ceb-tp-audit-india-2026-30-november-checklist",
     "title": "Form 3CEB (Now Form 48) TP Audit India 2026: Due 31 October, ITR 30 November",
     "hero_em": "transfer pricing audit specific.",
-    "lead": "Form 3CEB transfer pricing audit certificate: due 30 November 2026 for AY 2026-27. Mandatory for any Indian entity with international transactions above INR 1 crore (effectively every foreign-subsidiary subsidiary). Benchmarking study + Section 92D documentation underlying. Here's the complete 2026 Form 3CEB checklist.",
+    "lead": "Form 3CEB transfer pricing audit certificate: due 30 November 2026 for AY 2026-27. Required for any Indian entity with an international transaction, whatever the amount; the INR 1 crore threshold only decides whether full documentation must be kept. Benchmarking study + Section 92D documentation underlying. Here's the complete 2026 Form 3CEB checklist.",
     "kicker": "/ TP Audit Form Checklist &middot; Updated 2026-10-22",
     "sections_pairs": [
         ("/ Who must file Form 3CEB", "Scope.",
          "<ul>"
-         "<li>Any Indian company / entity with international transactions above <strong>INR 1 crore</strong> in aggregate in the FY.</li>"
+         "<li>Any Indian company / entity that entered into an international transaction (or specified domestic transaction) in the FY, whatever the amount. Full documentation under Rule 10D is needed once international transactions exceed <strong>INR 1 crore</strong>.</li>"
          "<li>International transaction = transaction between Associated Enterprises (26%+ shareholding or common control) crossing border + affects profit / income / loss / assets.</li>"
          "<li>Effectively every Indian subsidiary of foreign parent (any related-party transaction triggers).</li>"
          "<li>Specified Domestic Transactions also in scope: specific tax-holiday / 115BAB-type entities.</li>"
@@ -536,8 +536,8 @@ PAGES.append({
         ("When is Form 3CEB due for AY 2026-27?",
          "30 November 2026. One month after standard tax audit deadline (31 October). Specific extended deadline for TP audit cases."),
         ("What is the new name of Form 3CEB?", "Under the Income-tax Rules, 2026, the transfer pricing accountant's report becomes Form 48 from tax year 2026-27. Reports for FY 2025-26 (AY 2026-27), due in 2026, are still filed in Form 3CEB under the 1961 Act."),
-        ("What's the INR 1 crore threshold for Form 3CEB?",
-         "Aggregate international transactions (goods + services + intangibles + financing + cost allocation + business restructuring with Associated Enterprises) above INR 1 crore in the FY. Effectively every foreign-subsidiary Indian company triggers."),
+        ("Is there an INR 1 crore threshold for Form 3CEB?",
+         "Not for the report itself: Form 3CEB is needed for any international transaction with an associated enterprise, whatever the amount. The INR 1 crore figure (aggregate international transactions in the year) decides whether the full Rule 10D documentation - functional analysis, benchmarking - must be maintained; below it, lighter records are allowed but arm's length pricing still applies."),
         ("What's the penalty for missing Form 3CEB?",
          "Section 271BA: INR 1,00,000 penalty for non-filing or incomplete Form 3CEB. Section 234F ITR late fee. ITR filing blocked until Form 3CEB linked."),
         ("Does Form 3CEB alone suffice or do I need Section 92D documentation?",
@@ -552,7 +552,7 @@ PAGES.append({
     "cta_h": "Indian subsidiary with international transactions > INR 1 crore?",
     "cta_b": "Form 3CEB + benchmarking + Section 92D + Master File + CbCR + BEPS Pillar 2. 30 November deadline. BQP full TP stack.",
     "keywords": "Form 3CEB TP audit India 2026, Transfer Pricing audit 30 November, Form 3CEB benchmarking CA, Section 92D documentation CA",
-    "desc": "Form 3CEB TP audit India AY 2026-27 due 30 November 2026: INR 1 crore threshold, arm's-length methods (CUP/RPM/Cost Plus/TNMM/PSM), Section 92D documentation, Master File (Form 3CEAA), CbCR (Form 3CEAD), BEPS Pillar 2 integration. Working CA guide by Durgesh Chavda.",
+    "desc": "Form 3CEB TP audit India AY 2026-27 due 30 November 2026: report for any international transaction (full documentation above INR 1 crore), arm's-length methods (CUP/RPM/Cost Plus/TNMM/PSM), Section 92D documentation, Master File (Form 3CEAA), CbCR (Form 3CEAD), BEPS Pillar 2 integration. Working CA guide by Durgesh Chavda.",
 })
 
 # 4 sub-niche sector pages

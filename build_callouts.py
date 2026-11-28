@@ -288,6 +288,7 @@ BOXES = {
     "invertedduty": ("Inverted duty refund?", 'GST credit piling up because inputs cost more tax? See <a href="gst-inverted-duty-structure-refund-rule-89-5-formula-inputs-only-2-years-rfd-01-90-percent-provisional-2026.html">inverted duty refund: rule 89(5) and the 90% provisional refund</a>.'),
     "rightsbonus": ("Rights or bonus issue?", 'Issuing shares to existing shareholders? See <a href="rights-issue-bonus-issue-shares-private-company-section-62-1-a-section-63-procedure-pas-3-tax-2026.html">rights issue and bonus issue: sections 62(1)(a) and 63</a>.'),
     "gstamend": ("GST details changed?", 'Changed address, partners or premises? See <a href="gst-registration-amendment-core-non-core-fields-reg-14-15-days-change-address-add-place-of-business-2026.html">GST registration amendment: core vs non-core fields</a>.'),
+    "namechange": ("Changing company name?", 'Rebranding your company? See <a href="change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html">change of company name: INC-24 and what to update</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -316,6 +317,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "change-registered-office-company-india-inc-22-inc-23-mgt-14-within-city-another-state-procedure-2026.html": ["namechange"],
     "form-sh-4-share-transfer-form-india-2026.html": ["rightsbonus"],
     "increase-authorised-share-capital-sh-7-section-61-64-ordinary-resolution-30-days-before-fundraise-2026.html": ["rightsbonus"],
     "form-mgt-14-board-shareholder-resolution-filing-india-2026.html": ["authcapsh7"],
@@ -464,7 +466,7 @@ TARGETS = {
     "how-to-raise-seed-funding-india-startup.html": ["llpconv", "sweatequity", "raiseforeign", "sisfs", "fundstages"],
     "how-to-issue-esops-india.html": ["llpconv", "sweatequity", "esopbb", "esoptax"],
     "best-ca-indian-llc-llp-conversion-india-2026.html": ["llpconv"],
-    "company-secretarial-services-india-remote.html": ["founderpay", "dir12", "adt1", "regoffice", "direxit", "rpt188"],
+    "company-secretarial-services-india-remote.html": ["founderpay", "dir12", "adt1", "regoffice", "direxit", "rpt188", "namechange"],
     "startup-tax-holiday-section-80-iac-now-section-140-eligibility-imb-certificate-mat-115baa-2026.html": ["founderpay", "llpconv", "sweatequity", "angeltax", "gstreg"],
     "founder-vesting-india-us-startup.html": ["founderpay", "sweatequity"],
     "new-vs-old-tax-regime-calculator.html": ["founderpay", "taxrates", "tdssalary", "huftax", "leaveenc", "agriinc", "hracalc"],

@@ -28,7 +28,7 @@ PAGES = []
 C_FN = contact("your nationality, whether a foreign company or individuals will own the Indian company, the business activity and who could act as resident director")
 PAGES.append(dict(
     slug=FN,
-    title="Can a Foreign National Register a Company in India? (2026) Ownership, Resident Director, Documents and How Long It Takes",
+    title="Can a Foreign National Register a Company or Start a Business in India? (2026) Ownership, Resident Director, Documents, Bank Account and How Long It Takes",
     em="for foreign founders and parent companies.",
     kicker="/ Foreign founders &middot; Company registration &middot; Updated 2026-11-19",
     lead=("Yes. A foreign national, or a foreign company, can own up to <strong>100% of an Indian private limited company</strong> in sectors open to automatic-route foreign investment, and can be a director. "
@@ -75,6 +75,7 @@ PAGES.append(dict(
           ("Does a foreign-owned company need an Indian director?", "It needs at least one director who is resident in India, meaning in India for at least 182 days in the financial year; the director does not have to be an Indian citizen."),
           ("What documents does a foreign national need?", "Passport, recent address proof, photograph, and for a corporate shareholder its incorporation documents and board resolution, usually notarised and apostilled."),
           ("Can a foreigner form a one person company in India?", "No. Only Indian citizens, resident or not, can form an OPC; foreigners use a private limited company."),
+        ("Can a foreigner open a bank account in India?", "It depends on residence and purpose. A foreign national living in India, for example on an employment visa, can open an ordinary resident savings account with a passport, visa and residence registration. A foreign national of Indian origin or an OCI cardholder living abroad can open NRE and NRO accounts like an NRI. A foreign tourist can open an NRO account for up to six months. A person living abroad with a business interest in India can use a Special Non-Resident Rupee (SNRR) account, and a foreign company doing business in India banks through its Indian subsidiary, branch or liaison office. Book a call to choose the right account before money moves."),
           ("Can BQP register our company?", "Yes. " + C_FN)],
     related=[("foreign-company-setup-indian-subsidiary-wos.html", "Wholly owned subsidiary set-up"), ("nominee-resident-director-india-foreign-company.html", "Resident director options"),
              (HUB + ".html", "Working with an Indian CA")],

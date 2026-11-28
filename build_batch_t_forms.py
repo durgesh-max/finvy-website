@@ -641,7 +641,7 @@ PAGES.append({
     ],
     "faqs": [
         ("What's the minimum net worth for NBFC licence?",
-         "Varies by category: NBFC-ND INR 2 crore minimum; NBFC-MFI INR 5 crore (urban) / INR 2 crore (rural); NBFC-ICC INR 2 crore. Scale-Based Regulation (SBR) framework may require higher net worth for Middle Layer / Upper Layer NBFCs."),
+         "Under RBI's scale-based regulation, a new NBFC-ICC or NBFC-MFI needs net owned funds of INR 10 crore; existing ones had to reach INR 5 crore by 31 March 2025 and INR 10 crore by 31 March 2027. Some categories keep lower floors (for example account aggregators and P2P platforms at INR 2 crore), and middle and upper layer NBFCs carry further requirements."),
         ("What's Digital Lending Guidelines September 2022?",
          "RBI framework for digital lending by NBFCs + banks + regulated entities. Key provisions: borrower disclosure, grievance redressal, Loan Service Provider (LSP) + Lending Service Provider (LSP) categories, First Loss Default Guarantee (FLDG) restrictions, data privacy + storage, collection mechanisms."),
         ("What's co-lending framework?",

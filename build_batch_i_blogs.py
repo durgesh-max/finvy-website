@@ -8,7 +8,7 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
     title="Capital Gains Tax in India 2026: Capital Gain on Sale of Shares (Long Term and Short Term), LTCG 12.5% and STCG 20% Rates, Holding Periods, Indexation for Property, Mutual Funds, Buybacks and Tax Loss Harvesting",
     description="The post-July-2024 LTCG 12.5% capital gains rule affects every Indian founder, NRI, and investor. Listed equity, unlisted equity, property, mutual funds, bonds - full impact map. Indexation grandfathering, STCG 20%, buyback tax. Working CA analysis.",
     keywords="LTCG 12.5% new rule, LTCG without indexation 2026, Finance Act 2024 capital gains, STCG 20% listed equity, LTCG property India 2026, buyback tax October 2024, LTCG unlisted equity 12.5",
-    hero_kicker="/ Blog &middot; Capital Gains &middot; Updated October 2026",
+    hero_kicker="/ Blog &middot; Capital Gains &middot; Updated November 2026",
     hero_title_html="Capital gains tax in India 2026: LTCG 12.5% and STCG 20%, <em>the capital-gains regime that rewrote everything.</em>",
     hero_lead="The Finance Act 2024 flipped India's capital-gains framework in July 2024. By October 2026, every Indian founder, NRI and investor is operating under the new regime: 12.5% LTCG without indexation, 20% STCG on listed equity, buyback tax at the shareholder level, debt MF slab-rate taxation. This is the full impact map with the specific numbers.",
     sections=[
@@ -65,7 +65,7 @@ write_page("ltcg-12-5-percent-new-capital-gains-india-2026", page(
          "<p><strong>If you are an Indian startup founder planning a flip:</strong> flip early, at low FMV. The 12.5% rate is already low; low FMV x 12.5% x founder cap table is nearly trivial. Delaying costs geometrically more.</p>"
          "<p><strong>If you are a US-returning NRI with foreign assets:</strong> the Indian 12.5% regime is favourable for post-RNOR capital gains on foreign asset sales. Combined with FTC under India-US DTAA Article 25, net Indian tax after US tax is often zero.</p>"
          "<p><strong>If you are planning to exit via buyback:</strong> re-model vs secondary sale. Buyback is now shareholder-taxable at slab rate; secondary sale is LTCG at 12.5%. For high-income shareholders, secondary sale wins by 25+ percentage points.</p>"
-         "<p><em>Last updated: 2026-10-07.</em></p>"),
+         "<p><em>Last updated: 2026-11-28.</em></p>"),
     ],
     faqs=[
         ("What is the LTCG rate in India in 2026?",
@@ -102,12 +102,12 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
     title="LRS Limit Per Year (USD 250,000) and TCS on Foreign Remittance Above Rs 10 Lakh (2026): 20% Rate, Exceptions, Recovery - BQP",
     description="TCS 20% on foreign remittance under LRS above INR 10 lakh per year. Section 206C(1G) full impact: how it works, when it applies, who's exempt, how founders avoid or recover it, education/medical carve-outs. Working CA guide.",
     keywords="TCS 20% foreign remittance 2026, LRS TCS calculator, Section 206C(1G), TCS on foreign remittance India, TCS LRS exemption, TCS refund LRS, 20% TCS on dollar remittance",
-    hero_kicker="/ Blog &middot; TCS on LRS &middot; Updated October 2026",
+    hero_kicker="/ Blog &middot; TCS on LRS &middot; Updated November 2026",
     hero_title_html="TCS 20% on foreign remittance, <em>what every Indian founder needs to know.</em>",
-    hero_lead="Since 1 October 2023, Indian residents remitting money abroad under the Liberalised Remittance Scheme (LRS) face 20% Tax Collected at Source (TCS) on remittances above INR 10 lakh per financial year (per source category). Section 206C(1G). It is NOT a tax; it is advance-tax collection &mdash; but it drains working capital for 12-18 months. Here's the full map, with the carve-outs, exemptions and recovery process.",
+    hero_lead="Since 1 October 2023, Indian residents remitting money abroad under the Liberalised Remittance Scheme (LRS) face 20% Tax Collected at Source (TCS) on remittances above INR 10 lakh per financial year (per source category). Section 206C(1G). It is NOT a tax; it is advance-tax collection &mdash; but it locks up cash until the year's return is filed and processed. Here's the full map, with the carve-outs, exemptions and recovery process.",
     sections=[
         ("/ How TCS on LRS works", "The mechanics.",
-         "<p><strong>Section 206C(1G)</strong> of the Income Tax Act requires Authorised Dealer (AD) banks to collect TCS on outward remittances under LRS. Current rates (effective 1 October 2023):</p>"
+         "<p><strong>Section 206C(1G)</strong> of the Income Tax Act requires Authorised Dealer (AD) banks to collect TCS on outward remittances under LRS. Current rates (from 1 April 2026):</p>"
          "<ul>"
          "<li><strong>Overseas education financed by education loan:</strong> 0.5% above INR 7 lakh/year</li>"
          "<li><strong>Overseas education from own funds:</strong> 5% above INR 7 lakh/year</li>"
@@ -125,7 +125,7 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
          "<li>Gift to overseas relative &mdash; 20% above INR 10 lakh.</li>"
          "</ul>"),
         ("/ Worked example", "Setting up a Delaware C-Corp.",
-         "<p>Scenario: Indian founder remits USD 20,000 (~INR 16.6 lakh at INR 83/USD) to fund a new Delaware C-Corp as equity contribution.</p>"
+         "<p>Scenario: Indian founder remits USD 20,000 (~INR 16.6 lakh at an assumed INR 83/USD) to fund a new Delaware C-Corp as equity contribution.</p>"
          "<ul>"
          "<li>LRS category: Investment (equity in overseas entity) &mdash; falls under 'all other' at 20%.</li>"
          "<li>Threshold: TCS applies on amount above INR 10 lakh. Taxable amount = INR 16.6 lakh - INR 10 lakh = INR 6.6 lakh.</li>"
@@ -138,7 +138,7 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
          "<ul>"
          "<li><strong>Remitter is below the threshold</strong> &mdash; aggregate LRS remittances in the financial year are below INR 10 lakh (or INR 7 lakh for education/medical).</li>"
          "<li><strong>Remitter is a non-resident</strong> &mdash; NRIs transferring their own foreign-currency balances abroad are not under LRS (LRS applies only to Resident Indians).</li>"
-         "<li><strong>Payment via credit card for overseas transactions</strong> is EXCLUDED from LRS under current CBDT clarification (though this has been contested; check current status). Credit-card spend abroad is not currently subject to the 20% TCS on LRS.</li>"
+         "<li><strong>Payment via credit card for overseas transactions</strong> is outside LRS for now: in 2023 the government decided not to bring international credit card spending under LRS, so it does not attract this TCS. Check the current position before relying on it for large amounts.</li>"
          "<li><strong>Business remittances under FEMA automatic/approval route (not LRS)</strong> &mdash; Indian company remitting to foreign vendor for business services does not use LRS; different reporting framework; no TCS under 206C(1G).</li>"
          "<li><strong>Repayment of foreign loans</strong> and specific business-purpose remittances have their own frameworks.</li>"
          "</ul>"),
@@ -147,21 +147,21 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
          "<li><strong>TCS certificate (Form 27D)</strong> &mdash; retrieve from the AD bank after remittance. Shows TCS amount deducted.</li>"
          "<li><strong>Form 26AS / AIS verification</strong> &mdash; TCS will reflect in your Annual Information Statement within 1-2 months of deposit.</li>"
          "<li><strong>Claim as advance tax credit on ITR</strong> &mdash; file ITR by 31 July (or 31 October for audit cases); TCS credit automatically applied to final tax liability.</li>"
-         "<li><strong>Excess refund</strong> &mdash; if TCS collected exceeds final tax, refund processed by Income Tax Department. 12-18 months typical from ITR filing to refund receipt (sometimes faster).</li>"
-         "<li><strong>Section 206CC higher rate</strong> &mdash; applies if remitter is a 'specified person' who has not filed ITR for prior years. Rate becomes 10% or 20% depending on circumstances. Keep ITR filings current to avoid.</li>"
+         "<li><strong>Excess refund</strong> &mdash; if TCS collected exceeds final tax, refund processed by Income Tax Department. The refund comes after the return is processed, so file early.</li>"
+         "<li><strong>No PAN, higher rate</strong> &mdash; TCS is collected at a higher rate where the remitter does not furnish a PAN (old section 206CC). The separate higher rate for non-filers (old section 206CCA) was removed from 1 April 2025.</li>"
          "</ol>"
          "<p>Working-capital impact: for a founder remitting USD 50K-100K to seed a Delaware structure, TCS is INR 7-15 lakh locked up for a year. Factor this into cash planning.</p>"),
         ("/ Planning strategies", "What founders actually do.",
          "<ul>"
          "<li><strong>Spread remittances across financial years</strong> if timing allows. Threshold is per financial year (April-March).</li>"
-         "<li><strong>Use spouse's LRS limit</strong> for larger structures. Each Indian resident individual has a separate USD 250K LRS limit and separate INR 10 lakh TCS threshold.</li>"
-         "<li><strong>Combine credit-card spend (not LRS)</strong> and LRS for mixed overseas obligations where feasible under current CBDT position.</li>"
+         "<li><strong>Use spouse's LRS limit</strong> for larger structures. Each Indian resident individual has a separate USD 250K LRS limit and separate INR 10 lakh TCS threshold - but the money must genuinely be that person's own, and income from funds gifted by a spouse is clubbed with the giver's income.</li>"
+         "<li><strong>Combine credit-card spend (not LRS)</strong> and LRS for mixed overseas obligations where feasible under the current position.</li>"
          "<li><strong>File ITR promptly</strong> after TCS to accelerate refund processing.</li>"
          "<li><strong>Keep TCS certificates organised</strong> &mdash; one certificate per remittance. Store with ITR papers.</li>"
          "<li><strong>Factor TCS into FEMA ODI cash planning</strong> &mdash; if setting up a USD 50K Delaware structure needs INR 42 lakh at INR 83/USD, plan for ~INR 46 lakh total cash outflow including TCS.</li>"
          "</ul>"
          "<p><em>Use our TCS LRS Calculator: <a href=\"lrs-tcs-calculator.html\">lrs-tcs-calculator.html</a></em></p>"
-         "<p><em>Last updated: 2026-10-07.</em></p>"),
+         "<p><em>Last updated: 2026-11-28.</em></p>"),
     ],
     faqs=[
         ("What is TCS on LRS in India in 2026?",
@@ -171,15 +171,15 @@ write_page("tcs-20-foreign-remittance-lrs-india-2026", page(
         ("Is foreign remittance taxable in India?", "Sending your own money abroad is not income, so the remittance itself is not taxed; TCS collected above Rs 10 lakh is credited against your tax and any excess is refunded through the ITR. Money received from abroad is taxed by its nature: gifts from relatives are exempt, while fees, salary or other income of a resident are taxable."),
         ("What are LRS purpose codes?", "Each outward remittance is tagged with an RBI purpose code that the bank reports, for example codes for maintenance of close relatives, education, medical treatment, gifts, overseas investment in shares or property, and travel. The purpose decides which TCS rate applies and whether documents such as an admission letter or invoice are needed, so choose it carefully on the bank form."),
         ("Is TCS on LRS a tax or a deposit?",
-         "A deposit, not a tax. It is advance tax collection credited against the remitter's final income tax liability for the year. If TCS collected exceeds final tax, excess is refunded. The problem is the 12-18 month working-capital lock-up."),
+         "A deposit, not a tax. It is advance tax collection credited against the remitter's final income tax liability for the year. If TCS collected exceeds final tax, excess is refunded. The cost is the cash locked up from the remittance until the return is processed."),
         ("Does TCS on LRS apply to credit-card spend abroad?",
-         "Under current CBDT clarification, credit-card spend abroad is excluded from LRS and therefore NOT subject to the 20% TCS. However, this has been contested in policy announcements. For large credit-card obligations, verify current CBDT position before relying on this exclusion."),
+         "No, for now. In 2023 the government decided not to bring international credit card spending under LRS, so it does not attract LRS TCS. The position could change, so check it before relying on it for large amounts."),
         ("How do I recover TCS collected on my LRS remittance?",
          "Claim it as advance tax credit when filing your annual Indian ITR. TCS reflects in your Form 26AS / AIS. If TCS collected exceeds final tax liability, the excess is refunded by the Income Tax Department after the return is processed, so the money is out of your hands from the remittance until then."),
         ("Can an NRI avoid TCS by routing through family in India?",
          "NRIs don't come under LRS at all - LRS applies only to Resident Indians. However, NRI gifts or inheritance received by Resident Indian family members, if later remitted back abroad under LRS, would be subject to the standard 20% TCS. Direct routing through NRI's own foreign-currency account is cleaner."),
         ("Does BQP handle TCS planning and recovery?",
-         "Yes - LRS cash-flow planning for FEMA ODI investments, TCS certificate collection, ITR filing with TCS credit, refund tracking. Scoping call for Indian founders planning overseas investments or NRI tax planning is free. WhatsApp +91 78018 87130."),
+         "Yes - LRS cash-flow planning for FEMA ODI investments, TCS certificate collection, ITR filing with TCS credit, refund tracking. Book a call to plan a large remittance, or WhatsApp +91 78018 87130."),
     ],
     related=[
         ("fema-odi-us-entity-indian-founder.html", "Guide", "FEMA ODI"),
@@ -272,7 +272,7 @@ write_page("uae-corporate-tax-2026-qfzp-fta-update", page(
          "<li><strong>Build audited financial statements</strong> &mdash; QFZP requires audited accounts.</li>"
          "<li><strong>Monitor Pillar 2 / DMTT updates</strong> if in a large MNE group.</li>"
          "</ol>"
-         "<p><em>Last updated: 2026-10-07.</em></p>"),
+         "<p><em>Last updated: 2026-11-28.</em></p>"),
     ],
     faqs=[
         ("Is UAE Corporate Tax a flat 9%?",
@@ -360,7 +360,7 @@ write_page("itr-filing-ay-2026-27-deadlines-changes-india", page(
          "<li><strong>Form 10F missed for DTAA treaty-rate withholding claims.</strong> If you received India-source payments with 25% TDS when treaty rate was 15%, the correct position is to have filed Form 10F in advance to the payer. Post-fact, refund via ITR with FTC/Section-199 claim.</li>"
          "<li><strong>NRI not filing even with India-source income.</strong> NRO interest, Indian mutual fund LTCG, Indian property rent &mdash; all require ITR if above basic exemption or if TDS has been deducted (to claim refund).</li>"
          "</ul>"
-         "<p><em>Last updated: 2026-10-07.</em></p>"),
+         "<p><em>Last updated: 2026-11-28.</em></p>"),
     ],
     faqs=[
         ("What is the ITR deadline for AY 2026-27 in India?",

@@ -290,6 +290,7 @@ BOXES = {
     "gstamend": ("GST details changed?", 'Changed address, partners or premises? See <a href="gst-registration-amendment-core-non-core-fields-reg-14-15-days-change-address-add-place-of-business-2026.html">GST registration amendment: core vs non-core fields</a>.'),
     "namechange": ("Changing company name?", 'Rebranding your company? See <a href="change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html">change of company name: INC-24 and what to update</a>.'),
     "objectclause": ("New business activity?", 'Adding a new line of business? See <a href="change-object-clause-company-moa-alteration-section-13-special-resolution-mgt-14-new-business-activity-2026.html">change of object clause: section 13 and MGT-14</a>.'),
+    "loan2equity": ("Loan to equity?", 'Turning a loan into shares? See <a href="convert-loan-into-equity-shares-section-62-3-director-loan-foreign-parent-ecb-conversion-pas-3-2026.html">convert a loan into equity: section 62(3) and the fresh-issue route</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -318,6 +319,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html": ["loan2equity"],
     "change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html": ["objectclause"],
     "change-registered-office-company-india-inc-22-inc-23-mgt-14-within-city-another-state-procedure-2026.html": ["namechange"],
     "form-sh-4-share-transfer-form-india-2026.html": ["rightsbonus"],
@@ -640,7 +642,7 @@ TARGETS = {
     "foreign-company-india-subsidiary-employee-benefits-payroll-epf-esic-gratuity-2026.html": ["expat", "ssa", "epf2026", "vishwas", "iwpf", "esic", "payrolloutsource"],
     "form-dpt-3-return-of-deposits-india-2026.html": ["nriloan"],
     "which-is-better-llp-vs-private-limited-india.html": ["nribiz", "bab115", "taxholiday", "founderpay", "llpconv", "llpreg", "opcreg", "llpannual", "pfreg", "pvtltdreg", "llpvsfirm"],
-    "loan-from-nri-director-shareholder-to-indian-company-ecb-2026-rules.html": ["nribiz", "founderpay"],
+    "loan-from-nri-director-shareholder-to-indian-company-ecb-2026-rules.html": ["nribiz", "founderpay", "loan2equity"],
     "us-citizen-buy-own-property-india-oci-fema-tax-fbar-2026.html": ["nribuy", "fcoprop", "ussell", "renounce"],
     "india-uae-dtaa-for-nris-dubai-nro-interest-mutual-funds-property-trc-2026.html": ["nreabroad", "fqa", "fnrocalc", "nripension", "nro2nre", "investabroad"],
     "nri-missed-itr-deadline-what-to-do-india.html": ["whichitr", "fdesk", "fnye", "fnrocalc"],

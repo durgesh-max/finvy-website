@@ -89,7 +89,7 @@ CII_ROWS = "".join(f"<tr><td>{y}-{str(y+1)[2:]}</td><td>{v}</td></tr>" for y, v 
 
 PAGES = [dict(
     slug=SLUG,
-    title="Property Capital Gains Tax Calculator India (2026): 12.5% vs 20% With Indexation, Inherited Property, 1 April 2001 Value and NRIs",
+    title="Property Capital Gains Tax Calculator India (2026): 12.5% vs 20% With Indexation, Inherited Property, Sale Within 2 Years, 1 April 2001 Value and NRIs",
     em="see which rate costs you less.",
     kicker="/ Calculator &middot; Property &middot; Capital gains &middot; Updated 2026-11-15",
     lead=("Long-term gains on land and buildings sold in India are taxed at <strong>12.5% without indexation</strong>. A <strong>resident individual or HUF</strong> can instead choose <strong>20% with indexation</strong> for property acquired before 23 July 2024, and pays whichever is lower; <strong>NRIs pay 12.5%</strong>. "
@@ -108,6 +108,7 @@ PAGES = [dict(
          + f'<p><strong>Sources:</strong> Finance (No. 2) Act, 2024 (rates from 23 July 2024 and the indexation option); Income-tax Act provisions on cost of acquisition for inherited property and the 1 April 2001 value; CBDT Notification No. 85/2026 dated 15 July 2026 (CII 384 for 2026-27) and No. 70/2025 (376 for 2025-26); sections 54 and 54EC. <em>{UPDATED}</em> Estimates only, not advice for your situation.</p>'),
     ],
     faqs=[("How is capital gains tax on property calculated in India?", "Long-term gains (held over 24 months) are taxed at 12.5% without indexation. Resident individuals and HUFs can choose 20% with indexation for land or buildings acquired before 23 July 2024, paying whichever is lower. Cess and any surcharge are added."),
+        ("How is tax calculated if I sell a house within 2 years of buying it?", "A house or land held for 24 months or less is a short-term capital asset, so the gain - sale price (or the stamp duty value, if that is more than 10% higher) minus purchase cost, improvement cost and transfer expenses such as brokerage - is added to your other income and taxed at your normal slab rate, with no indexation. The reinvestment exemptions under sections 54, 54EC and 54F apply only to long-term gains, so they cannot reduce a short-term gain; a short-term loss can be set off against other capital gains and carried forward for eight years. For an NRI seller the buyer deducts TDS on the price at non-resident rates (30% plus surcharge and cess on short-term gains) unless a lower deduction certificate is obtained, and any excess comes back through the return. Selling within five years of possession also reverses home loan principal claimed under 80C. WhatsApp +91 78018 87130 with the purchase and sale deeds, dates and costs, or book a call."),
           ("What is the cost inflation index for 2026-27?", "384, notified by CBDT Notification No. 85/2026 dated 15 July 2026. It was 376 for 2025-26."),
           ("How do I calculate capital gains on inherited property?", "Use the previous owner's purchase cost and date (or the 1 April 2001 value for older property). The holding period includes the previous owner's, so it is usually long-term."),
           ("Can NRIs use indexation?", "No. NRIs pay 12.5% without indexation on long-term property gains; the 20% with-indexation option is for resident individuals and HUFs."),

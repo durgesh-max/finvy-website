@@ -333,7 +333,7 @@ write_page("tax-audit-season-november-2026-post-filing-followups", page(
          "</ul>"),
         ("/ Form 3CEB TP audit (30 November 2026)", "The next deadline.",
          "<ul>"
-         "<li>Form 3CEB applicable for any Indian company with international transactions above INR 1 crore (effectively every foreign-subsidiary subsidiary of Indian group).</li>"
+         "<li>Form 3CEB is required for any international transaction (or specified domestic transaction), whatever the amount; the INR 1 crore threshold only decides whether full Rule 10D documentation must be kept.</li>"
          "<li>Deadline: 30 November 2026 for AY 2026-27.</li>"
          "<li>Content: all international transactions listed with each AE + nature + value + arm's-length method + benchmarking.</li>"
          "<li>Underlying documentation (Section 92D): entity profile + industry analysis + functional analysis + economic analysis + benchmarking study. Not filed but produced on scrutiny.</li>"
@@ -362,7 +362,7 @@ write_page("tax-audit-season-november-2026-post-filing-followups", page(
         ("What follow-ups are critical after tax audit filing on 31 October?",
          "Form 3CA/3CB status verification on portal, UDIN check against ICAI records, Form 3CD Clause-by-Clause coherence (especially 22, 32, 34, 44), coordination with ITR filing (30 November TP cases, 31 October standard), 43B(h) MSE reversal tracking, Clause 44 GST reconciliation feeding into GSTR-9 (December 2026), advance tax Q3 (15 December), Form 3CEB TP audit (30 November)."),
         ("When is Form 3CEB TP audit due?",
-         "Form 3CEB is due one month before the transfer-pricing return date: 31 October 2026 for AY 2026-27, with the return due 30 November 2026. CBDT Circular 07/2026 extended only the tax audit report (to 21 October) and audit-case returns (to 21 November). From tax year 2026-27 the report becomes Form 48. Mandatory for any Indian subsidiary / company with international transactions above INR 1 crore. Benchmarking study + comparability analysis underlying + Master File + CbCR for in-scope groups."),
+         "Form 3CEB is due one month before the transfer-pricing return date: 31 October 2026 for AY 2026-27, with the return due 30 November 2026. CBDT Circular 07/2026 extended only the tax audit report (to 21 October) and audit-case returns (to 21 November). From tax year 2026-27 the report becomes Form 48. Form 3CEB is required for any international transaction (or specified domestic transaction), whatever the amount; the INR 1 crore threshold only decides whether full Rule 10D documentation must be kept. Benchmarking study + comparability analysis underlying + Master File + CbCR for in-scope groups."),
         ("What's Clause 44 of Form 3CD?",
          "Clause 44 requires reconciliation of Income Tax turnover with GST turnover (as per GSTR-1 + GSTR-9). Line-by-line explanation of differences: credit notes timing, exempt supplies, year-end adjustments, discounts. Feeds into GSTR-9 reconciliation (December 2026). Common area of discrepancy requiring narrative."),
         ("How does Section 43B(h) show up in Form 3CD?",

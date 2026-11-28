@@ -96,18 +96,18 @@ write_page("section-148-148a-reassessment-notice-response-india", page(
     keywords="Section 148 reassessment notice response, Section 148A show cause notice reply, income escaping assessment India, reopening of assessment Finance Act 2021",
     hero_kicker="/ Blog &middot; Section 148 Reassessment &middot; Updated 2026-10-12",
     hero_title_html="Section 148 / 148A reassessment, <em>what to do before the reply deadline.</em>",
-    hero_lead="Section 148 reassessment notice means the Assessing Officer has reason to believe income has escaped assessment in a prior year. Post Finance Act 2021, there's a new procedure: Section 148A (show-cause before formal notice). For notices from 1 September 2024 the time limits are three years from the end of the assessment year (five years where the escaped income is Rs 50 lakh or more) for the section 148A notice, and three years three months (five years three months) for the section 148 notice. First response, document access, and legal position taken in Section 148A often decide the entire proceeding. Here's the practitioner's playbook.",
+    hero_lead="Section 148 reassessment notice means the Assessing Officer has information which suggests that income has escaped assessment in a prior year (the old 'reason to believe' test was replaced in 2021). Post Finance Act 2021, there's a new procedure: Section 148A (show-cause before formal notice). For notices from 1 September 2024 the time limits are three years from the end of the assessment year (five years where the escaped income is Rs 50 lakh or more) for the section 148A notice, and three years three months (five years three months) for the section 148 notice. First response, document access, and legal position taken in Section 148A often decide the entire proceeding. Here's the practitioner's playbook.",
     sections=[
         ("/ The new procedure (Finance Act 2021)", "148A then 148.",
          "<p>Finance Act 2021 restructured reassessment under Sections 147-153. The current framework:</p>"
          "<p><strong>Step 1 - Information with the AO</strong>: AO must have information (from risk-based selection, SFT, foreign tax authority exchange, search operations, or specified sources) suggesting income has escaped assessment.</p>"
-         "<p><strong>Step 2 - Section 148A(a) Enquiry</strong>: AO may conduct enquiry regarding the information (not mandatory in all cases).</p>"
+         "<p><strong>Step 2 - No separate enquiry step</strong>: the separate preliminary enquiry step (old section 148A(a)) was dropped for notices from 1 September 2024; the procedure now starts with the show-cause notice.</p>"
          "<p><strong>Step 3 - Section 148A Show-cause Notice</strong>: AO issues show-cause notice to the taxpayer with the information + proposed grounds for reopening. Taxpayer gets opportunity to respond.</p>"
          "<p><strong>Step 4 - Section 148A(3) Order</strong>: AO passes order deciding whether to issue Section 148 notice. Order considers taxpayer's response. If AO proceeds, formal Section 148 notice is issued.</p>"
          "<p><strong>Step 5 - Section 148 Formal Notice</strong>: taxpayer must file return within time specified in notice (typically 30 days).</p>"
          "<p><strong>Step 6 - Assessment under Section 147</strong>: regular reassessment proceedings follow (akin to Section 143(3) scrutiny).</p>"),
         ("/ Time limits (Section 149)", "Three years vs five years (after the 2024 amendment).",
-         "<p><strong>Standard limit: 3 years (148A notice) / 3 years 3 months (148 notice)</strong> from the end of the relevant AY. Example: for AY 2021-22, standard reopening possible until 31 March 2026.</p>"
+         "<p><strong>Standard limit: 3 years (148A notice) / 3 years 3 months (148 notice)</strong> from the end of the relevant AY. Example: for AY 2022-23, a section 148A notice under the three-year limit can be issued until 31 March 2026.</p>"
          "<p><strong>Extended limit: 5 years / 5 years 3 months (escaped income Rs 50 lakh or more)</strong> &mdash; applies only where:</p>"
          "<ul>"
          "<li>AO has evidence (books, documents, bank entries) suggesting income escaping assessment is INR 50 lakh or more.</li>"
@@ -119,13 +119,13 @@ write_page("section-148-148a-reassessment-notice-response-india", page(
          "<p><strong>Response window</strong>: the time stated in the show cause notice.</p>"
          "<p><strong>Response strategy</strong>:</p>"
          "<ul>"
-         "<li>Request the complete 'information' the AO relied on (RTI if needed) &mdash; often third-party reports have classification errors.</li>"
+         "<li>Request the complete 'information' the AO relied on &mdash; often third-party reports have classification errors.</li>"
          "<li>If the information is wrong (e.g., SFT misreported, same transaction counted twice, PAN mismatch), submit documentary refutation.</li>"
          "<li>If the information is correct but income was actually declared (just under a different head), produce the ITR extract showing it.</li>"
          "<li>If the income exists but is below taxable threshold or exempt (gift from relative under 56(2)(x), inheritance, capital gain reinvested under Section 54), produce supporting docs.</li>"
          "<li>If the limitation period has expired, or the five-year limit is used although the escaped income is below Rs 50 lakh, argue the jurisdictional point.</li>"
          "</ul>"
-         "<p>Many 148A notices are quashed at this stage with properly drafted response.</p>"),
+         "<p>A well-drafted reply can end the matter at this stage.</p>"),
         ("/ If Section 148 is issued", "Reassessment proceedings.",
          "<p>If AO's order under section 148A(3) proceeds and Section 148 formal notice follows:</p>"
          "<ol>"
@@ -134,7 +134,7 @@ write_page("section-148-148a-reassessment-notice-response-india", page(
          "<li><strong>Time limit for completion</strong>: 12 months from end of FY in which Section 148 notice was served. Extended for complex cases.</li>"
          "<li><strong>Appeal</strong>: Section 147 order appealable to CIT(A) within 30 days.</li>"
          "</ol>"
-         "<p><strong>Penalty under Section 270A</strong>: if additional income is confirmed, 50% penalty (under-reporting) or 200% penalty (misreporting) applies.</p>"
+         "<p><strong>Penalty under Section 270A</strong>: if additional income is confirmed, a penalty of 50% of the tax on under-reported income, or 200% where it is misreported (for example suppressed facts or false entries), can apply.</p>"
          "<p><em>Last updated: 2026-10-12.</em></p>"),
     ],
     faqs=[
@@ -147,9 +147,9 @@ write_page("section-148-148a-reassessment-notice-response-india", page(
         ("Can Section 148A show-cause be challenged in writ?",
          "Yes - if the 148A procedure is defective (no proper information, no genuine opportunity, mechanical satisfaction, pre-decided outcome), writ in High Court can quash the proceeding. Several High Courts have struck down defective 148A proceedings. Legal strategy matters."),
         ("What is the penalty if Section 148 reassessment confirms additional income?",
-         "Section 270A: 50% penalty for under-reporting (good faith); 200% penalty for misreporting (fraud / wilful concealment). Can be avoided if taxpayer makes voluntary disclosure under Section 270AA before the order. The 50% vs 200% classification is a key battle in reassessment."),
+         "Section 270A: 50% of the tax on under-reported income, or 200% where income is misreported (suppressed facts, false entries, unrecorded receipts and similar). For under-reporting (not misreporting), immunity can be sought under section 270AA by paying the tax and interest demanded, not filing an appeal, and applying within one month of the order. The 50% vs 200% classification is a key battle in reassessment."),
         ("Does BQP handle Section 148 / 148A response?",
-         "Yes - reply to the section 148A show cause notice drafting, information review (RTI if needed), documentary refutation, legal position for jurisdictional challenges, reassessment proceedings if 148 is issued, CIT(A) appeal if 147 order is adverse. Contact us as soon as the notice arrives - reply windows are short. WhatsApp +91 78018 87130."),
+         "Yes - reply to the section 148A show cause notice drafting, information review, documentary refutation, legal position for jurisdictional challenges, reassessment proceedings if 148 is issued, CIT(A) appeal if 147 order is adverse. Contact us as soon as the notice arrives - reply windows are short. WhatsApp +91 78018 87130."),
     ],
     related=[
         ("section-143-2-scrutiny-notice-response-india.html", "Blog", "Section 143(2) Scrutiny"),

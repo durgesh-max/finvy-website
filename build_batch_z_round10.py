@@ -641,7 +641,7 @@ PAGES = [
              "</ul>"),
             ("/ Companies Act 2013 + Rules", "Corporate law core.",
              "<ul>"
-             "<li><strong>Section 2(85)</strong>: small company definition (paid-up up to INR 4 crore + turnover up to INR 40 crore).</li>"
+             "<li><strong>Section 2(85)</strong>: small company definition (paid-up capital up to INR 10 crore and turnover up to INR 100 crore, from 1 December 2025).</li>"
              "<li><strong>Section 92</strong>: Annual Return (Form MGT-7).</li>"
              "<li><strong>Section 117</strong>: resolution filing (Form MGT-14).</li>"
              "<li><strong>Section 128</strong>: books of accounts (Form AOC-5 if different location).</li>"

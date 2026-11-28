@@ -78,7 +78,7 @@ PAGES = [
         lead="The annual return is due within 60 days of the AGM. For an AGM on 30 September 2026, MGT-7 or MGT-7A is due on 29 November 2026. The late fee is INR 100 per day with no cap, and the same three-year non-filing rule that disqualifies directors applies here as well.",
         sections=[
             ("/ Which form", "MGT-7 or MGT-7A.",
-             ul("<strong>MGT-7A</strong>: One Person Companies and small companies (paid-up capital up to INR 4 crore and turnover up to INR 40 crore, as revised in 2022).",
+             ul("<strong>MGT-7A</strong>: One Person Companies and small companies (paid-up capital up to INR 10 crore and turnover up to INR 100 crore, as revised with effect from 1 December 2025).",
                 "<strong>MGT-7</strong>: all other companies, including most foreign-owned subsidiaries above the small-company limits.",
                 "Listed companies and companies with paid-up capital of INR 10 crore or more or turnover of INR 50 crore or more need MGT-8 certification by a practising company secretary.")),
             ("/ What the return reports", "Information that must match MCA records.",

@@ -679,7 +679,7 @@ DEADLINE_ALERTS = [
             ("/ Who must file PAS-6", "Rule 9B scope.",
              "<ul>"
              "<li>All unlisted public + private companies (except small companies, government companies, Nidhi companies) that have securities in demat form under Rule 9B.</li>"
-             "<li><strong>Small company threshold</strong>: paid-up capital up to INR 4 crore + turnover up to INR 40 crore (Section 2(85)). Most growth-stage startups cross this threshold.</li>"
+             "<li><strong>Small company threshold</strong>: paid-up capital up to INR 10 crore and turnover up to INR 100 crore (raised from INR 4 crore / INR 40 crore with effect from 1 December 2025) (Section 2(85)). Many funded startups cross it.</li>"
              "<li>Half-yearly filing: within 60 days of half-year end (30 September + 31 March).</li>"
              "<li>September 2026 period: due 29 November 2026.</li>"
              "<li>March 2027 period: due 30 May 2027.</li>"
@@ -720,7 +720,7 @@ DEADLINE_ALERTS = [
             ("When is PAS-6 due for September 2026 half-year?",
              "29 November 2026 - within 60 days of 30 September 2026 half-year end. For March 2027 period: 30 May 2027. Filed via MCA v3 portal with CA certification + reconciliation workpapers."),
             ("Which companies must file PAS-6?",
-             "All unlisted public and private companies (except small companies, government companies, Nidhi companies) that have securities in demat form under Rule 9B. Small company threshold: paid-up capital up to INR 4 crore + turnover up to INR 40 crore under Section 2(85). Most growth-stage startups cross threshold."),
+             "All unlisted public and private companies (except small companies, government companies, Nidhi companies) that have securities in demat form under Rule 9B. Small company threshold: paid-up capital up to INR 10 crore and turnover up to INR 100 crore (raised from INR 4 crore / INR 40 crore with effect from 1 December 2025) under Section 2(85). Many funded startups cross it."),
             ("What CA certification does PAS-6 require?",
              "Chartered Accountant certification confirming: share capital reconciliation accuracy, authorised + issued + paid-up matching, demat + physical reconciliation, any differences explained with reasons. Signed by practicing CA with ICAI membership + UDIN (Unique Document Identification Number)."),
             ("What if I still have physical-share holders at September 2026?",

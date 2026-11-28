@@ -268,7 +268,7 @@ PAGES = [
              "<li>DCF valuation re-verification: can original valuation be defended with contemporaneous docs?</li>"
              "<li>DPIIT eligibility retroactive check: was startup DPIIT-recognised at relevant time?</li>"
              "<li>Investor status check: was investor a 'resident' at relevant date?</li>"
-             "<li>Section 148A(b) response + documentary refutation.</li>"
+             "<li>Section 148A show cause response + documentary refutation.</li>"
              "<li>If Section 148 proceeds: Section 147 reassessment representation.</li>"
              "<li>Section 270A under vs mis reporting defence.</li>"
              "<li>CIT(A) + ITAT appeal if Section 147 order adverse.</li>"

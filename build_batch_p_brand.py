@@ -472,7 +472,7 @@ PAGES = [
             "Section 270A under-reporting vs misreporting defence (50% vs 200% penalty differential)",
         ],
         "scope_bullets": [
-            "Section 148A show cause notice analysis + 'information' review (RTI if needed)",
+            "Section 148A show cause notice analysis + 'information' review ",
             "Documentary refutation + supporting evidence compilation",
             "reply to the section 148A show cause notice drafting within statutory window",
             "order under section 148A(3) review + Section 148 notice response if proceeds",

@@ -174,12 +174,12 @@ write_page("us-tax-2026-indian-founders-landscape", page(
 # 3. India-UK FTA (CETA) tax implications
 write_page("india-uk-fta-tax-implications-startups", page(
     slug="india-uk-fta-tax-implications-startups",
-    title="India-UK FTA (CETA) 2024 Tax Implications | Startups + Services - BQP",
+    title="India-UK FTA (CETA) in Force From 15 July 2026: Tax Implications for Startups and Services - BQP",
     description="India-UK Comprehensive Economic and Trade Agreement (CETA) signed May 2024: tariff reductions, services trade liberalisation, movement of professionals, India-UK DTAA interaction, startup implications. Working CA guide by Durgesh Chavda.",
     keywords="India UK FTA tax, India UK CETA 2024, India UK trade deal startup, India UK FTA services tax, Indian startup UK expansion FTA",
     hero_kicker="/ Blog &middot; India-UK FTA (CETA) &middot; Updated 2026-10-09",
     hero_title_html="India-UK FTA (CETA), <em>what it means for Indian startups.</em>",
-    hero_lead="India and UK signed the Comprehensive Economic and Trade Agreement (CETA) in May 2024, with phased implementation through 2025-2026. For Indian startups servicing UK customers, Indian service exporters, Indian professionals seeking UK work mobility, and Indian goods exporters to UK &mdash; CETA layered on top of the existing India-UK DTAA shapes the current operating framework. This is the practitioner's map.",
+    hero_lead="India and the UK concluded negotiations on the Comprehensive Economic and Trade Agreement (CETA) in May 2025, signed it on 24 July 2025, and it entered into force on 15 July 2026 together with a Double Contributions Convention on social security. For Indian startups servicing UK customers, Indian service exporters, Indian professionals seeking UK work mobility, and Indian goods exporters to UK &mdash; CETA layered on top of the existing India-UK DTAA shapes the current operating framework. This is the practitioner's map.",
     sections=[
         ("/ What CETA actually did", "The headline terms.",
          "<p>India-UK CETA is a Free Trade Agreement, not a tax treaty. It operates alongside the India-UK DTAA (1993, amended) which continues to govern cross-border income taxation. CETA addresses trade in goods, trade in services, movement of professionals, and investment protection.</p>"
@@ -188,15 +188,15 @@ write_page("india-uk-fta-tax-implications-startups", page(
          "<li><strong>Tariff reductions</strong>: UK removed or reduced import duties on 99%+ of Indian goods; India reciprocally on specified categories. Indian textiles, leather, gems and jewellery, engineering goods benefit from duty-free UK access.</li>"
          "<li><strong>Services trade liberalisation</strong>: UK commitments on Indian professional services (IT, business, financial, healthcare) with mode-4 provisions for intra-corporate transferees and independent professionals.</li>"
          "<li><strong>Movement of professionals</strong>: specified categories of Indian professionals (chefs, yoga instructors, musicians, specific skilled workers) get access to UK work visas under separate quotas.</li>"
-         "<li><strong>Investment protection</strong>: substantive and procedural protections for Indian investment in UK and vice versa (bilateral investment aspects negotiated in parallel).</li>"
-         "<li><strong>Social security totalisation</strong>: Indian professionals on short-term UK deployment (3 years) exempt from UK social security contributions, with India NPS/EPF credit continuing.</li>"
+         "<li><strong>Investment protection</strong>: not part of CETA; a separate bilateral investment treaty has been under negotiation.</li>"
+         "<li><strong>Social security (Double Contributions Convention)</strong>: employees temporarily posted to the UK for up to three years keep paying social security only in India, with no UK National Insurance on that employment.</li>"
          "</ul>"),
         ("/ Tax implications for Indian startups", "Direct and indirect.",
          "<p><strong>Direct tax (unchanged):</strong></p>"
          "<ul>"
-         "<li>India-UK DTAA 1993 continues: dividend 15% / 10%, interest 15% / 10%, royalty 15%, FTS 15% (make-available test), capital gains per Article 14.</li>"
+         "<li>India-UK DTAA 1993 (amended 2013) continues: dividend 10% (15% for property investment vehicles), interest 15% / 10%, royalties and FTS 15% (10% for equipment), FTS make-available test, capital gains per Article 14.</li>"
          "<li>FTS make-available test unchanged: UK vendor fees for pure services (not transferring technical know-how) can qualify as Article 7 business profits with no Indian withholding if no Indian PE.</li>"
-         "<li>MFN clause unchanged: India-UK FTS rate steps down if India agrees a lower FTS rate with another OECD member country.</li>"
+         "<li>No treaty rate changes came with CETA.</li>"
          "</ul>"
          "<p><strong>Indirect tax (changed under CETA):</strong></p>"
          "<ul>"
@@ -206,7 +206,7 @@ write_page("india-uk-fta-tax-implications-startups", page(
          "</ul>"
          "<p><strong>Social security:</strong> Indian professionals on short-term UK assignment (up to 3 years) exempt from UK National Insurance contributions. Significant cost saving for Indian IT/services firms deploying consultants to UK clients.</p>"),
         ("/ Which Indian startup profiles benefit most", "Match the deal to your business.",
-         "<p><strong>Indian IT services firms exporting to UK customers:</strong> mode-4 benefits for consultant deployment, social security totalisation reduces payroll cost, UK vendor FTS clarity under DTAA + MFN clause. Also benefits from UK's broader AI/digital services opening.</p>"
+         "<p><strong>Indian IT services firms exporting to UK customers:</strong> mode-4 benefits for consultant deployment, social security totalisation reduces payroll cost, UK vendor FTS treatment under the DTAA make-available test. Also benefits from UK's broader AI/digital services opening.</p>"
          "<p><strong>Indian D2C / consumer brands exporting to UK:</strong> zero tariff on 99%+ categories. Indian textiles, leather, home goods, beauty, food specifically benefit. Combined with India-UK DTAA on royalty for brand licensing, UK expansion is materially cheaper.</p>"
          "<p><strong>Indian engineering / industrial product exporters:</strong> auto components, electrical, machinery &mdash; most categories duty-free. UK's lower import pricing improves competitiveness.</p>"
          "<p><strong>Indian pharma + healthcare services to UK:</strong> services commitments + mode-4 benefits for medical professionals. Specific regulatory recognition progressing in parallel.</p>"
@@ -226,9 +226,9 @@ write_page("india-uk-fta-tax-implications-startups", page(
     ],
     faqs=[
         ("When did India-UK FTA come into effect?",
-         "Signed May 2024. Phased implementation beginning late 2024 and continuing through 2025-2026. Tariff reductions, services commitments, and mode-4 provisions have taken effect progressively as both parties complete domestic legal procedures."),
+         "It entered into force on 15 July 2026, after signature on 24 July 2025 and ratification by both countries. Tariff cuts phase in over the agreed schedules, and the Double Contributions Convention took effect the same day."),
         ("Does India-UK CETA change the India-UK DTAA?",
-         "No. CETA is a trade and services agreement; the India-UK DTAA (1993) continues to govern cross-border income tax. DTAA rates (dividend 15%/10%, interest 15%/10%, royalty 15%, FTS 15% with make-available test) are unchanged. CETA complements the DTAA by reducing trade tariffs and liberalising services movement."),
+         "No. CETA is a trade and services agreement; the India-UK DTAA (1993) continues to govern cross-border income tax. DTAA rates (dividend 10%, or 15% for property investment vehicles; interest 15% / 10%; royalties and FTS 15%, or 10% for equipment, with the make-available test) are unchanged. CETA complements the DTAA by reducing trade tariffs and liberalising services movement."),
         ("Can Indian IT professionals now work in UK freely under CETA?",
          "Not unlimited. CETA grants specified categories of professionals (contractual service suppliers, independent professionals, intra-corporate transferees) access under agreed quotas and conditions. Not open-ended work rights. The social-security totalisation (3-year exemption from UK NIC) is immediate and valuable."),
         ("Which Indian goods benefit most from CETA tariff reductions?",

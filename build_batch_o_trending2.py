@@ -736,7 +736,7 @@ write_page("india-iec-gst-customs-foreign-exporter-importer-2026", page(
          "<li><strong>India-UAE CEPA (Comprehensive Economic Partnership Agreement)</strong>: signed May 2022, effective May 2022. Preferential tariffs on 97% of lines. See our <a href='india-uae-tax-treaty-dtaa.html'>India-UAE guide</a>.</li>"
          "<li><strong>India-Australia ECTA (Economic Cooperation and Trade Agreement)</strong>: signed April 2022, effective December 2022. Tariff reductions on 85-96% of lines.</li>"
          "<li><strong>India-EFTA TEPA (Trade and Economic Partnership Agreement)</strong>: signed March 2024 with Switzerland, Norway, Iceland, Liechtenstein. Effective 2025. Investment-focused.</li>"
-         "<li><strong>India-UK CETA (Comprehensive Economic and Trade Agreement)</strong>: concluded 2024-2025. Tariff reductions on 95%+ of lines expected.</li>"
+         "<li><strong>India-UK CETA (Comprehensive Economic and Trade Agreement)</strong>: signed 24 July 2025, in force from 15 July 2026, with UK duty removed on about 99% of Indian tariff lines and Indian tariffs phased down on most UK goods.</li>"
          "<li><strong>India-ASEAN FTA</strong>: 2010; preferential rates for Southeast Asian origin.</li>"
          "<li><strong>India-Japan CEPA</strong>: 2011.</li>"
          "<li><strong>India-South Korea CEPA</strong>: 2010.</li>"

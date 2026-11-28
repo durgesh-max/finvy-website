@@ -320,7 +320,7 @@ PAGES = [
              "<ul>"
              "<li>Listed Indian company with INR 1,000 crore+ turnover needing statutory audit + global network support.</li>"
              "<li>Fortune 500 Indian subsidiary needing full ERP + consolidation + global reporting integration.</li>"
-             "<li>Pre-IPO (Main Board, INR 1,000 crore+ issue) where SEBI expects Big-4 financial auditor.</li>"
+             "<li>Large pre-IPO companies where investors and bankers prefer a large-network auditor (SEBI does not require any particular firm).</li>"
              "<li>Specific sector requiring Big-4 brand (listed-company lender / rating-agency / investor confidence).</li>"
              "<li>Multinational merger / acquisition requiring 24-country integrated DD / tax structuring.</li>"
              "<li>Complex regulatory investigation / forensic matter requiring global network.</li>"
@@ -355,14 +355,14 @@ PAGES = [
              "<li>BEPS Pillar 2: Big-4 as group Pillar 2 advisor + BQP for the Indian entity&rsquo;s Pillar 2 data and effective-rate work (India has no domestic top-up tax yet).</li>"
              "<li>Portfolio PE / VC: Big-4 at specific larger portfolio companies + BQP at smaller mid-market portfolio.</li>"
              "</ul>"
-             "<p>No conflict - complementary. BQP regularly works alongside Big-4 teams on cross-border mandates.</p>"
+             "<p>No conflict - complementary.</p>"
              "<p><em>Last updated: 2026-10-22.</em></p>"),
         ],
         "faqs": [
             ("Should my startup engage BQP or Big-4?",
-             "Depends on stage + budget + ambition. Pre-Series B / mid-market: BQP typically better fit - specialist attention, scoped fee, partner-level, faster. Series C+ / unicorn / pre-IPO Main Board: often Big-4 for brand + global network, BQP for specific specialist areas. Combined engagement common."),
+             "Depends on stage + budget + ambition. Pre-Series B / mid-market: a specialist firm can be a good fit - partner-level attention and a scoped engagement. Series C+ / unicorn / pre-IPO Main Board: often Big-4 for brand + global network, BQP for specific specialist areas. Combined engagement common."),
             ("Is BQP's fee materially different from Big-4?",
-             "Yes - typically 50-70% lower for comparable scope due to lower overhead + partner-direct delivery model. Scoped engagement letter means fixed fee + no hourly surprises. For mid-market mandates, this adds up to significant savings while maintaining ICAI-qualified CA competence."),
+             "Fees depend on the scope of each engagement, so we do not publish comparisons. BQP agrees a written, scoped engagement before work starts. Book a call to scope it."),
             ("Does BQP coordinate with Big-4 on cross-border matters?",
              "Yes - standard. BQP's work-product feeds into Big-4 group audit + global tax structuring + Pillar 2 compliance. Co-ordinated with Big-4 teams on specific mandates: Indian subsidiary audit + global group audit; India DD + global DD; Indian-entity Pillar 2 data + group Pillar 2 compliance. No conflict - complementary."),
             ("What if my Indian subsidiary needs Big-4 brand for lender comfort?",

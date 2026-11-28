@@ -601,7 +601,7 @@ write_page("forensic-accounting-expert-witness-india-foreign", page(
          "</ul>"
          "<p><strong>Qualifications accepted</strong>:</p>"
          "<ul>"
-         "<li>Chartered Accountant (ICAI, India) &mdash; equivalent to US CPA / UK ICAEW / Canadian CPA for most foreign court purposes.</li>"
+         "<li>Chartered Accountant (ICAI, India) &mdash; a separate qualification from a US CPA or UK ICAEW chartered accountant; whether a foreign court or tribunal accepts an Indian CA as an expert is decided case by case.</li>"
          "<li>CA / forensic specialisation certifications (where applicable).</li>"
          "<li>Testimony experience in prior cross-border matters.</li>"
          "</ul>"),

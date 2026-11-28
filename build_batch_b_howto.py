@@ -236,7 +236,7 @@ write_page("india-to-delaware-flip-structure", page(
         {"name": "Incorporate Delaware C-Corp", "text": "Standard Delaware incorporation via registered agent. Share classes mirror Indian cap table."},
         {"name": "Obtain CA valuation certificate for Indian shares", "text": "Required for FEMA fair-value compliance on the share swap."},
         {"name": "Execute share-swap agreements", "text": "Each Indian shareholder transfers Indian shares to Delaware parent in exchange for Delaware shares."},
-        {"name": "File Form FC-TRS / FC-GPR with RBI", "text": "Within 30 days of the swap, via the RBI's FIRMS portal."},
+        {"name": "File Form FC-TRS / FC-GPR with RBI", "text": "FC-TRS within 60 days of the share transfer (FC-GPR within 30 days of allotment if the Indian company issues new shares), via the RBI's FIRMS portal."},
         {"name": "File Form ODI for outbound investment", "text": "Via authorised dealer bank within 30 days."},
         {"name": "Set up inter-company service agreement", "text": "Delaware customer, India service provider, cost-plus 10-15% markup, documented."},
         {"name": "Transfer-pricing documentation", "text": "Indian TP study (Section 92D) annual; US contemporaneous TP documentation. First year sets the pattern."}

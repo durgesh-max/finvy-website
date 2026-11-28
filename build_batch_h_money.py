@@ -368,7 +368,7 @@ write_page("ca-for-india-us-flip", page(
          "<li><strong>Delaware C-Corp incorporation</strong> &mdash; new US parent entity set up (formation, EIN, Mercury or Brex bank account).</li>"
          "<li><strong>Share-swap valuation certificate</strong> &mdash; SEBI-registered Merchant Banker certificate for FEMA pricing-guideline compliance.</li>"
          "<li><strong>Share-swap documentation</strong> &mdash; each Indian shareholder transfers their Indian company shares to the Delaware parent in exchange for Delaware stock.</li>"
-         "<li><strong>FEMA Form FC-TRS</strong> &mdash; filed with RBI within 30 days for the share transfer.</li>"
+         "<li><strong>FEMA Form FC-TRS</strong> &mdash; filed on the RBI's FIRMS portal within 60 days of the share transfer.</li>"
          "<li><strong>FEMA Form ODI</strong> &mdash; filed by each Indian individual shareholder for their outbound investment component.</li>"
          "<li><strong>Indian capital gains return</strong> &mdash; each shareholder's capital gains computed and reported on their individual ITR.</li>"
          "<li><strong>83(b) election</strong> &mdash; filed within 30 days of Delaware restricted stock issuance (critical and unrecoverable if missed).</li>"

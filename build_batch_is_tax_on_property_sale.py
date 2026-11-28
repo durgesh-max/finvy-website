@@ -14,7 +14,7 @@ import advisory_lib as A
 from advisory_lib import ul, table, call_box, sources, contact
 from build_lib import page, write_page
 
-A.UPDATED = "Last updated: 25 November 2026."
+A.UPDATED = "Last updated: 28 November 2026."
 SLUG = "tax-on-property-sale-india-2026-residents-ltcg-12-5-or-20-indexation-calculation-tds-save-tax"
 
 C = contact("the purchase date and cost (with stamp duty and improvement bills), the sale price and stamp duty value, any reinvestment you plan, and whether you are resident or NRI")
@@ -61,9 +61,10 @@ PAGES = [dict(
          + sources("Income-tax Act, 1961 sections 45, 48, 50C, 54, 54EC, 54F, 112 and 194-IA as amended by the Finance (No. 2) Act, 2024, carried into the Income-tax Act, 2025 (sections 82 and 85 for 54 and 54EC); site guides on section 54, 54EC bonds and NRI property sales. Checked 25 November 2026.")),
     ],
     faqs=[("How much tax do I pay on selling a property in India?", "If held for more than 24 months, 12.5% of the gain without indexation; residents who bought before 23 July 2024 can choose 20% with indexation if that is lower. If held for 24 months or less, the gain is taxed at your slab rate."),
-          ("How do I calculate profit on a property sale?", "Sale price (or stamp duty value, if it exceeds the price by more than 10%) minus the cost of acquisition, which includes the purchase price, stamp duty, registration, brokerage and improvement costs; for indexation, the cost is adjusted with the cost inflation index."),
+          ("How do I calculate profit on a property sale?", "Sale price (or stamp duty value, if it exceeds the price by more than 10%) minus the cost of acquisition (purchase price plus stamp duty, registration and brokerage paid on purchase), improvement costs and selling expenses such as brokerage on the sale; for indexation, the cost is adjusted with the cost inflation index."),
           ("Is TDS deducted when I sell property?", "Yes. A resident buyer deducts 1% TDS under section 194-IA when the price is Rs 50 lakh or more and deposits it against your PAN; you claim it in your return."),
           ("How can I avoid tax on property sale?", "Reinvest the gain in a residential house under section 54 (section 82 of the 2025 Act), invest the net proceeds under 54F if you sold land or commercial property, or buy up to Rs 50 lakh of 54EC bonds within 6 months."),
+        ("How is a joint development agreement taxed for the landowner?", "Where an individual or HUF landowner signs a registered joint development agreement, section 45(5A) taxes the capital gain in the year the completion certificate for the project is issued, not when the agreement is signed or possession is handed over. The sale consideration is the stamp duty value, on that date, of the landowner's share in the project plus any cash received, and the developer deducts TDS on the cash part. If the landowner transfers their share before the completion certificate, this deferral is lost and the general rules apply; for a landowner that is a company or firm, the gain can arise earlier, typically when possession is handed over under the agreement, while courts have held that an unregistered agreement does not by itself trigger a transfer. The flats received then have a cost equal to the value taxed, which matters when they are sold later, and reinvestment reliefs under sections 54 / 54F may help. GST can also apply to the construction service on the landowner's share. Book a call before signing the agreement to structure it."),
           ("Is the 20% indexation option available to NRIs?", "No. The option of 20% with indexation for property bought before 23 July 2024 is available only to resident individuals and HUFs; NRIs pay 12.5% without indexation."),
           ("Can BQP compute tax on my property sale?", "Yes. CA Durgesh Chavda can compute the gain under both methods, plan reinvestment, handle TDS credit and file your return. " + C)],
     related=[("section-54-exemption-house-property-capital-gains-conditions-10-crore-limit-cgas-section-82-2026.html", "Section 54 exemption"),

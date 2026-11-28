@@ -325,6 +325,7 @@ PILLARS = [
              ("Should a forensic review be run through lawyers?", "Where litigation or regulatory action is possible, engaging BQP through your counsel helps protect privilege. BQP works with in-house and external counsel."),
              ("Can BQP act as an expert witness?", "Yes, in arbitration and court proceedings involving Indian accounts."),
              ("How fast can an investigation start?", "Data preservation and an initial scoping call can usually start within a few working days of engagement."),
+        ("What should I send to start a forensic audit?", "A short, confidential summary of what triggered the concern (a whistleblower complaint, missing funds, unusual vendors, a dispute or a lender's query); the entity names and the period under review; who has authorised the review and who must not be told yet; and a list of the systems and records involved, such as the accounting software, bank statements, payroll and email archives. Do not move or alter records once the concern is known. Book a call to agree the scope and how evidence will be preserved."),
              ("Is it confidential?", "Yes. Engagements are under a confidentiality agreement and access to data is limited to the named team."),
          ],
          related=[("forensic-accounting-expert-witness-india-foreign.html", "Forensic accounting and expert witness"), ("india-counterparty-background-check-compliance-dd.html", "Counterparty background checks")],

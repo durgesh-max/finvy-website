@@ -204,7 +204,7 @@ PAGES = [
     ),
     dict(
         slug="itr-due-date-21-november-2026-audit-cases-cbdt-circular-07-2026",
-        title="ITR Due Date Extended to 21 November 2026 for Audit Cases: CBDT Circular 07/2026",
+        title="Tax Audit Report Due Date Extended to 21 October 2026 and ITR Due Date to 21 November 2026 for Audit Cases: CBDT Circular 07/2026",
         em="transfer pricing cases did not move.",
         kicker="/ News &middot; Income Tax Deadline &middot; Updated 2026-10-30",
         lead="CBDT Circular 07/2026, dated 28 September 2026, extended the assessment year 2026-27 ITR due date for taxpayers whose accounts must be audited from 31 October to 21 November 2026, and the tax audit report from 30 September to 21 October 2026. Transfer pricing cases were not covered: Form 3CEB is still due on 31 October 2026 and their ITR on 30 November 2026.",

@@ -269,6 +269,7 @@ BOXES = {
     "outstandingdemand": ("Outstanding demand?", 'Outstanding demand against your PAN? See <a href="income-tax-outstanding-demand-what-to-do-section-245-refund-adjustment-disagree-rectification-2026.html">income tax outstanding demand: how to respond</a>.'),
     "itsurvey": ("Income tax survey?", 'Facing an income tax survey? See <a href="income-tax-survey-section-133a-what-officers-can-do-statement-impounding-books-survey-vs-search-2026.html">income tax survey under section 133A: what officers can and cannot do</a>.'),
     "gstaudit65": ("GST audit notice?", 'Received a GST audit notice? See <a href="gst-audit-by-department-section-65-adt-01-notice-documents-timeline-adt-02-findings-2026.html">GST audit by the department under section 65 (ADT-01 to ADT-02)</a>.'),
+    "itsearch132": ("Income tax raid?", 'Income tax search (raid)? See <a href="income-tax-search-seizure-section-132-raid-what-to-do-rights-statement-jewellery-block-assessment-2026.html">income tax search and seizure under section 132: what to do</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -297,6 +298,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "income-tax-survey-section-133a-what-officers-can-do-statement-impounding-books-survey-vs-search-2026.html": ["itsearch132"],
     "high-value-transaction-notice-income-tax-credit-card-spending-sft-limits-how-to-reply-2026.html": ["bankvisible"],
     "what-is-form-5472.html": ["f5472abate"],
     "how-to-file-form-5472.html": ["f5472abate"],
@@ -360,7 +362,7 @@ TARGETS = {
     "section-194t-tds-partnership-firm-partners-india.html": ["pfreg", "tdsret", "firmtax", "tdschart"],
     "renounce-indian-citizenship-surrender-certificate-bank-accounts-pan-property-tax-oci-2026.html": ["ocirules"],
     "received-section-143-2-scrutiny-notice-urgent-action-india.html": ["noticefmt"],
-    "section-148-148a-reassessment-notice-response-india.html": ["noticefmt", "itappeal", "pen270a", "cashdeposit", "staydemand", "hvtnotice"],
+    "section-148-148a-reassessment-notice-response-india.html": ["noticefmt", "itappeal", "pen270a", "cashdeposit", "staydemand", "hvtnotice", "itsearch132"],
     "what-is-input-tax-credit-and-how-to-claim-india-gst.html": ["gstrent", "gstcomp", "gstreturn"],
     "tds-on-rent-limit-fy-2026-27-section-393-194ib-194i-194ia-property-purchase-1-percent-nri-landlord.html": ["gstrent", "hra26", "tdsret", "tdschart"],
     "is-gst-registration-mandatory-for-startup-new-small-business-threshold-2026.html": ["gstrent", "propreg", "gstcomp", "gstcancel", "gstreturn", "gstregrej", "gstconsultant"],

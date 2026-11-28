@@ -57,8 +57,8 @@ PAGES = [dict(
             "<strong>Tax where you live:</strong> your country of residence may tax Indian income too; a tax treaty and foreign tax credit usually prevent double tax. Estimate the Indian side with the " + L("nri-income-tax-calculator-india-2026-27-new-old-regime-capital-gains-tds-refund.html", "NRI income tax calculator") + ".")
          + call_box("Investing in India as an NRI", ["Account structure (NRE, NRO, FCNR)",
                                                      "Tax on interest, gains and rent",
-                                                     "Treaty rates, TRC and Form 10F",
-                                                     "Repatriation and Form 15CA / 15CB",
+                                                     "Treaty rates, TRC and Form 41 (formerly 10F)",
+                                                     "Repatriation and Forms 145 / 146 (formerly 15CA / 15CB)",
                                                      "Annual ITR and TDS refunds"],
                     "your country and the options you are considering.")
          + sources("FEMA (Deposit) Regulations, FEMA (Non-Debt Instruments) Rules, 2019 and RBI directions on remittance from NRO accounts; Income-tax Act (NRE / FCNR interest exemption, capital gains rates, TDS on non-residents); PFRDA rules on NPS; small savings scheme rules; site NRE / NRO / FCNR, mutual fund, PIS, bonds, NPS, GIFT City, PPF and property guides. Checked 25 November 2026. Not investment advice.")),
@@ -67,7 +67,7 @@ PAGES = [dict(
           ("Which NRI investments in India are tax-free?", "Interest on NRE and FCNR deposits is tax-free in India while you are non-resident. Most other income, such as NRO interest, capital gains and rent, is taxable in India."),
           ("Can an NRI invest in mutual funds and shares in India?", "Yes, after NRI KYC, through NRE (repatriable) or NRO accounts; shares are bought through a demat account under the portfolio investment route. Many fund houses do not accept investors resident in the US or Canada."),
           ("Can an NRI invest in PPF or post office schemes?", "Not in new accounts. PPF and NSC opened while resident continue to maturity, but NRIs cannot open new PPF, NSC, SCSS, Sukanya Samriddhi or other small savings accounts."),
-          ("Can NRIs take their investment money back abroad?", "Investments made from an NRE account are generally repatriable with the proceeds; money in an NRO account can be remitted within USD 1 million a financial year after tax, usually with Form 15CA / 15CB."),
+          ("Can NRIs take their investment money back abroad?", "Investments made from an NRE account are generally repatriable with the proceeds; money in an NRO account can be remitted within USD 1 million a financial year after tax, usually with Forms 145 / 146 (formerly 15CA / 15CB)."),
           ("Can BQP advise on NRI investments in India?", "CA Durgesh Chavda advises on the tax, FEMA and repatriation side: account structure, tax on interest, gains and rent, treaty relief, TDS refunds and annual returns. He does not recommend specific investment products. " + C)],
     related=[("nre-nro-fcnr-account-tax-rules.html", "NRE vs NRO vs FCNR"),
              ("nri-mutual-funds-india-tax.html", "NRI mutual fund tax"),
@@ -81,7 +81,7 @@ PAGES = [dict(
         {"name": "Pick the account", "text": "NRE for foreign income (repatriable), NRO for Indian income."},
         {"name": "Check what is allowed", "text": "Deposits, funds, shares, bonds, NPS, GIFT City, property; not new PPF / NSC."},
         {"name": "Check the tax", "text": "NRE / FCNR interest tax-free; others taxed in India and possibly abroad."},
-        {"name": "Plan repatriation", "text": "NRO money within USD 1 million a year, with Form 15CA / 15CB."},
+        {"name": "Plan repatriation", "text": "NRO money within USD 1 million a year, with Forms 145 / 146 (formerly 15CA / 15CB)."},
         {"name": "File and claim", "text": "ITR-2 or ITR-3 to settle tax and reclaim excess TDS."}]})]
 
 for p in PAGES:

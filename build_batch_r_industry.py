@@ -180,7 +180,7 @@ INDUSTRIES = [
         "industry": "Healthtech",
         "industry_hero": "DPDP + clinical data + medical device regulation navigated.",
         "specific_issues": [
-            ("DPDP Act + health data sensitivity", "Health data is sensitive personal data under DPDP; special consent + security requirements. Likely SDF tier if large patient base."),
+            ("DPDP Act + health data sensitivity", "The DPDP Act has no separate 'sensitive' category, but health data raises the risk profile: consent, security safeguards and breach duties apply, and a large patient base can lead to notification as a Significant Data Fiduciary."),
             ("CDSCO (Central Drugs Standard Control Organisation)", "Medical devices + diagnostic equipment registration + import licence."),
             ("Clinical research + patient data cross-border", "Section 16 DPDP + specific health regulations; data localisation for sensitive health data."),
             ("Insurance intermediary licence (if healthcare financing)", "IRDAI framework for health insurance intermediary."),
@@ -190,7 +190,7 @@ INDUSTRIES = [
             ("Specific DPIIT startup recognition for healthtech", "80-IAC 3-year tax holiday applicability review."),
         ],
         "specific_services": [
-            "DPDP compliance for health data (sensitive personal data) + likely SDF obligations",
+            "DPDP compliance for health data + Significant Data Fiduciary assessment",
             "CDSCO registration for medical devices + diagnostic equipment",
             "GST analysis of healthcare services exemption applicability",
             "Section 194R TDS structuring for pharma / medical device marketing",
@@ -210,13 +210,13 @@ INDUSTRIES = [
         "industry": "EdTech",
         "industry_hero": "GST exemption + OIDAR + content royalty navigated.",
         "specific_issues": [
-            ("GST exemption for educational services (specific)", "Section 32 CGST Act exemption for specific educational services; interpretation varies by course type (K-12 / higher education / vocational / recreational)."),
-            ("OIDAR GST for foreign-sold online courses", "Indian EdTech selling to foreign B2C: foreign OIDAR GST (UK, EU, Australia). Foreign EdTech selling to Indian B2C: Indian OIDAR 18%."),
+            ("GST exemption for educational services (specific)", "the GST rate notification exempts specified educational services (for example by educational institutions to students for recognised qualifications); most online courses and test prep are taxable at 18%, so the answer varies by course type."),
+            ("OIDAR GST for foreign-sold online courses", "Indian EdTech selling to foreign consumers may have to register for foreign VAT / GST on digital services (UK, EU, Australia). Foreign EdTech selling to Indian B2C: Indian OIDAR 18%."),
             ("Content royalty + licence treatment", "Content royalty from one party to another + GST + TDS Section 194J / 195 implications."),
             ("Teacher / tutor payment (independent contractor vs employee)", "Mis-classification risk; Section 194J vs Section 192 TDS."),
             ("Section 115BAA / 115BAB for EdTech (services not manufacturing)", "22% rate applicable; 15% rate for new manufacturing not available."),
             ("DPDP Act + children's data (under 18)", "EdTech aimed at K-12 students faces children's data rules under DPDP + MeitY advisories."),
-            ("Section 194R TDS on free content giveaways", "Free courses, scholarships, student freebies may trigger 194R TDS."),
+            ("Section 194R TDS on free content giveaways", "Section 194R applies only to benefits given to people carrying on a business or profession (for example affiliates, tutors or channel partners), not to ordinary students."),
         ],
         "specific_services": [
             "GST exemption analysis per course type + specific advance ruling if beneficial",
@@ -363,7 +363,7 @@ INDUSTRIES = [
             ("Agricultural income exemption Section 10(1)", "Agricultural income exempt but farm-support services + processing taxable."),
             ("APMC regulation + e-NAM integration", "Agricultural Produce Market Committee reforms + national electronic trading."),
             ("Farmer Producer Organisation (FPO) + Section 80P", "FPO tax benefits + Section 80P 100% deduction + specific structure."),
-            ("GST on agricultural inputs + outputs", "Specific exemptions + 5% / 12% / 18% rates depending on category."),
+            ("GST on agricultural inputs + outputs", "Many unprocessed farm products are exempt; others fall in the 5% or 18% slabs after the September 2025 rate rationalisation (the 12% slab was removed)."),
             ("Agri-fintech + microfinance regulations", "RBI + NABARD framework for agri-lending + crop insurance."),
             ("Section 194C TDS on agricultural contractors", "Specific sub-contract rules."),
             ("Precision agriculture (drone + IoT) subsidies", "PLI + MeitY + state agri-tech incentives."),
@@ -371,7 +371,7 @@ INDUSTRIES = [
         ],
         "specific_services": [
             "Agricultural income Section 10(1) analysis vs farm-service / processing taxation",
-            "FPO (Farmer Producer Organisation) structuring + Section 80P 100% deduction",
+            "FPO (Farmer Producer Organisation) structuring + Section 80PA / 80P analysis",
             "GST on agricultural inputs / outputs analysis",
             "APMC + e-NAM compliance",
             "Agri-fintech + NABARD + RBI compliance",
@@ -541,7 +541,7 @@ INDUSTRIES = [
         "industry_hero": "Section 35 R&D deduction + patent box + Section 115BAB navigated.",
         "specific_issues": [
             ("Section 35(2AB) in-house R&D expenditure", "Weighted deduction 100% (post 2020; previously 150%) for approved in-house R&D expenses."),
-            ("Section 35(1)(ii) donation for scientific research", "100% deduction + weighted for approved research institute donations."),
+            ("Section 35(1)(ii) donation for scientific research", "100% deduction for donations to approved research institutions (the weighted rate ended from FY 2020-21)."),
             ("Patent box regime (Section 115BBF)", "10% concessional tax on royalty from patent (minimum development obligations)."),
             ("Section 115BAA opt-in vs Section 35 forfeiture", "115BAA forfeits Section 35 benefits; must model which is better."),
             ("DST + DBT + MeitY R&D grants", "Government research grants - tax treatment + compliance."),

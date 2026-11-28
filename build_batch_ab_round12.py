@@ -498,7 +498,7 @@ PAGES = [
         "slug": "dir-3-kyc-deactivated-mca-filings-blocked-urgent-india",
         "title": "DIR-3 KYC Deactivated? MCA Filings Blocked Urgent India",
         "hero_em": "INR 5,000 late fee + 24-72 hour reactivation.",
-        "lead": "Missed DIR-3 KYC deadline (30 September). DIN deactivated. All MCA eForm filings blocked - AOC-4, MGT-7, DIR-12, PAS-6, MSME-1, DPT-3, SH-7, CHG-1/4, INC-22. Deal / financing / annual compliance stalled. Fix: file DIR-3 KYC with INR 5,000 late fee - DIN reactivated within 24-72 hours. BQP urgent engagement. Here's the step-by-step.",
+        "lead": "Missed DIR-3 KYC deadline (now once every three years, by 30 June). DIN deactivated. All MCA eForm filings blocked - AOC-4, MGT-7, DIR-12, PAS-6, MSME-1, DPT-3, SH-7, CHG-1/4, INC-22. Deal / financing / annual compliance stalled. Fix: file DIR-3 KYC with INR 5,000 late fee - DIN reactivated within 24-72 hours. BQP urgent engagement. Here's the step-by-step.",
         "kicker": "/ Urgent DIR-3 KYC Reactivation &middot; Updated 2026-10-25",
         "sections_pairs": [
             ("/ What breaks with deactivated DIN", "The cascade.",
@@ -561,7 +561,7 @@ PAGES = [
                           ("dir-3-kyc-director-annual-compliance-india.html", "Related", "DIR-3 KYC + Director Compliance")],
         "cta_h": "Director DIN deactivated? MCA filings blocked.",
         "cta_b": "DIR-3 KYC + INR 5,000 late fee + 24-72 hour reactivation. Then AOC-4 + MGT-7 + PAS-6 + MSME-1 cascade. BQP urgent engagement. WhatsApp +91 78018 87130.",
-        "keywords": "DIR-3 KYC deactivated MCA filings blocked urgent India CA, DIN reactivation INR 5000 late fee CA, missed DIR-3 KYC 30 September urgent CA",
+        "keywords": "DIR-3 KYC deactivated MCA filings blocked urgent India CA, DIN reactivation INR 5000 late fee CA, missed DIR-3 KYC urgent CA",
         "desc": "DIR-3 KYC deactivated MCA filings blocked urgent India: cascade impact (AOC-4, MGT-7, DIR-12, PAS-6, MSME-1, DPT-3, SH-7, CHG-1/4 all blocked), DIR-3 KYC Web vs eForm determination, 24-72 hour reactivation workflow (filing + INR 5,000 late fee + MCA processing), foreign director + specific scenarios (DSC refresh, apostille), subsequent MCA filings cascade. CA Durgesh Chavda urgent engagement.",
     },
     {

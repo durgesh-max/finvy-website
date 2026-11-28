@@ -272,7 +272,7 @@ PAGES = [
                 "Where the company has already been struck off, apply to the NCLT under Section 252 to restore it so the filings can be made.",
                 "Where the Registrar's action was procedurally defective, a writ petition before the High Court is available.")),
             ("/ Prevention", "Avoid it next year.",
-             ul("Calendar AOC-4 (30 days after AGM), MGT-7 (60 days after AGM) and DIR-3 KYC (30 September) for every company where you are a director.",
+             ul("Calendar AOC-4 (30 days after AGM), MGT-7 (60 days after AGM) and DIR-3 KYC (every three years, by 30 June) for every company where you are a director.",
                 "Close dormant companies properly through STK-2 or apply for dormant status, rather than letting filings lapse.",
                 "If you are a nominee director for a foreign parent, ask for a compliance certificate each year.") + UPDATED),
         ],

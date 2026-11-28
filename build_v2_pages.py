@@ -449,7 +449,7 @@ write_page("india-us-dtaa-withholding-rates", page(
 # 4. fema-odi-us-entity-indian-founder
 write_page("fema-odi-us-entity-indian-founder", page(
     slug="fema-odi-us-entity-indian-founder",
-    title="FEMA ODI for US Entity (2026) | Indian Founder Compliance Guide - BQP",
+    title="FEMA ODI for a US Entity (2026): ODI vs OPI, LRS Funding, Form ODI and APR for Indian Founders - BQP",
     description="Complete guide to FEMA Overseas Direct Investment compliance for Indian founders funding US LLCs or C-Corps. Form FC (old Form ODI) reporting, Annual Performance Report, LRS vs ODI route, penalty for non-compliance.",
     keywords="FEMA ODI US, Form ODI India, Overseas Direct Investment US entity, LRS vs ODI, Indian founder US LLC FEMA, Annual Performance Report APR, FEMA violation penalty, OPI vs ODI",
     hero_kicker="/ FEMA &middot; India-side compliance",

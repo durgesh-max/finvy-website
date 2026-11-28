@@ -95,7 +95,7 @@ PAGES = [
         "sections_pairs": [
             ("/ New regime (default from AY 2024-25)", "The simpler path.",
              "<ul>"
-             "<li><strong>Rates</strong>: 0% up to INR 3L / 5% from 3-7L / 10% from 7-10L / 15% from 10-12L / 20% from 12-15L / 30% above 15L.</li>"
+             "<li><strong>Rates (FY 2025-26 onwards)</strong>: 0% up to INR 4L / 5% from 4-8L / 10% from 8-12L / 15% from 12-16L / 20% from 16-20L / 25% from 20-24L / 30% above 24L.</li>"
              "<li>Section 87A rebate: up to INR 60,000 under the new regime, making tax nil up to INR 12 lakh of taxable income (INR 12.75 lakh for salaried); old regime up to INR 12,500 for income up to INR 5 lakh.</li>"
              "<li>Standard deduction INR 75,000 (post Finance Act 2024).</li>"
              "<li>Section 80CCD(2) employer NPS contribution deduction allowed.</li>"
@@ -116,12 +116,12 @@ PAGES = [
              "<li>Section 80CCD(1B) NPS additional INR 50K.</li>"
              "</ul>"),
             ("/ Decision framework", "Choose based on actual deductions.",
-             "<p><strong>Rule of thumb</strong>: new regime better if your total deductions (80C + 80D + 80G + HRA + home loan interest + specific others) are LESS than approximately INR 3.5 - 4 lakh. Old regime better if deductions exceed that threshold.</p>"
+             "<p><strong>Rule of thumb</strong>: the breakeven rises with income. Salary up to INR 12.75 lakh is tax-free under the new regime; at INR 15 lakh salary the old regime needs roughly INR 5.4 lakh of total deductions (80C + 80D + 80G + HRA + home loan interest + others) to win, and at INR 25 lakh roughly INR 8 lakh.</p>"
              "<p><strong>Specific scenarios where old regime wins</strong>:</p>"
              "<ul>"
              "<li>HRA receiver with high rent in metro: HRA exemption often INR 2-5 lakh alone.</li>"
              "<li>Home loan borrower: Section 24 interest INR 2 lakh + Section 80C principal INR 1.5 lakh.</li>"
-             "<li>Health insurance self + senior parents: Section 80D INR 1 lakh.</li>"
+             "<li>Health insurance self + senior parents: Section 80D up to INR 75,000 (INR 1 lakh if the taxpayer is also a senior citizen).</li>"
              "<li>Combined with Section 80G donations + Section 80E education loan.</li>"
              "</ul>"
              "<p><strong>Specific scenarios where new regime wins</strong>:</p>"
@@ -155,7 +155,7 @@ PAGES = [
             ("Can I switch regimes every year?",
              "For non-business income: yes - switch each year based on actual deduction profile. For business income (Section 44AA books of accounts): once opted out of new regime, can switch back only ONCE in lifetime. Significant restriction - decide carefully."),
             ("What's the typical breakeven between regimes?",
-             "Approximately INR 3.5 - 4 lakh of total deductions (80C + 80D + 80G + HRA + home loan interest + specific). Below this: new regime typically wins. Above this: old regime typically wins. Specific calculation depends on actual income + specific deductions."),
+             "It depends on income. With the FY 2025-26 new-regime slabs, salary income up to INR 12.75 lakh is tax-free under the new regime, so the old regime cannot beat it there. At a salary of INR 15 lakh the old regime needs roughly INR 5.4 lakh of deductions (80C + 80D + HRA + home loan interest and others) to break even; at INR 25 lakh, roughly INR 8 lakh (before surcharge and cess). Run both computations for the actual figures."),
             ("Does new regime allow Section 80CCD(2) employer NPS?",
              "Yes - Section 80CCD(2) deduction for employer NPS contribution allowed in new regime (specific carve-out). This is one of the few deductions preserved in new regime, alongside standard deduction INR 75K + Section 10(10) gratuity + specific exemptions."),
             ("Can I use HRA in new regime?",
@@ -171,7 +171,7 @@ PAGES = [
         "cta_h": "New or Old regime for AY 2026-27?",
         "cta_b": "Side-by-side analysis + 5-year projection + Section 80C/D/G optimisation + ITR filing. Use BQP calculator + scope-based tax engagement.",
         "keywords": "new vs old tax regime India AY 2026-27, Section 115BAC decision CA India, Form 10-IEA new regime CA, old vs new regime calculator India",
-        "desc": "Which tax regime new vs old India AY 2026-27 complete decision framework: new regime (default, lower rates, INR 7L rebate, INR 75K standard deduction, Section 80CCD(2) only) vs old regime (full deductions - 80C/80D/80G/HRA/home loan). Breakeven ~INR 3.5-4L deductions. Form 10-IEA business income lock-in. CA Durgesh Chavda analysis.",
+        "desc": "Which tax regime new vs old India AY 2026-27 complete decision framework: new regime (default, lower rates, nil tax up to INR 12L (12.75L salaried) via 87A, INR 75K standard deduction, Section 80CCD(2) only) vs old regime (full deductions - 80C/80D/80G/HRA/home loan). Breakeven deductions rise with income (about INR 5.4L at INR 15L salary, INR 8L at INR 25L). Form 10-IEA business income lock-in. CA Durgesh Chavda analysis.",
     },
     {
         "slug": "which-section-54-vs-54f-vs-54ec-decision-tree-india",

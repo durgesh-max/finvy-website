@@ -872,7 +872,7 @@ write_page("section-80c-complete-list-india-2026", page(
          "<p>Related sections stacking:</p>"
          "<ul>"
          "<li><strong>Section 80CCD(1B)</strong>: additional INR 50,000 for NPS Tier 1 contributions (beyond 80C limit).</li>"
-         "<li><strong>Section 80CCD(2)</strong>: employer NPS contribution deduction (14% of salary for government, 10% for private &mdash; above 80C limit).</li>"
+         "<li><strong>Section 80CCD(2)</strong>: employer NPS contribution deduction (new regime: 14% of basic + DA for all employers; old regime: 14% for government, 10% for private &mdash; above 80C limit).</li>"
          "<li>Combined 80C + 80CCD(1B) + 80CCD(2): can effectively provide INR 2 lakh+ in retirement-oriented deductions.</li>"
          "</ul>"
          "<p><strong>Available only under OLD regime</strong>: must explicitly elect Old regime via Form 10IEA before ITR due date. Under New regime (default from AY 2024-25), Section 80C is NOT available.</p>"),

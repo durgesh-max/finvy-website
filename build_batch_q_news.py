@@ -359,12 +359,12 @@ write_page("gstr-9-fy-2024-25-december-2026-last-mile-checklist", page(
 # 5. 43B(h) Year 2
 write_page("section-43b-h-year-2-impact-buyers-mse-india", page(
     slug="section-43b-h-year-2-impact-buyers-mse-india",
-    title="Section 43B(h) Year 2 Impact on Indian Buyers | MSE Payment Rules 2026 - BQP",
-    description="Section 43B(h) Income Tax year 2 impact: Indian buyer must pay MSE (Micro + Small Enterprise) suppliers within 45 days or expense disallowed in FY of accrual + allowed only on payment. Impact on buyer's P&L, cash flow, procurement decisions. Udyam verification + 46-day rule + ITR disclosure. 2026 practitioner's guide. CA Durgesh Chavda.",
+    title="MSME 45-Day Payment Rule (Section 43B(h)) 2026: Who It Applies To, Traders, Turnover Limits, Interest and Tax Disallowance - BQP",
+    description="MSME 45-day payment rule under Section 43B(h): Indian buyer must pay MSE (Micro + Small Enterprise) suppliers within 45 days or expense disallowed in FY of accrual + allowed only on payment. Impact on buyer's P&L, cash flow, procurement decisions. Udyam verification + 46-day rule + ITR disclosure. 2026 practitioner's guide. CA Durgesh Chavda.",
     keywords="Section 43B(h) year 2 impact India, 43B(h) MSE buyer compliance, Section 43B(h) FY 2025-26 impact, Udyam supplier buyer Section 43B(h)",
     hero_kicker="/ MSE Payment Rules Impact Memo &middot; Updated 2026-10-22",
-    hero_title_html="Section 43B(h), <em>year 2 impact on Indian buyers.</em>",
-    hero_lead="Finance Act 2023 inserted Section 43B(h): expenses payable by an Indian buyer to Micro or Small Enterprise (MSE) supplier beyond 45 days from acceptance of goods / services are disallowed in the FY of accrual and allowed only on actual payment. FY 2024-25 was year 1 of impact (ITR filed by October 2025). FY 2025-26 is year 2 (ITR by October 2026). Here's what buyers are experiencing in year 2 and how to mitigate.",
+    hero_title_html="Section 43B(h), <em>the MSME 45-day payment rule for Indian buyers.</em>",
+    hero_lead="Finance Act 2023 inserted Section 43B(h): expenses payable by an Indian buyer to Micro or Small Enterprise (MSE) supplier beyond 45 days from acceptance of goods / services are disallowed in the FY of accrual and allowed only on actual payment. It has applied since FY 2023-24 (AY 2024-25), so FY 2025-26 is its third year (ITR by October 2026). Here's what buyers are seeing and how to manage it.",
     sections=[
         ("/ The core rule", "Section 43B(h) + Section 15 MSMED.",
          "<ul>"
@@ -375,24 +375,24 @@ write_page("section-43b-h-year-2-impact-buyers-mse-india", page(
          "<li>&nbsp;&nbsp;&mdash; If no written agreement: 15 days from acceptance.</li>"
          "<li><strong>Who qualifies as MSE</strong>: Micro (investment up to INR 2.5 crore / turnover up to INR 10 crore) + Small (investment up to INR 25 crore / turnover up to INR 100 crore) Udyam-registered enterprises. Medium Enterprises are OUT of Section 43B(h) scope.</li>"
          "</ul>"),
-        ("/ What's actually happening in year 2 (FY 2025-26)", "Observed impact.",
+        ("/ What buyers are seeing in FY 2025-26", "Observed impact.",
          "<ul>"
-         "<li><strong>Buyers started paying MSE suppliers faster</strong>: cash flow accelerated; working capital impact on buyers has been real. For companies with large MSE supplier base, year 1 impact was 20-40% faster payment cycle.</li>"
-         "<li><strong>P&amp;L impact</strong>: year 1 saw some buyers restate expenses when late-paid MSE invoices didn't qualify for deduction. Current-year expenses but deductible only on payment timing = P&amp;L volatility.</li>"
+         "<li><strong>Buyers started paying MSE suppliers faster</strong>: cash flow accelerated; working capital impact on buyers has been real.</li>"
+         "<li><strong>P&amp;L impact</strong>: the first year saw some buyers restate expenses when late-paid MSE invoices didn't qualify for deduction. Current-year expenses but deductible only on payment timing = P&amp;L volatility.</li>"
          "<li><strong>Udyam verification mechanism</strong>: buyers now routinely demand Udyam certificate from suppliers to confirm Micro/Small category. Form MSME Form I half-yearly return (dues > 45 days to MSE) also triggered.</li>"
          "<li><strong>Procurement decisions shifted</strong>: some buyers consolidating purchases to larger (non-MSE) suppliers to avoid 43B(h) complexity. Not necessarily good policy outcome.</li>"
          "<li><strong>Written agreements now specify &lt;=45 day payment terms</strong>: standard contracts updated to comply with Section 15 MSMED default.</li>"
          "<li><strong>Form 3CD disclosure</strong>: tax audit Form 3CD Clause 22 (now expanded) requires disclosure of 43B(h) impact. Transparency drives compliance.</li>"
          "</ul>"),
-        ("/ Year 2 specific issues", "What's changed since year 1.",
+        ("/ Open issues", "What buyers still argue about.",
          "<ul>"
-         "<li><strong>Interpretation of 'acceptance' date</strong>: when the 45-day clock starts. Industry practice settled around invoice-receipt / goods-receipt as 'acceptance' unless contract specifies otherwise.</li>"
-         "<li><strong>Credit notes / debit notes handling</strong>: payment reversal / adjustment timing complexities. Documentation improved in year 2.</li>"
-         "<li><strong>Case law emerging</strong>: multiple ITAT / High Court rulings on 43B(h) interpretation during 2025-26. Specific issues being litigated: 'written agreement' meaning, 'appointed day' calculation, retroactivity.</li>"
+         "<li><strong>Interpretation of 'acceptance' date</strong>: when the 45-day clock starts. Many buyers treat receipt of goods or completion of the service as acceptance unless the contract says otherwise - record the date in the ERP.</li>"
+         "<li><strong>Credit notes / debit notes handling</strong>: payment reversal / adjustment timing complexities.</li>"
+         "<li><strong>Disputes</strong>: interpretation questions are being raised in appeals, including 'written agreement' meaning, 'appointed day' calculation, retroactivity.</li>"
          "<li><strong>Section 15 interest</strong>: separate from 43B(h), buyer owes compound interest at 3x RBI bank rate on delayed MSE payments. This is MSE's recovery lever + buyer's additional cost beyond disallowance.</li>"
          "<li><strong>Form MSME Form I</strong>: half-yearly return of outstanding MSE dues beyond 45 days. ROC filing + compliance signal.</li>"
          "</ul>"),
-        ("/ Buyer compliance checklist", "The year 2 operating playbook.",
+        ("/ Buyer compliance checklist", "The operating playbook.",
          "<ol>"
          "<li><strong>Collect Udyam certificate</strong> from every supplier before onboarding; refresh annually. Store centrally.</li>"
          "<li><strong>Supplier master</strong>: flag Micro / Small / Medium / Not-registered. Different handling for each.</li>"
@@ -407,10 +407,11 @@ write_page("section-43b-h-year-2-impact-buyers-mse-india", page(
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],
     faqs=[
-        ("Is Section 43B(h) applicable in FY 2025-26 (year 2)?",
-         "Yes - Section 43B(h) is permanent. Finance Act 2023 inserted it; no sunset. Year 1 (FY 2024-25) and year 2 (FY 2025-26) and beyond are all in scope. ITR for FY 2025-26 (due October 2026) must apply 43B(h) treatment to any MSE expenses paid beyond 45 days."),
+        ("Is Section 43B(h) still applicable in FY 2025-26?",
+         "Yes - Section 43B(h) is permanent. Finance Act 2023 inserted it; no sunset. It first applied to FY 2023-24 (AY 2024-25), and FY 2024-25, FY 2025-26 and later years are all in scope. ITR for FY 2025-26 (due October 2026) must apply 43B(h) treatment to any MSE expenses paid beyond 45 days."),
         ("Does Section 43B(h) apply to Medium Enterprises too?",
          "No - only MICRO and SMALL Enterprises (MSE). Medium Enterprises (investment up to INR 125 crore / turnover up to INR 500 crore) are OUT of 43B(h) scope. Buyer verification should distinguish Micro / Small (in scope) from Medium (out of scope) using Udyam certificate."),
+        ("Who does the MSME 45-day payment rule apply to - does it cover traders, and is there a turnover limit?", "It applies to a business buyer claiming a deduction for purchases or services from a supplier that is a micro or small enterprise registered on Udyam as a manufacturer or service provider. There is no turnover limit for the buyer; the limits decide whether the supplier counts - from 1 April 2025, micro means investment up to Rs 2.5 crore and turnover up to Rs 10 crore, and small means investment up to Rs 25 crore and turnover up to Rs 100 crore. Medium enterprises are outside the rule. Retail and wholesale traders can register on Udyam, but only for priority sector lending, so the delayed-payment protection and Section 43B(h) generally do not cover purchases from trader suppliers. A buyer taxed on a presumptive basis (44AD / 44ADA) claims no separate expense deduction, so the disallowance has no practical effect there. Collect each supplier's Udyam certificate and check its category and activity before the year-end - book a call to review the supplier list."),
         ("What's the 'appointed day' under Section 15 MSMED?",
          "The appointed day is the day immediately following the date of acceptance of goods / services. If there is a written agreement specifying payment period, the appointed day is as per agreement BUT cannot exceed 45 days from acceptance. If no written agreement, appointed day is 15 days from acceptance."),
         ("What if I pay MSE supplier after 45 days?",
@@ -425,7 +426,7 @@ write_page("section-43b-h-year-2-impact-buyers-mse-india", page(
         ("itr-filing-ay-2026-27-deadlines-changes-india.html", "Guide", "ITR AY 2026-27"),
     ],
     cta_headline="Buyer with large MSE supplier base?",
-    cta_body="43B(h) + Section 15 MSMED + Form MSME Form I + Form 3CD disclosure. BQP compliance stack for year 2. Standard annual engagement + priority support through year-end accrual review.",
+    cta_body="43B(h) + Section 15 MSMED + Form MSME Form I + Form 3CD disclosure. BQP compliance support. Standard annual engagement + priority support through year-end accrual review.",
 ))
 
 # 6-15: Shorter but still substantive pages for remaining 10 topics

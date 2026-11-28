@@ -481,8 +481,8 @@ INDUSTRIES = [
         "industry_hero": "YouTube + Instagram + OTT + royalty + GST + TDS navigated.",
         "specific_issues": [
             ("Section 194J + 194R TDS on content creator payments", "Platform payments to creators + brand collaboration perquisites."),
-            ("GST on YouTube / Instagram / OTT advertising revenue", "18% GST + export of service LUT bond if non-Indian viewer."),
-            ("Section 44ADA presumptive scheme (if applicable)", "50% deemed profit for individual creators + content professionals."),
+            ("GST on YouTube / Instagram / OTT advertising revenue", "18% GST on Indian brand deals; platform revenue paid by a foreign entity (for example AdSense from Google's overseas entity) is generally an export of services under an LUT, whatever the viewers' location."),
+            ("Section 44ADA presumptive scheme (if applicable)", "50% deemed profit where the work counts as a specified profession (for example film artists); other creators often use section 44AD instead."),
             ("Copyright + royalty structuring", "Section 194J royalty + Chapter XII specific provisions."),
             ("DPDP + Intermediary Rules + MeitY content moderation", "Platform intermediary liability + content moderation framework."),
             ("OIDAR GST for foreign content platforms", "US / UK platforms with Indian B2C subscribers - OIDAR 18%."),

@@ -575,7 +575,7 @@ PAGES = [
             ("/ GST Council updates", "Rate + clarification framework.",
              "<ul>"
              "<li>Periodic GST Council meetings issue rate clarifications + sector-specific guidance.</li>"
-             "<li>Recent focus areas: online gaming 28% framework fine-tuning, specific export of service clarifications, OIDAR classification, specific HSN rate rationalisation.</li>"
+             "<li>Recent focus areas: the September 2025 rate rationalisation (5% / 18% / 40%), specific export of service clarifications, OIDAR classification, specific HSN rate rationalisation.</li>"
              "<li>GSTR-9 + GSTR-9C FY 2025-26 deadline 31 December 2026 - any extension / amendment announcements tracked.</li>"
              "<li>Section 43B(h) MSE payment year 2 impact clarifications.</li>"
              "<li>GST Appellate Tribunal (GSTAT) operationalisation + specific procedure updates.</li>"

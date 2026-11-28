@@ -301,6 +301,7 @@ BOXES = {
     "gsteducation": ("GST on education?", 'School, coaching or ed-tech? See <a href="gst-exemption-educational-institutions-notification-12-2017-entry-66-schools-coaching-edtech-2026.html">GST exemption for educational institutions (entry 66)</a>.'),
     "overseascg": ("Sold property abroad?", 'Sold a house or flat abroad? See <a href="capital-gains-tax-on-overseas-property-indian-resident-sell-foreign-house-flat-section-54-foreign-tax-credit-2026.html">capital gains tax on overseas property for Indian residents</a>.'),
     "verifyca": ("Relying on a CA certificate?", 'Relying on a CA certificate? See <a href="how-to-verify-ca-membership-number-udin-verification-icai-certificate-of-practice-india-2026.html">how to verify a CA membership number and UDIN</a>.'),
+    "deemedexport": ("Deemed exports?", 'Supplying an EOU or Advance Authorisation holder? See <a href="deemed-exports-under-gst-notification-48-2017-refund-advance-authorisation-eou-epcg-0-1-percent-merchant-export-2026.html">deemed exports under GST and the refund</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -329,9 +330,10 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "how-to-start-export-business-india-iec-gst-lut-rcmc-ad-code-documents-payment-realisation-2026.html": ["deemedexport"],
     "education.html": ["gsteducation"],
     "do-i-need-to-report-foreign-assets-itr-schedule-fa-who-must-file-penalty-2026.html": ["inheritabroad"],
-    "gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html": ["startexport"],
+    "gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html": ["startexport", "deemedexport"],
     "loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html": ["loan2equity"],
     "change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html": ["objectclause"],
     "change-registered-office-company-india-inc-22-inc-23-mgt-14-within-city-another-state-procedure-2026.html": ["namechange"],

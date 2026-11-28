@@ -294,6 +294,7 @@ BOXES = {
     "nriinheritshares": ("Inherited shares?", 'Inherited Indian shares or mutual funds? See <a href="nri-inherited-shares-mutual-funds-india-transmission-nominee-legal-heir-tax-on-sale-repatriation-2026.html">NRI inherited shares and funds: transmission, tax and repatriation</a>.'),
     "nrijointacct": ("Joint account with parents?", 'Joint account with a parent in India? See <a href="nri-joint-bank-account-with-resident-parent-nre-nro-former-or-survivor-power-of-attorney-tax-2026.html">NRI joint bank accounts: former or survivor, power of attorney and tax</a>.'),
     "gstupinotice": ("GST notice over UPI?", 'GST notice over UPI receipts? See <a href="gst-notice-for-upi-transactions-small-traders-bank-receipts-registration-threshold-exempt-goods-how-to-reply-2026.html">GST notice for UPI transactions: thresholds, exempt goods and how to reply</a>.'),
+    "startexport": ("Starting to export?", 'Planning your first export? See <a href="how-to-start-export-business-india-iec-gst-lut-rcmc-ad-code-documents-payment-realisation-2026.html">how to start an export business in India: IEC, GST LUT, RCMC and getting paid</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -322,6 +323,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html": ["startexport"],
     "loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html": ["loan2equity"],
     "change-company-name-india-inc-24-special-resolution-mgt-14-name-reservation-fresh-certificate-2026.html": ["objectclause"],
     "change-registered-office-company-india-inc-22-inc-23-mgt-14-within-city-another-state-procedure-2026.html": ["namechange"],
@@ -658,7 +660,7 @@ TARGETS = {
     "india-vendor-supplier-verification-foreign-buyer.html": ["fdist", "fcp1"],
     "india-trademark-patent-ip-foreign-company.html": ["fdist", "froy", "ffr"],
     "vendor-due-diligence.html": ["fsell", "fddt"],
-    "india-iec-gst-customs-foreign-exporter-importer-2026.html": ["fcp1", "ffta", "fedf", "nrtp", "pn2", "gstexp", "gstexportrefund"],
+    "india-iec-gst-customs-foreign-exporter-importer-2026.html": ["fcp1", "ffta", "fedf", "nrtp", "pn2", "gstexp", "gstexportrefund", "startexport"],
     "best-ca-manufacturing-startup-india-2026.html": ["fcp1", "bab115", "pn2"],
     "form-3ceb-tp-audit-india-2026-30-november-checklist.html": ["froy", "fdesk", "fmiss", "bab115", "masterfile", "shapa"],
     "liaison-office-branch-office-annual-activity-certificate-aac-form-49c-162-india-2026.html": ["fpob", "fcoitr"],

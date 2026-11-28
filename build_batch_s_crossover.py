@@ -240,7 +240,7 @@ CROSSOVERS = [
         "section_pairs": [
             ("/ Four parallel regulatory stacks", "Why integration matters.",
              "<ul>"
-             "<li><strong>DPDP Act 2023 + health data</strong>: health data is sensitive personal data under DPDP; special consent + security requirements. Likely Significant Data Fiduciary if large patient / consumer base.</li>"
+             "<li><strong>DPDP Act 2023 + health data</strong>: the DPDP Act has no separate sensitive category, but health data is high-risk: consent, security safeguards and breach duties apply. Likely Significant Data Fiduciary if large patient / consumer base.</li>"
              "<li><strong>CDSCO (Central Drugs Standard Control Organisation)</strong>: medical devices, diagnostic equipment, in-vitro diagnostics - registration + import licence + manufacturing licence.</li>"
              "<li><strong>IRDAI</strong>: healthcare financing / insurance intermediary / telemedicine with insurance claims - regulatory framework.</li>"
              "<li><strong>GST healthcare exemption (Section 32)</strong>: specific exemptions for healthcare services + diagnostic + medical devices. Classification critical.</li>"
@@ -290,11 +290,11 @@ CROSSOVERS = [
         ],
         "faq_pairs": [
             ("Why integrate DPDP + CDSCO + GST advisory for healthtech?",
-             "Health data is sensitive personal data (DPDP) + medical device activity is CDSCO-regulated + healthcare services have specific GST exemptions. Integration avoids: DPDP consent flow design conflict with CDSCO patient-data retention; GST classification driving CDSCO device classification decision; Section 194R TDS structuring for pharma marketing + DPDP compliance for marketing data collection. One firm, one point of accountability."),
+             "Health data is high-risk personal data under DPDP (the Act has no separate sensitive category) + medical device activity is CDSCO-regulated + healthcare services have specific GST exemptions. Integration avoids: DPDP consent flow design conflict with CDSCO patient-data retention; GST classification driving CDSCO device classification decision; Section 194R TDS structuring for pharma marketing + DPDP compliance for marketing data collection. One firm, one point of accountability."),
             ("Is my healthtech app a 'medical device' under CDSCO?",
              "Depends on function. Software that monitors / records health parameters without diagnostic conclusion: typically not a medical device. Software that provides diagnostic conclusion / recommendation + is used for clinical decision-making: CDSCO classification as Software as Medical Device (SaMD). AI diagnostic platforms typically are SaMD. Classification analysis is foundational and affects all downstream compliance."),
             ("What's the GST position for telemedicine?",
-             "Section 32 CGST Act exempts specific healthcare services. Telemedicine consultation by qualified medical practitioner may qualify under 'medical services' exemption. Diagnostic / lab services + medical device sales may be taxable at 5% / 12% / 18%. Composite service with mixed components requires specific classification. Advance ruling helps for complex cases."),
+             "The GST rate notification exempts health care services by clinical establishments and authorised medical practitioners. A telemedicine consultation by a qualified practitioner may qualify; platform fees, diagnostic kits and medical device sales are usually taxable at their own rates (5% or 18% after the September 2025 rationalisation). Composite service with mixed components requires specific classification. Advance ruling helps for complex cases."),
             ("How does Section 194R affect pharma marketing?",
              "10% TDS on business perquisites to doctors - samples, conferences, hospitality, equipment, consultancy fees. Threshold INR 20,000 per year per doctor. Pharma / medical device companies must deduct + deposit + file Form 26Q. Companies struggle with doctor identification + perquisite valuation. BQP structuring includes doctor master setup + perquisite valuation methodology."),
             ("Does healthtech qualify for Section 80-IAC Startup India tax holiday?",

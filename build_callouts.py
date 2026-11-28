@@ -264,6 +264,7 @@ BOXES = {
     "f5472abate": ("Form 5472 penalty?", 'Got a Form 5472 penalty? See <a href="form-5472-penalty-abatement-reasonable-cause-form-843-foreign-owned-us-llc-2026.html">Form 5472 penalty abatement: reasonable cause, Form 843 and Appeals</a>.'),
     "nriwork": ("Working in India?", 'Starting work in India? See <a href="can-nri-work-in-india-fema-resident-on-arrival-tax-day-count-remote-work-oci-2026.html">can an NRI work in India: FEMA, tax day count and remote work</a>.'),
     "itrnotfiled": ("Return not filed?", 'Missed a return? See <a href="what-happens-if-i-dont-file-itr-india-belated-itr-u-late-fee-notice-prosecution-2026.html">what happens if you don&rsquo;t file your ITR</a>.'),
+    "bankvisible": ("Can they see it?", 'Wondering what the department can see? See <a href="can-income-tax-department-see-my-bank-account-sft-limits-ais-cash-deposit-notice-2026.html">can the income tax department see my bank account</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -292,6 +293,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "high-value-transaction-notice-income-tax-credit-card-spending-sft-limits-how-to-reply-2026.html": ["bankvisible"],
     "what-is-form-5472.html": ["f5472abate"],
     "how-to-file-form-5472.html": ["f5472abate"],
     "roc-compliance-private-limited-company-llp-2026-27-calendar-due-dates-forms-late-fees.html": ["regoffice"],
@@ -303,7 +305,7 @@ TARGETS = {
     "form-adt-1-auditor-appointment-15-days-first-auditor-rotation-adt-3-india-2026.html": ["auditapp"],
     "gst-registration-rejected-or-suspended-reg-03-reg-05-rule-21a-reg-31-what-to-do-2026.html": ["gstsummons"],
     "gst-appeal-apl-01-section-107-time-limit-pre-deposit-format-appellate-authority-2026.html": ["gstregrej", "gstsummons"],
-    "income-tax-notice-for-cash-deposit-reply-sft-10-lakh-limit-ais-compliance-portal-section-69a-2026.html": ["hvtnotice"],
+    "income-tax-notice-for-cash-deposit-reply-sft-10-lakh-limit-ais-compliance-portal-section-69a-2026.html": ["hvtnotice", "bankvisible"],
     "gst-registration-cancellation-reg-16-reg-19-gstr-10-revocation-reg-21-certificate-download-2026.html": ["gstappeal", "gstregrej"],
     "gst-drc-01c-drc-01b-notice-reply-itc-mismatch-gstr-2b-3b-liability-mismatch-gstr-1-3b-rule-88c-88d-2026.html": ["gstappeal", "gstsummons", "itc86a"],
     "startup-advisor-ahmedabad.html": ["gujaratpt"],

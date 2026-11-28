@@ -287,7 +287,7 @@ write_page("india-chile-tax-treaty-dtaa", page(
         ("Can Indian capital be deployed into Chilean mining via a holding company?",
          "Yes. Direct Indian company holding or an intermediate holding in Chile is both workable. The 2020 treaty's modern LOB/PPT means the structure must have genuine commercial substance &mdash; shell holding companies set up only to access the treaty rate face denial of benefits under PPT."),
         ("Does the India-Chile DTAA have LOB from day one?",
-         "Yes. Unlike older Indian treaties (Mauritius, Singapore) that acquired LOB via 2016-2017 protocols or MLI, the India-Chile treaty was signed in 2020 with LOB and PPT built into the original text. Treaty benefits are substance-conditional from the first flow."),
+         "Yes. Unlike older Indian treaties that added anti-abuse rules later (Singapore's LOB came by the 2005 protocol, Mauritius's LOB by the 2016 protocol and its PPT by a 2024 protocol), the India-Chile treaty was signed in 2020 with LOB and PPT built into the original text. Treaty benefits are substance-conditional from the first flow."),
         ("Is there a GIFT City / Chile angle for fund managers?",
          "GIFT City IFSC fund structures can invest into Chile under the India-Chile treaty. Combined with GIFT City's own tax incentives (Section 10(23FE), 10(4D), etc. where applicable) this is becoming the structure of choice for new Indian funds with Latin American allocations."),
         ("Does BQP structure India-Chile cross-border positions?",

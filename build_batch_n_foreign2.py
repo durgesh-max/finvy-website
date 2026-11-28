@@ -297,7 +297,7 @@ write_page("company-secretarial-services-india-remote", page(
          "<ul>"
          "<li><strong>AOC-4</strong>: financial statements filing within 30 days of AGM (typically 30 October).</li>"
          "<li><strong>MGT-7 / MGT-7A</strong>: annual return within 60 days of AGM (typically 29 November). MGT-7A for small companies / OPCs.</li>"
-         "<li><strong>DIR-3 KYC</strong>: annual KYC filing for every DIN holder by 30 September.</li>"
+         "<li><strong>DIR-3 KYC</strong>: KYC for every DIN holder once every three financial years, by 30 June of the due year (G.S.R. 943(E), from 31 March 2026).</li>"
          "<li><strong>DPT-3</strong>: annual return of deposits + exempted deposits by 30 June.</li>"
          "<li><strong>Form 23B</strong>: appointment of auditor (first time + rotation).</li>"
          "</ul>"

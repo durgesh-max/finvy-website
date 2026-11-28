@@ -46,7 +46,7 @@ write_page("dpdp-act-india-foreign-company-compliance-2026", page(
          "<li><strong>Data erasure (Section 8(7))</strong>: delete personal data once purpose served or consent withdrawn.</li>"
          "<li><strong>Grievance redressal</strong>: appoint grievance officer; respond within reasonable time.</li>"
          "<li><strong>Rights of data principal (Section 11-14)</strong>: right to information, correction, erasure, grievance redressal, nominate successor.</li>"
-         "<li><strong>Children's data</strong>: verifiable parental consent for processing data of persons under 18 (default; may be lowered to 14 by regulations). No targeted advertising to children.</li>"
+         "<li><strong>Children's data</strong>: verifiable parental consent for processing data of persons under 18 (the government may allow a lower age for fiduciaries it notifies as handling children's data safely). No targeted advertising to children.</li>"
          "<li><strong>Persons with disabilities</strong>: consent of lawful guardian.</li>"
          "</ul>"),
         ("/ Significant Data Fiduciary", "The elevated tier.",
@@ -57,7 +57,7 @@ write_page("dpdp-act-india-foreign-company-compliance-2026", page(
          "<li>&nbsp;&nbsp;&mdash; Appoint independent Data Auditor to assess compliance.</li>"
          "<li>&nbsp;&nbsp;&mdash; Periodic Data Protection Impact Assessment (DPIA) + periodic audit.</li>"
          "<li>&nbsp;&nbsp;&mdash; Other measures as Central Government specifies.</li>"
-         "<li><strong>Likely SDF candidates</strong>: large social media (Meta, X, Google), large fintech, large health platforms, large e-commerce. No country had been notified as restricted when this page was last checked (November 2026).</li>"
+         "<li><strong>Likely SDF candidates</strong>: large social media, fintech, health and e-commerce platforms. Check whether any SDF notification covers you before assuming the lighter tier.</li>"
          "</ul>"),
         ("/ Cross-border data transfer", "The sovereign carve-out.",
          "<ul>"
@@ -84,7 +84,7 @@ write_page("dpdp-act-india-foreign-company-compliance-2026", page(
         ("Does DPDP Act apply to foreign companies without an Indian entity?",
          "Yes - extraterritorial reach under Section 3(b). Any entity processing personal data of Indian residents (data principals) 'in connection with any activity related to offering of goods or services' to persons in India is in scope. US SaaS with Indian users, UK e-commerce selling to Indian consumers, Singapore app with Indian subscribers all captured. No Indian entity required for the Act to apply."),
         ("What is a Significant Data Fiduciary under DPDP?",
-         "Entity notified by Central Government as SDF based on volume + sensitivity of personal data handled, risk to data principals, impact on sovereignty / state security / public order. Additional obligations: India-based Data Protection Officer, independent Data Auditor, periodic DPIA, periodic audit. Likely candidates: large social media, fintech, health, e-commerce. Specific SDF notifications pending via Rules."),
+         "Entity notified by Central Government as SDF based on volume + sensitivity of personal data handled, risk to data principals, impact on sovereignty / state security / public order. Additional obligations: India-based Data Protection Officer, independent Data Auditor, periodic DPIA, periodic audit. Likely candidates: large social media, fintech, health and e-commerce platforms; check whether a notification covers you."),
         ("Can foreign company transfer Indian personal data abroad under DPDP?",
          "Currently yes - Section 16 provides 'blocklist' approach: Central Government may notify specific countries to which transfer is restricted. No restrictions notified yet (2026). Cross-border transfer currently unrestricted subject to sectoral regulations (RBI payment data localisation, SEBI data retention rules). Prudent approach: document cross-border flows, DPAs with India-side processors, data residency for sensitive sectors."),
         ("What's the DPDP penalty for data breach?",
@@ -291,7 +291,7 @@ write_page("india-data-localisation-rbi-dpdp-foreign-saas", page(
          "<li><strong>April 2018 circular</strong>: 'all system providers shall ensure that the entire data relating to payment systems operated by them are stored in a system only in India'.</li>"
          "<li><strong>'Payment data'</strong> definition: user data at various stages of payment flow &mdash; customer data, payment sensitive data (card number, CVV, OTP, device data), transaction data (location, origin, destination, timestamp), beneficiary data.</li>"
          "<li><strong>Entities covered</strong>: payment system providers &mdash; banks, non-bank payment system operators (PPI, PA, PG, card networks), payment service providers, international payment networks (Visa, Mastercard, Amex), payment system intermediaries, FinTechs offering payment-related services.</li>"
-         "<li><strong>Entire data</strong>: 'end-to-end transaction data'. Full data stored in India; copies abroad only for processing (then deleted after processing complete).</li>"
+         "<li><strong>Entire data</strong>: 'end-to-end transaction data'. Full data stored in India; if processed abroad, the data must be deleted there and brought back to India, which RBI's FAQs expect within one business day or 24 hours of payment processing, whichever is earlier.</li>"
          "<li><strong>Audit + reporting</strong>: RBI empanelled CERT-In auditor annual system audit confirming localisation; findings reported to RBI.</li>"
          "<li><strong>Non-compliance</strong>: suspension of payment operations in India. Severe operational risk.</li>"
          "</ul>"),
@@ -326,7 +326,7 @@ write_page("india-data-localisation-rbi-dpdp-foreign-saas", page(
          "<li><strong>Backup / DR to foreign regions</strong>: snapshot backup to non-India region containing regulated data.</li>"
          "<li><strong>Not storing audit logs in India</strong>: logs showing user actions = user data = may need India storage.</li>"
          "</ul>"
-         "<p>Each of these requires architectural review + India-side mitigation.</p>"
+         "<p>These are breaches only where the data is regulated (payment data under RBI, or sector records under SEBI, IRDAI or telecom licences). For ordinary personal data, the DPDP Act currently allows transfers abroad - no country has been restricted - subject to its consent, security and breach duties. Each case needs an architectural review.</p>"
          "<p><em>Last updated: 2026-10-15.</em></p>"),
     ],
     faqs=[

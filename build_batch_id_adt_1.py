@@ -25,7 +25,7 @@ C = contact("the company name, date of incorporation, the meeting at which the a
 L = lambda h, t: f'<a href="{h}">{t}</a>'
 PAGES = [dict(
     slug=SLUG,
-    title="Form ADT-1 (2026): Auditor Appointment Within 15 Days, First Auditor, Five-Year Term, Rotation and ADT-3",
+    title="Form ADT-1 Filing Procedure (2026): Auditor Appointment Within 15 Days, First Auditor, Five-Year Term, Rotation and ADT-3",
     em="every appointment needs a filing trail.",
     kicker="/ Companies appointing a statutory auditor &middot; Company law &middot; Updated 2026-11-25",
     lead=("<strong>Form ADT-1 is the notice a company files with the Registrar of Companies within 15 days of the meeting at which it appoints its statutory auditor.</strong> "

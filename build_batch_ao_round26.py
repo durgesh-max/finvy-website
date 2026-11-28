@@ -91,6 +91,7 @@ PAGES = [
          ],
          faqs=[("When does Section 194Q apply?", "When the buyer's turnover in the preceding year exceeded INR 10 crore and purchases from one resident seller exceed INR 50 lakh in the year."),
                ("What is the rate under 194Q?", "0.1% on the amount above INR 50 lakh; 5% if the seller has no PAN."),
+        ("Is TDS on purchase of goods deducted on the amount including GST?", "Usually not. The CBDT clarified for section 194Q (Circular 13 of 2021) that where tax is deducted when the purchase is credited to the seller's account and the GST is shown separately on the invoice, TDS is worked out on the value excluding GST. If tax is deducted on an advance payment, when the GST component cannot be separated, it is deducted on the whole amount paid. Check for any fresh clarification under the corresponding entry in section 393 of the Income-tax Act, 2025. Book a call to set up 194Q correctly in your purchase ledger."),
                ("Is there still a 194Q and 206C(1H) overlap?", "No. TCS under Section 206C(1H) was discontinued from 1 April 2025."),
                ("Can BQP help with 194Q?", "Yes. " + CONTACT)],
          related=[("what-is-section-194q-and-how-to-comply-india.html", "Section 194Q quick answer"), ("section-206c-1h-tcs-sale-goods-india.html", "TCS on sale of goods discontinued")],

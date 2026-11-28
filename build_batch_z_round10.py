@@ -637,7 +637,7 @@ PAGES = [
              "<li><strong>Section 61</strong>: scrutiny of returns (ASMT-10).</li>"
              "<li><strong>Section 73</strong>: demand without fraud (3-year lookback + 10% penalty).</li>"
              "<li><strong>Section 74</strong>: demand with fraud (5-year lookback + 100% penalty).</li>"
-             "<li>GSTR-1 (monthly outward supplies), GSTR-3B (monthly summary), GSTR-7 (TDS), GSTR-8 (TCS), GSTR-9 (annual), GSTR-9A (composition annual), GSTR-9B (TCS annual), GSTR-9C (reconciliation).</li>"
+             "<li>GSTR-1 (monthly outward supplies), GSTR-3B (monthly summary), GSTR-7 (TDS), GSTR-8 (TCS), GSTR-9 (annual), GSTR-4 (composition annual; GSTR-9A is no longer required), GSTR-9C (reconciliation).</li>"
              "</ul>"),
             ("/ Companies Act 2013 + Rules", "Corporate law core.",
              "<ul>"

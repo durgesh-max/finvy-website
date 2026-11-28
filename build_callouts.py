@@ -276,6 +276,7 @@ BOXES = {
     "gstinterest50": ("GST interest?", 'Paying GST interest? See <a href="gst-interest-on-late-payment-section-50-18-percent-net-cash-liability-wrong-itc-rule-88b-2026.html">GST interest under section 50: 18% on net cash liability</a>.'),
     "fcra": ("Foreign donations?", 'Receiving foreign donations? See <a href="fcra-registration-ngo-fc-4-annual-return-31-december-sbi-new-delhi-account-20-percent-admin-renewal-2026.html">FCRA registration, FC-4 by 31 December and the 20% admin cap</a>.'),
     "gstaar": ("GST advance ruling?", 'Unsure of a GST rate or classification? See <a href="gst-advance-ruling-aar-how-to-apply-ara-01-questions-section-97-90-days-binding-appeal-aaar-2026.html">GST advance ruling: how to apply and what it binds</a>.'),
+    "msmedelay": ("MSME dues stuck?", 'Buyer not paying your MSME invoices? See <a href="msme-delayed-payment-recovery-samadhan-msefc-45-days-section-15-16-interest-3x-bank-rate-2026.html">MSME delayed payment recovery: 45-day rule, interest and MSME Samadhan</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -304,6 +305,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "section-43b-h-year-2-impact-buyers-mse-india.html": ["msmedelay"],
     "trust-registration-12ab-section-332-80g-ngo-provisional-regular-renewal-form-104-105-2026.html": ["fcra"],
     "e-way-bill-expired-extension-goods-detained-section-129-mov-07-penalty-release-2026.html": ["einvoice"],
     "income-tax-survey-section-133a-what-officers-can-do-statement-impounding-books-survey-vs-search-2026.html": ["itsearch132"],
@@ -366,7 +368,7 @@ TARGETS = {
     "sole-proprietorship-registration-india-documents-gst-udyam-shop-licence-online-2026.html": ["sec8", "gstcomp", "gujaratpt"],
     "best-ca-csr-section-135-companies-act-india-2026.html": ["sec8"],
     "partnership-firm-registration-india-online-documents-certificate-form-1-registrar-of-firms-2026.html": ["propreg", "sec8", "firmtax", "llpvsfirm"],
-    "udyam-msme-registration-benefits-india-2026.html": ["propreg"],
+    "udyam-msme-registration-benefits-india-2026.html": ["propreg", "msmedelay"],
     "section-194t-tds-partnership-firm-partners-india.html": ["pfreg", "tdsret", "firmtax", "tdschart"],
     "renounce-indian-citizenship-surrender-certificate-bank-accounts-pan-property-tax-oci-2026.html": ["ocirules"],
     "received-section-143-2-scrutiny-notice-urgent-action-india.html": ["noticefmt"],

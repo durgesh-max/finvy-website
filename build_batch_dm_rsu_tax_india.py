@@ -22,7 +22,7 @@ RSU = "rsu-taxation-india-us-stocks-vesting-perquisite-capital-gains-schedule-fa
 C_RSU = contact("your employer, vesting and sale history, residential status and whether you held the shares while abroad")
 PAGES = [dict(
     slug=RSU,
-    title="RSU Taxation in India for US Stocks (2026): Tax at Vesting, Capital Gains on Sale, Dividends, Schedule FA and Foreign Tax Credit - With Example",
+    title="RSU and ESPP Taxation in India for US Stocks (2026): Tax at Vesting or Purchase, Capital Gains on Sale, Dividends, Schedule FA and Foreign Tax Credit - With Example",
     em="for employees of foreign companies in India and the employers who run their payroll.",
     kicker="/ Employees &middot; Foreign employers &middot; RSU &middot; Updated 2026-11-19",
     lead=("RSUs of a US or other foreign employer are taxed in India <strong>twice</strong>. First, at <strong>vesting</strong>, the fair market value of the shares is a <strong>salary perquisite</strong>, taxed at your slab rate, and the Indian employer deducts TDS, often through sell-to-cover. Second, when you <strong>sell</strong>, you pay <strong>capital gains</strong> on the rise above the value already taxed at vesting. "
@@ -63,6 +63,7 @@ PAGES = [dict(
           ("Do I need to report RSUs in Schedule FA?", "Yes, if you are resident and ordinarily resident: report the foreign shares and the broker account every year (calendar-year basis), even if you did not sell."),
           ("How are dividends on US RSU shares taxed?", "The US withholds tax (25% under the India-US treaty for most employees); the dividend is taxable in India and you claim credit for the US tax by filing Form 67."),
           ("What is the cost of acquisition for RSU shares?", "The fair market value on vesting that was taxed as a perquisite, so the capital gain is only the increase after vesting."),
+        ("How is an ESPP of a US company taxed in India?", "Twice, like RSUs. When shares are bought under an employee stock purchase plan, the discount (fair market value on the purchase or allotment date minus the price you paid) is a perquisite taxed as salary in India, and the Indian employer should include it in TDS and Form 16. When you later sell, the gain over that fair market value is a capital gain: shares held more than 24 months are taxed at 12.5% as long-term gains (they are not listed in India), and shorter holdings at slab rates. The shares, the US brokerage account and any dividends go in Schedule FA every year, and US tax withheld on dividends is claimed through Form 67. Book a call to reconcile ESPP purchases with your Form 16 and return."),
           ("Can BQP fix past RSU reporting?", "Yes. " + C_RSU)],
     related=[("esop-vs-rsu-vs-phantom-stock-india-us.html", "ESOP vs RSU vs phantom stock"), ("form-67-foreign-tax-credit-india-2026.html", "Form 67 foreign tax credit"),
              ("fast-ds-rsu-espp-us-shares-401k-which-category.html", "RSUs and FAST-DS")],

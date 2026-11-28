@@ -528,7 +528,7 @@ PAGES.append({
          "<li><strong>Master File (Form 3CEAA)</strong>: if group consolidated revenue > INR 500 crore + international transactions > INR 50 crore (or intangible > INR 10 crore). Due 30 November same as Form 3CEB.</li>"
          "<li><strong>CbCR (Form 3CEAD)</strong>: if ultimate parent of group with consolidated revenue > INR 6,400 crore (~EUR 750M, BEPS Action 13).</li>"
          "<li><strong>Form 3CEAC</strong>: secondary notification by Indian subsidiary if ultimate parent country has no CbCR regime.</li>"
-         "<li>Due dates vary - typically 12-15 months from FY-end.</li>"
+         "<li>The Indian CbCR (Form 3CEAD) is due within 12 months of the end of the reporting year.</li>"
          "</ul>"
          "<p><em>Last updated: 2026-10-22.</em></p>"),
     ],

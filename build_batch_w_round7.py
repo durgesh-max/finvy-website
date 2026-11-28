@@ -601,7 +601,7 @@ PAGES.append({
         ("Do I need to visit India to engage an Indian CA?",
          "No - 100% remote engagement is standard at BQP. All services (incorporation, audit, DD, 15CB, GST, TP, FEMA, repatriation) delivered via Zoom + cloud workspace + electronic signing. Foreign clients never visit India for engagement."),
         ("How long does the initial engagement setup take?",
-         "First email to signed engagement letter: typically 5-7 business days. Email → scoping call scheduled → 30-min Zoom → scoped quote within 48 hours → review + e-sign engagement letter → workspace setup → delivery begins. Urgent matters (Form 15CB): same-day engagement possible via WhatsApp +91 78018 87130."),
+         "First email to signed engagement letter: depends on how quickly scope and documents are agreed. Email → scoping call scheduled → 30-min Zoom → scoped quote within 48 hours → review + e-sign engagement letter → workspace setup → delivery begins. Urgent matters (Form 15CB): same-day engagement possible via WhatsApp +91 78018 87130."),
         ("What's BQP's typical fee structure?",
          "Scoped engagement letter with fixed scope + fixed fee (or clearly-defined retainer for ongoing work). No hourly billing surprises. Fee set at scoping call stage based on actual work involved + timeline + deliverables. Transparent + no hidden costs."),
         ("Does BQP coordinate with my US CPA / UK accountant / global advisor?",

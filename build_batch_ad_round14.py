@@ -840,9 +840,9 @@ PAGES = [
              "</ol>"),
             ("/ Section 143(1) intimation response", "The common first-contact.",
              "<ul>"
-             "<li>Computer-generated intimation after ITR processing (typically 3-6 months after ITR filing).</li>"
+             "<li>Computer-generated intimation after ITR processing (the department can issue it up to nine months after the end of the financial year in which the return was filed).</li>"
              "<li>Three outcomes:</li>"
-             "<li>&nbsp;&nbsp;&mdash; <strong>Refund</strong>: Form 143(1) intimates refund + specific bank credit timeline (typically 2-6 weeks).</li>"
+             "<li>&nbsp;&nbsp;&mdash; <strong>Refund</strong>: Form 143(1) intimates refund + specific bank credit timeline (the time varies; track it on the portal).</li>"
              "<li>&nbsp;&nbsp;&mdash; <strong>Demand</strong>: Form 143(1) intimates specific additional tax demand (interest 234A/B/C + specific adjustment).</li>"
              "<li>&nbsp;&nbsp;&mdash; <strong>No change</strong>: ITR accepted as filed - no action needed.</li>"
              "<li>Response window for demand: 30 days to pay OR file rectification request under Section 154 OR appeal CIT(A) under Section 246A.</li>"

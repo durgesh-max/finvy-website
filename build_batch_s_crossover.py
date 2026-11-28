@@ -161,20 +161,20 @@ CROSSOVERS = [
     {
         "slug": "ca-for-ev-startup-section-115bab-pli-combined-india",
         "title": "CA for EV Startup Section 115BAB + PLI Combined India",
-        "hero_em": "15% corporate tax + up to 18% PLI stacked.",
-        "desc": "CA for EV / battery startup India: Section 115BAB 15% corporate tax + Auto Components PLI (18% advanced products) + ACC Battery PLI (USD 2.5B pool) + FAME-III + state incentives combined. CA Durgesh Chavda specialist EV practice.",
+        "hero_em": "PLI, PM E-DRIVE, state incentives and the right tax regime.",
+        "desc": "CA for EV / battery startup India: Section 115BAA / 115BAB position, auto and ACC battery PLI, PM E-DRIVE (which replaced FAME-II) and state EV incentives combined. CA Durgesh Chavda specialist EV practice.",
         "kicker": "/ EV × 115BAB × PLI Specialist &middot; Updated 2026-10-22",
-        "lead": "EV / battery startup can combine Section 115BAB (15% corporate tax) + Auto Components PLI (18% incentive on advanced products) + ACC Battery PLI (up to USD 2.5B subsidy pool) + FAME-III EV subsidy + state EV policy benefits. Combined incentive stack can equate to 15-30% capex + 5-10% operating subsidy. Here's how BQP structures the full stack.",
+        "lead": "EV / battery startup can combine Section 115BAB (15% corporate tax) + Auto and auto-component PLI (sales-linked incentive on advanced automotive technology products) + ACC battery PLI (INR 18,100 crore outlay, sales-linked) + PM E-DRIVE (successor to FAME-II) EV subsidy + state EV policy benefits. Combined incentive stack can equate to 15-30% capex + 5-10% operating subsidy. Here's how BQP structures the full stack.",
         "section_pairs": [
             ("/ The combined incentive stack", "Five concurrent benefits.",
              "<ul>"
              "<li><strong>Section 115BAB (15% corporate tax)</strong>: for new manufacturing company incorporated post Oct 2019 commencing production by extended date. Effective 17.16% including surcharge + cess vs standard 25% / 22%.</li>"
-             "<li><strong>Auto Components PLI</strong>: 18% incentive on advanced products (motor controller, battery management, drivetrain, infotainment). Nodal MHI.</li>"
-             "<li><strong>ACC Battery PLI</strong>: up to USD 2.5B subsidy pool for Advanced Chemistry Cell battery manufacturing. Nodal DHI.</li>"
-             "<li><strong>FAME-III</strong>: EV + charging infrastructure + e-bus subsidies. Nodal MoHI.</li>"
-             "<li><strong>State EV policies</strong>: Maharashtra, Tamil Nadu, Karnataka, Delhi, Gujarat - land + capex + SGST reimbursement + electricity rebate + stamp duty. 10-25% additional state subsidy depending on state + sector.</li>"
+             "<li><strong>Auto and auto-component PLI</strong>: sales-linked incentive on advanced automotive technology products (motor controller, battery management, drivetrain, infotainment). Nodal MHI.</li>"
+             "<li><strong>ACC Battery PLI</strong>: INR 18,100 crore scheme outlay, with sales-linked incentives for approved Advanced Chemistry Cell manufacturers. Nodal DHI.</li>"
+             "<li><strong>PM E-DRIVE</strong>: replaced FAME-II from October 2024 (FAME-III was not launched); EV demand incentives and charging / e-bus support. Ministry of Heavy Industries.</li>"
+             "<li><strong>State EV policies</strong>: Maharashtra, Tamil Nadu, Karnataka, Delhi, Gujarat - land + capex + SGST reimbursement + electricity rebate + stamp duty. The package depends on the state, the investment and the sector.</li>"
              "</ul>"
-             "<p><strong>Combined effect</strong>: For INR 5,000 crore EV / battery investment, central PLI + state incentive stack can reach INR 2,000+ crore (40%+ subsidy). Section 115BAB adds 7-8% recurring tax saving on profit stream.</p>"),
+             "<p><strong>Combined effect</strong>: depends on which approvals the project actually holds, the sales achieved against PLI thresholds and the state package; new applicants should check whether any PLI round is open, as the main application windows have closed.</p>"),
             ("/ Section 115BAB specific EV considerations", "Where EV eligibility works + doesn't.",
              "<ul>"
              "<li><strong>Yes - 115BAB applies</strong>: new EV / battery manufacturing company that makes articles or things.</li>"
@@ -188,7 +188,7 @@ CROSSOVERS = [
              "<li>Sector eligibility analysis across Auto Components / ACC Battery / adjacent PLI schemes.</li>"
              "<li>Indian subsidiary setup + Section 115BAB opt-in via Form 10-ID.</li>"
              "<li>Project proposal: capex + sales forecast + local value add + employment plan.</li>"
-             "<li>Application to nodal ministry (MHI for Auto Components; DHI for ACC Battery; MoHI for FAME-III).</li>"
+             "<li>Application to nodal ministry (MHI for Auto Components; DHI for ACC Battery; Ministry of Heavy Industries for PM E-DRIVE).</li>"
              "<li>Approval + Letter of Approval (LoA).</li>"
              "<li>State industrial policy incentive negotiation (land + capex + SGST + electricity).</li>"
              "<li>Project execution + production commencement.</li>"
@@ -199,7 +199,7 @@ CROSSOVERS = [
              "<ul>"
              "<li>Indian subsidiary structuring + Section 115BAB opt-in.</li>"
              "<li>Auto Components PLI + ACC Battery PLI application + 5-year disbursement coordination.</li>"
-             "<li>FAME-III EV subsidy application.</li>"
+             "<li>PM E-DRIVE eligibility check.</li>"
              "<li>State EV incentive negotiation (location-specific).</li>"
              "<li>GST 5% on EV + input tax structure optimisation.</li>"
              "<li>Customs duty + FTA preferential rate (UAE CEPA, Australia ECTA) for imported components.</li>"
@@ -212,23 +212,23 @@ CROSSOVERS = [
             ("Can an EV manufacturer get both 115BAB + PLI?",
              "Yes - these are stackable. Section 115BAB (15% corporate tax) is Income Tax provision; PLI is Government scheme cash incentive on incremental sales. Both apply simultaneously. Must opt into 115BAB via Form 10-ID at first ITR filing. PLI application separately to nodal ministry."),
             ("What's the combined incentive stack value for INR 5,000 crore EV investment?",
-             "Approximate stack: ACC Battery / Auto Components PLI up to 50% capex subsidy = INR 2,500 crore. State incentives 20-25% capex + SGST reimbursement + electricity = INR 1,000 crore. Section 115BAB: 7-8% recurring tax saving on annual profit. FAME-III: project-dependent additional. Total realised stack: INR 3,500+ crore over 5-7 years + ongoing 7-8% recurring tax saving."),
+             "There is no standard figure. PLI incentives are linked to eligible sales after approval (not a capex subsidy), state packages differ by state and project, and the 15% section 115BAB rate is only for companies that began manufacturing by 31 March 2024 (others use 22% under section 115BAA). Book a call to model the stack for the project."),
             ("Does Section 115BAB forfeit Section 10AA SEZ benefit?",
-             "Yes - 115BAB forfeits Section 10AA SEZ deduction. If SEZ based with 10AA eligibility, must model: 10AA 100% deduction for 5 years + 50% for next 5 years vs 115BAB 15% rate (effective 17.16%). Typically 115BAB better for profit-heavy mature business; 10AA better for high-margin early-stage SEZ operations."),
+             "Yes - 115BAB forfeits Section 10AA SEZ deduction. If SEZ based with 10AA eligibility, must model: Section 10AA is available only to SEZ units that began operations by 31 March 2020 (100% for 5 years, then 50%), so most new EV projects cannot use it; where an older unit has it, compare it with the concessional regime before opting."),
             ("Which Indian state is best for EV / battery manufacturing?",
              "Depends on scope + supply chain. Gujarat (Dholera Semiconductor City adjacency + strong state policy). Tamil Nadu (established auto cluster, Chennai port, state EV policy). Maharashtra (Pune auto cluster, Mumbai port). Karnataka (Bengaluru design talent + Hosur manufacturing). Each state has specific EV / battery policy. BQP comparative analysis part of standard scope."),
             ("How long is PLI application + first disbursement timeline?",
-             "6-12 months from application to Letter of Approval. 12-24 months project execution to commence production. First PLI disbursement in year 1 of production. 5-year scheme period. Total: 6-7 years from PLI application to final disbursement."),
+             "It depends on the scheme round and the project. The main auto and ACC PLI application windows have closed; where a round is open, approval is followed by project execution and incentives are claimed annually on eligible sales over the scheme period."),
             ("Does BQP handle complete EV / battery incentive stack?",
-             "Yes - specialist EV / battery / cleantech practice. Section 115BAB + PLI (Auto Components, ACC Battery) + FAME-III + state EV incentive + GST 5% optimisation + customs + CPCB EPR + fundraising + ESOP. Co-ordinated with Indian industrial regulatory counsel + state industrial development authority. WhatsApp +91 78018 87130."),
+             "Yes - specialist EV / battery / cleantech practice. Section 115BAB + PLI (Auto Components, ACC Battery) + PM E-DRIVE + state EV incentive + GST 5% optimisation + customs + CPCB EPR + fundraising + ESOP. Co-ordinated with Indian industrial regulatory counsel + state industrial development authority. WhatsApp +91 78018 87130."),
         ],
         "deep_links_tuples": [
             ("best-ca-mobility-ev-startup-india-2026.html", "Specialty", "Best CA for EV Startup"),
             ("india-pli-scheme-foreign-manufacturer-2026.html", "Deep Guide", "PLI Scheme"),
         ],
         "cta_h": "EV / battery startup combining 115BAB + PLI?",
-        "cta_b": "Full stack: 115BAB + Auto Components / ACC Battery PLI + FAME-III + state EV + GST 5% + customs. BQP integrated engagement.",
-        "keywords": "CA EV startup 115BAB PLI, EV manufacturing CA India, ACC Battery PLI CA, FAME-III CA, Section 115BAB EV CA",
+        "cta_b": "Full stack: 115BAB + Auto Components / ACC Battery PLI + PM E-DRIVE + state EV + GST 5% + customs. BQP integrated engagement.",
+        "keywords": "CA EV startup 115BAB PLI, EV manufacturing CA India, ACC Battery PLI CA, PM E-DRIVE CA, Section 115BAB EV CA",
     },
     {
         "slug": "ca-for-healthtech-dpdp-cdsco-combined-india",

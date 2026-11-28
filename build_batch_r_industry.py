@@ -246,7 +246,7 @@ INDUSTRIES = [
             ("CBAM (Carbon Border Adjustment Mechanism) EU", "Indian exporters to EU face CBAM reporting + eventual carbon tax. CBAM Phase 1 (2023-2025 reporting) + Phase 2 (2026 onwards tax)."),
             ("Perform Achieve Trade (PAT) scheme energy certificates", "Specific tax + GST treatment of energy saving certificates."),
             ("Renewable Energy Certificates (REC)", "Trading + tax treatment of REC."),
-            ("FAME-III EV incentive scheme", "Subsidy for EV manufacturing + charging infrastructure."),
+            ("PM E-DRIVE (successor to FAME-II) EV incentive scheme", "Subsidy for EV manufacturing + charging infrastructure."),
             ("Section 10AA SEZ for solar / cleantech units", "SEZ-based cleantech units + Section 10AA interaction with Section 115BAA."),
         ],
         "specific_services": [
@@ -254,12 +254,12 @@ INDUSTRIES = [
             "Section 115BAB opt-in for new cleantech manufacturing",
             "Carbon credit + REC accounting + tax position advisory",
             "CBAM reporting coordination for Indian exporters to EU",
-            "FAME-III EV incentive application",
+            "PM E-DRIVE (successor to FAME-II) EV incentive application",
             "SEZ setup for cleantech units + Section 10AA planning",
             "State-level cleantech incentives (Gujarat, Rajasthan, Tamil Nadu renewable policies)",
             "ESG + Sustainability reporting + BRSR for listed cleantech",
         ],
-        "keywords": "best CA cleantech India 2026, Solar PV PLI CA, Green Hydrogen Mission CA, CBAM CA India, FAME-III EV CA",
+        "keywords": "best CA cleantech India 2026, Solar PV PLI CA, Green Hydrogen Mission CA, CBAM CA India, PM E-DRIVE EV CA",
         "deep_links": [
             ("india-pli-scheme-foreign-manufacturer-2026.html", "PLI Scheme"),
             ("section-115baa-115bab-corporate-tax-regime-india.html", "Section 115BAB"),
@@ -328,11 +328,11 @@ INDUSTRIES = [
     {
         "slug": "best-ca-mobility-ev-startup-india-2026",
         "industry": "Mobility / EV Startups",
-        "industry_hero": "FAME-III + PLI auto components + 115BAB manufacturing navigated.",
+        "industry_hero": "PM E-DRIVE + auto / ACC PLI + concessional tax regime navigated.",
         "specific_issues": [
-            ("FAME-III (Faster Adoption and Manufacturing of EVs)", "Phase III scheme subsidy for EV + charging infrastructure + e-buses."),
-            ("Auto Components PLI (18% incentive on advanced products)", "EV motor controllers, battery management, drive-train, infotainment eligible."),
-            ("ACC Battery PLI", "USD 2.5B subsidy pool for Advanced Chemistry Cell battery manufacturing."),
+            ("PM E-DRIVE (replaced FAME-II from October 2024; FAME-III was not launched)", "demand incentives for electric two- and three-wheelers and support for e-buses, e-trucks and charging infrastructure, for the scheme period."),
+            ("Auto and auto-component PLI (sales-linked incentive on advanced automotive technology products)", "EV motor controllers, battery management, drive-train, infotainment eligible."),
+            ("ACC Battery PLI", "INR 18,100 crore scheme outlay, with sales-linked incentives for approved Advanced Chemistry Cell manufacturers."),
             ("Section 115BAB (15% for new manufacturing)", "EV + battery manufacturing opt-in to 115BAB."),
             ("Charging infrastructure sector-specific regulations", "State-level EV policy + utility interconnection + metering."),
             ("GST reduced rate on EV (5%)", "GST 5% on EVs (vs 18% for small petrol/diesel cars and 40% for larger ones since 22 September 2025, with no compensation cess). Significant input / output tax structure impact."),
@@ -340,7 +340,7 @@ INDUSTRIES = [
             ("Battery recycling + extended producer responsibility (EPR)", "CPCB EV battery EPR framework."),
         ],
         "specific_services": [
-            "FAME-III application + 5-year disbursement coordination",
+            "PM E-DRIVE eligibility and claims co-ordination",
             "Auto Components + ACC Battery PLI application",
             "Section 115BAB opt-in for new EV / battery manufacturing",
             "State-level EV incentive co-ordination (Maharashtra, Tamil Nadu, Karnataka EV policies)",
@@ -349,7 +349,7 @@ INDUSTRIES = [
             "CPCB battery EPR compliance",
             "Charging infrastructure business + regulatory structuring",
         ],
-        "keywords": "best CA EV startup India, FAME-III CA, ACC Battery PLI CA, 115BAB EV manufacturing CA, EV GST CA India",
+        "keywords": "best CA EV startup India, PM E-DRIVE CA, ACC Battery PLI CA, 115BAB EV manufacturing CA, EV GST CA India",
         "deep_links": [
             ("india-pli-scheme-foreign-manufacturer-2026.html", "PLI Scheme"),
             ("section-115baa-115bab-corporate-tax-regime-india.html", "Section 115BAB"),

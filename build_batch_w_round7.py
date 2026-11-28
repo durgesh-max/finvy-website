@@ -84,7 +84,7 @@ PAGES.append({
 # 2. Form 67 Foreign Tax Credit
 PAGES.append({
     "slug": "form-67-foreign-tax-credit-india-2026",
-    "title": "DTAA Relief and Foreign Tax Credit in India (2026): Section 90 vs 91, How Relief Is Calculated and Filing Form 67 (Now Form 44)",
+    "title": "DTAA (Double Taxation Avoidance Agreement) Relief and Foreign Tax Credit in India (2026): Section 90 vs 91, How Relief Is Calculated and Filing Form 67 (Now Form 44)",
     "hero_em": "DTAA FTC claim mechanism.",
     "lead": "Form 67 is mandatory for Indian resident claiming Foreign Tax Credit (FTC) under Section 90 or 91 of Income Tax Act. Filed with Indian ITR. Covers taxes paid in foreign country on income doubly taxable (India + foreign country). Section 90 for DTAA countries; Section 91 for non-DTAA countries. Here's the complete 2026 filing framework.",
     "kicker": "/ FTC Form Checklist &middot; Updated 2026-10-22",

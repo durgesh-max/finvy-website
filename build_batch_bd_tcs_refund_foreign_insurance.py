@@ -45,7 +45,7 @@ PAGES = []
 TCS_SLUG = "tcs-refund-foreign-remittance-lrs-how-to-claim-itr-employer-2026"
 PAGES.append(dict(
     slug=TCS_SLUG,
-    title="TCS Refund on Foreign Remittance: How to Get Your LRS TCS Back (ITR or Employer), 2026",
+    title="TCS (Tax Collected at Source) Refund on Foreign Remittance: How to Get Your LRS TCS Back (ITR or Employer), 2026",
     em="it is your tax, not the bank's fee.",
     kicker="/ LRS &middot; TCS refund &middot; Updated 2026-11-10",
     lead=("The TCS your bank collects when you send money abroad is not a charge: it is tax paid in your name. It shows in your Form 26AS and AIS, and you get it back in one of two ways. "

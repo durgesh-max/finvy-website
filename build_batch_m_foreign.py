@@ -127,8 +127,8 @@ write_page("due-diligence-indian-company-foreign-buyer", page(
          "<li><strong>Form 26AS vs TDS claimed mismatch</strong>: TDS claimed in ITR but not reflected in Form 26AS (because deductor didn't file 26Q) &mdash; tax department has disallowed. Common issue.</li>"
          "<li><strong>FEMA non-compliance</strong>: missed FC-GPR / FLA Return / APR filings. Compounding penalty under Section 13.</li>"
          "<li><strong>Transfer pricing weakness</strong>: Form 3CEB filed but benchmarks weak / incomparables used. Scrutiny risk + addition exposure.</li>"
-         "<li><strong>Section 56(2)(viib) angel tax</strong>: if target raised equity above FMV from non-residents in the past, Section 56(2)(viib) was applicable until Finance Act 2024 abolished it. Historical liability may remain.</li>"
-         "<li><strong>Dematerialisation of unlisted shares (Rule 9B)</strong>: since Oct 2024, mandatory. Non-compliance blocks share transfer in M&amp;A &mdash; see our <a href='dematerialisation-unlisted-shares-india-mandatory.html'>demat guide</a>. Fix pre-closing.</li>"
+         "<li><strong>Section 56(2)(viib) angel tax</strong>: if the target issued shares above fair value, section 56(2)(viib) could tax the premium in the company's hands for shares issued up to FY 2023-24 (it was omitted from FY 2024-25 onwards; premium from non-resident investors was covered only for FY 2023-24). Historical liability may remain.</li>"
+         "<li><strong>Dematerialisation of unlisted shares (Rules 9A / 9B)</strong>: mandatory for private companies other than small companies since 30 June 2025 (unlisted public companies since 2018). Non-compliance blocks share transfer in M&amp;A &mdash; see our <a href='dematerialisation-unlisted-shares-india-mandatory.html'>demat guide</a>. Fix pre-closing.</li>"
          "<li><strong>Pending Companies Act notices (ROC)</strong>: AOC-4 / MGT-7 non-filing, Section 164 director disqualification, DIR-3 KYC lapses.</li>"
          "<li><strong>IP ownership gap</strong>: Indian subsidiary developed IP but no written assignment to parent. Patents / trademarks sitting with employees as inventors.</li>"
          "</ul>"),

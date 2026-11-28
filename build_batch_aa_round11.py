@@ -232,7 +232,7 @@ PAGES = [
             ("/ Pre-transfer verification", "What to confirm.",
              "<ol>"
              "<li>Share class + ownership: resident/non-resident status of both parties.</li>"
-             "<li>Rule 9B demat compliance: both parties' shares in demat form (post Oct 2024).</li>"
+             "<li>Rule 9B demat compliance: shares of a private company (other than a small company) must be in demat form before transfer (deadline 30 June 2025).</li>"
              "<li>Specific FDI sector check + Press Note 3 beneficial ownership.</li>"
              "<li>Rule 21 Pricing Guidelines: DCF for unlisted; closing price for listed. CA / Merchant Banker certificate.</li>"
              "<li>Resident transferor: whether sale consideration above fair value is acceptable to buyer (Section 56(2)(x) buyer risk).</li>"

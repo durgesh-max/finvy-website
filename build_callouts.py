@@ -298,6 +298,7 @@ BOXES = {
     "inheritabroad": ("Inherited from abroad?", 'Inherited money or assets from abroad? See <a href="inheritance-from-abroad-indian-resident-tax-fema-schedule-fa-foreign-estate-tax-bring-money-to-india-2026.html">inheritance from abroad: tax in India, FEMA and Schedule FA</a>.'),
     "sdt92ba": ("Domestic transfer pricing?", 'Tax holiday or 115BAB company? See <a href="transfer-pricing-domestic-transactions-specified-domestic-transaction-section-92ba-20-crore-form-3ceb-2026.html">transfer pricing for domestic transactions (section 92BA)</a>.'),
     "gstconsultants": ("GST for consultants?", 'Consultant or professional? See <a href="gst-for-consultants-professionals-india-registration-threshold-18-percent-export-lut-reimbursement-pure-agent-2026.html">GST for consultants: registration, 18%, foreign clients and reimbursements</a>.'),
+    "gsteducation": ("GST on education?", 'School, coaching or ed-tech? See <a href="gst-exemption-educational-institutions-notification-12-2017-entry-66-schools-coaching-edtech-2026.html">GST exemption for educational institutions (entry 66)</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -326,6 +327,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "education.html": ["gsteducation"],
     "do-i-need-to-report-foreign-assets-itr-schedule-fa-who-must-file-penalty-2026.html": ["inheritabroad"],
     "gst-refund-for-exporters-igst-paid-or-lut-unused-itc-rfd-01-shipping-bill-time-limit-documents-2026.html": ["startexport"],
     "loan-to-director-from-company-section-185-private-company-exemption-director-loan-deemed-dividend-2-22-e-2026.html": ["loan2equity"],
@@ -530,7 +532,7 @@ TARGETS = {
     "dpdp-personal-data-breach-72-hour-notification-urgent-india.html": ["dpdpstatus"],
     "best-ca-cleantech-climate-tech-india-2026.html": ["bab115"],
     "best-ca-deeptech-rd-india-2026.html": ["bab115"],
-    "best-ca-edtech-india-2026.html": ["bab115"],
+    "best-ca-edtech-india-2026.html": ["bab115", "gsteducation"],
     "best-ca-firm-bhopal-startup-dpiit.html": ["bab115"],
     "best-ca-firm-coimbatore-manufacturing-sme-ipo.html": ["bab115"],
     "best-ca-firm-guwahati-northeast-manufacturing.html": ["bab115"],

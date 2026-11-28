@@ -274,6 +274,7 @@ BOXES = {
     "blocked175": ("Blocked GST credit?", 'Is your GST credit blocked? See <a href="gst-blocked-credits-section-17-5-itc-on-car-food-insurance-construction-csr-gifts-exceptions-2026.html">GST blocked credits under section 17(5) and the exceptions</a>.'),
     "einvoice": ("E-invoicing?", 'Does e-invoicing apply to you? See <a href="gst-e-invoicing-applicability-5-crore-30-day-reporting-limit-irn-exemptions-cancellation-2026.html">GST e-invoicing: INR 5 crore threshold and the 30-day limit</a>.'),
     "gstinterest50": ("GST interest?", 'Paying GST interest? See <a href="gst-interest-on-late-payment-section-50-18-percent-net-cash-liability-wrong-itc-rule-88b-2026.html">GST interest under section 50: 18% on net cash liability</a>.'),
+    "fcra": ("Foreign donations?", 'Receiving foreign donations? See <a href="fcra-registration-ngo-fc-4-annual-return-31-december-sbi-new-delhi-account-20-percent-admin-renewal-2026.html">FCRA registration, FC-4 by 31 December and the 20% admin cap</a>.'),
     "tri": ("Founders in India, US parent, Indian subsidiary?", 'A founder-controlled US parent that owns an Indian company usually needs FEMA approval (Schedule III): <a href="triangular-structure-indian-founders-us-parent-indian-subsidiary-odi-schedule-iii-2026.html">the triangular structure explained</a>.'),
     "ifscl": ("Listing in GIFT City?", 'Since 3 November 2026 Indian public companies can list equity instruments, including CCDs and preference shares, on IFSC exchanges: <a href="direct-listing-gift-ifsc-indian-company-equity-instruments-amendment-november-2026.html">what changed</a>.'),
     "gcc": ("Building a captive team in India?", 'Entity, the 2026 safe harbour (15.5% up to INR 2,000 crore) and the compliance list: <a href="gcc-global-capability-centre-india-setup-us-company-safe-harbour-2026.html">setting up a GCC in India</a>.'),
@@ -302,6 +303,7 @@ BOXES = {
     "fins": ("Still holding a life policy from abroad?", f'It belongs in Schedule FA, and FAST-DS can cover a missed one: <a href="{INS}">foreign insurance policies for returning NRIs</a>.'),
 }
 TARGETS = {
+    "trust-registration-12ab-section-332-80g-ngo-provisional-regular-renewal-form-104-105-2026.html": ["fcra"],
     "e-way-bill-expired-extension-goods-detained-section-129-mov-07-penalty-release-2026.html": ["einvoice"],
     "income-tax-survey-section-133a-what-officers-can-do-statement-impounding-books-survey-vs-search-2026.html": ["itsearch132"],
     "high-value-transaction-notice-income-tax-credit-card-spending-sft-limits-how-to-reply-2026.html": ["bankvisible", "notice1336"],
@@ -311,7 +313,7 @@ TARGETS = {
     "gst-consultant-online-india-registration-returns-lut-refund-notice-reply-gstr-9-near-me-2026.html": ["bookkeeping", "ewayexpired"],
     "fema-late-submission-fee-calculator-fc-gpr-fc-trs-form-di-fla-apr-lsf-rbi-2026.html": ["femaconsultant"],
     "audit-applicability-india-company-llp-partnership-proprietorship-trust-statutory-tax-audit-limits-2026.html": ["trust12ab", "bookkeeping"],
-    "section-8-company-registration-india-non-profit-licence-12a-80g-csr-1-compliance-2026.html": ["trust12ab"],
+    "section-8-company-registration-india-non-profit-licence-12a-80g-csr-1-compliance-2026.html": ["trust12ab", "fcra"],
     "stay-of-income-tax-demand-20-percent-rule-budget-2026-10-percent-how-to-apply-format-2026.html": ["tdsnotdep"],
     "form-adt-1-auditor-appointment-15-days-first-auditor-rotation-adt-3-india-2026.html": ["auditapp"],
     "gst-registration-rejected-or-suspended-reg-03-reg-05-rule-21a-reg-31-what-to-do-2026.html": ["gstsummons"],

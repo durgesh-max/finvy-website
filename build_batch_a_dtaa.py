@@ -47,7 +47,7 @@ write_page("india-uae-tax-treaty-dtaa", page(
         ("Is capital gains on Indian shares taxable in a Dubai holdco?",
          "Under India-UAE DTAA Article 13 (as amended), capital gains on shares of Indian companies remain taxable in India in the hands of a UAE resident. The 2013 protocol closed the earlier planning window that used the treaty to avoid Indian capital gains. Plan on Indian LTCG/STCG applying regardless of Dubai holdco."),
         ("Does BQP structure Dubai-India setups?",
-         "Yes &mdash; from new structures (with built-in POEM defence and ESR compliance) to audits of legacy structures where POEM exposure needs cleanup. For an existing Dubai holdco where you are concerned about POEM, we run a 90-day diagnostic that scores substance, identifies gaps, and gives you a remediation plan. Request via get-a-quote.html."),
+         "Yes &mdash; from new structures (with built-in POEM defence and ESR compliance) to audits of legacy structures where POEM exposure needs cleanup. For an existing Dubai holdco where you are concerned about POEM, we run a 90-day diagnostic that scores substance, identifies gaps, and gives you a remediation plan. Book a call to scope it."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA Rates"),
@@ -171,7 +171,7 @@ write_page("india-singapore-tax-treaty-dtaa", page(
         ("Is Singapore still useful for Indian PE and VC funds?",
          "Yes for operational and regulatory reasons: Section 13X / 13R fund tax incentives, MAS fund management licensing, familiar legal infrastructure for GP-LP arrangements. But the tax edge over direct India investment is thinner post-2017 and requires LOB-passing substance. Many India-focused funds have moved to GIFT City IFSC as a lower-friction alternative."),
         ("Does BQP structure Singapore-India flows?",
-         "Yes. For existing Singapore holdcos we audit LOB compliance and build substance evidence before exits. For new structures we scope whether Singapore adds vs direct India vs GIFT City. For fund managers we handle Form 10F, TRC, LOB documentation and withholding tax position. Request via get-a-quote.html."),
+         "Yes. For existing Singapore holdcos we audit LOB compliance and build substance evidence before exits. For new structures we scope whether Singapore adds vs direct India vs GIFT City. For fund managers we handle Form 10F, TRC, LOB documentation and withholding tax position. Book a call to scope it."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA Rates"),
@@ -228,7 +228,7 @@ write_page("india-mauritius-tax-treaty-dtaa", page(
         ("Does Mauritius Global Business Licence prove substance?",
          "The Mauritius GBL (post-2019 reforms) requires minimum substance: core income-generating activities in Mauritius, local directors, local employees, local physical office. GBL on its own is necessary but not always sufficient for LOB under the India-Mauritius treaty &mdash; the LOB test looks at operational substance proportional to the structure, not just regulatory status."),
         ("Does BQP structure Mauritius-India positions?",
-         "For existing Mauritius structures with grandfathered Indian equity, we run pre-exit LOB + PPT + GAAR diagnostics (90 days), build the substance evidence pack, and defend the treaty position if challenged. For new structures we honestly scope Mauritius vs GIFT City vs direct India. For fund managers we handle the ongoing Form 10F / TRC / documentation workstream. Request via get-a-quote.html."),
+         "For existing Mauritius structures with grandfathered Indian equity, we run pre-exit LOB + PPT + GAAR diagnostics (90 days), build the substance evidence pack, and defend the treaty position if challenged. For new structures we honestly scope Mauritius vs GIFT City vs direct India. For fund managers we handle the ongoing Form 10F / TRC / documentation workstream. Book a call to scope it."),
     ],
     related=[
         ("india-singapore-tax-treaty-dtaa.html", "Guide", "India-Singapore DTAA"),
@@ -291,7 +291,7 @@ write_page("india-chile-tax-treaty-dtaa", page(
         ("Is there a GIFT City / Chile angle for fund managers?",
          "GIFT City IFSC fund structures can invest into Chile under the India-Chile treaty. Combined with GIFT City's own tax incentives (Section 10(23FE), 10(4D), etc. where applicable) this is becoming the structure of choice for new Indian funds with Latin American allocations."),
         ("Does BQP structure India-Chile cross-border positions?",
-         "Yes. For Indian corporates investing in Chilean operations (mining supply, services, equipment), we structure the Chilean entity, co-ordinate Chilean local counsel, handle the Indian ODI side (FEMA), and set up the treaty-rate withholding mechanics. For Chilean capital coming into India (family offices, pension funds) we handle the Indian-side Form 10F / treaty position. Request via get-a-quote.html."),
+         "Yes. For Indian corporates investing in Chilean operations (mining supply, services, equipment), we structure the Chilean entity, co-ordinate Chilean local counsel, handle the Indian ODI side (FEMA), and set up the treaty-rate withholding mechanics. For Chilean capital coming into India (family offices, pension funds) we handle the Indian-side Form 10F / treaty position. Book a call to scope it."),
     ],
     related=[
         ("india-us-dtaa-withholding-rates.html", "Guide", "India-US DTAA Rates"),

@@ -87,7 +87,7 @@ write_page("how-to-raise-seed-funding-india-startup", page(
         ("What is a typical dilution at seed?",
          "15-25% is standard. 15% for strong team + strong metrics (small round at high valuation). 20-22% is typical. 25%+ is a sign of either weak metrics or needing a lot of capital or weak negotiation. Over 30% dilution at seed is a red flag for Series A investors who want enough founder equity preserved for future rounds."),
         ("Does BQP help with seed-round structuring?",
-         "Yes. We handle: round structuring (SAFE vs CCPS vs equity vs hybrid), valuation certificate for pricing-guideline compliance, FEMA FC-GPR filings, Delaware-side if flipped, SAFE / term-sheet legal co-ordination, cap-table modelling across multiple scenarios, 83(b) + QSBS setup where applicable. Standard engagement from scoping to close. Request via get-a-quote.html."),
+         "Yes. We handle: round structuring (SAFE vs CCPS vs equity vs hybrid), valuation certificate for pricing-guideline compliance, FEMA FC-GPR filings, Delaware-side if flipped, SAFE / term-sheet legal co-ordination, cap-table modelling across multiple scenarios, 83(b) + QSBS setup where applicable. Standard engagement from scoping to close. Book a call to scope the round."),
     ],
     related=[
         ("safe-vs-convertible-note-india-founder.html", "Guide", "SAFE vs Note"),
@@ -140,7 +140,7 @@ write_page("vc-term-sheet-india-key-terms", page(
         ("What is founder vesting and should I accept it?",
          "4-year vesting with 1-year cliff on founder equity, usually reset at Series A even if founders previously held fully-vested shares. Yes, accept &mdash; it protects the business if a founder leaves. Push for: credit for time already served (so your clock starts earlier than Series A), single-trigger acceleration on involuntary termination (so you are not stripped of unvested shares if fired without cause), double-trigger acceleration on change of control (so M&A accelerates vesting)."),
         ("Does BQP review VC term sheets?",
-         "Yes. Term-sheet review covers each of the 15+ terms, market-standard comparison for current round stage, specific-clause risk flags, prioritised negotiation ask list, and co-ordinated Indian + Delaware legal co-ordination if applicable. Standard engagement one-time per term sheet. Request via get-a-quote.html."),
+         "Yes. Term-sheet review covers each of the 15+ terms, market-standard comparison for current round stage, specific-clause risk flags, prioritised negotiation ask list, and co-ordinated Indian + Delaware legal co-ordination if applicable. Standard engagement one-time per term sheet. Book a call to scope the round."),
     ],
     related=[
         ("how-to-raise-seed-funding-india-startup.html", "Guide", "Raising Seed"),
@@ -253,7 +253,7 @@ write_page("us-vc-vs-india-vc-indian-startup", page(
         ("Can I take a hybrid round &mdash; India VC + US VC together?",
          "Yes, common and often optimal. India VC leads with their standard investment process (faster, confident). US VC participates alongside for 25-40% of the round. Both get preferred stock in the same round. Delaware C-Corp structure needed (if raising US VC) or Indian structure with CCPS (if staying India). Hybrid rounds work well at seed and Series A."),
         ("Does BQP handle US VC rounds for Indian founders?",
-         "Yes. Pre-raise flip execution (6 weeks before term sheet), Delaware incorporation + 83(b) + QSBS setup, US VC term sheet review (markets us-standard clauses), FEMA FC-GPR for any Indian-side investment, transfer-pricing documentation for post-round operations. Scoping call covers the full US VC path. Request via get-a-quote.html."),
+         "Yes. Pre-raise flip execution (6 weeks before term sheet), Delaware incorporation + 83(b) + QSBS setup, US VC term sheet review (markets us-standard clauses), FEMA FC-GPR for any Indian-side investment, transfer-pricing documentation for post-round operations. Scoping call covers the full US VC path. Book a call to scope the round."),
     ],
     related=[
         ("how-to-raise-seed-funding-india-startup.html", "Guide", "Seed Round"),
@@ -267,7 +267,7 @@ write_page("us-vc-vs-india-vc-indian-startup", page(
 # 4. Convertible instruments India CCD CCPS
 write_page("convertible-instruments-india-ccd-ccps", page(
     slug="convertible-instruments-india-ccd-ccps",
-    title="CCD and CCPS India 2026 | Convertible Instruments Startup Funding - BQP",
+    title="CCD vs CCPS vs Equity Shares in India (2026): Convertible Instruments, SAFE Alternatives and FEMA Pricing for Startup Funding - BQP",
     description="India CCD (Compulsorily Convertible Debenture) and CCPS (Compulsorily Convertible Preference Shares) for startup funding: FEMA, pricing, conversion mechanics, tax, SEBI AIF subscription. Working CA guide.",
     keywords="CCD CCPS India, convertible preference shares India, compulsorily convertible debenture startup, CCPS FDI India, CCD valuation India, pricing guidelines FEMA conversion",
     hero_kicker="/ Fundraising &middot; Indian instruments",
@@ -321,19 +321,20 @@ write_page("convertible-instruments-india-ccd-ccps", page(
     faqs=[
         ("What is the difference between CCD and CCPS?",
          "CCD (Compulsorily Convertible Debenture) is a debt instrument that must convert to equity. CCPS (Compulsorily Convertible Preference Shares) is a preference-share instrument that must convert to equity. CCDs are issued under Section 71 (Companies Act debenture rules); CCPSs under Section 55 (preference share rules). Both treated as equity under FEMA for FDI purposes. CCPS is the preferred structure today because it carries preference economics (liquidation preference, cumulative dividend if desired) built-in."),
+        ("What is the difference between CCPS and equity shares?", "Equity shares carry full voting rights and share whatever is left after everyone else is paid. CCPS (compulsorily convertible preference shares) rank ahead of equity for dividends and on liquidation or a sale, but vote only on matters affecting their class or when preference dividends go unpaid, and they must convert into equity shares on the agreed trigger or date. That is why investors usually take CCPS while founders hold equity: the investor gets downside protection through the liquidation preference, and the company gets money that will end up as equity. For FDI, CCPS count as equity as long as they are fully and compulsorily convertible, and the issue price or conversion formula must respect the FEMA pricing rules; converting CCPS into equity is generally not treated as a taxable transfer. Book a call to structure the round."),
         ("Can CCD be converted into CCPS?", "Yes, if the debenture terms allow conversion into preference shares and the company completes the Companies Act approvals. For a foreign investor, both instruments must stay fully and compulsorily convertible to count as FDI, and the conversion price or formula must be fixed when the CCDs are issued, at not less than fair value at that time; anything optionally convertible is treated as external commercial borrowing instead."),
         ("CCD or CCPS: which is better for a foreign investor?", "CCPS are more common in venture rounds because they carry preference on liquidation and convert into equity without debt features. CCDs can pay interest, which is deductible for the company but taxed in the investor's hands with Indian withholding (treaty rates may apply), so they suit bridge rounds or investors who want a coupon. Both count as FDI only if fully and mandatorily convertible."),
         ("Is interest on CCDs taxable?", "Yes. The company deducts tax on the interest (at treaty rates for a non-resident investor with a tax residency certificate and Form 10F/41), can usually deduct the interest as an expense, and the investor reports it as income. Dividends on CCPS, by contrast, are not deductible for the company."),
         ("Is SAFE legal in India for Indian company funding?",
-         "Direct SAFE issuance by an Indian company is not clearly covered under FEMA/Companies Act and faces regulatory uncertainty. The Indian equivalents are CCDs (debenture route) or CCPS (preference share route). Both deliver similar economics to SAFE (convertibility, no immediate equity dilution) within a FEMA-compliant framework. For Delaware C-Corp subsidiaries of Indian founders, SAFEs are freely usable."),
+         "Direct SAFE issuance by an Indian company is not clearly covered under FEMA/Companies Act and faces regulatory uncertainty. The Indian equivalents are CCDs (debenture route) or CCPS (preference share route). Both deliver similar economics to SAFE (convertibility, no immediate equity dilution) within a FEMA-compliant framework. A DPIIT-recognised startup can also take a convertible note from a foreign investor under the FEMA rules, subject to its conditions. Where Indian founders have a Delaware C-Corp parent (a flip structure), SAFEs are freely usable at the US level. Book a call to pick the instrument before signing a term sheet."),
         ("Can domestic Indian investors subscribe to CCPS?",
          "Yes. Domestic Indian individuals, companies, and SEBI-registered AIFs can subscribe to CCPS of Indian companies. For AIF subscription, specific allocation and reporting rules apply. For individual investors, standard subscription under Companies Act."),
         ("Do CCPS carry dividend?",
-         "They CAN carry dividend if specified, but startup CCPS typically do not. Standard startup CCPS: 1x non-participating liquidation preference + conversion to equity at next priced round + no dividend. If dividend is specified (cumulative or non-cumulative), the tax treatment follows dividend rules (shareholder-level taxable, 10% TDS under Section 194)."),
+         "They CAN carry dividend if specified, but startup CCPS typically do not. Standard startup CCPS: 1x non-participating liquidation preference + conversion to equity at next priced round + no dividend. If dividend is specified (cumulative or non-cumulative), the tax treatment follows dividend rules (taxable for the shareholder, with TDS at 10% for residents above the threshold and at treaty rates for non-residents)."),
         ("When do CCPS convert to equity?",
-         "At the specified trigger &mdash; typically the next priced round. Standard mechanic: CCPS 'converts at the pre-money valuation of the next priced round at 1x' (meaning the CCPS holder gets equity shares equivalent to their investment amount at the pre-money valuation of the next round). This is similar to how a SAFE converts in a US round."),
+         "At the specified trigger &mdash; typically the next priced round. Standard mechanic: CCPS 'converts at the pre-money valuation of the next priced round at 1x' (meaning the CCPS holder gets equity shares equivalent to their investment amount at the pre-money valuation of the next round). This is similar to how a SAFE converts in a US round. For a foreign investor, though, FEMA requires the conversion price or formula to be fixed when the CCPS are issued, at not less than fair value at that time, so next-round mechanics need a floor price."),
         ("Does BQP structure CCD / CCPS rounds for Indian startups?",
-         "Yes. Full stack: round structuring (CCD vs CCPS vs equity), Merchant Banker valuation certificate (via SEBI-registered partner), FEMA pricing guideline compliance, shareholder resolutions, Articles amendments if needed, FC-GPR filing within 30 days, ongoing cap-table maintenance, conversion event execution at next round. Request via get-a-quote.html."),
+         "Yes. Full stack: round structuring (CCD vs CCPS vs equity), Merchant Banker valuation certificate (via SEBI-registered partner), FEMA pricing guideline compliance, shareholder resolutions, Articles amendments if needed, FC-GPR filing within 30 days, ongoing cap-table maintenance, conversion event execution at next round. Book a call to scope the round."),
     ],
     related=[
         ("safe-vs-convertible-note-india-founder.html", "Guide", "SAFE vs Note"),
@@ -421,7 +422,7 @@ write_page("founder-vesting-india-us-startup", page(
         ("Do I need separate vesting agreements for India + Delaware structures?",
          "If you have both (Indian subsidiary + Delaware parent post-flip), typically the founder equity sits at the Delaware level and vesting mechanics follow Delaware restricted stock + 83(b). Indian subsidiary employment is separate (salary paid in INR by Indian subsidiary). If the structure is Indian parent + Delaware subsidiary, founder equity at Indian level follows Indian Pvt Ltd mechanics."),
         ("Does BQP handle founder vesting setup?",
-         "Yes. Delaware C-Corp restricted stock agreements + 83(b) election preparation + 30-day filing with Certified Mail + 83(b) acknowledgement retention. Indian Pvt Ltd founder vesting via Shareholder Agreement + buyback mechanics. India-Delaware co-ordination for post-flip founders. Standard engagement at incorporation or at Series A term-sheet stage. Request via get-a-quote.html."),
+         "Yes. Delaware C-Corp restricted stock agreements + 83(b) election preparation + 30-day filing with Certified Mail + 83(b) acknowledgement retention. Indian Pvt Ltd founder vesting via Shareholder Agreement + buyback mechanics. India-Delaware co-ordination for post-flip founders. Standard engagement at incorporation or at Series A term-sheet stage. Book a call to scope the round."),
     ],
     related=[
         ("vc-term-sheet-india-key-terms.html", "Guide", "VC Term Sheet"),

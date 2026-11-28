@@ -66,7 +66,7 @@ write_page("us-india-reverse-flip-structure", page(
         ("Does FEMA ODI apply to a reverse flip?",
          "The reverse flip is inbound into India &mdash; the FDI framework applies, not ODI. Indian parent receives foreign shareholders' Delaware shares in exchange for Indian equity &mdash; this is an inbound FDI transaction. Form FC-GPR filed, pricing-guideline-compliant valuation certificate obtained."),
         ("Does BQP structure reverse flips?",
-         "Yes. For companies planning Indian IPO track or operational realignment, we scope the reverse flip (valuation, tax model per shareholder, FEMA / FDI pathway, Scheme of Arrangement if applicable, Delaware subsidiary ongoing-operations plan). Typical engagement 60-180 days. Request via get-a-quote.html."),
+         "Yes. For companies planning Indian IPO track or operational realignment, we scope the reverse flip (valuation, tax model per shareholder, FEMA / FDI pathway, Scheme of Arrangement if applicable, Delaware subsidiary ongoing-operations plan). Typical engagement 60-180 days. Book a call to scope it."),
     ],
     related=[
         ("india-to-delaware-flip-structure.html", "Guide", "Forward Flip (India to Delaware)"),
@@ -157,7 +157,7 @@ write_page("gift-city-vs-mauritius-vs-singapore-fund", page(
         ("What are typical fund setup costs across the three?",
          "Set-up and running costs differ by jurisdiction and depend on FME licensing, accounting, audit and legal work - book a call for a costed comparison. All exclude the actual compliance / FA / fund-admin cost which scales with AUM."),
         ("Does BQP structure funds in any of these three?",
-         "Yes. GIFT City primary focus (strongest India angle); Mauritius for specific legacy / multi-jurisdiction mandates; Singapore VCC via co-ordinated counsel. Scoping covers investor base, India exposure, manager residence, strategy, and multi-year AUM plan. Request via get-a-quote.html."),
+         "Yes. GIFT City primary focus (strongest India angle); Mauritius for specific legacy / multi-jurisdiction mandates; Singapore VCC via co-ordinated counsel. Scoping covers investor base, India exposure, manager residence, strategy, and multi-year AUM plan. Book a call to scope it."),
     ],
     related=[
         ("gift-city.html", "Service", "GIFT City Service"),
@@ -234,7 +234,7 @@ write_page("aif-category-ii-vs-iii-tax-india", page(
         ("How does GIFT City IFSC change Category III economics?",
          "Section 10(4D) exempts specified income of Category III AIFs operating in IFSC. Combined with Section 80LA 100% tax holiday, GIFT City Category III can effectively deliver 0% Indian tax on fund-level income for qualifying funds. This has pulled Category III managers from Mumbai to GIFT City over the past 3-4 years."),
         ("Does BQP structure Category II and Category III AIFs?",
-         "Yes. SEBI AIF registration (Category I/II/III), GIFT City IFSC AIF under IFSCA regulations where applicable, fund documentation (PPM, trust deed, investment management agreement), LP commitment co-ordination, ongoing fund administration setup. Request via get-a-quote.html."),
+         "Yes. SEBI AIF registration (Category I/II/III), GIFT City IFSC AIF under IFSCA regulations where applicable, fund documentation (PPM, trust deed, investment management agreement), LP commitment co-ordination, ongoing fund administration setup. Book a call to scope it."),
     ],
     related=[
         ("gift-city-vs-mauritius-vs-singapore-fund.html", "Guide", "GIFT City vs Mauritius vs SG"),
@@ -242,7 +242,7 @@ write_page("aif-category-ii-vs-iii-tax-india", page(
         ("gift-city.html", "Service", "GIFT City Service"),
     ],
     cta_headline="Launching an AIF? Category + domicile choice drives everything.",
-    cta_body="Category II (PE / debt) is pass-through friendly. Category III (hedge / long-short) is MMR-taxed unless GIFT City. We scope the fund structure holistically: category, domicile, LP base, tax efficiency, SEBI/IFSCA licensing path. Request via get-a-quote.html.",
+    cta_body="Category II (PE / debt) is pass-through friendly. Category III (hedge / long-short) is MMR-taxed unless GIFT City. We scope the fund structure holistically: category, domicile, LP base, tax efficiency, SEBI/IFSCA licensing path. Book a call to scope it.",
 ))
 
 # 4. FDI vs FPI India startup investment
@@ -323,7 +323,7 @@ write_page("fdi-vs-fpi-india-startup-investment", page(
         ("Can the same foreign investor invest via both FDI and FPI?",
          "Yes, in different capacities for different purposes. A US pension fund might hold FDI equity in a pre-IPO Indian company and FPI exposure to listed Indian equities. Each investment follows its respective framework; the investor must comply with both."),
         ("Does BQP handle FDI / FPI compliance for Indian startups?",
-         "Yes. Pre-round scoping, pricing-guideline-compliant valuation certificate (via SEBI-registered Merchant Banker partner), Form FC-GPR filing within 30 days of share issue, Form FC-TRS for secondary transactions, FDI compliance for the Indian company's cap table. FPI setup for foreign funds investing in Indian listed securities also handled. Request via get-a-quote.html."),
+         "Yes. Pre-round scoping, pricing-guideline-compliant valuation certificate (via SEBI-registered Merchant Banker partner), Form FC-GPR filing within 30 days of share issue, Form FC-TRS for secondary transactions, FDI compliance for the Indian company's cap table. FPI setup for foreign funds investing in Indian listed securities also handled. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US Incorporation"),
@@ -436,7 +436,7 @@ write_page("nri-returning-startup-moving-to-india", page(
         ("Do I need Indian investor approval before returning permanently?",
          "Not for personal relocation. However if your startup has Indian investors (angels, Indian VCs), they typically appreciate a transparent conversation about the operational implications. If overseas investors are present (US VCs on Delaware cap table), they may have shareholder-agreement clauses triggered by material changes in management location &mdash; review your SHA / IRA before announcing."),
         ("Does BQP handle NRI founder relocation to India?",
-         "Yes end-to-end. Pre-return tax model (RNOR window asset planning), personal residence transition filings, company structure review (keep / flip / wind down), FEMA inbound setup, Indian subsidiary incorporation, Indian payroll setup, transfer pricing documentation first year, ongoing cross-border tax compliance. Typical engagement 6-12 months spanning pre-move to one-year-after. Request via get-a-quote.html."),
+         "Yes end-to-end. Pre-return tax model (RNOR window asset planning), personal residence transition filings, company structure review (keep / flip / wind down), FEMA inbound setup, Indian subsidiary incorporation, Indian payroll setup, transfer pricing documentation first year, ongoing cross-border tax compliance. Typical engagement 6-12 months spanning pre-move to one-year-after. Book a call to scope it."),
     ],
     related=[
         ("nri-returning-india-tax-rnor-transition.html", "Guide", "NRI Return to India"),

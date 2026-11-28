@@ -55,7 +55,7 @@ write_page("file-form-5472-foreign-owned-us-llc", page(
         ("What is the Form 5472 due date for a Delaware LLC owned by an Indian founder?",
          "15 April for a calendar-year LLC. Form 7004 extends it to 15 October. If the LLC uses a non-calendar tax year, the 15th day of the 4th month after year-end."),
         ("Does BQP handle Form 5472 for Indian founders?",
-         "Yes. We handle one-off back-year clean-up and ongoing annual filings. Standard annual package covers the pro forma 1120 + Form 5472 + state franchise tax (Delaware) + registered agent coordination. Request via get-a-quote.html."),
+         "Yes. We handle one-off back-year clean-up and ongoing annual filings. Standard annual package covers the pro forma 1120 + Form 5472 + state franchise tax (Delaware) + registered agent coordination. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -138,7 +138,7 @@ write_page("file-fbar-from-india-indian-founder", page(
         ("Does my US LLC's US bank account go on FBAR?",
          "No &mdash; the US bank account is a US-domestic account, not a foreign account. FBAR reports foreign accounts of a US person. For an Indian founder who is also a US person, the US LLC's US bank account is not an FBAR item; the Indian accounts are."),
         ("Does BQP handle FBAR filings for Indian founders in the US?",
-         "Yes. One-off back-year clean-up via SFOP or SDOP, and ongoing annual FBAR filings for green-card and dual-tax-resident founders. Standard pricing per filer per year, with scoping for Streamlined back-year clean-ups separately. Request via get-a-quote.html."),
+         "Yes. One-off back-year clean-up via SFOP or SDOP, and ongoing annual FBAR filings for green-card and dual-tax-resident founders. Standard pricing per filer per year, with scoping for Streamlined back-year clean-ups separately. Book a call to scope it."),
     ],
     related=[
         ("file-form-5472-foreign-owned-us-llc.html", "Guide", "Form 5472"),
@@ -222,7 +222,7 @@ write_page("india-to-delaware-flip-structure", page(
         ("Does the Indian subsidiary continue to pay Indian corporate tax?",
          "Yes. The Indian subsidiary is an Indian tax resident and pays Indian corporate tax (25% for most SME companies under the new regime, or lower rates for specific manufacturing). The service revenue it earns from the Delaware parent is Indian-taxable income. The Delaware parent pays US tax on its US-source income."),
         ("Does BQP structure flips?",
-         "Yes end-to-end: valuation certificate, FEMA Form ODI, Delaware incorporation, share-swap documentation, Indian capital gains return, transfer-pricing documentation setup, inter-company service agreement, and ongoing annual compliance. Scoping depends on current cap table and timing. Request via get-a-quote.html."),
+         "Yes end-to-end: valuation certificate, FEMA Form ODI, Delaware incorporation, share-swap documentation, Indian capital gains return, transfer-pricing documentation setup, inter-company service agreement, and ongoing annual compliance. Scoping depends on current cap table and timing. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),
@@ -382,7 +382,7 @@ write_page("convert-llc-to-c-corp-f-reorganization", page(
         ("Do I need an 83(b) election after the conversion?",
          "Yes if the founder receives C-Corp stock that is subject to vesting. The 83(b) election is filed within 30 days of the stock issuance (not 30 days from the conversion filing). It locks in the then-FMV as the taxable amount, so founder equity in a low-FMV early-stage C-Corp has essentially zero 83(b) tax cost. Missing the 30-day window is unrecoverable."),
         ("Does BQP handle LLC-to-C-Corp conversions?",
-         "Yes. Standard engagement covers: Delaware Certificate of Conversion + Certificate of Incorporation; member-to-shareholder exchange documentation; 83(b) election preparation; EIN update; final LLC tax filings (pro forma 1120 + 5472 if foreign-owned-disregarded); first C-Corp year-start compliance setup. Request via get-a-quote.html."),
+         "Yes. Standard engagement covers: Delaware Certificate of Conversion + Certificate of Incorporation; member-to-shareholder exchange documentation; 83(b) election preparation; EIN update; final LLC tax filings (pro forma 1120 + 5472 if foreign-owned-disregarded); first C-Corp year-start compliance setup. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp incorporation"),

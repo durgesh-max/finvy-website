@@ -65,7 +65,7 @@ write_page("overseas-incorporation-guide-indian-founder", page(
         ("Can I pay myself a salary from my Delaware C-Corp while living in India?",
          "Yes. The Delaware C-Corp can pay you a salary, which is a US-source expense from the C-Corp's perspective and an India-taxable salary from your perspective. US withholding: typically none if services are performed in India (Section 864 ECI analysis). Indian tax: full slab-rate taxable in India. India-US DTAA Article 15 applies &mdash; India has primary taxing right for services performed in India."),
         ("Does BQP handle overseas incorporation across jurisdictions?",
-         "Yes. Delaware (primary), Wyoming, UAE Free Zone (Dubai IFZA, DMCC, DIFC where applicable), Singapore (Pte Ltd), UK (Ltd), Estonia (OU via e-Residency), Hong Kong (Private Ltd), Mauritius (GBL where it still fits). We scope the right jurisdiction against your 12-month plan, then handle incorporation + FEMA ODI + first-year compliance under one engagement. Request via get-a-quote.html."),
+         "Yes. Delaware (primary), Wyoming, UAE Free Zone (Dubai IFZA, DMCC, DIFC where applicable), Singapore (Pte Ltd), UK (Ltd), Estonia (OU via e-Residency), Hong Kong (Private Ltd), Mauritius (GBL where it still fits). We scope the right jurisdiction against your 12-month plan, then handle incorporation + FEMA ODI + first-year compliance under one engagement. Book a call to scope it."),
     ],
     related=[
         ("us-incorporation.html", "Guide", "US LLC &amp; C-Corp"),
@@ -147,7 +147,7 @@ write_page("singapore-incorporation-indian-founder", page(
         ("Can I convert my Indian Pvt Ltd to a Singapore Pte Ltd?",
          "Not directly &mdash; you can set up a Singapore Pte Ltd and transfer the Indian company's business, assets, or shareholding to it via FEMA-compliant transactions. Full flip (making the Singapore entity the parent of the Indian entity) is possible via share swap, with FEMA ODI compliance and Indian capital gains for the shareholders. The 2017 India-Singapore DTAA protocol closed the capital-gains exemption that made this cheap &mdash; now Indian LTCG applies on the swap."),
         ("Does BQP handle Singapore incorporation for Indian founders?",
-         "Yes. ACRA registration, nominee director co-ordination, company secretary setup, DBS / OCBC / fintech bank account introduction, GST registration where applicable, FEMA ODI on India side, and ongoing annual compliance (XBRL filing, AGM, directors' report, corporate tax return). Standard package pricing available. Request via get-a-quote.html."),
+         "Yes. ACRA registration, nominee director co-ordination, company secretary setup, DBS / OCBC / fintech bank account introduction, GST registration where applicable, FEMA ODI on India side, and ongoing annual compliance (XBRL filing, AGM, directors' report, corporate tax return). Standard package pricing available. Book a call to scope it."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),
@@ -239,7 +239,7 @@ write_page("uae-incorporation-indian-founder", page(
         ("What is UAE Economic Substance Regulations (ESR)?",
          "ESR requires UAE entities carrying out Relevant Activities (banking, insurance, fund management, HQ, holding, IP, distribution, lease-finance, shipping, service centre) to demonstrate substance in UAE &mdash; core income-generating activities, adequate employees, adequate expenditure, physical premises. Annual notification + report filed with the regulatory authority. Non-compliance penalty AED 20K-50K+."),
         ("Does BQP handle UAE incorporation for Indian founders?",
-         "Yes. We co-ordinate IFZA / DMCC / Meydan / DIFC setup, Golden Visa application support, UAE bank account introduction, Corporate Tax + ESR + TP registration, and FEMA ODI on India side. Free Zone set-up costs depend on the zone, licence type and visas needed - book a call for a quote covering the investor visa and bank account introduction. Request via get-a-quote.html."),
+         "Yes. We co-ordinate IFZA / DMCC / Meydan / DIFC setup, Golden Visa application support, UAE bank account introduction, Corporate Tax + ESR + TP registration, and FEMA ODI on India side. Free Zone set-up costs depend on the zone, licence type and visas needed - book a call to scope the investor visa and bank account introduction."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),
@@ -316,7 +316,7 @@ write_page("uk-incorporation-indian-founder", page(
         ("Can I open a UK bank account from India without visiting?",
          "Fintech routes (Wise Business, Revolut Business, Starling): yes, fully remote, 1-2 weeks. Traditional banks (HSBC, Barclays, Lloyds, NatWest): generally require UK-resident director interview; some HSBC Premier / Business routes allow video KYC with longer processing (4-8 weeks). Many Indian founders use fintech for operations + traditional later as scale grows."),
         ("Does BQP handle UK incorporation for Indian founders?",
-         "Yes. Companies House registration, UK registered office arrangement, HMRC Corporation Tax + PAYE + VAT registration, Wise / Revolut bank account introduction, FEMA ODI on India side, and ongoing annual accounts + confirmation statement filing. Request via get-a-quote.html."),
+         "Yes. Companies House registration, UK registered office arrangement, HMRC Corporation Tax + PAYE + VAT registration, Wise / Revolut bank account introduction, FEMA ODI on India side, and ongoing annual accounts + confirmation statement filing. Book a call to scope it."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),
@@ -402,7 +402,7 @@ write_page("estonia-eresidency-indian-founder", page(
         ("Does India have a DTAA with Estonia?",
          "Yes. The India-Estonia DTAA (effective 2011) provides for reduced rates on dividends (10%), interest (10%), royalties (10% / 20% depending). FTC available for Indian shareholder on Estonia withholding tax."),
         ("Does BQP handle Estonia OU setup?",
-         "Yes, with a local Estonian Service Provider partnership. We handle e-Residency application coaching, OU incorporation co-ordination, VAT registration, Wise Business account introduction, FEMA ODI on India side. Standard package EUR 1,500 setup + EUR 500/year ongoing. Request via get-a-quote.html."),
+         "Yes, with a local Estonian Service Provider partnership. We handle e-Residency application coaching, OU incorporation co-ordination, VAT registration, Wise Business account introduction, FEMA ODI on India side. Standard package EUR 1,500 setup + EUR 500/year ongoing. Book a call to scope it."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),
@@ -481,7 +481,7 @@ write_page("hong-kong-incorporation-indian-founder", page(
         ("Can I open a HSBC HK business account as an Indian founder remotely?",
          "Historically yes, now very difficult. HSBC HK post-2020 has tightened to the point where new non-resident founder accounts are frequently rejected. Virtual banks (ZA Bank, Mox) are more remote-friendly. Fintech alternatives (Airwallex, Statrys, Neat) are the practical path."),
         ("Does BQP handle Hong Kong incorporation for Indian founders?",
-         "Yes, with a HK Corporate Services Provider partnership. Formation, Business Registration, HK Company Secretary service, bank account introduction (Statrys / Airwallex typically), audit co-ordination, Profits Tax return + offshore claim support where applicable. Request via get-a-quote.html."),
+         "Yes, with a HK Corporate Services Provider partnership. Formation, Business Registration, HK Company Secretary service, bank account introduction (Statrys / Airwallex typically), audit co-ordination, Profits Tax return + offshore claim support where applicable. Book a call to scope it."),
     ],
     related=[
         ("overseas-incorporation-guide-indian-founder.html", "Pillar", "Overseas Incorp Pillar"),
